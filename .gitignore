@@ -1,0 +1,11 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+
+# User output files
+neo4j_simple/
+scripts/backlog/

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">ProblemRider</h1>
+  
+  <p class="site-description">
+    A comprehensive catalog of common software development problems, their symptoms, and root causes. 
+    This resource helps developers, project managers, and teams identify and address issues effectively.
+  </p>
+
+  <div class="home-sections">
+    <section class="featured-problems">
+      <h2>Featured Problems</h2>
+      <div class="problem-grid">
+        {% assign featured_problems = site.problems | sample: 6 %}
+        {% for problem in featured_problems %}
+          <div class="problem-card">
+            <h3><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h3>
+            {% if problem.description %}
+              <p class="problem-description">{{ problem.description }}</p>
+            {% endif %}
+            {% if problem.category %}
+              <div class="problem-category">
+                {{ problem.category | join: ", " }}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="quick-stats">
+      <h2>Catalog Stats</h2>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">{{ site.problems.size }}</span>
+          <span class="stat-label">Total Problems</span>
+        </div>
+        {% assign all_categories = site.problems | map: 'category' | join: ',' | split: ',' | uniq %}
+        <div class="stat-item">
+          <span class="stat-number">{{ all_categories.size }}</span>
+          <span class="stat-label">Categories</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="navigation-links">
+      <h2>Explore</h2>
+      <div class="nav-grid">
+        <a href="{{ '/problems/' | relative_url }}" class="nav-card">
+          <h3>Browse All Problems</h3>
+          <p>View the complete catalog of problems and their solutions</p>
+        </a>
+        <a href="{{ '/categories/' | relative_url }}" class="nav-card">
+          <h3>Browse by Category</h3>
+          <p>Find problems organized by topic and domain</p>
+        </a>
+      </div>
+    </section>
+  </div>
+</div>

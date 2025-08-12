@@ -1,0 +1,61 @@
+title: ProblemRider
+description: A comprehensive catalog of software development problems, their symptoms, and root causes
+baseurl: ""
+url: "https://feststelltaste.github.io/problemrider"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  problems:
+    output: true
+    permalink: /:collection/:name.html
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "problems"
+    values:
+      layout: "problem"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+# Plugin configuration
+relative_links:
+  enabled: true
+  collections: true
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Problems
+    url: /problems/
+  - title: Categories
+    url: /categories/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - problem-pattern-template.md
+  - neo4j_simple/
+  - scripts/
+  - CLAUDE.md
+  - GEMINI.md
+  - README.md
+  - git-tail.sh

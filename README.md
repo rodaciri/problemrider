@@ -61,7 +61,12 @@ Contributions to the underlying catalog of ProblemRider as well as the app itsel
 5. Connect as many relevant symptoms and root causes as possible to your new problem.
 6. Submit a pull request.
 
+## Disclaimer
+
+This is an experimental project leveraging LLMs to generate interconnected problem networks. The software and content are provided “as-is,” without warranties of any kind. Use it at your own risk. 
+
+
 ## Licenses
 
 * The code of ProblemRider app is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).  
-* The problems / contents in the `_problems` directory is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+* The problems / contents in the `_problems` directory is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).

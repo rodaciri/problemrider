@@ -9,3 +9,6 @@ numpy>=1.21.0                 # Required for embeddings
 # For robust markdown text extraction
 markdown>=3.4.0               # Convert markdown to HTML
 beautifulsoup4>=4.11.0        # Extract plain text from HTML
+
+# For local embedding service support
+requests>=2.28.0              # HTTP client for local embedding API

@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
 """
-Simple embeddings using sentence-transformers with Qwen3-Embedding-0.6B.
+Simple embeddings using sentence-transformers with Qwen3-Embedding-0.6B or local embedding service.
 Install dependencies: pip install -r scripts/requirements.txt
+
+Usage:
+    python scripts/calculate_related_problems.py --dry-run
+    python scripts/calculate_related_problems.py --use-local --local-url http://192.168.1.100:8000
+    
+Environment variables:
+    LOCAL_EMBEDDING_URL: Default URL for local embedding service (default: http://host.docker.internal:1234)
 """
 
 import yaml
 import argparse
 import re
 import numpy as np
+import os
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -27,30 +35,69 @@ except ImportError:
     print("Run: pip install sentence-transformers")
     exit(1)
 
+try:
+    import requests
+except ImportError:
+    requests = None
+    print("⚠️  requests not installed - local embedding service unavailable")
+    print("Run: pip install requests")
+
 
 
 # Configuration
 MIN_SIMILARITY = 0.5
+# For WSL2 users: Use Windows host IP to access LM Studio running on Windows
+DEFAULT_LOCAL_EMBEDDING_URL = "http://host.docker.internal:1234"
 
 
 class SimpleEmbeddingAnalyzer:
-    def __init__(self, problems_dir: str = "_problems"):
+    def __init__(self, problems_dir: str = "_problems", use_local: bool = False, local_url: str = None):
         self.problems_dir = Path(problems_dir)
         self.problems: Dict[str, Dict] = {}
         self.embeddings: Dict[str, np.ndarray] = {}
+        self.use_local = use_local
+        self.local_url = local_url or os.getenv('LOCAL_EMBEDDING_URL', DEFAULT_LOCAL_EMBEDDING_URL)
         
-        print("Loading Qwen3-Embedding-0.6B model...")
-        self.model = SentenceTransformer('Qwen/Qwen3-Embedding-0.6B')
-        
-        device = self.model.device
-        print(f"Using device: {device}")
-        if 'cuda' in str(device):
-            import torch
-            gpu_name = torch.cuda.get_device_name(device)
-            print(f"GPU: {gpu_name}")
+        if self.use_local:
+            if requests is None:
+                raise ValueError("requests package is required for local embedding service")
+            print(f"🌐 Using local embedding service at: {self.local_url}")
+            self._test_local_service()
+            self.model = None
         else:
-            import platform
-            print(f"CPU: {platform.processor()}")
+            print("🤖 Loading Qwen3-Embedding-0.6B model locally...")
+            self.model = SentenceTransformer('Qwen/Qwen3-Embedding-0.6B')
+            
+            device = self.model.device
+            print(f"Using device: {device}")
+            if 'cuda' in str(device):
+                import torch
+                gpu_name = torch.cuda.get_device_name(device)
+                print(f"GPU: {gpu_name}")
+            else:
+                import platform
+                print(f"CPU: {platform.processor()}")
+    
+    def _test_local_service(self):
+        """Test connectivity to local embedding service."""
+        try:
+            # Test LM Studio's models endpoint instead of /health
+            response = requests.get(f"{self.local_url}/v1/models", timeout=5)
+            if response.status_code == 200:
+                data = response.json()
+                if data.get('data'):
+                    model_names = [model.get('id', 'unknown') for model in data['data']]
+                    print(f"✅ LM Studio is available with models: {', '.join(model_names)}")
+                else:
+                    print("⚠️  LM Studio is available but no models are loaded")
+            else:
+                print(f"⚠️  Local service responded with status {response.status_code}")
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Cannot connect to LM Studio: {e}")
+            print("🔄 Falling back to local model...")
+            self.use_local = False
+            print("🤖 Loading Qwen3-Embedding-0.6B model locally...")
+            self.model = SentenceTransformer('Qwen/Qwen3-Embedding-0.6B')
         
     def load_problems(self) -> None:
         """Load all problem files."""
@@ -105,8 +152,32 @@ class SimpleEmbeddingAnalyzer:
         }
         return sections
     
+    def _get_embeddings_local(self, texts: List[str]) -> np.ndarray:
+        """Get embeddings from LM Studio using OpenAI-compatible API."""
+        try:
+            # Use OpenAI-compatible embeddings endpoint
+            embeddings = []
+            for text in texts:
+                response = requests.post(
+                    f"{self.local_url}/v1/embeddings",
+                    json={
+                        "input": text,
+                        "model": "text-embedding-nomic-embed-text-v1.5"
+                    },
+                    headers={"Content-Type": "application/json"},
+                    timeout=30
+                )
+                response.raise_for_status()
+                data = response.json()
+                embeddings.append(data["data"][0]["embedding"])
+            
+            return np.array(embeddings)
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Error getting embeddings from LM Studio: {e}")
+            raise
+    
     def create_embeddings(self) -> None:
-        """Create fresh embeddings using Qwen3-Embedding-0.6B."""
+        """Create fresh embeddings using local service or Qwen3-Embedding-0.6B."""
         print("Creating fresh embeddings...")
         
         texts_to_encode = []
@@ -127,7 +198,13 @@ class SimpleEmbeddingAnalyzer:
             keys_to_encode.append(problem_key)
         
         print(f"Encoding {len(texts_to_encode)} problems...")
-        embeddings = self.model.encode(texts_to_encode, show_progress_bar=True)
+        
+        if self.use_local:
+            print(f"🌐 Generating embeddings via local service at {self.local_url}")
+            embeddings = self._get_embeddings_local(texts_to_encode)
+        else:
+            print("🤖 Generating embeddings using local Qwen3-Embedding-0.6B model")
+            embeddings = self.model.encode(texts_to_encode, show_progress_bar=True)
         
         for key, embedding in zip(keys_to_encode, embeddings):
             self.embeddings[key] = embedding
@@ -195,9 +272,14 @@ class SimpleEmbeddingAnalyzer:
 def main():
     parser = argparse.ArgumentParser(description="Generate related problems using Qwen3-Embedding-0.6B")
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
+    parser.add_argument("--use-local", action="store_true", help="Use local embedding service instead of sentence-transformers")
+    parser.add_argument("--local-url", type=str, help=f"URL of local embedding service (default: {DEFAULT_LOCAL_EMBEDDING_URL})")
     args = parser.parse_args()
     
-    analyzer = SimpleEmbeddingAnalyzer()
+    analyzer = SimpleEmbeddingAnalyzer(
+        use_local=args.use_local,
+        local_url=args.local_url
+    )
     analyzer.load_problems()
     analyzer.create_embeddings()
 

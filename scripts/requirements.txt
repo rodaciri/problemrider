@@ -15,6 +15,7 @@ beautifulsoup4>=4.11.0        # Extract plain text from HTML
 
 # For local embedding service support
 requests>=2.28.0              # HTTP client for local embedding API
+tqdm>=4.64.0                  # Progress bars with timing information
 
 # For causal relationship validation
 networkx>=2.8.0               # Graph structure for causal modeling

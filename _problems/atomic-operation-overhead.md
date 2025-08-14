@@ -7,16 +7,16 @@ category:
 - Technical
 - Design
 related_problems:
-- slug: false-sharing
-  similarity: 75%
-- slug: lock-contention
-  similarity: 70%
 - slug: memory-barrier-inefficiency
-  similarity: 70%
-- slug: interrupt-overhead
   similarity: 65%
-- slug: race-conditions
+- slug: interrupt-overhead
   similarity: 60%
+- slug: false-sharing
+  similarity: 55%
+- slug: lock-contention
+  similarity: 55%
+- slug: maintenance-bottlenecks
+  similarity: 55%
 layout: problem
 ---
 

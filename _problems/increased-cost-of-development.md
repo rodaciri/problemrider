@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: maintenance-cost-increase
-  similarity: 80%
-- slug: large-estimates-for-small-changes
   similarity: 75%
 - slug: high-maintenance-costs
-  similarity: 70%
-- slug: high-technical-debt
-  similarity: 70%
+  similarity: 75%
 - slug: maintenance-overhead
-  similarity: 70%
+  similarity: 60%
+- slug: increased-risk-of-bugs
+  similarity: 60%
+- slug: increased-bug-count
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Quality
 - Culture
 related_problems:
+- slug: inadequate-code-reviews
+  similarity: 65%
+- slug: review-process-avoidance
+  similarity: 65%
 - slug: large-pull-requests
-  similarity: 80%
+  similarity: 65%
 - slug: review-bottlenecks
-  similarity: 75%
-- slug: insufficient-code-review
-  similarity: 75%
-- slug: review-process-breakdown
-  similarity: 70%
+  similarity: 65%
 - slug: code-review-inefficiency
-  similarity: 70%
+  similarity: 65%
 layout: problem
 ---
 

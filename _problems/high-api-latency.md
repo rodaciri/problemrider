@@ -5,15 +5,15 @@ description: The time it takes for an API to respond to a request is excessively
 category:
 - Performance
 related_problems:
-- slug: slow-application-performance
-  similarity: 85%
+- slug: network-latency
+  similarity: 80%
 - slug: external-service-delays
   similarity: 75%
-- slug: network-latency
-  similarity: 75%
-- slug: upstream-timeouts
+- slug: slow-application-performance
+  similarity: 70%
+- slug: slow-response-times-for-lists
   similarity: 65%
-- slug: service-timeouts
+- slug: high-resource-utilization-on-client
   similarity: 65%
 layout: problem
 ---

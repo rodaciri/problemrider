@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: release-instability
-  similarity: 80%
-- slug: history-of-failed-changes
-  similarity: 70%
-- slug: fear-of-failure
-  similarity: 70%
+  similarity: 65%
 - slug: large-risky-releases
   similarity: 65%
-- slug: deployment-risk
+- slug: reviewer-anxiety
   similarity: 65%
+- slug: fear-of-breaking-changes
+  similarity: 60%
+- slug: time-pressure
+  similarity: 60%
 layout: problem
 ---
 

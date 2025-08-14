@@ -8,14 +8,14 @@ category:
 related_problems:
 - slug: upstream-timeouts
   similarity: 85%
-- slug: network-latency
-  similarity: 75%
-- slug: increased-error-rates
-  similarity: 75%
-- slug: external-service-delays
-  similarity: 70%
 - slug: high-connection-count
   similarity: 65%
+- slug: high-api-latency
+  similarity: 60%
+- slug: external-service-delays
+  similarity: 60%
+- slug: network-latency
+  similarity: 60%
 layout: problem
 ---
 

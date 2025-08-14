@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Process
 related_problems:
-- slug: inexperienced-developers
-  similarity: 70%
 - slug: incomplete-knowledge
-  similarity: 70%
+  similarity: 65%
 - slug: skill-development-gaps
-  similarity: 70%
-- slug: team-silos
-  similarity: 70%
+  similarity: 65%
+- slug: knowledge-silos
+  similarity: 65%
 - slug: knowledge-dependency
-  similarity: 70%
+  similarity: 60%
+- slug: team-silos
+  similarity: 60%
 layout: problem
 ---
 

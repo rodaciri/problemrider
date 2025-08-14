@@ -10,11 +10,11 @@ related_problems:
   similarity: 70%
 - slug: history-of-failed-changes
   similarity: 60%
-- slug: fear-of-failure
+- slug: complex-deployment-process
   similarity: 60%
-- slug: release-instability
+- slug: release-anxiety
   similarity: 60%
-- slug: reduced-feature-quality
+- slug: constantly-shifting-deadlines
   similarity: 60%
 layout: problem
 ---

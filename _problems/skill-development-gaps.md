@@ -8,15 +8,15 @@ category:
 - Learning
 related_problems:
 - slug: inappropriate-skillset
-  similarity: 75%
-- slug: inconsistent-knowledge-acquisition
-  similarity: 75%
-- slug: knowledge-gaps
   similarity: 70%
-- slug: inexperienced-developers
+- slug: inconsistent-knowledge-acquisition
   similarity: 65%
-- slug: knowledge-dependency
+- slug: legacy-skill-shortage
   similarity: 65%
+- slug: knowledge-gaps
+  similarity: 65%
+- slug: feature-gaps
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Quality
 related_problems:
-- slug: high-technical-debt
-  similarity: 75%
-- slug: fear-of-breaking-changes
-  similarity: 70%
 - slug: resistance-to-change
+  similarity: 75%
+- slug: fear-of-change
   similarity: 70%
 - slug: maintenance-paralysis
   similarity: 70%
-- slug: fear-of-change
-  similarity: 70%
+- slug: fear-of-breaking-changes
+  similarity: 65%
+- slug: high-technical-debt
+  similarity: 60%
 layout: problem
 ---
 

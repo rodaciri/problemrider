@@ -7,16 +7,16 @@ category:
 - Quality
 - Maintenance
 related_problems:
-- slug: code-duplication
-  similarity: 65%
-- slug: copy-paste-programming
-  similarity: 65%
-- slug: high-coupling-low-cohesion
-  similarity: 60%
+- slug: difficult-code-comprehension
+  similarity: 75%
 - slug: difficult-to-understand-code
-  similarity: 55%
-- slug: increasing-brittleness
-  similarity: 55%
+  similarity: 70%
+- slug: difficult-to-test-code
+  similarity: 70%
+- slug: inconsistent-codebase
+  similarity: 70%
+- slug: complex-and-obscure-logic
+  similarity: 65%
 layout: problem
 ---
 

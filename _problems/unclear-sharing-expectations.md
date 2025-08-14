@@ -6,15 +6,15 @@ category:
 - Team
 - Process
 related_problems:
-- slug: communication-risk-within-project
+- slug: knowledge-sharing-breakdown
   similarity: 70%
 - slug: team-confusion
   similarity: 70%
-- slug: communication-breakdown
+- slug: knowledge-silos
   similarity: 65%
-- slug: knowledge-sharing-breakdown
-  similarity: 60%
-- slug: poor-teamwork
+- slug: communication-risk-within-project
+  similarity: 65%
+- slug: unclear-goals-and-priorities
   similarity: 60%
 layout: problem
 ---

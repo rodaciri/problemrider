@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: delayed-project-timelines
   similarity: 80%
+- slug: constantly-shifting-deadlines
+  similarity: 75%
 - slug: unrealistic-deadlines
   similarity: 75%
-- slug: planning-credibility-issues
-  similarity: 75%
 - slug: unrealistic-schedule
-  similarity: 75%
+  similarity: 65%
 - slug: slow-development-velocity
-  similarity: 70%
+  similarity: 65%
 layout: problem
 ---
 

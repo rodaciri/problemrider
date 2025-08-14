@@ -8,14 +8,14 @@ category:
 - Responsibility
 related_problems:
 - slug: lack-of-ownership-and-accountability
-  similarity: 70%
+  similarity: 75%
 - slug: poor-documentation
   similarity: 70%
 - slug: information-decay
   similarity: 65%
-- slug: legacy-system-documentation-archaeology
-  similarity: 55%
 - slug: information-fragmentation
+  similarity: 60%
+- slug: poorly-defined-responsibilities
   similarity: 55%
 layout: problem
 ---

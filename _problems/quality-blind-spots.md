@@ -7,16 +7,16 @@ category:
 - Process
 - Risk Management
 related_problems:
-- slug: testing-environment-fragility
-  similarity: 75%
-- slug: high-defect-rate-in-production
-  similarity: 75%
-- slug: inadequate-integration-tests
-  similarity: 70%
 - slug: poor-test-coverage
-  similarity: 70%
+  similarity: 75%
 - slug: insufficient-testing
   similarity: 70%
+- slug: monitoring-gaps
+  similarity: 70%
+- slug: system-integration-blindness
+  similarity: 65%
+- slug: missing-end-to-end-tests
+  similarity: 65%
 layout: problem
 ---
 

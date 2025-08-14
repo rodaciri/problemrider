@@ -7,14 +7,14 @@ category:
 - Communication
 related_problems:
 - slug: knowledge-silos
-  similarity: 80%
-- slug: knowledge-sharing-breakdown
   similarity: 70%
 - slug: communication-breakdown
   similarity: 70%
-- slug: knowledge-gaps
-  similarity: 70%
-- slug: poor-communication
+- slug: team-coordination-issues
+  similarity: 65%
+- slug: knowledge-sharing-breakdown
+  similarity: 65%
+- slug: poor-teamwork
   similarity: 65%
 layout: problem
 ---

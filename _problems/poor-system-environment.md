@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: deployment-environment-inconsistencies
   similarity: 70%
+- slug: configuration-chaos
+  similarity: 65%
+- slug: inefficient-development-environment
+  similarity: 65%
 - slug: poor-operational-concept
-  similarity: 70%
-- slug: inadequate-error-handling
   similarity: 65%
-- slug: quality-blind-spots
-  similarity: 65%
-- slug: testing-environment-fragility
-  similarity: 65%
+- slug: inconsistent-quality
+  similarity: 60%
 layout: problem
 ---
 

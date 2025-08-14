@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: communication-risk-within-project
   similarity: 80%
-- slug: stakeholder-confidence-loss
-  similarity: 70%
-- slug: planning-credibility-issues
-  similarity: 65%
-- slug: stakeholder-developer-communication-gap
-  similarity: 65%
 - slug: stakeholder-dissatisfaction
+  similarity: 65%
+- slug: eager-to-please-stakeholders
+  similarity: 65%
+- slug: stakeholder-frustration
+  similarity: 60%
+- slug: stakeholder-developer-communication-gap
   similarity: 60%
 layout: problem
 ---

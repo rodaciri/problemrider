@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: slow-database-queries
-  similarity: 75%
+  similarity: 80%
 - slug: high-number-of-database-queries
+  similarity: 75%
+- slug: high-database-resource-utilization
   similarity: 70%
 - slug: inefficient-database-indexing
+  similarity: 70%
+- slug: n-plus-one-query-problem
   similarity: 65%
-- slug: imperative-data-fetching-logic
-  similarity: 60%
-- slug: graphql-complexity-issues
-  similarity: 60%
 layout: problem
 ---
 

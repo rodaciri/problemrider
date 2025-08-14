@@ -7,16 +7,16 @@ category:
 - API Management
 - Maintenance
 related_problems:
-- slug: api-versioning-conflicts
-  similarity: 75%
-- slug: legacy-api-versioning-nightmare
-  similarity: 70%
 - slug: rapid-system-changes
   similarity: 65%
-- slug: unpredictable-system-behavior
+- slug: api-versioning-conflicts
+  similarity: 65%
+- slug: regression-bugs
   similarity: 60%
 - slug: increasing-brittleness
-  similarity: 60%
+  similarity: 55%
+- slug: brittle-codebase
+  similarity: 55%
 layout: problem
 ---
 

@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: stakeholder-developer-communication-gap
   similarity: 75%
-- slug: product-direction-chaos
+- slug: no-continuous-feedback-loop
   similarity: 65%
-- slug: stakeholder-frustration
-  similarity: 60%
-- slug: slow-feature-development
-  similarity: 60%
-- slug: inconsistent-behavior
+- slug: stakeholder-dissatisfaction
+  similarity: 65%
+- slug: missed-deadlines
+  similarity: 65%
+- slug: team-confusion
   similarity: 60%
 layout: problem
 ---

@@ -6,16 +6,16 @@ category:
 - Knowledge Sharing
 - Process
 related_problems:
-- slug: inexperienced-developers
-  similarity: 65%
-- slug: knowledge-gaps
-  similarity: 60%
-- slug: legacy-system-documentation-archaeology
-  similarity: 60%
-- slug: knowledge-silos
-  similarity: 60%
+- slug: tacit-knowledge
+  similarity: 70%
 - slug: knowledge-dependency
-  similarity: 60%
+  similarity: 65%
+- slug: inconsistent-knowledge-acquisition
+  similarity: 65%
+- slug: incomplete-knowledge
+  similarity: 65%
+- slug: knowledge-silos
+  similarity: 65%
 layout: problem
 ---
 

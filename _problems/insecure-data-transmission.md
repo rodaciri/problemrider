@@ -1,8 +1,14 @@
 ---
-title: "Insecure Data Transmission"
-description: "Sensitive data transmitted without proper encryption or security controls, exposing it to interception and unauthorized access."
-category: ['Security', 'Network', 'Data Protection']
-related_problems: ['man-in-the-middle-attacks', 'data-exposure-vulnerabilities', 'certificate-validation-issues']
+title: Insecure Data Transmission
+description: Sensitive data transmitted without proper encryption or security controls,
+  exposing it to interception and unauthorized access.
+category:
+- Security
+- Network
+- Data Protection
+related_problems:
+- slug: silent-data-corruption
+  similarity: 55%
 layout: problem
 ---
 

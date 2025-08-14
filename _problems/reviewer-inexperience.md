@@ -8,16 +8,16 @@ category:
 - Team
 - Individual
 related_problems:
-- slug: reviewer-anxiety
+- slug: inexperienced-developers
   similarity: 75%
 - slug: inadequate-code-reviews
-  similarity: 75%
+  similarity: 70%
 - slug: insufficient-code-review
   similarity: 70%
-- slug: team-members-not-engaged-in-review-process
-  similarity: 70%
-- slug: superficial-code-reviews
-  similarity: 70%
+- slug: code-review-inefficiency
+  similarity: 65%
+- slug: inadequate-initial-reviews
+  similarity: 65%
 layout: problem
 ---
 

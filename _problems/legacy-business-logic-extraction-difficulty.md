@@ -7,15 +7,15 @@ category:
 - Design
 - Knowledge Management
 related_problems:
-- slug: complex-domain-model
-  similarity: 70%
-- slug: poor-domain-model
-  similarity: 70%
-- slug: data-migration-integrity-issues
+- slug: complex-and-obscure-logic
+  similarity: 65%
+- slug: modernization-roi-justification-failure
   similarity: 60%
 - slug: legacy-system-documentation-archaeology
   similarity: 60%
-- slug: schema-evolution-paralysis
+- slug: legacy-configuration-management-chaos
+  similarity: 60%
+- slug: data-migration-integrity-issues
   similarity: 55%
 layout: problem
 ---

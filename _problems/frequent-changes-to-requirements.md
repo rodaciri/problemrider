@@ -7,14 +7,14 @@ category:
 - Communication
 related_problems:
 - slug: changing-project-scope
-  similarity: 80%
-- slug: no-formal-change-control-process
   similarity: 75%
 - slug: constantly-shifting-deadlines
   similarity: 75%
 - slug: scope-creep
   similarity: 70%
-- slug: large-estimates-for-small-changes
+- slug: development-disruption
+  similarity: 65%
+- slug: constant-firefighting
   similarity: 65%
 layout: problem
 ---

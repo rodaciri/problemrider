@@ -8,15 +8,15 @@ category:
 - Project Management
 related_problems:
 - slug: poor-planning
-  similarity: 55%
-- slug: legal-disputes
-  similarity: 55%
+  similarity: 60%
 - slug: insufficient-design-skills
   similarity: 55%
-- slug: inadequate-requirements-gathering
-  similarity: 50%
-- slug: vendor-relationship-strain
-  similarity: 50%
+- slug: process-design-flaws
+  similarity: 55%
+- slug: incomplete-projects
+  similarity: 55%
+- slug: inconsistent-codebase
+  similarity: 55%
 layout: problem
 ---
 

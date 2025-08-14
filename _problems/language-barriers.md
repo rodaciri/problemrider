@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Cultural
 related_problems:
+- slug: team-dysfunction
+  similarity: 60%
+- slug: poor-teamwork
+  similarity: 60%
+- slug: team-confusion
+  similarity: 60%
 - slug: communication-risk-within-project
-  similarity: 65%
-- slug: poor-communication
-  similarity: 65%
+  similarity: 60%
 - slug: communication-breakdown
-  similarity: 65%
-- slug: stakeholder-developer-communication-gap
-  similarity: 60%
-- slug: skill-development-gaps
-  similarity: 60%
+  similarity: 55%
 layout: problem
 ---
 

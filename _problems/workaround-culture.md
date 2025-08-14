@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: accumulation-of-workarounds
-  similarity: 80%
-- slug: maintenance-paralysis
-  similarity: 65%
+  similarity: 75%
 - slug: increased-technical-shortcuts
-  similarity: 65%
-- slug: delayed-bug-fixes
-  similarity: 65%
+  similarity: 60%
+- slug: perfectionist-culture
+  similarity: 60%
+- slug: maintenance-paralysis
+  similarity: 60%
 - slug: resistance-to-change
-  similarity: 65%
+  similarity: 60%
 layout: problem
 ---
 

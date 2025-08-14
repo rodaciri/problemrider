@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: priority-thrashing
   similarity: 70%
-- slug: staff-availability-issues
-  similarity: 65%
 - slug: unclear-goals-and-priorities
+  similarity: 65%
+- slug: power-struggles
+  similarity: 65%
+- slug: product-direction-chaos
   similarity: 60%
 - slug: project-resource-constraints
-  similarity: 60%
-- slug: power-struggles
   similarity: 60%
 layout: problem
 ---

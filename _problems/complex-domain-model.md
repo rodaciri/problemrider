@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: poor-domain-model
   similarity: 75%
-- slug: legacy-business-logic-extraction-difficulty
-  similarity: 70%
 - slug: complex-implementation-paths
   similarity: 60%
-- slug: inadequate-requirements-gathering
-  similarity: 50%
-- slug: knowledge-gaps
-  similarity: 50%
+- slug: complex-and-obscure-logic
+  similarity: 60%
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 55%
+- slug: difficult-code-comprehension
+  similarity: 55%
 layout: problem
 ---
 

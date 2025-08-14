@@ -7,16 +7,16 @@ category:
 - Data Management
 - Migration
 related_problems:
-- slug: data-migration-complexities
-  similarity: 75%
 - slug: cross-system-data-synchronization-problems
+  similarity: 75%
+- slug: data-migration-complexities
   similarity: 70%
+- slug: database-schema-design-problems
+  similarity: 60%
 - slug: schema-evolution-paralysis
-  similarity: 65%
-- slug: legacy-business-logic-extraction-difficulty
   similarity: 60%
-- slug: legacy-system-documentation-archaeology
-  similarity: 60%
+- slug: legacy-configuration-management-chaos
+  similarity: 55%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Operations
 - Business Impact
 related_problems:
-- slug: customer-dissatisfaction
-  similarity: 65%
-- slug: poor-system-environment
+- slug: slow-incident-resolution
+  similarity: 60%
+- slug: service-discovery-failures
   similarity: 60%
 - slug: user-frustration
   similarity: 60%
+- slug: customer-dissatisfaction
+  similarity: 60%
 - slug: cascade-failures
   similarity: 60%
-- slug: increased-customer-support-load
-  similarity: 55%
 layout: problem
 ---
 

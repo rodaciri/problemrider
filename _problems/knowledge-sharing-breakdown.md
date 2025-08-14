@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: knowledge-silos
   similarity: 80%
-- slug: team-silos
-  similarity: 70%
-- slug: slow-knowledge-transfer
-  similarity: 70%
 - slug: communication-breakdown
+  similarity: 75%
+- slug: unclear-sharing-expectations
   similarity: 70%
-- slug: knowledge-gaps
+- slug: information-fragmentation
+  similarity: 70%
+- slug: poor-teamwork
   similarity: 65%
 layout: problem
 ---

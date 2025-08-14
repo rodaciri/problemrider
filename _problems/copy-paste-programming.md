@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: code-duplication
-  similarity: 80%
+  similarity: 70%
 - slug: difficult-code-reuse
   similarity: 65%
-- slug: accumulation-of-workarounds
+- slug: inconsistent-codebase
   similarity: 60%
-- slug: inconsistent-naming-conventions
-  similarity: 55%
-- slug: increased-risk-of-bugs
-  similarity: 55%
+- slug: clever-code
+  similarity: 60%
+- slug: defensive-coding-practices
+  similarity: 60%
 layout: problem
 ---
 

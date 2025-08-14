@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Technical
 related_problems:
-- slug: memory-leaks
-  similarity: 70%
-- slug: unreleased-resources
+- slug: quality-degradation
+  similarity: 75%
+- slug: slow-application-performance
   similarity: 65%
-- slug: unbounded-data-growth
-  similarity: 65%
-- slug: resource-contention
-  similarity: 65%
-- slug: excessive-disk-io
+- slug: slow-development-velocity
   similarity: 60%
+- slug: memory-leaks
+  similarity: 60%
+- slug: system-stagnation
+  similarity: 55%
 layout: problem
 ---
 

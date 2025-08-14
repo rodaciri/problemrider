@@ -6,16 +6,16 @@ category:
 - Code Quality
 - Process
 related_problems:
+- slug: inadequate-test-infrastructure
+  similarity: 60%
 - slug: tool-limitations
-  similarity: 65%
-- slug: debugging-difficulties
-  similarity: 65%
-- slug: increased-manual-work
   similarity: 60%
-- slug: lower-code-quality
+- slug: inconsistent-codebase
   similarity: 60%
-- slug: inefficient-development-environment
-  similarity: 60%
+- slug: code-review-inefficiency
+  similarity: 55%
+- slug: mixed-coding-styles
+  similarity: 55%
 layout: problem
 ---
 

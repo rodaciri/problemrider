@@ -7,15 +7,13 @@ category:
 - Integration
 - Dependencies
 related_problems:
-- slug: dependency-version-conflicts
-  similarity: 65%
-- slug: null-pointer-dereferences
-  similarity: 55%
 - slug: api-versioning-conflicts
   similarity: 55%
+- slug: dependency-version-conflicts
+  similarity: 55%
 - slug: poor-interfaces-between-applications
-  similarity: 50%
-- slug: inadequate-integration-tests
+  similarity: 55%
+- slug: legacy-api-versioning-nightmare
   similarity: 50%
 layout: problem
 ---

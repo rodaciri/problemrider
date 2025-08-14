@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: poor-planning
-  similarity: 85%
-- slug: unrealistic-schedule
-  similarity: 75%
+  similarity: 80%
 - slug: planning-credibility-issues
-  similarity: 75%
+  similarity: 65%
+- slug: unrealistic-schedule
+  similarity: 65%
 - slug: reduced-predictability
-  similarity: 75%
-- slug: poor-project-control
-  similarity: 70%
+  similarity: 60%
+- slug: delayed-project-timelines
+  similarity: 60%
 layout: problem
 ---
 

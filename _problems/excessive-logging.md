@@ -7,14 +7,14 @@ category:
 - Maintenance
 related_problems:
 - slug: log-spam
-  similarity: 75%
+  similarity: 65%
+- slug: lazy-loading
+  similarity: 65%
+- slug: excessive-disk-io
+  similarity: 60%
 - slug: logging-configuration-issues
-  similarity: 70%
-- slug: increased-error-rates
   similarity: 60%
-- slug: slow-database-queries
-  similarity: 60%
-- slug: high-number-of-database-queries
+- slug: imperative-data-fetching-logic
   similarity: 60%
 layout: problem
 ---

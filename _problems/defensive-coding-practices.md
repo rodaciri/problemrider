@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Development Workflow
 related_problems:
+- slug: clever-code
+  similarity: 60%
 - slug: fear-of-conflict
-  similarity: 70%
-- slug: author-frustration
-  similarity: 70%
+  similarity: 60%
+- slug: copy-paste-programming
+  similarity: 60%
 - slug: superficial-code-reviews
-  similarity: 70%
-- slug: reviewer-anxiety
-  similarity: 65%
-- slug: review-process-breakdown
-  similarity: 65%
+  similarity: 55%
+- slug: inadequate-code-reviews
+  similarity: 55%
 layout: problem
 ---
 

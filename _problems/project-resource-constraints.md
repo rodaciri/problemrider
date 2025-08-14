@@ -7,16 +7,16 @@ category:
 - Resource Planning
 - Organizational
 related_problems:
-- slug: staff-availability-issues
-  similarity: 75%
 - slug: project-authority-vacuum
-  similarity: 75%
+  similarity: 65%
+- slug: resource-waste
+  similarity: 60%
+- slug: staff-availability-issues
+  similarity: 60%
 - slug: poor-planning
-  similarity: 70%
-- slug: planning-dysfunction
-  similarity: 65%
-- slug: unrealistic-schedule
-  similarity: 65%
+  similarity: 60%
+- slug: competing-priorities
+  similarity: 60%
 layout: problem
 ---
 

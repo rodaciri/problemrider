@@ -7,15 +7,15 @@ category:
 - Quality
 - Deployment
 related_problems:
-- slug: release-instability
-  similarity: 80%
-- slug: deployment-risk
+- slug: complex-deployment-process
   similarity: 70%
-- slug: history-of-failed-changes
+- slug: release-instability
   similarity: 70%
 - slug: long-release-cycles
   similarity: 70%
-- slug: release-anxiety
+- slug: deployment-risk
+  similarity: 65%
+- slug: frequent-hotfixes-and-rollbacks
   similarity: 65%
 layout: problem
 ---

@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: complex-domain-model
   similarity: 75%
+- slug: poorly-defined-responsibilities
+  similarity: 55%
+- slug: poor-interfaces-between-applications
+  similarity: 55%
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 70%
-- slug: knowledge-gaps
-  similarity: 60%
-- slug: architectural-mismatch
-  similarity: 60%
-- slug: stagnant-architecture
-  similarity: 60%
+  similarity: 55%
+- slug: database-schema-design-problems
+  similarity: 50%
 layout: problem
 ---
 

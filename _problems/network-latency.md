@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: high-api-latency
-  similarity: 75%
-- slug: service-timeouts
-  similarity: 75%
-- slug: external-service-delays
-  similarity: 65%
-- slug: upstream-timeouts
-  similarity: 65%
+  similarity: 80%
 - slug: slow-application-performance
   similarity: 65%
+- slug: lazy-loading
+  similarity: 65%
+- slug: external-service-delays
+  similarity: 65%
+- slug: excessive-disk-io
+  similarity: 60%
 layout: problem
 ---
 

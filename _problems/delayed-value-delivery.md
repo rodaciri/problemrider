@@ -6,15 +6,15 @@ category:
 - Business
 - Process
 related_problems:
-- slug: increased-time-to-market
-  similarity: 75%
-- slug: slow-feature-development
-  similarity: 70%
-- slug: slow-development-velocity
+- slug: delayed-issue-resolution
   similarity: 65%
-- slug: release-instability
-  similarity: 60%
-- slug: delayed-project-timelines
+- slug: slow-feature-development
+  similarity: 65%
+- slug: increased-time-to-market
+  similarity: 65%
+- slug: delayed-bug-fixes
+  similarity: 65%
+- slug: misaligned-deliverables
   similarity: 60%
 layout: problem
 ---

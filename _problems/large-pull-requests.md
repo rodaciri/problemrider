@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: rushed-approvals
-  similarity: 80%
-- slug: reduced-code-submission-frequency
-  similarity: 75%
-- slug: review-bottlenecks
-  similarity: 75%
-- slug: review-process-breakdown
-  similarity: 70%
-- slug: insufficient-code-review
   similarity: 65%
+- slug: review-bottlenecks
+  similarity: 60%
+- slug: large-feature-scope
+  similarity: 60%
+- slug: reduced-code-submission-frequency
+  similarity: 60%
+- slug: inadequate-code-reviews
+  similarity: 60%
 layout: problem
 ---
 

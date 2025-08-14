@@ -7,16 +7,16 @@ category:
 - Process
 - User Experience
 related_problems:
-- slug: feature-gaps
-  similarity: 70%
-- slug: implementation-rework
-  similarity: 65%
-- slug: lower-code-quality
-  similarity: 65%
-- slug: quality-degradation
-  similarity: 65%
 - slug: quality-compromises
   similarity: 65%
+- slug: inconsistent-quality
+  similarity: 65%
+- slug: feature-gaps
+  similarity: 60%
+- slug: incomplete-projects
+  similarity: 60%
+- slug: feature-bloat
+  similarity: 60%
 layout: problem
 ---
 

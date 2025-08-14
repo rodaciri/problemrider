@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: feature-creep
   similarity: 85%
-- slug: refactoring-avoidance
-  similarity: 70%
-- slug: uncontrolled-codebase-growth
-  similarity: 65%
-- slug: brittle-codebase
-  similarity: 65%
-- slug: slow-feature-development
-  similarity: 65%
+- slug: scope-creep
+  similarity: 60%
+- slug: convenience-driven-development
+  similarity: 55%
+- slug: maintenance-paralysis
+  similarity: 55%
+- slug: feature-bloat
+  similarity: 55%
 layout: problem
 ---
 

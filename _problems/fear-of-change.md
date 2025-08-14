@@ -10,13 +10,13 @@ related_problems:
 - slug: fear-of-breaking-changes
   similarity: 85%
 - slug: resistance-to-change
-  similarity: 80%
-- slug: large-estimates-for-small-changes
   similarity: 75%
-- slug: unpredictable-system-behavior
+- slug: refactoring-avoidance
   similarity: 70%
-- slug: increased-risk-of-bugs
-  similarity: 70%
+- slug: fear-of-failure
+  similarity: 65%
+- slug: maintenance-paralysis
+  similarity: 65%
 layout: problem
 ---
 

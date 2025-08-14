@@ -7,15 +7,15 @@ category:
 - Development Experience
 - Productivity
 related_problems:
-- slug: increased-manual-work
-  similarity: 70%
-- slug: mental-fatigue
-  similarity: 70%
 - slug: cognitive-overload
+  similarity: 70%
+- slug: development-disruption
   similarity: 70%
 - slug: increased-cognitive-load
   similarity: 65%
-- slug: reduced-individual-productivity
+- slug: interrupt-overhead
+  similarity: 65%
+- slug: maintenance-overhead
   similarity: 65%
 layout: problem
 ---

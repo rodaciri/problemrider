@@ -6,8 +6,16 @@ category:
 - Process
 - Project Management
 related_problems:
-- slug: insufficient-design-skills
-  similarity: 0.501
+- slug: feature-creep
+  similarity: 65%
+- slug: eager-to-please-stakeholders
+  similarity: 60%
+- slug: complex-deployment-process
+  similarity: 60%
+- slug: insufficient-testing
+  similarity: 60%
+- slug: slow-feature-development
+  similarity: 60%
 layout: problem
 ---
 

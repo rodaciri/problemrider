@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Performance
 related_problems:
+- slug: maintenance-bottlenecks
+  similarity: 75%
 - slug: work-queue-buildup
-  similarity: 75%
-- slug: uneven-work-flow
-  similarity: 75%
-- slug: capacity-mismatch
   similarity: 70%
 - slug: work-blocking
-  similarity: 70%
-- slug: inefficient-processes
-  similarity: 70%
+  similarity: 65%
+- slug: capacity-mismatch
+  similarity: 60%
+- slug: single-points-of-failure
+  similarity: 60%
 layout: problem
 ---
 

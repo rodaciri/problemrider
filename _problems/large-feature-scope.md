@@ -7,14 +7,14 @@ category:
 - Maintenance
 related_problems:
 - slug: long-lived-feature-branches
-  similarity: 75%
+  similarity: 70%
 - slug: feature-creep
   similarity: 70%
 - slug: slow-feature-development
   similarity: 65%
 - slug: feature-bloat
-  similarity: 60%
-- slug: complex-implementation-paths
+  similarity: 65%
+- slug: large-risky-releases
   similarity: 60%
 layout: problem
 ---

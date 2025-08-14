@@ -7,15 +7,15 @@ category:
 - Process
 - Team Dynamics
 related_problems:
-- slug: superficial-code-reviews
-  similarity: 70%
+- slug: perfectionist-review-culture
+  similarity: 75%
 - slug: inadequate-code-reviews
   similarity: 70%
-- slug: style-arguments-in-code-reviews
+- slug: superficial-code-reviews
   similarity: 70%
-- slug: perfectionist-review-culture
+- slug: insufficient-code-review
   similarity: 65%
-- slug: inconsistent-naming-conventions
+- slug: code-review-inefficiency
   similarity: 65%
 layout: problem
 ---

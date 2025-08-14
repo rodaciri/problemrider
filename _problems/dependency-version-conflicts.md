@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: api-versioning-conflicts
   similarity: 70%
-- slug: shared-dependencies
-  similarity: 65%
-- slug: abi-compatibility-issues
-  similarity: 65%
-- slug: unpredictable-system-behavior
-  similarity: 65%
 - slug: deployment-environment-inconsistencies
-  similarity: 60%
+  similarity: 55%
+- slug: abi-compatibility-issues
+  similarity: 55%
+- slug: circular-dependency-problems
+  similarity: 55%
+- slug: hidden-dependencies
+  similarity: 55%
 layout: problem
 ---
 

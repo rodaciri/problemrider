@@ -5,16 +5,16 @@ description: End users encounter different behavior for what should be identical
 category:
 - User Experience
 related_problems:
-- slug: inconsistent-behavior
-  similarity: 65%
 - slug: user-frustration
-  similarity: 60%
-- slug: inconsistent-execution
-  similarity: 60%
+  similarity: 75%
+- slug: inconsistent-behavior
+  similarity: 75%
 - slug: team-confusion
-  similarity: 55%
-- slug: author-frustration
-  similarity: 55%
+  similarity: 65%
+- slug: user-trust-erosion
+  similarity: 65%
+- slug: customer-dissatisfaction
+  similarity: 65%
 layout: problem
 ---
 

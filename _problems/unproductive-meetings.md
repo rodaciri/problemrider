@@ -7,14 +7,14 @@ category:
 - Communication
 related_problems:
 - slug: inefficient-processes
-  similarity: 65%
-- slug: poor-communication
+  similarity: 60%
+- slug: bikeshedding
   similarity: 55%
-- slug: team-dysfunction
+- slug: reduced-team-productivity
   similarity: 55%
-- slug: communication-breakdown
-  similarity: 50%
-- slug: poor-teamwork
+- slug: development-disruption
+  similarity: 55%
+- slug: unmotivated-employees
   similarity: 50%
 layout: problem
 ---

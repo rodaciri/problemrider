@@ -8,15 +8,15 @@ category:
 - Compliance
 related_problems:
 - slug: logging-configuration-issues
-  similarity: 70%
+  similarity: 65%
+- slug: log-injection-vulnerabilities
+  similarity: 60%
 - slug: authentication-bypass-vulnerabilities
   similarity: 55%
-- slug: data-protection-risk
+- slug: authorization-flaws
   similarity: 55%
-- slug: excessive-logging
-  similarity: 50%
-- slug: log-injection-vulnerabilities
-  similarity: 50%
+- slug: monitoring-gaps
+  similarity: 55%
 layout: problem
 ---
 

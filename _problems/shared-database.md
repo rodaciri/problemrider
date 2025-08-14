@@ -6,13 +6,9 @@ category:
 - Data
 related_problems:
 - slug: shared-dependencies
-  similarity: 60%
+  similarity: 75%
 - slug: deployment-coupling
   similarity: 55%
-- slug: schema-evolution-paralysis
-  similarity: 50%
-- slug: scaling-inefficiencies
-  similarity: 50%
 layout: problem
 ---
 

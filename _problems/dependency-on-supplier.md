@@ -10,13 +10,13 @@ related_problems:
 - slug: vendor-dependency
   similarity: 90%
 - slug: vendor-dependency-entrapment
+  similarity: 75%
+- slug: vendor-lock-in
   similarity: 70%
 - slug: vendor-relationship-strain
-  similarity: 70%
-- slug: vendor-lock-in
   similarity: 60%
 - slug: tight-coupling-issues
-  similarity: 55%
+  similarity: 60%
 layout: problem
 ---
 

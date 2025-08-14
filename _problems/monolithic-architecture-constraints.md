@@ -7,16 +7,16 @@ category:
 - Scalability
 - Maintenance
 related_problems:
-- slug: technology-stack-fragmentation
+- slug: monolithic-functions-and-classes
   similarity: 70%
-- slug: vendor-lock-in
-  similarity: 55%
-- slug: deployment-coupling
-  similarity: 55%
-- slug: architectural-mismatch
-  similarity: 55%
-- slug: context-switching-overhead
-  similarity: 55%
+- slug: brittle-codebase
+  similarity: 60%
+- slug: maintenance-bottlenecks
+  similarity: 60%
+- slug: uncontrolled-codebase-growth
+  similarity: 60%
+- slug: technical-architecture-limitations
+  similarity: 60%
 layout: problem
 ---
 

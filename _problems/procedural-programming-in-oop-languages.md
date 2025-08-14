@@ -9,14 +9,14 @@ category:
 - Quality
 related_problems:
 - slug: procedural-background
-  similarity: 70%
-- slug: spaghetti-code
-  similarity: 65%
-- slug: misunderstanding-of-oop
-  similarity: 60%
-- slug: monolithic-functions-and-classes
-  similarity: 55%
+  similarity: 75%
 - slug: over-reliance-on-utility-classes
+  similarity: 70%
+- slug: misunderstanding-of-oop
+  similarity: 65%
+- slug: poor-encapsulation
+  similarity: 55%
+- slug: spaghetti-code
   similarity: 55%
 layout: problem
 ---

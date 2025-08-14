@@ -8,14 +8,14 @@ category:
 - Risk Management
 related_problems:
 - slug: deployment-risk
-  similarity: 75%
-- slug: large-risky-releases
-  similarity: 65%
-- slug: frequent-hotfixes-and-rollbacks
-  similarity: 65%
+  similarity: 90%
 - slug: manual-deployment-processes
+  similarity: 65%
+- slug: complex-deployment-process
   similarity: 60%
-- slug: history-of-failed-changes
+- slug: large-risky-releases
+  similarity: 60%
+- slug: immature-delivery-strategy
   similarity: 60%
 layout: problem
 ---

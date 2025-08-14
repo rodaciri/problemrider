@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: inadequate-code-reviews
   similarity: 80%
-- slug: review-process-breakdown
-  similarity: 80%
 - slug: insufficient-code-review
-  similarity: 80%
+  similarity: 75%
+- slug: inadequate-initial-reviews
+  similarity: 75%
 - slug: nitpicking-culture
   similarity: 70%
-- slug: code-review-inefficiency
+- slug: review-process-breakdown
   similarity: 70%
 layout: problem
 ---

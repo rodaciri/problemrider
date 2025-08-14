@@ -7,15 +7,15 @@ category:
 - Process
 - Performance
 related_problems:
-- slug: slow-development-velocity
-  similarity: 80%
 - slug: reduced-individual-productivity
-  similarity: 80%
-- slug: missed-deadlines
+  similarity: 75%
+- slug: development-disruption
   similarity: 70%
-- slug: bottleneck-formation
+- slug: slow-development-velocity
+  similarity: 70%
+- slug: reduced-team-flexibility
   similarity: 65%
-- slug: slow-feature-development
+- slug: poor-teamwork
   similarity: 65%
 layout: problem
 ---

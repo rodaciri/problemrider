@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: maintenance-overhead
   similarity: 70%
-- slug: inefficient-processes
-  similarity: 70%
-- slug: increased-manual-work
+- slug: budget-overruns
   similarity: 65%
-- slug: uneven-workload-distribution
-  similarity: 60%
-- slug: resource-waste
+- slug: constant-firefighting
+  similarity: 65%
+- slug: context-switching-overhead
+  similarity: 65%
+- slug: development-disruption
   similarity: 60%
 layout: problem
 ---

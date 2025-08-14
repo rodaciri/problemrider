@@ -8,15 +8,15 @@ category:
 - Management
 - Culture
 related_problems:
-- slug: inadequate-mentoring-structure
-  similarity: 75%
 - slug: knowledge-dependency
   similarity: 65%
 - slug: developer-frustration-and-burnout
   similarity: 65%
+- slug: increased-stress-and-burnout
+  similarity: 60%
 - slug: high-turnover
-  similarity: 65%
-- slug: inconsistent-knowledge-acquisition
+  similarity: 60%
+- slug: inadequate-mentoring-structure
   similarity: 60%
 layout: problem
 ---

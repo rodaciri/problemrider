@@ -7,16 +7,16 @@ category:
 - Quality
 - Testing
 related_problems:
-- slug: inadequate-test-infrastructure
+- slug: difficult-to-understand-code
   similarity: 70%
-- slug: testing-environment-fragility
+- slug: difficult-code-reuse
   similarity: 70%
-- slug: inadequate-integration-tests
+- slug: testing-complexity
+  similarity: 70%
+- slug: difficult-code-comprehension
+  similarity: 70%
+- slug: complex-and-obscure-logic
   similarity: 65%
-- slug: legacy-code-without-tests
-  similarity: 65%
-- slug: poor-test-coverage
-  similarity: 60%
 layout: problem
 ---
 

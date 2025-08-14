@@ -8,14 +8,14 @@ category:
 related_problems:
 - slug: high-maintenance-costs
   similarity: 80%
-- slug: maintenance-cost-increase
-  similarity: 80%
-- slug: maintenance-bottlenecks
-  similarity: 80%
-- slug: high-technical-debt
-  similarity: 75%
 - slug: operational-overhead
   similarity: 70%
+- slug: maintenance-cost-increase
+  similarity: 70%
+- slug: maintenance-paralysis
+  similarity: 65%
+- slug: context-switching-overhead
+  similarity: 65%
 layout: problem
 ---
 

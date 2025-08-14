@@ -7,15 +7,15 @@ category:
 - Technical
 - Design
 related_problems:
+- slug: duplicated-effort
+  similarity: 70%
+- slug: duplicated-work
+  similarity: 70%
 - slug: copy-paste-programming
-  similarity: 80%
+  similarity: 70%
+- slug: duplicated-research-effort
+  similarity: 65%
 - slug: synchronization-problems
-  similarity: 75%
-- slug: difficult-code-reuse
-  similarity: 65%
-- slug: accumulation-of-workarounds
-  similarity: 65%
-- slug: partial-bug-fixes
   similarity: 65%
 layout: problem
 ---

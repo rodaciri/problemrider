@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: code-review-inefficiency
   similarity: 75%
-- slug: rushed-approvals
-  similarity: 75%
-- slug: large-pull-requests
-  similarity: 75%
-- slug: reduced-code-submission-frequency
+- slug: inadequate-code-reviews
   similarity: 75%
 - slug: review-process-breakdown
+  similarity: 70%
+- slug: insufficient-code-review
+  similarity: 70%
+- slug: team-members-not-engaged-in-review-process
   similarity: 70%
 layout: problem
 ---

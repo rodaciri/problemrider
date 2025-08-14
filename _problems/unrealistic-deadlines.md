@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: unrealistic-schedule
-  similarity: 85%
+  similarity: 80%
+- slug: deadline-pressure
+  similarity: 75%
 - slug: missed-deadlines
   similarity: 75%
 - slug: constantly-shifting-deadlines
   similarity: 70%
-- slug: deadline-pressure
-  similarity: 70%
-- slug: reduced-predictability
-  similarity: 70%
+- slug: time-pressure
+  similarity: 65%
 layout: problem
 ---
 

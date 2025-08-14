@@ -11,11 +11,11 @@ related_problems:
   similarity: 75%
 - slug: delayed-decision-making
   similarity: 70%
-- slug: bottleneck-formation
-  similarity: 65%
-- slug: inefficient-processes
-  similarity: 65%
-- slug: knowledge-dependency
+- slug: decision-avoidance
+  similarity: 60%
+- slug: rushed-approvals
+  similarity: 60%
+- slug: decision-paralysis
   similarity: 60%
 layout: problem
 ---

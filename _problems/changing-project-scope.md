@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: scope-creep
   similarity: 80%
-- slug: scope-change-resistance
-  similarity: 80%
 - slug: frequent-changes-to-requirements
-  similarity: 80%
-- slug: no-formal-change-control-process
   similarity: 75%
-- slug: constantly-shifting-deadlines
+- slug: scope-change-resistance
+  similarity: 75%
+- slug: no-formal-change-control-process
   similarity: 70%
+- slug: constantly-shifting-deadlines
+  similarity: 65%
 layout: problem
 ---
 

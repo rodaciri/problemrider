@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: fear-of-failure
-  similarity: 70%
-- slug: resistance-to-change
-  similarity: 65%
-- slug: team-dysfunction
-  similarity: 60%
-- slug: micromanagement-culture
-  similarity: 60%
+  similarity: 55%
+- slug: perfectionist-review-culture
+  similarity: 55%
+- slug: history-of-failed-changes
+  similarity: 55%
 - slug: workaround-culture
-  similarity: 60%
+  similarity: 50%
+- slug: individual-recognition-culture
+  similarity: 50%
 layout: problem
 ---
 

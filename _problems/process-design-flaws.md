@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: inefficient-processes
   similarity: 70%
-- slug: wasted-development-effort
+- slug: uneven-work-flow
   similarity: 65%
-- slug: review-process-breakdown
+- slug: wasted-development-effort
   similarity: 60%
-- slug: inconsistent-execution
+- slug: insufficient-code-review
   similarity: 60%
-- slug: code-review-inefficiency
+- slug: bottleneck-formation
   similarity: 60%
 layout: problem
 ---

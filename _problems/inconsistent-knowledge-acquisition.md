@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: inconsistent-onboarding-experience
   similarity: 75%
-- slug: skill-development-gaps
-  similarity: 75%
-- slug: tacit-knowledge
-  similarity: 65%
+- slug: incomplete-knowledge
+  similarity: 70%
 - slug: knowledge-dependency
-  similarity: 65%
+  similarity: 70%
+- slug: slow-knowledge-transfer
+  similarity: 70%
 - slug: inappropriate-skillset
-  similarity: 65%
+  similarity: 70%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Automation
 related_problems:
 - slug: increased-manual-testing-effort
-  similarity: 80%
+  similarity: 75%
 - slug: inefficient-processes
-  similarity: 75%
-- slug: reduced-individual-productivity
-  similarity: 75%
-- slug: tool-limitations
-  similarity: 70%
+  similarity: 65%
+- slug: extended-research-time
+  similarity: 60%
 - slug: context-switching-overhead
-  similarity: 70%
+  similarity: 60%
+- slug: reduced-individual-productivity
+  similarity: 60%
 layout: problem
 ---
 

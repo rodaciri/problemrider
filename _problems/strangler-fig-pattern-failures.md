@@ -7,15 +7,15 @@ category:
 - Design
 - Migration
 related_problems:
-- slug: stagnant-architecture
-  similarity: 60%
-- slug: system-stagnation
-  similarity: 55%
+- slug: modernization-strategy-paralysis
+  similarity: 65%
 - slug: second-system-effect
   similarity: 55%
-- slug: implementation-rework
+- slug: cascade-failures
   similarity: 55%
-- slug: modernization-strategy-paralysis
+- slug: modernization-roi-justification-failure
+  similarity: 55%
+- slug: stagnant-architecture
   similarity: 55%
 layout: problem
 ---

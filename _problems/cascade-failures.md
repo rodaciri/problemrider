@@ -7,15 +7,15 @@ category:
 - Design
 - Performance
 related_problems:
-- slug: poor-system-environment
-  similarity: 65%
+- slug: ripple-effect-of-changes
+  similarity: 70%
 - slug: single-points-of-failure
   similarity: 65%
-- slug: inadequate-integration-tests
-  similarity: 60%
-- slug: unpredictable-system-behavior
-  similarity: 60%
 - slug: tight-coupling-issues
+  similarity: 65%
+- slug: cascade-delays
+  similarity: 60%
+- slug: change-management-chaos
   similarity: 60%
 layout: problem
 ---

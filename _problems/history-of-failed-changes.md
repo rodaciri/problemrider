@@ -7,15 +7,15 @@ category:
 - Culture
 related_problems:
 - slug: fear-of-breaking-changes
-  similarity: 75%
+  similarity: 65%
+- slug: past-negative-experiences
+  similarity: 65%
+- slug: fear-of-change
+  similarity: 65%
 - slug: fear-of-failure
-  similarity: 75%
-- slug: release-instability
-  similarity: 70%
+  similarity: 65%
 - slug: resistance-to-change
-  similarity: 70%
-- slug: release-anxiety
-  similarity: 70%
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,14 +8,14 @@ category:
 - Maintenance
 related_problems:
 - slug: unpredictable-system-behavior
-  similarity: 80%
-- slug: hidden-side-effects
   similarity: 70%
+- slug: tight-coupling-issues
+  similarity: 65%
 - slug: system-integration-blindness
   similarity: 65%
-- slug: ripple-effect-of-changes
+- slug: hidden-side-effects
   similarity: 65%
-- slug: tight-coupling-issues
+- slug: circular-dependency-problems
   similarity: 60%
 layout: problem
 ---

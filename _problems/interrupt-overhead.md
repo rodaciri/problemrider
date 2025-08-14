@@ -7,15 +7,15 @@ category:
 - Performance
 - Hardware
 related_problems:
-- slug: garbage-collection-pressure
+- slug: context-switching-overhead
   similarity: 65%
 - slug: atomic-operation-overhead
-  similarity: 65%
-- slug: lock-contention
+  similarity: 60%
+- slug: operational-overhead
+  similarity: 60%
+- slug: endianness-conversion-overhead
   similarity: 55%
-- slug: excessive-object-allocation
-  similarity: 55%
-- slug: excessive-disk-io
+- slug: maintenance-overhead
   similarity: 55%
 layout: problem
 ---

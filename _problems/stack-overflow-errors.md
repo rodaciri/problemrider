@@ -7,15 +7,9 @@ category:
 - Performance
 - Runtime Errors
 related_problems:
-- slug: buffer-overflow-vulnerabilities
-  similarity: 75%
-- slug: null-pointer-dereferences
-  similarity: 65%
-- slug: excessive-object-allocation
-  similarity: 60%
-- slug: memory-fragmentation
-  similarity: 60%
-- slug: spaghetti-code
+- slug: memory-leaks
+  similarity: 55%
+- slug: resource-allocation-failures
   similarity: 55%
 layout: problem
 ---

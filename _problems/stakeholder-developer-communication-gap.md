@@ -8,14 +8,14 @@ category:
 related_problems:
 - slug: misaligned-deliverables
   similarity: 75%
-- slug: stakeholder-frustration
+- slug: no-continuous-feedback-loop
   similarity: 75%
-- slug: poor-communication
-  similarity: 70%
 - slug: stakeholder-dissatisfaction
   similarity: 70%
-- slug: feedback-isolation
-  similarity: 70%
+- slug: stakeholder-frustration
+  similarity: 65%
+- slug: communication-breakdown
+  similarity: 65%
 layout: problem
 ---
 

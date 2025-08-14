@@ -6,15 +6,15 @@ category:
 - Performance
 - Database
 related_problems:
-- slug: queries-that-prevent-index-usage
-  similarity: 85%
 - slug: incorrect-index-type
-  similarity: 80%
-- slug: index-fragmentation
+  similarity: 85%
+- slug: queries-that-prevent-index-usage
+  similarity: 75%
+- slug: unused-indexes
+  similarity: 75%
+- slug: database-query-performance-issues
   similarity: 70%
 - slug: slow-database-queries
-  similarity: 70%
-- slug: unused-indexes
   similarity: 70%
 layout: problem
 ---

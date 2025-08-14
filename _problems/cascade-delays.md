@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: delayed-project-timelines
   similarity: 70%
-- slug: bottleneck-formation
-  similarity: 65%
-- slug: delayed-decision-making
-  similarity: 60%
-- slug: work-blocking
-  similarity: 60%
 - slug: missed-deadlines
+  similarity: 65%
+- slug: cascade-failures
+  similarity: 60%
+- slug: constantly-shifting-deadlines
+  similarity: 60%
+- slug: delayed-decision-making
   similarity: 60%
 layout: problem
 ---

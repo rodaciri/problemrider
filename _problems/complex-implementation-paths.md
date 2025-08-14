@@ -7,16 +7,16 @@ category:
 - Design
 - Process
 related_problems:
-- slug: architectural-mismatch
-  similarity: 70%
-- slug: implementation-rework
-  similarity: 70%
-- slug: second-system-effect
-  similarity: 65%
-- slug: accumulation-of-workarounds
-  similarity: 65%
-- slug: inadequate-requirements-gathering
-  similarity: 65%
+- slug: complex-domain-model
+  similarity: 60%
+- slug: complex-and-obscure-logic
+  similarity: 60%
+- slug: avoidance-behaviors
+  similarity: 55%
+- slug: testing-complexity
+  similarity: 55%
+- slug: procrastination-on-complex-tasks
+  similarity: 55%
 layout: problem
 ---
 

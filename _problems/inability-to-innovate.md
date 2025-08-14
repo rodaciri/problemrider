@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: reduced-innovation
-  similarity: 75%
+  similarity: 80%
 - slug: maintenance-paralysis
-  similarity: 75%
-- slug: maintenance-overhead
   similarity: 70%
+- slug: resistance-to-change
+  similarity: 65%
+- slug: fear-of-failure
+  similarity: 65%
 - slug: inexperienced-developers
-  similarity: 70%
-- slug: history-of-failed-changes
-  similarity: 70%
+  similarity: 65%
 layout: problem
 ---
 

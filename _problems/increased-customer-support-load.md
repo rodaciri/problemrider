@@ -8,14 +8,14 @@ category:
 - Quality
 related_problems:
 - slug: customer-dissatisfaction
-  similarity: 70%
-- slug: maintenance-cost-increase
   similarity: 60%
 - slug: user-frustration
   similarity: 60%
-- slug: competitive-disadvantage
-  similarity: 60%
-- slug: system-outages
+- slug: increased-bug-count
+  similarity: 55%
+- slug: user-confusion
+  similarity: 55%
+- slug: increased-cognitive-load
   similarity: 55%
 layout: problem
 ---

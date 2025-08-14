@@ -7,15 +7,15 @@ category:
 - Documentation
 - Organizational
 related_problems:
-- slug: information-decay
-  similarity: 70%
 - slug: poor-documentation
   similarity: 70%
-- slug: knowledge-gaps
-  similarity: 60%
 - slug: legacy-skill-shortage
-  similarity: 60%
-- slug: information-fragmentation
+  similarity: 65%
+- slug: legacy-configuration-management-chaos
+  similarity: 65%
+- slug: implicit-knowledge
+  similarity: 65%
+- slug: information-decay
   similarity: 60%
 layout: problem
 ---

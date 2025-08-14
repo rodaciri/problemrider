@@ -7,15 +7,15 @@ category:
 - Organizational
 - Communication
 related_problems:
-- slug: planning-credibility-issues
+- slug: stakeholder-frustration
   similarity: 75%
 - slug: stakeholder-dissatisfaction
   similarity: 75%
-- slug: stakeholder-frustration
-  similarity: 75%
-- slug: communication-risk-outside-project
+- slug: planning-credibility-issues
   similarity: 70%
 - slug: stakeholder-developer-communication-gap
+  similarity: 65%
+- slug: declining-business-metrics
   similarity: 65%
 layout: problem
 ---

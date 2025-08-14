@@ -8,16 +8,16 @@ category:
 - Project Management
 - Communication
 related_problems:
+- slug: stakeholder-dissatisfaction
+  similarity: 70%
 - slug: stakeholder-frustration
-  similarity: 60%
-- slug: scope-creep
-  similarity: 60%
-- slug: product-direction-chaos
-  similarity: 60%
-- slug: unclear-goals-and-priorities
-  similarity: 60%
-- slug: stakeholder-developer-communication-gap
-  similarity: 55%
+  similarity: 70%
+- slug: constantly-shifting-deadlines
+  similarity: 65%
+- slug: budget-overruns
+  similarity: 65%
+- slug: communication-risk-outside-project
+  similarity: 65%
 layout: problem
 ---
 

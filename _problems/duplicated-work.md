@@ -10,13 +10,13 @@ related_problems:
 - slug: duplicated-effort
   similarity: 90%
 - slug: duplicated-research-effort
-  similarity: 75%
-- slug: team-coordination-issues
+  similarity: 85%
+- slug: code-duplication
   similarity: 70%
-- slug: merge-conflicts
+- slug: team-coordination-issues
   similarity: 65%
 - slug: team-confusion
-  similarity: 60%
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: delayed-issue-resolution
-  similarity: 75%
+  similarity: 80%
+- slug: partial-bug-fixes
+  similarity: 70%
+- slug: delayed-value-delivery
+  similarity: 65%
 - slug: debugging-difficulties
   similarity: 65%
-- slug: workaround-culture
-  similarity: 65%
-- slug: increased-bug-count
-  similarity: 65%
-- slug: long-release-cycles
-  similarity: 65%
+- slug: slow-incident-resolution
+  similarity: 60%
 layout: problem
 ---
 

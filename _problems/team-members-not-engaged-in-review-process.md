@@ -6,15 +6,15 @@ category:
 - Process
 - Communication
 related_problems:
-- slug: reduced-review-participation
-  similarity: 75%
 - slug: inadequate-code-reviews
+  similarity: 75%
+- slug: insufficient-code-review
   similarity: 70%
-- slug: reviewer-anxiety
+- slug: reduced-review-participation
   similarity: 70%
-- slug: reviewer-inexperience
+- slug: review-process-breakdown
   similarity: 70%
-- slug: fear-of-conflict
+- slug: review-bottlenecks
   similarity: 70%
 layout: problem
 ---

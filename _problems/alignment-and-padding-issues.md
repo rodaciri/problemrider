@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: data-structure-cache-inefficiency
   similarity: 75%
-- slug: endianness-conversion-overhead
-  similarity: 60%
-- slug: unbounded-data-structures
-  similarity: 60%
-- slug: algorithmic-complexity-problems
-  similarity: 55%
 - slug: memory-barrier-inefficiency
   similarity: 55%
+- slug: memory-fragmentation
+  similarity: 55%
+- slug: unbounded-data-structures
+  similarity: 50%
+- slug: algorithmic-complexity-problems
+  similarity: 50%
 layout: problem
 ---
 

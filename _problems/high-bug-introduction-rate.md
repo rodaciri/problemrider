@@ -7,14 +7,14 @@ category:
 - Maintenance
 related_problems:
 - slug: increased-bug-count
-  similarity: 70%
+  similarity: 75%
 - slug: increased-risk-of-bugs
   similarity: 70%
-- slug: increased-cost-of-development
-  similarity: 65%
-- slug: lower-code-quality
-  similarity: 65%
 - slug: high-defect-rate-in-production
+  similarity: 65%
+- slug: increased-error-rates
+  similarity: 60%
+- slug: high-turnover
   similarity: 60%
 layout: problem
 ---

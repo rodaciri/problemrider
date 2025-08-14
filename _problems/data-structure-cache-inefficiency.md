@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: alignment-and-padding-issues
   similarity: 75%
-- slug: algorithmic-complexity-problems
-  similarity: 70%
-- slug: unbounded-data-structures
-  similarity: 65%
 - slug: poor-caching-strategy
   similarity: 60%
-- slug: dma-coherency-issues
+- slug: memory-barrier-inefficiency
+  similarity: 60%
+- slug: unbounded-data-structures
+  similarity: 60%
+- slug: algorithmic-complexity-problems
   similarity: 60%
 layout: problem
 ---

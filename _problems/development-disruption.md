@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: constant-firefighting
   similarity: 75%
-- slug: constantly-shifting-deadlines
+- slug: context-switching-overhead
   similarity: 70%
-- slug: time-pressure
+- slug: reduced-team-productivity
+  similarity: 70%
+- slug: inefficient-development-environment
   similarity: 65%
-- slug: reduced-team-flexibility
-  similarity: 65%
-- slug: maintenance-paralysis
+- slug: priority-thrashing
   similarity: 65%
 layout: problem
 ---

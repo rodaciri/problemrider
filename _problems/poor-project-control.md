@@ -7,16 +7,16 @@ category:
 - Process
 - Planning
 related_problems:
-- slug: planning-dysfunction
-  similarity: 70%
+- slug: no-formal-change-control-process
+  similarity: 65%
 - slug: poor-planning
-  similarity: 70%
-- slug: unrealistic-schedule
-  similarity: 65%
-- slug: unclear-goals-and-priorities
-  similarity: 65%
-- slug: project-authority-vacuum
-  similarity: 65%
+  similarity: 60%
+- slug: incomplete-projects
+  similarity: 60%
+- slug: communication-risk-outside-project
+  similarity: 55%
+- slug: poor-operational-concept
+  similarity: 55%
 layout: problem
 ---
 

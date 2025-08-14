@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: missed-deadlines
   similarity: 80%
-- slug: cascade-delays
-  similarity: 70%
+- slug: constantly-shifting-deadlines
+  similarity: 75%
 - slug: unrealistic-schedule
   similarity: 70%
-- slug: reduced-predictability
+- slug: poor-planning
   similarity: 70%
-- slug: planning-credibility-issues
+- slug: cascade-delays
   similarity: 70%
 layout: problem
 ---

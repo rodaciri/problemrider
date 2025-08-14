@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: team-coordination-issues
-  similarity: 75%
-- slug: long-lived-feature-branches
   similarity: 65%
-- slug: duplicated-work
-  similarity: 65%
-- slug: reduced-code-submission-frequency
-  similarity: 65%
-- slug: debugging-difficulties
+- slug: conflicting-reviewer-opinions
   similarity: 60%
+- slug: duplicated-work
+  similarity: 60%
+- slug: long-lived-feature-branches
+  similarity: 55%
+- slug: duplicated-effort
+  similarity: 55%
 layout: problem
 ---
 

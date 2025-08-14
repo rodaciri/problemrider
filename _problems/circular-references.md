@@ -7,15 +7,15 @@ category:
 - Performance
 - Memory Management
 related_problems:
-- slug: excessive-object-allocation
-  similarity: 60%
-- slug: garbage-collection-pressure
-  similarity: 60%
 - slug: circular-dependency-problems
+  similarity: 65%
+- slug: garbage-collection-pressure
+  similarity: 55%
+- slug: unreleased-resources
   similarity: 55%
 - slug: memory-leaks
   similarity: 55%
-- slug: null-pointer-dereferences
+- slug: resource-allocation-failures
   similarity: 50%
 layout: problem
 ---

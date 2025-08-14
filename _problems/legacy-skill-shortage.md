@@ -7,16 +7,16 @@ category:
 - Skills
 - Risk Management
 related_problems:
+- slug: maintenance-bottlenecks
+  similarity: 65%
 - slug: obsolete-technologies
   similarity: 65%
+- slug: technology-isolation
+  similarity: 65%
+- slug: skill-development-gaps
+  similarity: 65%
 - slug: legacy-system-documentation-archaeology
-  similarity: 60%
-- slug: technology-stack-fragmentation
-  similarity: 60%
-- slug: inexperienced-developers
-  similarity: 60%
-- slug: high-turnover
-  similarity: 60%
+  similarity: 65%
 layout: problem
 ---
 

@@ -6,15 +6,15 @@ category:
 - Team
 - Process
 related_problems:
-- slug: reduced-innovation
-  similarity: 60%
-- slug: skill-development-gaps
+- slug: poor-teamwork
   similarity: 60%
 - slug: slow-knowledge-transfer
   similarity: 60%
+- slug: team-dysfunction
+  similarity: 55%
 - slug: reduced-team-flexibility
-  similarity: 60%
-- slug: inability-to-innovate
+  similarity: 55%
+- slug: inconsistent-knowledge-acquisition
   similarity: 55%
 layout: problem
 ---

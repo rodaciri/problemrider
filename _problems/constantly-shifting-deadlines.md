@@ -7,16 +7,16 @@ category:
 - Process
 - Project Management
 related_problems:
+- slug: missed-deadlines
+  similarity: 75%
+- slug: delayed-project-timelines
+  similarity: 75%
 - slug: frequent-changes-to-requirements
   similarity: 75%
 - slug: unrealistic-deadlines
   similarity: 70%
-- slug: development-disruption
-  similarity: 70%
 - slug: changing-project-scope
-  similarity: 70%
-- slug: missed-deadlines
-  similarity: 70%
+  similarity: 65%
 layout: problem
 ---
 

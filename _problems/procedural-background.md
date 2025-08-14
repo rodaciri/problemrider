@@ -8,11 +8,15 @@ category:
 - Design
 related_problems:
 - slug: procedural-programming-in-oop-languages
-  similarity: 70%
+  similarity: 75%
 - slug: misunderstanding-of-oop
-  similarity: 65%
+  similarity: 75%
 - slug: over-reliance-on-utility-classes
-  similarity: 55%
+  similarity: 65%
+- slug: insufficient-design-skills
+  similarity: 65%
+- slug: difficult-code-reuse
+  similarity: 60%
 layout: problem
 ---
 

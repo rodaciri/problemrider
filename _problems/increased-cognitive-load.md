@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: cognitive-overload
-  similarity: 75%
-- slug: mental-fatigue
+  similarity: 80%
+- slug: difficult-code-comprehension
   similarity: 70%
-- slug: code-review-inefficiency
-  similarity: 70%
-- slug: increased-manual-work
-  similarity: 70%
+- slug: context-switching-overhead
+  similarity: 65%
 - slug: difficult-to-understand-code
   similarity: 65%
+- slug: complex-and-obscure-logic
+  similarity: 60%
 layout: problem
 ---
 

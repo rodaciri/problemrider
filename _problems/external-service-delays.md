@@ -8,14 +8,14 @@ category:
 related_problems:
 - slug: high-api-latency
   similarity: 75%
-- slug: service-timeouts
-  similarity: 70%
 - slug: slow-application-performance
-  similarity: 65%
-- slug: network-latency
   similarity: 65%
 - slug: upstream-timeouts
   similarity: 65%
+- slug: network-latency
+  similarity: 65%
+- slug: service-timeouts
+  similarity: 60%
 layout: problem
 ---
 

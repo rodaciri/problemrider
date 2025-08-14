@@ -8,15 +8,15 @@ category:
 - Decision Making
 related_problems:
 - slug: modernization-roi-justification-failure
-  similarity: 70%
-- slug: second-system-effect
-  similarity: 60%
+  similarity: 75%
 - slug: analysis-paralysis
-  similarity: 60%
-- slug: inability-to-innovate
-  similarity: 60%
-- slug: implementation-rework
-  similarity: 60%
+  similarity: 65%
+- slug: maintenance-paralysis
+  similarity: 65%
+- slug: decision-paralysis
+  similarity: 65%
+- slug: strangler-fig-pattern-failures
+  similarity: 65%
 layout: problem
 ---
 

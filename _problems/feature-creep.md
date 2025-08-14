@@ -13,7 +13,7 @@ related_problems:
   similarity: 70%
 - slug: large-feature-scope
   similarity: 70%
-- slug: increasing-brittleness
+- slug: gold-plating
   similarity: 65%
 - slug: feature-bloat
   similarity: 65%

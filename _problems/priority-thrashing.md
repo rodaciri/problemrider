@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: competing-priorities
   similarity: 70%
-- slug: procrastination-on-complex-tasks
-  similarity: 60%
 - slug: development-disruption
-  similarity: 60%
-- slug: uneven-workload-distribution
-  similarity: 60%
-- slug: staff-availability-issues
+  similarity: 65%
+- slug: unclear-goals-and-priorities
+  similarity: 65%
+- slug: constant-firefighting
+  similarity: 65%
+- slug: context-switching-overhead
   similarity: 60%
 layout: problem
 ---

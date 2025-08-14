@@ -8,15 +8,15 @@ category:
 - System Management
 related_problems:
 - slug: configuration-chaos
-  similarity: 85%
-- slug: inadequate-configuration-management
   similarity: 80%
-- slug: deployment-environment-inconsistencies
+- slug: inadequate-configuration-management
   similarity: 70%
-- slug: legacy-configuration-management-chaos
-  similarity: 70%
+- slug: regulatory-compliance-drift
+  similarity: 60%
 - slug: change-management-chaos
-  similarity: 65%
+  similarity: 60%
+- slug: legacy-configuration-management-chaos
+  similarity: 60%
 layout: problem
 ---
 

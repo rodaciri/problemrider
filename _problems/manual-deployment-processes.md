@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: complex-deployment-process
   similarity: 75%
-- slug: immature-delivery-strategy
-  similarity: 75%
 - slug: deployment-risk
   similarity: 70%
-- slug: increased-manual-work
-  similarity: 70%
-- slug: inadequate-configuration-management
-  similarity: 70%
+- slug: missing-rollback-strategy
+  similarity: 65%
+- slug: increased-manual-testing-effort
+  similarity: 65%
+- slug: immature-delivery-strategy
+  similarity: 65%
 layout: problem
 ---
 

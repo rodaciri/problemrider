@@ -7,15 +7,15 @@ category:
 - Business
 related_problems:
 - slug: insufficient-testing
-  similarity: 90%
-- slug: increased-manual-testing-effort
   similarity: 75%
-- slug: quality-blind-spots
-  similarity: 75%
+- slug: high-bug-introduction-rate
+  similarity: 65%
 - slug: increased-bug-count
-  similarity: 70%
-- slug: release-instability
-  similarity: 70%
+  similarity: 65%
+- slug: large-risky-releases
+  similarity: 60%
+- slug: complex-deployment-process
+  similarity: 60%
 layout: problem
 ---
 

@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: testing-environment-fragility
   similarity: 70%
-- slug: quality-blind-spots
-  similarity: 65%
-- slug: increased-manual-testing-effort
-  similarity: 60%
-- slug: insufficient-testing
-  similarity: 60%
 - slug: outdated-tests
   similarity: 60%
+- slug: testing-complexity
+  similarity: 55%
+- slug: difficult-to-test-code
+  similarity: 55%
+- slug: quality-blind-spots
+  similarity: 55%
 layout: problem
 ---
 

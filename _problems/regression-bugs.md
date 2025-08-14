@@ -7,16 +7,16 @@ category:
 - Testing
 - Process
 related_problems:
-- slug: increased-bug-count
-  similarity: 70%
-- slug: unpredictable-system-behavior
-  similarity: 65%
-- slug: release-instability
-  similarity: 65%
-- slug: delayed-bug-fixes
-  similarity: 65%
-- slug: increased-risk-of-bugs
+- slug: breaking-changes
   similarity: 60%
+- slug: partial-bug-fixes
+  similarity: 60%
+- slug: high-bug-introduction-rate
+  similarity: 60%
+- slug: increased-bug-count
+  similarity: 55%
+- slug: delayed-bug-fixes
+  similarity: 55%
 layout: problem
 ---
 

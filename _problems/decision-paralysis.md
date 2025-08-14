@@ -8,16 +8,16 @@ category:
 - Team
 - Process
 related_problems:
+- slug: analysis-paralysis
+  similarity: 75%
 - slug: decision-avoidance
   similarity: 75%
 - slug: delayed-decision-making
   similarity: 70%
-- slug: fear-of-failure
-  similarity: 65%
-- slug: avoidance-behaviors
-  similarity: 60%
 - slug: maintenance-paralysis
-  similarity: 60%
+  similarity: 70%
+- slug: modernization-strategy-paralysis
+  similarity: 65%
 layout: problem
 ---
 

@@ -7,14 +7,14 @@ category:
 - Communication
 related_problems:
 - slug: reviewer-anxiety
-  similarity: 75%
-- slug: team-members-not-engaged-in-review-process
-  similarity: 70%
-- slug: author-frustration
-  similarity: 70%
-- slug: defensive-coding-practices
   similarity: 70%
 - slug: inadequate-code-reviews
+  similarity: 65%
+- slug: author-frustration
+  similarity: 65%
+- slug: nitpicking-culture
+  similarity: 65%
+- slug: fear-of-change
   similarity: 65%
 layout: problem
 ---

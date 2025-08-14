@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: communication-risk-outside-project
   similarity: 80%
-- slug: communication-breakdown
-  similarity: 75%
-- slug: poor-communication
-  similarity: 75%
 - slug: team-confusion
   similarity: 70%
 - slug: unclear-sharing-expectations
-  similarity: 70%
+  similarity: 65%
+- slug: communication-breakdown
+  similarity: 60%
+- slug: language-barriers
+  similarity: 60%
 layout: problem
 ---
 

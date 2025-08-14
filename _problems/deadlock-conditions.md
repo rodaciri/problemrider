@@ -7,16 +7,16 @@ category:
 - Concurrency
 - Performance
 related_problems:
-- slug: thread-pool-exhaustion
-  similarity: 70%
 - slug: lock-contention
-  similarity: 65%
-- slug: unreleased-resources
+  similarity: 60%
+- slug: thread-pool-exhaustion
   similarity: 60%
 - slug: race-conditions
   similarity: 60%
-- slug: long-running-transactions
-  similarity: 60%
+- slug: resource-contention
+  similarity: 55%
+- slug: long-running-database-transactions
+  similarity: 55%
 layout: problem
 ---
 

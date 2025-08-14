@@ -8,15 +8,15 @@ category:
 - Concurrency
 related_problems:
 - slug: resource-allocation-failures
-  similarity: 70%
-- slug: deadlock-conditions
-  similarity: 70%
-- slug: unreleased-resources
-  similarity: 65%
-- slug: database-connection-leaks
-  similarity: 65%
-- slug: resource-contention
   similarity: 60%
+- slug: deadlock-conditions
+  similarity: 60%
+- slug: resource-contention
+  similarity: 55%
+- slug: unreleased-resources
+  similarity: 55%
+- slug: high-client-side-resource-consumption
+  similarity: 55%
 layout: problem
 ---
 

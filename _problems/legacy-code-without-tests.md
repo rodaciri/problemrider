@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Legacy
 related_problems:
-- slug: inadequate-test-infrastructure
-  similarity: 70%
-- slug: increased-manual-testing-effort
-  similarity: 70%
-- slug: insufficient-testing
+- slug: outdated-tests
   similarity: 65%
+- slug: insufficient-design-skills
+  similarity: 60%
 - slug: difficult-to-test-code
-  similarity: 65%
-- slug: testing-environment-fragility
-  similarity: 65%
+  similarity: 60%
+- slug: inadequate-test-data-management
+  similarity: 60%
+- slug: poor-test-coverage
+  similarity: 55%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Performance
 - Database
 related_problems:
-- slug: n-plus-one-query-problem
+- slug: slow-application-performance
   similarity: 70%
-- slug: poor-caching-strategy
-  similarity: 60%
 - slug: high-api-latency
-  similarity: 60%
-- slug: high-number-of-database-queries
+  similarity: 65%
+- slug: network-latency
   similarity: 60%
 - slug: database-query-performance-issues
-  similarity: 55%
+  similarity: 60%
+- slug: external-service-delays
+  similarity: 60%
 layout: problem
 ---
 

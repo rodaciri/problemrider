@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: god-object-anti-pattern
-  similarity: 65%
+  similarity: 75%
 - slug: poorly-defined-responsibilities
-  similarity: 60%
+  similarity: 70%
+- slug: monolithic-architecture-constraints
+  similarity: 70%
 - slug: excessive-class-size
-  similarity: 55%
-- slug: difficult-to-understand-code
-  similarity: 55%
-- slug: procedural-programming-in-oop-languages
-  similarity: 55%
+  similarity: 65%
+- slug: over-reliance-on-utility-classes
+  similarity: 60%
 layout: problem
 ---
 

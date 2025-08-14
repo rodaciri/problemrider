@@ -6,16 +6,16 @@ category:
 - Maintenance
 - Business
 related_problems:
-- slug: maintenance-overhead
-  similarity: 80%
 - slug: maintenance-cost-increase
   similarity: 80%
+- slug: maintenance-overhead
+  similarity: 80%
 - slug: increased-cost-of-development
-  similarity: 70%
-- slug: increasing-brittleness
-  similarity: 70%
-- slug: high-technical-debt
-  similarity: 70%
+  similarity: 75%
+- slug: modernization-roi-justification-failure
+  similarity: 60%
+- slug: maintenance-paralysis
+  similarity: 60%
 layout: problem
 ---
 

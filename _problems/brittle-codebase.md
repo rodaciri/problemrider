@@ -7,16 +7,16 @@ category:
 - Technical
 - Design
 related_problems:
+- slug: inconsistent-codebase
+  similarity: 75%
 - slug: increasing-brittleness
-  similarity: 75%
-- slug: large-estimates-for-small-changes
-  similarity: 75%
-- slug: insufficient-design-skills
   similarity: 70%
-- slug: fear-of-breaking-changes
-  similarity: 70%
-- slug: refactoring-avoidance
-  similarity: 70%
+- slug: difficult-code-comprehension
+  similarity: 65%
+- slug: spaghetti-code
+  similarity: 65%
+- slug: uncontrolled-codebase-growth
+  similarity: 65%
 layout: problem
 ---
 

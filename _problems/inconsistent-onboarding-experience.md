@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: inconsistent-knowledge-acquisition
   similarity: 75%
+- slug: inadequate-onboarding
+  similarity: 70%
 - slug: difficult-developer-onboarding
   similarity: 70%
-- slug: high-turnover
+- slug: new-hire-frustration
   similarity: 65%
-- slug: inconsistent-execution
-  similarity: 60%
-- slug: inappropriate-skillset
+- slug: inconsistent-behavior
   similarity: 60%
 layout: problem
 ---

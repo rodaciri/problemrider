@@ -7,15 +7,15 @@ category:
 - Team
 - Design
 related_problems:
-- slug: inability-to-innovate
-  similarity: 60%
-- slug: inexperienced-developers
+- slug: premature-technology-introduction
   similarity: 55%
 - slug: workaround-culture
   similarity: 55%
 - slug: reduced-innovation
   similarity: 55%
-- slug: technology-stack-fragmentation
+- slug: cv-driven-development
+  similarity: 55%
+- slug: increased-technical-shortcuts
   similarity: 55%
 layout: problem
 ---

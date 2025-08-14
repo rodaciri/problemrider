@@ -7,15 +7,15 @@ category:
 - Process
 - Architecture
 related_problems:
+- slug: architectural-mismatch
+  similarity: 75%
 - slug: team-coordination-issues
   similarity: 65%
-- slug: architectural-mismatch
-  similarity: 55%
+- slug: capacity-mismatch
+  similarity: 60%
 - slug: team-dysfunction
-  similarity: 55%
-- slug: change-management-chaos
-  similarity: 55%
-- slug: team-silos
+  similarity: 60%
+- slug: scaling-inefficiencies
   similarity: 55%
 layout: problem
 ---

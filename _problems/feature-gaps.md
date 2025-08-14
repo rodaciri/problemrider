@@ -7,15 +7,15 @@ category:
 - Requirements
 - User Experience
 related_problems:
-- slug: incomplete-projects
-  similarity: 70%
-- slug: reduced-feature-quality
-  similarity: 70%
-- slug: feature-bloat
-  similarity: 65%
-- slug: slow-feature-development
+- slug: monitoring-gaps
   similarity: 60%
-- slug: inadequate-requirements-gathering
+- slug: reduced-feature-quality
+  similarity: 60%
+- slug: incomplete-projects
+  similarity: 60%
+- slug: skill-development-gaps
+  similarity: 60%
+- slug: quality-blind-spots
   similarity: 60%
 layout: problem
 ---

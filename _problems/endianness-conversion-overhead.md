@@ -7,15 +7,13 @@ category:
 - Performance
 - Data Processing
 related_problems:
+- slug: interrupt-overhead
+  similarity: 55%
+- slug: context-switching-overhead
+  similarity: 50%
+- slug: microservice-communication-overhead
+  similarity: 50%
 - slug: serialization-deserialization-bottlenecks
-  similarity: 65%
-- slug: alignment-and-padding-issues
-  similarity: 60%
-- slug: atomic-operation-overhead
-  similarity: 55%
-- slug: data-structure-cache-inefficiency
-  similarity: 55%
-- slug: false-sharing
   similarity: 50%
 layout: problem
 ---

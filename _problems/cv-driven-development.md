@@ -7,16 +7,16 @@ category:
 - Technical
 - Communication
 related_problems:
+- slug: convenience-driven-development
+  similarity: 70%
+- slug: increased-technical-shortcuts
+  similarity: 55%
+- slug: cargo-culting
+  similarity: 55%
+- slug: decision-avoidance
+  similarity: 55%
 - slug: premature-technology-introduction
-  similarity: 60%
-- slug: difficulty-quantifying-benefits
   similarity: 55%
-- slug: legacy-skill-shortage
-  similarity: 55%
-- slug: reduced-innovation
-  similarity: 55%
-- slug: second-system-effect
-  similarity: 50%
 layout: problem
 ---
 

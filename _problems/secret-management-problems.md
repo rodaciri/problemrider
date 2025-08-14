@@ -7,16 +7,16 @@ category:
 - Configuration
 - Credential Management
 related_problems:
-- slug: password-security-weaknesses
-  similarity: 60%
 - slug: session-management-issues
-  similarity: 55%
+  similarity: 60%
 - slug: environment-variable-issues
   similarity: 55%
-- slug: authentication-bypass-vulnerabilities
+- slug: password-security-weaknesses
   similarity: 55%
+- slug: legacy-configuration-management-chaos
+  similarity: 50%
 - slug: logging-configuration-issues
-  similarity: 55%
+  similarity: 50%
 layout: problem
 ---
 

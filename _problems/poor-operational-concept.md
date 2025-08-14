@@ -7,16 +7,16 @@ category:
 - Operational
 - Planning
 related_problems:
-- slug: immature-delivery-strategy
-  similarity: 70%
 - slug: poor-system-environment
-  similarity: 70%
-- slug: inadequate-requirements-gathering
   similarity: 65%
-- slug: manual-deployment-processes
-  similarity: 65%
-- slug: release-instability
-  similarity: 65%
+- slug: immature-delivery-strategy
+  similarity: 60%
+- slug: poor-planning
+  similarity: 60%
+- slug: operational-overhead
+  similarity: 60%
+- slug: monitoring-gaps
+  similarity: 60%
 layout: problem
 ---
 

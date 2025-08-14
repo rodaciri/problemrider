@@ -8,13 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: tight-coupling-issues
-  similarity: 60%
-- slug: dependency-version-conflicts
-  similarity: 55%
-- slug: shared-dependencies
-  similarity: 55%
+  similarity: 70%
 - slug: circular-references
-  similarity: 55%
+  similarity: 65%
+- slug: hidden-dependencies
+  similarity: 60%
+- slug: shared-dependencies
+  similarity: 60%
+- slug: cascade-failures
+  similarity: 60%
 layout: problem
 ---
 

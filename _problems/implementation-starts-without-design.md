@@ -7,16 +7,16 @@ category:
 - Design
 - Technical
 related_problems:
-- slug: stagnant-architecture
-  similarity: 65%
-- slug: second-system-effect
-  similarity: 60%
 - slug: implementation-rework
-  similarity: 60%
-- slug: rapid-system-changes
-  similarity: 60%
+  similarity: 55%
 - slug: analysis-paralysis
-  similarity: 60%
+  similarity: 55%
+- slug: architectural-mismatch
+  similarity: 55%
+- slug: process-design-flaws
+  similarity: 55%
+- slug: stagnant-architecture
+  similarity: 55%
 layout: problem
 ---
 

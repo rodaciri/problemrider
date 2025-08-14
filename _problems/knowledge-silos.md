@@ -10,13 +10,13 @@ related_problems:
 - slug: knowledge-sharing-breakdown
   similarity: 80%
 - slug: team-silos
-  similarity: 80%
+  similarity: 70%
+- slug: information-fragmentation
+  similarity: 70%
 - slug: knowledge-dependency
   similarity: 70%
-- slug: slow-knowledge-transfer
-  similarity: 65%
-- slug: knowledge-gaps
-  similarity: 65%
+- slug: tacit-knowledge
+  similarity: 70%
 layout: problem
 ---
 

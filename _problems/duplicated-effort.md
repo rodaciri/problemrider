@@ -10,12 +10,12 @@ related_problems:
 - slug: duplicated-work
   similarity: 90%
 - slug: duplicated-research-effort
-  similarity: 85%
+  similarity: 90%
+- slug: code-duplication
+  similarity: 70%
 - slug: team-coordination-issues
-  similarity: 75%
-- slug: poor-communication
   similarity: 65%
-- slug: communication-breakdown
+- slug: team-confusion
   similarity: 65%
 layout: problem
 ---

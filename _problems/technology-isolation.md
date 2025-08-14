@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: technology-stack-fragmentation
   similarity: 75%
+- slug: obsolete-technologies
+  similarity: 70%
 - slug: technology-lock-in
   similarity: 65%
-- slug: system-stagnation
-  similarity: 60%
+- slug: legacy-skill-shortage
+  similarity: 65%
 - slug: vendor-lock-in
-  similarity: 60%
-- slug: obsolete-technologies
-  similarity: 60%
+  similarity: 65%
 layout: problem
 ---
 

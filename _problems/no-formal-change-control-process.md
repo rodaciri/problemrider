@@ -7,14 +7,14 @@ category:
 - Project Management
 related_problems:
 - slug: scope-creep
-  similarity: 80%
-- slug: frequent-changes-to-requirements
-  similarity: 75%
+  similarity: 70%
 - slug: changing-project-scope
-  similarity: 75%
+  similarity: 70%
+- slug: poor-project-control
+  similarity: 65%
 - slug: scope-change-resistance
-  similarity: 75%
-- slug: constantly-shifting-deadlines
+  similarity: 65%
+- slug: frequent-changes-to-requirements
   similarity: 65%
 layout: problem
 ---

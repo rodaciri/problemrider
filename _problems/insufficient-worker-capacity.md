@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: growing-task-queues
-  similarity: 80%
+  similarity: 85%
 - slug: task-queues-backing-up
   similarity: 80%
-- slug: capacity-mismatch
-  similarity: 60%
 - slug: work-queue-buildup
-  similarity: 60%
-- slug: thread-pool-exhaustion
-  similarity: 60%
+  similarity: 65%
+- slug: capacity-mismatch
+  similarity: 55%
+- slug: resource-contention
+  similarity: 55%
 layout: problem
 ---
 

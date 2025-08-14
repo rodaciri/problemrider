@@ -10,13 +10,13 @@ related_problems:
 - slug: increased-stress-and-burnout
   similarity: 80%
 - slug: uneven-workload-distribution
-  similarity: 75%
-- slug: reduced-individual-productivity
   similarity: 65%
-- slug: mental-fatigue
+- slug: time-pressure
   similarity: 60%
-- slug: extended-cycle-times
+- slug: developer-frustration-and-burnout
   similarity: 60%
+- slug: reduced-team-productivity
+  similarity: 55%
 layout: problem
 ---
 

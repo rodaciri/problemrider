@@ -9,7 +9,13 @@ category:
 related_problems:
 - slug: load-balancing-problems
   similarity: 55%
-- slug: garbage-collection-pressure
+- slug: resource-allocation-failures
+  similarity: 55%
+- slug: upstream-timeouts
+  similarity: 55%
+- slug: high-client-side-resource-consumption
+  similarity: 55%
+- slug: resource-contention
   similarity: 50%
 layout: problem
 ---

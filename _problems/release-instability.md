@@ -7,16 +7,16 @@ category:
 - Quality
 - Deployment
 related_problems:
-- slug: release-anxiety
-  similarity: 80%
 - slug: large-risky-releases
-  similarity: 80%
+  similarity: 70%
+- slug: release-anxiety
+  similarity: 65%
+- slug: development-disruption
+  similarity: 60%
 - slug: long-release-cycles
-  similarity: 75%
-- slug: history-of-failed-changes
-  similarity: 70%
-- slug: high-defect-rate-in-production
-  similarity: 70%
+  similarity: 60%
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 60%
 layout: problem
 ---
 

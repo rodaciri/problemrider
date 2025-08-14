@@ -7,9 +7,15 @@ category:
 - Architecture
 - Usability
 related_problems:
+- slug: database-schema-design-problems
+  similarity: 55%
 - slug: api-versioning-conflicts
+  similarity: 55%
+- slug: poor-user-experience-ux-design
   similarity: 50%
-- slug: inconsistent-coding-standards
+- slug: legacy-api-versioning-nightmare
+  similarity: 50%
+- slug: poor-interfaces-between-applications
   similarity: 50%
 layout: problem
 ---

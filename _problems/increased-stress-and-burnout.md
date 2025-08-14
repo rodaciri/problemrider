@@ -10,12 +10,12 @@ related_problems:
 - slug: overworked-teams
   similarity: 80%
 - slug: developer-frustration-and-burnout
-  similarity: 75%
-- slug: uneven-workload-distribution
   similarity: 70%
-- slug: mental-fatigue
-  similarity: 65%
-- slug: deadline-pressure
+- slug: time-pressure
+  similarity: 70%
+- slug: mentor-burnout
+  similarity: 60%
+- slug: reduced-team-productivity
   similarity: 60%
 layout: problem
 ---

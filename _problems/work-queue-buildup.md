@@ -7,15 +7,15 @@ category:
 - Flow
 - Performance
 related_problems:
-- slug: bottleneck-formation
-  similarity: 75%
-- slug: work-blocking
-  similarity: 70%
-- slug: extended-cycle-times
-  similarity: 70%
-- slug: capacity-mismatch
-  similarity: 70%
 - slug: growing-task-queues
+  similarity: 70%
+- slug: bottleneck-formation
+  similarity: 70%
+- slug: task-queues-backing-up
+  similarity: 70%
+- slug: work-blocking
+  similarity: 65%
+- slug: insufficient-worker-capacity
   similarity: 65%
 layout: problem
 ---

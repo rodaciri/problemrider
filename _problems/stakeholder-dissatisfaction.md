@@ -8,15 +8,15 @@ category:
 - Project Management
 related_problems:
 - slug: stakeholder-frustration
-  similarity: 90%
+  similarity: 85%
 - slug: stakeholder-confidence-loss
   similarity: 75%
+- slug: eager-to-please-stakeholders
+  similarity: 70%
 - slug: stakeholder-developer-communication-gap
   similarity: 70%
 - slug: communication-risk-outside-project
-  similarity: 60%
-- slug: planning-credibility-issues
-  similarity: 60%
+  similarity: 65%
 layout: problem
 ---
 

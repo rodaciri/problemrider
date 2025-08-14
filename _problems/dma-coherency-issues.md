@@ -7,15 +7,7 @@ category:
 - Hardware
 - Data Integrity
 related_problems:
-- slug: race-conditions
-  similarity: 65%
-- slug: cache-invalidation-problems
-  similarity: 65%
 - slug: false-sharing
-  similarity: 60%
-- slug: data-structure-cache-inefficiency
-  similarity: 60%
-- slug: silent-data-corruption
   similarity: 55%
 layout: problem
 ---

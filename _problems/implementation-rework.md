@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: wasted-development-effort
-  similarity: 70%
-- slug: second-system-effect
-  similarity: 70%
+  similarity: 60%
 - slug: complex-implementation-paths
-  similarity: 70%
-- slug: reduced-feature-quality
-  similarity: 65%
-- slug: difficulty-quantifying-benefits
-  similarity: 65%
+  similarity: 55%
+- slug: implementation-starts-without-design
+  similarity: 55%
+- slug: incomplete-projects
+  similarity: 55%
+- slug: analysis-paralysis
+  similarity: 55%
 layout: problem
 ---
 

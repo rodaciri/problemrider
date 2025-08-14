@@ -7,14 +7,14 @@ category:
 - Maintenance
 related_problems:
 - slug: brittle-codebase
-  similarity: 70%
-- slug: feature-creep-without-refactoring
   similarity: 65%
-- slug: high-technical-debt
+- slug: spaghetti-code
   similarity: 60%
-- slug: high-maintenance-costs
+- slug: monolithic-architecture-constraints
   similarity: 60%
-- slug: refactoring-avoidance
+- slug: rapid-team-growth
+  similarity: 60%
+- slug: unbounded-data-growth
   similarity: 60%
 layout: problem
 ---

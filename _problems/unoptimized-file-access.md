@@ -7,13 +7,13 @@ category:
 related_problems:
 - slug: excessive-disk-io
   similarity: 65%
-- slug: resource-contention
-  similarity: 60%
-- slug: data-structure-cache-inefficiency
-  similarity: 55%
 - slug: inefficient-code
-  similarity: 55%
-- slug: virtual-memory-thrashing
+  similarity: 65%
+- slug: slow-application-performance
+  similarity: 60%
+- slug: inefficient-frontend-code
+  similarity: 60%
+- slug: unused-indexes
   similarity: 55%
 layout: problem
 ---

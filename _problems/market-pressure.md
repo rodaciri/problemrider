@@ -7,16 +7,16 @@ category:
 - External Factors
 - Strategy
 related_problems:
+- slug: power-struggles
+  similarity: 55%
+- slug: competing-priorities
+  similarity: 55%
 - slug: deadline-pressure
-  similarity: 65%
-- slug: time-pressure
-  similarity: 60%
+  similarity: 55%
 - slug: increased-time-to-market
-  similarity: 60%
-- slug: communication-risk-outside-project
-  similarity: 50%
+  similarity: 55%
 - slug: product-direction-chaos
-  similarity: 50%
+  similarity: 55%
 layout: problem
 ---
 

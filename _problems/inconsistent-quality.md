@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: inconsistent-behavior
   similarity: 65%
-- slug: quality-degradation
-  similarity: 65%
 - slug: inconsistent-coding-standards
   similarity: 65%
-- slug: lower-code-quality
+- slug: quality-degradation
   similarity: 65%
-- slug: unpredictable-system-behavior
+- slug: inconsistent-codebase
+  similarity: 65%
+- slug: lack-of-ownership-and-accountability
   similarity: 65%
 layout: problem
 ---

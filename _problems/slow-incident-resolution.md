@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: delayed-issue-resolution
   similarity: 65%
-- slug: monitoring-gaps
+- slug: delayed-bug-fixes
   similarity: 60%
-- slug: debugging-difficulties
-  similarity: 55%
 - slug: system-outages
-  similarity: 55%
-- slug: poor-operational-concept
+  similarity: 60%
+- slug: slow-application-performance
+  similarity: 60%
+- slug: external-service-delays
   similarity: 55%
 layout: problem
 ---

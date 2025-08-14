@@ -7,16 +7,16 @@ category:
 - Performance
 - Security
 related_problems:
+- slug: algorithmic-complexity-problems
+  similarity: 60%
 - slug: database-query-performance-issues
   similarity: 60%
-- slug: high-number-of-database-queries
+- slug: testing-complexity
   similarity: 55%
-- slug: imperative-data-fetching-logic
+- slug: complex-and-obscure-logic
   similarity: 55%
 - slug: n-plus-one-query-problem
-  similarity: 50%
-- slug: slow-database-queries
-  similarity: 50%
+  similarity: 55%
 layout: problem
 ---
 

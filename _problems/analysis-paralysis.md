@@ -7,15 +7,15 @@ category:
 - Team
 - Management
 related_problems:
-- slug: delayed-decision-making
+- slug: decision-paralysis
+  similarity: 75%
+- slug: maintenance-paralysis
+  similarity: 70%
+- slug: modernization-strategy-paralysis
   similarity: 65%
-- slug: extended-research-time
-  similarity: 60%
 - slug: decision-avoidance
   similarity: 60%
-- slug: modernization-strategy-paralysis
-  similarity: 60%
-- slug: poor-planning
+- slug: constant-firefighting
   similarity: 60%
 layout: problem
 ---

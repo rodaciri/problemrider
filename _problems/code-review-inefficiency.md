@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Quality
 related_problems:
-- slug: insufficient-code-review
-  similarity: 80%
 - slug: inadequate-code-reviews
-  similarity: 80%
-- slug: review-process-breakdown
-  similarity: 80%
+  similarity: 75%
 - slug: review-bottlenecks
   similarity: 75%
-- slug: lower-code-quality
+- slug: insufficient-code-review
   similarity: 75%
+- slug: review-process-breakdown
+  similarity: 75%
+- slug: inadequate-initial-reviews
+  similarity: 70%
 layout: problem
 ---
 

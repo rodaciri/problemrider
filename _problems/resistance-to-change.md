@@ -7,15 +7,15 @@ category:
 - Team Dynamics
 - Maintenance
 related_problems:
-- slug: fear-of-change
-  similarity: 80%
-- slug: fear-of-breaking-changes
+- slug: maintenance-paralysis
   similarity: 75%
-- slug: large-estimates-for-small-changes
+- slug: fear-of-change
   similarity: 75%
 - slug: refactoring-avoidance
+  similarity: 75%
+- slug: fear-of-breaking-changes
   similarity: 70%
-- slug: history-of-failed-changes
+- slug: system-stagnation
   similarity: 70%
 layout: problem
 ---

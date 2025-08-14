@@ -7,7 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: excessive-class-size
+  similarity: 75%
+- slug: monolithic-functions-and-classes
   similarity: 60%
+- slug: uncontrolled-codebase-growth
+  similarity: 55%
+- slug: over-reliance-on-utility-classes
+  similarity: 55%
+- slug: god-object-anti-pattern
+  similarity: 55%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Quality
 - Maintenance
 related_problems:
-- slug: slow-incident-resolution
-  similarity: 60%
-- slug: system-outages
-  similarity: 55%
-- slug: poor-operational-concept
-  similarity: 55%
 - slug: quality-blind-spots
+  similarity: 70%
+- slug: feature-gaps
+  similarity: 60%
+- slug: poor-operational-concept
+  similarity: 60%
+- slug: knowledge-gaps
   similarity: 55%
-- slug: delayed-issue-resolution
+- slug: system-integration-blindness
   similarity: 55%
 layout: problem
 ---

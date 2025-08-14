@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: history-of-failed-changes
   similarity: 65%
+- slug: brittle-codebase
+  similarity: 55%
 - slug: fear-of-breaking-changes
-  similarity: 60%
-- slug: resistance-to-change
   similarity: 55%
-- slug: fear-of-failure
+- slug: inconsistent-onboarding-experience
   similarity: 55%
-- slug: fear-of-change
+- slug: outdated-tests
   similarity: 55%
 layout: problem
 ---

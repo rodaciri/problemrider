@@ -7,15 +7,15 @@ category:
 - Quality
 - Efficiency
 related_problems:
+- slug: superficial-code-reviews
+  similarity: 75%
 - slug: insufficient-code-review
-  similarity: 80%
-- slug: review-process-breakdown
-  similarity: 75%
-- slug: extended-review-cycles
-  similarity: 75%
+  similarity: 70%
 - slug: inadequate-code-reviews
-  similarity: 75%
+  similarity: 70%
 - slug: code-review-inefficiency
+  similarity: 70%
+- slug: review-process-breakdown
   similarity: 70%
 layout: problem
 ---

@@ -7,16 +7,16 @@ category:
 - Quality
 - Deployment
 related_problems:
-- slug: deployment-risk
-  similarity: 70%
-- slug: immature-delivery-strategy
-  similarity: 70%
-- slug: review-process-avoidance
-  similarity: 65%
-- slug: release-instability
-  similarity: 65%
 - slug: large-risky-releases
   similarity: 65%
+- slug: release-instability
+  similarity: 60%
+- slug: high-defect-rate-in-production
+  similarity: 60%
+- slug: complex-deployment-process
+  similarity: 55%
+- slug: manual-deployment-processes
+  similarity: 55%
 layout: problem
 ---
 

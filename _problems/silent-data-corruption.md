@@ -8,15 +8,9 @@ category:
 - Security
 - Technical
 related_problems:
-- slug: cache-invalidation-problems
-  similarity: 55%
-- slug: dma-coherency-issues
-  similarity: 55%
-- slug: race-conditions
-  similarity: 55%
 - slug: data-migration-integrity-issues
   similarity: 55%
-- slug: data-migration-complexities
+- slug: insecure-data-transmission
   similarity: 55%
 layout: problem
 ---

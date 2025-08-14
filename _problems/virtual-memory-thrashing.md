@@ -8,15 +8,15 @@ category:
 - Memory Management
 related_problems:
 - slug: memory-swapping
-  similarity: 65%
-- slug: excessive-disk-io
-  similarity: 65%
+  similarity: 70%
 - slug: memory-fragmentation
-  similarity: 60%
-- slug: unreleased-resources
   similarity: 55%
 - slug: resource-contention
   similarity: 55%
+- slug: priority-thrashing
+  similarity: 50%
+- slug: excessive-disk-io
+  similarity: 50%
 layout: problem
 ---
 

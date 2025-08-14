@@ -7,16 +7,16 @@ category:
 - Resource Management
 - Process
 related_problems:
-- slug: overworked-teams
-  similarity: 75%
 - slug: uneven-work-flow
   similarity: 70%
-- slug: increased-stress-and-burnout
-  similarity: 70%
-- slug: reduced-individual-productivity
-  similarity: 70%
-- slug: capacity-mismatch
+- slug: overworked-teams
   similarity: 65%
+- slug: inappropriate-skillset
+  similarity: 60%
+- slug: inconsistent-knowledge-acquisition
+  similarity: 60%
+- slug: load-balancing-problems
+  similarity: 60%
 layout: problem
 ---
 

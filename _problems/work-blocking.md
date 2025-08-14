@@ -7,15 +7,15 @@ category:
 - Workflow
 - Management
 related_problems:
-- slug: delayed-decision-making
-  similarity: 80%
 - slug: approval-dependencies
   similarity: 75%
-- slug: bottleneck-formation
-  similarity: 70%
 - slug: work-queue-buildup
-  similarity: 70%
-- slug: extended-cycle-times
+  similarity: 65%
+- slug: delayed-decision-making
+  similarity: 65%
+- slug: bottleneck-formation
+  similarity: 65%
+- slug: decision-paralysis
   similarity: 65%
 layout: problem
 ---

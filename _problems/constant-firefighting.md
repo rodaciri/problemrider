@@ -10,13 +10,13 @@ related_problems:
 - slug: development-disruption
   similarity: 75%
 - slug: time-pressure
+  similarity: 70%
+- slug: uneven-work-flow
+  similarity: 65%
+- slug: constantly-shifting-deadlines
   similarity: 65%
 - slug: operational-overhead
-  similarity: 60%
-- slug: uneven-work-flow
-  similarity: 60%
-- slug: frequent-hotfixes-and-rollbacks
-  similarity: 55%
+  similarity: 65%
 layout: problem
 ---
 

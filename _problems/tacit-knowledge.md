@@ -8,12 +8,12 @@ category:
 related_problems:
 - slug: slow-knowledge-transfer
   similarity: 75%
-- slug: skill-development-gaps
-  similarity: 65%
-- slug: inconsistent-knowledge-acquisition
-  similarity: 65%
-- slug: incomplete-knowledge
-  similarity: 65%
+- slug: implicit-knowledge
+  similarity: 70%
+- slug: knowledge-silos
+  similarity: 70%
+- slug: knowledge-dependency
+  similarity: 60%
 - slug: knowledge-sharing-breakdown
   similarity: 60%
 layout: problem

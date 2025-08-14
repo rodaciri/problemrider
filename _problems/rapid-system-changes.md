@@ -7,15 +7,15 @@ category:
 - Change Management
 - Documentation
 related_problems:
-- slug: unpredictable-system-behavior
-  similarity: 65%
-- slug: stagnant-architecture
+- slug: change-management-chaos
   similarity: 65%
 - slug: breaking-changes
   similarity: 65%
-- slug: legacy-api-versioning-nightmare
+- slug: increasing-brittleness
   similarity: 60%
-- slug: resistance-to-change
+- slug: frequent-changes-to-requirements
+  similarity: 60%
+- slug: poor-documentation
   similarity: 60%
 layout: problem
 ---

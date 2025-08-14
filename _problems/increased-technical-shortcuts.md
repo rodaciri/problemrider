@@ -7,16 +7,16 @@ category:
 - Process
 - Technical
 related_problems:
-- slug: accumulation-of-workarounds
-  similarity: 70%
+- slug: high-technical-debt
+  similarity: 75%
 - slug: time-pressure
   similarity: 65%
+- slug: accumulation-of-workarounds
+  similarity: 65%
+- slug: short-term-focus
+  similarity: 65%
 - slug: workaround-culture
-  similarity: 65%
-- slug: quality-compromises
-  similarity: 65%
-- slug: deadline-pressure
-  similarity: 65%
+  similarity: 60%
 layout: problem
 ---
 

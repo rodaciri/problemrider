@@ -7,15 +7,15 @@ category:
 - Team Dynamics
 - Quality Assurance
 related_problems:
-- slug: review-process-breakdown
-  similarity: 75%
 - slug: reduced-review-participation
-  similarity: 65%
-- slug: frequent-hotfixes-and-rollbacks
+  similarity: 70%
+- slug: review-process-breakdown
+  similarity: 70%
+- slug: inadequate-code-reviews
   similarity: 65%
 - slug: insufficient-code-review
   similarity: 65%
-- slug: reduced-code-submission-frequency
+- slug: rushed-approvals
   similarity: 65%
 layout: problem
 ---

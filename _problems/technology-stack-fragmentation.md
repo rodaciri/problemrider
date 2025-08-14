@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: technology-isolation
   similarity: 75%
-- slug: monolithic-architecture-constraints
-  similarity: 70%
-- slug: system-stagnation
-  similarity: 60%
-- slug: legacy-skill-shortage
-  similarity: 60%
 - slug: obsolete-technologies
+  similarity: 70%
+- slug: information-fragmentation
+  similarity: 65%
+- slug: legacy-skill-shortage
+  similarity: 65%
+- slug: technology-lock-in
   similarity: 60%
 layout: problem
 ---

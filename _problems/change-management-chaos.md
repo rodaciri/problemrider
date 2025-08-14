@@ -8,15 +8,15 @@ category:
 - Coordination
 related_problems:
 - slug: configuration-chaos
-  similarity: 70%
-- slug: configuration-drift
-  similarity: 65%
-- slug: no-formal-change-control-process
+  similarity: 75%
+- slug: rapid-system-changes
   similarity: 65%
 - slug: inadequate-configuration-management
   similarity: 65%
-- slug: unpredictable-system-behavior
-  similarity: 65%
+- slug: configuration-drift
+  similarity: 60%
+- slug: ripple-effect-of-changes
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Adaptability
 - Process
 related_problems:
-- slug: staff-availability-issues
-  similarity: 70%
-- slug: development-disruption
-  similarity: 65%
-- slug: single-points-of-failure
-  similarity: 65%
 - slug: reduced-team-productivity
   similarity: 65%
-- slug: maintenance-paralysis
+- slug: reduced-predictability
   similarity: 65%
+- slug: changing-project-scope
+  similarity: 65%
+- slug: development-disruption
+  similarity: 65%
+- slug: reduced-innovation
+  similarity: 60%
 layout: problem
 ---
 

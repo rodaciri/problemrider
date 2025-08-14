@@ -8,14 +8,14 @@ category:
 - Developer Experience
 related_problems:
 - slug: inconsistent-naming-conventions
-  similarity: 70%
-- slug: defensive-coding-practices
+  similarity: 75%
+- slug: mixed-coding-styles
   similarity: 60%
-- slug: nitpicking-culture
+- slug: complex-and-obscure-logic
   similarity: 60%
-- slug: difficult-to-understand-code
+- slug: monolithic-functions-and-classes
   similarity: 60%
-- slug: inconsistent-coding-standards
+- slug: inconsistent-codebase
   similarity: 60%
 layout: problem
 ---

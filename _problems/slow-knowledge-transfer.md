@@ -9,13 +9,13 @@ category:
 related_problems:
 - slug: tacit-knowledge
   similarity: 75%
-- slug: knowledge-sharing-breakdown
+- slug: inconsistent-knowledge-acquisition
   similarity: 70%
 - slug: knowledge-dependency
-  similarity: 70%
+  similarity: 65%
 - slug: knowledge-silos
   similarity: 65%
-- slug: skill-development-gaps
+- slug: knowledge-sharing-breakdown
   similarity: 65%
 layout: problem
 ---

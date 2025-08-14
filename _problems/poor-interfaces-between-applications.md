@@ -7,16 +7,16 @@ category:
 - Design
 - Integration
 related_problems:
-- slug: integration-difficulties
-  similarity: 75%
-- slug: cross-system-data-synchronization-problems
-  similarity: 70%
 - slug: inadequate-integration-tests
+  similarity: 65%
+- slug: api-versioning-conflicts
   similarity: 65%
 - slug: system-integration-blindness
   similarity: 65%
+- slug: integration-difficulties
+  similarity: 60%
 - slug: legacy-api-versioning-nightmare
-  similarity: 65%
+  similarity: 60%
 layout: problem
 ---
 

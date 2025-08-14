@@ -7,16 +7,16 @@ category:
 - Testing
 - Delivery
 related_problems:
-- slug: release-instability
-  similarity: 75%
-- slug: increased-manual-testing-effort
-  similarity: 75%
 - slug: large-risky-releases
   similarity: 70%
-- slug: increased-bug-count
+- slug: extended-cycle-times
   similarity: 65%
-- slug: delayed-bug-fixes
-  similarity: 65%
+- slug: increased-manual-testing-effort
+  similarity: 60%
+- slug: manual-deployment-processes
+  similarity: 60%
+- slug: extended-review-cycles
+  similarity: 60%
 layout: problem
 ---
 

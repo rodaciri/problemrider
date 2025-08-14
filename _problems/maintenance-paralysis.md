@@ -7,15 +7,15 @@ category:
 - Process
 - Quality
 related_problems:
-- slug: inability-to-innovate
-  similarity: 75%
-- slug: maintenance-overhead
-  similarity: 70%
-- slug: refactoring-avoidance
-  similarity: 70%
 - slug: resistance-to-change
+  similarity: 75%
+- slug: analysis-paralysis
+  similarity: 70%
+- slug: decision-paralysis
   similarity: 70%
 - slug: maintenance-bottlenecks
+  similarity: 70%
+- slug: inability-to-innovate
   similarity: 70%
 layout: problem
 ---

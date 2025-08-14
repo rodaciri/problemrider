@@ -6,16 +6,16 @@ category:
 - Business
 - User Experience
 related_problems:
+- slug: user-confusion
+  similarity: 65%
 - slug: user-frustration
   similarity: 65%
-- slug: negative-brand-perception
-  similarity: 65%
-- slug: customer-dissatisfaction
-  similarity: 65%
-- slug: negative-user-feedback
-  similarity: 65%
-- slug: declining-business-metrics
+- slug: stakeholder-confidence-loss
   similarity: 60%
+- slug: customer-dissatisfaction
+  similarity: 55%
+- slug: quality-degradation
+  similarity: 55%
 layout: problem
 ---
 

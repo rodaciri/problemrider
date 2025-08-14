@@ -10,13 +10,13 @@ related_problems:
 - slug: fear-of-change
   similarity: 85%
 - slug: resistance-to-change
-  similarity: 75%
+  similarity: 70%
+- slug: fear-of-failure
+  similarity: 70%
 - slug: history-of-failed-changes
-  similarity: 75%
-- slug: refactoring-avoidance
-  similarity: 70%
-- slug: large-estimates-for-small-changes
-  similarity: 70%
+  similarity: 65%
+- slug: maintenance-paralysis
+  similarity: 65%
 layout: problem
 ---
 

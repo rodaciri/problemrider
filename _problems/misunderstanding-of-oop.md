@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: procedural-background
-  similarity: 65%
+  similarity: 75%
 - slug: over-reliance-on-utility-classes
+  similarity: 70%
+- slug: insufficient-design-skills
+  similarity: 70%
+- slug: difficult-code-comprehension
   similarity: 65%
-- slug: procedural-programming-in-oop-languages
-  similarity: 60%
-- slug: poor-encapsulation
-  similarity: 55%
-- slug: complex-and-obscure-logic
-  similarity: 55%
+- slug: difficult-code-reuse
+  similarity: 65%
 layout: problem
 ---
 

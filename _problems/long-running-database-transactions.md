@@ -8,14 +8,14 @@ category:
 related_problems:
 - slug: long-running-transactions
   similarity: 95%
-- slug: slow-database-queries
-  similarity: 70%
-- slug: high-database-resource-utilization
-  similarity: 70%
-- slug: resource-contention
-  similarity: 65%
 - slug: high-connection-count
-  similarity: 65%
+  similarity: 55%
+- slug: high-database-resource-utilization
+  similarity: 55%
+- slug: slow-database-queries
+  similarity: 55%
+- slug: database-connection-leaks
+  similarity: 55%
 layout: problem
 ---
 

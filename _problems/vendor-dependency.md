@@ -9,12 +9,14 @@ category:
 related_problems:
 - slug: dependency-on-supplier
   similarity: 90%
-- slug: vendor-relationship-strain
-  similarity: 75%
 - slug: vendor-dependency-entrapment
-  similarity: 70%
+  similarity: 75%
+- slug: vendor-relationship-strain
+  similarity: 65%
 - slug: vendor-lock-in
   similarity: 65%
+- slug: knowledge-dependency
+  similarity: 55%
 layout: problem
 ---
 

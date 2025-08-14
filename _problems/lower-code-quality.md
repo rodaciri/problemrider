@@ -7,16 +7,16 @@ category:
 - Process
 - Team Dynamics
 related_problems:
+- slug: quality-compromises
+  similarity: 65%
+- slug: quality-degradation
+  similarity: 65%
 - slug: inadequate-code-reviews
-  similarity: 75%
-- slug: review-process-breakdown
-  similarity: 75%
-- slug: code-review-inefficiency
-  similarity: 75%
+  similarity: 65%
 - slug: insufficient-code-review
-  similarity: 75%
-- slug: increased-risk-of-bugs
-  similarity: 75%
+  similarity: 60%
+- slug: team-churn-impact
+  similarity: 60%
 layout: problem
 ---
 

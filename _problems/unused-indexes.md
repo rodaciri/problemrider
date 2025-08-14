@@ -28,7 +28,7 @@ Unused indexes are database indexes that are not being utilized by any queries. 
 - **Obsolete Queries:** Indexes were created for queries that are no longer in use or have been refactored.
 - **Redundant Indexes:** Multiple indexes exist on the same or overlapping columns, where only one is truly effective.
 - **Incorrect Index Creation:** Indexes were created based on assumptions or without proper analysis of query patterns.
-- **Schema Evolution:** As the application evolves, old indexes become irrelevant, but are not removed.
+- **[Schema Evolution Paralysis](schema-evolution-paralysis.md):** As the application evolves, old indexes become irrelevant, but are not removed.
 - **Lack of Monitoring:** No process or tools are in place to identify and remove unused indexes.
 
 ## Detection Methods ○

@@ -21,7 +21,7 @@ Tight coupling issues occur when system components are overly dependent on each 
 ## Symptoms ▲
 
 - **Change Amplification:** Small changes ripple through multiple system components
-- **Testing Complexity:** Cannot test components independently without extensive mocking
+- **[Testing Complexity](testing-complexity.md):** Cannot test components independently without extensive mocking
 - **Circular Dependencies:** Components depending on each other creating dependency cycles
 - **Direct Data Access:** Components bypassing interfaces to access internal data structures
 - **Component Replacement Difficulty:** Cannot easily swap or upgrade individual components

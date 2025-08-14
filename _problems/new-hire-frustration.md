@@ -28,7 +28,7 @@ New hire frustration occurs when recently hired developers, regardless of their 
 
 ## Root Causes ▼
 
-- **[Extended Onboarding Period](extended-onboarding-period.md):** Lengthy time to productivity creates feelings of inadequacy and frustration
+- **Extended Onboarding Period:** Lengthy time to productivity creates feelings of inadequacy and frustration
 - **[Knowledge Silos](knowledge-silos.md):** Critical information is locked away making independent progress impossible
 - **[Complex Domain Model](complex-domain-model.md):** Business complexity creates steep learning curves that overwhelm new hires
 - **[Information Decay](information-decay.md):** Inadequate documentation forces new hires to rely heavily on others for information

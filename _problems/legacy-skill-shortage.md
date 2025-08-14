@@ -29,7 +29,7 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 - **[Constant Firefighting](constant-firefighting.md):** Emergency situations where no one in the organization understands how to resolve legacy system failures
 - **[Vendor Dependency Entrapment](vendor-dependency-entrapment.md):** Outsourcing arrangements that become increasingly expensive due to vendor skill scarcity
 - **[Competitive Disadvantage](competitive-disadvantage.md):** Business processes that cannot be modified because the underlying legacy systems cannot be changed
-- **[Long Onboarding Time](long-onboarding-time.md):** Extended training periods required for new developers to understand legacy technologies
+- **Long Onboarding Time:** Extended training periods required for new developers to understand legacy technologies
 - **[Knowledge Silos](knowledge-silos.md):** Critical knowledge concentrated in a few individuals who guard their expertise
 - **[Budget Overruns](budget-overruns.md):** Project costs escalating due to high contractor rates for legacy skills
 - **[Missed Deadlines](missed-deadlines.md):** Project delays due to unavailability of skilled legacy system developers

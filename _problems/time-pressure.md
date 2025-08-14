@@ -23,8 +23,8 @@ Time pressure is a pervasive problem in software development where the emphasis 
 ## Root Causes ▼
 - **[Unrealistic Deadlines](unrealistic-deadlines.md):** Management sets aggressive deadlines that do not account for the actual effort required.
 - **[Planning Dysfunction](planning-dysfunction.md):** The team does not have a clear plan or a realistic estimate of the work involved.
-- **[Scope Expansion](scope-expansion.md):** The scope of the project is constantly expanding without a corresponding adjustment in the timeline.
-- **Product Direction Chaos:** There is no one to protect the team from unrealistic expectations and to prioritize the work.
+- **Scope Expansion:** The scope of the project is constantly expanding without a corresponding adjustment in the timeline.
+- **[Product Direction Chaos](product-direction-chaos.md):** There is no one to protect the team from unrealistic expectations and to prioritize the work.
 
 ## Detection Methods ○
 - **Track Overtime Hours:** Monitor the number of hours the team is working beyond their normal schedule.

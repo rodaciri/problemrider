@@ -34,7 +34,7 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 - **[Vendor Lock-In](vendor-lock-in.md):** Multiple vendor dependencies that cannot be easily standardized or consolidated
 - **[Configuration Drift](configuration-drift.md):** Inconsistent configuration management across different technology platforms
 - **[High Technical Debt](high-technical-debt.md):** Technical debt from maintaining multiple incompatible technology approaches
-- **[Difficulty Onboarding New Hires](difficulty-onboarding-new-hires.md):** Extended onboarding time due to multiple technology stack knowledge requirements
+- **Difficulty Onboarding New Hires:** Extended onboarding time due to multiple technology stack knowledge requirements
 - **[Budget Overruns](budget-overruns.md):** Increased licensing and support costs from multiple technology vendors
 
 ## Root Causes ▼

@@ -21,7 +21,7 @@ Interrupt overhead occurs when hardware devices generate interrupts at such a hi
 ## Symptoms ▲
 
 - **CPU Context Disruption:** Frequent interruption of normal CPU execution flow
-- **[Context Switch Overhead](context-switch-overhead.md):** Excessive context switching due to interrupt handling
+- **Context Switch Overhead:** Excessive context switching due to interrupt handling
 - **CPU Cache Misses:** Cache pollution from frequent interrupt handler execution
 - **Application Responsiveness Issues:** User applications become less responsive during high interrupt periods
 - **Real-Time Performance Degradation:** Real-time applications miss deadlines due to interrupt latency

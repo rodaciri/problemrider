@@ -22,7 +22,7 @@ Inadequate mentoring structure occurs when organizations do not have a well-defi
 
 - **[Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md):** New hires have vastly different experiences depending on who mentors them
 - **[Mentor Burnout](mentor-burnout.md):** Some experienced developers become overwhelmed with mentoring duties while others avoid them
-- **[Extended Onboarding Period](extended-onboarding-period.md):** Lack of structured guidance lengthens the time for new hires to become productive
+- **Extended Onboarding Period:** Lack of structured guidance lengthens the time for new hires to become productive
 - **[Slow Knowledge Transfer](slow-knowledge-transfer.md):** Important knowledge is not systematically shared with new team members
 - **[New Hire Frustration](new-hire-frustration.md):** Some new developers feel unsupported and struggle to integrate into the team
 

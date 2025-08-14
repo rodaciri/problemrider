@@ -27,7 +27,7 @@ When a project lacks clearly defined and documented code style guidelines, devel
 
 - **Lack of a Style Guide:** No formal document or agreed-upon set of rules for coding style exists.
 - **No Automated Enforcement:** Even if informal agreements exist, there are no tools to automatically enforce them.
-- **Team Churn:** As developers join and leave, they bring their own habits, and without a guide, styles diverge.
+- **[Team Churn Impact](team-churn-impact.md):** As developers join and leave, they bring their own habits, and without a guide, styles diverge.
 - **Lack of Prioritization:** The team does not prioritize defining and maintaining coding standards.
 - **Cultural Issues:** A culture that values individual freedom over collective consistency, or a lack of consensus-building around standards.
 

@@ -20,7 +20,7 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 
 ## Symptoms ▲
 
-- **[Extended Onboarding Period](extended-onboarding-period.md):** New team members take much longer than expected to become productive
+- **Extended Onboarding Period:** New team members take much longer than expected to become productive
 - **[Increased Error Rates](increased-error-rates.md):** Work contains more mistakes due to lack of relevant experience
 - **[Slow Development Velocity](slow-development-velocity.md):** Overall team productivity decreases due to skill gaps
 - **[Mentor Burnout](mentor-burnout.md):** Senior team members spend excessive time helping less experienced colleagues

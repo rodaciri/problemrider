@@ -26,7 +26,7 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 - **[Increased Bug Count](increased-bug-count.md):** Changes introduce new defects more frequently, leading to a higher defect rate in production.
 - **[Developer Frustration and Burnout](developer-frustration-and-burnout.md):** Developers are demotivated by constantly working with difficult, messy, or fragile code.
 - **[High Maintenance Costs](high-maintenance-costs.md):** A significant portion of development effort is spent on fixing bugs or maintaining existing code rather than building new value.
-- **[Difficulty Onboarding New Hires](difficulty-onboarding-new-hires.md):** New team members struggle to understand the convoluted codebase.
+- **Difficulty Onboarding New Hires:** New team members struggle to understand the convoluted codebase.
 - **[Resistance to Change](resistance-to-change.md):** Teams are hesitant to refactor or improve parts of the system due to the perceived risk and effort involved.
 
 ## Root Causes ▼

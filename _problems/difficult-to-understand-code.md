@@ -22,7 +22,7 @@ Difficult to understand code occurs when software components are implemented in 
 
 - **[Extended Research Time](extended-research-time.md):** Developers spend significant time researching code behavior before making changes
 - **[Increased Bug Count](increased-bug-count.md):** Misunderstanding code behavior leads to more implementation errors
-- **[Difficulty Onboarding New Hires](difficulty-onboarding-new-hires.md):** New team members take longer to become productive
+- **Difficulty Onboarding New Hires:** New team members take longer to become productive
 - **[Slow Development Velocity](slow-development-velocity.md):** Development is slowed by time spent understanding existing code
 - **Code Duplication:** Developers reimplement functionality rather than understanding and reusing existing code
 

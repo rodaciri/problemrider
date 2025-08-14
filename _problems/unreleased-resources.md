@@ -27,7 +27,7 @@ Unreleased resources occur when applications acquire system resources such as me
 ## Root Causes ▼
 - **Missing Finally Blocks:** Resources opened in try-catch blocks are not closed in finally clauses
 - **Exception Handling Gaps:** Resources are not released when exceptions occur during processing
-- **Circular References:** Objects with circular references prevent garbage collection from releasing resources
+- **[Circular References](circular-references.md):** Objects with circular references prevent garbage collection from releasing resources
 - **Missing Resource Disposal:** Developers forget to call close(), dispose(), or cleanup methods
 - **Incorrect Resource Management Patterns:** Using inappropriate patterns for resource lifecycle management
 - **Library or Framework Bugs:** Third-party components that don't properly manage their own resources

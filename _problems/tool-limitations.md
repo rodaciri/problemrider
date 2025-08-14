@@ -21,7 +21,7 @@ Tool limitations occur when the development tools, IDEs, build systems, or devel
 ## Symptoms ▲
 
 - **[Slow Development Velocity](slow-development-velocity.md):** Development is slowed by inefficient tools and workflows
-- **Increased Manual Work:** Developers spend time on repetitive tasks that should be automated
+- **[Increased Manual Work](increased-manual-work.md):** Developers spend time on repetitive tasks that should be automated
 - **[Developer Frustration and Burnout](developer-frustration-and-burnout.md):** Poor tools create daily friction and reduce job satisfaction
 - **Higher Error Rates:** Manual processes and poor tools lead to more mistakes
 - **[Context Switching Overhead](context-switching-overhead.md):** Multiple disconnected tools force frequent context changes

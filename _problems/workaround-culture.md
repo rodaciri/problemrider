@@ -28,7 +28,7 @@ Workaround culture develops when teams consistently choose to implement temporar
 ## Root Causes ▼
 - **Time Pressure:** Deadlines force quick solutions rather than proper fixes
 - **[Fear of Change](fear-of-change.md):** Teams avoid modifying core systems due to risk aversion
-- **Resource Constraints:** Lack of time or budget allocated for addressing root causes
+- **[Project Resource Constraints](project-resource-constraints.md):** Lack of time or budget allocated for addressing root causes
 - **Skill Gaps:** Team lacks expertise to implement proper solutions to complex problems
 - **Risk Aversion:** Organizational culture that severely penalizes failures encourages safe workarounds
 - **Legacy System Constraints:** Core systems are too difficult or risky to modify properly

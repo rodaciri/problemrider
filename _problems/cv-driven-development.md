@@ -27,7 +27,7 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 - **[Slow Development Velocity](slow-development-velocity.md):** Increased development time due to learning curves for new technologies
 - **[High Maintenance Costs](high-maintenance-costs.md):** Higher maintenance burden from adopting immature or bleeding-edge tools
 - **[Knowledge Silos](knowledge-silos.md):** Knowledge gaps when original implementers leave the team
-- **[Difficulty Onboarding New Hires](difficulty-onboarding-new-hires.md):** Difficulty finding developers familiar with the chosen technology stack
+- **Difficulty Onboarding New Hires:** Difficulty finding developers familiar with the chosen technology stack
 - **[Gold Plating](gold-plating.md):** Projects become showcases for multiple unproven technologies simultaneously
 - **[High Technical Debt](high-technical-debt.md):** Technical debt accumulates from experimental implementations
 - **[Slow Application Performance](slow-application-performance.md):** Performance or reliability issues from using inappropriate tools

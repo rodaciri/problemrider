@@ -24,7 +24,7 @@ Inconsistent onboarding experience occurs when new team members receive dramatic
 - **Uneven Team Performance:** Team members who received poor onboarding remain less productive long-term
 - **[Knowledge Gaps](knowledge-gaps.md):** Some team members miss critical information that others received during onboarding
 - **Team Cohesion Issues:** Differences in onboarding experience create perceived unfairness within the team
-- **[Extended Onboarding Period](extended-onboarding-period.md):** Some new hires take much longer to reach productivity due to inadequate initial support
+- **Extended Onboarding Period:** Some new hires take much longer to reach productivity due to inadequate initial support
 
 ## Root Causes ▼
 

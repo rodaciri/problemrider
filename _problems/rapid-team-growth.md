@@ -21,7 +21,7 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 ## Symptoms ▲
 
 - **[Mentor Burnout](mentor-burnout.md):** Experienced developers become overwhelmed with training responsibilities for multiple new hires
-- **[Extended Onboarding Period](extended-onboarding-period.md):** New team members take longer to become productive due to insufficient support
+- **Extended Onboarding Period:** New team members take longer to become productive due to insufficient support
 - **[Communication Breakdown](communication-breakdown.md):** Team coordination becomes difficult with rapidly changing team composition
 - **[Lower Code Quality](lower-code-quality.md):** Standards drop as review capacity cannot keep pace with increased development output
 - **Process Strain:** Existing workflows and tools cannot handle the increased team size effectively

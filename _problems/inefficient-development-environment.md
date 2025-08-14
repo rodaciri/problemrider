@@ -31,7 +31,7 @@ An inefficient development environment creates friction in the daily workflow of
 - **[High Bug Introduction Rate](high-bug-introduction-rate.md):** Higher bug rates as developers take shortcuts to avoid slow development processes
 - **[High Turnover](high-turnover.md):** Difficulty attracting and retaining skilled developers who expect modern tooling
 - **[Increased Cost of Development](increased-cost-of-development.md):** Higher development costs due to reduced productivity
-- **[Long Onboarding Time](long-onboarding-time.md):** Extended time required for new developers to become productive
+- **Long Onboarding Time:** Extended time required for new developers to become productive
 - **[Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md):** "Works on my machine" problems due to environment inconsistencies
 - **[Fear of Change](fear-of-change.md):** Reluctance to make changes due to slow feedback cycles
 - **[Refactoring Avoidance](refactoring-avoidance.md):** Avoiding code improvements due to slow development processes

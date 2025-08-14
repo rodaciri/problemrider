@@ -32,7 +32,7 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 - **Blocking I/O Operations:** Threads block on synchronous I/O operations without proper timeout handling
 - **[Deadlock Conditions](deadlock-conditions.md):** Threads become permanently blocked in circular wait conditions
 - **Inadequate Thread Pool Sizing:** Thread pool is configured with too few threads for the expected workload
-- **Resource Contention:** Threads block waiting for limited external resources like database connections
+- **[Resource Contention](resource-contention.md):** Threads block waiting for limited external resources like database connections
 - **Infinite Loops or Hangs:** Individual threads become stuck in infinite loops or unresponsive states
 
 ## Detection Methods ○

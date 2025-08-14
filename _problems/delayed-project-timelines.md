@@ -31,7 +31,7 @@ Delayed project timelines occur when software projects consistently take longer 
 - **[Unrealistic Deadlines](unrealistic-deadlines.md):** Initial estimates are based on optimistic assumptions rather than realistic assessment
 - **[Scope Creep](scope-creep.md):** Project requirements expand during development without adjusting timelines
 - **[Planning Dysfunction](planning-dysfunction.md):** Inadequate consideration of complexity, dependencies, and potential risks
-- **[Extended Onboarding Period](extended-onboarding-period.md):** New team members take longer than expected to become productive
+- **Extended Onboarding Period:** New team members take longer than expected to become productive
 - **[High Technical Debt](high-technical-debt.md):** Legacy code and technical debt slow down development more than anticipated
 
 ## Detection Methods ○

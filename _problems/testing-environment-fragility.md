@@ -31,7 +31,7 @@ Testing environment fragility occurs when the infrastructure supporting automate
 
 - **Environment Drift:** Testing environments gradually diverge from production configurations
 - **Manual Setup Processes:** Environment creation requires manual steps that introduce inconsistencies
-- **Resource Constraints:** Testing infrastructure receives inadequate hardware or budget allocation
+- **[Project Resource Constraints](project-resource-constraints.md):** Testing infrastructure receives inadequate hardware or budget allocation
 - **Configuration Complexity:** Testing environments have complex dependencies that are difficult to manage
 - **Lack of Infrastructure Ownership:** No clear responsibility for maintaining testing infrastructure quality
 - **Tooling Limitations:** Testing tools don't adequately support environment management and consistency

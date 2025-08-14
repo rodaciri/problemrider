@@ -31,7 +31,7 @@ When team members are disengaged from the code review process, it ceases to be a
 - **Fear of Conflict:** Reviewers avoid giving critical feedback to maintain harmony.
 - **Lack of Ownership/Accountability:** No clear expectations or accountability for review participation.
 - **Tooling Issues:** The code review tool is cumbersome or difficult to use, discouraging participation.
-- **Large Pull Requests:** Overly large pull requests are daunting to review, leading to procrastination or superficial checks.
+- **[Large Pull Requests](large-pull-requests.md):** Overly large pull requests are daunting to review, leading to procrastination or superficial checks.
 - **Culture of Individual Contribution:** The team culture emphasizes individual coding output over collaborative quality assurance.
 
 ## Detection Methods ○

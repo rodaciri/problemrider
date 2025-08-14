@@ -20,7 +20,7 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 
 ## Symptoms ▲
 
-- **[Context Switch Overhead](context-switch-overhead.md):** Team efficiency decreases due to frequent task switching
+- **Context Switch Overhead:** Team efficiency decreases due to frequent task switching
 - **[Project Resource Constraints](project-resource-constraints.md):** No single project gets sufficient resources to succeed
 - **[Delayed Project Timelines](delayed-project-timelines.md):** All projects suffer delays due to divided attention
 - **[Developer Frustration and Burnout](developer-frustration-and-burnout.md):** Team members feel overwhelmed by competing demands

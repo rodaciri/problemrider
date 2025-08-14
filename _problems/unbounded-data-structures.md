@@ -32,7 +32,7 @@ Unbounded data structures are collections, caches, logs, or other data container
 - **Lack of Data Lifecycle Management:** No policies for when data should be removed, archived, or expired
 - **Inadequate Cache Eviction:** Caching mechanisms lack proper eviction strategies like LRU, TTL, or size limits
 - **Accumulating Debug Information:** Debug logs, audit trails, or diagnostic data accumulate without rotation
-- **Session Management Issues:** User session data or temporary data structures grow without cleanup
+- **[Session Management Issues](session-management-issues.md):** User session data or temporary data structures grow without cleanup
 - **Event Queue Buildup:** Event queues or message buffers accumulate messages faster than they can be processed
 
 ## Detection Methods ○

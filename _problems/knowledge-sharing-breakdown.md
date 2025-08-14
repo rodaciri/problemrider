@@ -19,7 +19,7 @@ A knowledge sharing breakdown occurs when the mechanisms for distributing inform
 - **[Knowledge Silos](knowledge-silos.md):** Information is concentrated in a few individuals, making the team dependent on them.
 - **[Duplicated Research Effort](duplicated-research-effort.md):** Team members waste time and effort solving problems that have already been solved by others.
 - **[Slow Knowledge Transfer](slow-knowledge-transfer.md):** It takes a long time for new team members to become productive.
-- **[Extended Onboarding Period](extended-onboarding-period.md):** New team members require significantly longer than expected to become productive contributors.
+- **Extended Onboarding Period:** New team members require significantly longer than expected to become productive contributors.
 - **[Mentor Burnout](mentor-burnout.md):** Experienced team members become overwhelmed with training responsibilities.
 - **[Inconsistent Execution](inconsistent-execution.md):** Different team members use different approaches to solve similar problems, leading to an inconsistent codebase.
 

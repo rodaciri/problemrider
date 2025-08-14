@@ -33,7 +33,7 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 - **Specialized Platform Choice:** Original technology choice was highly specialized or proprietary
 - **Risk Aversion:** Organization avoids technology updates due to perceived risks
 - **Resource Constraints:** Insufficient budget or time allocated for technology modernization
-- **Knowledge Gaps:** Team lacks expertise to evaluate and adopt modern alternatives
+- **[Knowledge Gaps](knowledge-gaps.md):** Team lacks expertise to evaluate and adopt modern alternatives
 
 ## Detection Methods ○
 

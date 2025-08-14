@@ -10,6 +10,9 @@ Usage:
     
 Environment variables:
     LOCAL_EMBEDDING_URL: Default URL for local embedding service (default: http://host.docker.internal:1234)
+    
+Cache:
+    Embeddings are cached in _embeddings/[problem-name].yaml files for faster subsequent runs.
 """
 
 import yaml
@@ -104,44 +107,44 @@ class SimpleEmbeddingAnalyzer:
     def _get_model_name(self) -> str:
         """Get the name of the embedding model being used."""
         if self.use_local:
-            return f"local:{self.local_model_name}" if self.local_model_name else "local:unknown"
+            return f"{self.local_model_name}" if self.local_model_name else "unknown"
         else:
             return "Qwen/Qwen3-Embedding-0.6B"
     
     def _save_embedding_to_file(self, problem_key: str, embedding: np.ndarray, content_hash: str) -> None:
-        """Save embedding and hash directly to the problem file's YAML frontmatter."""
-        problem_data = self.problems[problem_key]
-        file_path = problem_data['file_path']
+        """Save embedding and metadata to a separate YAML file in _embeddings directory."""
+        # Ensure _embeddings directory exists
+        embeddings_dir = Path("_embeddings")
+        embeddings_dir.mkdir(exist_ok=True)
+        
+        # Create embedding file path
+        embedding_file = embeddings_dir / f"{problem_key}.yaml"
         
         try:
-            # Read current file
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
+            # Prepare embedding data
+            embedding_data = {
+                'hash': content_hash,
+                'model': self._get_model_name(),
+                'timestamp': self._get_timestamp(),
+                'embedding': embedding.tolist()  # Put embedding as last entry
+            }
             
-            # Split frontmatter and content
-            if content.startswith('---'):
-                parts = content.split('---', 2)
-                if len(parts) >= 3:
-                    metadata = yaml.safe_load(parts[1])
-                    markdown_content = parts[2]
-                    
-                    # Add embedding data to metadata
-                    metadata['_embedding'] = embedding.tolist()  # Convert to list for JSON serialization
-                    metadata['_embedding_hash'] = content_hash
-                    metadata['_embedding_model'] = self._get_model_name()
-                    metadata['_embedding_timestamp'] = self._get_timestamp()
-                    
-                    # Write back to file
-                    new_yaml = yaml.dump(metadata, default_flow_style=False, sort_keys=False, width=float('inf'))
-                    new_content = f"---\n{new_yaml}---{markdown_content}"
-                    
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(new_content)
-                    
-                    print(f"💾 Updated {problem_key} with embedding cache")
+            # Write YAML file with embedding values on separate lines (not as list)
+            with open(embedding_file, 'w', encoding='utf-8') as f:
+                # Write metadata first
+                f.write(f"hash: {embedding_data['hash']}\n")
+                f.write(f"model: {embedding_data['model']}\n")
+                f.write(f"timestamp: {embedding_data['timestamp']}\n")
+                f.write("embedding:\n")
+                
+                # Write embedding values under each other, not as a list
+                for value in embedding_data['embedding']:
+                    f.write(f"- {value}\n")
+            
+            print(f"💾 Saved embedding cache to _embeddings/{problem_key}.yaml")
                     
         except Exception as e:
-            print(f"⚠️  Could not save embedding to {problem_key}: {e}")
+            print(f"⚠️  Could not save embedding to _embeddings/{problem_key}.yaml: {e}")
     
     def _test_local_service(self):
         """Test connectivity to local embedding service and detect available models."""
@@ -315,21 +318,32 @@ class SimpleEmbeddingAnalyzer:
         keys_to_encode = []
         cached_count = 0
         
-        # Check each problem against embedded cache in YAML frontmatter
+        # Check each problem against cache in _embeddings directory
         for problem_key, problem_data in self.problems.items():
             content_hash = self._get_content_hash(problem_data)
             
-            # Check if we have embedded cache with matching content hash and model
-            metadata = problem_data['metadata']
-            cached_embedding = metadata.get('_embedding')
-            cached_hash = metadata.get('_embedding_hash')
-            cached_model = metadata.get('_embedding_model')
+            # Check if we have cached embedding in _embeddings directory
+            embedding_file = Path("_embeddings") / f"{problem_key}.yaml"
+            cached_embedding = None
+            cached_hash = None
+            cached_model = None
             current_model = self._get_model_name()
+            
+            if embedding_file.exists():
+                try:
+                    with open(embedding_file, 'r', encoding='utf-8') as f:
+                        cache_data = yaml.safe_load(f)
+                    
+                    cached_embedding = cache_data.get('embedding')
+                    cached_hash = cache_data.get('hash')
+                    cached_model = cache_data.get('model')
+                except Exception as e:
+                    print(f"⚠️  Could not load cache from {embedding_file}: {e}")
             
             if (cached_embedding and 
                 cached_hash == content_hash and 
                 cached_model == current_model):
-                # Use cached embedding from file
+                # Use cached embedding from separate file
                 if isinstance(cached_embedding, list):
                     cached_embedding = np.array(cached_embedding)
                 self.embeddings[problem_key] = cached_embedding
@@ -372,7 +386,7 @@ class SimpleEmbeddingAnalyzer:
         
         print(f"Ready with embeddings for {len(self.embeddings)} problems")
     
-    def find_related(self, problem_key: str, top_k: int = 5, min_similarity: float = 0.3) -> List[Tuple[str, float]]:
+    def find_related(self, problem_key: str, top_k: int = 6, min_similarity: float = 0.3) -> List[Tuple[str, float]]:
         """Find related problems using cosine similarity."""
         if problem_key not in self.embeddings:
             return []
@@ -414,7 +428,7 @@ class SimpleEmbeddingAnalyzer:
         
         updates = 0
         for problem_key in problem_keys:
-            related = self.find_related(problem_key, top_k=5, min_similarity=min_similarity)
+            related = self.find_related(problem_key, top_k=6, min_similarity=min_similarity)
             # Create list of objects with slug and similarity (as quantized decimals)
             new_related = [{"slug": key, "similarity": round(score * 20) / 20} for key, score in related]
             

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple embeddings using sentence-transformers with all-MiniLM-L6-v2.
+Simple embeddings using sentence-transformers with Qwen3-Embedding-0.6B.
 Install dependencies: pip install -r scripts/requirements.txt
 """
 
@@ -39,8 +39,18 @@ class SimpleEmbeddingAnalyzer:
         self.problems: Dict[str, Dict] = {}
         self.embeddings: Dict[str, np.ndarray] = {}
         
-        print("Loading all-MiniLM-L6-v2 model...")
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        print("Loading Qwen3-Embedding-0.6B model...")
+        self.model = SentenceTransformer('Qwen/Qwen3-Embedding-0.6B')
+        
+        device = self.model.device
+        print(f"Using device: {device}")
+        if 'cuda' in str(device):
+            import torch
+            gpu_name = torch.cuda.get_device_name(device)
+            print(f"GPU: {gpu_name}")
+        else:
+            import platform
+            print(f"CPU: {platform.processor()}")
         
     def load_problems(self) -> None:
         """Load all problem files."""
@@ -96,7 +106,7 @@ class SimpleEmbeddingAnalyzer:
         return sections
     
     def create_embeddings(self) -> None:
-        """Create fresh embeddings using all-MiniLM-L6-v2."""
+        """Create fresh embeddings using Qwen3-Embedding-0.6B."""
         print("Creating fresh embeddings...")
         
         texts_to_encode = []
@@ -183,7 +193,7 @@ class SimpleEmbeddingAnalyzer:
                 f.write(new_content)
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate related problems using all-MiniLM-L6-v2")
+    parser = argparse.ArgumentParser(description="Generate related problems using Qwen3-Embedding-0.6B")
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
     args = parser.parse_args()
     

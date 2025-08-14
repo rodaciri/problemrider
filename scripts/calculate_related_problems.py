@@ -57,6 +57,7 @@ class SimpleEmbeddingAnalyzer:
         self.embeddings: Dict[str, np.ndarray] = {}
         self.use_local = use_local
         self.local_url = local_url or os.getenv('LOCAL_EMBEDDING_URL', DEFAULT_LOCAL_EMBEDDING_URL)
+        self.local_model_name = None
         
         if self.use_local:
             if requests is None:
@@ -79,7 +80,7 @@ class SimpleEmbeddingAnalyzer:
                 print(f"CPU: {platform.processor()}")
     
     def _test_local_service(self):
-        """Test connectivity to local embedding service."""
+        """Test connectivity to local embedding service and detect available models."""
         try:
             # Test LM Studio's models endpoint instead of /health
             response = requests.get(f"{self.local_url}/v1/models", timeout=5)
@@ -88,10 +89,15 @@ class SimpleEmbeddingAnalyzer:
                 if data.get('data'):
                     model_names = [model.get('id', 'unknown') for model in data['data']]
                     print(f"✅ LM Studio is available with models: {', '.join(model_names)}")
+                    # Use the first available model
+                    self.local_model_name = model_names[0]
+                    print(f"🎯 Using model: {self.local_model_name}")
                 else:
                     print("⚠️  LM Studio is available but no models are loaded")
+                    raise ValueError("No models available in local service")
             else:
                 print(f"⚠️  Local service responded with status {response.status_code}")
+                raise ValueError(f"Local service returned status {response.status_code}")
         except requests.exceptions.RequestException as e:
             print(f"❌ Cannot connect to LM Studio: {e}")
             print("🔄 Falling back to local model...")
@@ -153,28 +159,89 @@ class SimpleEmbeddingAnalyzer:
         return sections
     
     def _get_embeddings_local(self, texts: List[str]) -> np.ndarray:
-        """Get embeddings from LM Studio using OpenAI-compatible API."""
+        """Get embeddings from LM Studio using OpenAI-compatible API with batch processing."""
         try:
-            # Use OpenAI-compatible embeddings endpoint
+            from tqdm import tqdm
+            
+            # Try batch processing first
+            batch_size = min(20, len(texts))  # Start with reasonable batch size
+            
+            if len(texts) > 1:
+                try:
+                    # Test if batch processing is supported with 2 texts
+                    test_batch = texts[:min(2, len(texts))]
+                    test_response = requests.post(
+                        f"{self.local_url}/v1/embeddings",
+                        json={
+                            "input": test_batch,
+                            "model": self.local_model_name
+                        },
+                        headers={"Content-Type": "application/json"},
+                        timeout=30
+                    )
+                    
+                    if test_response.status_code == 200:
+                        test_data = test_response.json()
+                        if isinstance(test_data.get("data"), list) and len(test_data["data"]) == len(test_batch):
+                            print(f"🚀 Using batch processing (batch_size={batch_size})")
+                            return self._get_embeddings_batch(texts, batch_size)
+                except Exception as e:
+                    print(f"⚠️ Batch test failed: {e}")
+                    pass  # Fall back to individual requests
+            
+            # Fall back to individual requests
+            print("🐌 Using individual requests (batch processing not supported)")
             embeddings = []
-            for text in texts:
-                response = requests.post(
-                    f"{self.local_url}/v1/embeddings",
-                    json={
-                        "input": text,
-                        "model": "text-embedding-nomic-embed-text-v1.5"
-                    },
-                    headers={"Content-Type": "application/json"},
-                    timeout=30
-                )
-                response.raise_for_status()
-                data = response.json()
-                embeddings.append(data["data"][0]["embedding"])
+            
+            with tqdm(texts, desc="🌐 Getting embeddings", unit="text") as pbar:
+                for text in pbar:
+                    response = requests.post(
+                        f"{self.local_url}/v1/embeddings",
+                        json={
+                            "input": text,
+                            "model": self.local_model_name
+                        },
+                        headers={"Content-Type": "application/json"},
+                        timeout=30
+                    )
+                    response.raise_for_status()
+                    data = response.json()
+                    embeddings.append(data["data"][0]["embedding"])
             
             return np.array(embeddings)
         except requests.exceptions.RequestException as e:
             print(f"❌ Error getting embeddings from LM Studio: {e}")
             raise
+    
+    def _get_embeddings_batch(self, texts: List[str], batch_size: int) -> np.ndarray:
+        """Get embeddings in batches for better performance."""
+        from tqdm import tqdm
+        embeddings = []
+        
+        # Process in batches
+        num_batches = (len(texts) + batch_size - 1) // batch_size
+        with tqdm(range(0, len(texts), batch_size), desc="🚀 Batch processing", unit="batch", total=num_batches) as pbar:
+            for i in pbar:
+                batch = texts[i:i + batch_size]
+                pbar.set_postfix({"batch_size": len(batch)})
+                
+                response = requests.post(
+                    f"{self.local_url}/v1/embeddings",
+                    json={
+                        "input": batch,
+                        "model": self.local_model_name
+                    },
+                    headers={"Content-Type": "application/json"},
+                    timeout=60  # Longer timeout for batches
+                )
+                response.raise_for_status()
+                data = response.json()
+                
+                # Extract embeddings from batch response
+                batch_embeddings = [item["embedding"] for item in data["data"]]
+                embeddings.extend(batch_embeddings)
+        
+        return np.array(embeddings)
     
     def create_embeddings(self) -> None:
         """Create fresh embeddings using local service or Qwen3-Embedding-0.6B."""
@@ -197,14 +264,14 @@ class SimpleEmbeddingAnalyzer:
             texts_to_encode.append(text)
             keys_to_encode.append(problem_key)
         
-        print(f"Encoding {len(texts_to_encode)} problems...")
+        print(f"📊 Encoding {len(texts_to_encode)} problems...")
         
         if self.use_local:
             print(f"🌐 Generating embeddings via local service at {self.local_url}")
             embeddings = self._get_embeddings_local(texts_to_encode)
         else:
             print("🤖 Generating embeddings using local Qwen3-Embedding-0.6B model")
-            embeddings = self.model.encode(texts_to_encode, show_progress_bar=True)
+            embeddings = self.model.encode(texts_to_encode, show_progress_bar=True, convert_to_numpy=True)
         
         for key, embedding in zip(keys_to_encode, embeddings):
             self.embeddings[key] = embedding

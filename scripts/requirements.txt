@@ -5,3 +5,7 @@ PyYAML
 sentence-transformers>=2.2.0  # Best quality embeddings (~90MB download)
 scikit-learn>=1.2.0           # Fallback TF-IDF approach
 numpy>=1.21.0                 # Required for embeddings
+
+# For robust markdown text extraction
+markdown>=3.4.0               # Convert markdown to HTML
+beautifulsoup4>=4.11.0        # Extract plain text from HTML

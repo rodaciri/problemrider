@@ -11,6 +11,14 @@ import numpy as np
 from pathlib import Path
 from typing import Dict, List, Tuple
 
+try:
+    import markdown
+    from bs4 import BeautifulSoup
+except ImportError:
+    print("❌ markdown/beautifulsoup4 not installed")
+    print("Run: pip install -r scripts/requirements.txt")
+    exit(1)
+
 
 try:
     from sentence_transformers import SentenceTransformer
@@ -63,35 +71,28 @@ class SimpleEmbeddingAnalyzer:
                 
         print(f"Loaded {len(self.problems)} problems")
     
+    def _clean_markdown_text(self, text: str) -> str:
+        """Clean markdown formatting from text."""
+        # Convert markdown to HTML, then extract plain text
+        html = markdown.markdown(text)
+        soup = BeautifulSoup(html, 'html.parser')
+        plain_text = soup.get_text()
+        return re.sub(r'\s+', ' ', plain_text).strip()
+    
+    def _extract_section(self, content: str, section_name: str) -> str:
+        """Extract a specific section from markdown content."""
+        pattern = rf'## {section_name}.*?\n(.*?)(?=\n## |\n$)'
+        match = re.search(pattern, content, re.IGNORECASE | re.DOTALL)
+        if match:
+            return self._clean_markdown_text(match.group(1))
+        return ''
+    
     def _extract_additional_sections(self, content: str) -> dict:
         """Extract specific sections: indicators, description, and examples."""
-        
-        sections = {'indicators': '', 'description': ''}  # Initialize with empty sections
-        
-        # Extract indicators section
-        indicators_pattern = r'## Indicators.*?\n(.*?)(?=\n## |\n$)'
-        indicators_match = re.search(indicators_pattern, content, re.IGNORECASE | re.DOTALL)
-        if indicators_match:
-            indicators_text = indicators_match.group(1)
-            # Clean markdown formatting
-            indicators_text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', indicators_text)  # Remove links
-            indicators_text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', indicators_text)  # Remove bold
-            indicators_text = re.sub(r'[-*]\s*', '', indicators_text)  # Remove bullets
-            indicators_text = re.sub(r'\s+', ' ', indicators_text).strip()
-            sections['indicators'] = indicators_text
-        
-        # Extract description section
-        description_pattern = r'## Description.*?\n(.*?)(?=\n## |\n$)'
-        description_match = re.search(description_pattern, content, re.IGNORECASE | re.DOTALL)
-        if description_match:
-            description_text = description_match.group(1)
-            # Clean markdown formatting
-            description_text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', description_text)  # Remove links
-            description_text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', description_text)  # Remove bold
-            description_text = re.sub(r'[-*]\s*', '', description_text)  # Remove bullets
-            description_text = re.sub(r'\s+', ' ', description_text).strip()
-            sections['description'] = description_text
-                
+        sections = {
+            'indicators': self._extract_section(content, 'Indicators'),
+            'description': self._extract_section(content, 'Description')
+        }
         return sections
     
     def create_embeddings(self) -> None:
@@ -139,25 +140,6 @@ class SimpleEmbeddingAnalyzer:
                     similarities.append((other_key, float(similarity)))
         
         return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
-    
-    def test_sample(self):
-        """Test with sample problems."""
-        test_problems = [
-            'context-switching-overhead',
-            'developer-frustration-and-burnout',
-            'high-technical-debt',
-            'difficult-developer-onboarding',
-            'scope-creep'
-        ]
-        
-        print("\nSample results:")
-        for key in test_problems:
-            if key in self.problems:
-                related = self.find_related(key, top_k=3, min_similarity=MIN_SIMILARITY)
-                current = self.problems[key]['current_related_problems']
-                print(f"\n{key}:")
-                print(f"  Current: {current}")
-                print(f"  New: {[f'{k}({s:.3f})' for k, s in related]}")
     
     def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3, force_update: bool = False):
         """Update all files with new related problems."""
@@ -212,18 +194,14 @@ class SimpleEmbeddingAnalyzer:
 
 def main():
     parser = argparse.ArgumentParser(description="Generate related problems using all-MiniLM-L6-v2")
-    parser.add_argument("--test", action="store_true", help="Test with sample problems")
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
     args = parser.parse_args()
     
     analyzer = SimpleEmbeddingAnalyzer()
     analyzer.load_problems()
     analyzer.create_embeddings()
-    
-    if args.test:
-        analyzer.test_sample()
-    else:
-        analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY, force_update=False)
+
+    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY, force_update=False)
 
 if __name__ == "__main__":
     main()

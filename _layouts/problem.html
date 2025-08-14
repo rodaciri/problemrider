@@ -38,7 +38,7 @@ layout: default
               {{ related_problem.title }}
             </a>
             {% if similarity_score %}
-              {% assign percentage = similarity_score | times: 100 %}
+              {% assign percentage = similarity_score | times: 100 | round %}
               <span class="similarity-score">({{ percentage }}%)</span>
             {% endif %}
             {% if related_problem.description %}

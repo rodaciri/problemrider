@@ -1,4 +1,7 @@
+# For similar writing of titles
 titlecase
+
+# For working with Jekyll markdown files
 PyYAML
 
 # For embeddings-based related_problems generation
@@ -12,3 +15,7 @@ beautifulsoup4>=4.11.0        # Extract plain text from HTML
 
 # For local embedding service support
 requests>=2.28.0              # HTTP client for local embedding API
+
+# For causal relationship validation
+networkx>=2.8.0               # Graph structure for causal modeling
+openai>=1.0.0                 # LLM-based causal reasoning

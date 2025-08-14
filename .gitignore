@@ -9,3 +9,4 @@ Gemfile.lock
 # User output files
 neo4j_simple/
 scripts/backlog/
+scripts/tmp/

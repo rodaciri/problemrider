@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "scripts/check_links.py --fix"
+          },
+          {
+            "type": "command",
+            "command": "scripts/convert_titles.py --fix"PostT
+          }
+        ]
+      }
+    ]
+  }
+}

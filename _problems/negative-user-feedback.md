@@ -6,15 +6,15 @@ category:
 - Business
 related_problems:
 - slug: declining-business-metrics
-  similarity: 0.642
+  similarity: 65%
 - slug: user-trust-erosion
-  similarity: 0.603
-- slug: negative-brand-perception
-  similarity: 0.597
-- slug: customer-dissatisfaction
-  similarity: 0.578
+  similarity: 65%
 - slug: user-frustration
-  similarity: 0.573
+  similarity: 60%
+- slug: customer-dissatisfaction
+  similarity: 60%
+- slug: negative-brand-perception
+  similarity: 60%
 layout: problem
 ---
 

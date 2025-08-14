@@ -8,15 +8,15 @@ category:
 - User Experience
 related_problems:
 - slug: poor-system-environment
-  similarity: 0.677
+  similarity: 65%
 - slug: quality-blind-spots
-  similarity: 0.578
-- slug: poor-user-experience-ux-design
-  similarity: 0.57
+  similarity: 60%
 - slug: testing-environment-fragility
-  similarity: 0.563
+  similarity: 55%
+- slug: poor-user-experience-ux-design
+  similarity: 55%
 - slug: error-message-information-disclosure
-  similarity: 0.557
+  similarity: 55%
 layout: problem
 ---
 

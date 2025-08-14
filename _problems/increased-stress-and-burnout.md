@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: overworked-teams
-  similarity: 0.804
+  similarity: 80%
 - slug: developer-frustration-and-burnout
-  similarity: 0.733
+  similarity: 75%
 - slug: uneven-workload-distribution
-  similarity: 0.676
+  similarity: 70%
 - slug: mental-fatigue
-  similarity: 0.657
+  similarity: 65%
 - slug: deadline-pressure
-  similarity: 0.621
+  similarity: 60%
 layout: problem
 ---
 

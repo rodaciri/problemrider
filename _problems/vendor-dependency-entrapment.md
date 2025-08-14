@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: vendor-lock-in
-  similarity: 0.708
+  similarity: 70%
 - slug: dependency-on-supplier
-  similarity: 0.697
+  similarity: 70%
 - slug: vendor-dependency
-  similarity: 0.684
-- slug: legacy-skill-shortage
-  similarity: 0.578
+  similarity: 70%
 - slug: vendor-relationship-strain
-  similarity: 0.574
+  similarity: 60%
+- slug: legacy-skill-shortage
+  similarity: 55%
 layout: problem
 ---
 

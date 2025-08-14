@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: difficult-to-understand-code
-  similarity: 0.658
-- slug: clever-code
-  similarity: 0.618
+  similarity: 65%
 - slug: difficult-code-comprehension
-  similarity: 0.614
+  similarity: 65%
+- slug: clever-code
+  similarity: 60%
 - slug: insufficient-design-skills
-  similarity: 0.569
+  similarity: 55%
 - slug: brittle-codebase
-  similarity: 0.55
+  similarity: 55%
 layout: problem
 ---
 

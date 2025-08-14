@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: high-coupling-low-cohesion
-  similarity: 0.712
+  similarity: 70%
 - slug: unpredictable-system-behavior
-  similarity: 0.675
+  similarity: 65%
 - slug: inadequate-integration-tests
-  similarity: 0.649
+  similarity: 65%
 - slug: ripple-effect-of-changes
-  similarity: 0.638
+  similarity: 65%
 - slug: deployment-coupling
-  similarity: 0.628
+  similarity: 65%
 layout: problem
 ---
 

@@ -9,15 +9,15 @@ category:
 - Maintenance
 related_problems:
 - slug: slow-incident-resolution
-  similarity: 0.611
+  similarity: 60%
 - slug: system-outages
-  similarity: 0.574
+  similarity: 55%
 - slug: poor-operational-concept
-  similarity: 0.556
+  similarity: 55%
 - slug: quality-blind-spots
-  similarity: 0.551
+  similarity: 55%
 - slug: delayed-issue-resolution
-  similarity: 0.54
+  similarity: 55%
 layout: problem
 ---
 

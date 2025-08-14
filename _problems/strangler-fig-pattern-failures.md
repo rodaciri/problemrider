@@ -8,15 +8,15 @@ category:
 - Migration
 related_problems:
 - slug: stagnant-architecture
-  similarity: 0.605
-- slug: second-system-effect
-  similarity: 0.578
+  similarity: 60%
 - slug: system-stagnation
-  similarity: 0.575
+  similarity: 55%
+- slug: second-system-effect
+  similarity: 55%
 - slug: implementation-rework
-  similarity: 0.558
+  similarity: 55%
 - slug: modernization-strategy-paralysis
-  similarity: 0.541
+  similarity: 55%
 layout: problem
 ---
 

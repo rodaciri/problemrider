@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: inexperienced-developers
-  similarity: 0.632
+  similarity: 65%
 - slug: knowledge-gaps
-  similarity: 0.617
-- slug: knowledge-dependency
-  similarity: 0.581
-- slug: knowledge-silos
-  similarity: 0.572
+  similarity: 60%
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.567
+  similarity: 60%
+- slug: knowledge-silos
+  similarity: 60%
+- slug: knowledge-dependency
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: tool-limitations
-  similarity: 0.674
+  similarity: 65%
 - slug: debugging-difficulties
-  similarity: 0.643
+  similarity: 65%
 - slug: increased-manual-work
-  similarity: 0.63
+  similarity: 60%
 - slug: lower-code-quality
-  similarity: 0.621
+  similarity: 60%
 - slug: inefficient-development-environment
-  similarity: 0.606
+  similarity: 60%
 layout: problem
 ---
 

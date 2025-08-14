@@ -8,9 +8,9 @@ category:
 - Design
 related_problems:
 - slug: legacy-configuration-management-chaos
-  similarity: 0.575
+  similarity: 60%
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.535
+  similarity: 55%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - User Experience
 related_problems:
 - slug: incomplete-projects
-  similarity: 0.718
+  similarity: 70%
 - slug: reduced-feature-quality
-  similarity: 0.678
+  similarity: 70%
 - slug: feature-bloat
-  similarity: 0.631
+  similarity: 65%
 - slug: slow-feature-development
-  similarity: 0.607
+  similarity: 60%
 - slug: inadequate-requirements-gathering
-  similarity: 0.605
+  similarity: 60%
 layout: problem
 ---
 

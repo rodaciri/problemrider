@@ -7,16 +7,16 @@ category:
 - Technical Debt
 - Process
 related_problems:
-- slug: increasing-brittleness
-  similarity: 0.696
-- slug: increased-bug-count
-  similarity: 0.685
-- slug: lower-code-quality
-  similarity: 0.675
-- slug: inconsistent-quality
-  similarity: 0.673
 - slug: maintenance-cost-increase
-  similarity: 0.661
+  similarity: 70%
+- slug: increasing-brittleness
+  similarity: 70%
+- slug: lower-code-quality
+  similarity: 70%
+- slug: increased-bug-count
+  similarity: 70%
+- slug: inconsistent-quality
+  similarity: 65%
 layout: problem
 ---
 

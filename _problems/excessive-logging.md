@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: log-spam
-  similarity: 0.752
+  similarity: 75%
 - slug: logging-configuration-issues
-  similarity: 0.725
+  similarity: 70%
 - slug: increased-error-rates
-  similarity: 0.608
+  similarity: 60%
 - slug: slow-database-queries
-  similarity: 0.589
+  similarity: 60%
 - slug: high-number-of-database-queries
-  similarity: 0.583
+  similarity: 60%
 layout: problem
 ---
 

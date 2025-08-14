@@ -7,16 +7,16 @@ category:
 - Operations
 - System Management
 related_problems:
-- slug: inadequate-configuration-management
-  similarity: 0.813
 - slug: configuration-chaos
-  similarity: 0.806
+  similarity: 85%
+- slug: inadequate-configuration-management
+  similarity: 80%
 - slug: deployment-environment-inconsistencies
-  similarity: 0.731
+  similarity: 70%
 - slug: legacy-configuration-management-chaos
-  similarity: 0.67
+  similarity: 70%
 - slug: change-management-chaos
-  similarity: 0.604
+  similarity: 65%
 layout: problem
 ---
 

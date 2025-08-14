@@ -8,15 +8,15 @@ category:
 - Decision Making
 related_problems:
 - slug: delayed-decision-making
-  similarity: 0.849
+  similarity: 85%
 - slug: accumulated-decision-debt
-  similarity: 0.776
+  similarity: 80%
 - slug: decision-paralysis
-  similarity: 0.749
+  similarity: 75%
 - slug: avoidance-behaviors
-  similarity: 0.689
+  similarity: 70%
 - slug: work-blocking
-  similarity: 0.654
+  similarity: 65%
 layout: problem
 ---
 

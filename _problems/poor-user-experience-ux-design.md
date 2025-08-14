@@ -7,15 +7,15 @@ category:
 - Business
 related_problems:
 - slug: user-frustration
-  similarity: 0.626
+  similarity: 60%
 - slug: reduced-feature-quality
-  similarity: 0.584
+  similarity: 60%
 - slug: inadequate-error-handling
-  similarity: 0.57
+  similarity: 55%
 - slug: inadequate-onboarding
-  similarity: 0.546
+  similarity: 55%
 - slug: customer-dissatisfaction
-  similarity: 0.543
+  similarity: 55%
 layout: problem
 ---
 

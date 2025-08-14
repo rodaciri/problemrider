@@ -8,15 +8,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: complex-domain-model
-  similarity: 0.694
+  similarity: 70%
 - slug: poor-domain-model
-  similarity: 0.678
+  similarity: 70%
 - slug: data-migration-integrity-issues
-  similarity: 0.622
+  similarity: 60%
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.579
+  similarity: 60%
 - slug: schema-evolution-paralysis
-  similarity: 0.558
+  similarity: 55%
 layout: problem
 ---
 

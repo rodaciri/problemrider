@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: reduced-individual-productivity
-  similarity: 0.716
+  similarity: 70%
 - slug: increased-cognitive-load
-  similarity: 0.694
-- slug: developer-frustration-and-burnout
-  similarity: 0.688
+  similarity: 70%
 - slug: cognitive-overload
-  similarity: 0.685
+  similarity: 70%
+- slug: developer-frustration-and-burnout
+  similarity: 70%
 - slug: context-switching-overhead
-  similarity: 0.676
+  similarity: 70%
 layout: problem
 ---
 

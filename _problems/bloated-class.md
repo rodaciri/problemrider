@@ -7,7 +7,7 @@ category:
 - Maintenance
 related_problems:
 - slug: excessive-class-size
-  similarity: 0.552
+  similarity: 60%
 layout: problem
 ---
 

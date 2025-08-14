@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: staff-availability-issues
-  similarity: 0.678
+  similarity: 70%
 - slug: development-disruption
-  similarity: 0.665
+  similarity: 65%
 - slug: single-points-of-failure
-  similarity: 0.661
+  similarity: 65%
 - slug: reduced-team-productivity
-  similarity: 0.645
+  similarity: 65%
 - slug: maintenance-paralysis
-  similarity: 0.635
+  similarity: 65%
 layout: problem
 ---
 

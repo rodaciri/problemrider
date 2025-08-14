@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: legacy-skill-shortage
-  similarity: 0.668
+  similarity: 65%
 - slug: system-stagnation
-  similarity: 0.615
+  similarity: 60%
 - slug: increasing-brittleness
-  similarity: 0.615
+  similarity: 60%
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.591
+  similarity: 60%
 - slug: technology-isolation
-  similarity: 0.59
+  similarity: 60%
 layout: problem
 ---
 

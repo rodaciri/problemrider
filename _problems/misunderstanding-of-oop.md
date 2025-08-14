@@ -7,16 +7,16 @@ category:
 - Team
 - Design
 related_problems:
-- slug: over-reliance-on-utility-classes
-  similarity: 0.637
-- slug: procedural-programming-in-oop-languages
-  similarity: 0.62
 - slug: procedural-background
-  similarity: 0.598
+  similarity: 65%
+- slug: over-reliance-on-utility-classes
+  similarity: 65%
+- slug: procedural-programming-in-oop-languages
+  similarity: 60%
 - slug: poor-encapsulation
-  similarity: 0.546
+  similarity: 55%
 - slug: complex-and-obscure-logic
-  similarity: 0.531
+  similarity: 55%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: testing-environment-fragility
-  similarity: 0.75
+  similarity: 75%
 - slug: high-defect-rate-in-production
-  similarity: 0.73
+  similarity: 75%
 - slug: inadequate-integration-tests
-  similarity: 0.723
+  similarity: 70%
 - slug: poor-test-coverage
-  similarity: 0.712
+  similarity: 70%
 - slug: insufficient-testing
-  similarity: 0.708
+  similarity: 70%
 layout: problem
 ---
 

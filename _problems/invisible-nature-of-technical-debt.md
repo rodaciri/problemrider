@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: high-technical-debt
-  similarity: 0.769
+  similarity: 75%
 - slug: difficulty-quantifying-benefits
-  similarity: 0.666
+  similarity: 65%
 - slug: modernization-roi-justification-failure
-  similarity: 0.622
-- slug: refactoring-avoidance
-  similarity: 0.6
+  similarity: 60%
 - slug: maintenance-cost-increase
-  similarity: 0.6
+  similarity: 60%
+- slug: refactoring-avoidance
+  similarity: 60%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Operational
 related_problems:
 - slug: inadequate-configuration-management
-  similarity: 0.74
-- slug: configuration-drift
-  similarity: 0.693
+  similarity: 75%
 - slug: configuration-chaos
-  similarity: 0.688
+  similarity: 70%
+- slug: configuration-drift
+  similarity: 70%
 - slug: deployment-environment-inconsistencies
-  similarity: 0.62
+  similarity: 60%
 - slug: poor-system-environment
-  similarity: 0.597
+  similarity: 60%
 layout: problem
 ---
 

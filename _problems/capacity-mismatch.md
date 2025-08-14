@@ -8,15 +8,15 @@ category:
 - Capacity Planning
 related_problems:
 - slug: bottleneck-formation
-  similarity: 0.68
-- slug: uneven-work-flow
-  similarity: 0.646
-- slug: resource-waste
-  similarity: 0.643
-- slug: uneven-workload-distribution
-  similarity: 0.63
+  similarity: 70%
 - slug: work-queue-buildup
-  similarity: 0.613
+  similarity: 70%
+- slug: uneven-work-flow
+  similarity: 65%
+- slug: resource-waste
+  similarity: 65%
+- slug: uneven-workload-distribution
+  similarity: 65%
 layout: problem
 ---
 

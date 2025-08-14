@@ -6,16 +6,16 @@ category:
 - Process
 - Communication
 related_problems:
-- slug: reviewer-anxiety
-  similarity: 0.7
-- slug: reviewer-inexperience
-  similarity: 0.682
-- slug: fear-of-conflict
-  similarity: 0.671
-- slug: inadequate-code-reviews
-  similarity: 0.665
 - slug: reduced-review-participation
-  similarity: 0.658
+  similarity: 75%
+- slug: inadequate-code-reviews
+  similarity: 70%
+- slug: reviewer-anxiety
+  similarity: 70%
+- slug: reviewer-inexperience
+  similarity: 70%
+- slug: fear-of-conflict
+  similarity: 70%
 layout: problem
 ---
 

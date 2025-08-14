@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: author-frustration
-  similarity: 0.75
+  similarity: 75%
 - slug: reviewer-anxiety
-  similarity: 0.642
+  similarity: 65%
 - slug: review-process-breakdown
-  similarity: 0.639
+  similarity: 65%
 - slug: fear-of-conflict
-  similarity: 0.635
+  similarity: 65%
 - slug: inadequate-initial-reviews
-  similarity: 0.634
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Workload Distribution
 related_problems:
 - slug: team-members-not-engaged-in-review-process
-  similarity: 0.772
+  similarity: 75%
 - slug: reviewer-anxiety
-  similarity: 0.758
+  similarity: 75%
 - slug: reviewer-inexperience
-  similarity: 0.685
+  similarity: 70%
 - slug: reduced-code-submission-frequency
-  similarity: 0.673
+  similarity: 65%
 - slug: review-process-avoidance
-  similarity: 0.672
+  similarity: 65%
 layout: problem
 ---
 

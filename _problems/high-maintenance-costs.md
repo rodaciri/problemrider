@@ -7,15 +7,15 @@ category:
 - Business
 related_problems:
 - slug: maintenance-overhead
-  similarity: 0.802
+  similarity: 80%
 - slug: maintenance-cost-increase
-  similarity: 0.788
+  similarity: 80%
 - slug: increased-cost-of-development
-  similarity: 0.705
+  similarity: 70%
 - slug: increasing-brittleness
-  similarity: 0.696
+  similarity: 70%
 - slug: high-technical-debt
-  similarity: 0.694
+  similarity: 70%
 layout: problem
 ---
 

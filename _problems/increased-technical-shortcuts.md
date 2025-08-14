@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: accumulation-of-workarounds
-  similarity: 0.677
-- slug: workaround-culture
-  similarity: 0.666
-- slug: quality-compromises
-  similarity: 0.664
+  similarity: 70%
 - slug: time-pressure
-  similarity: 0.66
+  similarity: 65%
+- slug: workaround-culture
+  similarity: 65%
+- slug: quality-compromises
+  similarity: 65%
 - slug: deadline-pressure
-  similarity: 0.634
+  similarity: 65%
 layout: problem
 ---
 

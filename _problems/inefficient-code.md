@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: slow-application-performance
-  similarity: 0.632
+  similarity: 65%
 - slug: resource-contention
-  similarity: 0.62
+  similarity: 60%
 - slug: high-api-latency
-  similarity: 0.592
+  similarity: 60%
 - slug: inefficient-frontend-code
-  similarity: 0.587
+  similarity: 60%
 - slug: algorithmic-complexity-problems
-  similarity: 0.574
+  similarity: 60%
 layout: problem
 ---
 

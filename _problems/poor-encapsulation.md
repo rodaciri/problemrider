@@ -8,11 +8,11 @@ category:
 - Quality
 related_problems:
 - slug: misunderstanding-of-oop
-  similarity: 0.546
+  similarity: 55%
 - slug: over-reliance-on-utility-classes
-  similarity: 0.533
+  similarity: 55%
 - slug: procedural-programming-in-oop-languages
-  similarity: 0.511
+  similarity: 50%
 layout: problem
 ---
 

@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: cache-invalidation-problems
-  similarity: 0.705
+  similarity: 75%
 - slug: high-number-of-database-queries
-  similarity: 0.591
+  similarity: 70%
 - slug: slow-response-times-for-lists
-  similarity: 0.575
+  similarity: 60%
 - slug: data-structure-cache-inefficiency
-  similarity: 0.558
+  similarity: 60%
 - slug: resource-contention
-  similarity: 0.549
+  similarity: 60%
 layout: problem
 ---
 

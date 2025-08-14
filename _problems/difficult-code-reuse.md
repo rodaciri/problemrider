@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: code-duplication
-  similarity: 0.641
+  similarity: 65%
 - slug: copy-paste-programming
-  similarity: 0.605
+  similarity: 65%
 - slug: high-coupling-low-cohesion
-  similarity: 0.572
+  similarity: 60%
 - slug: difficult-to-understand-code
-  similarity: 0.558
+  similarity: 55%
 - slug: increasing-brittleness
-  similarity: 0.541
+  similarity: 55%
 layout: problem
 ---
 

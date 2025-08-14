@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: reduced-innovation
-  similarity: 0.714
+  similarity: 70%
 - slug: cv-driven-development
-  similarity: 0.625
+  similarity: 60%
 - slug: inability-to-innovate
-  similarity: 0.6
-- slug: decision-avoidance
-  similarity: 0.598
+  similarity: 60%
 - slug: skill-development-gaps
-  similarity: 0.598
+  similarity: 60%
+- slug: decision-avoidance
+  similarity: 60%
 layout: problem
 ---
 

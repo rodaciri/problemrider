@@ -6,15 +6,15 @@ category:
 - User Experience
 related_problems:
 - slug: inconsistent-behavior
-  similarity: 0.673
+  similarity: 65%
 - slug: user-frustration
-  similarity: 0.617
+  similarity: 60%
 - slug: inconsistent-execution
-  similarity: 0.593
+  similarity: 60%
 - slug: team-confusion
-  similarity: 0.557
+  similarity: 55%
 - slug: author-frustration
-  similarity: 0.55
+  similarity: 55%
 layout: problem
 ---
 

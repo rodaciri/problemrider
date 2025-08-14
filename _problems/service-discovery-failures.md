@@ -8,13 +8,13 @@ category:
 - Networking
 related_problems:
 - slug: microservice-communication-overhead
-  similarity: 0.616
+  similarity: 60%
 - slug: load-balancing-problems
-  similarity: 0.547
-- slug: cascade-failures
-  similarity: 0.53
+  similarity: 55%
 - slug: system-outages
-  similarity: 0.529
+  similarity: 55%
+- slug: cascade-failures
+  similarity: 55%
 layout: problem
 ---
 

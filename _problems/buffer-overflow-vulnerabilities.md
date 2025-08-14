@@ -7,15 +7,15 @@ category:
 - Technical
 related_problems:
 - slug: stack-overflow-errors
-  similarity: 0.763
+  similarity: 75%
 - slug: null-pointer-dereferences
-  similarity: 0.704
+  similarity: 70%
 - slug: integer-overflow-underflow
-  similarity: 0.645
+  similarity: 65%
 - slug: error-message-information-disclosure
-  similarity: 0.591
+  similarity: 60%
 - slug: excessive-object-allocation
-  similarity: 0.59
+  similarity: 60%
 layout: problem
 ---
 

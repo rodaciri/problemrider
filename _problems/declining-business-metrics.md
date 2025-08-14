@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: negative-user-feedback
-  similarity: 0.63
+  similarity: 65%
 - slug: user-trust-erosion
-  similarity: 0.622
+  similarity: 60%
 - slug: stakeholder-dissatisfaction
-  similarity: 0.579
-- slug: modernization-roi-justification-failure
-  similarity: 0.572
+  similarity: 60%
 - slug: competitive-disadvantage
-  similarity: 0.569
+  similarity: 55%
+- slug: modernization-roi-justification-failure
+  similarity: 55%
 layout: problem
 ---
 

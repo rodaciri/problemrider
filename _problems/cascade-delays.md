@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: delayed-project-timelines
-  similarity: 0.72
+  similarity: 70%
 - slug: bottleneck-formation
-  similarity: 0.636
+  similarity: 65%
 - slug: delayed-decision-making
-  similarity: 0.621
+  similarity: 60%
 - slug: work-blocking
-  similarity: 0.613
+  similarity: 60%
 - slug: missed-deadlines
-  similarity: 0.613
+  similarity: 60%
 layout: problem
 ---
 

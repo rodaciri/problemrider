@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: misunderstanding-of-oop
-  similarity: 0.637
-- slug: excessive-class-size
-  similarity: 0.534
-- slug: poor-encapsulation
-  similarity: 0.533
-- slug: procedural-programming-in-oop-languages
-  similarity: 0.514
+  similarity: 65%
 - slug: procedural-background
-  similarity: 0.507
+  similarity: 55%
+- slug: excessive-class-size
+  similarity: 55%
+- slug: procedural-programming-in-oop-languages
+  similarity: 55%
+- slug: poor-encapsulation
+  similarity: 55%
 layout: problem
 ---
 

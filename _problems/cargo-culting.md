@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: inability-to-innovate
-  similarity: 0.582
+  similarity: 60%
 - slug: inexperienced-developers
-  similarity: 0.537
+  similarity: 55%
 - slug: workaround-culture
-  similarity: 0.534
+  similarity: 55%
 - slug: reduced-innovation
-  similarity: 0.533
+  similarity: 55%
 - slug: technology-stack-fragmentation
-  similarity: 0.532
+  similarity: 55%
 layout: problem
 ---
 

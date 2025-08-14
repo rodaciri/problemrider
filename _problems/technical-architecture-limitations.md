@@ -9,15 +9,15 @@ category:
 - Performance
 related_problems:
 - slug: architectural-mismatch
-  similarity: 0.656
+  similarity: 65%
 - slug: stagnant-architecture
-  similarity: 0.635
+  similarity: 65%
 - slug: system-stagnation
-  similarity: 0.612
+  similarity: 60%
 - slug: second-system-effect
-  similarity: 0.605
+  similarity: 60%
 - slug: complex-implementation-paths
-  similarity: 0.587
+  similarity: 60%
 layout: problem
 ---
 

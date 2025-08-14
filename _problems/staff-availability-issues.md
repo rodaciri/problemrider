@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: project-resource-constraints
-  similarity: 0.747
+  similarity: 75%
 - slug: single-points-of-failure
-  similarity: 0.687
+  similarity: 70%
 - slug: reduced-team-flexibility
-  similarity: 0.678
+  similarity: 70%
 - slug: uneven-workload-distribution
-  similarity: 0.654
+  similarity: 65%
 - slug: competing-priorities
-  similarity: 0.64
+  similarity: 65%
 layout: problem
 ---
 

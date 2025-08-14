@@ -8,15 +8,15 @@ category:
 - Project Management
 related_problems:
 - slug: feature-gaps
-  similarity: 0.718
+  similarity: 70%
 - slug: wasted-development-effort
-  similarity: 0.679
+  similarity: 70%
 - slug: poor-planning
-  similarity: 0.647
+  similarity: 65%
 - slug: incomplete-knowledge
-  similarity: 0.647
+  similarity: 65%
 - slug: slow-feature-development
-  similarity: 0.634
+  similarity: 65%
 layout: problem
 ---
 

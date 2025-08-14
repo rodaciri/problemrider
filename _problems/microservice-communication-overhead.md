@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: service-discovery-failures
-  similarity: 0.616
+  similarity: 60%
 - slug: network-latency
-  similarity: 0.585
-- slug: upstream-timeouts
-  similarity: 0.565
+  similarity: 60%
 - slug: high-api-latency
-  similarity: 0.56
+  similarity: 55%
 - slug: serialization-deserialization-bottlenecks
-  similarity: 0.553
+  similarity: 55%
+- slug: upstream-timeouts
+  similarity: 55%
 layout: problem
 ---
 

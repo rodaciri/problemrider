@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: inconsistent-codebase
-  similarity: 0.836
+  similarity: 85%
 - slug: inconsistent-naming-conventions
-  similarity: 0.736
+  similarity: 75%
 - slug: inconsistent-quality
-  similarity: 0.666
+  similarity: 65%
 - slug: mixed-coding-styles
-  similarity: 0.649
+  similarity: 65%
 - slug: lower-code-quality
-  similarity: 0.64
+  similarity: 65%
 layout: problem
 ---
 

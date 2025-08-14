@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: memory-leaks
-  similarity: 0.572
+  similarity: 60%
 - slug: unreleased-resources
-  similarity: 0.571
+  similarity: 60%
 - slug: excessive-object-allocation
-  similarity: 0.571
+  similarity: 60%
 - slug: garbage-collection-pressure
-  similarity: 0.534
+  similarity: 55%
 - slug: interrupt-overhead
-  similarity: 0.523
+  similarity: 55%
 layout: problem
 ---
 

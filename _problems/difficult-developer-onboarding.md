@@ -9,15 +9,15 @@ category:
 - Maintenance
 related_problems:
 - slug: high-turnover
-  similarity: 0.736
+  similarity: 75%
 - slug: inconsistent-onboarding-experience
-  similarity: 0.686
+  similarity: 70%
 - slug: slow-feature-development
-  similarity: 0.685
+  similarity: 70%
 - slug: inefficient-development-environment
-  similarity: 0.665
+  similarity: 65%
 - slug: slow-development-velocity
-  similarity: 0.664
+  similarity: 65%
 layout: problem
 ---
 

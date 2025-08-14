@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: hidden-side-effects
-  similarity: 0.702
+  similarity: 70%
 - slug: spaghetti-code
-  similarity: 0.601
+  similarity: 60%
 - slug: unpredictable-system-behavior
-  similarity: 0.597
+  similarity: 60%
 - slug: hidden-dependencies
-  similarity: 0.586
+  similarity: 60%
 - slug: ripple-effect-of-changes
-  similarity: 0.564
+  similarity: 55%
 layout: problem
 ---
 

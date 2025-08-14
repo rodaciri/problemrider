@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: capacity-mismatch
-  similarity: 0.661
+  similarity: 65%
 - slug: operational-overhead
-  similarity: 0.611
+  similarity: 60%
 - slug: uneven-workload-distribution
-  similarity: 0.609
+  similarity: 60%
 - slug: project-resource-constraints
-  similarity: 0.589
+  similarity: 60%
 - slug: maintenance-overhead
-  similarity: 0.572
+  similarity: 55%
 layout: problem
 ---
 

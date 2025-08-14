@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: inconsistent-onboarding-experience
-  similarity: 0.748
+  similarity: 75%
 - slug: skill-development-gaps
-  similarity: 0.73
+  similarity: 75%
 - slug: tacit-knowledge
-  similarity: 0.636
+  similarity: 65%
 - slug: knowledge-dependency
-  similarity: 0.633
+  similarity: 65%
 - slug: inappropriate-skillset
-  similarity: 0.627
+  similarity: 65%
 layout: problem
 ---
 

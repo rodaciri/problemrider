@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: poor-caching-strategy
-  similarity: 0.705
+  similarity: 75%
 - slug: dma-coherency-issues
-  similarity: 0.63
-- slug: silent-data-corruption
-  similarity: 0.568
-- slug: race-conditions
-  similarity: 0.566
+  similarity: 65%
 - slug: false-sharing
-  similarity: 0.562
+  similarity: 55%
+- slug: silent-data-corruption
+  similarity: 55%
+- slug: race-conditions
+  similarity: 55%
 layout: problem
 ---
 

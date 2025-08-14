@@ -7,16 +7,16 @@ category:
 - Management
 - Planning
 related_problems:
-- slug: no-formal-change-control-process
-  similarity: 0.783
-- slug: scope-change-resistance
-  similarity: 0.781
 - slug: scope-creep
-  similarity: 0.761
+  similarity: 80%
+- slug: scope-change-resistance
+  similarity: 80%
 - slug: frequent-changes-to-requirements
-  similarity: 0.741
+  similarity: 80%
+- slug: no-formal-change-control-process
+  similarity: 75%
 - slug: constantly-shifting-deadlines
-  similarity: 0.65
+  similarity: 70%
 layout: problem
 ---
 

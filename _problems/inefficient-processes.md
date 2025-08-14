@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: increased-manual-work
-  similarity: 0.758
+  similarity: 75%
 - slug: tool-limitations
-  similarity: 0.741
+  similarity: 75%
 - slug: inefficient-development-environment
-  similarity: 0.738
+  similarity: 70%
 - slug: reduced-individual-productivity
-  similarity: 0.713
+  similarity: 70%
 - slug: process-design-flaws
-  similarity: 0.706
+  similarity: 70%
 layout: problem
 ---
 

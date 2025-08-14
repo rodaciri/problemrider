@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: staff-availability-issues
-  similarity: 0.747
-- slug: poor-planning
-  similarity: 0.723
+  similarity: 75%
 - slug: project-authority-vacuum
-  similarity: 0.722
+  similarity: 75%
+- slug: poor-planning
+  similarity: 70%
 - slug: planning-dysfunction
-  similarity: 0.658
+  similarity: 65%
 - slug: unrealistic-schedule
-  similarity: 0.624
+  similarity: 65%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Architecture
 related_problems:
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.559
+  similarity: 55%
 - slug: spaghetti-code
-  similarity: 0.559
+  similarity: 55%
 - slug: system-integration-blindness
-  similarity: 0.532
+  similarity: 55%
 - slug: tight-coupling-issues
-  similarity: 0.527
+  similarity: 50%
 - slug: inadequate-integration-tests
-  similarity: 0.512
+  similarity: 50%
 layout: problem
 ---
 

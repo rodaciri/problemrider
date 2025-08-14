@@ -8,15 +8,15 @@ category:
 - Legacy
 related_problems:
 - slug: inadequate-test-infrastructure
-  similarity: 0.72
+  similarity: 70%
 - slug: increased-manual-testing-effort
-  similarity: 0.672
-- slug: difficult-to-test-code
-  similarity: 0.669
+  similarity: 70%
 - slug: insufficient-testing
-  similarity: 0.666
+  similarity: 65%
+- slug: difficult-to-test-code
+  similarity: 65%
 - slug: testing-environment-fragility
-  similarity: 0.653
+  similarity: 65%
 layout: problem
 ---
 

@@ -9,15 +9,15 @@ category:
 - Communication
 related_problems:
 - slug: stakeholder-frustration
-  similarity: 0.61
+  similarity: 60%
 - slug: scope-creep
-  similarity: 0.604
+  similarity: 60%
 - slug: product-direction-chaos
-  similarity: 0.581
+  similarity: 60%
 - slug: unclear-goals-and-priorities
-  similarity: 0.569
+  similarity: 60%
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.556
+  similarity: 55%
 layout: problem
 ---
 

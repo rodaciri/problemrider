@@ -8,9 +8,9 @@ category:
 - Communication
 related_problems:
 - slug: requirements-ambiguity
-  similarity: 0.551
+  similarity: 60%
 - slug: inadequate-requirements-gathering
-  similarity: 0.519
+  similarity: 55%
 layout: problem
 ---
 

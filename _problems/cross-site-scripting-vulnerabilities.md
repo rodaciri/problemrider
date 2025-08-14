@@ -7,9 +7,9 @@ category:
 - Technical
 related_problems:
 - slug: sql-injection-vulnerabilities
-  similarity: 0.546
+  similarity: 60%
 - slug: log-injection-vulnerabilities
-  similarity: 0.54
+  similarity: 55%
 layout: problem
 ---
 

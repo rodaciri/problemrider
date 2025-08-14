@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: reduced-innovation
-  similarity: 0.594
+  similarity: 60%
 - slug: skill-development-gaps
-  similarity: 0.588
+  similarity: 60%
 - slug: slow-knowledge-transfer
-  similarity: 0.584
+  similarity: 60%
 - slug: reduced-team-flexibility
-  similarity: 0.583
+  similarity: 60%
 - slug: inability-to-innovate
-  similarity: 0.564
+  similarity: 55%
 layout: problem
 ---
 

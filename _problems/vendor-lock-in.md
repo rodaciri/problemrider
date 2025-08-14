@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: vendor-dependency-entrapment
-  similarity: 0.715
+  similarity: 70%
 - slug: vendor-dependency
-  similarity: 0.632
+  similarity: 65%
 - slug: dependency-on-supplier
-  similarity: 0.625
+  similarity: 60%
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.624
+  similarity: 60%
 - slug: technology-isolation
-  similarity: 0.59
+  similarity: 60%
 layout: problem
 ---
 

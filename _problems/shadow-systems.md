@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: workaround-culture
-  similarity: 0.578
+  similarity: 60%
 - slug: manual-deployment-processes
-  similarity: 0.522
+  similarity: 50%
 - slug: inadequate-configuration-management
-  similarity: 0.522
+  similarity: 50%
 - slug: knowledge-gaps
-  similarity: 0.506
+  similarity: 50%
 - slug: system-integration-blindness
-  similarity: 0.505
+  similarity: 50%
 layout: problem
 ---
 

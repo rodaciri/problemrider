@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: reduced-team-productivity
-  similarity: 0.8
+  similarity: 80%
 - slug: slow-development-velocity
-  similarity: 0.765
+  similarity: 75%
 - slug: increased-manual-work
-  similarity: 0.743
+  similarity: 75%
 - slug: procrastination-on-complex-tasks
-  similarity: 0.726
+  similarity: 75%
 - slug: mental-fatigue
-  similarity: 0.716
+  similarity: 70%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: unclear-documentation-ownership
-  similarity: 0.718
+  similarity: 70%
 - slug: maintenance-paralysis
-  similarity: 0.631
+  similarity: 65%
 - slug: delayed-issue-resolution
-  similarity: 0.626
+  similarity: 65%
 - slug: invisible-nature-of-technical-debt
-  similarity: 0.582
+  similarity: 60%
 - slug: single-points-of-failure
-  similarity: 0.568
+  similarity: 55%
 layout: problem
 ---
 

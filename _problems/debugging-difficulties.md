@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: tool-limitations
-  similarity: 0.719
-- slug: inefficient-development-environment
-  similarity: 0.686
+  similarity: 70%
 - slug: lower-code-quality
-  similarity: 0.679
+  similarity: 70%
+- slug: inefficient-development-environment
+  similarity: 65%
 - slug: increased-risk-of-bugs
-  similarity: 0.677
+  similarity: 65%
 - slug: delayed-bug-fixes
-  similarity: 0.666
+  similarity: 65%
 layout: problem
 ---
 

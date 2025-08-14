@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: unpredictable-system-behavior
-  similarity: 0.626
+  similarity: 65%
 - slug: monolithic-functions-and-classes
-  similarity: 0.624
+  similarity: 60%
 - slug: difficult-to-understand-code
-  similarity: 0.611
+  similarity: 60%
 - slug: ripple-effect-of-changes
-  similarity: 0.592
+  similarity: 60%
 - slug: hidden-dependencies
-  similarity: 0.587
+  similarity: 60%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: planning-dysfunction
-  similarity: 0.719
+  similarity: 70%
 - slug: poor-planning
-  similarity: 0.694
+  similarity: 70%
 - slug: unrealistic-schedule
-  similarity: 0.647
+  similarity: 65%
 - slug: unclear-goals-and-priorities
-  similarity: 0.646
+  similarity: 65%
 - slug: project-authority-vacuum
-  similarity: 0.633
+  similarity: 65%
 layout: problem
 ---
 

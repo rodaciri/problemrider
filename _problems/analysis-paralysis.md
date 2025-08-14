@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: delayed-decision-making
-  similarity: 0.624
+  similarity: 65%
 - slug: extended-research-time
-  similarity: 0.621
+  similarity: 60%
 - slug: decision-avoidance
-  similarity: 0.621
+  similarity: 60%
 - slug: modernization-strategy-paralysis
-  similarity: 0.614
+  similarity: 60%
 - slug: poor-planning
-  similarity: 0.61
+  similarity: 60%
 layout: problem
 ---
 

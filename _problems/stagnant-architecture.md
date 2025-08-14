@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: system-stagnation
-  similarity: 0.8
+  similarity: 80%
 - slug: architectural-mismatch
-  similarity: 0.783
+  similarity: 80%
 - slug: second-system-effect
-  similarity: 0.7
+  similarity: 70%
 - slug: implementation-starts-without-design
-  similarity: 0.646
+  similarity: 65%
 - slug: rapid-system-changes
-  similarity: 0.643
+  similarity: 65%
 layout: problem
 ---
 

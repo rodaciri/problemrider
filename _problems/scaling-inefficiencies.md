@@ -7,9 +7,9 @@ category:
 - Scalability
 related_problems:
 - slug: monolithic-architecture-constraints
-  similarity: 0.525
+  similarity: 55%
 - slug: shared-database
-  similarity: 0.5
+  similarity: 50%
 layout: problem
 ---
 

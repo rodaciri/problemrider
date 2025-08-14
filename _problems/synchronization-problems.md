@@ -8,15 +8,15 @@ category:
 - Consistency
 related_problems:
 - slug: code-duplication
-  similarity: 0.718
+  similarity: 75%
 - slug: partial-bug-fixes
-  similarity: 0.625
-- slug: cross-system-data-synchronization-problems
-  similarity: 0.607
+  similarity: 65%
 - slug: inconsistent-behavior
-  similarity: 0.603
+  similarity: 60%
+- slug: cross-system-data-synchronization-problems
+  similarity: 60%
 - slug: configuration-chaos
-  similarity: 0.572
+  similarity: 60%
 layout: problem
 ---
 

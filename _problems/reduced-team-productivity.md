@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: slow-development-velocity
-  similarity: 0.818
+  similarity: 80%
 - slug: reduced-individual-productivity
-  similarity: 0.793
+  similarity: 80%
 - slug: missed-deadlines
-  similarity: 0.703
+  similarity: 70%
 - slug: bottleneck-formation
-  similarity: 0.672
+  similarity: 65%
 - slug: slow-feature-development
-  similarity: 0.665
+  similarity: 65%
 layout: problem
 ---
 

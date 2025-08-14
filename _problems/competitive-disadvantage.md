@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: increased-time-to-market
-  similarity: 0.682
+  similarity: 70%
 - slug: customer-dissatisfaction
-  similarity: 0.652
+  similarity: 65%
 - slug: negative-brand-perception
-  similarity: 0.62
+  similarity: 60%
 - slug: user-frustration
-  similarity: 0.617
+  similarity: 60%
 - slug: delayed-value-delivery
-  similarity: 0.597
+  similarity: 60%
 layout: problem
 ---
 

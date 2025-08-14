@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: system-integration-blindness
-  similarity: 0.735
+  similarity: 75%
 - slug: inadequate-integration-tests
-  similarity: 0.725
+  similarity: 75%
 - slug: quality-blind-spots
-  similarity: 0.691
+  similarity: 70%
 - slug: inadequate-test-infrastructure
-  similarity: 0.573
+  similarity: 55%
 - slug: flaky-tests
-  similarity: 0.542
+  similarity: 55%
 layout: problem
 ---
 

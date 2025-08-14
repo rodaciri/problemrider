@@ -8,15 +8,15 @@ category:
 - Productivity
 related_problems:
 - slug: increased-manual-work
-  similarity: 0.698
-- slug: cognitive-overload
-  similarity: 0.676
+  similarity: 70%
 - slug: mental-fatigue
-  similarity: 0.676
-- slug: reduced-individual-productivity
-  similarity: 0.661
+  similarity: 70%
+- slug: cognitive-overload
+  similarity: 70%
 - slug: increased-cognitive-load
-  similarity: 0.659
+  similarity: 65%
+- slug: reduced-individual-productivity
+  similarity: 65%
 layout: problem
 ---
 

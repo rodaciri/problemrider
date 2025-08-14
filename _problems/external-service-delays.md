@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: high-api-latency
-  similarity: 0.779
-- slug: slow-application-performance
-  similarity: 0.707
-- slug: network-latency
-  similarity: 0.664
-- slug: upstream-timeouts
-  similarity: 0.646
+  similarity: 75%
 - slug: service-timeouts
-  similarity: 0.612
+  similarity: 70%
+- slug: slow-application-performance
+  similarity: 65%
+- slug: network-latency
+  similarity: 65%
+- slug: upstream-timeouts
+  similarity: 65%
 layout: problem
 ---
 

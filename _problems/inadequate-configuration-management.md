@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: configuration-drift
-  similarity: 0.783
+  similarity: 80%
 - slug: legacy-configuration-management-chaos
-  similarity: 0.74
-- slug: deployment-environment-inconsistencies
-  similarity: 0.693
+  similarity: 75%
 - slug: configuration-chaos
-  similarity: 0.685
+  similarity: 70%
+- slug: deployment-environment-inconsistencies
+  similarity: 70%
 - slug: manual-deployment-processes
-  similarity: 0.662
+  similarity: 70%
 layout: problem
 ---
 

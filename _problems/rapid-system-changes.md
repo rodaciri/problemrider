@@ -8,15 +8,15 @@ category:
 - Documentation
 related_problems:
 - slug: unpredictable-system-behavior
-  similarity: 0.645
+  similarity: 65%
 - slug: stagnant-architecture
-  similarity: 0.643
+  similarity: 65%
 - slug: breaking-changes
-  similarity: 0.637
+  similarity: 65%
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.625
+  similarity: 60%
 - slug: resistance-to-change
-  similarity: 0.623
+  similarity: 60%
 layout: problem
 ---
 

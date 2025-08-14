@@ -7,15 +7,15 @@ category:
 - Technical
 related_problems:
 - slug: authorization-flaws
-  similarity: 0.712
+  similarity: 70%
 - slug: password-security-weaknesses
-  similarity: 0.637
+  similarity: 65%
 - slug: log-injection-vulnerabilities
-  similarity: 0.601
+  similarity: 60%
 - slug: session-management-issues
-  similarity: 0.56
+  similarity: 55%
 - slug: secret-management-problems
-  similarity: 0.55
+  similarity: 55%
 layout: problem
 ---
 

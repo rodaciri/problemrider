@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: history-of-failed-changes
-  similarity: 0.645
+  similarity: 65%
 - slug: fear-of-breaking-changes
-  similarity: 0.596
-- slug: fear-of-failure
-  similarity: 0.566
+  similarity: 60%
 - slug: resistance-to-change
-  similarity: 0.564
+  similarity: 55%
+- slug: fear-of-failure
+  similarity: 55%
 - slug: fear-of-change
-  similarity: 0.555
+  similarity: 55%
 layout: problem
 ---
 

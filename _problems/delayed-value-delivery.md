@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: increased-time-to-market
-  similarity: 0.759
+  similarity: 75%
 - slug: slow-feature-development
-  similarity: 0.721
+  similarity: 70%
 - slug: slow-development-velocity
-  similarity: 0.657
-- slug: delayed-project-timelines
-  similarity: 0.603
+  similarity: 65%
 - slug: release-instability
-  similarity: 0.593
+  similarity: 60%
+- slug: delayed-project-timelines
+  similarity: 60%
 layout: problem
 ---
 

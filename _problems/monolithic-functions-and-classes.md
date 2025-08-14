@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: god-object-anti-pattern
-  similarity: 0.673
+  similarity: 65%
 - slug: poorly-defined-responsibilities
-  similarity: 0.624
+  similarity: 60%
 - slug: excessive-class-size
-  similarity: 0.548
+  similarity: 55%
 - slug: difficult-to-understand-code
-  similarity: 0.538
+  similarity: 55%
 - slug: procedural-programming-in-oop-languages
-  similarity: 0.53
+  similarity: 55%
 layout: problem
 ---
 

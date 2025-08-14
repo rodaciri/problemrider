@@ -8,13 +8,13 @@ category:
 - Object-Oriented Design
 related_problems:
 - slug: monolithic-functions-and-classes
-  similarity: 0.673
+  similarity: 65%
 - slug: poorly-defined-responsibilities
-  similarity: 0.579
+  similarity: 55%
 - slug: excessive-class-size
-  similarity: 0.531
+  similarity: 50%
 - slug: single-entry-point-design
-  similarity: 0.502
+  similarity: 50%
 layout: problem
 ---
 

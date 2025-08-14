@@ -9,15 +9,15 @@ category:
 - Management
 related_problems:
 - slug: increased-stress-and-burnout
-  similarity: 0.709
-- slug: new-hire-frustration
-  similarity: 0.677
-- slug: high-turnover
-  similarity: 0.675
-- slug: mentor-burnout
-  similarity: 0.657
+  similarity: 75%
 - slug: mental-fatigue
-  similarity: 0.623
+  similarity: 70%
+- slug: new-hire-frustration
+  similarity: 70%
+- slug: mentor-burnout
+  similarity: 65%
+- slug: high-turnover
+  similarity: 60%
 layout: problem
 ---
 

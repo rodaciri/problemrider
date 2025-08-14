@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: immature-delivery-strategy
-  similarity: 0.691
+  similarity: 70%
 - slug: poor-system-environment
-  similarity: 0.68
+  similarity: 70%
 - slug: inadequate-requirements-gathering
-  similarity: 0.666
+  similarity: 65%
 - slug: manual-deployment-processes
-  similarity: 0.637
+  similarity: 65%
 - slug: release-instability
-  similarity: 0.627
+  similarity: 65%
 layout: problem
 ---
 

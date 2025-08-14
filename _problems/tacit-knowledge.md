@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: slow-knowledge-transfer
-  similarity: 0.736
+  similarity: 75%
 - slug: skill-development-gaps
-  similarity: 0.654
+  similarity: 65%
 - slug: inconsistent-knowledge-acquisition
-  similarity: 0.636
+  similarity: 65%
 - slug: incomplete-knowledge
-  similarity: 0.631
+  similarity: 65%
 - slug: knowledge-sharing-breakdown
-  similarity: 0.623
+  similarity: 60%
 layout: problem
 ---
 

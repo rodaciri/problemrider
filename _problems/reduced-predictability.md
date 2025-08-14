@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: unrealistic-schedule
-  similarity: 0.725
-- slug: planning-dysfunction
-  similarity: 0.72
+  similarity: 75%
 - slug: poor-planning
-  similarity: 0.7
-- slug: missed-deadlines
-  similarity: 0.666
+  similarity: 75%
 - slug: planning-credibility-issues
-  similarity: 0.663
+  similarity: 75%
+- slug: planning-dysfunction
+  similarity: 75%
+- slug: missed-deadlines
+  similarity: 70%
 layout: problem
 ---
 

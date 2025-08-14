@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: configuration-drift
-  similarity: 0.806
-- slug: inadequate-configuration-management
-  similarity: 0.722
-- slug: legacy-configuration-management-chaos
-  similarity: 0.705
+  similarity: 85%
 - slug: deployment-environment-inconsistencies
-  similarity: 0.698
+  similarity: 75%
 - slug: change-management-chaos
-  similarity: 0.657
+  similarity: 70%
+- slug: inadequate-configuration-management
+  similarity: 70%
+- slug: legacy-configuration-management-chaos
+  similarity: 70%
 layout: problem
 ---
 

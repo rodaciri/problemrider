@@ -7,7 +7,7 @@ category:
 - Process
 related_problems:
 - slug: uncontrolled-codebase-growth
-  similarity: 0.514
+  similarity: 50%
 layout: problem
 ---
 

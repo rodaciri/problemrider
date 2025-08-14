@@ -9,15 +9,15 @@ category:
 - Process
 related_problems:
 - slug: decision-avoidance
-  similarity: 0.752
+  similarity: 75%
 - slug: delayed-decision-making
-  similarity: 0.702
+  similarity: 70%
 - slug: fear-of-failure
-  similarity: 0.636
+  similarity: 65%
 - slug: avoidance-behaviors
-  similarity: 0.623
+  similarity: 60%
 - slug: maintenance-paralysis
-  similarity: 0.611
+  similarity: 60%
 layout: problem
 ---
 

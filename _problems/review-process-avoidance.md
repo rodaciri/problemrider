@@ -8,15 +8,15 @@ category:
 - Quality Assurance
 related_problems:
 - slug: review-process-breakdown
-  similarity: 0.738
-- slug: frequent-hotfixes-and-rollbacks
-  similarity: 0.658
+  similarity: 75%
 - slug: reduced-review-participation
-  similarity: 0.657
+  similarity: 65%
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 65%
 - slug: insufficient-code-review
-  similarity: 0.657
+  similarity: 65%
 - slug: reduced-code-submission-frequency
-  similarity: 0.652
+  similarity: 65%
 layout: problem
 ---
 

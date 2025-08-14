@@ -6,16 +6,16 @@ category:
 - Performance
 - Database
 related_problems:
-- slug: unused-indexes
-  similarity: 0.793
 - slug: inefficient-database-indexing
-  similarity: 0.724
-- slug: memory-swapping
-  similarity: 0.664
-- slug: incorrect-index-type
-  similarity: 0.641
+  similarity: 70%
+- slug: unused-indexes
+  similarity: 65%
 - slug: queries-that-prevent-index-usage
-  similarity: 0.633
+  similarity: 60%
+- slug: incorrect-index-type
+  similarity: 55%
+- slug: memory-swapping
+  similarity: 55%
 layout: problem
 ---
 

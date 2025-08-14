@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: blame-culture
-  similarity: 0.594
+  similarity: 60%
 - slug: delayed-decision-making
-  similarity: 0.532
-- slug: decision-avoidance
-  similarity: 0.524
-- slug: individual-recognition-culture
-  similarity: 0.514
+  similarity: 50%
 - slug: approval-dependencies
-  similarity: 0.511
+  similarity: 50%
+- slug: individual-recognition-culture
+  similarity: 50%
+- slug: decision-avoidance
+  similarity: 50%
 layout: problem
 ---
 

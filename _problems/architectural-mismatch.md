@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: stagnant-architecture
-  similarity: 0.783
+  similarity: 80%
 - slug: second-system-effect
-  similarity: 0.692
+  similarity: 70%
 - slug: complex-implementation-paths
-  similarity: 0.684
+  similarity: 70%
 - slug: technical-architecture-limitations
-  similarity: 0.656
+  similarity: 65%
 - slug: requirements-ambiguity
-  similarity: 0.628
+  similarity: 65%
 layout: problem
 ---
 

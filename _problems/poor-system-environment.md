@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: deployment-environment-inconsistencies
-  similarity: 0.684
+  similarity: 70%
 - slug: poor-operational-concept
-  similarity: 0.68
-- slug: quality-blind-spots
-  similarity: 0.678
+  similarity: 70%
 - slug: inadequate-error-handling
-  similarity: 0.677
+  similarity: 65%
+- slug: quality-blind-spots
+  similarity: 65%
 - slug: testing-environment-fragility
-  similarity: 0.669
+  similarity: 65%
 layout: problem
 ---
 

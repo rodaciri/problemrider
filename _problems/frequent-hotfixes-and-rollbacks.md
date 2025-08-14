@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: deployment-risk
-  similarity: 0.703
+  similarity: 70%
 - slug: immature-delivery-strategy
-  similarity: 0.679
+  similarity: 70%
 - slug: review-process-avoidance
-  similarity: 0.658
-- slug: large-risky-releases
-  similarity: 0.652
+  similarity: 65%
 - slug: release-instability
-  similarity: 0.651
+  similarity: 65%
+- slug: large-risky-releases
+  similarity: 65%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: high-database-resource-utilization
-  similarity: 0.741
+  similarity: 75%
 - slug: service-timeouts
-  similarity: 0.726
-- slug: upstream-timeouts
-  similarity: 0.643
-- slug: external-service-delays
-  similarity: 0.635
+  similarity: 75%
 - slug: high-connection-count
-  similarity: 0.63
+  similarity: 65%
+- slug: upstream-timeouts
+  similarity: 65%
+- slug: external-service-delays
+  similarity: 65%
 layout: problem
 ---
 

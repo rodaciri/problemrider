@@ -8,9 +8,9 @@ category:
 - Performance
 related_problems:
 - slug: load-balancing-problems
-  similarity: 0.535
+  similarity: 55%
 - slug: garbage-collection-pressure
-  similarity: 0.502
+  similarity: 50%
 layout: problem
 ---
 

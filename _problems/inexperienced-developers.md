@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: knowledge-gaps
-  similarity: 0.72
+  similarity: 70%
 - slug: insufficient-design-skills
-  similarity: 0.719
+  similarity: 70%
 - slug: inability-to-innovate
-  similarity: 0.69
+  similarity: 70%
 - slug: team-churn-impact
-  similarity: 0.68
+  similarity: 70%
 - slug: skill-development-gaps
-  similarity: 0.668
+  similarity: 65%
 layout: problem
 ---
 

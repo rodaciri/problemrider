@@ -8,9 +8,9 @@ category:
 - Usability
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 0.517
+  similarity: 50%
 - slug: inconsistent-coding-standards
-  similarity: 0.507
+  similarity: 50%
 layout: problem
 ---
 

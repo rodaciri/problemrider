@@ -7,9 +7,9 @@ category:
 - Process
 related_problems:
 - slug: blame-culture
-  similarity: 0.514
+  similarity: 55%
 - slug: micromanagement-culture
-  similarity: 0.514
+  similarity: 50%
 layout: problem
 ---
 

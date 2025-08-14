@@ -8,15 +8,15 @@ category:
 - Session Management
 related_problems:
 - slug: secret-management-problems
-  similarity: 0.573
+  similarity: 55%
 - slug: password-security-weaknesses
-  similarity: 0.564
+  similarity: 55%
 - slug: authentication-bypass-vulnerabilities
-  similarity: 0.56
+  similarity: 55%
 - slug: logging-configuration-issues
-  similarity: 0.517
+  similarity: 50%
 - slug: authorization-flaws
-  similarity: 0.515
+  similarity: 50%
 layout: problem
 ---
 

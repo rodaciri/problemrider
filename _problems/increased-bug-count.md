@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: increased-risk-of-bugs
-  similarity: 0.758
+  similarity: 75%
 - slug: high-bug-introduction-rate
-  similarity: 0.71
+  similarity: 70%
 - slug: high-defect-rate-in-production
-  similarity: 0.709
+  similarity: 70%
 - slug: regression-bugs
-  similarity: 0.707
+  similarity: 70%
 - slug: release-instability
-  similarity: 0.692
+  similarity: 70%
 layout: problem
 ---
 

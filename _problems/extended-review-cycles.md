@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: reduced-code-submission-frequency
-  similarity: 0.741
+  similarity: 75%
 - slug: code-review-inefficiency
-  similarity: 0.738
+  similarity: 75%
 - slug: inadequate-initial-reviews
-  similarity: 0.734
+  similarity: 75%
 - slug: review-process-breakdown
-  similarity: 0.698
+  similarity: 70%
 - slug: insufficient-code-review
-  similarity: 0.671
+  similarity: 65%
 layout: problem
 ---
 

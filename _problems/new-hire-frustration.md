@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: high-turnover
-  similarity: 0.735
+  similarity: 75%
 - slug: developer-frustration-and-burnout
-  similarity: 0.665
+  similarity: 70%
 - slug: difficult-developer-onboarding
-  similarity: 0.657
+  similarity: 65%
 - slug: increased-cognitive-load
-  similarity: 0.596
+  similarity: 60%
 - slug: team-demoralization
-  similarity: 0.58
+  similarity: 60%
 layout: problem
 ---
 

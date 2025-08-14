@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: staff-availability-issues
-  similarity: 0.687
+  similarity: 70%
 - slug: reduced-team-flexibility
-  similarity: 0.661
+  similarity: 65%
 - slug: deployment-risk
-  similarity: 0.661
+  similarity: 65%
 - slug: knowledge-dependency
-  similarity: 0.658
+  similarity: 65%
 - slug: knowledge-gaps
-  similarity: 0.658
+  similarity: 65%
 layout: problem
 ---
 

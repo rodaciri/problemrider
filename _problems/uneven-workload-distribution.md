@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: overworked-teams
-  similarity: 0.727
+  similarity: 75%
 - slug: uneven-work-flow
-  similarity: 0.702
+  similarity: 70%
 - slug: increased-stress-and-burnout
-  similarity: 0.676
+  similarity: 70%
 - slug: reduced-individual-productivity
-  similarity: 0.675
+  similarity: 70%
 - slug: capacity-mismatch
-  similarity: 0.656
+  similarity: 65%
 layout: problem
 ---
 

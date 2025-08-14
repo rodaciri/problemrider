@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: memory-leaks
-  similarity: 0.686
+  similarity: 70%
 - slug: unreleased-resources
-  similarity: 0.655
+  similarity: 65%
 - slug: unbounded-data-growth
-  similarity: 0.649
+  similarity: 65%
 - slug: resource-contention
-  similarity: 0.645
+  similarity: 65%
 - slug: excessive-disk-io
-  similarity: 0.618
+  similarity: 60%
 layout: problem
 ---
 

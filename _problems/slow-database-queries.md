@@ -5,16 +5,16 @@ description: Application performance degrades due to inefficient data retrieval 
 category:
 - Performance
 related_problems:
-- slug: database-query-performance-issues
-  similarity: 0.744
-- slug: high-database-resource-utilization
-  similarity: 0.742
 - slug: high-number-of-database-queries
-  similarity: 0.731
-- slug: inefficient-database-indexing
-  similarity: 0.688
+  similarity: 75%
+- slug: database-query-performance-issues
+  similarity: 75%
+- slug: high-database-resource-utilization
+  similarity: 75%
 - slug: long-running-transactions
-  similarity: 0.687
+  similarity: 70%
+- slug: inefficient-database-indexing
+  similarity: 70%
 layout: problem
 ---
 

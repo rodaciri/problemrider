@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: manual-deployment-processes
-  similarity: 0.732
+  similarity: 75%
 - slug: poor-operational-concept
-  similarity: 0.685
+  similarity: 70%
 - slug: complex-deployment-process
-  similarity: 0.683
+  similarity: 70%
 - slug: release-instability
-  similarity: 0.682
+  similarity: 70%
 - slug: deployment-risk
-  similarity: 0.681
+  similarity: 70%
 layout: problem
 ---
 

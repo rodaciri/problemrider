@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: increased-technical-shortcuts
-  similarity: 0.567
+  similarity: 60%
 - slug: legacy-code-without-tests
-  similarity: 0.544
+  similarity: 60%
 - slug: rapid-system-changes
-  similarity: 0.537
+  similarity: 55%
 - slug: tool-limitations
-  similarity: 0.521
+  similarity: 55%
 - slug: quality-blind-spots
-  similarity: 0.515
+  similarity: 55%
 layout: problem
 ---
 

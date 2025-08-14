@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: team-coordination-issues
-  similarity: 0.653
+  similarity: 65%
 - slug: architectural-mismatch
-  similarity: 0.572
+  similarity: 55%
 - slug: team-dysfunction
-  similarity: 0.572
+  similarity: 55%
 - slug: change-management-chaos
-  similarity: 0.548
+  similarity: 55%
 - slug: team-silos
-  similarity: 0.547
+  similarity: 55%
 layout: problem
 ---
 

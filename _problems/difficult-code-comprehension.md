@@ -6,15 +6,15 @@ category:
 - Maintenance
 related_problems:
 - slug: difficult-to-understand-code
-  similarity: 0.715
+  similarity: 70%
 - slug: increased-cognitive-load
-  similarity: 0.66
+  similarity: 65%
 - slug: brittle-codebase
-  similarity: 0.654
+  similarity: 65%
 - slug: complex-and-obscure-logic
-  similarity: 0.633
+  similarity: 65%
 - slug: insufficient-design-skills
-  similarity: 0.633
+  similarity: 65%
 layout: problem
 ---
 

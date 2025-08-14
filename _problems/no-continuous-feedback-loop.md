@@ -7,15 +7,15 @@ category:
 - Communication
 related_problems:
 - slug: feedback-isolation
-  similarity: 0.802
+  similarity: 80%
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.639
+  similarity: 65%
 - slug: misaligned-deliverables
-  similarity: 0.571
+  similarity: 55%
 - slug: development-disruption
-  similarity: 0.526
+  similarity: 55%
 - slug: inconsistent-behavior
-  similarity: 0.501
+  similarity: 50%
 layout: problem
 ---
 

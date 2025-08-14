@@ -8,15 +8,15 @@ category:
 - Operational
 related_problems:
 - slug: complex-deployment-process
-  similarity: 0.739
+  similarity: 75%
 - slug: immature-delivery-strategy
-  similarity: 0.731
+  similarity: 75%
 - slug: deployment-risk
-  similarity: 0.712
+  similarity: 70%
 - slug: increased-manual-work
-  similarity: 0.67
+  similarity: 70%
 - slug: inadequate-configuration-management
-  similarity: 0.662
+  similarity: 70%
 layout: problem
 ---
 

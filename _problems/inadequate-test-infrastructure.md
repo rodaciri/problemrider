@@ -8,15 +8,15 @@ category:
 - Infrastructure
 related_problems:
 - slug: testing-environment-fragility
-  similarity: 0.79
+  similarity: 80%
 - slug: legacy-code-without-tests
-  similarity: 0.72
+  similarity: 70%
 - slug: difficult-to-test-code
-  similarity: 0.698
+  similarity: 70%
 - slug: increased-manual-testing-effort
-  similarity: 0.673
+  similarity: 70%
 - slug: inadequate-integration-tests
-  similarity: 0.671
+  similarity: 65%
 layout: problem
 ---
 

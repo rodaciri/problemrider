@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: thread-pool-exhaustion
-  similarity: 0.7
+  similarity: 70%
 - slug: lock-contention
-  similarity: 0.647
+  similarity: 65%
 - slug: unreleased-resources
-  similarity: 0.608
+  similarity: 60%
 - slug: race-conditions
-  similarity: 0.604
+  similarity: 60%
 - slug: long-running-transactions
-  similarity: 0.58
+  similarity: 60%
 layout: problem
 ---
 

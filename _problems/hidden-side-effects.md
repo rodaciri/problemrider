@@ -8,13 +8,13 @@ category:
 - Quality
 related_problems:
 - slug: global-state-and-side-effects
-  similarity: 0.702
+  similarity: 70%
 - slug: hidden-dependencies
-  similarity: 0.679
+  similarity: 70%
 - slug: unpredictable-system-behavior
-  similarity: 0.632
+  similarity: 65%
 - slug: ripple-effect-of-changes
-  similarity: 0.523
+  similarity: 55%
 layout: problem
 ---
 

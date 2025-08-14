@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: bottleneck-formation
-  similarity: 0.729
+  similarity: 75%
 - slug: uneven-workload-distribution
-  similarity: 0.702
+  similarity: 70%
 - slug: extended-cycle-times
-  similarity: 0.681
+  similarity: 70%
 - slug: capacity-mismatch
-  similarity: 0.666
+  similarity: 65%
 - slug: unrealistic-schedule
-  similarity: 0.664
+  similarity: 65%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: code-duplication
-  similarity: 0.634
+  similarity: 65%
 - slug: synchronization-problems
-  similarity: 0.625
+  similarity: 65%
 - slug: regression-bugs
-  similarity: 0.607
+  similarity: 60%
 - slug: delayed-bug-fixes
-  similarity: 0.603
+  similarity: 60%
 - slug: merge-conflicts
-  similarity: 0.587
+  similarity: 60%
 layout: problem
 ---
 

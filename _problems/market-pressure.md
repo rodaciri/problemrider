@@ -8,15 +8,15 @@ category:
 - Strategy
 related_problems:
 - slug: deadline-pressure
-  similarity: 0.641
+  similarity: 65%
 - slug: time-pressure
-  similarity: 0.623
+  similarity: 60%
 - slug: increased-time-to-market
-  similarity: 0.575
+  similarity: 60%
 - slug: communication-risk-outside-project
-  similarity: 0.519
+  similarity: 50%
 - slug: product-direction-chaos
-  similarity: 0.514
+  similarity: 50%
 layout: problem
 ---
 

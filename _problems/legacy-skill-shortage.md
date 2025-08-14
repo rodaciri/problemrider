@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: obsolete-technologies
-  similarity: 0.668
+  similarity: 65%
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.602
+  similarity: 60%
 - slug: technology-stack-fragmentation
-  similarity: 0.593
+  similarity: 60%
 - slug: inexperienced-developers
-  similarity: 0.582
+  similarity: 60%
 - slug: high-turnover
-  similarity: 0.581
+  similarity: 60%
 layout: problem
 ---
 

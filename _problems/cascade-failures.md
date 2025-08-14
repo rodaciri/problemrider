@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: poor-system-environment
-  similarity: 0.652
+  similarity: 65%
 - slug: single-points-of-failure
-  similarity: 0.64
+  similarity: 65%
 - slug: inadequate-integration-tests
-  similarity: 0.628
+  similarity: 60%
 - slug: unpredictable-system-behavior
-  similarity: 0.617
+  similarity: 60%
 - slug: tight-coupling-issues
-  similarity: 0.603
+  similarity: 60%
 layout: problem
 ---
 

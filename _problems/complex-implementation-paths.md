@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: architectural-mismatch
-  similarity: 0.684
+  similarity: 70%
 - slug: implementation-rework
-  similarity: 0.672
+  similarity: 70%
 - slug: second-system-effect
-  similarity: 0.671
+  similarity: 65%
 - slug: accumulation-of-workarounds
-  similarity: 0.634
+  similarity: 65%
 - slug: inadequate-requirements-gathering
-  similarity: 0.624
+  similarity: 65%
 layout: problem
 ---
 

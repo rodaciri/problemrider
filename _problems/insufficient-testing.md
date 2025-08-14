@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: high-defect-rate-in-production
-  similarity: 0.894
+  similarity: 90%
 - slug: increased-manual-testing-effort
-  similarity: 0.714
+  similarity: 70%
 - slug: quality-blind-spots
-  similarity: 0.708
+  similarity: 70%
 - slug: inadequate-test-data-management
-  similarity: 0.688
+  similarity: 70%
 - slug: legacy-code-without-tests
-  similarity: 0.666
+  similarity: 65%
 layout: problem
 ---
 

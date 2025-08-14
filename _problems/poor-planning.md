@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: planning-dysfunction
-  similarity: 0.839
+  similarity: 85%
 - slug: planning-credibility-issues
-  similarity: 0.747
+  similarity: 75%
 - slug: reduced-predictability
-  similarity: 0.74
+  similarity: 75%
 - slug: project-resource-constraints
-  similarity: 0.723
+  similarity: 70%
 - slug: unrealistic-deadlines
-  similarity: 0.698
+  similarity: 70%
 layout: problem
 ---
 

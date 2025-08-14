@@ -141,31 +141,21 @@ class SimpleEmbeddingAnalyzer:
         
         return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
     
-    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3, force_update: bool = False):
+    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3):
         """Update all files with new related problems."""
         print(f"\n{'[DRY RUN] ' if dry_run else ''}Updating files...")
         
         updates = 0
         for problem_key in self.problems.keys():
             related = self.find_related(problem_key, top_k=5, min_similarity=min_similarity)
-            # Create list of objects with slug and similarity
-            new_related = [{"slug": key, "similarity": round(score, 3)} for key, score in related]
+            # Create list of objects with slug and similarity (as percentages)
+            new_related = [{"slug": key, "similarity": f"{round(score * 100 / 5) * 5}%"} for key, score in related]
             
-            old_related = self.problems[problem_key]['current_related_problems']
-            
-            # Compare only slugs for change detection, but force update if requested
-            old_slugs = [item["slug"] if isinstance(item, dict) else item for item in (old_related or [])]
-            new_slugs = [item["slug"] for item in new_related]
-            
-            # Check if old format (simple strings) vs new format (dict with slug/similarity)
-            needs_format_update = old_related and len(old_related) > 0 and not isinstance(old_related[0], dict)
-            
-            if new_related and (force_update or needs_format_update or set(new_slugs) != set(old_slugs)):
+            if new_related:
                 updates += 1
                 # Show all updates with actual related problems
-                related_with_scores = [f"{key} ({score:.3f})" for key, score in related]
+                related_with_scores = [f"{key} ({round(score * 100 / 5) * 5}%)" for key, score in related]
                 print(f"{problem_key}:")
-                print(f"  Old: {old_related}")
                 print(f"  New: {related_with_scores}")
                 print()
                 
@@ -201,7 +191,7 @@ def main():
     analyzer.load_problems()
     analyzer.create_embeddings()
 
-    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY, force_update=False)
+    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY)
 
 if __name__ == "__main__":
     main()

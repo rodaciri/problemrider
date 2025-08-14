@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: inefficient-processes
-  similarity: 0.65
+  similarity: 65%
 - slug: increased-manual-work
-  similarity: 0.647
-- slug: difficult-developer-onboarding
-  similarity: 0.644
+  similarity: 65%
 - slug: reduced-individual-productivity
-  similarity: 0.643
+  similarity: 65%
 - slug: duplicated-research-effort
-  similarity: 0.634
+  similarity: 65%
+- slug: difficult-developer-onboarding
+  similarity: 65%
 layout: problem
 ---
 

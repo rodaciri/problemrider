@@ -8,15 +8,15 @@ category:
 - Dependencies
 related_problems:
 - slug: dependency-version-conflicts
-  similarity: 0.58
-- slug: inadequate-integration-tests
-  similarity: 0.566
+  similarity: 65%
 - slug: null-pointer-dereferences
-  similarity: 0.535
+  similarity: 55%
 - slug: api-versioning-conflicts
-  similarity: 0.515
+  similarity: 55%
 - slug: poor-interfaces-between-applications
-  similarity: 0.503
+  similarity: 50%
+- slug: inadequate-integration-tests
+  similarity: 50%
 layout: problem
 ---
 

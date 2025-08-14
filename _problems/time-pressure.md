@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: deadline-pressure
-  similarity: 0.909
+  similarity: 90%
 - slug: slow-development-velocity
-  similarity: 0.726
+  similarity: 75%
 - slug: constantly-shifting-deadlines
-  similarity: 0.682
+  similarity: 70%
 - slug: slow-feature-development
-  similarity: 0.677
+  similarity: 70%
 - slug: unrealistic-schedule
-  similarity: 0.671
+  similarity: 65%
 layout: problem
 ---
 

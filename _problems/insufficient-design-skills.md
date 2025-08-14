@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: brittle-codebase
-  similarity: 0.723
+  similarity: 70%
 - slug: inexperienced-developers
-  similarity: 0.719
+  similarity: 70%
 - slug: lower-code-quality
-  similarity: 0.662
+  similarity: 65%
 - slug: inability-to-innovate
-  similarity: 0.659
+  similarity: 65%
 - slug: tool-limitations
-  similarity: 0.644
+  similarity: 65%
 layout: problem
 ---
 

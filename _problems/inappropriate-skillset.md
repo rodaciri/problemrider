@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: skill-development-gaps
-  similarity: 0.739
+  similarity: 75%
 - slug: poor-teamwork
-  similarity: 0.667
+  similarity: 65%
 - slug: knowledge-dependency
-  similarity: 0.644
+  similarity: 65%
 - slug: inconsistent-knowledge-acquisition
-  similarity: 0.627
+  similarity: 65%
 - slug: uneven-workload-distribution
-  similarity: 0.613
+  similarity: 60%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: communication-risk-outside-project
-  similarity: 0.794
+  similarity: 80%
 - slug: communication-breakdown
-  similarity: 0.752
+  similarity: 75%
 - slug: poor-communication
-  similarity: 0.742
+  similarity: 75%
 - slug: team-confusion
-  similarity: 0.725
+  similarity: 70%
 - slug: unclear-sharing-expectations
-  similarity: 0.71
+  similarity: 70%
 layout: problem
 ---
 

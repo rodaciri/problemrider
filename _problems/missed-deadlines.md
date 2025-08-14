@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: delayed-project-timelines
-  similarity: 0.808
+  similarity: 80%
 - slug: unrealistic-deadlines
-  similarity: 0.762
+  similarity: 75%
 - slug: planning-credibility-issues
-  similarity: 0.747
+  similarity: 75%
 - slug: unrealistic-schedule
-  similarity: 0.746
+  similarity: 75%
 - slug: slow-development-velocity
-  similarity: 0.72
+  similarity: 70%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: brittle-codebase
-  similarity: 0.755
+  similarity: 75%
 - slug: fear-of-change
-  similarity: 0.734
-- slug: slow-feature-development
-  similarity: 0.727
-- slug: resistance-to-change
-  similarity: 0.722
+  similarity: 75%
 - slug: increased-cost-of-development
-  similarity: 0.717
+  similarity: 75%
+- slug: slow-feature-development
+  similarity: 75%
+- slug: resistance-to-change
+  similarity: 75%
 layout: problem
 ---
 

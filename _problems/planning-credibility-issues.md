@@ -8,15 +8,15 @@ category:
 - Trust
 related_problems:
 - slug: stakeholder-confidence-loss
-  similarity: 0.766
+  similarity: 75%
 - slug: planning-dysfunction
-  similarity: 0.752
-- slug: poor-planning
-  similarity: 0.747
+  similarity: 75%
 - slug: missed-deadlines
-  similarity: 0.746
+  similarity: 75%
+- slug: poor-planning
+  similarity: 75%
 - slug: reduced-predictability
-  similarity: 0.739
+  similarity: 75%
 layout: problem
 ---
 

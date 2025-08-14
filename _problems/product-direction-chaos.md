@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: unclear-goals-and-priorities
-  similarity: 0.674
+  similarity: 65%
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.634
+  similarity: 65%
 - slug: misaligned-deliverables
-  similarity: 0.631
-- slug: team-confusion
-  similarity: 0.6
+  similarity: 65%
 - slug: eager-to-please-stakeholders
-  similarity: 0.581
+  similarity: 60%
+- slug: team-confusion
+  similarity: 60%
 layout: problem
 ---
 

@@ -5,15 +5,15 @@ category:
 - Performance
 related_problems:
 - slug: high-api-latency
-  similarity: 0.828
+  similarity: 85%
 - slug: resource-contention
-  similarity: 0.679
+  similarity: 70%
 - slug: external-service-delays
-  similarity: 0.673
+  similarity: 65%
 - slug: network-latency
-  similarity: 0.659
+  similarity: 65%
 - slug: high-resource-utilization-on-client
-  similarity: 0.646
+  similarity: 65%
 layout: problem
 ---
 

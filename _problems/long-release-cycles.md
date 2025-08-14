@@ -7,16 +7,16 @@ category:
 - Testing
 - Delivery
 related_problems:
-- slug: increased-manual-testing-effort
-  similarity: 0.706
 - slug: release-instability
-  similarity: 0.69
-- slug: delayed-bug-fixes
-  similarity: 0.682
+  similarity: 75%
+- slug: increased-manual-testing-effort
+  similarity: 75%
 - slug: large-risky-releases
-  similarity: 0.676
+  similarity: 70%
 - slug: increased-bug-count
-  similarity: 0.646
+  similarity: 65%
+- slug: delayed-bug-fixes
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: increased-cognitive-load
-  similarity: 0.763
+  similarity: 75%
 - slug: increased-manual-work
-  similarity: 0.694
+  similarity: 70%
 - slug: mental-fatigue
-  similarity: 0.69
+  similarity: 70%
 - slug: reduced-individual-productivity
-  similarity: 0.68
+  similarity: 70%
 - slug: context-switching-overhead
-  similarity: 0.678
+  similarity: 70%
 layout: problem
 ---
 

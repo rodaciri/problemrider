@@ -8,15 +8,15 @@ category:
 - Scalability
 related_problems:
 - slug: thread-pool-exhaustion
-  similarity: 0.574
+  similarity: 55%
 - slug: uneven-workload-distribution
-  similarity: 0.556
-- slug: microservice-communication-overhead
-  similarity: 0.547
+  similarity: 55%
 - slug: service-discovery-failures
-  similarity: 0.547
+  similarity: 55%
 - slug: rate-limiting-issues
-  similarity: 0.535
+  similarity: 55%
+- slug: microservice-communication-overhead
+  similarity: 55%
 layout: problem
 ---
 

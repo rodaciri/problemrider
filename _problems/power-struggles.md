@@ -8,15 +8,15 @@ category:
 - Politics
 related_problems:
 - slug: team-dysfunction
-  similarity: 0.668
+  similarity: 65%
 - slug: project-authority-vacuum
-  similarity: 0.645
+  similarity: 65%
 - slug: project-resource-constraints
-  similarity: 0.608
+  similarity: 60%
 - slug: competing-priorities
-  similarity: 0.607
+  similarity: 60%
 - slug: team-confusion
-  similarity: 0.603
+  similarity: 60%
 layout: problem
 ---
 

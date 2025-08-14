@@ -8,15 +8,15 @@ category:
 - Maintainability
 related_problems:
 - slug: information-decay
-  similarity: 0.867
+  similarity: 90%
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.675
+  similarity: 70%
 - slug: unclear-documentation-ownership
-  similarity: 0.638
+  similarity: 70%
 - slug: knowledge-gaps
-  similarity: 0.61
+  similarity: 65%
 - slug: information-fragmentation
-  similarity: 0.582
+  similarity: 60%
 layout: problem
 ---
 

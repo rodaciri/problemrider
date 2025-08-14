@@ -7,16 +7,16 @@ category:
 - Process
 - Workplace Health
 related_problems:
-- slug: reviewer-inexperience
-  similarity: 0.769
-- slug: reduced-review-participation
-  similarity: 0.739
 - slug: fear-of-conflict
-  similarity: 0.723
-- slug: team-members-not-engaged-in-review-process
-  similarity: 0.7
+  similarity: 75%
+- slug: reduced-review-participation
+  similarity: 75%
+- slug: reviewer-inexperience
+  similarity: 75%
 - slug: author-frustration
-  similarity: 0.693
+  similarity: 75%
+- slug: team-members-not-engaged-in-review-process
+  similarity: 70%
 layout: problem
 ---
 

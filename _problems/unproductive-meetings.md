@@ -7,15 +7,15 @@ category:
 - Communication
 related_problems:
 - slug: inefficient-processes
-  similarity: 0.622
+  similarity: 65%
 - slug: poor-communication
-  similarity: 0.565
+  similarity: 55%
 - slug: team-dysfunction
-  similarity: 0.525
-- slug: poor-teamwork
-  similarity: 0.518
+  similarity: 55%
 - slug: communication-breakdown
-  similarity: 0.515
+  similarity: 50%
+- slug: poor-teamwork
+  similarity: 50%
 layout: problem
 ---
 

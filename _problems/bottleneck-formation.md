@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: work-queue-buildup
-  similarity: 0.769
+  similarity: 75%
 - slug: uneven-work-flow
-  similarity: 0.729
+  similarity: 75%
 - slug: capacity-mismatch
-  similarity: 0.714
+  similarity: 70%
 - slug: work-blocking
-  similarity: 0.713
+  similarity: 70%
 - slug: inefficient-processes
-  similarity: 0.694
+  similarity: 70%
 layout: problem
 ---
 

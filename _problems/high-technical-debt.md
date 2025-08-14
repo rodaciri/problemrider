@@ -9,15 +9,15 @@ category:
 - Process
 related_problems:
 - slug: invisible-nature-of-technical-debt
-  similarity: 0.769
+  similarity: 75%
 - slug: refactoring-avoidance
-  similarity: 0.747
+  similarity: 75%
 - slug: maintenance-overhead
-  similarity: 0.732
+  similarity: 75%
 - slug: maintenance-cost-increase
-  similarity: 0.7
+  similarity: 70%
 - slug: increased-cost-of-development
-  similarity: 0.699
+  similarity: 70%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Culture
 related_problems:
 - slug: large-pull-requests
-  similarity: 0.805
+  similarity: 80%
 - slug: review-bottlenecks
-  similarity: 0.746
+  similarity: 75%
 - slug: insufficient-code-review
-  similarity: 0.741
+  similarity: 75%
 - slug: review-process-breakdown
-  similarity: 0.709
+  similarity: 70%
 - slug: code-review-inefficiency
-  similarity: 0.696
+  similarity: 70%
 layout: problem
 ---
 

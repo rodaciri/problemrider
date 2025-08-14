@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: competing-priorities
-  similarity: 0.72
+  similarity: 70%
 - slug: procrastination-on-complex-tasks
-  similarity: 0.624
+  similarity: 60%
 - slug: development-disruption
-  similarity: 0.6
+  similarity: 60%
 - slug: uneven-workload-distribution
-  similarity: 0.597
+  similarity: 60%
 - slug: staff-availability-issues
-  similarity: 0.595
+  similarity: 60%
 layout: problem
 ---
 

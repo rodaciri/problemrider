@@ -8,15 +8,15 @@ category:
 - Strategy
 related_problems:
 - slug: feature-creep
-  similarity: 0.659
+  similarity: 65%
 - slug: feature-gaps
-  similarity: 0.631
+  similarity: 65%
 - slug: large-feature-scope
-  similarity: 0.601
+  similarity: 60%
 - slug: reduced-feature-quality
-  similarity: 0.598
+  similarity: 60%
 - slug: competitive-disadvantage
-  similarity: 0.587
+  similarity: 60%
 layout: problem
 ---
 

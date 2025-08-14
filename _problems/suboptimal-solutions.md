@@ -8,15 +8,15 @@ category:
 - Requirements
 related_problems:
 - slug: increased-technical-shortcuts
-  similarity: 0.557
+  similarity: 55%
 - slug: tool-limitations
-  similarity: 0.542
+  similarity: 55%
 - slug: workaround-culture
-  similarity: 0.54
+  similarity: 55%
 - slug: inefficient-processes
-  similarity: 0.523
+  similarity: 50%
 - slug: accumulation-of-workarounds
-  similarity: 0.516
+  similarity: 50%
 layout: problem
 ---
 

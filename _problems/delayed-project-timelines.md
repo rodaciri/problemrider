@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: missed-deadlines
-  similarity: 0.741
-- slug: unrealistic-schedule
-  similarity: 0.721
+  similarity: 80%
 - slug: cascade-delays
-  similarity: 0.706
-- slug: planning-credibility-issues
-  similarity: 0.662
+  similarity: 70%
+- slug: unrealistic-schedule
+  similarity: 70%
 - slug: reduced-predictability
-  similarity: 0.643
+  similarity: 70%
+- slug: planning-credibility-issues
+  similarity: 70%
 layout: problem
 ---
 

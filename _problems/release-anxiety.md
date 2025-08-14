@@ -7,16 +7,16 @@ category:
 - Quality
 - Deployment
 related_problems:
-- slug: deployment-risk
-  similarity: 0.704
-- slug: large-risky-releases
-  similarity: 0.687
 - slug: release-instability
-  similarity: 0.634
-- slug: fear-of-failure
-  similarity: 0.614
+  similarity: 80%
 - slug: history-of-failed-changes
-  similarity: 0.606
+  similarity: 70%
+- slug: fear-of-failure
+  similarity: 70%
+- slug: large-risky-releases
+  similarity: 65%
+- slug: deployment-risk
+  similarity: 65%
 layout: problem
 ---
 

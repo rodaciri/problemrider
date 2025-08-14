@@ -7,16 +7,16 @@ category:
 - Process
 - Quality
 related_problems:
-- slug: review-process-breakdown
-  similarity: 0.874
 - slug: insufficient-code-review
-  similarity: 0.871
-- slug: code-review-inefficiency
-  similarity: 0.785
+  similarity: 90%
+- slug: review-process-breakdown
+  similarity: 85%
 - slug: superficial-code-reviews
-  similarity: 0.733
+  similarity: 80%
+- slug: code-review-inefficiency
+  similarity: 80%
 - slug: lower-code-quality
-  similarity: 0.708
+  similarity: 75%
 layout: problem
 ---
 

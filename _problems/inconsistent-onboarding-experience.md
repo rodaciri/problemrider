@@ -8,15 +8,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: inconsistent-knowledge-acquisition
-  similarity: 0.748
+  similarity: 75%
 - slug: difficult-developer-onboarding
-  similarity: 0.69
+  similarity: 70%
 - slug: high-turnover
-  similarity: 0.623
+  similarity: 65%
 - slug: inconsistent-execution
-  similarity: 0.613
+  similarity: 60%
 - slug: inappropriate-skillset
-  similarity: 0.594
+  similarity: 60%
 layout: problem
 ---
 

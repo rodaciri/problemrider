@@ -7,7 +7,7 @@ category:
 - Team
 related_problems:
 - slug: unproductive-meetings
-  similarity: 0.511
+  similarity: 50%
 layout: problem
 ---
 

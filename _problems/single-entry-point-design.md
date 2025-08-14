@@ -7,7 +7,7 @@ category:
 - Design
 related_problems:
 - slug: god-object-anti-pattern
-  similarity: 0.502
+  similarity: 50%
 layout: problem
 ---
 

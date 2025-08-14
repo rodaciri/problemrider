@@ -8,15 +8,15 @@ category:
 - Data Integrity
 related_problems:
 - slug: race-conditions
-  similarity: 0.647
+  similarity: 65%
 - slug: cache-invalidation-problems
-  similarity: 0.597
-- slug: data-structure-cache-inefficiency
-  similarity: 0.578
+  similarity: 65%
 - slug: false-sharing
-  similarity: 0.538
+  similarity: 60%
+- slug: data-structure-cache-inefficiency
+  similarity: 60%
 - slug: silent-data-corruption
-  similarity: 0.534
+  similarity: 55%
 layout: problem
 ---
 

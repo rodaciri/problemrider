@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: difficult-code-comprehension
-  similarity: 0.706
+  similarity: 70%
 - slug: increased-cognitive-load
-  similarity: 0.668
+  similarity: 65%
 - slug: complex-and-obscure-logic
-  similarity: 0.658
+  similarity: 65%
 - slug: insufficient-code-review
-  similarity: 0.651
+  similarity: 65%
 - slug: inexperienced-developers
-  similarity: 0.64
+  similarity: 65%
 layout: problem
 ---
 

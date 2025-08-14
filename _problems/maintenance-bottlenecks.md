@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: maintenance-overhead
-  similarity: 0.786
+  similarity: 80%
 - slug: maintenance-cost-increase
-  similarity: 0.696
+  similarity: 70%
 - slug: high-maintenance-costs
-  similarity: 0.691
-- slug: tool-limitations
-  similarity: 0.688
+  similarity: 70%
 - slug: inefficient-development-environment
-  similarity: 0.688
+  similarity: 70%
+- slug: tool-limitations
+  similarity: 70%
 layout: problem
 ---
 

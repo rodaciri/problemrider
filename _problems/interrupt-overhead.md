@@ -8,15 +8,15 @@ category:
 - Hardware
 related_problems:
 - slug: garbage-collection-pressure
-  similarity: 0.646
+  similarity: 65%
 - slug: atomic-operation-overhead
-  similarity: 0.643
+  similarity: 65%
 - slug: lock-contention
-  similarity: 0.567
-- slug: excessive-disk-io
-  similarity: 0.555
+  similarity: 55%
 - slug: excessive-object-allocation
-  similarity: 0.553
+  similarity: 55%
+- slug: excessive-disk-io
+  similarity: 55%
 layout: problem
 ---
 

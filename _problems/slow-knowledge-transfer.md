@@ -8,15 +8,15 @@ category:
 - Team
 related_problems:
 - slug: tacit-knowledge
-  similarity: 0.796
+  similarity: 75%
 - slug: knowledge-sharing-breakdown
-  similarity: 0.679
-- slug: skill-development-gaps
-  similarity: 0.647
-- slug: knowledge-silos
-  similarity: 0.637
+  similarity: 70%
 - slug: knowledge-dependency
-  similarity: 0.626
+  similarity: 70%
+- slug: knowledge-silos
+  similarity: 65%
+- slug: skill-development-gaps
+  similarity: 65%
 layout: problem
 ---
 

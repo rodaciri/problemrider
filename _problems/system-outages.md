@@ -8,15 +8,15 @@ category:
 - Business Impact
 related_problems:
 - slug: customer-dissatisfaction
-  similarity: 0.635
+  similarity: 65%
 - slug: poor-system-environment
-  similarity: 0.613
-- slug: cascade-failures
-  similarity: 0.596
+  similarity: 60%
 - slug: user-frustration
-  similarity: 0.593
+  similarity: 60%
+- slug: cascade-failures
+  similarity: 60%
 - slug: increased-customer-support-load
-  similarity: 0.574
+  similarity: 55%
 layout: problem
 ---
 

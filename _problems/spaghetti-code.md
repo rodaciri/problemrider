@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: procedural-programming-in-oop-languages
-  similarity: 0.625
+  similarity: 65%
 - slug: global-state-and-side-effects
-  similarity: 0.605
+  similarity: 60%
 - slug: clever-code
-  similarity: 0.604
+  similarity: 60%
 - slug: difficult-to-understand-code
-  similarity: 0.577
+  similarity: 60%
 - slug: stack-overflow-errors
-  similarity: 0.548
+  similarity: 55%
 layout: problem
 ---
 

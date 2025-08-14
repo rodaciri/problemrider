@@ -8,15 +8,15 @@ category:
 - Credential Management
 related_problems:
 - slug: password-security-weaknesses
-  similarity: 0.596
+  similarity: 60%
 - slug: session-management-issues
-  similarity: 0.573
+  similarity: 55%
 - slug: environment-variable-issues
-  similarity: 0.571
+  similarity: 55%
 - slug: authentication-bypass-vulnerabilities
-  similarity: 0.55
+  similarity: 55%
 - slug: logging-configuration-issues
-  similarity: 0.526
+  similarity: 55%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: inefficient-processes
-  similarity: 0.691
+  similarity: 70%
 - slug: wasted-development-effort
-  similarity: 0.637
+  similarity: 65%
 - slug: review-process-breakdown
-  similarity: 0.62
+  similarity: 60%
 - slug: inconsistent-execution
-  similarity: 0.612
+  similarity: 60%
 - slug: code-review-inefficiency
-  similarity: 0.596
+  similarity: 60%
 layout: problem
 ---
 

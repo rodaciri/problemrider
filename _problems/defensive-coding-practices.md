@@ -8,15 +8,15 @@ category:
 - Development Workflow
 related_problems:
 - slug: fear-of-conflict
-  similarity: 0.698
+  similarity: 70%
 - slug: author-frustration
-  similarity: 0.69
+  similarity: 70%
 - slug: superficial-code-reviews
-  similarity: 0.677
+  similarity: 70%
 - slug: reviewer-anxiety
-  similarity: 0.655
+  similarity: 65%
 - slug: review-process-breakdown
-  similarity: 0.644
+  similarity: 65%
 layout: problem
 ---
 

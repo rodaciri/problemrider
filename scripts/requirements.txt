@@ -9,3 +9,7 @@ numpy>=1.21.0                 # Required for embeddings
 # For robust markdown text extraction
 markdown>=3.4.0               # Convert markdown to HTML
 beautifulsoup4>=4.11.0        # Extract plain text from HTML
+
+# For causal relationship validation
+networkx>=2.8.0               # Graph structure for causal modeling
+openai>=1.0.0                 # LLM-based causal reasoning

@@ -8,9 +8,9 @@ category:
 - Design
 related_problems:
 - slug: legacy-configuration-management-chaos
-  similarity: 55%
+  similarity: 0.55
 - slug: brittle-codebase
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: maintenance-overhead
-  similarity: 70%
+  similarity: 0.7
 - slug: budget-overruns
-  similarity: 65%
-- slug: constant-firefighting
-  similarity: 65%
+  similarity: 0.65
 - slug: context-switching-overhead
-  similarity: 65%
+  similarity: 0.65
+- slug: constant-firefighting
+  similarity: 0.65
 - slug: development-disruption
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

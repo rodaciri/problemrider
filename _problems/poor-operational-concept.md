@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: poor-system-environment
-  similarity: 65%
-- slug: immature-delivery-strategy
-  similarity: 60%
-- slug: poor-planning
-  similarity: 60%
+  similarity: 0.6
 - slug: operational-overhead
-  similarity: 60%
+  similarity: 0.6
+- slug: immature-delivery-strategy
+  similarity: 0.6
+- slug: poor-planning
+  similarity: 0.6
 - slug: monitoring-gaps
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

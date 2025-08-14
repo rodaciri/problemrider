@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: inadequate-requirements-gathering
-  similarity: 65%
+  similarity: 0.65
 - slug: frequent-changes-to-requirements
-  similarity: 65%
+  similarity: 0.6
 - slug: team-confusion
-  similarity: 60%
+  similarity: 0.6
 - slug: poorly-defined-responsibilities
-  similarity: 60%
+  similarity: 0.6
 - slug: unclear-goals-and-priorities
-  similarity: 60%
+  similarity: 0.55
 layout: problem
 ---
 

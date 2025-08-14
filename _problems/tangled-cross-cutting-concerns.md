@@ -7,15 +7,15 @@ category:
 - Architecture
 related_problems:
 - slug: spaghetti-code
-  similarity: 60%
-- slug: complex-and-obscure-logic
-  similarity: 60%
+  similarity: 0.6
 - slug: tight-coupling-issues
-  similarity: 60%
+  similarity: 0.6
+- slug: complex-and-obscure-logic
+  similarity: 0.6
 - slug: team-coordination-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: circular-dependency-problems
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Operational
 related_problems:
 - slug: complex-deployment-process
-  similarity: 75%
+  similarity: 0.75
 - slug: deployment-risk
-  similarity: 70%
-- slug: missing-rollback-strategy
-  similarity: 65%
+  similarity: 0.7
 - slug: increased-manual-testing-effort
-  similarity: 65%
+  similarity: 0.65
+- slug: missing-rollback-strategy
+  similarity: 0.65
 - slug: immature-delivery-strategy
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

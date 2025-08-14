@@ -8,15 +8,15 @@ category:
 - Database
 related_problems:
 - slug: slow-application-performance
-  similarity: 70%
+  similarity: 0.65
 - slug: high-api-latency
-  similarity: 65%
-- slug: network-latency
-  similarity: 60%
+  similarity: 0.6
 - slug: database-query-performance-issues
-  similarity: 60%
-- slug: external-service-delays
-  similarity: 60%
+  similarity: 0.6
+- slug: network-latency
+  similarity: 0.6
+- slug: slow-database-queries
+  similarity: 0.6
 layout: problem
 ---
 

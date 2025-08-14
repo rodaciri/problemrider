@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: knowledge-sharing-breakdown
-  similarity: 70%
+  similarity: 0.7
 - slug: team-confusion
-  similarity: 70%
+  similarity: 0.7
 - slug: knowledge-silos
-  similarity: 65%
+  similarity: 0.65
 - slug: communication-risk-within-project
-  similarity: 65%
+  similarity: 0.65
 - slug: unclear-goals-and-priorities
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

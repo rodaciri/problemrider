@@ -8,15 +8,15 @@ category:
 - Testing
 related_problems:
 - slug: difficult-to-understand-code
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-code-reuse
-  similarity: 70%
+  similarity: 0.7
 - slug: testing-complexity
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-code-comprehension
-  similarity: 70%
+  similarity: 0.7
 - slug: complex-and-obscure-logic
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

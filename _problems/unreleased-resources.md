@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: resource-allocation-failures
-  similarity: 80%
+  similarity: 0.8
 - slug: resource-waste
-  similarity: 65%
+  similarity: 0.65
 - slug: memory-leaks
-  similarity: 60%
+  similarity: 0.6
 - slug: unbounded-data-growth
-  similarity: 60%
-- slug: long-running-transactions
-  similarity: 55%
+  similarity: 0.6
+- slug: database-connection-leaks
+  similarity: 0.55
 layout: problem
 ---
 

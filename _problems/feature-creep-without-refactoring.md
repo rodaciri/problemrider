@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: feature-creep
-  similarity: 85%
+  similarity: 0.85
 - slug: scope-creep
-  similarity: 60%
-- slug: convenience-driven-development
-  similarity: 55%
+  similarity: 0.6
 - slug: maintenance-paralysis
-  similarity: 55%
+  similarity: 0.55
+- slug: convenience-driven-development
+  similarity: 0.55
 - slug: feature-bloat
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

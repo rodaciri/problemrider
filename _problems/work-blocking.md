@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: approval-dependencies
-  similarity: 75%
+  similarity: 0.75
 - slug: work-queue-buildup
-  similarity: 65%
+  similarity: 0.65
 - slug: delayed-decision-making
-  similarity: 65%
+  similarity: 0.65
 - slug: bottleneck-formation
-  similarity: 65%
+  similarity: 0.65
 - slug: decision-paralysis
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

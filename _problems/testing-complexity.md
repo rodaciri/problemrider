@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: difficult-to-test-code
-  similarity: 70%
+  similarity: 0.7
 - slug: insufficient-testing
-  similarity: 65%
+  similarity: 0.65
 - slug: complex-and-obscure-logic
-  similarity: 65%
+  similarity: 0.6
+- slug: test-debt
+  similarity: 0.6
 - slug: inconsistent-quality
-  similarity: 60%
-- slug: quality-blind-spots
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

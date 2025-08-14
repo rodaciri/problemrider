@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: race-conditions
-  similarity: 65%
+  similarity: 0.65
 - slug: resource-contention
-  similarity: 65%
+  similarity: 0.65
 - slug: deadlock-conditions
-  similarity: 60%
+  similarity: 0.6
 - slug: atomic-operation-overhead
-  similarity: 55%
+  similarity: 0.55
 - slug: false-sharing
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

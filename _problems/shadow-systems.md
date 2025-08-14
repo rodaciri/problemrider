@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: hidden-dependencies
-  similarity: 60%
+  similarity: 0.6
 - slug: poor-documentation
-  similarity: 55%
+  similarity: 0.55
 - slug: implicit-knowledge
-  similarity: 55%
+  similarity: 0.55
 - slug: technology-stack-fragmentation
-  similarity: 55%
+  similarity: 0.55
 - slug: obsolete-technologies
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

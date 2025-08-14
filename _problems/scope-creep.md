@@ -8,15 +8,15 @@ category:
 - Requirements
 related_problems:
 - slug: changing-project-scope
-  similarity: 80%
+  similarity: 0.8
 - slug: no-formal-change-control-process
-  similarity: 70%
+  similarity: 0.7
 - slug: feature-creep
-  similarity: 70%
+  similarity: 0.7
 - slug: frequent-changes-to-requirements
-  similarity: 70%
+  similarity: 0.7
 - slug: scope-change-resistance
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

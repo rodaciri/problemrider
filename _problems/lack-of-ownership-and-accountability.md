@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: unclear-documentation-ownership
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-quality
-  similarity: 65%
+  similarity: 0.65
 - slug: poorly-defined-responsibilities
-  similarity: 60%
-- slug: maintenance-paralysis
-  similarity: 60%
+  similarity: 0.6
 - slug: maintenance-overhead
-  similarity: 60%
+  similarity: 0.6
+- slug: maintenance-paralysis
+  similarity: 0.6
 layout: problem
 ---
 

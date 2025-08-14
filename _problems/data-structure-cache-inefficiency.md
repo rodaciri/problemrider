@@ -8,15 +8,15 @@ category:
 - Data Management
 related_problems:
 - slug: alignment-and-padding-issues
-  similarity: 75%
+  similarity: 0.75
 - slug: poor-caching-strategy
-  similarity: 60%
+  similarity: 0.6
 - slug: memory-barrier-inefficiency
-  similarity: 60%
+  similarity: 0.6
 - slug: unbounded-data-structures
-  similarity: 60%
+  similarity: 0.6
 - slug: algorithmic-complexity-problems
-  similarity: 60%
+  similarity: 0.55
 layout: problem
 ---
 

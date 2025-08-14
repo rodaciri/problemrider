@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: maintenance-bottlenecks
-  similarity: 75%
+  similarity: 0.75
 - slug: work-queue-buildup
-  similarity: 70%
+  similarity: 0.7
 - slug: work-blocking
-  similarity: 65%
+  similarity: 0.65
 - slug: capacity-mismatch
-  similarity: 60%
+  similarity: 0.6
 - slug: single-points-of-failure
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

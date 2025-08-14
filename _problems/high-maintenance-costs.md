@@ -7,15 +7,15 @@ category:
 - Business
 related_problems:
 - slug: maintenance-cost-increase
-  similarity: 80%
+  similarity: 0.8
 - slug: maintenance-overhead
-  similarity: 80%
+  similarity: 0.8
 - slug: increased-cost-of-development
-  similarity: 75%
+  similarity: 0.75
 - slug: modernization-roi-justification-failure
-  similarity: 60%
+  similarity: 0.6
 - slug: maintenance-paralysis
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

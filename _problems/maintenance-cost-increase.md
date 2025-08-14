@@ -8,15 +8,15 @@ category:
 - Resource Management
 related_problems:
 - slug: high-maintenance-costs
-  similarity: 80%
+  similarity: 0.8
 - slug: increased-cost-of-development
-  similarity: 75%
+  similarity: 0.75
 - slug: maintenance-overhead
-  similarity: 70%
+  similarity: 0.7
 - slug: maintenance-bottlenecks
-  similarity: 60%
-- slug: quality-degradation
-  similarity: 55%
+  similarity: 0.6
+- slug: increasing-brittleness
+  similarity: 0.55
 layout: problem
 ---
 

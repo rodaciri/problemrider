@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: large-feature-scope
-  similarity: 70%
+  similarity: 0.7
 - slug: slow-feature-development
-  similarity: 60%
+  similarity: 0.6
 - slug: merge-conflicts
-  similarity: 55%
+  similarity: 0.55
+- slug: inconsistent-codebase
+  similarity: 0.55
 - slug: fear-of-breaking-changes
-  similarity: 55%
-- slug: feature-creep
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

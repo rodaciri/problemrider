@@ -8,15 +8,15 @@ category:
 - Project Management
 related_problems:
 - slug: incomplete-knowledge
-  similarity: 70%
+  similarity: 0.7
 - slug: constantly-shifting-deadlines
-  similarity: 65%
+  similarity: 0.65
 - slug: wasted-development-effort
-  similarity: 65%
+  similarity: 0.65
 - slug: feature-gaps
-  similarity: 60%
+  similarity: 0.6
 - slug: reduced-feature-quality
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

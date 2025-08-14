@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: large-risky-releases
-  similarity: 65%
+  similarity: 0.65
 - slug: release-instability
-  similarity: 60%
+  similarity: 0.6
 - slug: high-defect-rate-in-production
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-deployment-process
-  similarity: 55%
+  similarity: 0.55
 - slug: manual-deployment-processes
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

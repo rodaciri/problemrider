@@ -8,15 +8,15 @@ category:
 - Leadership
 related_problems:
 - slug: project-resource-constraints
-  similarity: 65%
+  similarity: 0.65
 - slug: power-struggles
-  similarity: 55%
-- slug: competing-priorities
-  similarity: 50%
+  similarity: 0.55
 - slug: poor-project-control
-  similarity: 50%
+  similarity: 0.5
+- slug: competing-priorities
+  similarity: 0.5
 - slug: staff-availability-issues
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

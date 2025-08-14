@@ -8,15 +8,15 @@ category:
 - Cultural
 related_problems:
 - slug: team-dysfunction
-  similarity: 60%
-- slug: poor-teamwork
-  similarity: 60%
+  similarity: 0.6
 - slug: team-confusion
-  similarity: 60%
+  similarity: 0.6
+- slug: poor-teamwork
+  similarity: 0.6
 - slug: communication-risk-within-project
-  similarity: 60%
+  similarity: 0.6
 - slug: communication-breakdown
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

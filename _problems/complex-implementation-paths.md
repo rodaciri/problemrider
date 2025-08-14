@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: complex-domain-model
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-and-obscure-logic
-  similarity: 60%
+  similarity: 0.6
 - slug: avoidance-behaviors
-  similarity: 55%
+  similarity: 0.55
 - slug: testing-complexity
-  similarity: 55%
-- slug: procrastination-on-complex-tasks
-  similarity: 55%
+  similarity: 0.55
+- slug: architectural-mismatch
+  similarity: 0.55
 layout: problem
 ---
 

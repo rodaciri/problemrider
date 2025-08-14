@@ -7,15 +7,15 @@ category:
 - Database
 related_problems:
 - slug: incorrect-index-type
-  similarity: 85%
+  similarity: 0.85
 - slug: queries-that-prevent-index-usage
-  similarity: 75%
+  similarity: 0.75
 - slug: unused-indexes
-  similarity: 75%
+  similarity: 0.7
 - slug: database-query-performance-issues
-  similarity: 70%
+  similarity: 0.7
 - slug: slow-database-queries
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

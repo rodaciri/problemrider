@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: product-direction-chaos
-  similarity: 75%
+  similarity: 0.75
 - slug: team-confusion
-  similarity: 75%
+  similarity: 0.75
 - slug: priority-thrashing
-  similarity: 65%
+  similarity: 0.65
 - slug: competing-priorities
-  similarity: 65%
+  similarity: 0.65
 - slug: unclear-sharing-expectations
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

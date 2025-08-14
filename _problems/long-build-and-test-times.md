@@ -6,15 +6,15 @@ category:
 - Productivity
 related_problems:
 - slug: long-release-cycles
-  similarity: 60%
+  similarity: 0.6
 - slug: work-queue-buildup
-  similarity: 60%
+  similarity: 0.6
 - slug: extended-cycle-times
-  similarity: 60%
+  similarity: 0.6
 - slug: extended-research-time
-  similarity: 55%
+  similarity: 0.55
 - slug: maintenance-bottlenecks
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

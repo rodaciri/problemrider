@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: procedural-background
-  similarity: 75%
+  similarity: 0.75
 - slug: over-reliance-on-utility-classes
-  similarity: 70%
+  similarity: 0.7
 - slug: insufficient-design-skills
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-code-comprehension
-  similarity: 65%
+  similarity: 0.65
 - slug: difficult-code-reuse
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

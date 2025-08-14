@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: unclear-goals-and-priorities
-  similarity: 75%
+  similarity: 0.75
 - slug: team-confusion
-  similarity: 65%
+  similarity: 0.65
 - slug: power-struggles
-  similarity: 60%
+  similarity: 0.6
 - slug: competing-priorities
-  similarity: 60%
+  similarity: 0.6
 - slug: misaligned-deliverables
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

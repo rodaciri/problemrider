@@ -8,15 +8,15 @@ category:
 - Workplace Health
 related_problems:
 - slug: author-frustration
-  similarity: 75%
+  similarity: 0.7
 - slug: fear-of-conflict
-  similarity: 70%
+  similarity: 0.7
 - slug: reduced-review-participation
-  similarity: 70%
+  similarity: 0.7
 - slug: reviewer-inexperience
-  similarity: 65%
+  similarity: 0.65
 - slug: release-anxiety
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

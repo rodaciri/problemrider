@@ -7,15 +7,15 @@ category:
 - User Experience
 related_problems:
 - slug: inconsistent-onboarding-experience
-  similarity: 70%
+  similarity: 0.7
 - slug: poor-user-experience-ux-design
-  similarity: 65%
+  similarity: 0.65
 - slug: negative-user-feedback
-  similarity: 60%
+  similarity: 0.6
 - slug: user-confusion
-  similarity: 60%
+  similarity: 0.6
 - slug: difficult-developer-onboarding
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

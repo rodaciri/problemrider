@@ -8,15 +8,15 @@ category:
 - Financial
 related_problems:
 - slug: modernization-strategy-paralysis
-  similarity: 75%
+  similarity: 0.75
 - slug: difficulty-quantifying-benefits
-  similarity: 65%
+  similarity: 0.65
 - slug: high-maintenance-costs
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 60%
+  similarity: 0.6
 - slug: obsolete-technologies
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

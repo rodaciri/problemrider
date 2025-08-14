@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: high-turnover
-  similarity: 65%
+  similarity: 0.65
 - slug: reduced-team-productivity
-  similarity: 60%
+  similarity: 0.6
 - slug: team-silos
-  similarity: 60%
+  similarity: 0.6
 - slug: team-members-not-engaged-in-review-process
-  similarity: 60%
-- slug: lower-code-quality
-  similarity: 60%
+  similarity: 0.6
+- slug: information-decay
+  similarity: 0.6
 layout: problem
 ---
 

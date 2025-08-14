@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: inefficient-frontend-code
-  similarity: 75%
+  similarity: 0.75
 - slug: algorithmic-complexity-problems
-  similarity: 70%
+  similarity: 0.7
 - slug: slow-application-performance
-  similarity: 65%
+  similarity: 0.65
 - slug: complex-and-obscure-logic
-  similarity: 65%
+  similarity: 0.65
 - slug: imperative-data-fetching-logic
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

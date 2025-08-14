@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: planning-dysfunction
-  similarity: 80%
+  similarity: 0.8
 - slug: planning-credibility-issues
-  similarity: 70%
+  similarity: 0.7
 - slug: delayed-project-timelines
-  similarity: 70%
+  similarity: 0.7
 - slug: missed-deadlines
-  similarity: 65%
+  similarity: 0.65
 - slug: unrealistic-schedule
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

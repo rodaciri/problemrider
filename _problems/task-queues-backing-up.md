@@ -7,13 +7,13 @@ category:
 - Stability
 related_problems:
 - slug: growing-task-queues
-  similarity: 85%
+  similarity: 0.85
 - slug: insufficient-worker-capacity
-  similarity: 80%
+  similarity: 0.8
 - slug: work-queue-buildup
-  similarity: 70%
+  similarity: 0.7
 - slug: maintenance-overhead
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

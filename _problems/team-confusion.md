@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: team-dysfunction
-  similarity: 75%
+  similarity: 0.75
 - slug: unclear-goals-and-priorities
-  similarity: 75%
+  similarity: 0.75
 - slug: unclear-sharing-expectations
-  similarity: 70%
+  similarity: 0.7
 - slug: communication-risk-within-project
-  similarity: 70%
+  similarity: 0.7
 - slug: team-coordination-issues
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

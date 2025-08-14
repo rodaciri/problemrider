@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: modernization-strategy-paralysis
-  similarity: 60%
+  similarity: 0.6
 - slug: architectural-mismatch
-  similarity: 60%
+  similarity: 0.6
 - slug: stagnant-architecture
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-system-documentation-archaeology
-  similarity: 55%
+  similarity: 0.55
 - slug: strangler-fig-pattern-failures
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

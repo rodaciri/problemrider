@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: deadline-pressure
-  similarity: 75%
-- slug: constant-firefighting
-  similarity: 70%
+  similarity: 0.75
 - slug: increased-stress-and-burnout
-  similarity: 70%
+  similarity: 0.7
+- slug: constant-firefighting
+  similarity: 0.65
 - slug: increased-technical-shortcuts
-  similarity: 65%
+  similarity: 0.65
 - slug: unrealistic-deadlines
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

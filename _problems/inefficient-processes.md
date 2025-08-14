@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: process-design-flaws
-  similarity: 70%
+  similarity: 0.7
 - slug: code-review-inefficiency
-  similarity: 70%
+  similarity: 0.7
 - slug: wasted-development-effort
-  similarity: 70%
+  similarity: 0.7
 - slug: inefficient-development-environment
-  similarity: 65%
+  similarity: 0.65
 - slug: uneven-work-flow
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

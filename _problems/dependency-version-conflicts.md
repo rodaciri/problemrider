@@ -8,15 +8,15 @@ category:
 - Configuration
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 70%
+  similarity: 0.7
 - slug: deployment-environment-inconsistencies
-  similarity: 55%
+  similarity: 0.55
 - slug: abi-compatibility-issues
-  similarity: 55%
+  similarity: 0.55
 - slug: circular-dependency-problems
-  similarity: 55%
+  similarity: 0.55
 - slug: hidden-dependencies
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

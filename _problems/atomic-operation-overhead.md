@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: memory-barrier-inefficiency
-  similarity: 65%
+  similarity: 0.65
 - slug: interrupt-overhead
-  similarity: 60%
+  similarity: 0.6
 - slug: false-sharing
-  similarity: 55%
+  similarity: 0.55
 - slug: lock-contention
-  similarity: 55%
+  similarity: 0.55
 - slug: maintenance-bottlenecks
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

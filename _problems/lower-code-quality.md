@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: quality-compromises
-  similarity: 65%
+  similarity: 0.65
 - slug: quality-degradation
-  similarity: 65%
+  similarity: 0.65
 - slug: inadequate-code-reviews
-  similarity: 65%
+  similarity: 0.65
 - slug: insufficient-code-review
-  similarity: 60%
+  similarity: 0.6
 - slug: team-churn-impact
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

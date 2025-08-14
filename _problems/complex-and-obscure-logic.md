@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: difficult-code-comprehension
-  similarity: 75%
+  similarity: 0.75
 - slug: spaghetti-code
-  similarity: 75%
+  similarity: 0.75
 - slug: difficult-to-understand-code
-  similarity: 75%
+  similarity: 0.75
 - slug: clever-code
-  similarity: 70%
-- slug: legacy-business-logic-extraction-difficulty
-  similarity: 65%
+  similarity: 0.7
+- slug: inconsistent-codebase
+  similarity: 0.65
 layout: problem
 ---
 

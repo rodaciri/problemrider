@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: network-latency
-  similarity: 80%
+  similarity: 0.8
 - slug: external-service-delays
-  similarity: 75%
+  similarity: 0.75
 - slug: slow-application-performance
-  similarity: 70%
+  similarity: 0.7
 - slug: slow-response-times-for-lists
-  similarity: 65%
+  similarity: 0.6
 - slug: high-resource-utilization-on-client
-  similarity: 65%
+  similarity: 0.6
 layout: problem
 ---
 

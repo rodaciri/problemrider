@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: nitpicking-culture
-  similarity: 75%
+  similarity: 0.75
 - slug: perfectionist-culture
-  similarity: 70%
+  similarity: 0.7
 - slug: inadequate-code-reviews
-  similarity: 65%
+  similarity: 0.65
 - slug: code-review-inefficiency
-  similarity: 65%
+  similarity: 0.65
 - slug: review-process-breakdown
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

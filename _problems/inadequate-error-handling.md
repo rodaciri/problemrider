@@ -8,15 +8,15 @@ category:
 - User Experience
 related_problems:
 - slug: poor-user-experience-ux-design
-  similarity: 55%
+  similarity: 0.55
 - slug: increased-error-rates
-  similarity: 55%
+  similarity: 0.55
 - slug: inefficient-code
-  similarity: 55%
+  similarity: 0.55
 - slug: inadequate-onboarding
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-allocation-failures
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

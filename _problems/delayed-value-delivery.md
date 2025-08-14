@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: delayed-issue-resolution
-  similarity: 65%
+  similarity: 0.65
 - slug: slow-feature-development
-  similarity: 65%
+  similarity: 0.65
 - slug: increased-time-to-market
-  similarity: 65%
+  similarity: 0.65
 - slug: delayed-bug-fixes
-  similarity: 65%
+  similarity: 0.65
 - slug: misaligned-deliverables
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

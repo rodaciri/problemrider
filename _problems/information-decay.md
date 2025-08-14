@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: poor-documentation
-  similarity: 80%
+  similarity: 0.8
 - slug: information-fragmentation
-  similarity: 70%
+  similarity: 0.65
 - slug: unclear-documentation-ownership
-  similarity: 65%
+  similarity: 0.65
 - slug: quality-degradation
-  similarity: 65%
+  similarity: 0.65
 - slug: legacy-system-documentation-archaeology
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

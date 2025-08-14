@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: technology-stack-fragmentation
-  similarity: 75%
+  similarity: 0.75
 - slug: obsolete-technologies
-  similarity: 70%
+  similarity: 0.7
 - slug: technology-lock-in
-  similarity: 65%
+  similarity: 0.65
 - slug: legacy-skill-shortage
-  similarity: 65%
+  similarity: 0.65
 - slug: vendor-lock-in
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

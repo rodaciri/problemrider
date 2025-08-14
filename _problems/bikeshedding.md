@@ -7,15 +7,15 @@ category:
 - Team
 related_problems:
 - slug: incomplete-knowledge
-  similarity: 60%
+  similarity: 0.6
 - slug: nitpicking-culture
-  similarity: 55%
-- slug: unproductive-meetings
-  similarity: 55%
+  similarity: 0.6
 - slug: team-coordination-issues
-  similarity: 55%
+  similarity: 0.55
 - slug: time-pressure
-  similarity: 55%
+  similarity: 0.55
+- slug: unproductive-meetings
+  similarity: 0.55
 layout: problem
 ---
 

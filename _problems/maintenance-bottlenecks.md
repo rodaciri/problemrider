@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: bottleneck-formation
-  similarity: 75%
+  similarity: 0.75
 - slug: maintenance-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: legacy-skill-shortage
-  similarity: 65%
+  similarity: 0.65
 - slug: single-points-of-failure
-  similarity: 65%
+  similarity: 0.65
 - slug: review-bottlenecks
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

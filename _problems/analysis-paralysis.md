@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: decision-paralysis
-  similarity: 75%
+  similarity: 0.75
 - slug: maintenance-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: modernization-strategy-paralysis
-  similarity: 65%
+  similarity: 0.65
 - slug: decision-avoidance
-  similarity: 60%
+  similarity: 0.6
 - slug: constant-firefighting
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -9,15 +9,15 @@ category:
 - Individual
 related_problems:
 - slug: inexperienced-developers
-  similarity: 75%
+  similarity: 0.75
 - slug: inadequate-code-reviews
-  similarity: 70%
+  similarity: 0.7
 - slug: insufficient-code-review
-  similarity: 70%
+  similarity: 0.7
 - slug: code-review-inefficiency
-  similarity: 65%
+  similarity: 0.65
 - slug: inadequate-initial-reviews
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

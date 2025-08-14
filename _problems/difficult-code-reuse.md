@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: difficult-code-comprehension
-  similarity: 75%
+  similarity: 0.75
 - slug: difficult-to-understand-code
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-to-test-code
-  similarity: 70%
+  similarity: 0.7
 - slug: inconsistent-codebase
-  similarity: 70%
+  similarity: 0.7
 - slug: complex-and-obscure-logic
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

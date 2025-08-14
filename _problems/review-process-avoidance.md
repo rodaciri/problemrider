@@ -8,15 +8,15 @@ category:
 - Quality Assurance
 related_problems:
 - slug: reduced-review-participation
-  similarity: 70%
+  similarity: 0.7
 - slug: review-process-breakdown
-  similarity: 70%
+  similarity: 0.7
 - slug: inadequate-code-reviews
-  similarity: 65%
+  similarity: 0.65
 - slug: insufficient-code-review
-  similarity: 65%
+  similarity: 0.65
 - slug: rushed-approvals
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

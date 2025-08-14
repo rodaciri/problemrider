@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: convenience-driven-development
-  similarity: 55%
+  similarity: 0.55
 - slug: inexperienced-developers
-  similarity: 50%
+  similarity: 0.5
 - slug: decision-avoidance
-  similarity: 50%
+  similarity: 0.5
 - slug: feedback-isolation
-  similarity: 50%
+  similarity: 0.5
 - slug: decision-paralysis
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

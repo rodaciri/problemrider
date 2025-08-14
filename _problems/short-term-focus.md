@@ -8,15 +8,15 @@ category:
 - Strategic
 related_problems:
 - slug: increased-technical-shortcuts
-  similarity: 65%
+  similarity: 0.65
 - slug: high-technical-debt
-  similarity: 60%
+  similarity: 0.6
 - slug: quality-compromises
-  similarity: 55%
+  similarity: 0.55
 - slug: maintenance-paralysis
-  similarity: 55%
-- slug: difficulty-quantifying-benefits
-  similarity: 55%
+  similarity: 0.55
+- slug: feature-factory
+  similarity: 0.55
 layout: problem
 ---
 

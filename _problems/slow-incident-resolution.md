@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: delayed-issue-resolution
-  similarity: 65%
+  similarity: 0.65
 - slug: delayed-bug-fixes
-  similarity: 60%
+  similarity: 0.6
 - slug: system-outages
-  similarity: 60%
+  similarity: 0.6
 - slug: slow-application-performance
-  similarity: 60%
-- slug: external-service-delays
-  similarity: 55%
+  similarity: 0.6
+- slug: slow-response-times-for-lists
+  similarity: 0.55
 layout: problem
 ---
 

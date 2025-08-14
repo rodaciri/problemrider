@@ -9,15 +9,15 @@ category:
 - Culture
 related_problems:
 - slug: knowledge-dependency
-  similarity: 65%
+  similarity: 0.65
 - slug: developer-frustration-and-burnout
-  similarity: 65%
+  similarity: 0.65
 - slug: increased-stress-and-burnout
-  similarity: 60%
+  similarity: 0.6
 - slug: high-turnover
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-mentoring-structure
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

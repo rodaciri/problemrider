@@ -6,15 +6,15 @@ category:
 - Business
 related_problems:
 - slug: user-frustration
-  similarity: 65%
+  similarity: 0.65
 - slug: slow-application-performance
-  similarity: 60%
+  similarity: 0.6
 - slug: poor-user-experience-ux-design
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-onboarding
-  similarity: 60%
+  similarity: 0.6
 - slug: negative-brand-perception
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

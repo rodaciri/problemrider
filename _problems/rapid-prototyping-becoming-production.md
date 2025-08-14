@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: brittle-codebase
-  similarity: 55%
+  similarity: 0.55
 - slug: increased-technical-shortcuts
-  similarity: 55%
+  similarity: 0.55
 - slug: process-design-flaws
-  similarity: 55%
+  similarity: 0.55
 - slug: convenience-driven-development
-  similarity: 55%
+  similarity: 0.55
 - slug: rapid-system-changes
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

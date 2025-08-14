@@ -8,15 +8,15 @@ category:
 - Observability
 related_problems:
 - slug: insufficient-audit-logging
-  similarity: 65%
+  similarity: 0.65
 - slug: excessive-logging
-  similarity: 60%
+  similarity: 0.6
 - slug: log-injection-vulnerabilities
-  similarity: 60%
+  similarity: 0.6
 - slug: log-spam
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-configuration-management
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

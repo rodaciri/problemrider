@@ -8,15 +8,15 @@ category:
 - Business Relations
 related_problems:
 - slug: vendor-dependency
-  similarity: 65%
+  similarity: 0.65
 - slug: dependency-on-supplier
-  similarity: 60%
-- slug: vendor-dependency-entrapment
-  similarity: 55%
+  similarity: 0.6
 - slug: stakeholder-frustration
-  similarity: 55%
+  similarity: 0.55
+- slug: vendor-dependency-entrapment
+  similarity: 0.55
 - slug: legal-disputes
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

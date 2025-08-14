@@ -8,9 +8,9 @@ category:
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities
-  similarity: 65%
+  similarity: 0.65
 - slug: stack-overflow-errors
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

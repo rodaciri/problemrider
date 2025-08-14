@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: poor-test-coverage
-  similarity: 75%
+  similarity: 0.75
 - slug: insufficient-testing
-  similarity: 70%
+  similarity: 0.7
 - slug: monitoring-gaps
-  similarity: 70%
-- slug: system-integration-blindness
-  similarity: 65%
+  similarity: 0.7
 - slug: missing-end-to-end-tests
-  similarity: 65%
+  similarity: 0.65
+- slug: system-integration-blindness
+  similarity: 0.65
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: growing-task-queues
-  similarity: 70%
+  similarity: 0.7
 - slug: bottleneck-formation
-  similarity: 70%
+  similarity: 0.7
 - slug: task-queues-backing-up
-  similarity: 70%
+  similarity: 0.7
 - slug: work-blocking
-  similarity: 65%
+  similarity: 0.65
 - slug: insufficient-worker-capacity
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

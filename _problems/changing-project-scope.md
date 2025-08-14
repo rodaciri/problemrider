@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: scope-creep
-  similarity: 80%
+  similarity: 0.8
 - slug: frequent-changes-to-requirements
-  similarity: 75%
+  similarity: 0.75
 - slug: scope-change-resistance
-  similarity: 75%
+  similarity: 0.75
 - slug: no-formal-change-control-process
-  similarity: 70%
+  similarity: 0.7
 - slug: constantly-shifting-deadlines
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

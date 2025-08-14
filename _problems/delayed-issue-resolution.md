@@ -8,15 +8,15 @@ category:
 - Accountability
 related_problems:
 - slug: delayed-bug-fixes
-  similarity: 80%
+  similarity: 0.8
 - slug: slow-incident-resolution
-  similarity: 65%
+  similarity: 0.65
 - slug: delayed-value-delivery
-  similarity: 65%
+  similarity: 0.65
 - slug: missed-deadlines
-  similarity: 60%
-- slug: slow-development-velocity
-  similarity: 60%
+  similarity: 0.6
+- slug: debugging-difficulties
+  similarity: 0.6
 layout: problem
 ---
 

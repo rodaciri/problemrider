@@ -7,15 +7,15 @@ category:
 - Technical
 related_problems:
 - slug: cross-site-scripting-vulnerabilities
-  similarity: 55%
+  similarity: 0.55
 - slug: null-pointer-dereferences
-  similarity: 55%
+  similarity: 0.55
 - slug: sql-injection-vulnerabilities
-  similarity: 55%
+  similarity: 0.55
 - slug: authentication-bypass-vulnerabilities
-  similarity: 50%
+  similarity: 0.5
 - slug: log-injection-vulnerabilities
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

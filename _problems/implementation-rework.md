@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: wasted-development-effort
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-implementation-paths
-  similarity: 55%
+  similarity: 0.55
 - slug: implementation-starts-without-design
-  similarity: 55%
+  similarity: 0.55
 - slug: incomplete-projects
-  similarity: 55%
+  similarity: 0.55
 - slug: analysis-paralysis
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

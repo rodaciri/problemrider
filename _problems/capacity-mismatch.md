@@ -8,15 +8,15 @@ category:
 - Capacity Planning
 related_problems:
 - slug: bottleneck-formation
-  similarity: 60%
+  similarity: 0.6
 - slug: organizational-structure-mismatch
-  similarity: 60%
+  similarity: 0.6
 - slug: staff-availability-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: work-queue-buildup
-  similarity: 60%
-- slug: architectural-mismatch
-  similarity: 60%
+  similarity: 0.6
+- slug: maintenance-bottlenecks
+  similarity: 0.6
 layout: problem
 ---
 

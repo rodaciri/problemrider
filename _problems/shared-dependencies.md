@@ -7,15 +7,15 @@ category:
 - Deployment
 related_problems:
 - slug: shared-database
-  similarity: 75%
+  similarity: 0.75
 - slug: deployment-coupling
-  similarity: 65%
+  similarity: 0.65
 - slug: hidden-dependencies
-  similarity: 60%
+  similarity: 0.6
 - slug: circular-dependency-problems
-  similarity: 60%
+  similarity: 0.6
 - slug: tight-coupling-issues
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

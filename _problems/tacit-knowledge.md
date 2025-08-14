@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: slow-knowledge-transfer
-  similarity: 75%
+  similarity: 0.75
 - slug: implicit-knowledge
-  similarity: 70%
+  similarity: 0.7
 - slug: knowledge-silos
-  similarity: 70%
-- slug: knowledge-dependency
-  similarity: 60%
+  similarity: 0.7
 - slug: knowledge-sharing-breakdown
-  similarity: 60%
+  similarity: 0.6
+- slug: knowledge-dependency
+  similarity: 0.6
 layout: problem
 ---
 

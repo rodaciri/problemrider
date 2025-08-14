@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: ripple-effect-of-changes
-  similarity: 70%
+  similarity: 0.7
 - slug: deployment-coupling
-  similarity: 70%
+  similarity: 0.7
 - slug: circular-dependency-problems
-  similarity: 70%
+  similarity: 0.7
 - slug: high-coupling-low-cohesion
-  similarity: 65%
+  similarity: 0.65
 - slug: hidden-dependencies
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

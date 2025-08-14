@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: quality-blind-spots
-  similarity: 75%
+  similarity: 0.75
 - slug: insufficient-testing
-  similarity: 60%
+  similarity: 0.6
 - slug: testing-complexity
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-integration-tests
-  similarity: 55%
+  similarity: 0.55
 - slug: legacy-code-without-tests
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

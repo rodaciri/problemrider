@@ -1,24 +1,23 @@
 ---
-title: Test Debt 
-description: The accumulated risk from inadequate or neglected quality assurance, leading to a fragile product and slow development velocity. 
-
+title: Test Debt
+description: The accumulated risk from inadequate or neglected quality assurance,
+  leading to a fragile product and slow development velocity.
 category:
 - Quality
 - Process
 - Planning
-- Technical 
-
+- Technical
 related_problems:
-- slug: lack-of-test-coverage 
-  similarity: 85%
-- slug: unreliable-tests
-  similarity: 70%
-- slug: deployment-fear
-  similarity: 65%
-- slug: technical-debt
-  similarity: 60%
-- slug: slow-test-suite
-  similarity: 55% 
+- slug: high-technical-debt
+  similarity: 0.65
+- slug: testing-complexity
+  similarity: 0.6
+- slug: outdated-tests
+  similarity: 0.6
+- slug: quality-degradation
+  similarity: 0.6
+- slug: insufficient-testing
+  similarity: 0.6
 layout: problem
 ---
 
@@ -36,11 +35,11 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 
 ## Symptoms ▲
 - [**Chaotic Release**](chaotic-release.md)**:** The release process is unpredictable and error-prone because the quality state of the product is always unknown.
-- **[Deployment Fear](deployment-fear.md):** The team lacks confidence that new releases won't break the system, making deployments a high-stress event.
-- **[Lack of Test Coverage](lack-of-test-coverage.md):** Significant parts of the codebase are not covered by any form of automated testing, creating a blind spot for regressions.
-- **[Unreliable Tests](unreliable-tests.md):** Existing tests fail intermittently without code changes, causing the team to lose trust in their test suite and ignore failures.
-- **[Slow Test Suite](slow-test-suite.md):** The time it takes to run all tests is so long that developers skip running them locally, leading to late discovery of issues.
-- **[Technical Debt](technical-debt.md):** The lack of a testing safety net prevents necessary refactoring, causing the codebase to degrade over time.
+- **Deployment Fear:** The team lacks confidence that new releases won't break the system, making deployments a high-stress event.
+- **Lack of Test Coverage:** Significant parts of the codebase are not covered by any form of automated testing, creating a blind spot for regressions.
+- **Unreliable Tests:** Existing tests fail intermittently without code changes, causing the team to lose trust in their test suite and ignore failures.
+- **Slow Test Suite:** The time it takes to run all tests is so long that developers skip running them locally, leading to late discovery of issues.
+- **Technical Debt:** The lack of a testing safety net prevents necessary refactoring, causing the codebase to degrade over time.
 - [**Deployment Fear**](deployment-fear.md)**:** Every release is a high-stress event because the team lacks confidence that the system won't break in production.
 - **Increased Risk of Bugs:** A significant number of defects are found by end-users rather than by the internal team during the development cycle.
 - **Brittle Codebase:** Small, seemingly isolated changes cause unexpected failures in unrelated parts of the system.
@@ -56,7 +55,7 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 
 - [**Feature Factory**](feature-factory.md)**:** The organization prioritizes shipping new features above all else, including stability and quality.
 - [**Constant Firefighting:**](constant-firefighting.md) The development team is perpetually occupied with fixing bugs and addressing urgent issues, leaving little to no time for setting up a proper test strategyt.
-- [**Assumption-based Development**](assumption-based-development.md)**:** When requirements are unclear, it's impossible to write meaningful tests that validate the intended behavior, leading teams to test only what they assume is correct.
+- [**Assumption-Based Development**](assumption-based-development.md)**:** When requirements are unclear, it's impossible to write meaningful tests that validate the intended behavior, leading teams to test only what they assume is correct.
 - [**Blame Culture**](blame-culture.md)**:** When finding a bug results in punishment, people become hesitant to write tests that might fail or to report issues they find.
 - **Lack of Expertise:** The team lacks the skills to design and implement a comprehensive testing strategy.
 - [**Team Silos:**](team-silos.md) Quality assurance is seen as the sole responsibility of a separate team or person, rather than a whole-team activity.

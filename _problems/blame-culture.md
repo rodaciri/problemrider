@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: fear-of-failure
-  similarity: 55%
+  similarity: 0.55
 - slug: perfectionist-review-culture
-  similarity: 55%
-- slug: history-of-failed-changes
-  similarity: 55%
-- slug: workaround-culture
-  similarity: 50%
+  similarity: 0.55
 - slug: individual-recognition-culture
-  similarity: 50%
+  similarity: 0.5
+- slug: history-of-failed-changes
+  similarity: 0.5
+- slug: workaround-culture
+  similarity: 0.5
 layout: problem
 ---
 

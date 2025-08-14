@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: poor-teamwork
-  similarity: 85%
+  similarity: 0.85
 - slug: team-confusion
-  similarity: 75%
+  similarity: 0.75
 - slug: team-coordination-issues
-  similarity: 75%
+  similarity: 0.75
 - slug: team-demoralization
-  similarity: 65%
+  similarity: 0.65
 - slug: reduced-team-productivity
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

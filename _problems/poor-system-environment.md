@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: deployment-environment-inconsistencies
-  similarity: 70%
+  similarity: 0.65
 - slug: configuration-chaos
-  similarity: 65%
+  similarity: 0.65
 - slug: inefficient-development-environment
-  similarity: 65%
+  similarity: 0.65
 - slug: poor-operational-concept
-  similarity: 65%
-- slug: inconsistent-quality
-  similarity: 60%
+  similarity: 0.6
+- slug: environment-variable-issues
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: incomplete-knowledge
-  similarity: 65%
+  similarity: 0.65
 - slug: skill-development-gaps
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-silos
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-dependency
-  similarity: 60%
+  similarity: 0.6
 - slug: team-silos
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

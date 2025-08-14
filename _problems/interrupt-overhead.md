@@ -8,15 +8,15 @@ category:
 - Hardware
 related_problems:
 - slug: context-switching-overhead
-  similarity: 65%
+  similarity: 0.65
 - slug: atomic-operation-overhead
-  similarity: 60%
+  similarity: 0.6
 - slug: operational-overhead
-  similarity: 60%
+  similarity: 0.6
 - slug: endianness-conversion-overhead
-  similarity: 55%
+  similarity: 0.55
 - slug: maintenance-overhead
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

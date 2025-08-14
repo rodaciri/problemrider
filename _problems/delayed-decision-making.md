@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: decision-avoidance
-  similarity: 85%
+  similarity: 0.8
 - slug: decision-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: approval-dependencies
-  similarity: 70%
+  similarity: 0.7
 - slug: accumulated-decision-debt
-  similarity: 70%
+  similarity: 0.7
 - slug: work-blocking
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

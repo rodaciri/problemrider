@@ -8,15 +8,15 @@ category:
 - Concurrency
 related_problems:
 - slug: atomic-operation-overhead
-  similarity: 65%
+  similarity: 0.65
 - slug: data-structure-cache-inefficiency
-  similarity: 60%
+  similarity: 0.6
 - slug: false-sharing
-  similarity: 55%
+  similarity: 0.55
 - slug: alignment-and-padding-issues
-  similarity: 55%
+  similarity: 0.55
 - slug: lock-contention
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

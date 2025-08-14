@@ -8,7 +8,7 @@ category:
 - Data Integrity
 related_problems:
 - slug: false-sharing
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

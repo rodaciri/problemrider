@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: superficial-code-reviews
-  similarity: 75%
+  similarity: 0.75
 - slug: insufficient-code-review
-  similarity: 70%
+  similarity: 0.7
 - slug: inadequate-code-reviews
-  similarity: 70%
+  similarity: 0.7
 - slug: code-review-inefficiency
-  similarity: 70%
+  similarity: 0.7
 - slug: review-process-breakdown
-  similarity: 70%
+  similarity: 0.65
 layout: problem
 ---
 

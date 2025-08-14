@@ -8,15 +8,15 @@ category:
 - Strategic
 related_problems:
 - slug: delayed-value-delivery
-  similarity: 65%
+  similarity: 0.65
 - slug: extended-cycle-times
-  similarity: 65%
+  similarity: 0.65
 - slug: delayed-project-timelines
-  similarity: 60%
+  similarity: 0.6
 - slug: delayed-decision-making
-  similarity: 60%
+  similarity: 0.6
 - slug: constantly-shifting-deadlines
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

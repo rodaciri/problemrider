@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: technology-stack-fragmentation
-  similarity: 70%
+  similarity: 0.7
 - slug: technology-isolation
-  similarity: 70%
+  similarity: 0.7
 - slug: legacy-skill-shortage
-  similarity: 65%
+  similarity: 0.65
 - slug: system-stagnation
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-api-versioning-nightmare
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

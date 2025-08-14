@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: author-frustration
-  similarity: 70%
+  similarity: 0.7
 - slug: fear-of-conflict
-  similarity: 60%
+  similarity: 0.6
 - slug: reduced-review-participation
-  similarity: 60%
+  similarity: 0.6
 - slug: inconsistent-codebase
-  similarity: 60%
-- slug: code-review-inefficiency
-  similarity: 60%
+  similarity: 0.6
+- slug: merge-conflicts
+  similarity: 0.6
 layout: problem
 ---
 

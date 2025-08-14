@@ -8,15 +8,15 @@ category:
 - Scalability
 related_problems:
 - slug: uneven-workload-distribution
-  similarity: 60%
+  similarity: 0.6
 - slug: rate-limiting-issues
-  similarity: 55%
+  similarity: 0.55
 - slug: service-discovery-failures
-  similarity: 55%
+  similarity: 0.55
 - slug: scaling-inefficiencies
-  similarity: 50%
+  similarity: 0.5
 - slug: resource-contention
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

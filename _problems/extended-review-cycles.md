@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: extended-cycle-times
-  similarity: 70%
+  similarity: 0.7
 - slug: code-review-inefficiency
-  similarity: 65%
+  similarity: 0.65
 - slug: long-release-cycles
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-initial-reviews
-  similarity: 60%
+  similarity: 0.6
 - slug: extended-research-time
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

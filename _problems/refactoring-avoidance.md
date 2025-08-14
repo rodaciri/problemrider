@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: resistance-to-change
-  similarity: 75%
+  similarity: 0.75
 - slug: fear-of-change
-  similarity: 70%
+  similarity: 0.7
 - slug: maintenance-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: fear-of-breaking-changes
-  similarity: 65%
-- slug: high-technical-debt
-  similarity: 60%
+  similarity: 0.65
+- slug: brittle-codebase
+  similarity: 0.6
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: incomplete-projects
-  similarity: 70%
+  similarity: 0.7
 - slug: inconsistent-knowledge-acquisition
-  similarity: 70%
+  similarity: 0.7
 - slug: inexperienced-developers
-  similarity: 70%
+  similarity: 0.7
 - slug: information-fragmentation
-  similarity: 65%
+  similarity: 0.65
 - slug: insufficient-design-skills
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

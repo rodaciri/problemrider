@@ -235,13 +235,13 @@ class SimpleEmbeddingAnalyzer:
         updates = 0
         for problem_key in self.problems.keys():
             related = self.find_related(problem_key, top_k=5, min_similarity=min_similarity)
-            # Create list of objects with slug and similarity (as percentages)
-            new_related = [{"slug": key, "similarity": f"{round(score * 100 / 5) * 5}%"} for key, score in related]
+            # Create list of objects with slug and similarity (as quantized decimals)
+            new_related = [{"slug": key, "similarity": round(score * 20) / 20} for key, score in related]
             
             if new_related:
                 updates += 1
                 # Show all updates with actual related problems
-                related_with_scores = [f"{key} ({round(score * 100 / 5) * 5}%)" for key, score in related]
+                related_with_scores = [f"{key} ({round(score * 20) / 20:.2f})" for key, score in related]
                 print(f"{problem_key}:")
                 print(f"  New: {related_with_scores}")
                 print()

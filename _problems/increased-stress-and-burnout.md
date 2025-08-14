@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: overworked-teams
-  similarity: 80%
+  similarity: 0.75
 - slug: developer-frustration-and-burnout
-  similarity: 70%
+  similarity: 0.7
 - slug: time-pressure
-  similarity: 70%
+  similarity: 0.7
 - slug: mentor-burnout
-  similarity: 60%
+  similarity: 0.6
 - slug: reduced-team-productivity
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

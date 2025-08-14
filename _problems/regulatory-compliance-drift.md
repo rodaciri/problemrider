@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: configuration-drift
-  similarity: 60%
-- slug: legacy-configuration-management-chaos
-  similarity: 55%
+  similarity: 0.6
 - slug: data-migration-integrity-issues
-  similarity: 55%
+  similarity: 0.55
+- slug: legacy-configuration-management-chaos
+  similarity: 0.55
 - slug: legacy-api-versioning-nightmare
-  similarity: 55%
+  similarity: 0.55
 - slug: vendor-dependency-entrapment
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: poor-teamwork
-  similarity: 60%
+  similarity: 0.55
 - slug: slow-knowledge-transfer
-  similarity: 60%
+  similarity: 0.55
 - slug: team-dysfunction
-  similarity: 55%
+  similarity: 0.55
 - slug: reduced-team-flexibility
-  similarity: 55%
+  similarity: 0.55
 - slug: inconsistent-knowledge-acquisition
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

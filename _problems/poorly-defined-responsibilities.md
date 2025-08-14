@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: monolithic-functions-and-classes
-  similarity: 70%
+  similarity: 0.7
 - slug: god-object-anti-pattern
-  similarity: 65%
+  similarity: 0.65
 - slug: lack-of-ownership-and-accountability
-  similarity: 60%
+  similarity: 0.6
 - slug: high-coupling-low-cohesion
-  similarity: 60%
-- slug: tight-coupling-issues
-  similarity: 60%
+  similarity: 0.6
+- slug: requirements-ambiguity
+  similarity: 0.6
 layout: problem
 ---
 

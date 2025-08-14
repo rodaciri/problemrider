@@ -64,11 +64,21 @@ def main():
     
     args = parser.parse_args()
     
-    problems_dir = '../_problems'
+    # Get the directory of this script and construct path to _problems
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    problems_dir = os.path.join(os.path.dirname(script_dir), '_problems')
+    
+    if not os.path.exists(problems_dir):
+        print(f"Error: Problems directory not found at {problems_dir}")
+        print(f"Current working directory: {os.getcwd()}")
+        print("Make sure you're running this script from the correct location.")
+        return
     
     if not args.fix:
         print("DRY RUN - Use --fix to actually modify files")
         print("=" * 50)
+    
+    print(f"Processing files in: {problems_dir}")
     
     for filename in os.listdir(problems_dir):
         if filename.endswith('.md'):

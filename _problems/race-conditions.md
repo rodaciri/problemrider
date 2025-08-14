@@ -8,15 +8,15 @@ category:
 - Data Integrity
 related_problems:
 - slug: lock-contention
-  similarity: 65%
+  similarity: 0.65
 - slug: false-sharing
-  similarity: 60%
+  similarity: 0.6
 - slug: deadlock-conditions
-  similarity: 60%
+  similarity: 0.6
 - slug: synchronization-problems
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-contention
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

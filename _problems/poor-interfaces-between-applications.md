@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: inadequate-integration-tests
-  similarity: 65%
+  similarity: 0.65
 - slug: api-versioning-conflicts
-  similarity: 65%
+  similarity: 0.65
 - slug: system-integration-blindness
-  similarity: 65%
+  similarity: 0.65
 - slug: integration-difficulties
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-api-versioning-nightmare
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

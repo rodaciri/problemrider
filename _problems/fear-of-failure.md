@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: fear-of-breaking-changes
-  similarity: 70%
+  similarity: 0.7
 - slug: fear-of-change
-  similarity: 65%
+  similarity: 0.65
 - slug: inability-to-innovate
-  similarity: 65%
+  similarity: 0.65
 - slug: reduced-innovation
-  similarity: 65%
+  similarity: 0.65
 - slug: history-of-failed-changes
-  similarity: 65%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - User Experience
 related_problems:
 - slug: user-confusion
-  similarity: 65%
+  similarity: 0.65
 - slug: user-frustration
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-confidence-loss
-  similarity: 60%
+  similarity: 0.6
 - slug: customer-dissatisfaction
-  similarity: 55%
+  similarity: 0.55
 - slug: quality-degradation
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

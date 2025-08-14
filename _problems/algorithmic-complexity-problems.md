@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: inefficient-code
-  similarity: 70%
+  similarity: 0.7
 - slug: graphql-complexity-issues
-  similarity: 60%
-- slug: database-query-performance-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-and-obscure-logic
-  similarity: 60%
+  similarity: 0.6
+- slug: database-query-performance-issues
+  similarity: 0.6
 - slug: inefficient-frontend-code
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

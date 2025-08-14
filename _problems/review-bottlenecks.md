@@ -7,15 +7,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: code-review-inefficiency
-  similarity: 75%
+  similarity: 0.75
 - slug: inadequate-code-reviews
-  similarity: 75%
+  similarity: 0.75
 - slug: review-process-breakdown
-  similarity: 70%
+  similarity: 0.7
 - slug: insufficient-code-review
-  similarity: 70%
+  similarity: 0.7
 - slug: team-members-not-engaged-in-review-process
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

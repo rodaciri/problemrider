@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: reviewer-inexperience
-  similarity: 75%
+  similarity: 0.75
 - slug: insufficient-design-skills
-  similarity: 70%
+  similarity: 0.7
 - slug: incomplete-knowledge
-  similarity: 70%
+  similarity: 0.7
 - slug: inability-to-innovate
-  similarity: 65%
-- slug: inconsistent-knowledge-acquisition
-  similarity: 60%
+  similarity: 0.65
+- slug: difficult-developer-onboarding
+  similarity: 0.6
 layout: problem
 ---
 

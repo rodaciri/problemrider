@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: data-structure-cache-inefficiency
-  similarity: 75%
+  similarity: 0.75
 - slug: memory-barrier-inefficiency
-  similarity: 55%
+  similarity: 0.55
 - slug: memory-fragmentation
-  similarity: 55%
+  similarity: 0.55
 - slug: unbounded-data-structures
-  similarity: 50%
+  similarity: 0.5
 - slug: algorithmic-complexity-problems
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

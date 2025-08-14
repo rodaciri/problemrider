@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: inadequate-test-infrastructure
-  similarity: 60%
+  similarity: 0.6
 - slug: tool-limitations
-  similarity: 60%
+  similarity: 0.6
 - slug: inconsistent-codebase
-  similarity: 60%
+  similarity: 0.55
 - slug: code-review-inefficiency
-  similarity: 55%
+  similarity: 0.55
 - slug: mixed-coding-styles
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

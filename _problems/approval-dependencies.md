@@ -8,15 +8,15 @@ category:
 - Bottlenecks
 related_problems:
 - slug: work-blocking
-  similarity: 75%
+  similarity: 0.75
 - slug: delayed-decision-making
-  similarity: 70%
-- slug: decision-avoidance
-  similarity: 60%
+  similarity: 0.7
 - slug: rushed-approvals
-  similarity: 60%
+  similarity: 0.6
+- slug: decision-avoidance
+  similarity: 0.6
 - slug: decision-paralysis
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

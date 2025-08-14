@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: memory-swapping
-  similarity: 70%
+  similarity: 0.7
 - slug: resource-contention
-  similarity: 65%
+  similarity: 0.65
 - slug: high-database-resource-utilization
-  similarity: 65%
+  similarity: 0.65
 - slug: unoptimized-file-access
-  similarity: 65%
-- slug: high-api-latency
-  similarity: 60%
+  similarity: 0.65
+- slug: excessive-logging
+  similarity: 0.6
 layout: problem
 ---
 

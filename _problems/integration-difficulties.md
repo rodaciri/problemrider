@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: poor-interfaces-between-applications
-  similarity: 60%
-- slug: inadequate-integration-tests
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-api-versioning-nightmare
-  similarity: 60%
+  similarity: 0.6
+- slug: inadequate-integration-tests
+  similarity: 0.6
 - slug: architectural-mismatch
-  similarity: 55%
+  similarity: 0.55
 - slug: cross-system-data-synchronization-problems
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

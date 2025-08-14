@@ -8,15 +8,15 @@ category:
 - Operations
 related_problems:
 - slug: missing-rollback-strategy
-  similarity: 90%
+  similarity: 0.9
 - slug: manual-deployment-processes
-  similarity: 70%
+  similarity: 0.7
 - slug: complex-deployment-process
-  similarity: 70%
+  similarity: 0.7
 - slug: large-risky-releases
-  similarity: 65%
-- slug: immature-delivery-strategy
-  similarity: 60%
+  similarity: 0.65
+- slug: deployment-coupling
+  similarity: 0.6
 layout: problem
 ---
 

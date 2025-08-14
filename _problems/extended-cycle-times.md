@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: extended-review-cycles
-  similarity: 70%
+  similarity: 0.7
 - slug: extended-research-time
-  similarity: 65%
+  similarity: 0.65
 - slug: delayed-project-timelines
-  similarity: 65%
+  similarity: 0.65
 - slug: long-release-cycles
-  similarity: 65%
+  similarity: 0.65
 - slug: increased-time-to-market
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

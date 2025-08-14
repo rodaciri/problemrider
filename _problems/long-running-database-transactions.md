@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: long-running-transactions
-  similarity: 95%
+  similarity: 0.95
 - slug: high-connection-count
-  similarity: 55%
+  similarity: 0.55
 - slug: high-database-resource-utilization
-  similarity: 55%
+  similarity: 0.55
 - slug: slow-database-queries
-  similarity: 55%
+  similarity: 0.55
 - slug: database-connection-leaks
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

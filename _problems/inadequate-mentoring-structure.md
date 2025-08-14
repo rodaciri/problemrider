@@ -8,15 +8,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: mentor-burnout
-  similarity: 60%
+  similarity: 0.6
 - slug: inexperienced-developers
-  similarity: 60%
+  similarity: 0.6
 - slug: inconsistent-knowledge-acquisition
-  similarity: 55%
+  similarity: 0.55
 - slug: organizational-structure-mismatch
-  similarity: 55%
+  similarity: 0.55
 - slug: inconsistent-onboarding-experience
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

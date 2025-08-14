@@ -8,15 +8,15 @@ category:
 - Health
 related_problems:
 - slug: increased-stress-and-burnout
-  similarity: 80%
+  similarity: 0.75
 - slug: uneven-workload-distribution
-  similarity: 65%
+  similarity: 0.65
 - slug: time-pressure
-  similarity: 60%
+  similarity: 0.6
 - slug: developer-frustration-and-burnout
-  similarity: 60%
+  similarity: 0.6
 - slug: reduced-team-productivity
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

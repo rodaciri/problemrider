@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: database-query-performance-issues
-  similarity: 80%
+  similarity: 0.8
 - slug: high-number-of-database-queries
-  similarity: 75%
-- slug: high-database-resource-utilization
-  similarity: 75%
+  similarity: 0.75
 - slug: slow-application-performance
-  similarity: 70%
-- slug: lazy-loading
-  similarity: 70%
+  similarity: 0.7
+- slug: high-database-resource-utilization
+  similarity: 0.7
+- slug: imperative-data-fetching-logic
+  similarity: 0.7
 layout: problem
 ---
 

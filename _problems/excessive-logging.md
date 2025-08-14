@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: log-spam
-  similarity: 65%
+  similarity: 0.65
 - slug: lazy-loading
-  similarity: 65%
+  similarity: 0.65
 - slug: excessive-disk-io
-  similarity: 60%
+  similarity: 0.6
 - slug: logging-configuration-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: imperative-data-fetching-logic
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

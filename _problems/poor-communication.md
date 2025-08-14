@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: communication-breakdown
-  similarity: 90%
+  similarity: 0.9
 - slug: knowledge-sharing-breakdown
-  similarity: 65%
+  similarity: 0.65
 - slug: team-silos
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-developer-communication-gap
-  similarity: 60%
+  similarity: 0.6
 - slug: poor-teamwork
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

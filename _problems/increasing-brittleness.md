@@ -8,15 +8,15 @@ category:
 - Risk
 related_problems:
 - slug: brittle-codebase
-  similarity: 70%
+  similarity: 0.7
 - slug: quality-degradation
-  similarity: 65%
+  similarity: 0.65
 - slug: rapid-system-changes
-  similarity: 60%
+  similarity: 0.6
 - slug: tight-coupling-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: unpredictable-system-behavior
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

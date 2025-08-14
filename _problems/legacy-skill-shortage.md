@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: maintenance-bottlenecks
-  similarity: 65%
+  similarity: 0.65
 - slug: obsolete-technologies
-  similarity: 65%
+  similarity: 0.65
 - slug: technology-isolation
-  similarity: 65%
+  similarity: 0.65
 - slug: skill-development-gaps
-  similarity: 65%
+  similarity: 0.65
 - slug: legacy-system-documentation-archaeology
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

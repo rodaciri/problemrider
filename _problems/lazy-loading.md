@@ -8,15 +8,15 @@ category:
 - Database
 related_problems:
 - slug: imperative-data-fetching-logic
-  similarity: 75%
+  similarity: 0.75
 - slug: high-number-of-database-queries
-  similarity: 70%
+  similarity: 0.7
 - slug: n-plus-one-query-problem
-  similarity: 70%
+  similarity: 0.7
 - slug: slow-database-queries
-  similarity: 70%
+  similarity: 0.7
 - slug: inefficient-database-indexing
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

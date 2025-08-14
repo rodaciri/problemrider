@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: feature-creep-without-refactoring
-  similarity: 85%
+  similarity: 0.85
 - slug: scope-creep
-  similarity: 70%
+  similarity: 0.7
 - slug: large-feature-scope
-  similarity: 70%
-- slug: gold-plating
-  similarity: 65%
+  similarity: 0.7
 - slug: feature-bloat
-  similarity: 65%
+  similarity: 0.65
+- slug: gold-plating
+  similarity: 0.65
 layout: problem
 ---
 

@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: excessive-disk-io
-  similarity: 65%
+  similarity: 0.65
 - slug: inefficient-code
-  similarity: 65%
+  similarity: 0.65
 - slug: slow-application-performance
-  similarity: 60%
+  similarity: 0.6
 - slug: inefficient-frontend-code
-  similarity: 60%
+  similarity: 0.6
 - slug: unused-indexes
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

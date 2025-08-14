@@ -9,15 +9,15 @@ category:
 - Performance
 related_problems:
 - slug: architectural-mismatch
-  similarity: 70%
+  similarity: 0.7
 - slug: stagnant-architecture
-  similarity: 65%
+  similarity: 0.65
 - slug: tool-limitations
-  similarity: 60%
+  similarity: 0.6
 - slug: monolithic-architecture-constraints
-  similarity: 60%
+  similarity: 0.6
 - slug: vendor-lock-in
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

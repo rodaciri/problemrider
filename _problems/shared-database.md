@@ -6,9 +6,9 @@ category:
 - Data
 related_problems:
 - slug: shared-dependencies
-  similarity: 75%
+  similarity: 0.75
 - slug: deployment-coupling
-  similarity: 55%
+  similarity: 0.5
 layout: problem
 ---
 

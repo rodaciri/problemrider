@@ -8,11 +8,9 @@ category:
 - Architecture
 related_problems:
 - slug: memory-leaks
-  similarity: 55%
+  similarity: 0.55
 - slug: unreleased-resources
-  similarity: 55%
-- slug: circular-references
-  similarity: 50%
+  similarity: 0.55
 layout: problem
 ---
 

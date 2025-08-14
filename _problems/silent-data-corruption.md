@@ -9,9 +9,9 @@ category:
 - Technical
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 55%
+  similarity: 0.55
 - slug: insecure-data-transmission
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

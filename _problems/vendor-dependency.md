@@ -8,15 +8,15 @@ category:
 - Business Continuity
 related_problems:
 - slug: dependency-on-supplier
-  similarity: 90%
+  similarity: 0.9
 - slug: vendor-dependency-entrapment
-  similarity: 75%
+  similarity: 0.75
 - slug: vendor-relationship-strain
-  similarity: 65%
+  similarity: 0.65
 - slug: vendor-lock-in
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-dependency
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: rapid-system-changes
-  similarity: 60%
+  similarity: 0.6
 - slug: uncontrolled-codebase-growth
-  similarity: 60%
+  similarity: 0.6
 - slug: slow-knowledge-transfer
-  similarity: 55%
+  similarity: 0.55
 - slug: high-turnover
-  similarity: 55%
+  similarity: 0.55
 - slug: constant-firefighting
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

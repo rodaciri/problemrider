@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: tight-coupling-issues
-  similarity: 65%
+  similarity: 0.65
 - slug: poor-encapsulation
-  similarity: 60%
+  similarity: 0.6
 - slug: poorly-defined-responsibilities
-  similarity: 60%
+  similarity: 0.6
 - slug: ripple-effect-of-changes
-  similarity: 55%
+  similarity: 0.55
 - slug: deployment-coupling
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

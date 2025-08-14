@@ -8,15 +8,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: duplicated-effort
-  similarity: 90%
+  similarity: 0.9
 - slug: duplicated-work
-  similarity: 85%
+  similarity: 0.85
 - slug: knowledge-silos
-  similarity: 65%
+  similarity: 0.65
 - slug: code-duplication
-  similarity: 65%
+  similarity: 0.65
 - slug: information-fragmentation
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

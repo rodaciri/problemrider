@@ -7,16 +7,16 @@ category:
 - Design
 - Strategy
 related_problems:
+- slug: feature-factory
+  similarity: 0.65
 - slug: feature-creep
-  similarity: 65%
+  similarity: 0.65
 - slug: large-feature-scope
-  similarity: 65%
+  similarity: 0.65
 - slug: reduced-feature-quality
-  similarity: 60%
-- slug: gold-plating
-  similarity: 55%
+  similarity: 0.6
 - slug: feature-gaps
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

@@ -8,7 +8,7 @@ category:
 - Data Protection
 related_problems:
 - slug: silent-data-corruption
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

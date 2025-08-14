@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: cv-driven-development
-  similarity: 70%
+  similarity: 0.7
 - slug: brittle-codebase
-  similarity: 60%
-- slug: difficult-code-comprehension
-  similarity: 55%
+  similarity: 0.6
 - slug: feature-creep-without-refactoring
-  similarity: 55%
+  similarity: 0.55
+- slug: difficult-code-comprehension
+  similarity: 0.55
 - slug: assumption-based-development
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

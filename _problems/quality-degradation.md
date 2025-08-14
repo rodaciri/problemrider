@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: gradual-performance-degradation
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-quality
-  similarity: 65%
+  similarity: 0.65
 - slug: lower-code-quality
-  similarity: 65%
+  similarity: 0.65
 - slug: quality-compromises
-  similarity: 65%
+  similarity: 0.65
 - slug: increasing-brittleness
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

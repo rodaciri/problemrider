@@ -9,15 +9,15 @@ category:
 - Process
 related_problems:
 - slug: analysis-paralysis
-  similarity: 75%
+  similarity: 0.75
 - slug: decision-avoidance
-  similarity: 75%
+  similarity: 0.75
 - slug: delayed-decision-making
-  similarity: 70%
+  similarity: 0.7
 - slug: maintenance-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: modernization-strategy-paralysis
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

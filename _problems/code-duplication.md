@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: duplicated-effort
-  similarity: 70%
+  similarity: 0.7
 - slug: duplicated-work
-  similarity: 70%
+  similarity: 0.7
 - slug: copy-paste-programming
-  similarity: 70%
-- slug: duplicated-research-effort
-  similarity: 65%
+  similarity: 0.7
 - slug: synchronization-problems
-  similarity: 65%
+  similarity: 0.65
+- slug: duplicated-research-effort
+  similarity: 0.65
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: poor-documentation
-  similarity: 70%
+  similarity: 0.7
 - slug: legacy-skill-shortage
-  similarity: 65%
+  similarity: 0.65
 - slug: legacy-configuration-management-chaos
-  similarity: 65%
+  similarity: 0.65
 - slug: implicit-knowledge
-  similarity: 65%
+  similarity: 0.65
 - slug: information-decay
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

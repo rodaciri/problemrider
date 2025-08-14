@@ -9,15 +9,15 @@ category:
 - Business
 related_problems:
 - slug: slow-feature-development
-  similarity: 80%
+  similarity: 0.8
 - slug: reduced-team-productivity
-  similarity: 70%
+  similarity: 0.7
 - slug: missed-deadlines
-  similarity: 65%
+  similarity: 0.65
 - slug: gradual-performance-degradation
-  similarity: 60%
-- slug: development-disruption
-  similarity: 60%
+  similarity: 0.6
+- slug: reduced-individual-productivity
+  similarity: 0.6
 layout: problem
 ---
 

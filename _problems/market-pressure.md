@@ -8,15 +8,15 @@ category:
 - Strategy
 related_problems:
 - slug: power-struggles
-  similarity: 55%
+  similarity: 0.55
 - slug: competing-priorities
-  similarity: 55%
+  similarity: 0.55
 - slug: deadline-pressure
-  similarity: 55%
+  similarity: 0.55
 - slug: increased-time-to-market
-  similarity: 55%
+  similarity: 0.55
 - slug: product-direction-chaos
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

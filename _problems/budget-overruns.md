@@ -9,15 +9,15 @@ category:
 - Process
 related_problems:
 - slug: operational-overhead
-  similarity: 65%
+  similarity: 0.65
 - slug: eager-to-please-stakeholders
-  similarity: 65%
+  similarity: 0.65
 - slug: scope-creep
-  similarity: 60%
+  similarity: 0.6
 - slug: constantly-shifting-deadlines
-  similarity: 60%
+  similarity: 0.6
 - slug: stakeholder-dissatisfaction
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: maintenance-bottlenecks
-  similarity: 65%
+  similarity: 0.65
 - slug: cascade-failures
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-dependency
-  similarity: 60%
+  similarity: 0.6
 - slug: bottleneck-formation
-  similarity: 60%
+  similarity: 0.6
 - slug: knowledge-silos
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

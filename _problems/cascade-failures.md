@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: ripple-effect-of-changes
-  similarity: 70%
+  similarity: 0.65
 - slug: single-points-of-failure
-  similarity: 65%
+  similarity: 0.65
 - slug: tight-coupling-issues
-  similarity: 65%
+  similarity: 0.6
 - slug: cascade-delays
-  similarity: 60%
+  similarity: 0.6
 - slug: change-management-chaos
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

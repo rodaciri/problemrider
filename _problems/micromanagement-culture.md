@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: individual-recognition-culture
-  similarity: 55%
+  similarity: 0.55
 - slug: perfectionist-culture
-  similarity: 55%
+  similarity: 0.55
 - slug: perfectionist-review-culture
-  similarity: 55%
+  similarity: 0.55
 - slug: nitpicking-culture
-  similarity: 55%
+  similarity: 0.55
 - slug: approval-dependencies
-  similarity: 55%
+  similarity: 0.5
 layout: problem
 ---
 

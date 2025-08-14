@@ -8,15 +8,15 @@ category:
 - Migration
 related_problems:
 - slug: modernization-strategy-paralysis
-  similarity: 65%
+  similarity: 0.65
 - slug: second-system-effect
-  similarity: 55%
+  similarity: 0.55
 - slug: cascade-failures
-  similarity: 55%
+  similarity: 0.55
 - slug: modernization-roi-justification-failure
-  similarity: 55%
+  similarity: 0.55
 - slug: stagnant-architecture
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

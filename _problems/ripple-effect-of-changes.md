@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: tight-coupling-issues
-  similarity: 70%
+  similarity: 0.7
 - slug: cascade-failures
-  similarity: 70%
+  similarity: 0.65
 - slug: unpredictable-system-behavior
-  similarity: 65%
+  similarity: 0.65
 - slug: deployment-coupling
-  similarity: 65%
+  similarity: 0.65
 - slug: change-management-chaos
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

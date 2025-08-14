@@ -8,13 +8,13 @@ category:
 - Dependencies
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 55%
+  similarity: 0.6
 - slug: dependency-version-conflicts
-  similarity: 55%
+  similarity: 0.55
 - slug: poor-interfaces-between-applications
-  similarity: 55%
+  similarity: 0.55
 - slug: legacy-api-versioning-nightmare
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

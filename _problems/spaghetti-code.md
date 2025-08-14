@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: complex-and-obscure-logic
-  similarity: 75%
+  similarity: 0.75
 - slug: brittle-codebase
-  similarity: 65%
-- slug: inconsistent-codebase
-  similarity: 65%
+  similarity: 0.65
 - slug: difficult-code-comprehension
-  similarity: 65%
+  similarity: 0.65
+- slug: inconsistent-codebase
+  similarity: 0.65
 - slug: mixed-coding-styles
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

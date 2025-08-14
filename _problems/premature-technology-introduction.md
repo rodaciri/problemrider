@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: increased-technical-shortcuts
-  similarity: 60%
+  similarity: 0.6
 - slug: obsolete-technologies
-  similarity: 60%
+  similarity: 0.6
 - slug: technology-lock-in
-  similarity: 55%
+  similarity: 0.55
 - slug: cargo-culting
-  similarity: 55%
+  similarity: 0.55
 - slug: technology-isolation
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

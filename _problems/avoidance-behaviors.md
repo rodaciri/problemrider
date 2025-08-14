@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: procrastination-on-complex-tasks
-  similarity: 80%
+  similarity: 0.8
 - slug: decision-avoidance
-  similarity: 70%
+  similarity: 0.7
 - slug: cognitive-overload
-  similarity: 60%
-- slug: accumulation-of-workarounds
-  similarity: 60%
+  similarity: 0.6
 - slug: refactoring-avoidance
-  similarity: 60%
+  similarity: 0.6
+- slug: accumulation-of-workarounds
+  similarity: 0.6
 layout: problem
 ---
 

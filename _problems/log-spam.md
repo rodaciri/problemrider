@@ -7,15 +7,15 @@ category:
 - Observability
 related_problems:
 - slug: excessive-logging
-  similarity: 65%
+  similarity: 0.65
 - slug: high-number-of-database-queries
-  similarity: 60%
+  similarity: 0.6
 - slug: logging-configuration-issues
-  similarity: 60%
-- slug: n-plus-one-query-problem
-  similarity: 55%
+  similarity: 0.6
 - slug: slow-database-queries
-  similarity: 55%
+  similarity: 0.55
+- slug: n-plus-one-query-problem
+  similarity: 0.55
 layout: problem
 ---
 

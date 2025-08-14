@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: load-balancing-problems
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-allocation-failures
-  similarity: 55%
-- slug: upstream-timeouts
-  similarity: 55%
-- slug: high-client-side-resource-consumption
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-contention
-  similarity: 50%
+  similarity: 0.5
+- slug: upstream-timeouts
+  similarity: 0.5
+- slug: high-client-side-resource-consumption
+  similarity: 0.5
 layout: problem
 ---
 

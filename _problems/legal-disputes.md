@@ -8,15 +8,15 @@ category:
 - Vendor Relations
 related_problems:
 - slug: stakeholder-dissatisfaction
-  similarity: 55%
+  similarity: 0.55
 - slug: budget-overruns
-  similarity: 55%
+  similarity: 0.55
 - slug: vendor-relationship-strain
-  similarity: 55%
+  similarity: 0.55
 - slug: poor-contract-design
-  similarity: 50%
+  similarity: 0.5
 - slug: power-struggles
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

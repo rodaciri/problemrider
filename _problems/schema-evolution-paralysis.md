@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: database-schema-design-problems
-  similarity: 70%
+  similarity: 0.7
 - slug: modernization-strategy-paralysis
-  similarity: 60%
+  similarity: 0.6
 - slug: data-migration-integrity-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: maintenance-paralysis
-  similarity: 55%
+  similarity: 0.55
 - slug: legacy-api-versioning-nightmare
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

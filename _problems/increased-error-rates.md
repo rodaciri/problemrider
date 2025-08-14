@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: high-bug-introduction-rate
-  similarity: 60%
+  similarity: 0.6
 - slug: increased-bug-count
-  similarity: 60%
+  similarity: 0.6
 - slug: service-timeouts
-  similarity: 60%
+  similarity: 0.55
 - slug: upstream-timeouts
-  similarity: 55%
+  similarity: 0.55
 - slug: inadequate-error-handling
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

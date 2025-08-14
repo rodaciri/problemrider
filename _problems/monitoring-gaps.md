@@ -9,15 +9,15 @@ category:
 - Maintenance
 related_problems:
 - slug: quality-blind-spots
-  similarity: 70%
+  similarity: 0.7
 - slug: feature-gaps
-  similarity: 60%
+  similarity: 0.6
 - slug: poor-operational-concept
-  similarity: 60%
+  similarity: 0.6
 - slug: knowledge-gaps
-  similarity: 55%
+  similarity: 0.55
 - slug: system-integration-blindness
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

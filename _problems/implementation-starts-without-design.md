@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: implementation-rework
-  similarity: 55%
+  similarity: 0.55
 - slug: analysis-paralysis
-  similarity: 55%
+  similarity: 0.55
 - slug: architectural-mismatch
-  similarity: 55%
+  similarity: 0.55
 - slug: process-design-flaws
-  similarity: 55%
+  similarity: 0.55
 - slug: stagnant-architecture
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: developer-frustration-and-burnout
-  similarity: 65%
+  similarity: 0.65
 - slug: cognitive-overload
-  similarity: 60%
+  similarity: 0.6
 - slug: reduced-individual-productivity
-  similarity: 55%
+  similarity: 0.55
 - slug: mentor-burnout
-  similarity: 55%
+  similarity: 0.55
 - slug: increased-stress-and-burnout
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

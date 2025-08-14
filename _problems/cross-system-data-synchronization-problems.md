@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 75%
+  similarity: 0.75
 - slug: data-migration-complexities
-  similarity: 65%
+  similarity: 0.65
 - slug: synchronization-problems
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-configuration-management-chaos
-  similarity: 60%
+  similarity: 0.6
 - slug: modernization-strategy-paralysis
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

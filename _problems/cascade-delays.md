@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: delayed-project-timelines
-  similarity: 70%
+  similarity: 0.7
 - slug: missed-deadlines
-  similarity: 65%
+  similarity: 0.65
 - slug: cascade-failures
-  similarity: 60%
+  similarity: 0.6
 - slug: constantly-shifting-deadlines
-  similarity: 60%
+  similarity: 0.6
 - slug: delayed-decision-making
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

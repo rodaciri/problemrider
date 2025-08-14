@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: testing-environment-fragility
-  similarity: 70%
+  similarity: 0.7
 - slug: outdated-tests
-  similarity: 60%
+  similarity: 0.6
 - slug: testing-complexity
-  similarity: 55%
+  similarity: 0.55
 - slug: difficult-to-test-code
-  similarity: 55%
+  similarity: 0.55
 - slug: quality-blind-spots
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

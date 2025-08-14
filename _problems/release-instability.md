@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: large-risky-releases
-  similarity: 70%
+  similarity: 0.65
 - slug: release-anxiety
-  similarity: 65%
+  similarity: 0.65
 - slug: development-disruption
-  similarity: 60%
+  similarity: 0.6
 - slug: long-release-cycles
-  similarity: 60%
+  similarity: 0.6
 - slug: frequent-hotfixes-and-rollbacks
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

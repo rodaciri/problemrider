@@ -8,15 +8,15 @@ category:
 - Product Management
 related_problems:
 - slug: no-continuous-feedback-loop
-  similarity: 75%
+  similarity: 0.75
 - slug: stakeholder-developer-communication-gap
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-requirements-gathering
-  similarity: 60%
+  similarity: 0.6
 - slug: misaligned-deliverables
-  similarity: 55%
+  similarity: 0.55
 - slug: negative-user-feedback
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

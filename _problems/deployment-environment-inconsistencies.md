@@ -7,16 +7,16 @@ category:
 - Environment Management
 - Configuration
 related_problems:
-- slug: poor-system-environment
-  similarity: 70%
 - slug: environment-variable-issues
-  similarity: 70%
+  similarity: 0.65
+- slug: poor-system-environment
+  similarity: 0.65
 - slug: inconsistent-behavior
-  similarity: 65%
+  similarity: 0.65
 - slug: configuration-chaos
-  similarity: 60%
+  similarity: 0.6
 - slug: deployment-coupling
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

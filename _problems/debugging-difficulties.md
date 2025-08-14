@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: delayed-bug-fixes
-  similarity: 65%
+  similarity: 0.65
 - slug: difficult-to-understand-code
-  similarity: 60%
+  similarity: 0.6
 - slug: delayed-issue-resolution
-  similarity: 60%
+  similarity: 0.6
 - slug: difficult-code-comprehension
-  similarity: 60%
+  similarity: 0.6
 - slug: partial-bug-fixes
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

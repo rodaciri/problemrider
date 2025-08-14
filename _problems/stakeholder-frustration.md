@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: stakeholder-dissatisfaction
-  similarity: 85%
+  similarity: 0.85
 - slug: stakeholder-confidence-loss
-  similarity: 75%
+  similarity: 0.75
 - slug: eager-to-please-stakeholders
-  similarity: 70%
+  similarity: 0.7
 - slug: user-frustration
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-developer-communication-gap
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

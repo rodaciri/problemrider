@@ -8,15 +8,15 @@ category:
 - Decision Making
 related_problems:
 - slug: modernization-roi-justification-failure
-  similarity: 75%
+  similarity: 0.75
 - slug: analysis-paralysis
-  similarity: 65%
+  similarity: 0.65
 - slug: maintenance-paralysis
-  similarity: 65%
+  similarity: 0.65
 - slug: decision-paralysis
-  similarity: 65%
+  similarity: 0.65
 - slug: strangler-fig-pattern-failures
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

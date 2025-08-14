@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: complex-deployment-process
-  similarity: 70%
+  similarity: 0.7
 - slug: manual-deployment-processes
-  similarity: 65%
+  similarity: 0.65
 - slug: deployment-risk
-  similarity: 60%
+  similarity: 0.6
 - slug: misaligned-deliverables
-  similarity: 60%
+  similarity: 0.6
 - slug: missing-rollback-strategy
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Networking
 related_problems:
 - slug: system-outages
-  similarity: 60%
+  similarity: 0.6
 - slug: cascade-failures
-  similarity: 55%
+  similarity: 0.55
 - slug: system-integration-blindness
-  similarity: 55%
+  similarity: 0.55
 - slug: load-balancing-problems
-  similarity: 55%
+  similarity: 0.55
 - slug: microservice-communication-overhead
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

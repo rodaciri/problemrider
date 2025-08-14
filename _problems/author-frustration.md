@@ -8,15 +8,15 @@ category:
 - Workplace Health
 related_problems:
 - slug: reviewer-anxiety
-  similarity: 75%
+  similarity: 0.7
 - slug: conflicting-reviewer-opinions
-  similarity: 70%
+  similarity: 0.7
 - slug: fear-of-conflict
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-frustration
-  similarity: 60%
+  similarity: 0.6
 - slug: code-review-inefficiency
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

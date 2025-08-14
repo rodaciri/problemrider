@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: difficult-developer-onboarding
-  similarity: 75%
+  similarity: 0.75
 - slug: high-turnover
-  similarity: 65%
+  similarity: 0.65
 - slug: inconsistent-onboarding-experience
-  similarity: 65%
+  similarity: 0.65
 - slug: developer-frustration-and-burnout
-  similarity: 60%
+  similarity: 0.6
 - slug: author-frustration
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

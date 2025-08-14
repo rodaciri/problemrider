@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: reduced-review-participation
-  similarity: 65%
+  similarity: 0.6
 - slug: inadequate-code-reviews
-  similarity: 60%
+  similarity: 0.6
 - slug: review-bottlenecks
-  similarity: 60%
+  similarity: 0.6
 - slug: large-pull-requests
-  similarity: 60%
+  similarity: 0.6
 - slug: fear-of-change
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: cognitive-overload
-  similarity: 80%
+  similarity: 0.8
 - slug: difficult-code-comprehension
-  similarity: 70%
+  similarity: 0.7
 - slug: context-switching-overhead
-  similarity: 65%
+  similarity: 0.65
 - slug: difficult-to-understand-code
-  similarity: 65%
+  similarity: 0.65
 - slug: complex-and-obscure-logic
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

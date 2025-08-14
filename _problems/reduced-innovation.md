@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: inability-to-innovate
-  similarity: 80%
+  similarity: 0.8
 - slug: resistance-to-change
-  similarity: 65%
+  similarity: 0.65
 - slug: fear-of-failure
-  similarity: 65%
+  similarity: 0.65
 - slug: reduced-team-flexibility
-  similarity: 60%
-- slug: technology-isolation
-  similarity: 60%
+  similarity: 0.6
+- slug: reduced-team-productivity
+  similarity: 0.6
 layout: problem
 ---
 

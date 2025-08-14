@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: organizational-structure-mismatch
-  similarity: 75%
+  similarity: 0.75
 - slug: stagnant-architecture
-  similarity: 70%
+  similarity: 0.7
 - slug: technical-architecture-limitations
-  similarity: 70%
+  similarity: 0.7
 - slug: second-system-effect
-  similarity: 60%
+  similarity: 0.6
 - slug: capacity-mismatch
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

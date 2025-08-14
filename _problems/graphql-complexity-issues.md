@@ -8,15 +8,15 @@ category:
 - Security
 related_problems:
 - slug: algorithmic-complexity-problems
-  similarity: 60%
+  similarity: 0.6
 - slug: database-query-performance-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: testing-complexity
-  similarity: 55%
+  similarity: 0.55
 - slug: complex-and-obscure-logic
-  similarity: 55%
-- slug: n-plus-one-query-problem
-  similarity: 55%
+  similarity: 0.55
+- slug: high-number-of-database-queries
+  similarity: 0.55
 layout: problem
 ---
 

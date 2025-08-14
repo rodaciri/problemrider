@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: tacit-knowledge
-  similarity: 70%
+  similarity: 0.7
 - slug: knowledge-dependency
-  similarity: 65%
+  similarity: 0.65
 - slug: inconsistent-knowledge-acquisition
-  similarity: 65%
+  similarity: 0.65
 - slug: incomplete-knowledge
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-silos
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

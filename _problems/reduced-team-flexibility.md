@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: reduced-team-productivity
-  similarity: 65%
+  similarity: 0.65
 - slug: reduced-predictability
-  similarity: 65%
+  similarity: 0.65
 - slug: changing-project-scope
-  similarity: 65%
+  similarity: 0.65
 - slug: development-disruption
-  similarity: 65%
+  similarity: 0.6
 - slug: reduced-innovation
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

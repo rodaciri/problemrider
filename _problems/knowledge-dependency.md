@@ -8,15 +8,15 @@ category:
 - Independence
 related_problems:
 - slug: inconsistent-knowledge-acquisition
-  similarity: 70%
+  similarity: 0.7
 - slug: knowledge-silos
-  similarity: 70%
-- slug: mentor-burnout
-  similarity: 65%
+  similarity: 0.7
 - slug: slow-knowledge-transfer
-  similarity: 65%
+  similarity: 0.65
+- slug: mentor-burnout
+  similarity: 0.65
 - slug: implicit-knowledge
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

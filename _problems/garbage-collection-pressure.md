@@ -8,15 +8,15 @@ category:
 - Memory Management
 related_problems:
 - slug: excessive-object-allocation
-  similarity: 70%
+  similarity: 0.7
 - slug: circular-references
-  similarity: 55%
+  similarity: 0.55
 - slug: memory-leaks
-  similarity: 55%
+  similarity: 0.55
 - slug: memory-fragmentation
-  similarity: 55%
+  similarity: 0.5
 - slug: resource-allocation-failures
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

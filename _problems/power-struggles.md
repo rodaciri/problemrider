@@ -8,15 +8,15 @@ category:
 - Politics
 related_problems:
 - slug: competing-priorities
-  similarity: 65%
-- slug: product-direction-chaos
-  similarity: 60%
+  similarity: 0.6
 - slug: team-dysfunction
-  similarity: 60%
-- slug: team-confusion
-  similarity: 60%
+  similarity: 0.6
+- slug: product-direction-chaos
+  similarity: 0.6
 - slug: decision-paralysis
-  similarity: 60%
+  similarity: 0.6
+- slug: team-confusion
+  similarity: 0.6
 layout: problem
 ---
 

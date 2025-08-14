@@ -9,15 +9,15 @@ category:
 - Communication
 related_problems:
 - slug: stakeholder-dissatisfaction
-  similarity: 70%
+  similarity: 0.7
 - slug: stakeholder-frustration
-  similarity: 70%
+  similarity: 0.7
 - slug: constantly-shifting-deadlines
-  similarity: 65%
+  similarity: 0.65
 - slug: budget-overruns
-  similarity: 65%
+  similarity: 0.65
 - slug: communication-risk-outside-project
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

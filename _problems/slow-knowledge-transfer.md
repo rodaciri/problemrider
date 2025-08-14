@@ -8,15 +8,15 @@ category:
 - Team
 related_problems:
 - slug: tacit-knowledge
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-knowledge-acquisition
-  similarity: 70%
+  similarity: 0.7
 - slug: knowledge-dependency
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-silos
-  similarity: 65%
+  similarity: 0.65
 - slug: knowledge-sharing-breakdown
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

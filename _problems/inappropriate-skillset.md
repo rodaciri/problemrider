@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: skill-development-gaps
-  similarity: 70%
+  similarity: 0.7
 - slug: inconsistent-knowledge-acquisition
-  similarity: 70%
+  similarity: 0.7
 - slug: knowledge-dependency
-  similarity: 65%
+  similarity: 0.65
 - slug: uneven-workload-distribution
-  similarity: 60%
-- slug: inexperienced-developers
-  similarity: 60%
+  similarity: 0.6
+- slug: incomplete-knowledge
+  similarity: 0.6
 layout: problem
 ---
 

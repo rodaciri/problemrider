@@ -7,15 +7,15 @@ category:
 - Business
 related_problems:
 - slug: inadequate-onboarding
-  similarity: 65%
+  similarity: 0.65
 - slug: user-frustration
-  similarity: 65%
+  similarity: 0.65
 - slug: user-confusion
-  similarity: 60%
+  similarity: 0.6
 - slug: negative-user-feedback
-  similarity: 60%
+  similarity: 0.6
 - slug: slow-application-performance
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

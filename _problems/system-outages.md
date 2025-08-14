@@ -8,15 +8,15 @@ category:
 - Business Impact
 related_problems:
 - slug: slow-incident-resolution
-  similarity: 60%
+  similarity: 0.6
 - slug: service-discovery-failures
-  similarity: 60%
+  similarity: 0.6
 - slug: user-frustration
-  similarity: 60%
+  similarity: 0.6
 - slug: customer-dissatisfaction
-  similarity: 60%
+  similarity: 0.6
 - slug: cascade-failures
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: fear-of-breaking-changes
-  similarity: 85%
+  similarity: 0.85
 - slug: resistance-to-change
-  similarity: 75%
+  similarity: 0.75
 - slug: refactoring-avoidance
-  similarity: 70%
+  similarity: 0.7
 - slug: fear-of-failure
-  similarity: 65%
+  similarity: 0.65
 - slug: maintenance-paralysis
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

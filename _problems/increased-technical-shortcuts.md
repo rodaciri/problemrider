@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: high-technical-debt
-  similarity: 75%
+  similarity: 0.75
 - slug: time-pressure
-  similarity: 65%
+  similarity: 0.65
 - slug: accumulation-of-workarounds
-  similarity: 65%
+  similarity: 0.65
 - slug: short-term-focus
-  similarity: 65%
+  similarity: 0.65
 - slug: workaround-culture
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

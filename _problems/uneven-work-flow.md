@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: uneven-workload-distribution
-  similarity: 70%
+  similarity: 0.7
 - slug: process-design-flaws
-  similarity: 65%
+  similarity: 0.65
 - slug: constant-firefighting
-  similarity: 65%
+  similarity: 0.65
 - slug: inefficient-processes
-  similarity: 65%
+  similarity: 0.65
 - slug: development-disruption
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

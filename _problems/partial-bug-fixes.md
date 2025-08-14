@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: delayed-bug-fixes
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-code-reuse
-  similarity: 65%
+  similarity: 0.65
 - slug: incomplete-knowledge
-  similarity: 65%
+  similarity: 0.65
 - slug: inconsistent-quality
-  similarity: 65%
+  similarity: 0.6
 - slug: code-duplication
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

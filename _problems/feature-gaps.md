@@ -8,15 +8,15 @@ category:
 - User Experience
 related_problems:
 - slug: monitoring-gaps
-  similarity: 60%
+  similarity: 0.6
 - slug: reduced-feature-quality
-  similarity: 60%
+  similarity: 0.6
 - slug: incomplete-projects
-  similarity: 60%
-- slug: skill-development-gaps
-  similarity: 60%
+  similarity: 0.6
 - slug: quality-blind-spots
-  similarity: 60%
+  similarity: 0.6
+- slug: skill-development-gaps
+  similarity: 0.6
 layout: problem
 ---
 

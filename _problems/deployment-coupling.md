@@ -7,15 +7,15 @@ category:
 - Deployment
 related_problems:
 - slug: tight-coupling-issues
-  similarity: 70%
-- slug: shared-dependencies
-  similarity: 65%
+  similarity: 0.7
 - slug: ripple-effect-of-changes
-  similarity: 65%
+  similarity: 0.65
+- slug: shared-dependencies
+  similarity: 0.65
 - slug: deployment-risk
-  similarity: 60%
+  similarity: 0.6
 - slug: deployment-environment-inconsistencies
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

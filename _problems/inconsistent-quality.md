@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: inconsistent-behavior
-  similarity: 65%
-- slug: inconsistent-coding-standards
-  similarity: 65%
+  similarity: 0.65
 - slug: quality-degradation
-  similarity: 65%
+  similarity: 0.65
+- slug: inconsistent-coding-standards
+  similarity: 0.65
 - slug: inconsistent-codebase
-  similarity: 65%
+  similarity: 0.65
 - slug: lack-of-ownership-and-accountability
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

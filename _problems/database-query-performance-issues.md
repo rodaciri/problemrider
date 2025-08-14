@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: slow-database-queries
-  similarity: 80%
+  similarity: 0.8
 - slug: high-number-of-database-queries
-  similarity: 75%
-- slug: high-database-resource-utilization
-  similarity: 70%
+  similarity: 0.75
 - slug: inefficient-database-indexing
-  similarity: 70%
+  similarity: 0.7
+- slug: high-database-resource-utilization
+  similarity: 0.7
 - slug: n-plus-one-query-problem
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

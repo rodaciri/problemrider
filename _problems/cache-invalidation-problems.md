@@ -8,13 +8,13 @@ category:
 - Integration
 related_problems:
 - slug: poor-caching-strategy
-  similarity: 65%
+  similarity: 0.65
 - slug: data-structure-cache-inefficiency
-  similarity: 55%
+  similarity: 0.55
 - slug: synchronization-problems
-  similarity: 55%
+  similarity: 0.55
 - slug: cross-system-data-synchronization-problems
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

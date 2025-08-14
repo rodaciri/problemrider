@@ -8,15 +8,15 @@ category:
 - Development Workflow
 related_problems:
 - slug: clever-code
-  similarity: 60%
+  similarity: 0.6
 - slug: fear-of-conflict
-  similarity: 60%
+  similarity: 0.6
 - slug: copy-paste-programming
-  similarity: 60%
-- slug: superficial-code-reviews
-  similarity: 55%
+  similarity: 0.6
 - slug: inadequate-code-reviews
-  similarity: 55%
+  similarity: 0.55
+- slug: superficial-code-reviews
+  similarity: 0.55
 layout: problem
 ---
 

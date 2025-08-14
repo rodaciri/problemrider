@@ -7,16 +7,16 @@ category:
 - Design
 - Requirements
 related_problems:
-- slug: poor-user-experience-ux-design
-  similarity: 55%
 - slug: process-design-flaws
-  similarity: 55%
-- slug: reduced-feature-quality
-  similarity: 55%
+  similarity: 0.55
+- slug: poor-user-experience-ux-design
+  similarity: 0.55
 - slug: inefficient-code
-  similarity: 55%
+  similarity: 0.55
+- slug: reduced-feature-quality
+  similarity: 0.55
 - slug: quality-compromises
-  similarity: 55%
+  similarity: 0.5
 layout: problem
 ---
 

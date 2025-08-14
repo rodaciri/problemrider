@@ -8,15 +8,15 @@ category:
 - Operational
 related_problems:
 - slug: configuration-chaos
-  similarity: 70%
+  similarity: 0.7
 - slug: inadequate-configuration-management
-  similarity: 65%
+  similarity: 0.65
 - slug: legacy-system-documentation-archaeology
-  similarity: 65%
+  similarity: 0.65
 - slug: configuration-drift
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-api-versioning-nightmare
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

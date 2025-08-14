@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: technology-lock-in
-  similarity: 75%
+  similarity: 0.75
 - slug: vendor-dependency-entrapment
-  similarity: 75%
+  similarity: 0.75
 - slug: dependency-on-supplier
-  similarity: 70%
+  similarity: 0.7
 - slug: vendor-dependency
-  similarity: 65%
+  similarity: 0.65
 - slug: technology-isolation
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

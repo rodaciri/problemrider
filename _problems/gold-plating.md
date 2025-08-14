@@ -7,15 +7,15 @@ category:
 - Project Management
 related_problems:
 - slug: feature-creep
-  similarity: 65%
+  similarity: 0.65
 - slug: eager-to-please-stakeholders
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-deployment-process
-  similarity: 60%
+  similarity: 0.6
 - slug: insufficient-testing
-  similarity: 60%
+  similarity: 0.6
 - slug: slow-feature-development
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

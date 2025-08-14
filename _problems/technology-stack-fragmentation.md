@@ -8,15 +8,15 @@ category:
 - Operational
 related_problems:
 - slug: technology-isolation
-  similarity: 75%
+  similarity: 0.75
 - slug: obsolete-technologies
-  similarity: 70%
+  similarity: 0.7
 - slug: information-fragmentation
-  similarity: 65%
+  similarity: 0.65
 - slug: legacy-skill-shortage
-  similarity: 65%
+  similarity: 0.65
 - slug: technology-lock-in
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

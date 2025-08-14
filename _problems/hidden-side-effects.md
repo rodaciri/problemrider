@@ -8,13 +8,13 @@ category:
 - Quality
 related_problems:
 - slug: global-state-and-side-effects
-  similarity: 65%
+  similarity: 0.65
 - slug: hidden-dependencies
-  similarity: 65%
+  similarity: 0.65
 - slug: unpredictable-system-behavior
-  similarity: 55%
+  similarity: 0.55
 - slug: complex-and-obscure-logic
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

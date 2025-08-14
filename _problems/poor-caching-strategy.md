@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: lazy-loading
-  similarity: 65%
+  similarity: 0.65
 - slug: cache-invalidation-problems
-  similarity: 65%
+  similarity: 0.65
+- slug: data-structure-cache-inefficiency
+  similarity: 0.6
 - slug: high-api-latency
-  similarity: 60%
-- slug: slow-application-performance
-  similarity: 60%
-- slug: imperative-data-fetching-logic
-  similarity: 60%
+  similarity: 0.6
+- slug: inefficient-code
+  similarity: 0.6
 layout: problem
 ---
 

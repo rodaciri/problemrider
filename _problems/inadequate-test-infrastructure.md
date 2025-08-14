@@ -8,15 +8,15 @@ category:
 - Infrastructure
 related_problems:
 - slug: testing-environment-fragility
-  similarity: 70%
+  similarity: 0.7
 - slug: inadequate-test-data-management
-  similarity: 65%
-- slug: automated-tooling-ineffectiveness
-  similarity: 60%
+  similarity: 0.65
 - slug: inadequate-integration-tests
-  similarity: 60%
+  similarity: 0.6
+- slug: automated-tooling-ineffectiveness
+  similarity: 0.6
 - slug: inefficient-development-environment
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

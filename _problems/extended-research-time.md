@@ -8,15 +8,15 @@ category:
 - Individual Performance
 related_problems:
 - slug: extended-cycle-times
-  similarity: 65%
+  similarity: 0.65
 - slug: duplicated-research-effort
-  similarity: 60%
+  similarity: 0.6
 - slug: increased-manual-work
-  similarity: 60%
+  similarity: 0.6
 - slug: extended-review-cycles
-  similarity: 60%
+  similarity: 0.6
 - slug: analysis-paralysis
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

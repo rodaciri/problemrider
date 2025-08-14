@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: configuration-chaos
-  similarity: 75%
+  similarity: 0.75
 - slug: configuration-drift
-  similarity: 70%
+  similarity: 0.7
 - slug: legacy-configuration-management-chaos
-  similarity: 65%
+  similarity: 0.65
 - slug: change-management-chaos
-  similarity: 65%
+  similarity: 0.6
 - slug: poor-system-environment
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

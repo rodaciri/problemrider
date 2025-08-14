@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: team-dysfunction
-  similarity: 75%
+  similarity: 0.75
 - slug: poor-teamwork
-  similarity: 70%
+  similarity: 0.7
 - slug: team-confusion
-  similarity: 70%
+  similarity: 0.7
 - slug: inconsistent-codebase
-  similarity: 65%
+  similarity: 0.65
 - slug: team-silos
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Documentation
 related_problems:
 - slug: change-management-chaos
-  similarity: 65%
+  similarity: 0.65
 - slug: breaking-changes
-  similarity: 65%
+  similarity: 0.65
 - slug: increasing-brittleness
-  similarity: 60%
+  similarity: 0.6
 - slug: frequent-changes-to-requirements
-  similarity: 60%
-- slug: poor-documentation
-  similarity: 60%
+  similarity: 0.6
+- slug: changing-project-scope
+  similarity: 0.6
 layout: problem
 ---
 

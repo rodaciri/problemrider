@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: architectural-mismatch
-  similarity: 75%
+  similarity: 0.75
 - slug: team-coordination-issues
-  similarity: 65%
+  similarity: 0.65
 - slug: capacity-mismatch
-  similarity: 60%
+  similarity: 0.6
 - slug: team-dysfunction
-  similarity: 60%
+  similarity: 0.6
 - slug: scaling-inefficiencies
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

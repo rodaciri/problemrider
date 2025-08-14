@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: insufficient-testing
-  similarity: 65%
+  similarity: 0.65
 - slug: inadequate-test-infrastructure
-  similarity: 65%
+  similarity: 0.65
 - slug: outdated-tests
-  similarity: 65%
+  similarity: 0.65
 - slug: testing-complexity
-  similarity: 60%
+  similarity: 0.6
 - slug: testing-environment-fragility
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

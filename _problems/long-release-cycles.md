@@ -8,15 +8,15 @@ category:
 - Delivery
 related_problems:
 - slug: large-risky-releases
-  similarity: 70%
+  similarity: 0.65
 - slug: extended-cycle-times
-  similarity: 65%
+  similarity: 0.65
 - slug: increased-manual-testing-effort
-  similarity: 60%
+  similarity: 0.6
 - slug: manual-deployment-processes
-  similarity: 60%
+  similarity: 0.6
 - slug: extended-review-cycles
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

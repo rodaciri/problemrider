@@ -4,16 +4,16 @@ description: User-facing features that rely on the API feel sluggish or unrespon
 category:
 - Performance
 related_problems:
-- slug: high-api-latency
-  similarity: 70%
-- slug: high-client-side-resource-consumption
-  similarity: 70%
 - slug: slow-database-queries
-  similarity: 70%
+  similarity: 0.7
+- slug: high-api-latency
+  similarity: 0.7
+- slug: high-client-side-resource-consumption
+  similarity: 0.7
 - slug: high-resource-utilization-on-client
-  similarity: 70%
+  similarity: 0.7
 - slug: inefficient-frontend-code
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

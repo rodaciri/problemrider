@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: difficult-developer-onboarding
-  similarity: 65%
+  similarity: 0.7
 - slug: new-hire-frustration
-  similarity: 65%
+  similarity: 0.65
 - slug: team-churn-impact
-  similarity: 65%
+  similarity: 0.65
 - slug: mentor-burnout
-  similarity: 60%
+  similarity: 0.6
 - slug: high-bug-introduction-rate
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

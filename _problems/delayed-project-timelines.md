@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: missed-deadlines
-  similarity: 80%
+  similarity: 0.8
 - slug: constantly-shifting-deadlines
-  similarity: 75%
+  similarity: 0.75
 - slug: unrealistic-schedule
-  similarity: 70%
-- slug: poor-planning
-  similarity: 70%
+  similarity: 0.7
 - slug: cascade-delays
-  similarity: 70%
+  similarity: 0.7
+- slug: poor-planning
+  similarity: 0.7
 layout: problem
 ---
 

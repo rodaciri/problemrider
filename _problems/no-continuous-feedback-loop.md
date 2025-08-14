@@ -7,15 +7,15 @@ category:
 - Communication
 related_problems:
 - slug: feedback-isolation
-  similarity: 75%
+  similarity: 0.75
 - slug: stakeholder-developer-communication-gap
-  similarity: 75%
+  similarity: 0.75
 - slug: misaligned-deliverables
-  similarity: 65%
+  similarity: 0.65
 - slug: team-members-not-engaged-in-review-process
-  similarity: 60%
+  similarity: 0.6
 - slug: eager-to-please-stakeholders
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

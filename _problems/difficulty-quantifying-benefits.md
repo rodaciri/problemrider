@@ -8,15 +8,15 @@ category:
 - Measurement
 related_problems:
 - slug: invisible-nature-of-technical-debt
-  similarity: 65%
+  similarity: 0.65
 - slug: modernization-roi-justification-failure
-  similarity: 65%
+  similarity: 0.65
 - slug: maintenance-paralysis
-  similarity: 55%
+  similarity: 0.55
 - slug: short-term-focus
-  similarity: 55%
+  similarity: 0.55
 - slug: complex-implementation-paths
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

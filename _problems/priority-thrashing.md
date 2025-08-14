@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: competing-priorities
-  similarity: 70%
+  similarity: 0.7
 - slug: development-disruption
-  similarity: 65%
+  similarity: 0.65
 - slug: unclear-goals-and-priorities
-  similarity: 65%
+  similarity: 0.65
 - slug: constant-firefighting
-  similarity: 65%
+  similarity: 0.65
 - slug: context-switching-overhead
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Communication
 related_problems:
 - slug: inadequate-code-reviews
-  similarity: 75%
+  similarity: 0.75
 - slug: insufficient-code-review
-  similarity: 70%
+  similarity: 0.7
 - slug: reduced-review-participation
-  similarity: 70%
+  similarity: 0.7
 - slug: review-process-breakdown
-  similarity: 70%
+  similarity: 0.7
 - slug: review-bottlenecks
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

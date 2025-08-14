@@ -9,15 +9,15 @@ category:
 - Process
 related_problems:
 - slug: increased-technical-shortcuts
-  similarity: 75%
+  similarity: 0.75
 - slug: invisible-nature-of-technical-debt
-  similarity: 65%
+  similarity: 0.65
 - slug: accumulation-of-workarounds
-  similarity: 65%
+  similarity: 0.65
 - slug: accumulated-decision-debt
-  similarity: 65%
-- slug: maintenance-overhead
-  similarity: 65%
+  similarity: 0.65
+- slug: test-debt
+  similarity: 0.65
 layout: problem
 ---
 

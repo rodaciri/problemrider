@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: inconsistent-codebase
-  similarity: 75%
+  similarity: 0.75
 - slug: increasing-brittleness
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-code-comprehension
-  similarity: 65%
+  similarity: 0.65
 - slug: spaghetti-code
-  similarity: 65%
+  similarity: 0.65
 - slug: uncontrolled-codebase-growth
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

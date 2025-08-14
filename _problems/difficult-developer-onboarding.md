@@ -9,15 +9,15 @@ category:
 - Maintenance
 related_problems:
 - slug: new-hire-frustration
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-onboarding-experience
-  similarity: 70%
+  similarity: 0.7
 - slug: high-turnover
-  similarity: 65%
+  similarity: 0.7
 - slug: inexperienced-developers
-  similarity: 60%
+  similarity: 0.6
 - slug: slow-knowledge-transfer
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

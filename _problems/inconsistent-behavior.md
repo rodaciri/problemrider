@@ -7,15 +7,15 @@ category:
 - User Experience
 related_problems:
 - slug: user-confusion
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-execution
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-quality
-  similarity: 65%
+  similarity: 0.65
 - slug: unpredictable-system-behavior
-  similarity: 65%
+  similarity: 0.65
 - slug: deployment-environment-inconsistencies
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

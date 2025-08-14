@@ -7,16 +7,16 @@ category:
 - Process
 - Decision Making
 related_problems:
-- slug: lower-code-quality
-  similarity: 65%
 - slug: reduced-feature-quality
-  similarity: 65%
+  similarity: 0.65
+- slug: lower-code-quality
+  similarity: 0.65
 - slug: quality-degradation
-  similarity: 65%
+  similarity: 0.65
 - slug: inconsistent-quality
-  similarity: 60%
+  similarity: 0.6
 - slug: increased-technical-shortcuts
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

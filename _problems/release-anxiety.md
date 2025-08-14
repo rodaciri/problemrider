@@ -8,15 +8,15 @@ category:
 - Deployment
 related_problems:
 - slug: release-instability
-  similarity: 65%
+  similarity: 0.65
 - slug: large-risky-releases
-  similarity: 65%
+  similarity: 0.65
 - slug: reviewer-anxiety
-  similarity: 65%
+  similarity: 0.65
 - slug: fear-of-breaking-changes
-  similarity: 60%
+  similarity: 0.6
 - slug: time-pressure
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

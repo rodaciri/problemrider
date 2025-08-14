@@ -8,15 +8,15 @@ category:
 - Productivity
 related_problems:
 - slug: cognitive-overload
-  similarity: 70%
+  similarity: 0.7
 - slug: development-disruption
-  similarity: 70%
+  similarity: 0.7
 - slug: increased-cognitive-load
-  similarity: 65%
+  similarity: 0.65
 - slug: interrupt-overhead
-  similarity: 65%
+  similarity: 0.65
 - slug: maintenance-overhead
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

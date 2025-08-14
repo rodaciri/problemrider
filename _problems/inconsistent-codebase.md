@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: inconsistent-coding-standards
-  similarity: 80%
+  similarity: 0.8
 - slug: undefined-code-style-guidelines
-  similarity: 75%
+  similarity: 0.75
 - slug: brittle-codebase
-  similarity: 75%
+  similarity: 0.75
 - slug: mixed-coding-styles
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-naming-conventions
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

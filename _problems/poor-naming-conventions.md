@@ -8,15 +8,15 @@ category:
 - Developer Experience
 related_problems:
 - slug: inconsistent-naming-conventions
-  similarity: 75%
+  similarity: 0.75
 - slug: mixed-coding-styles
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-and-obscure-logic
-  similarity: 60%
+  similarity: 0.6
 - slug: monolithic-functions-and-classes
-  similarity: 60%
+  similarity: 0.6
 - slug: inconsistent-codebase
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

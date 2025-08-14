@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: convenience-driven-development
-  similarity: 70%
+  similarity: 0.7
 - slug: increased-technical-shortcuts
-  similarity: 55%
+  similarity: 0.55
 - slug: cargo-culting
-  similarity: 55%
+  similarity: 0.55
 - slug: decision-avoidance
-  similarity: 55%
+  similarity: 0.55
 - slug: premature-technology-introduction
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

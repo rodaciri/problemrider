@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: uneven-work-flow
-  similarity: 70%
+  similarity: 0.7
 - slug: overworked-teams
-  similarity: 65%
+  similarity: 0.65
 - slug: inappropriate-skillset
-  similarity: 60%
-- slug: inconsistent-knowledge-acquisition
-  similarity: 60%
+  similarity: 0.6
 - slug: load-balancing-problems
-  similarity: 60%
+  similarity: 0.6
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.6
 layout: problem
 ---
 

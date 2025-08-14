@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: perfectionist-review-culture
-  similarity: 75%
+  similarity: 0.75
 - slug: inadequate-code-reviews
-  similarity: 70%
+  similarity: 0.7
 - slug: superficial-code-reviews
-  similarity: 70%
+  similarity: 0.7
 - slug: insufficient-code-review
-  similarity: 65%
+  similarity: 0.65
 - slug: code-review-inefficiency
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

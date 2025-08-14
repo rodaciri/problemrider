@@ -8,13 +8,13 @@ category:
 - Data Processing
 related_problems:
 - slug: algorithmic-complexity-problems
-  similarity: 50%
-- slug: atomic-operation-overhead
-  similarity: 50%
-- slug: endianness-conversion-overhead
-  similarity: 50%
+  similarity: 0.5
 - slug: database-query-performance-issues
-  similarity: 50%
+  similarity: 0.5
+- slug: atomic-operation-overhead
+  similarity: 0.5
+- slug: endianness-conversion-overhead
+  similarity: 0.5
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Project Management
 related_problems:
 - slug: missed-deadlines
-  similarity: 75%
+  similarity: 0.75
 - slug: delayed-project-timelines
-  similarity: 75%
+  similarity: 0.75
 - slug: frequent-changes-to-requirements
-  similarity: 75%
+  similarity: 0.75
 - slug: unrealistic-deadlines
-  similarity: 70%
+  similarity: 0.7
 - slug: changing-project-scope
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

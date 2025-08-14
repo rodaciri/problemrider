@@ -8,15 +8,15 @@ category:
 - Legacy
 related_problems:
 - slug: outdated-tests
-  similarity: 65%
+  similarity: 0.65
 - slug: insufficient-design-skills
-  similarity: 60%
+  similarity: 0.6
 - slug: difficult-to-test-code
-  similarity: 60%
+  similarity: 0.6
 - slug: inadequate-test-data-management
-  similarity: 60%
+  similarity: 0.6
 - slug: poor-test-coverage
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

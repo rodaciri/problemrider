@@ -8,15 +8,15 @@ category:
 - Memory Management
 related_problems:
 - slug: circular-dependency-problems
-  similarity: 65%
+  similarity: 0.65
 - slug: garbage-collection-pressure
-  similarity: 55%
+  similarity: 0.55
 - slug: unreleased-resources
-  similarity: 55%
+  similarity: 0.55
 - slug: memory-leaks
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-allocation-failures
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

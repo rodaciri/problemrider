@@ -8,15 +8,13 @@ category:
 - Architecture
 related_problems:
 - slug: interrupt-overhead
-  similarity: 55%
+  similarity: 0.55
 - slug: service-discovery-failures
-  similarity: 50%
+  similarity: 0.5
 - slug: endianness-conversion-overhead
-  similarity: 50%
-- slug: atomic-operation-overhead
-  similarity: 50%
-- slug: upstream-timeouts
-  similarity: 50%
+  similarity: 0.5
+- slug: operational-overhead
+  similarity: 0.5
 layout: problem
 ---
 

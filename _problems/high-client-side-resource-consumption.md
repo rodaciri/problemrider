@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: high-resource-utilization-on-client
-  similarity: 95%
+  similarity: 0.95
 - slug: inefficient-frontend-code
-  similarity: 80%
+  similarity: 0.8
 - slug: high-database-resource-utilization
-  similarity: 75%
+  similarity: 0.7
 - slug: slow-application-performance
-  similarity: 70%
+  similarity: 0.7
 - slug: resource-contention
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

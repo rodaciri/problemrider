@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: reduced-individual-productivity
-  similarity: 75%
+  similarity: 0.75
 - slug: development-disruption
-  similarity: 70%
+  similarity: 0.7
 - slug: slow-development-velocity
-  similarity: 70%
+  similarity: 0.7
 - slug: reduced-team-flexibility
-  similarity: 65%
+  similarity: 0.65
 - slug: poor-teamwork
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

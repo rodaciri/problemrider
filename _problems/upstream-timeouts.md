@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: service-timeouts
-  similarity: 85%
+  similarity: 0.85
 - slug: external-service-delays
-  similarity: 65%
+  similarity: 0.65
 - slug: high-connection-count
-  similarity: 60%
+  similarity: 0.6
 - slug: high-api-latency
-  similarity: 60%
+  similarity: 0.6
 - slug: increased-error-rates
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

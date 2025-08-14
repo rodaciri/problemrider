@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: stakeholder-frustration
-  similarity: 75%
+  similarity: 0.75
 - slug: stakeholder-dissatisfaction
-  similarity: 75%
+  similarity: 0.75
 - slug: planning-credibility-issues
-  similarity: 70%
+  similarity: 0.7
 - slug: stakeholder-developer-communication-gap
-  similarity: 65%
+  similarity: 0.65
 - slug: declining-business-metrics
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

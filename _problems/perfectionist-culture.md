@@ -7,15 +7,15 @@ category:
 - Culture
 related_problems:
 - slug: perfectionist-review-culture
-  similarity: 70%
+  similarity: 0.7
 - slug: history-of-failed-changes
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-deployment-process
-  similarity: 60%
+  similarity: 0.6
 - slug: release-anxiety
-  similarity: 60%
-- slug: constantly-shifting-deadlines
-  similarity: 60%
+  similarity: 0.6
+- slug: workaround-culture
+  similarity: 0.6
 layout: problem
 ---
 

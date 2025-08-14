@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: insufficient-worker-capacity
-  similarity: 85%
+  similarity: 0.85
 - slug: task-queues-backing-up
-  similarity: 85%
+  similarity: 0.85
 - slug: work-queue-buildup
-  similarity: 70%
+  similarity: 0.7
 - slug: unbounded-data-growth
-  similarity: 50%
+  similarity: 0.5
 - slug: increased-error-rates
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: resistance-to-change
-  similarity: 75%
+  similarity: 0.75
 - slug: analysis-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: decision-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: maintenance-bottlenecks
-  similarity: 70%
+  similarity: 0.7
 - slug: inability-to-innovate
-  similarity: 70%
+  similarity: 0.7
 layout: problem
 ---
 

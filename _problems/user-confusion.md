@@ -6,15 +6,15 @@ category:
 - User Experience
 related_problems:
 - slug: user-frustration
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-behavior
-  similarity: 75%
+  similarity: 0.75
 - slug: team-confusion
-  similarity: 65%
+  similarity: 0.7
 - slug: user-trust-erosion
-  similarity: 65%
+  similarity: 0.65
 - slug: customer-dissatisfaction
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

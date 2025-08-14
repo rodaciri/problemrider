@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: no-formal-change-control-process
-  similarity: 65%
+  similarity: 0.65
 - slug: poor-planning
-  similarity: 60%
+  similarity: 0.6
 - slug: incomplete-projects
-  similarity: 60%
+  similarity: 0.6
 - slug: communication-risk-outside-project
-  similarity: 55%
+  similarity: 0.55
 - slug: poor-operational-concept
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

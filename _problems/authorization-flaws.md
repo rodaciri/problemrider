@@ -7,13 +7,13 @@ category:
 - Technical
 related_problems:
 - slug: authentication-bypass-vulnerabilities
-  similarity: 75%
+  similarity: 0.75
 - slug: password-security-weaknesses
-  similarity: 55%
+  similarity: 0.55
 - slug: insufficient-audit-logging
-  similarity: 55%
+  similarity: 0.55
 - slug: session-management-issues
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

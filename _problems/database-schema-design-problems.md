@@ -8,15 +8,15 @@ category:
 - Data Modeling
 related_problems:
 - slug: schema-evolution-paralysis
-  similarity: 70%
+  similarity: 0.7
 - slug: database-query-performance-issues
-  similarity: 65%
+  similarity: 0.65
 - slug: data-migration-integrity-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: high-number-of-database-queries
-  similarity: 55%
+  similarity: 0.55
 - slug: n-plus-one-query-problem
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

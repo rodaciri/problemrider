@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: unreleased-resources
-  similarity: 65%
+  similarity: 0.65
 - slug: wasted-development-effort
-  similarity: 60%
+  similarity: 0.6
 - slug: project-resource-constraints
-  similarity: 60%
-- slug: capacity-mismatch
-  similarity: 60%
+  similarity: 0.6
 - slug: resource-allocation-failures
-  similarity: 60%
+  similarity: 0.6
+- slug: capacity-mismatch
+  similarity: 0.6
 layout: problem
 ---
 

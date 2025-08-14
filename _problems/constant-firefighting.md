@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: development-disruption
-  similarity: 75%
+  similarity: 0.75
 - slug: time-pressure
-  similarity: 70%
+  similarity: 0.65
 - slug: uneven-work-flow
-  similarity: 65%
+  similarity: 0.65
 - slug: constantly-shifting-deadlines
-  similarity: 65%
+  similarity: 0.65
 - slug: operational-overhead
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

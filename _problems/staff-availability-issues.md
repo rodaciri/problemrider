@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: project-resource-constraints
-  similarity: 60%
+  similarity: 0.6
 - slug: capacity-mismatch
-  similarity: 60%
+  similarity: 0.6
 - slug: inappropriate-skillset
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-waste
-  similarity: 55%
+  similarity: 0.55
 - slug: project-authority-vacuum
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

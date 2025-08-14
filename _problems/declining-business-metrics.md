@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: stakeholder-dissatisfaction
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-confidence-loss
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-frustration
-  similarity: 60%
-- slug: user-frustration
-  similarity: 55%
+  similarity: 0.6
 - slug: negative-user-feedback
-  similarity: 55%
+  similarity: 0.55
+- slug: user-frustration
+  similarity: 0.55
 layout: problem
 ---
 

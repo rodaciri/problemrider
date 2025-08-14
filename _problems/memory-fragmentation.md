@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: memory-leaks
-  similarity: 65%
+  similarity: 0.65
 - slug: resource-allocation-failures
-  similarity: 60%
+  similarity: 0.6
 - slug: excessive-object-allocation
-  similarity: 60%
-- slug: virtual-memory-thrashing
-  similarity: 55%
+  similarity: 0.6
 - slug: alignment-and-padding-issues
-  similarity: 55%
+  similarity: 0.55
+- slug: virtual-memory-thrashing
+  similarity: 0.55
 layout: problem
 ---
 

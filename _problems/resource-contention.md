@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: high-client-side-resource-consumption
-  similarity: 70%
+  similarity: 0.7
 - slug: high-database-resource-utilization
-  similarity: 70%
+  similarity: 0.7
 - slug: high-resource-utilization-on-client
-  similarity: 70%
+  similarity: 0.7
 - slug: excessive-disk-io
-  similarity: 65%
+  similarity: 0.65
 - slug: memory-swapping
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

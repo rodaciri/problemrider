@@ -7,15 +7,15 @@ category:
 - Scalability
 related_problems:
 - slug: maintenance-bottlenecks
-  similarity: 60%
+  similarity: 0.6
 - slug: monolithic-architecture-constraints
-  similarity: 60%
+  similarity: 0.6
 - slug: inconsistent-quality
-  similarity: 60%
-- slug: team-coordination-issues
-  similarity: 55%
+  similarity: 0.55
 - slug: inefficient-code
-  similarity: 55%
+  similarity: 0.55
+- slug: team-coordination-issues
+  similarity: 0.55
 layout: problem
 ---
 

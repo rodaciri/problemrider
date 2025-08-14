@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: monolithic-functions-and-classes
-  similarity: 70%
+  similarity: 0.7
 - slug: brittle-codebase
-  similarity: 60%
+  similarity: 0.6
 - slug: maintenance-bottlenecks
-  similarity: 60%
+  similarity: 0.6
 - slug: uncontrolled-codebase-growth
-  similarity: 60%
+  similarity: 0.6
 - slug: technical-architecture-limitations
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

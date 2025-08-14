@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: complex-and-obscure-logic
-  similarity: 70%
+  similarity: 0.7
 - slug: difficult-to-understand-code
-  similarity: 65%
+  similarity: 0.65
 - slug: difficult-code-comprehension
-  similarity: 65%
+  similarity: 0.65
 - slug: inconsistent-codebase
-  similarity: 60%
+  similarity: 0.6
 - slug: spaghetti-code
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

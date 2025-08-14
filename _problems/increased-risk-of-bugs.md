@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: high-bug-introduction-rate
-  similarity: 70%
+  similarity: 0.7
 - slug: increased-bug-count
-  similarity: 65%
+  similarity: 0.65
 - slug: increased-cost-of-development
-  similarity: 60%
+  similarity: 0.6
 - slug: difficult-to-understand-code
-  similarity: 60%
+  similarity: 0.6
 - slug: fear-of-change
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

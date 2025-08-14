@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: inexperienced-developers
-  similarity: 70%
+  similarity: 0.7
 - slug: misunderstanding-of-oop
-  similarity: 70%
+  similarity: 0.7
 - slug: inconsistent-codebase
-  similarity: 70%
+  similarity: 0.7
 - slug: incomplete-knowledge
-  similarity: 65%
+  similarity: 0.65
 - slug: difficult-code-reuse
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Resource Management
 related_problems:
 - slug: misconfigured-connection-pools
-  similarity: 70%
+  similarity: 0.7
 - slug: high-connection-count
-  similarity: 65%
+  similarity: 0.65
 - slug: incorrect-max-connection-pool-size
-  similarity: 65%
+  similarity: 0.65
 - slug: database-query-performance-issues
-  similarity: 60%
+  similarity: 0.6
 - slug: resource-allocation-failures
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: poor-naming-conventions
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-coding-standards
-  similarity: 75%
+  similarity: 0.75
 - slug: inconsistent-codebase
-  similarity: 70%
+  similarity: 0.7
 - slug: mixed-coding-styles
-  similarity: 65%
+  similarity: 0.65
 - slug: undefined-code-style-guidelines
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

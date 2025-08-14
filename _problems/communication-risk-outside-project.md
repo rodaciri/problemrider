@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: communication-risk-within-project
-  similarity: 80%
+  similarity: 0.8
 - slug: stakeholder-dissatisfaction
-  similarity: 65%
+  similarity: 0.65
 - slug: eager-to-please-stakeholders
-  similarity: 65%
+  similarity: 0.65
 - slug: stakeholder-frustration
-  similarity: 60%
+  similarity: 0.6
 - slug: stakeholder-developer-communication-gap
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

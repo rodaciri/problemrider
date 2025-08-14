@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: legacy-code-without-tests
-  similarity: 65%
+  similarity: 0.65
 - slug: inadequate-test-data-management
-  similarity: 65%
+  similarity: 0.65
 - slug: flaky-tests
-  similarity: 60%
+  similarity: 0.6
+- slug: test-debt
+  similarity: 0.6
 - slug: testing-complexity
-  similarity: 60%
-- slug: obsolete-technologies
-  similarity: 55%
+  similarity: 0.6
 layout: problem
 ---
 

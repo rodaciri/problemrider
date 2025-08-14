@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: premature-technology-introduction
-  similarity: 55%
+  similarity: 0.55
 - slug: workaround-culture
-  similarity: 55%
+  similarity: 0.55
 - slug: reduced-innovation
-  similarity: 55%
+  similarity: 0.55
 - slug: cv-driven-development
-  similarity: 55%
+  similarity: 0.55
 - slug: increased-technical-shortcuts
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

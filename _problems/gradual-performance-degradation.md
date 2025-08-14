@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: quality-degradation
-  similarity: 75%
+  similarity: 0.75
 - slug: slow-application-performance
-  similarity: 65%
+  similarity: 0.65
 - slug: slow-development-velocity
-  similarity: 60%
+  similarity: 0.6
 - slug: memory-leaks
-  similarity: 60%
+  similarity: 0.6
 - slug: system-stagnation
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

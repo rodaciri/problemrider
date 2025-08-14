@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: virtual-memory-thrashing
-  similarity: 70%
+  similarity: 0.7
 - slug: excessive-disk-io
-  similarity: 70%
+  similarity: 0.7
 - slug: high-database-resource-utilization
-  similarity: 65%
+  similarity: 0.65
 - slug: resource-contention
-  similarity: 65%
+  similarity: 0.65
 - slug: slow-application-performance
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Data Management
 related_problems:
 - slug: unbounded-data-growth
-  similarity: 80%
-- slug: uncontrolled-codebase-growth
-  similarity: 60%
+  similarity: 0.8
 - slug: data-structure-cache-inefficiency
-  similarity: 60%
+  similarity: 0.6
+- slug: uncontrolled-codebase-growth
+  similarity: 0.6
 - slug: unreleased-resources
-  similarity: 55%
+  similarity: 0.55
 - slug: algorithmic-complexity-problems
-  similarity: 50%
+  similarity: 0.5
 layout: problem
 ---
 

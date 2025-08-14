@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: brittle-codebase
-  similarity: 65%
+  similarity: 0.65
 - slug: spaghetti-code
-  similarity: 60%
+  similarity: 0.6
 - slug: monolithic-architecture-constraints
-  similarity: 60%
-- slug: rapid-team-growth
-  similarity: 60%
+  similarity: 0.6
 - slug: unbounded-data-growth
-  similarity: 60%
+  similarity: 0.6
+- slug: rapid-team-growth
+  similarity: 0.6
 layout: problem
 ---
 

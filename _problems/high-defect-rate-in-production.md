@@ -7,15 +7,15 @@ category:
 - Business
 related_problems:
 - slug: insufficient-testing
-  similarity: 75%
+  similarity: 0.75
 - slug: high-bug-introduction-rate
-  similarity: 65%
+  similarity: 0.65
 - slug: increased-bug-count
-  similarity: 65%
+  similarity: 0.65
 - slug: large-risky-releases
-  similarity: 60%
+  similarity: 0.6
 - slug: complex-deployment-process
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

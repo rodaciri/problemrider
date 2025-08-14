@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: breaking-changes
-  similarity: 60%
+  similarity: 0.6
 - slug: partial-bug-fixes
-  similarity: 60%
+  similarity: 0.6
 - slug: high-bug-introduction-rate
-  similarity: 60%
+  similarity: 0.6
 - slug: increased-bug-count
-  similarity: 55%
+  similarity: 0.55
 - slug: delayed-bug-fixes
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

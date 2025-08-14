@@ -7,15 +7,15 @@ category:
 - Frontend
 related_problems:
 - slug: high-client-side-resource-consumption
-  similarity: 80%
+  similarity: 0.8
 - slug: high-resource-utilization-on-client
-  similarity: 80%
+  similarity: 0.75
 - slug: inefficient-code
-  similarity: 75%
+  similarity: 0.75
 - slug: slow-application-performance
-  similarity: 70%
+  similarity: 0.7
 - slug: imperative-data-fetching-logic
-  similarity: 60%
+  similarity: 0.6
 layout: problem
 ---
 

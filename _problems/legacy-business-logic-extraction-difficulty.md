@@ -8,15 +8,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: complex-and-obscure-logic
-  similarity: 65%
+  similarity: 0.65
 - slug: modernization-roi-justification-failure
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-system-documentation-archaeology
-  similarity: 60%
+  similarity: 0.6
 - slug: legacy-configuration-management-chaos
-  similarity: 60%
+  similarity: 0.55
 - slug: data-migration-integrity-issues
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

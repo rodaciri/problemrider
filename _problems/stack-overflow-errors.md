@@ -8,9 +8,9 @@ category:
 - Runtime Errors
 related_problems:
 - slug: memory-leaks
-  similarity: 55%
+  similarity: 0.55
 - slug: resource-allocation-failures
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

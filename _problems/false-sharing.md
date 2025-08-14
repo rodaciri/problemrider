@@ -8,15 +8,15 @@ category:
 - Concurrency
 related_problems:
 - slug: race-conditions
-  similarity: 60%
+  similarity: 0.6
 - slug: memory-barrier-inefficiency
-  similarity: 55%
+  similarity: 0.55
 - slug: atomic-operation-overhead
-  similarity: 55%
+  similarity: 0.55
 - slug: lock-contention
-  similarity: 55%
+  similarity: 0.55
 - slug: dma-coherency-issues
-  similarity: 55%
+  similarity: 0.55
 layout: problem
 ---
 

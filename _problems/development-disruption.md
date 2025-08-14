@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: constant-firefighting
-  similarity: 75%
+  similarity: 0.75
 - slug: context-switching-overhead
-  similarity: 70%
+  similarity: 0.7
 - slug: reduced-team-productivity
-  similarity: 70%
+  similarity: 0.7
 - slug: inefficient-development-environment
-  similarity: 65%
+  similarity: 0.65
 - slug: priority-thrashing
-  similarity: 65%
+  similarity: 0.65
 layout: problem
 ---
 

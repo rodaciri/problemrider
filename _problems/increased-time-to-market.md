@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: delayed-value-delivery
   similarity: 0.759
+- slug: competitive-disadvantage
+  similarity: 0.682
 - slug: slow-feature-development
-  similarity: 0.704
+  similarity: 0.654
 - slug: slow-development-velocity
-  similarity: 0.637
-- slug: release-instability
-  similarity: 0.589
+  similarity: 0.604
 - slug: delayed-project-timelines
-  similarity: 0.583
+  similarity: 0.589
 layout: problem
 ---
 

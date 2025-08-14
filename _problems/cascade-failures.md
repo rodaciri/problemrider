@@ -7,16 +7,16 @@ category:
 - Design
 - Performance
 related_problems:
-- slug: single-points-of-failure
-  similarity: 0.589
 - slug: poor-system-environment
-  similarity: 0.588
+  similarity: 0.652
+- slug: single-points-of-failure
+  similarity: 0.64
 - slug: inadequate-integration-tests
-  similarity: 0.539
-- slug: change-management-chaos
-  similarity: 0.533
-- slug: increasing-brittleness
-  similarity: 0.521
+  similarity: 0.628
+- slug: unpredictable-system-behavior
+  similarity: 0.617
+- slug: tight-coupling-issues
+  similarity: 0.603
 layout: problem
 ---
 

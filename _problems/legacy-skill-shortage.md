@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: obsolete-technologies
-  similarity: 0.615
-- slug: vendor-dependency-entrapment
-  similarity: 0.612
-- slug: modernization-roi-justification-failure
-  similarity: 0.552
+  similarity: 0.668
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.543
+  similarity: 0.602
+- slug: technology-stack-fragmentation
+  similarity: 0.593
+- slug: inexperienced-developers
+  similarity: 0.582
 - slug: high-turnover
-  similarity: 0.528
+  similarity: 0.581
 layout: problem
 ---
 

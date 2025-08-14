@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Process
 related_problems:
-- slug: skill-development-gaps
-  similarity: 0.733
 - slug: inconsistent-onboarding-experience
-  similarity: 0.703
+  similarity: 0.748
+- slug: skill-development-gaps
+  similarity: 0.73
 - slug: tacit-knowledge
-  similarity: 0.679
+  similarity: 0.636
 - slug: knowledge-dependency
-  similarity: 0.626
-- slug: slow-knowledge-transfer
-  similarity: 0.609
+  similarity: 0.633
+- slug: inappropriate-skillset
+  similarity: 0.627
 layout: problem
 ---
 

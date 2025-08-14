@@ -7,15 +7,15 @@ category:
 - Communication
 related_problems:
 - slug: reviewer-anxiety
-  similarity: 0.723
+  similarity: 0.757
 - slug: author-frustration
-  similarity: 0.678
+  similarity: 0.712
 - slug: team-members-not-engaged-in-review-process
-  similarity: 0.671
+  similarity: 0.702
 - slug: defensive-coding-practices
-  similarity: 0.658
-- slug: conflicting-reviewer-opinions
-  similarity: 0.624
+  similarity: 0.698
+- slug: inadequate-code-reviews
+  similarity: 0.65
 layout: problem
 ---
 

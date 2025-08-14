@@ -7,16 +7,16 @@ category:
 - Communication
 - Quality
 related_problems:
-- slug: inexperienced-developers
-  similarity: 0.646
-- slug: knowledge-gaps
-  similarity: 0.63
-- slug: difficult-developer-onboarding
-  similarity: 0.609
 - slug: high-turnover
-  similarity: 0.604
-- slug: implicit-knowledge
-  similarity: 0.603
+  similarity: 0.688
+- slug: inexperienced-developers
+  similarity: 0.681
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.64
+- slug: knowledge-gaps
+  similarity: 0.632
+- slug: knowledge-dependency
+  similarity: 0.631
 layout: problem
 ---
 

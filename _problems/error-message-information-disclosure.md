@@ -8,15 +8,15 @@ category:
 - Information Disclosure
 related_problems:
 - slug: buffer-overflow-vulnerabilities
+  similarity: 0.593
+- slug: logging-configuration-issues
   similarity: 0.582
-- slug: inadequate-error-handling
-  similarity: 0.57
 - slug: log-injection-vulnerabilities
-  similarity: 0.526
-- slug: stack-overflow-errors
-  similarity: 0.519
-- slug: poor-system-environment
-  similarity: 0.512
+  similarity: 0.566
+- slug: inadequate-error-handling
+  similarity: 0.557
+- slug: silent-data-corruption
+  similarity: 0.535
 layout: problem
 ---
 

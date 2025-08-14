@@ -7,16 +7,16 @@ category:
 - Process
 - Workplace Health
 related_problems:
+- slug: conflicting-reviewer-opinions
+  similarity: 0.75
 - slug: reviewer-anxiety
-  similarity: 0.693
+  similarity: 0.735
+- slug: fear-of-conflict
+  similarity: 0.712
 - slug: defensive-coding-practices
   similarity: 0.69
-- slug: fear-of-conflict
-  similarity: 0.678
-- slug: increased-cognitive-load
-  similarity: 0.647
-- slug: inexperienced-developers
-  similarity: 0.62
+- slug: lower-code-quality
+  similarity: 0.669
 layout: problem
 ---
 

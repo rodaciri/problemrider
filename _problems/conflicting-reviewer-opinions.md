@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Communication
 related_problems:
-- slug: fear-of-conflict
-  similarity: 0.624
 - slug: author-frustration
-  similarity: 0.608
-- slug: code-review-inefficiency
-  similarity: 0.592
-- slug: extended-review-cycles
-  similarity: 0.582
+  similarity: 0.75
 - slug: review-process-breakdown
-  similarity: 0.58
+  similarity: 0.639
+- slug: fear-of-conflict
+  similarity: 0.636
+- slug: reviewer-anxiety
+  similarity: 0.635
+- slug: reviewer-inexperience
+  similarity: 0.635
 layout: problem
 ---
 

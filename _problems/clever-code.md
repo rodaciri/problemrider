@@ -7,16 +7,16 @@ category:
 - Team
 - Technical
 related_problems:
-- slug: complex-and-obscure-logic
-  similarity: 0.699
 - slug: difficult-to-understand-code
-  similarity: 0.688
+  similarity: 0.626
+- slug: complex-and-obscure-logic
+  similarity: 0.618
 - slug: difficult-code-comprehension
-  similarity: 0.638
+  similarity: 0.618
 - slug: defensive-coding-practices
-  similarity: 0.625
-- slug: inexperienced-developers
-  similarity: 0.592
+  similarity: 0.613
+- slug: spaghetti-code
+  similarity: 0.604
 layout: problem
 ---
 

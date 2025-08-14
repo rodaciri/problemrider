@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: increasing-brittleness
-  similarity: 0.725
-- slug: fear-of-breaking-changes
-  similarity: 0.719
-- slug: insufficient-design-skills
-  similarity: 0.716
+  similarity: 0.771
 - slug: large-estimates-for-small-changes
-  similarity: 0.692
-- slug: difficult-code-comprehension
-  similarity: 0.682
+  similarity: 0.755
+- slug: insufficient-design-skills
+  similarity: 0.72
+- slug: fear-of-breaking-changes
+  similarity: 0.707
+- slug: high-technical-debt
+  similarity: 0.676
 layout: problem
 ---
 

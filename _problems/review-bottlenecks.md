@@ -6,16 +6,16 @@ category:
 - Process
 - Team Dynamics
 related_problems:
-- slug: large-pull-requests
-  similarity: 0.775
 - slug: code-review-inefficiency
-  similarity: 0.73
+  similarity: 0.757
+- slug: large-pull-requests
+  similarity: 0.752
 - slug: rushed-approvals
-  similarity: 0.708
-- slug: inadequate-code-reviews
-  similarity: 0.697
+  similarity: 0.746
 - slug: reduced-code-submission-frequency
-  similarity: 0.672
+  similarity: 0.711
+- slug: review-process-breakdown
+  similarity: 0.701
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Runtime Errors
 related_problems:
 - slug: buffer-overflow-vulnerabilities
-  similarity: 0.741
+  similarity: 0.763
 - slug: null-pointer-dereferences
-  similarity: 0.684
-- slug: inadequate-error-handling
-  similarity: 0.611
-- slug: memory-leaks
-  similarity: 0.595
+  similarity: 0.664
 - slug: excessive-object-allocation
-  similarity: 0.565
+  similarity: 0.594
+- slug: memory-fragmentation
+  similarity: 0.563
+- slug: spaghetti-code
+  similarity: 0.548
 layout: problem
 ---
 

@@ -7,8 +7,16 @@ category:
 - Memory Management
 - Architecture
 related_problems:
+- slug: memory-leaks
+  similarity: 0.572
+- slug: unreleased-resources
+  similarity: 0.571
 - slug: excessive-object-allocation
-  similarity: 0.529
+  similarity: 0.571
+- slug: garbage-collection-pressure
+  similarity: 0.534
+- slug: interrupt-overhead
+  similarity: 0.523
 layout: problem
 ---
 

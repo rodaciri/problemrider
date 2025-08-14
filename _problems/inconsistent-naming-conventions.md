@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: inconsistent-coding-standards
-  similarity: 0.733
+  similarity: 0.739
 - slug: inconsistent-codebase
+  similarity: 0.739
+- slug: poor-naming-conventions
+  similarity: 0.685
+- slug: undefined-code-style-guidelines
   similarity: 0.674
 - slug: nitpicking-culture
-  similarity: 0.586
-- slug: increased-risk-of-bugs
-  similarity: 0.583
-- slug: undefined-code-style-guidelines
-  similarity: 0.567
+  similarity: 0.644
 layout: problem
 ---
 

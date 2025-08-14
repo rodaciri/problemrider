@@ -7,16 +7,16 @@ category:
 - Organizational
 - Strategic
 related_problems:
-- slug: slow-feature-development
-  similarity: 0.575
 - slug: difficulty-quantifying-benefits
-  similarity: 0.571
+  similarity: 0.665
+- slug: quality-compromises
+  similarity: 0.635
+- slug: high-technical-debt
+  similarity: 0.623
 - slug: increased-technical-shortcuts
-  similarity: 0.567
-- slug: large-feature-scope
-  similarity: 0.545
-- slug: rapid-system-changes
-  similarity: 0.537
+  similarity: 0.619
+- slug: second-system-effect
+  similarity: 0.604
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: large-feature-scope
-  similarity: 0.759
+  similarity: 0.768
 - slug: merge-conflicts
-  similarity: 0.623
-- slug: slow-feature-development
-  similarity: 0.574
-- slug: incomplete-projects
-  similarity: 0.572
+  similarity: 0.659
+- slug: large-estimates-for-small-changes
+  similarity: 0.597
 - slug: team-coordination-issues
-  similarity: 0.536
+  similarity: 0.591
+- slug: slow-feature-development
+  similarity: 0.584
 layout: problem
 ---
 

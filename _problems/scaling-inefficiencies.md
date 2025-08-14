@@ -1,8 +1,15 @@
 ---
-title: "Scaling Inefficiencies"
-description: "A situation where it is difficult or impossible to scale different parts of a system independently."
-category: ['Architecture', 'Scalability']
-related_problems: ['monolithic-architecture-constraints', 'high-resource-utilization-on-client', 'slow-application-performance']
+title: Scaling Inefficiencies
+description: A situation where it is difficult or impossible to scale different parts
+  of a system independently.
+category:
+- Architecture
+- Scalability
+related_problems:
+- slug: monolithic-architecture-constraints
+  similarity: 0.525
+- slug: shared-database
+  similarity: 0.5
 layout: problem
 ---
 

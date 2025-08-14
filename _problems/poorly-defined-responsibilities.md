@@ -7,14 +7,16 @@ category:
 - Architecture
 - Maintenance
 related_problems:
-- slug: high-coupling-low-cohesion
-  similarity: 0.569
-- slug: tight-coupling-issues
-  similarity: 0.561
+- slug: unpredictable-system-behavior
+  similarity: 0.626
 - slug: monolithic-functions-and-classes
-  similarity: 0.553
-- slug: requirements-ambiguity
-  similarity: 0.502
+  similarity: 0.624
+- slug: difficult-to-understand-code
+  similarity: 0.611
+- slug: ripple-effect-of-changes
+  similarity: 0.592
+- slug: hidden-dependencies
+  similarity: 0.587
 layout: problem
 ---
 

@@ -6,12 +6,16 @@ category:
 - Process
 - Communication
 related_problems:
-- slug: no-continuous-feedback-loop
-  similarity: 0.592
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.542
+  similarity: 0.74
+- slug: product-direction-chaos
+  similarity: 0.631
+- slug: stakeholder-frustration
+  similarity: 0.6
 - slug: inconsistent-behavior
-  similarity: 0.531
+  similarity: 0.591
+- slug: unclear-goals-and-priorities
+  similarity: 0.591
 layout: problem
 ---
 

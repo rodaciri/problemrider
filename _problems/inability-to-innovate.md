@@ -7,16 +7,16 @@ category:
 - Strategic
 - Team Dynamics
 related_problems:
-- slug: maintenance-paralysis
-  similarity: 0.74
 - slug: reduced-innovation
-  similarity: 0.695
-- slug: inefficient-development-environment
-  similarity: 0.65
-- slug: development-disruption
-  similarity: 0.644
-- slug: fear-of-breaking-changes
-  similarity: 0.643
+  similarity: 0.753
+- slug: maintenance-paralysis
+  similarity: 0.749
+- slug: inexperienced-developers
+  similarity: 0.698
+- slug: maintenance-overhead
+  similarity: 0.689
+- slug: history-of-failed-changes
+  similarity: 0.678
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: testing-environment-fragility
-  similarity: 0.671
+  similarity: 0.718
 - slug: quality-blind-spots
-  similarity: 0.603
-- slug: inadequate-integration-tests
-  similarity: 0.6
+  similarity: 0.634
+- slug: increased-manual-testing-effort
+  similarity: 0.629
+- slug: insufficient-testing
+  similarity: 0.62
 - slug: inadequate-test-infrastructure
-  similarity: 0.594
-- slug: inadequate-test-data-management
-  similarity: 0.581
+  similarity: 0.619
 layout: problem
 ---
 

@@ -8,11 +8,15 @@ category:
 - Memory Management
 related_problems:
 - slug: excessive-object-allocation
-  similarity: 0.642
+  similarity: 0.604
 - slug: garbage-collection-pressure
-  similarity: 0.562
-- slug: memory-fragmentation
-  similarity: 0.517
+  similarity: 0.599
+- slug: circular-dependency-problems
+  similarity: 0.546
+- slug: memory-leaks
+  similarity: 0.53
+- slug: null-pointer-dereferences
+  similarity: 0.512
 layout: problem
 ---
 

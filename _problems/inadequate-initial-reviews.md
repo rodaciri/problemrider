@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: insufficient-code-review
-  similarity: 0.752
+  similarity: 0.778
 - slug: review-process-breakdown
-  similarity: 0.729
-- slug: code-review-inefficiency
-  similarity: 0.698
-- slug: superficial-code-reviews
-  similarity: 0.697
+  similarity: 0.773
 - slug: inadequate-code-reviews
-  similarity: 0.668
+  similarity: 0.734
+- slug: extended-review-cycles
+  similarity: 0.712
+- slug: code-review-inefficiency
+  similarity: 0.711
 layout: problem
 ---
 

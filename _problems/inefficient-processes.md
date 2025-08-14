@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Organizational
 related_problems:
-- slug: inefficient-development-environment
-  similarity: 0.747
-- slug: tool-limitations
-  similarity: 0.735
 - slug: increased-manual-work
-  similarity: 0.7
+  similarity: 0.758
+- slug: tool-limitations
+  similarity: 0.741
+- slug: inefficient-development-environment
+  similarity: 0.738
+- slug: reduced-individual-productivity
+  similarity: 0.713
 - slug: process-design-flaws
-  similarity: 0.671
-- slug: reduced-team-productivity
-  similarity: 0.65
+  similarity: 0.706
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: technology-stack-fragmentation
-  similarity: 0.636
+  similarity: 0.682
+- slug: vendor-lock-in
+  similarity: 0.558
 - slug: deployment-coupling
-  similarity: 0.523
+  similarity: 0.55
 - slug: architectural-mismatch
-  similarity: 0.517
-- slug: poor-interfaces-between-applications
-  similarity: 0.512
-- slug: deployment-environment-inconsistencies
-  similarity: 0.507
+  similarity: 0.542
+- slug: context-switching-overhead
+  similarity: 0.537
 layout: problem
 ---
 

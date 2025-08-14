@@ -6,15 +6,15 @@ category:
 - Productivity
 related_problems:
 - slug: inefficient-development-environment
-  similarity: 0.624
-- slug: testing-environment-fragility
-  similarity: 0.613
+  similarity: 0.677
+- slug: time-pressure
+  similarity: 0.621
 - slug: tool-limitations
-  similarity: 0.604
+  similarity: 0.62
 - slug: deadline-pressure
-  similarity: 0.586
-- slug: slow-development-velocity
-  similarity: 0.585
+  similarity: 0.604
+- slug: testing-environment-fragility
+  similarity: 0.603
 layout: problem
 ---
 

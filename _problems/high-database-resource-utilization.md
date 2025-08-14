@@ -6,16 +6,16 @@ category:
 - Performance
 - Stability
 related_problems:
-- slug: slow-database-queries
-  similarity: 0.881
-- slug: high-number-of-database-queries
-  similarity: 0.806
-- slug: resource-contention
-  similarity: 0.801
-- slug: memory-swapping
-  similarity: 0.769
 - slug: high-connection-count
-  similarity: 0.756
+  similarity: 0.779
+- slug: slow-database-queries
+  similarity: 0.742
+- slug: increased-error-rates
+  similarity: 0.741
+- slug: resource-contention
+  similarity: 0.733
+- slug: misconfigured-connection-pools
+  similarity: 0.692
 layout: problem
 ---
 

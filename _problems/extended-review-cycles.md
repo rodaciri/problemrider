@@ -7,16 +7,16 @@ category:
 - Efficiency
 - Team Dynamics
 related_problems:
-- slug: code-review-inefficiency
-  similarity: 0.703
-- slug: insufficient-code-review
-  similarity: 0.663
-- slug: inadequate-initial-reviews
-  similarity: 0.643
 - slug: reduced-code-submission-frequency
-  similarity: 0.636
+  similarity: 0.723
+- slug: code-review-inefficiency
+  similarity: 0.714
+- slug: inadequate-initial-reviews
+  similarity: 0.712
 - slug: review-process-breakdown
-  similarity: 0.636
+  similarity: 0.675
+- slug: rushed-approvals
+  similarity: 0.642
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Culture
 related_problems:
 - slug: team-demoralization
-  similarity: 0.646
-- slug: increased-stress-and-burnout
-  similarity: 0.617
+  similarity: 0.716
 - slug: poor-teamwork
-  similarity: 0.61
+  similarity: 0.618
+- slug: poor-project-control
+  similarity: 0.595
+- slug: reduced-team-flexibility
+  similarity: 0.591
 - slug: inappropriate-skillset
-  similarity: 0.604
-- slug: staff-availability-issues
-  similarity: 0.586
+  similarity: 0.588
 layout: problem
 ---
 

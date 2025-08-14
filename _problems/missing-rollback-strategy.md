@@ -8,13 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: deployment-risk
-  similarity: 0.715
+  similarity: 0.734
 - slug: large-risky-releases
-  similarity: 0.569
-- slug: inadequate-configuration-management
-  similarity: 0.535
-- slug: data-migration-complexities
-  similarity: 0.51
+  similarity: 0.639
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 0.62
+- slug: history-of-failed-changes
+  similarity: 0.604
+- slug: manual-deployment-processes
+  similarity: 0.59
 layout: problem
 ---
 

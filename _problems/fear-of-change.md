@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: fear-of-breaking-changes
-  similarity: 0.747
+  similarity: 0.823
 - slug: resistance-to-change
-  similarity: 0.718
-- slug: fear-of-failure
-  similarity: 0.705
+  similarity: 0.8
 - slug: large-estimates-for-small-changes
-  similarity: 0.699
+  similarity: 0.734
+- slug: unpredictable-system-behavior
+  similarity: 0.711
 - slug: increased-risk-of-bugs
-  similarity: 0.697
+  similarity: 0.707
 layout: problem
 ---
 

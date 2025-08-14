@@ -7,15 +7,15 @@ category:
 - Observability
 related_problems:
 - slug: excessive-logging
-  similarity: 0.753
+  similarity: 0.734
 - slug: slow-database-queries
-  similarity: 0.674
-- slug: high-database-resource-utilization
-  similarity: 0.662
-- slug: high-number-of-database-queries
-  similarity: 0.654
+  similarity: 0.639
 - slug: increased-error-rates
-  similarity: 0.65
+  similarity: 0.616
+- slug: high-database-resource-utilization
+  similarity: 0.59
+- slug: logging-configuration-issues
+  similarity: 0.572
 layout: problem
 ---
 

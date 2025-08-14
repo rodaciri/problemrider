@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: new-hire-frustration
-  similarity: 0.719
-- slug: developer-frustration-and-burnout
-  similarity: 0.675
+  similarity: 0.735
 - slug: difficult-developer-onboarding
-  similarity: 0.672
-- slug: insufficient-design-skills
-  similarity: 0.604
+  similarity: 0.733
 - slug: team-churn-impact
-  similarity: 0.604
+  similarity: 0.688
+- slug: inexperienced-developers
+  similarity: 0.661
+- slug: mentor-burnout
+  similarity: 0.631
 layout: problem
 ---
 

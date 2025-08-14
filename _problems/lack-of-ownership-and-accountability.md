@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: unclear-documentation-ownership
-  similarity: 0.706
-- slug: legacy-system-documentation-archaeology
-  similarity: 0.602
-- slug: invisible-nature-of-technical-debt
-  similarity: 0.583
-- slug: maintenance-bottlenecks
-  similarity: 0.579
+  similarity: 0.721
 - slug: maintenance-paralysis
-  similarity: 0.575
+  similarity: 0.626
+- slug: delayed-issue-resolution
+  similarity: 0.619
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.588
+- slug: maintenance-overhead
+  similarity: 0.574
 layout: problem
 ---
 

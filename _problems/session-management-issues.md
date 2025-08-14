@@ -7,8 +7,16 @@ category:
 - Authentication
 - Session Management
 related_problems:
+- slug: secret-management-problems
+  similarity: 0.573
+- slug: password-security-weaknesses
+  similarity: 0.564
 - slug: authentication-bypass-vulnerabilities
-  similarity: 0.506
+  similarity: 0.56
+- slug: logging-configuration-issues
+  similarity: 0.517
+- slug: authorization-flaws
+  similarity: 0.515
 layout: problem
 ---
 

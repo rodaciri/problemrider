@@ -1,8 +1,13 @@
 ---
-title: "Single Entry Point Design"
-description: "A design where all requests to a system must go through a single object or component."
-category: ['Architecture', 'Design']
-related_problems: ['god-object-anti-pattern', 'maintenance-bottlenecks', 'tight-coupling-issues']
+title: Single Entry Point Design
+description: A design where all requests to a system must go through a single object
+  or component.
+category:
+- Architecture
+- Design
+related_problems:
+- slug: god-object-anti-pattern
+  similarity: 0.502
 layout: problem
 ---
 

@@ -6,16 +6,16 @@ category:
 - Communication
 - Process
 related_problems:
+- slug: misaligned-deliverables
+  similarity: 0.74
 - slug: stakeholder-frustration
-  similarity: 0.71
-- slug: no-continuous-feedback-loop
-  similarity: 0.697
-- slug: feedback-isolation
-  similarity: 0.673
-- slug: communication-risk-outside-project
-  similarity: 0.65
+  similarity: 0.737
+- slug: poor-communication
+  similarity: 0.696
 - slug: stakeholder-dissatisfaction
-  similarity: 0.645
+  similarity: 0.695
+- slug: feedback-isolation
+  similarity: 0.681
 layout: problem
 ---
 

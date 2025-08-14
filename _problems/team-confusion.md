@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Planning
 related_problems:
-- slug: communication-risk-within-project
-  similarity: 0.758
 - slug: unclear-goals-and-priorities
-  similarity: 0.758
-- slug: requirements-ambiguity
-  similarity: 0.666
-- slug: communication-breakdown
-  similarity: 0.651
+  similarity: 0.803
+- slug: communication-risk-within-project
+  similarity: 0.725
+- slug: unclear-sharing-expectations
+  similarity: 0.682
 - slug: team-dysfunction
-  similarity: 0.645
+  similarity: 0.669
+- slug: requirements-ambiguity
+  similarity: 0.661
 layout: problem
 ---
 

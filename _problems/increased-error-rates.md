@@ -6,16 +6,16 @@ category:
 - Quality
 - Stability
 related_problems:
+- slug: high-database-resource-utilization
+  similarity: 0.741
 - slug: service-timeouts
-  similarity: 0.717
-- slug: excessive-logging
-  similarity: 0.668
-- slug: log-spam
-  similarity: 0.65
-- slug: network-latency
-  similarity: 0.631
+  similarity: 0.726
+- slug: upstream-timeouts
+  similarity: 0.643
+- slug: external-service-delays
+  similarity: 0.635
 - slug: high-connection-count
-  similarity: 0.628
+  similarity: 0.63
 layout: problem
 ---
 

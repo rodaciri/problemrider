@@ -7,16 +7,16 @@ category:
 - Business
 - Measurement
 related_problems:
-- slug: resistance-to-change
-  similarity: 0.638
-- slug: implementation-rework
-  similarity: 0.627
 - slug: invisible-nature-of-technical-debt
-  similarity: 0.59
-- slug: increased-technical-shortcuts
-  similarity: 0.584
+  similarity: 0.666
 - slug: short-term-focus
-  similarity: 0.571
+  similarity: 0.665
+- slug: implementation-rework
+  similarity: 0.644
+- slug: modernization-roi-justification-failure
+  similarity: 0.617
+- slug: second-system-effect
+  similarity: 0.606
 layout: problem
 ---
 

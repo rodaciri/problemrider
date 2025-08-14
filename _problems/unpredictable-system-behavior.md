@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: hidden-dependencies
-  similarity: 0.743
-- slug: increasing-brittleness
-  similarity: 0.69
-- slug: increased-risk-of-bugs
-  similarity: 0.686
-- slug: increased-bug-count
-  similarity: 0.678
+  similarity: 0.815
 - slug: ripple-effect-of-changes
-  similarity: 0.674
+  similarity: 0.753
+- slug: fear-of-change
+  similarity: 0.711
+- slug: increasing-brittleness
+  similarity: 0.705
+- slug: increased-risk-of-bugs
+  similarity: 0.699
 layout: problem
 ---
 

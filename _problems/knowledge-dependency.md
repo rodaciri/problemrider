@@ -8,15 +8,15 @@ category:
 - Independence
 related_problems:
 - slug: knowledge-silos
+  similarity: 0.702
+- slug: knowledge-gaps
+  similarity: 0.678
+- slug: slow-knowledge-transfer
   similarity: 0.678
 - slug: skill-development-gaps
-  similarity: 0.638
-- slug: tacit-knowledge
-  similarity: 0.627
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.626
-- slug: slow-knowledge-transfer
-  similarity: 0.626
+  similarity: 0.663
+- slug: single-points-of-failure
+  similarity: 0.658
 layout: problem
 ---
 

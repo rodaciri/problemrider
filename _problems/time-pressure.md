@@ -7,15 +7,15 @@ category:
 - Quality
 related_problems:
 - slug: deadline-pressure
-  similarity: 0.791
-- slug: constant-firefighting
-  similarity: 0.74
-- slug: development-disruption
-  similarity: 0.582
-- slug: unrealistic-deadlines
-  similarity: 0.581
-- slug: missed-deadlines
-  similarity: 0.578
+  similarity: 0.91
+- slug: slow-development-velocity
+  similarity: 0.73
+- slug: constantly-shifting-deadlines
+  similarity: 0.685
+- slug: unrealistic-schedule
+  similarity: 0.671
+- slug: increased-manual-work
+  similarity: 0.667
 layout: problem
 ---
 

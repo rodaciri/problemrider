@@ -8,15 +8,15 @@ category:
 - Data Integrity
 related_problems:
 - slug: dma-coherency-issues
-  similarity: 0.647
+  similarity: 0.642
 - slug: false-sharing
-  similarity: 0.626
+  similarity: 0.621
 - slug: deadlock-conditions
-  similarity: 0.608
-- slug: lock-contention
-  similarity: 0.57
-- slug: inconsistent-behavior
-  similarity: 0.545
+  similarity: 0.603
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.59
+- slug: atomic-operation-overhead
+  similarity: 0.584
 layout: problem
 ---
 

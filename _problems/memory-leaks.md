@@ -6,16 +6,16 @@ category:
 - Performance
 - Stability
 related_problems:
-- slug: gradual-performance-degradation
-  similarity: 0.683
 - slug: unreleased-resources
-  similarity: 0.642
+  similarity: 0.698
+- slug: gradual-performance-degradation
+  similarity: 0.69
 - slug: resource-contention
-  similarity: 0.609
+  similarity: 0.617
 - slug: excessive-object-allocation
-  similarity: 0.598
-- slug: stack-overflow-errors
-  similarity: 0.595
+  similarity: 0.616
+- slug: resource-allocation-failures
+  similarity: 0.615
 layout: problem
 ---
 

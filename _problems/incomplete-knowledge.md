@@ -7,15 +7,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: knowledge-gaps
-  similarity: 0.655
-- slug: team-silos
-  similarity: 0.638
-- slug: knowledge-sharing-breakdown
-  similarity: 0.635
-- slug: knowledge-silos
-  similarity: 0.631
+  similarity: 0.699
+- slug: incomplete-projects
+  similarity: 0.647
 - slug: tacit-knowledge
-  similarity: 0.623
+  similarity: 0.631
+- slug: team-silos
+  similarity: 0.603
+- slug: team-coordination-issues
+  similarity: 0.595
 layout: problem
 ---
 

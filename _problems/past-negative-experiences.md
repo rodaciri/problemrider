@@ -6,16 +6,16 @@ category:
 - Team
 - Process
 related_problems:
-- slug: fear-of-breaking-changes
-  similarity: 0.625
-- slug: fear-of-failure
-  similarity: 0.611
 - slug: history-of-failed-changes
-  similarity: 0.604
-- slug: fear-of-change
+  similarity: 0.645
+- slug: fear-of-breaking-changes
+  similarity: 0.596
+- slug: fear-of-failure
+  similarity: 0.566
+- slug: resistance-to-change
   similarity: 0.564
-- slug: inability-to-innovate
-  similarity: 0.546
+- slug: fear-of-change
+  similarity: 0.555
 layout: problem
 ---
 

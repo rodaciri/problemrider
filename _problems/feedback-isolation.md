@@ -8,15 +8,15 @@ category:
 - Product Management
 related_problems:
 - slug: no-continuous-feedback-loop
-  similarity: 0.876
+  similarity: 0.802
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.673
-- slug: communication-risk-outside-project
-  similarity: 0.549
+  similarity: 0.681
 - slug: poor-communication
-  similarity: 0.534
-- slug: stakeholder-frustration
-  similarity: 0.526
+  similarity: 0.59
+- slug: misaligned-deliverables
+  similarity: 0.58
+- slug: development-disruption
+  similarity: 0.574
 layout: problem
 ---
 

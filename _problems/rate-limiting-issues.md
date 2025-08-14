@@ -7,14 +7,10 @@ category:
 - Security
 - Performance
 related_problems:
-- slug: increased-error-rates
-  similarity: 0.553
 - slug: load-balancing-problems
-  similarity: 0.522
-- slug: gradual-performance-degradation
-  similarity: 0.505
-- slug: system-outages
-  similarity: 0.5
+  similarity: 0.535
+- slug: garbage-collection-pressure
+  similarity: 0.502
 layout: problem
 ---
 

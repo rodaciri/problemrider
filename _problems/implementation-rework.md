@@ -7,16 +7,16 @@ category:
 - Technical
 - Quality
 related_problems:
+- slug: second-system-effect
+  similarity: 0.709
 - slug: wasted-development-effort
-  similarity: 0.68
-- slug: frequent-changes-to-requirements
-  similarity: 0.644
-- slug: difficulty-quantifying-benefits
-  similarity: 0.627
+  similarity: 0.685
 - slug: complex-implementation-paths
-  similarity: 0.614
-- slug: large-feature-scope
-  similarity: 0.61
+  similarity: 0.672
+- slug: reduced-feature-quality
+  similarity: 0.655
+- slug: difficulty-quantifying-benefits
+  similarity: 0.644
 layout: problem
 ---
 

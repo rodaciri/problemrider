@@ -6,16 +6,16 @@ category:
 - Process
 - Maintenance
 related_problems:
-- slug: constant-firefighting
-  similarity: 0.629
 - slug: maintenance-overhead
-  similarity: 0.579
-- slug: context-switching-overhead
-  similarity: 0.526
+  similarity: 0.696
 - slug: inefficient-processes
-  similarity: 0.521
-- slug: reduced-team-productivity
-  similarity: 0.515
+  similarity: 0.65
+- slug: uneven-workload-distribution
+  similarity: 0.62
+- slug: increased-manual-work
+  similarity: 0.613
+- slug: constant-firefighting
+  similarity: 0.612
 layout: problem
 ---
 

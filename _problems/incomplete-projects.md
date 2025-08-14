@@ -7,16 +7,16 @@ category:
 - Process
 - Project Management
 related_problems:
-- slug: wasted-development-effort
-  similarity: 0.677
 - slug: feature-gaps
-  similarity: 0.666
+  similarity: 0.718
+- slug: wasted-development-effort
+  similarity: 0.679
+- slug: poor-planning
+  similarity: 0.647
+- slug: incomplete-knowledge
+  similarity: 0.647
 - slug: slow-feature-development
-  similarity: 0.65
-- slug: large-feature-scope
-  similarity: 0.643
-- slug: frequent-changes-to-requirements
-  similarity: 0.595
+  similarity: 0.634
 layout: problem
 ---
 

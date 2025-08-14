@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: unmotivated-employees
-  similarity: 0.646
-- slug: team-dysfunction
-  similarity: 0.597
+  similarity: 0.716
 - slug: poor-teamwork
-  similarity: 0.588
-- slug: release-anxiety
-  similarity: 0.539
+  similarity: 0.669
+- slug: team-dysfunction
+  similarity: 0.645
 - slug: developer-frustration-and-burnout
-  similarity: 0.538
+  similarity: 0.602
+- slug: increased-stress-and-burnout
+  similarity: 0.594
 layout: problem
 ---
 

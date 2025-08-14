@@ -1,8 +1,16 @@
 ---
-title: "REST API Design Issues"
-description: "Poor REST API design violates REST principles, creates usability problems, and leads to inefficient client-server interactions."
-category: ['API Design', 'Architecture', 'Usability']
-related_problems: ['api-versioning-conflicts', 'inconsistent-interface-design', 'integration-difficulties']
+title: REST API Design Issues
+description: Poor REST API design violates REST principles, creates usability problems,
+  and leads to inefficient client-server interactions.
+category:
+- API Design
+- Architecture
+- Usability
+related_problems:
+- slug: api-versioning-conflicts
+  similarity: 0.517
+- slug: inconsistent-coding-standards
+  similarity: 0.507
 layout: problem
 ---
 

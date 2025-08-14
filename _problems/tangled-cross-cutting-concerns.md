@@ -1,8 +1,21 @@
 ---
-title: "Tangled Cross-Cutting Concerns"
-description: "A situation where cross-cutting concerns, such as logging, security, and transactions, are tightly coupled with the business logic."
-category: ['Code Quality', 'Architecture']
-related_problems: ['code-duplication', 'tight-coupling-issues', 'difficult-to-test-code']
+title: Tangled Cross-Cutting Concerns
+description: A situation where cross-cutting concerns, such as logging, security,
+  and transactions, are tightly coupled with the business logic.
+category:
+- Code Quality
+- Architecture
+related_problems:
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.559
+- slug: spaghetti-code
+  similarity: 0.559
+- slug: system-integration-blindness
+  similarity: 0.532
+- slug: tight-coupling-issues
+  similarity: 0.527
+- slug: inadequate-integration-tests
+  similarity: 0.512
 layout: problem
 ---
 

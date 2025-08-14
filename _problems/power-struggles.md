@@ -8,15 +8,15 @@ category:
 - Politics
 related_problems:
 - slug: team-dysfunction
-  similarity: 0.643
-- slug: delayed-decision-making
-  similarity: 0.57
-- slug: poor-teamwork
-  similarity: 0.565
-- slug: unclear-goals-and-priorities
-  similarity: 0.561
-- slug: change-management-chaos
-  similarity: 0.56
+  similarity: 0.668
+- slug: project-authority-vacuum
+  similarity: 0.645
+- slug: project-resource-constraints
+  similarity: 0.608
+- slug: competing-priorities
+  similarity: 0.607
+- slug: team-confusion
+  similarity: 0.603
 layout: problem
 ---
 

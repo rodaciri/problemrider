@@ -7,16 +7,16 @@ category:
 - Process
 - Risk Management
 related_problems:
-- slug: reduced-team-flexibility
-  similarity: 0.626
-- slug: knowledge-dependency
-  similarity: 0.619
 - slug: staff-availability-issues
-  similarity: 0.594
-- slug: cascade-failures
-  similarity: 0.589
-- slug: knowledge-silos
-  similarity: 0.573
+  similarity: 0.687
+- slug: reduced-team-flexibility
+  similarity: 0.661
+- slug: deployment-risk
+  similarity: 0.661
+- slug: knowledge-dependency
+  similarity: 0.658
+- slug: knowledge-gaps
+  similarity: 0.658
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: feature-creep
-  similarity: 0.838
-- slug: brittle-codebase
-  similarity: 0.662
-- slug: slow-feature-development
-  similarity: 0.659
+  similarity: 0.839
+- slug: refactoring-avoidance
+  similarity: 0.674
 - slug: uncontrolled-codebase-growth
+  similarity: 0.668
+- slug: brittle-codebase
+  similarity: 0.666
+- slug: fear-of-breaking-changes
   similarity: 0.633
-- slug: scope-creep
-  similarity: 0.625
 layout: problem
 ---
 

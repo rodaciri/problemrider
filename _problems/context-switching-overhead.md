@@ -8,15 +8,15 @@ category:
 - Productivity
 related_problems:
 - slug: increased-manual-work
-  similarity: 0.65
-- slug: maintenance-overhead
-  similarity: 0.647
-- slug: development-disruption
-  similarity: 0.614
-- slug: inefficient-processes
-  similarity: 0.613
-- slug: inefficient-development-environment
-  similarity: 0.612
+  similarity: 0.698
+- slug: cognitive-overload
+  similarity: 0.676
+- slug: mental-fatigue
+  similarity: 0.676
+- slug: reduced-individual-productivity
+  similarity: 0.661
+- slug: increased-cognitive-load
+  similarity: 0.659
 layout: problem
 ---
 

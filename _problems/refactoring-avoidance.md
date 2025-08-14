@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: high-technical-debt
-  similarity: 0.766
-- slug: brittle-codebase
-  similarity: 0.673
-- slug: maintenance-paralysis
-  similarity: 0.659
-- slug: invisible-nature-of-technical-debt
-  similarity: 0.638
+  similarity: 0.747
+- slug: resistance-to-change
+  similarity: 0.705
 - slug: fear-of-breaking-changes
-  similarity: 0.637
+  similarity: 0.704
+- slug: maintenance-paralysis
+  similarity: 0.694
+- slug: large-estimates-for-small-changes
+  similarity: 0.679
 layout: problem
 ---
 

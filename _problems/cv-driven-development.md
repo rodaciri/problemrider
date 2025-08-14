@@ -8,7 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: premature-technology-introduction
-  similarity: 0.553
+  similarity: 0.625
+- slug: difficulty-quantifying-benefits
+  similarity: 0.576
+- slug: reduced-innovation
+  similarity: 0.557
+- slug: legacy-skill-shortage
+  similarity: 0.556
+- slug: second-system-effect
+  similarity: 0.524
 layout: problem
 ---
 

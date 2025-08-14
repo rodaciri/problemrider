@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: inability-to-innovate
-  similarity: 0.74
+  similarity: 0.749
+- slug: maintenance-overhead
+  similarity: 0.723
+- slug: refactoring-avoidance
+  similarity: 0.694
 - slug: resistance-to-change
-  similarity: 0.681
-- slug: high-maintenance-costs
-  similarity: 0.681
-- slug: maintenance-cost-increase
-  similarity: 0.67
-- slug: increased-cost-of-development
-  similarity: 0.661
+  similarity: 0.688
+- slug: maintenance-bottlenecks
+  similarity: 0.684
 layout: problem
 ---
 

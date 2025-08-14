@@ -64,9 +64,9 @@ class SimpleEmbeddingAnalyzer:
         print(f"Loaded {len(self.problems)} problems")
     
     def _extract_additional_sections(self, content: str) -> dict:
-        """Extract specific sections: indicators and examples."""
+        """Extract specific sections: indicators, description, and examples."""
         
-        sections = {'indicators': ''}  # Initialize with empty indicators
+        sections = {'indicators': '', 'description': ''}  # Initialize with empty sections
         
         # Extract indicators section
         indicators_pattern = r'## Indicators.*?\n(.*?)(?=\n## |\n$)'
@@ -79,6 +79,18 @@ class SimpleEmbeddingAnalyzer:
             indicators_text = re.sub(r'[-*]\s*', '', indicators_text)  # Remove bullets
             indicators_text = re.sub(r'\s+', ' ', indicators_text).strip()
             sections['indicators'] = indicators_text
+        
+        # Extract description section
+        description_pattern = r'## Description.*?\n(.*?)(?=\n## |\n$)'
+        description_match = re.search(description_pattern, content, re.IGNORECASE | re.DOTALL)
+        if description_match:
+            description_text = description_match.group(1)
+            # Clean markdown formatting
+            description_text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', description_text)  # Remove links
+            description_text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', description_text)  # Remove bold
+            description_text = re.sub(r'[-*]\s*', '', description_text)  # Remove bullets
+            description_text = re.sub(r'\s+', ' ', description_text).strip()
+            sections['description'] = description_text
                 
         return sections
     
@@ -90,10 +102,11 @@ class SimpleEmbeddingAnalyzer:
         keys_to_encode = []
         
         for problem_key, problem_data in self.problems.items():
-            # Combine title, description, anond indicators (no examples)
+            # Combine title, YAML description, description section, and indicators
             text_parts = [
                 problem_data['title'],
-                problem_data['description'],
+                problem_data['description'],  # YAML description
+                problem_data['content_sections']['description'],  # Description section
                 problem_data['content_sections']['indicators']
             ]
             # Filter out empty parts

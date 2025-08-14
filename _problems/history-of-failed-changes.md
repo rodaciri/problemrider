@@ -6,16 +6,16 @@ category:
 - Process
 - Culture
 related_problems:
-- slug: increasing-brittleness
-  similarity: 0.707
-- slug: fear-of-failure
-  similarity: 0.704
 - slug: fear-of-breaking-changes
-  similarity: 0.702
+  similarity: 0.754
+- slug: fear-of-failure
+  similarity: 0.752
+- slug: resistance-to-change
+  similarity: 0.71
 - slug: release-instability
-  similarity: 0.693
-- slug: large-risky-releases
-  similarity: 0.675
+  similarity: 0.708
+- slug: release-anxiety
+  similarity: 0.707
 layout: problem
 ---
 

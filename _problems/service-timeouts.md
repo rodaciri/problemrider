@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: upstream-timeouts
-  similarity: 0.861
-- slug: increased-error-rates
-  similarity: 0.717
+  similarity: 0.844
 - slug: network-latency
-  similarity: 0.708
-- slug: high-api-latency
-  similarity: 0.693
-- slug: high-connection-count
-  similarity: 0.668
+  similarity: 0.732
+- slug: increased-error-rates
+  similarity: 0.726
+- slug: external-service-delays
+  similarity: 0.687
+- slug: misconfigured-connection-pools
+  similarity: 0.665
 layout: problem
 ---
 

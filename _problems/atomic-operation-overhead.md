@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: false-sharing
-  similarity: 0.697
+  similarity: 0.751
 - slug: memory-barrier-inefficiency
-  similarity: 0.648
+  similarity: 0.701
 - slug: lock-contention
-  similarity: 0.629
+  similarity: 0.696
 - slug: interrupt-overhead
-  similarity: 0.592
-- slug: garbage-collection-pressure
-  similarity: 0.54
+  similarity: 0.643
+- slug: race-conditions
+  similarity: 0.584
 layout: problem
 ---
 

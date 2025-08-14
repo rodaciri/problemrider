@@ -7,12 +7,16 @@ category:
 - Team
 - Design
 related_problems:
-- slug: modernization-strategy-paralysis
-  similarity: 0.512
 - slug: inability-to-innovate
-  similarity: 0.512
+  similarity: 0.575
+- slug: blame-culture
+  similarity: 0.526
 - slug: reduced-innovation
-  similarity: 0.504
+  similarity: 0.522
+- slug: maintenance-paralysis
+  similarity: 0.521
+- slug: workaround-culture
+  similarity: 0.52
 layout: problem
 ---
 

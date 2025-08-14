@@ -8,15 +8,15 @@ category:
 - Bottlenecks
 related_problems:
 - slug: work-blocking
-  similarity: 0.713
-- slug: work-queue-buildup
-  similarity: 0.625
+  similarity: 0.745
 - slug: delayed-decision-making
-  similarity: 0.593
-- slug: inefficient-processes
-  similarity: 0.571
+  similarity: 0.721
 - slug: bottleneck-formation
-  similarity: 0.552
+  similarity: 0.66
+- slug: inefficient-processes
+  similarity: 0.656
+- slug: knowledge-dependency
+  similarity: 0.608
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Planning
 - Resource Management
 related_problems:
+- slug: inefficient-processes
+  similarity: 0.692
 - slug: implementation-rework
-  similarity: 0.68
+  similarity: 0.685
 - slug: incomplete-projects
-  similarity: 0.677
-- slug: frequent-changes-to-requirements
-  similarity: 0.66
+  similarity: 0.679
+- slug: poor-planning
+  similarity: 0.651
 - slug: development-disruption
-  similarity: 0.65
-- slug: scope-creep
-  similarity: 0.632
+  similarity: 0.644
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Quality
 - Deployment
 related_problems:
-- slug: large-risky-releases
-  similarity: 0.691
-- slug: high-defect-rate-in-production
-  similarity: 0.643
-- slug: long-release-cycles
-  similarity: 0.602
-- slug: immature-delivery-strategy
-  similarity: 0.591
 - slug: deployment-risk
-  similarity: 0.583
+  similarity: 0.703
+- slug: immature-delivery-strategy
+  similarity: 0.679
+- slug: review-process-avoidance
+  similarity: 0.658
+- slug: large-risky-releases
+  similarity: 0.652
+- slug: release-instability
+  similarity: 0.651
 layout: problem
 ---
 

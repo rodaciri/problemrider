@@ -8,15 +8,15 @@ category:
 - Memory
 related_problems:
 - slug: garbage-collection-pressure
-  similarity: 0.751
+  similarity: 0.749
 - slug: memory-fragmentation
-  similarity: 0.675
-- slug: circular-references
-  similarity: 0.642
+  similarity: 0.644
 - slug: memory-leaks
-  similarity: 0.598
-- slug: unreleased-resources
-  similarity: 0.577
+  similarity: 0.616
+- slug: circular-references
+  similarity: 0.604
+- slug: stack-overflow-errors
+  similarity: 0.594
 layout: problem
 ---
 

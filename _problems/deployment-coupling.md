@@ -6,16 +6,16 @@ category:
 - Architecture
 - Deployment
 related_problems:
-- slug: deployment-environment-inconsistencies
-  similarity: 0.615
-- slug: tight-coupling-issues
-  similarity: 0.598
-- slug: deployment-risk
-  similarity: 0.592
-- slug: complex-deployment-process
-  similarity: 0.574
 - slug: shared-dependencies
-  similarity: 0.565
+  similarity: 0.659
+- slug: tight-coupling-issues
+  similarity: 0.628
+- slug: deployment-environment-inconsistencies
+  similarity: 0.622
+- slug: complex-deployment-process
+  similarity: 0.602
+- slug: system-integration-blindness
+  similarity: 0.587
 layout: problem
 ---
 

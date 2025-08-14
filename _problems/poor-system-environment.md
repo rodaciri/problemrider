@@ -7,16 +7,16 @@ category:
 - Operations
 - Deployment
 related_problems:
-- slug: inadequate-error-handling
-  similarity: 0.644
-- slug: poor-operational-concept
-  similarity: 0.64
-- slug: configuration-chaos
-  similarity: 0.628
 - slug: deployment-environment-inconsistencies
-  similarity: 0.622
+  similarity: 0.684
+- slug: poor-operational-concept
+  similarity: 0.68
 - slug: quality-blind-spots
-  similarity: 0.621
+  similarity: 0.678
+- slug: inadequate-error-handling
+  similarity: 0.677
+- slug: testing-environment-fragility
+  similarity: 0.669
 layout: problem
 ---
 

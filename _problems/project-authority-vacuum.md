@@ -8,15 +8,15 @@ category:
 - Leadership
 related_problems:
 - slug: project-resource-constraints
-  similarity: 0.692
-- slug: poor-planning
-  similarity: 0.608
+  similarity: 0.722
+- slug: power-struggles
+  similarity: 0.645
 - slug: poor-project-control
-  similarity: 0.556
+  similarity: 0.633
+- slug: poor-planning
+  similarity: 0.618
 - slug: planning-dysfunction
-  similarity: 0.554
-- slug: unclear-goals-and-priorities
-  similarity: 0.524
+  similarity: 0.581
 layout: problem
 ---
 

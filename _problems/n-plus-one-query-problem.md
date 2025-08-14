@@ -7,16 +7,16 @@ category:
 - Performance
 - Database
 related_problems:
+- slug: lazy-loading
+  similarity: 0.685
 - slug: slow-response-times-for-lists
-  similarity: 0.734
+  similarity: 0.684
+- slug: imperative-data-fetching-logic
+  similarity: 0.641
 - slug: high-number-of-database-queries
-  similarity: 0.71
+  similarity: 0.621
 - slug: slow-database-queries
-  similarity: 0.65
-- slug: poor-caching-strategy
-  similarity: 0.617
-- slug: database-query-performance-issues
-  similarity: 0.611
+  similarity: 0.607
 layout: problem
 ---
 

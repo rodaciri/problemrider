@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: difficult-developer-onboarding
-  similarity: 0.626
+  similarity: 0.609
+- slug: high-turnover
+  similarity: 0.572
 - slug: bottleneck-formation
-  similarity: 0.558
+  similarity: 0.571
 - slug: slow-development-velocity
-  similarity: 0.544
-- slug: increased-cognitive-load
-  similarity: 0.521
-- slug: inconsistent-onboarding-experience
-  similarity: 0.519
+  similarity: 0.551
+- slug: time-pressure
+  similarity: 0.548
 layout: problem
 ---
 

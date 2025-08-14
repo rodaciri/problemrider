@@ -9,15 +9,15 @@ category:
 - Individual
 related_problems:
 - slug: reviewer-anxiety
-  similarity: 0.769
-- slug: inexperienced-developers
-  similarity: 0.758
-- slug: team-members-not-engaged-in-review-process
-  similarity: 0.682
+  similarity: 0.739
+- slug: inadequate-code-reviews
+  similarity: 0.721
 - slug: insufficient-code-review
-  similarity: 0.669
-- slug: reduced-review-participation
-  similarity: 0.663
+  similarity: 0.716
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.716
+- slug: superficial-code-reviews
+  similarity: 0.672
 layout: problem
 ---
 

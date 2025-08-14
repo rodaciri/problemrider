@@ -8,15 +8,15 @@ category:
 - Quality
 - Maintenance
 related_problems:
-- slug: system-outages
+- slug: slow-incident-resolution
   similarity: 0.611
-- slug: poor-system-environment
-  similarity: 0.562
-- slug: customer-dissatisfaction
-  similarity: 0.56
-- slug: service-timeouts
-  similarity: 0.54
-- slug: increased-error-rates
+- slug: system-outages
+  similarity: 0.574
+- slug: poor-operational-concept
+  similarity: 0.556
+- slug: quality-blind-spots
+  similarity: 0.551
+- slug: delayed-issue-resolution
   similarity: 0.54
 layout: problem
 ---

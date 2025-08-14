@@ -8,15 +8,15 @@ category:
 - Database
 related_problems:
 - slug: n-plus-one-query-problem
-  similarity: 0.734
-- slug: poor-caching-strategy
-  similarity: 0.662
-- slug: high-number-of-database-queries
-  similarity: 0.622
+  similarity: 0.684
 - slug: high-api-latency
-  similarity: 0.584
-- slug: slow-application-performance
-  similarity: 0.574
+  similarity: 0.591
+- slug: poor-caching-strategy
+  similarity: 0.575
+- slug: database-query-performance-issues
+  similarity: 0.55
+- slug: high-number-of-database-queries
+  similarity: 0.547
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Quality
 - Consistency
 related_problems:
-- slug: partial-bug-fixes
-  similarity: 0.661
 - slug: code-duplication
-  similarity: 0.637
-- slug: inconsistent-behavior
-  similarity: 0.557
+  similarity: 0.718
+- slug: partial-bug-fixes
+  similarity: 0.625
 - slug: cross-system-data-synchronization-problems
-  similarity: 0.555
-- slug: duplicated-effort
-  similarity: 0.515
+  similarity: 0.607
+- slug: inconsistent-behavior
+  similarity: 0.603
+- slug: configuration-chaos
+  similarity: 0.572
 layout: problem
 ---
 

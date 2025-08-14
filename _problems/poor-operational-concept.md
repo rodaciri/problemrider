@@ -7,16 +7,16 @@ category:
 - Operational
 - Planning
 related_problems:
-- slug: inadequate-requirements-gathering
-  similarity: 0.657
-- slug: poor-system-environment
-  similarity: 0.64
 - slug: immature-delivery-strategy
-  similarity: 0.603
+  similarity: 0.691
+- slug: poor-system-environment
+  similarity: 0.68
+- slug: inadequate-requirements-gathering
+  similarity: 0.666
+- slug: manual-deployment-processes
+  similarity: 0.637
 - slug: release-instability
-  similarity: 0.583
-- slug: planning-dysfunction
-  similarity: 0.574
+  similarity: 0.627
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: knowledge-sharing-breakdown
-  similarity: 0.6
-- slug: legacy-system-documentation-archaeology
-  similarity: 0.573
+  similarity: 0.646
 - slug: information-decay
-  similarity: 0.536
-- slug: implicit-knowledge
-  similarity: 0.524
-- slug: knowledge-gaps
-  similarity: 0.518
+  similarity: 0.616
+- slug: knowledge-silos
+  similarity: 0.615
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.602
+- slug: communication-breakdown
+  similarity: 0.594
 layout: problem
 ---
 

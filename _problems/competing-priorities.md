@@ -8,15 +8,15 @@ category:
 - Organizational
 related_problems:
 - slug: priority-thrashing
-  similarity: 0.658
-- slug: unclear-goals-and-priorities
-  similarity: 0.56
+  similarity: 0.714
+- slug: staff-availability-issues
+  similarity: 0.64
 - slug: power-struggles
-  similarity: 0.541
+  similarity: 0.607
 - slug: project-resource-constraints
-  similarity: 0.539
-- slug: duplicated-work
-  similarity: 0.535
+  similarity: 0.599
+- slug: unclear-goals-and-priorities
+  similarity: 0.598
 layout: problem
 ---
 

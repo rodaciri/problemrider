@@ -8,15 +8,15 @@ category:
 - User Experience
 related_problems:
 - slug: feature-gaps
-  similarity: 0.653
-- slug: quality-degradation
-  similarity: 0.61
-- slug: quality-compromises
-  similarity: 0.606
+  similarity: 0.677
 - slug: implementation-rework
-  similarity: 0.583
-- slug: wasted-development-effort
-  similarity: 0.58
+  similarity: 0.655
+- slug: lower-code-quality
+  similarity: 0.636
+- slug: quality-degradation
+  similarity: 0.63
+- slug: quality-compromises
+  similarity: 0.618
 layout: problem
 ---
 

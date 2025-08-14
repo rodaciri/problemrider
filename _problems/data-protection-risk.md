@@ -7,8 +7,16 @@ category:
 - Process
 - Legal
 related_problems:
+- slug: data-migration-integrity-issues
+  similarity: 0.579
+- slug: regulatory-compliance-drift
+  similarity: 0.57
+- slug: insufficient-audit-logging
+  similarity: 0.534
+- slug: authorization-flaws
+  similarity: 0.519
 - slug: silent-data-corruption
-  similarity: 0.504
+  similarity: 0.515
 layout: problem
 ---
 

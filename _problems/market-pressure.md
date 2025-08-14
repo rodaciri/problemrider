@@ -7,16 +7,16 @@ category:
 - External Factors
 - Strategy
 related_problems:
-- slug: increased-time-to-market
-  similarity: 0.544
 - slug: deadline-pressure
-  similarity: 0.534
-- slug: dependency-on-supplier
-  similarity: 0.532
+  similarity: 0.641
+- slug: time-pressure
+  similarity: 0.623
+- slug: increased-time-to-market
+  similarity: 0.575
+- slug: communication-risk-outside-project
+  similarity: 0.519
 - slug: product-direction-chaos
-  similarity: 0.53
-- slug: delayed-decision-making
-  similarity: 0.52
+  similarity: 0.514
 layout: problem
 ---
 

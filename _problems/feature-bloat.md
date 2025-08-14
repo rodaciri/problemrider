@@ -7,16 +7,16 @@ category:
 - Design
 - Strategy
 related_problems:
+- slug: feature-creep
+  similarity: 0.659
 - slug: feature-gaps
-  similarity: 0.615
+  similarity: 0.631
 - slug: large-feature-scope
-  similarity: 0.605
-- slug: slow-feature-development
-  similarity: 0.573
-- slug: complex-implementation-paths
-  similarity: 0.568
+  similarity: 0.601
 - slug: reduced-feature-quality
-  similarity: 0.548
+  similarity: 0.598
+- slug: competitive-disadvantage
+  similarity: 0.587
 layout: problem
 ---
 

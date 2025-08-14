@@ -8,15 +8,15 @@ category:
 - Resource Management
 related_problems:
 - slug: unreleased-resources
-  similarity: 0.853
+  similarity: 0.873
 - slug: database-connection-leaks
-  similarity: 0.725
-- slug: incorrect-max-connection-pool-size
-  similarity: 0.647
+  similarity: 0.722
 - slug: thread-pool-exhaustion
-  similarity: 0.642
-- slug: misconfigured-connection-pools
-  similarity: 0.597
+  similarity: 0.711
+- slug: memory-leaks
+  similarity: 0.615
+- slug: resource-contention
+  similarity: 0.613
 layout: problem
 ---
 

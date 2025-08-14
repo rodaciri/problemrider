@@ -7,16 +7,16 @@ category:
 - Quality
 - Communication
 related_problems:
-- slug: reviewer-inexperience
-  similarity: 0.758
-- slug: lower-code-quality
-  similarity: 0.691
-- slug: increased-cognitive-load
-  similarity: 0.685
-- slug: reviewer-anxiety
-  similarity: 0.672
 - slug: insufficient-design-skills
-  similarity: 0.668
+  similarity: 0.724
+- slug: knowledge-gaps
+  similarity: 0.716
+- slug: inability-to-innovate
+  similarity: 0.698
+- slug: difficult-developer-onboarding
+  similarity: 0.686
+- slug: team-churn-impact
+  similarity: 0.681
 layout: problem
 ---
 

@@ -9,15 +9,15 @@ category:
 - Maintenance
 related_problems:
 - slug: high-turnover
-  similarity: 0.672
-- slug: increased-cognitive-load
-  similarity: 0.656
-- slug: brittle-codebase
-  similarity: 0.634
+  similarity: 0.733
 - slug: inconsistent-onboarding-experience
-  similarity: 0.627
-- slug: rapid-team-growth
-  similarity: 0.626
+  similarity: 0.69
+- slug: inexperienced-developers
+  similarity: 0.686
+- slug: slow-development-velocity
+  similarity: 0.666
+- slug: inefficient-development-environment
+  similarity: 0.666
 layout: problem
 ---
 

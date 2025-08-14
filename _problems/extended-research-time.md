@@ -7,16 +7,16 @@ category:
 - Technical
 - Individual Performance
 related_problems:
-- slug: analysis-paralysis
-  similarity: 0.679
+- slug: inefficient-processes
+  similarity: 0.65
+- slug: increased-manual-work
+  similarity: 0.647
 - slug: difficult-developer-onboarding
-  similarity: 0.603
-- slug: knowledge-gaps
-  similarity: 0.601
-- slug: deadline-pressure
-  similarity: 0.598
-- slug: increased-cognitive-load
-  similarity: 0.596
+  similarity: 0.644
+- slug: reduced-individual-productivity
+  similarity: 0.643
+- slug: duplicated-research-effort
+  similarity: 0.634
 layout: problem
 ---
 

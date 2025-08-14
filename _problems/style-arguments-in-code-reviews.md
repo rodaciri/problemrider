@@ -7,15 +7,15 @@ category:
 - Code Quality
 related_problems:
 - slug: code-review-inefficiency
-  similarity: 0.716
-- slug: nitpicking-culture
-  similarity: 0.662
+  similarity: 0.735
 - slug: superficial-code-reviews
-  similarity: 0.661
+  similarity: 0.674
+- slug: nitpicking-culture
+  similarity: 0.672
 - slug: inadequate-code-reviews
+  similarity: 0.658
+- slug: review-process-breakdown
   similarity: 0.639
-- slug: defensive-coding-practices
-  similarity: 0.607
 layout: problem
 ---
 

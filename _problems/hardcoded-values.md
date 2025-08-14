@@ -7,8 +7,10 @@ category:
 - Maintenance
 - Design
 related_problems:
+- slug: legacy-configuration-management-chaos
+  similarity: 0.575
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.506
+  similarity: 0.535
 layout: problem
 ---
 

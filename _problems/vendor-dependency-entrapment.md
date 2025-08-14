@@ -7,16 +7,16 @@ category:
 - Risk Management
 - Technical
 related_problems:
+- slug: vendor-lock-in
+  similarity: 0.708
 - slug: dependency-on-supplier
-  similarity: 0.688
+  similarity: 0.697
 - slug: vendor-dependency
-  similarity: 0.626
+  similarity: 0.684
 - slug: legacy-skill-shortage
-  similarity: 0.612
-- slug: obsolete-technologies
-  similarity: 0.569
+  similarity: 0.578
 - slug: vendor-relationship-strain
-  similarity: 0.566
+  similarity: 0.574
 layout: problem
 ---
 

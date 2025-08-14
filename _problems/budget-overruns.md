@@ -9,15 +9,15 @@ category:
 - Process
 related_problems:
 - slug: poor-planning
-  similarity: 0.608
-- slug: project-resource-constraints
-  similarity: 0.562
-- slug: planning-dysfunction
-  similarity: 0.556
-- slug: high-maintenance-costs
-  similarity: 0.527
-- slug: project-authority-vacuum
-  similarity: 0.501
+  similarity: 0.656
+- slug: incomplete-projects
+  similarity: 0.626
+- slug: scope-creep
+  similarity: 0.597
+- slug: unrealistic-deadlines
+  similarity: 0.592
+- slug: increased-cost-of-development
+  similarity: 0.592
 layout: problem
 ---
 

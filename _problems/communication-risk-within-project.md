@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Process
 related_problems:
-- slug: team-confusion
-  similarity: 0.758
 - slug: communication-risk-outside-project
-  similarity: 0.728
-- slug: language-barriers
-  similarity: 0.688
+  similarity: 0.794
 - slug: communication-breakdown
-  similarity: 0.665
-- slug: requirements-ambiguity
-  similarity: 0.65
+  similarity: 0.752
+- slug: poor-communication
+  similarity: 0.742
+- slug: team-confusion
+  similarity: 0.725
+- slug: unclear-sharing-expectations
+  similarity: 0.71
 layout: problem
 ---
 

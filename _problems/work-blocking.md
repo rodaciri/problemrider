@@ -7,16 +7,16 @@ category:
 - Workflow
 - Management
 related_problems:
-- slug: approval-dependencies
-  similarity: 0.713
 - slug: delayed-decision-making
-  similarity: 0.679
+  similarity: 0.771
+- slug: approval-dependencies
+  similarity: 0.745
 - slug: bottleneck-formation
-  similarity: 0.651
+  similarity: 0.713
 - slug: work-queue-buildup
-  similarity: 0.616
-- slug: cascade-delays
-  similarity: 0.608
+  similarity: 0.69
+- slug: inefficient-processes
+  similarity: 0.663
 layout: problem
 ---
 

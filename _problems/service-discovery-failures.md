@@ -7,10 +7,14 @@ category:
 - Infrastructure
 - Networking
 related_problems:
-- slug: system-outages
-  similarity: 0.56
+- slug: microservice-communication-overhead
+  similarity: 0.616
 - slug: load-balancing-problems
   similarity: 0.547
+- slug: cascade-failures
+  similarity: 0.53
+- slug: system-outages
+  similarity: 0.529
 layout: problem
 ---
 

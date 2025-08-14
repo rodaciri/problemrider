@@ -7,16 +7,16 @@ category:
 - Design
 - Migration
 related_problems:
-- slug: system-stagnation
-  similarity: 0.557
-- slug: cross-system-data-synchronization-problems
-  similarity: 0.548
-- slug: technology-stack-fragmentation
-  similarity: 0.528
-- slug: poor-interfaces-between-applications
-  similarity: 0.522
 - slug: stagnant-architecture
-  similarity: 0.512
+  similarity: 0.605
+- slug: second-system-effect
+  similarity: 0.578
+- slug: system-stagnation
+  similarity: 0.575
+- slug: implementation-rework
+  similarity: 0.558
+- slug: modernization-strategy-paralysis
+  similarity: 0.541
 layout: problem
 ---
 

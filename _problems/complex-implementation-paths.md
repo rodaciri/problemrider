@@ -7,16 +7,16 @@ category:
 - Design
 - Process
 related_problems:
-- slug: inadequate-requirements-gathering
-  similarity: 0.626
 - slug: architectural-mismatch
-  similarity: 0.62
+  similarity: 0.684
 - slug: implementation-rework
-  similarity: 0.614
-- slug: large-feature-scope
-  similarity: 0.586
-- slug: requirements-ambiguity
-  similarity: 0.581
+  similarity: 0.672
+- slug: second-system-effect
+  similarity: 0.671
+- slug: accumulation-of-workarounds
+  similarity: 0.634
+- slug: inadequate-requirements-gathering
+  similarity: 0.624
 layout: problem
 ---
 

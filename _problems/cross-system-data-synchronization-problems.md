@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.735
-- slug: data-migration-complexities
-  similarity: 0.647
 - slug: poor-interfaces-between-applications
-  similarity: 0.636
-- slug: regulatory-compliance-drift
-  similarity: 0.557
+  similarity: 0.689
+- slug: data-migration-complexities
+  similarity: 0.655
 - slug: synchronization-problems
-  similarity: 0.555
+  similarity: 0.607
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.586
 layout: problem
 ---
 

@@ -6,16 +6,16 @@ category:
 - Performance
 - Stability
 related_problems:
-- slug: insufficient-worker-capacity
-  similarity: 0.934
 - slug: growing-task-queues
-  similarity: 0.855
-- slug: increased-error-rates
-  similarity: 0.628
+  similarity: 0.781
+- slug: insufficient-worker-capacity
+  similarity: 0.773
 - slug: work-queue-buildup
-  similarity: 0.622
-- slug: excessive-disk-io
-  similarity: 0.54
+  similarity: 0.651
+- slug: thread-pool-exhaustion
+  similarity: 0.561
+- slug: gradual-performance-degradation
+  similarity: 0.525
 layout: problem
 ---
 

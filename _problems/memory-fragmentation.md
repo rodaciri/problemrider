@@ -7,16 +7,16 @@ category:
 - Memory Management
 - Performance
 related_problems:
-- slug: excessive-object-allocation
-  similarity: 0.675
 - slug: garbage-collection-pressure
-  similarity: 0.659
+  similarity: 0.656
+- slug: excessive-object-allocation
+  similarity: 0.644
 - slug: unbounded-data-structures
-  similarity: 0.64
+  similarity: 0.641
+- slug: virtual-memory-thrashing
+  similarity: 0.567
 - slug: unbounded-data-growth
-  similarity: 0.57
-- slug: buffer-overflow-vulnerabilities
-  similarity: 0.549
+  similarity: 0.563
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Team Collaboration
 - Maintenance
 related_problems:
-- slug: inconsistent-naming-conventions
-  similarity: 0.733
 - slug: inconsistent-codebase
-  similarity: 0.679
-- slug: mixed-coding-styles
-  similarity: 0.669
+  similarity: 0.837
+- slug: inconsistent-naming-conventions
+  similarity: 0.739
 - slug: inconsistent-quality
-  similarity: 0.629
+  similarity: 0.673
 - slug: lower-code-quality
-  similarity: 0.599
+  similarity: 0.64
+- slug: undefined-code-style-guidelines
+  similarity: 0.625
 layout: problem
 ---
 

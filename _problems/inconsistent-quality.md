@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Process
 related_problems:
-- slug: quality-degradation
-  similarity: 0.673
+- slug: inconsistent-behavior
+  similarity: 0.674
 - slug: inconsistent-coding-standards
-  similarity: 0.629
-- slug: increasing-brittleness
-  similarity: 0.599
-- slug: inadequate-integration-tests
-  similarity: 0.584
+  similarity: 0.673
+- slug: quality-degradation
+  similarity: 0.667
 - slug: lower-code-quality
-  similarity: 0.58
+  similarity: 0.651
+- slug: inconsistent-execution
+  similarity: 0.643
 layout: problem
 ---
 

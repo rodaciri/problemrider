@@ -6,16 +6,16 @@ category:
 - Security
 - Technical
 related_problems:
-- slug: password-security-weaknesses
-  similarity: 0.621
 - slug: authorization-flaws
-  similarity: 0.569
+  similarity: 0.712
+- slug: password-security-weaknesses
+  similarity: 0.637
 - slug: log-injection-vulnerabilities
-  similarity: 0.523
+  similarity: 0.601
 - slug: session-management-issues
-  similarity: 0.506
-- slug: insufficient-audit-logging
-  similarity: 0.5
+  similarity: 0.56
+- slug: secret-management-problems
+  similarity: 0.55
 layout: problem
 ---
 

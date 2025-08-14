@@ -6,16 +6,16 @@ category:
 - Performance
 - Database
 related_problems:
-- slug: high-database-resource-utilization
-  similarity: 0.806
 - slug: slow-database-queries
-  similarity: 0.787
-- slug: poor-caching-strategy
-  similarity: 0.758
-- slug: n-plus-one-query-problem
-  similarity: 0.71
+  similarity: 0.731
 - slug: database-query-performance-issues
-  similarity: 0.69
+  similarity: 0.676
+- slug: high-connection-count
+  similarity: 0.66
+- slug: imperative-data-fetching-logic
+  similarity: 0.66
+- slug: high-database-resource-utilization
+  similarity: 0.656
 layout: problem
 ---
 

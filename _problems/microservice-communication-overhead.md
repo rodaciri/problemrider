@@ -7,16 +7,16 @@ category:
 - Performance
 - Architecture
 related_problems:
+- slug: service-discovery-failures
+  similarity: 0.616
 - slug: network-latency
-  similarity: 0.625
+  similarity: 0.585
+- slug: upstream-timeouts
+  similarity: 0.565
 - slug: high-api-latency
-  similarity: 0.6
-- slug: external-service-delays
-  similarity: 0.576
-- slug: load-balancing-problems
-  similarity: 0.558
+  similarity: 0.56
 - slug: serialization-deserialization-bottlenecks
-  similarity: 0.534
+  similarity: 0.553
 layout: problem
 ---
 

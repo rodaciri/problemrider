@@ -7,10 +7,16 @@ category:
 - Maintainability
 - Developer Experience
 related_problems:
-- slug: defensive-coding-practices
-  similarity: 0.576
 - slug: inconsistent-naming-conventions
-  similarity: 0.552
+  similarity: 0.685
+- slug: defensive-coding-practices
+  similarity: 0.596
+- slug: nitpicking-culture
+  similarity: 0.576
+- slug: inconsistent-coding-standards
+  similarity: 0.575
+- slug: difficult-to-understand-code
+  similarity: 0.568
 layout: problem
 ---
 

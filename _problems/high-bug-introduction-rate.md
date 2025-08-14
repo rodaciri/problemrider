@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: increased-bug-count
-  similarity: 0.723
-- slug: high-defect-rate-in-production
-  similarity: 0.703
+  similarity: 0.71
 - slug: increased-risk-of-bugs
-  similarity: 0.702
-- slug: delayed-bug-fixes
-  similarity: 0.631
+  similarity: 0.708
 - slug: increased-cost-of-development
+  similarity: 0.655
+- slug: lower-code-quality
   similarity: 0.626
+- slug: high-defect-rate-in-production
+  similarity: 0.62
 layout: problem
 ---
 

@@ -7,12 +7,14 @@ category:
 - Design
 - Quality
 related_problems:
-- slug: unpredictable-system-behavior
-  similarity: 0.653
-- slug: hidden-dependencies
-  similarity: 0.633
 - slug: global-state-and-side-effects
-  similarity: 0.623
+  similarity: 0.702
+- slug: hidden-dependencies
+  similarity: 0.679
+- slug: unpredictable-system-behavior
+  similarity: 0.632
+- slug: ripple-effect-of-changes
+  similarity: 0.523
 layout: problem
 ---
 

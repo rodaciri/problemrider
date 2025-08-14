@@ -8,16 +8,16 @@ category:
 - Maintenance
 - Process
 related_problems:
-- slug: refactoring-avoidance
-  similarity: 0.766
 - slug: invisible-nature-of-technical-debt
+  similarity: 0.769
+- slug: refactoring-avoidance
   similarity: 0.747
-- slug: increased-technical-shortcuts
-  similarity: 0.648
-- slug: high-maintenance-costs
-  similarity: 0.635
-- slug: slow-development-velocity
-  similarity: 0.605
+- slug: maintenance-overhead
+  similarity: 0.732
+- slug: maintenance-cost-increase
+  similarity: 0.7
+- slug: increased-cost-of-development
+  similarity: 0.699
 layout: problem
 ---
 

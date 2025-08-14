@@ -7,16 +7,16 @@ category:
 - Team
 - Management
 related_problems:
-- slug: extended-research-time
-  similarity: 0.679
 - slug: delayed-decision-making
-  similarity: 0.607
-- slug: deadline-pressure
-  similarity: 0.575
+  similarity: 0.624
+- slug: extended-research-time
+  similarity: 0.621
+- slug: decision-avoidance
+  similarity: 0.621
+- slug: modernization-strategy-paralysis
+  similarity: 0.614
 - slug: poor-planning
-  similarity: 0.563
-- slug: maintenance-paralysis
-  similarity: 0.561
+  similarity: 0.61
 layout: problem
 ---
 

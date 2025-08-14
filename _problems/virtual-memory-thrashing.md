@@ -7,16 +7,16 @@ category:
 - Performance
 - Memory Management
 related_problems:
-- slug: excessive-disk-io
-  similarity: 0.56
-- slug: memory-fragmentation
-  similarity: 0.542
-- slug: garbage-collection-pressure
-  similarity: 0.524
 - slug: memory-swapping
-  similarity: 0.523
-- slug: unoptimized-file-access
-  similarity: 0.51
+  similarity: 0.656
+- slug: excessive-disk-io
+  similarity: 0.582
+- slug: memory-fragmentation
+  similarity: 0.567
+- slug: unreleased-resources
+  similarity: 0.565
+- slug: gradual-performance-degradation
+  similarity: 0.559
 layout: problem
 ---
 

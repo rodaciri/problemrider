@@ -6,16 +6,16 @@ category:
 - Process
 - Quality
 related_problems:
-- slug: inadequate-test-infrastructure
-  similarity: 0.712
 - slug: insufficient-testing
-  similarity: 0.675
-- slug: testing-environment-fragility
-  similarity: 0.645
+  similarity: 0.688
 - slug: high-defect-rate-in-production
-  similarity: 0.631
-- slug: increased-manual-testing-effort
-  similarity: 0.62
+  similarity: 0.663
+- slug: inadequate-test-infrastructure
+  similarity: 0.629
+- slug: testing-environment-fragility
+  similarity: 0.607
+- slug: legacy-code-without-tests
+  similarity: 0.582
 layout: problem
 ---
 

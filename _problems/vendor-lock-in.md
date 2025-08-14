@@ -7,16 +7,16 @@ category:
 - Strategic
 - Risk Management
 related_problems:
-- slug: dependency-on-supplier
-  similarity: 0.612
 - slug: vendor-dependency-entrapment
-  similarity: 0.558
-- slug: technology-isolation
-  similarity: 0.553
-- slug: technology-lock-in
-  similarity: 0.543
+  similarity: 0.708
+- slug: dependency-on-supplier
+  similarity: 0.645
 - slug: vendor-dependency
-  similarity: 0.515
+  similarity: 0.626
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.6
+- slug: technology-lock-in
+  similarity: 0.582
 layout: problem
 ---
 

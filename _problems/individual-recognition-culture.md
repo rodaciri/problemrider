@@ -1,8 +1,15 @@
 ---
-title: "Individual Recognition Culture"
-description: "A culture where individual accomplishments are valued more than team accomplishments."
-category: ['Team', 'Process']
-related_problems: ['knowledge-silos', 'poor-communication', 'team-coordination-issues']
+title: Individual Recognition Culture
+description: A culture where individual accomplishments are valued more than team
+  accomplishments.
+category:
+- Team
+- Process
+related_problems:
+- slug: blame-culture
+  similarity: 0.514
+- slug: micromanagement-culture
+  similarity: 0.514
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Micromanagement Culture"
-description: "Management culture that requires approval for routine decisions, reducing team autonomy and creating unnecessary bottlenecks."
-category: ['Management', 'Culture', 'Process']
-related_problems: ['approval-dependencies', 'work-blocking', 'developer-frustration-and-burnout']
+title: Micromanagement Culture
+description: Management culture that requires approval for routine decisions, reducing
+  team autonomy and creating unnecessary bottlenecks.
+category:
+- Management
+- Culture
+- Process
+related_problems:
+- slug: blame-culture
+  similarity: 0.594
+- slug: delayed-decision-making
+  similarity: 0.532
+- slug: decision-avoidance
+  similarity: 0.524
+- slug: individual-recognition-culture
+  similarity: 0.514
+- slug: approval-dependencies
+  similarity: 0.511
 layout: problem
 ---
 

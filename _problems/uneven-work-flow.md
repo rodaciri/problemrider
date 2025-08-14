@@ -7,16 +7,16 @@ category:
 - Flow
 - Team Dynamics
 related_problems:
-- slug: uneven-workload-distribution
-  similarity: 0.744
 - slug: bottleneck-formation
-  similarity: 0.728
-- slug: missed-deadlines
-  similarity: 0.653
-- slug: capacity-mismatch
-  similarity: 0.646
+  similarity: 0.729
+- slug: uneven-workload-distribution
+  similarity: 0.702
 - slug: extended-cycle-times
-  similarity: 0.621
+  similarity: 0.681
+- slug: capacity-mismatch
+  similarity: 0.666
+- slug: unrealistic-schedule
+  similarity: 0.664
 layout: problem
 ---
 

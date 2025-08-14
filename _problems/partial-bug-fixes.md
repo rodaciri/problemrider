@@ -6,16 +6,16 @@ category:
 - Maintenance
 - Quality
 related_problems:
+- slug: code-duplication
+  similarity: 0.634
 - slug: synchronization-problems
-  similarity: 0.661
-- slug: duplicated-effort
-  similarity: 0.623
-- slug: delayed-bug-fixes
-  similarity: 0.614
+  similarity: 0.625
 - slug: regression-bugs
-  similarity: 0.599
-- slug: duplicated-work
-  similarity: 0.575
+  similarity: 0.607
+- slug: delayed-bug-fixes
+  similarity: 0.603
+- slug: merge-conflicts
+  similarity: 0.587
 layout: problem
 ---
 

@@ -7,14 +7,16 @@ category:
 - Process
 - Architecture
 related_problems:
-- slug: tool-limitations
-  similarity: 0.556
-- slug: legacy-code-without-tests
-  similarity: 0.523
 - slug: increased-technical-shortcuts
-  similarity: 0.516
+  similarity: 0.567
+- slug: legacy-code-without-tests
+  similarity: 0.544
+- slug: rapid-system-changes
+  similarity: 0.537
+- slug: tool-limitations
+  similarity: 0.521
 - slug: quality-blind-spots
-  similarity: 0.5
+  similarity: 0.515
 layout: problem
 ---
 

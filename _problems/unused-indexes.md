@@ -6,16 +6,16 @@ category:
 - Performance
 - Maintenance
 related_problems:
-- slug: index-fragmentation
-  similarity: 0.793
 - slug: inefficient-database-indexing
-  similarity: 0.715
+  similarity: 0.682
+- slug: index-fragmentation
+  similarity: 0.675
 - slug: queries-that-prevent-index-usage
-  similarity: 0.699
+  similarity: 0.675
 - slug: incorrect-index-type
-  similarity: 0.624
-- slug: memory-swapping
-  similarity: 0.605
+  similarity: 0.572
+- slug: unbounded-data-growth
+  similarity: 0.533
 layout: problem
 ---
 

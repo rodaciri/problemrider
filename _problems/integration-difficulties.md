@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: poor-interfaces-between-applications
-  similarity: 0.683
-- slug: stagnant-architecture
-  similarity: 0.582
-- slug: inadequate-integration-tests
-  similarity: 0.563
+  similarity: 0.733
 - slug: system-stagnation
-  similarity: 0.545
-- slug: technology-isolation
-  similarity: 0.53
+  similarity: 0.597
+- slug: stagnant-architecture
+  similarity: 0.589
+- slug: complex-implementation-paths
+  similarity: 0.573
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.569
 layout: problem
 ---
 

@@ -8,7 +8,9 @@ category:
 - Vendor Relations
 related_problems:
 - slug: vendor-relationship-strain
-  similarity: 0.61
+  similarity: 0.704
+- slug: poor-contract-design
+  similarity: 0.54
 layout: problem
 ---
 

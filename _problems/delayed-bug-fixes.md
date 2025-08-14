@@ -7,16 +7,16 @@ category:
 - Process
 - Maintenance
 related_problems:
-- slug: increased-bug-count
-  similarity: 0.696
 - slug: delayed-issue-resolution
-  similarity: 0.685
+  similarity: 0.744
+- slug: debugging-difficulties
+  similarity: 0.666
+- slug: increased-bug-count
+  similarity: 0.655
+- slug: workaround-culture
+  similarity: 0.654
 - slug: long-release-cycles
-  similarity: 0.682
-- slug: regression-bugs
-  similarity: 0.638
-- slug: high-bug-introduction-rate
-  similarity: 0.631
+  similarity: 0.645
 layout: problem
 ---
 

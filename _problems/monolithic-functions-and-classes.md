@@ -7,14 +7,16 @@ category:
 - Maintenance
 - Quality
 related_problems:
-- slug: poorly-defined-responsibilities
-  similarity: 0.553
-- slug: excessive-class-size
-  similarity: 0.551
 - slug: god-object-anti-pattern
-  similarity: 0.527
+  similarity: 0.673
+- slug: poorly-defined-responsibilities
+  similarity: 0.624
+- slug: excessive-class-size
+  similarity: 0.548
 - slug: difficult-to-understand-code
-  similarity: 0.515
+  similarity: 0.538
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.53
 layout: problem
 ---
 

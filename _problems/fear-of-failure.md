@@ -6,16 +6,16 @@ category:
 - Culture
 - Process
 related_problems:
-- slug: fear-of-change
-  similarity: 0.705
 - slug: history-of-failed-changes
-  similarity: 0.704
+  similarity: 0.752
 - slug: fear-of-breaking-changes
-  similarity: 0.651
+  similarity: 0.717
 - slug: blame-culture
-  similarity: 0.626
-- slug: inexperienced-developers
-  similarity: 0.624
+  similarity: 0.71
+- slug: release-anxiety
+  similarity: 0.689
+- slug: fear-of-change
+  similarity: 0.662
 layout: problem
 ---
 

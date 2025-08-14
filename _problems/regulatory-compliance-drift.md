@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 0.564
-- slug: cross-system-data-synchronization-problems
-  similarity: 0.557
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.552
-- slug: vendor-dependency-entrapment
-  similarity: 0.549
+  similarity: 0.58
 - slug: architectural-mismatch
-  similarity: 0.543
+  similarity: 0.577
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.572
+- slug: data-protection-risk
+  similarity: 0.57
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.561
 layout: problem
 ---
 

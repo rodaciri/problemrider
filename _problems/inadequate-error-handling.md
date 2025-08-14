@@ -8,15 +8,15 @@ category:
 - User Experience
 related_problems:
 - slug: poor-system-environment
-  similarity: 0.644
-- slug: stack-overflow-errors
-  similarity: 0.611
-- slug: error-message-information-disclosure
+  similarity: 0.677
+- slug: quality-blind-spots
+  similarity: 0.578
+- slug: poor-user-experience-ux-design
   similarity: 0.57
-- slug: memory-leaks
-  similarity: 0.566
-- slug: increasing-brittleness
+- slug: testing-environment-fragility
   similarity: 0.563
+- slug: error-message-information-disclosure
+  similarity: 0.557
 layout: problem
 ---
 

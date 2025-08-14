@@ -7,16 +7,16 @@ category:
 - Communication
 - Business Relations
 related_problems:
-- slug: dependency-on-supplier
-  similarity: 0.682
 - slug: vendor-dependency
-  similarity: 0.656
+  similarity: 0.731
 - slug: legal-disputes
-  similarity: 0.61
+  similarity: 0.704
+- slug: dependency-on-supplier
+  similarity: 0.69
 - slug: vendor-dependency-entrapment
-  similarity: 0.566
-- slug: poor-contract-design
-  similarity: 0.505
+  similarity: 0.574
+- slug: misaligned-deliverables
+  similarity: 0.534
 layout: problem
 ---
 

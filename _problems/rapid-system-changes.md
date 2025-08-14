@@ -7,16 +7,16 @@ category:
 - Change Management
 - Documentation
 related_problems:
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.609
+- slug: second-system-effect
+  similarity: 0.656
 - slug: unpredictable-system-behavior
-  similarity: 0.607
+  similarity: 0.645
 - slug: stagnant-architecture
-  similarity: 0.596
-- slug: increasing-brittleness
-  similarity: 0.595
-- slug: maintenance-overhead
-  similarity: 0.589
+  similarity: 0.643
+- slug: breaking-changes
+  similarity: 0.637
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.625
 layout: problem
 ---
 

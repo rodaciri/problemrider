@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: time-pressure
-  similarity: 0.791
+  similarity: 0.91
 - slug: unrealistic-deadlines
-  similarity: 0.712
-- slug: missed-deadlines
-  similarity: 0.677
-- slug: development-disruption
-  similarity: 0.673
+  similarity: 0.715
+- slug: unrealistic-schedule
+  similarity: 0.714
 - slug: delayed-decision-making
-  similarity: 0.667
+  similarity: 0.713
+- slug: missed-deadlines
+  similarity: 0.705
 layout: problem
 ---
 

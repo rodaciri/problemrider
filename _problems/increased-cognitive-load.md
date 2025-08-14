@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: cognitive-overload
-  similarity: 0.701
-- slug: inexperienced-developers
-  similarity: 0.685
-- slug: difficult-developer-onboarding
-  similarity: 0.656
+  similarity: 0.765
+- slug: mental-fatigue
+  similarity: 0.694
 - slug: code-review-inefficiency
-  similarity: 0.649
-- slug: reviewer-inexperience
-  similarity: 0.648
+  similarity: 0.685
+- slug: increased-manual-work
+  similarity: 0.681
+- slug: difficult-code-comprehension
+  similarity: 0.671
 layout: problem
 ---
 

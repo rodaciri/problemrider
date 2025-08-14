@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Quality
 related_problems:
-- slug: clever-code
-  similarity: 0.688
-- slug: complex-and-obscure-logic
-  similarity: 0.669
 - slug: difficult-code-comprehension
-  similarity: 0.647
-- slug: reviewer-inexperience
-  similarity: 0.643
+  similarity: 0.706
+- slug: increased-cognitive-load
+  similarity: 0.668
+- slug: complex-and-obscure-logic
+  similarity: 0.658
+- slug: insufficient-code-review
+  similarity: 0.651
 - slug: inexperienced-developers
-  similarity: 0.637
+  similarity: 0.64
 layout: problem
 ---
 

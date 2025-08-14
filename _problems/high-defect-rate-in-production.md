@@ -6,16 +6,16 @@ category:
 - Quality
 - Business
 related_problems:
-- slug: increased-bug-count
-  similarity: 0.788
 - slug: insufficient-testing
-  similarity: 0.77
-- slug: high-bug-introduction-rate
-  similarity: 0.703
-- slug: increased-cost-of-development
-  similarity: 0.699
-- slug: increased-risk-of-bugs
-  similarity: 0.679
+  similarity: 0.894
+- slug: quality-blind-spots
+  similarity: 0.73
+- slug: increased-manual-testing-effort
+  similarity: 0.727
+- slug: increased-bug-count
+  similarity: 0.709
+- slug: release-instability
+  similarity: 0.691
 layout: problem
 ---
 

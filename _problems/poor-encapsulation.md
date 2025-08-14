@@ -1,8 +1,18 @@
 ---
-title: "Poor Encapsulation"
-description: "Data and the behavior that acts on that data are not bundled together in a single, cohesive unit, leading to a lack of data hiding and a high degree of coupling."
-category: ['Design', 'Quality']
-related_problems: ['procedural-programming-in-oop-languages', 'high-coupling-low-cohesion', 'global-state-and-side-effects']
+title: Poor Encapsulation
+description: Data and the behavior that acts on that data are not bundled together
+  in a single, cohesive unit, leading to a lack of data hiding and a high degree of
+  coupling.
+category:
+- Design
+- Quality
+related_problems:
+- slug: misunderstanding-of-oop
+  similarity: 0.546
+- slug: over-reliance-on-utility-classes
+  similarity: 0.533
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.511
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: vendor-dependency
-  similarity: 0.854
+  similarity: 0.879
 - slug: vendor-dependency-entrapment
-  similarity: 0.688
+  similarity: 0.697
 - slug: vendor-relationship-strain
-  similarity: 0.682
+  similarity: 0.69
 - slug: vendor-lock-in
-  similarity: 0.612
-- slug: market-pressure
-  similarity: 0.532
+  similarity: 0.645
+- slug: tight-coupling-issues
+  similarity: 0.522
 layout: problem
 ---
 

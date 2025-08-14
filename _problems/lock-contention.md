@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: memory-barrier-inefficiency
-  similarity: 0.72
-- slug: false-sharing
-  similarity: 0.643
+  similarity: 0.721
 - slug: atomic-operation-overhead
-  similarity: 0.629
+  similarity: 0.696
 - slug: deadlock-conditions
+  similarity: 0.639
+- slug: false-sharing
   similarity: 0.617
-- slug: interrupt-overhead
-  similarity: 0.594
+- slug: race-conditions
+  similarity: 0.567
 layout: problem
 ---
 

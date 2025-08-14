@@ -7,16 +7,16 @@ category:
 - Business
 - Financial
 related_problems:
-- slug: invisible-nature-of-technical-debt
-  similarity: 0.646
 - slug: modernization-strategy-paralysis
-  similarity: 0.599
-- slug: difficulty-quantifying-benefits
-  similarity: 0.554
-- slug: legacy-skill-shortage
-  similarity: 0.552
+  similarity: 0.694
 - slug: high-maintenance-costs
-  similarity: 0.54
+  similarity: 0.662
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.622
+- slug: difficulty-quantifying-benefits
+  similarity: 0.617
+- slug: declining-business-metrics
+  similarity: 0.572
 layout: problem
 ---
 

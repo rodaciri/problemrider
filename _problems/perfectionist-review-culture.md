@@ -7,16 +7,16 @@ category:
 - Process
 - Team Dynamics
 related_problems:
-- slug: nitpicking-culture
-  similarity: 0.672
 - slug: perfectionist-culture
-  similarity: 0.653
+  similarity: 0.703
+- slug: inadequate-code-reviews
+  similarity: 0.689
 - slug: review-process-breakdown
-  similarity: 0.639
-- slug: insufficient-code-review
-  similarity: 0.629
+  similarity: 0.675
 - slug: inadequate-initial-reviews
-  similarity: 0.623
+  similarity: 0.663
+- slug: nitpicking-culture
+  similarity: 0.655
 layout: problem
 ---
 

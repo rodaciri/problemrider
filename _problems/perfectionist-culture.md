@@ -7,15 +7,15 @@ category:
 - Culture
 related_problems:
 - slug: perfectionist-review-culture
-  similarity: 0.653
-- slug: fear-of-failure
-  similarity: 0.603
+  similarity: 0.703
 - slug: history-of-failed-changes
-  similarity: 0.594
-- slug: insufficient-design-skills
-  similarity: 0.56
-- slug: release-anxiety
-  similarity: 0.558
+  similarity: 0.616
+- slug: fear-of-failure
+  similarity: 0.607
+- slug: release-instability
+  similarity: 0.599
+- slug: reduced-feature-quality
+  similarity: 0.591
 layout: problem
 ---
 

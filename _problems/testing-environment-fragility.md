@@ -8,15 +8,15 @@ category:
 - Operations
 related_problems:
 - slug: inadequate-test-infrastructure
-  similarity: 0.771
+  similarity: 0.79
 - slug: quality-blind-spots
-  similarity: 0.682
+  similarity: 0.75
 - slug: flaky-tests
-  similarity: 0.671
-- slug: insufficient-testing
-  similarity: 0.665
+  similarity: 0.718
 - slug: increased-manual-testing-effort
-  similarity: 0.657
+  similarity: 0.712
+- slug: difficult-to-test-code
+  similarity: 0.683
 layout: problem
 ---
 

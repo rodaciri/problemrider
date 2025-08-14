@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 0.805
+  similarity: 0.863
 - slug: breaking-changes
-  similarity: 0.659
-- slug: rapid-system-changes
-  similarity: 0.609
-- slug: information-decay
-  similarity: 0.594
+  similarity: 0.702
 - slug: poor-interfaces-between-applications
-  similarity: 0.587
+  similarity: 0.66
+- slug: rapid-system-changes
+  similarity: 0.625
+- slug: dependency-version-conflicts
+  similarity: 0.608
 layout: problem
 ---
 

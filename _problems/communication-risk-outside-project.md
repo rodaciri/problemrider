@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: communication-risk-within-project
-  similarity: 0.728
+  similarity: 0.794
 - slug: stakeholder-confidence-loss
-  similarity: 0.653
+  similarity: 0.693
+- slug: planning-credibility-issues
+  similarity: 0.641
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.65
-- slug: stakeholder-frustration
-  similarity: 0.599
+  similarity: 0.638
 - slug: stakeholder-dissatisfaction
-  similarity: 0.598
+  similarity: 0.619
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Performance
 related_problems:
-- slug: uneven-work-flow
-  similarity: 0.728
 - slug: work-queue-buildup
-  similarity: 0.691
+  similarity: 0.769
+- slug: uneven-work-flow
+  similarity: 0.729
 - slug: capacity-mismatch
-  similarity: 0.68
+  similarity: 0.714
 - slug: work-blocking
-  similarity: 0.651
-- slug: reduced-team-productivity
-  similarity: 0.647
+  similarity: 0.713
+- slug: inefficient-processes
+  similarity: 0.694
 layout: problem
 ---
 

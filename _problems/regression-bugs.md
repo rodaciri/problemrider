@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: increased-bug-count
-  similarity: 0.684
+  similarity: 0.707
 - slug: unpredictable-system-behavior
-  similarity: 0.652
+  similarity: 0.66
+- slug: release-instability
+  similarity: 0.639
 - slug: delayed-bug-fixes
-  similarity: 0.638
-- slug: increasing-brittleness
-  similarity: 0.62
-- slug: history-of-failed-changes
-  similarity: 0.605
+  similarity: 0.626
+- slug: increased-risk-of-bugs
+  similarity: 0.624
 layout: problem
 ---
 

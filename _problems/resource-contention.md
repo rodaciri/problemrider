@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: memory-swapping
-  similarity: 0.838
+  similarity: 0.772
 - slug: high-database-resource-utilization
-  similarity: 0.801
-- slug: slow-application-performance
   similarity: 0.733
 - slug: excessive-disk-io
-  similarity: 0.714
-- slug: poor-caching-strategy
-  similarity: 0.705
+  similarity: 0.713
+- slug: slow-application-performance
+  similarity: 0.679
+- slug: slow-database-queries
+  similarity: 0.651
 layout: problem
 ---
 

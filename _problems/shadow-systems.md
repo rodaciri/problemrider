@@ -7,10 +7,16 @@ category:
 - Governance
 - Risk Management
 related_problems:
-- slug: inconsistent-behavior
-  similarity: 0.505
-- slug: change-management-chaos
-  similarity: 0.504
+- slug: workaround-culture
+  similarity: 0.573
+- slug: manual-deployment-processes
+  similarity: 0.519
+- slug: inadequate-configuration-management
+  similarity: 0.515
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.512
+- slug: knowledge-gaps
+  similarity: 0.511
 layout: problem
 ---
 

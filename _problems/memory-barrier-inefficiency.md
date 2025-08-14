@@ -8,15 +8,15 @@ category:
 - Concurrency
 related_problems:
 - slug: lock-contention
-  similarity: 0.72
+  similarity: 0.721
 - slug: atomic-operation-overhead
-  similarity: 0.648
+  similarity: 0.701
 - slug: false-sharing
-  similarity: 0.62
+  similarity: 0.627
 - slug: race-conditions
-  similarity: 0.541
-- slug: garbage-collection-pressure
-  similarity: 0.535
+  similarity: 0.546
+- slug: deadlock-conditions
+  similarity: 0.533
 layout: problem
 ---
 

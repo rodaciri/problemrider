@@ -8,15 +8,15 @@ category:
 - Configuration
 related_problems:
 - slug: configuration-drift
-  similarity: 0.731
+  similarity: 0.736
 - slug: configuration-chaos
-  similarity: 0.698
+  similarity: 0.723
 - slug: inadequate-configuration-management
-  similarity: 0.68
+  similarity: 0.693
+- slug: poor-system-environment
+  similarity: 0.684
 - slug: environment-variable-issues
-  similarity: 0.653
-- slug: inadequate-integration-tests
-  similarity: 0.626
+  similarity: 0.677
 layout: problem
 ---
 

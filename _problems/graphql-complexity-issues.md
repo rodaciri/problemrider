@@ -8,13 +8,15 @@ category:
 - Security
 related_problems:
 - slug: database-query-performance-issues
-  similarity: 0.608
-- slug: high-number-of-database-queries
-  similarity: 0.555
-- slug: high-database-resource-utilization
-  similarity: 0.547
+  similarity: 0.617
+- slug: n-plus-one-query-problem
+  similarity: 0.518
+- slug: imperative-data-fetching-logic
+  similarity: 0.516
 - slug: slow-database-queries
   similarity: 0.515
+- slug: high-number-of-database-queries
+  similarity: 0.5
 layout: problem
 ---
 

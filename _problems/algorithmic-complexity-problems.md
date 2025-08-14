@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: data-structure-cache-inefficiency
-  similarity: 0.656
+  similarity: 0.699
 - slug: unbounded-data-structures
-  similarity: 0.648
-- slug: inefficient-code
-  similarity: 0.565
+  similarity: 0.673
+- slug: unbounded-data-growth
+  similarity: 0.617
 - slug: alignment-and-padding-issues
-  similarity: 0.561
-- slug: imperative-data-fetching-logic
-  similarity: 0.558
+  similarity: 0.586
+- slug: inefficient-code
+  similarity: 0.574
 layout: problem
 ---
 

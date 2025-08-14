@@ -9,15 +9,15 @@ category:
 - Design
 related_problems:
 - slug: high-number-of-database-queries
-  similarity: 0.649
-- slug: database-query-performance-issues
-  similarity: 0.612
-- slug: slow-database-queries
-  similarity: 0.605
+  similarity: 0.66
 - slug: n-plus-one-query-problem
-  similarity: 0.582
-- slug: algorithmic-complexity-problems
-  similarity: 0.558
+  similarity: 0.641
+- slug: database-query-performance-issues
+  similarity: 0.639
+- slug: lazy-loading
+  similarity: 0.632
+- slug: slow-database-queries
+  similarity: 0.632
 layout: problem
 ---
 

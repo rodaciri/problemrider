@@ -8,15 +8,15 @@ category:
 - Cultural
 related_problems:
 - slug: communication-risk-within-project
-  similarity: 0.688
-- slug: communication-breakdown
-  similarity: 0.616
+  similarity: 0.674
 - slug: poor-communication
-  similarity: 0.608
-- slug: team-confusion
-  similarity: 0.593
-- slug: poor-teamwork
-  similarity: 0.557
+  similarity: 0.664
+- slug: communication-breakdown
+  similarity: 0.647
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.594
+- slug: skill-development-gaps
+  similarity: 0.586
 layout: problem
 ---
 

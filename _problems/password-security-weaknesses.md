@@ -8,9 +8,11 @@ category:
 - Credential Management
 related_problems:
 - slug: authentication-bypass-vulnerabilities
-  similarity: 0.621
+  similarity: 0.637
 - slug: secret-management-problems
-  similarity: 0.569
+  similarity: 0.596
+- slug: session-management-issues
+  similarity: 0.564
 layout: problem
 ---
 

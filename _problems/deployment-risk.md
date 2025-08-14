@@ -8,15 +8,15 @@ category:
 - Operations
 related_problems:
 - slug: missing-rollback-strategy
-  similarity: 0.715
-- slug: release-anxiety
-  similarity: 0.704
+  similarity: 0.734
 - slug: large-risky-releases
-  similarity: 0.68
+  similarity: 0.713
 - slug: manual-deployment-processes
-  similarity: 0.624
-- slug: history-of-failed-changes
-  similarity: 0.593
+  similarity: 0.712
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 0.703
+- slug: immature-delivery-strategy
+  similarity: 0.689
 layout: problem
 ---
 

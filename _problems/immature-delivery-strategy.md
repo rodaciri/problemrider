@@ -7,16 +7,16 @@ category:
 - Operations
 - Deployment
 related_problems:
-- slug: large-risky-releases
-  similarity: 0.704
 - slug: manual-deployment-processes
-  similarity: 0.653
+  similarity: 0.731
 - slug: poor-operational-concept
-  similarity: 0.603
+  similarity: 0.691
+- slug: deployment-risk
+  similarity: 0.689
 - slug: complex-deployment-process
-  similarity: 0.602
-- slug: release-anxiety
-  similarity: 0.595
+  similarity: 0.68
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 0.679
 layout: problem
 ---
 

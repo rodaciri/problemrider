@@ -8,16 +8,16 @@ category:
 - Technical Debt
 - Performance
 related_problems:
-- slug: stagnant-architecture
-  similarity: 0.64
 - slug: architectural-mismatch
-  similarity: 0.639
+  similarity: 0.656
+- slug: stagnant-architecture
+  similarity: 0.635
 - slug: system-stagnation
-  similarity: 0.579
+  similarity: 0.612
 - slug: second-system-effect
-  similarity: 0.562
-- slug: rapid-system-changes
-  similarity: 0.531
+  similarity: 0.605
+- slug: complex-implementation-paths
+  similarity: 0.587
 layout: problem
 ---
 

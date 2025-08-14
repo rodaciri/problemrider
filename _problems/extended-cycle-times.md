@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: work-queue-buildup
-  similarity: 0.626
+  similarity: 0.693
 - slug: uneven-work-flow
-  similarity: 0.621
+  similarity: 0.681
+- slug: work-blocking
+  similarity: 0.661
+- slug: overworked-teams
+  similarity: 0.618
 - slug: reduced-individual-productivity
-  similarity: 0.533
-- slug: unrealistic-schedule
-  similarity: 0.524
-- slug: bottleneck-formation
-  similarity: 0.52
+  similarity: 0.615
 layout: problem
 ---
 

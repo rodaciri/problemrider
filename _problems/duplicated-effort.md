@@ -8,15 +8,15 @@ category:
 - Communication
 related_problems:
 - slug: duplicated-work
-  similarity: 0.894
+  similarity: 0.891
 - slug: duplicated-research-effort
-  similarity: 0.799
+  similarity: 0.842
 - slug: team-coordination-issues
-  similarity: 0.713
-- slug: partial-bug-fixes
-  similarity: 0.623
-- slug: merge-conflicts
-  similarity: 0.604
+  similarity: 0.732
+- slug: poor-communication
+  similarity: 0.645
+- slug: communication-breakdown
+  similarity: 0.64
 layout: problem
 ---
 

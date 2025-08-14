@@ -5,16 +5,16 @@ description: The system performs a high number of disk read/write operations, in
 category:
 - Performance
 related_problems:
-- slug: unoptimized-file-access
-  similarity: 0.734
 - slug: resource-contention
-  similarity: 0.714
+  similarity: 0.713
+- slug: unoptimized-file-access
+  similarity: 0.674
 - slug: high-database-resource-utilization
-  similarity: 0.597
+  similarity: 0.625
+- slug: gradual-performance-degradation
+  similarity: 0.607
 - slug: memory-swapping
-  similarity: 0.592
-- slug: interrupt-overhead
-  similarity: 0.587
+  similarity: 0.605
 layout: problem
 ---
 

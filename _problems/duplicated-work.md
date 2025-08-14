@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: duplicated-effort
-  similarity: 0.894
+  similarity: 0.891
 - slug: duplicated-research-effort
-  similarity: 0.733
+  similarity: 0.764
 - slug: team-coordination-issues
-  similarity: 0.644
-- slug: partial-bug-fixes
-  similarity: 0.575
+  similarity: 0.713
 - slug: merge-conflicts
-  similarity: 0.574
+  similarity: 0.658
+- slug: team-confusion
+  similarity: 0.618
 layout: problem
 ---
 

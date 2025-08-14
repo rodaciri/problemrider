@@ -7,15 +7,15 @@ category:
 - Quality
 - Process
 related_problems:
-- slug: undefined-code-style-guidelines
-  similarity: 0.827
-- slug: mixed-coding-styles
-  similarity: 0.793
 - slug: inconsistent-coding-standards
-  similarity: 0.679
+  similarity: 0.837
+- slug: undefined-code-style-guidelines
+  similarity: 0.804
 - slug: inconsistent-naming-conventions
-  similarity: 0.674
-- slug: difficult-code-comprehension
+  similarity: 0.739
+- slug: mixed-coding-styles
+  similarity: 0.647
+- slug: inconsistent-quality
   similarity: 0.631
 layout: problem
 ---

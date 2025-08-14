@@ -8,15 +8,15 @@ category:
 - Culture
 related_problems:
 - slug: team-dysfunction
-  similarity: 0.87
-- slug: communication-breakdown
-  similarity: 0.722
+  similarity: 0.881
 - slug: poor-communication
-  similarity: 0.666
+  similarity: 0.728
+- slug: communication-breakdown
+  similarity: 0.703
+- slug: team-demoralization
+  similarity: 0.669
 - slug: inappropriate-skillset
-  similarity: 0.634
-- slug: skill-development-gaps
-  similarity: 0.629
+  similarity: 0.667
 layout: problem
 ---
 

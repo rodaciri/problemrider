@@ -7,16 +7,16 @@ category:
 - Development Experience
 - Quality
 related_problems:
-- slug: increasing-brittleness
-  similarity: 0.647
 - slug: tool-limitations
-  similarity: 0.641
-- slug: increased-cost-of-development
-  similarity: 0.638
-- slug: high-defect-rate-in-production
-  similarity: 0.635
-- slug: large-estimates-for-small-changes
-  similarity: 0.622
+  similarity: 0.719
+- slug: inefficient-development-environment
+  similarity: 0.686
+- slug: lower-code-quality
+  similarity: 0.679
+- slug: increased-risk-of-bugs
+  similarity: 0.677
+- slug: delayed-bug-fixes
+  similarity: 0.666
 layout: problem
 ---
 

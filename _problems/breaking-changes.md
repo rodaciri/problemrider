@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 0.707
+  similarity: 0.773
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.659
+  similarity: 0.702
 - slug: rapid-system-changes
-  similarity: 0.583
-- slug: regression-bugs
-  similarity: 0.572
+  similarity: 0.637
 - slug: unpredictable-system-behavior
-  similarity: 0.547
+  similarity: 0.621
+- slug: increasing-brittleness
+  similarity: 0.584
 layout: problem
 ---
 

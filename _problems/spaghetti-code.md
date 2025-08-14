@@ -7,12 +7,16 @@ category:
 - Maintainability
 - Architecture
 related_problems:
-- slug: global-state-and-side-effects
-  similarity: 0.572
-- slug: clever-code
-  similarity: 0.556
 - slug: procedural-programming-in-oop-languages
-  similarity: 0.543
+  similarity: 0.628
+- slug: clever-code
+  similarity: 0.604
+- slug: global-state-and-side-effects
+  similarity: 0.601
+- slug: difficult-to-understand-code
+  similarity: 0.578
+- slug: tangled-cross-cutting-concerns
+  similarity: 0.559
 layout: problem
 ---
 

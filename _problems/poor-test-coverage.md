@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: quality-blind-spots
-  similarity: 0.725
+  similarity: 0.712
 - slug: insufficient-testing
-  similarity: 0.674
+  similarity: 0.665
 - slug: high-defect-rate-in-production
-  similarity: 0.653
+  similarity: 0.661
+- slug: testing-environment-fragility
+  similarity: 0.62
 - slug: inadequate-test-infrastructure
-  similarity: 0.611
-- slug: inadequate-test-data-management
-  similarity: 0.605
+  similarity: 0.613
 layout: problem
 ---
 

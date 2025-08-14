@@ -8,9 +8,15 @@ category:
 - Process
 related_problems:
 - slug: delayed-issue-resolution
-  similarity: 0.554
+  similarity: 0.664
 - slug: monitoring-gaps
-  similarity: 0.5
+  similarity: 0.611
+- slug: debugging-difficulties
+  similarity: 0.556
+- slug: system-outages
+  similarity: 0.537
+- slug: communication-breakdown
+  similarity: 0.533
 layout: problem
 ---
 

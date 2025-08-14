@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: bottleneck-formation
-  similarity: 0.691
-- slug: growing-task-queues
-  similarity: 0.671
+  similarity: 0.769
 - slug: extended-cycle-times
-  similarity: 0.626
-- slug: approval-dependencies
-  similarity: 0.625
-- slug: task-queues-backing-up
-  similarity: 0.622
+  similarity: 0.693
+- slug: work-blocking
+  similarity: 0.69
+- slug: capacity-mismatch
+  similarity: 0.681
+- slug: growing-task-queues
+  similarity: 0.656
 layout: problem
 ---
 

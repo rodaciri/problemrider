@@ -7,12 +7,16 @@ category:
 - Risk Management
 - Project Management
 related_problems:
-- slug: inadequate-requirements-gathering
-  similarity: 0.522
 - slug: poor-planning
-  similarity: 0.507
+  similarity: 0.547
+- slug: legal-disputes
+  similarity: 0.54
+- slug: insufficient-design-skills
+  similarity: 0.534
+- slug: inadequate-requirements-gathering
+  similarity: 0.509
 - slug: vendor-relationship-strain
-  similarity: 0.505
+  similarity: 0.506
 layout: problem
 ---
 

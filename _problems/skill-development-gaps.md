@@ -7,16 +7,16 @@ category:
 - Team Development
 - Learning
 related_problems:
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.733
-- slug: tacit-knowledge
-  similarity: 0.692
 - slug: inappropriate-skillset
-  similarity: 0.65
-- slug: slow-knowledge-transfer
-  similarity: 0.647
+  similarity: 0.739
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.73
+- slug: knowledge-gaps
+  similarity: 0.686
+- slug: inexperienced-developers
+  similarity: 0.672
 - slug: knowledge-dependency
-  similarity: 0.638
+  similarity: 0.663
 layout: problem
 ---
 

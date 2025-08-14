@@ -8,15 +8,15 @@ category:
 - Management
 related_problems:
 - slug: stakeholder-dissatisfaction
-  similarity: 0.908
+  similarity: 0.876
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.71
+  similarity: 0.737
 - slug: stakeholder-confidence-loss
-  similarity: 0.695
-- slug: communication-risk-outside-project
-  similarity: 0.599
+  similarity: 0.732
+- slug: unclear-goals-and-priorities
+  similarity: 0.618
 - slug: eager-to-please-stakeholders
-  similarity: 0.587
+  similarity: 0.61
 layout: problem
 ---
 

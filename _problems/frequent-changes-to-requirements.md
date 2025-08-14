@@ -6,16 +6,16 @@ category:
 - Process
 - Communication
 related_problems:
-- slug: constantly-shifting-deadlines
-  similarity: 0.798
-- slug: no-formal-change-control-process
-  similarity: 0.786
 - slug: changing-project-scope
-  similarity: 0.741
+  similarity: 0.775
+- slug: no-formal-change-control-process
+  similarity: 0.762
+- slug: constantly-shifting-deadlines
+  similarity: 0.761
 - slug: scope-creep
-  similarity: 0.716
-- slug: wasted-development-effort
-  similarity: 0.66
+  similarity: 0.697
+- slug: large-estimates-for-small-changes
+  similarity: 0.663
 layout: problem
 ---
 

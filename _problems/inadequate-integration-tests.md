@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: system-integration-blindness
-  similarity: 0.739
-- slug: poor-interfaces-between-applications
-  similarity: 0.678
+  similarity: 0.781
 - slug: quality-blind-spots
-  similarity: 0.67
+  similarity: 0.723
 - slug: missing-end-to-end-tests
-  similarity: 0.647
-- slug: tight-coupling-issues
-  similarity: 0.646
+  similarity: 0.711
+- slug: poor-interfaces-between-applications
+  similarity: 0.673
+- slug: inadequate-test-infrastructure
+  similarity: 0.671
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Integration Tests"
-description: "The interactions between different modules or services are not thoroughly tested, leading to integration failures."
-category: ['Testing', 'Quality', 'Architecture']
-related_problems: ['insufficient-testing', 'high-coupling-low-cohesion', 'cascade-failures']
+title: Inadequate Integration Tests
+description: The interactions between different modules or services are not thoroughly
+  tested, leading to integration failures.
+category:
+- Testing
+- Quality
+- Architecture
+related_problems:
+- slug: system-integration-blindness
+  similarity: 0.739
+- slug: poor-interfaces-between-applications
+  similarity: 0.678
+- slug: quality-blind-spots
+  similarity: 0.67
+- slug: missing-end-to-end-tests
+  similarity: 0.647
+- slug: tight-coupling-issues
+  similarity: 0.646
 layout: problem
 ---
 

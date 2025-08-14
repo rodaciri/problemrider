@@ -1,8 +1,22 @@
 ---
-title: "Large Pull Requests"
-description: "Pull requests are too large to review effectively, leading to superficial reviews and missed issues."
-category: ['Process', 'Quality', 'Communication']
-related_problems: ['superficial-code-reviews', 'inadequate-code-reviews', 'increased-risk-of-bugs']
+title: Large Pull Requests
+description: Pull requests are too large to review effectively, leading to superficial
+  reviews and missed issues.
+category:
+- Process
+- Quality
+- Communication
+related_problems:
+- slug: review-bottlenecks
+  similarity: 0.775
+- slug: rushed-approvals
+  similarity: 0.77
+- slug: reduced-code-submission-frequency
+  similarity: 0.652
+- slug: insufficient-code-review
+  similarity: 0.601
+- slug: review-process-breakdown
+  similarity: 0.588
 layout: problem
 ---
 

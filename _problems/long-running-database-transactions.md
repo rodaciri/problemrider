@@ -1,8 +1,21 @@
 ---
-title: "Long-Running Database Transactions"
-description: "Database transactions remain open for extended periods, holding locks and consuming resources, which can block other operations."
-category: ['Performance', 'Stability']
-related_problems: ['long-running-transactions']
+title: Long-Running Database Transactions
+description: Database transactions remain open for extended periods, holding locks
+  and consuming resources, which can block other operations.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: long-running-transactions
+  similarity: 0.987
+- slug: high-database-resource-utilization
+  similarity: 0.702
+- slug: high-connection-count
+  similarity: 0.67
+- slug: deadlock-conditions
+  similarity: 0.658
+- slug: slow-database-queries
+  similarity: 0.642
 layout: problem
 ---
 

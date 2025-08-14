@@ -1,8 +1,21 @@
 ---
-title: "Incomplete Knowledge"
-description: "Developers are unaware of all the locations where similar logic exists, which can lead to synchronization problems and other issues."
-category: ['Team', 'Knowledge Management']
-related_problems: ['synchronization-problems', 'code-duplication', 'knowledge-gaps']
+title: Incomplete Knowledge
+description: Developers are unaware of all the locations where similar logic exists,
+  which can lead to synchronization problems and other issues.
+category:
+- Team
+- Knowledge Management
+related_problems:
+- slug: knowledge-gaps
+  similarity: 0.655
+- slug: team-silos
+  similarity: 0.638
+- slug: knowledge-sharing-breakdown
+  similarity: 0.635
+- slug: knowledge-silos
+  similarity: 0.631
+- slug: tacit-knowledge
+  similarity: 0.623
 layout: problem
 ---
 

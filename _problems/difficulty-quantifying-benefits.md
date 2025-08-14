@@ -1,8 +1,22 @@
 ---
-title: "Difficulty Quantifying Benefits"
-description: "It is hard to measure the ROI of refactoring work compared to new features, so technical improvements often lose out in prioritization decisions."
-category: ['Process', 'Business', 'Measurement']
-related_problems: ['invisible-nature-of-technical-debt', 'high-technical-debt', 'short-term-focus']
+title: Difficulty Quantifying Benefits
+description: It is hard to measure the ROI of refactoring work compared to new features,
+  so technical improvements often lose out in prioritization decisions.
+category:
+- Process
+- Business
+- Measurement
+related_problems:
+- slug: resistance-to-change
+  similarity: 0.638
+- slug: implementation-rework
+  similarity: 0.627
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.59
+- slug: increased-technical-shortcuts
+  similarity: 0.584
+- slug: short-term-focus
+  similarity: 0.571
 layout: problem
 ---
 

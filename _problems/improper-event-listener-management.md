@@ -1,8 +1,14 @@
 ---
-title: "Improper Event Listener Management"
-description: "Event listeners are added but not removed when associated objects are destroyed, creating memory leaks and preventing garbage collection."
-category: ['Technical', 'Memory Management', 'Architecture']
-related_problems: ['memory-leaks', 'circular-references', 'global-state-and-side-effects']
+title: Improper Event Listener Management
+description: Event listeners are added but not removed when associated objects are
+  destroyed, creating memory leaks and preventing garbage collection.
+category:
+- Technical
+- Memory Management
+- Architecture
+related_problems:
+- slug: excessive-object-allocation
+  similarity: 0.529
 layout: problem
 ---
 

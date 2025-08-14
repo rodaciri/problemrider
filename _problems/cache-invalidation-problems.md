@@ -1,8 +1,18 @@
 ---
-title: "Cache Invalidation Problems"
-description: "Cached data becomes stale or inconsistent with the underlying data source, leading to incorrect application behavior and user confusion."
-category: ['Technical', 'Performance', 'Integration']
-related_problems: ['inconsistent-behavior', 'cross-system-data-synchronization-problems', 'unpredictable-system-behavior']
+title: Cache Invalidation Problems
+description: Cached data becomes stale or inconsistent with the underlying data source,
+  leading to incorrect application behavior and user confusion.
+category:
+- Technical
+- Performance
+- Integration
+related_problems:
+- slug: poor-caching-strategy
+  similarity: 0.657
+- slug: dma-coherency-issues
+  similarity: 0.597
+- slug: silent-data-corruption
+  similarity: 0.595
 layout: problem
 ---
 

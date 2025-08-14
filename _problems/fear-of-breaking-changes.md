@@ -1,8 +1,22 @@
 ---
-title: "Fear of Breaking Changes"
-description: "The team is reluctant to make changes to the codebase for fear of breaking existing functionality, which can lead to a stagnant and outdated system."
-category: ['Process', 'Culture', 'Maintenance']
-related_problems: ['fear-of-change', 'brittle-codebase', 'refactoring-avoidance']
+title: Fear of Breaking Changes
+description: The team is reluctant to make changes to the codebase for fear of breaking
+  existing functionality, which can lead to a stagnant and outdated system.
+category:
+- Process
+- Culture
+- Maintenance
+related_problems:
+- slug: fear-of-change
+  similarity: 0.747
+- slug: resistance-to-change
+  similarity: 0.727
+- slug: brittle-codebase
+  similarity: 0.719
+- slug: history-of-failed-changes
+  similarity: 0.702
+- slug: fear-of-failure
+  similarity: 0.651
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Mental Fatigue"
-description: "Developers report feeling exhausted and mentally drained without accomplishing significant work, often due to cognitive overhead and inefficient workflows."
-category: ['Process', 'Team Dynamics', 'Individual Performance']
-related_problems: ['context-switching-overhead', 'developer-frustration-and-burnout', 'reduced-individual-productivity']
+title: Mental Fatigue
+description: Developers report feeling exhausted and mentally drained without accomplishing
+  significant work, often due to cognitive overhead and inefficient workflows.
+category:
+- Process
+- Team Dynamics
+- Individual Performance
+related_problems:
+- slug: increased-stress-and-burnout
+  similarity: 0.666
+- slug: increased-cognitive-load
+  similarity: 0.645
+- slug: reduced-individual-productivity
+  similarity: 0.643
+- slug: developer-frustration-and-burnout
+  similarity: 0.623
+- slug: increased-manual-work
+  similarity: 0.589
 layout: problem
 ---
 

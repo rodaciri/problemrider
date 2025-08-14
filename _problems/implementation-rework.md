@@ -1,8 +1,22 @@
 ---
-title: "Implementation Rework"
-description: "Features must be rebuilt when initial understanding proves incorrect, wasting development effort and delaying delivery."
-category: ['Process', 'Technical', 'Quality']
-related_problems: ['knowledge-gaps', 'extended-research-time', 'unclear-goals-and-priorities']
+title: Implementation Rework
+description: Features must be rebuilt when initial understanding proves incorrect,
+  wasting development effort and delaying delivery.
+category:
+- Process
+- Technical
+- Quality
+related_problems:
+- slug: wasted-development-effort
+  similarity: 0.68
+- slug: frequent-changes-to-requirements
+  similarity: 0.644
+- slug: difficulty-quantifying-benefits
+  similarity: 0.627
+- slug: complex-implementation-paths
+  similarity: 0.614
+- slug: large-feature-scope
+  similarity: 0.61
 layout: problem
 ---
 

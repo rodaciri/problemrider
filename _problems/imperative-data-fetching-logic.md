@@ -1,8 +1,23 @@
 ---
-title: "Imperative Data Fetching Logic"
-description: "The application code is written in a way that fetches data in a loop, rather than using a more efficient, declarative approach, leading to performance problems."
-category: ['Performance', 'Database', 'Design']
-related_problems: ['n-plus-one-query-problem', 'slow-application-performance', 'high-number-of-database-queries']
+title: Imperative Data Fetching Logic
+description: The application code is written in a way that fetches data in a loop,
+  rather than using a more efficient, declarative approach, leading to performance
+  problems.
+category:
+- Performance
+- Database
+- Design
+related_problems:
+- slug: high-number-of-database-queries
+  similarity: 0.649
+- slug: database-query-performance-issues
+  similarity: 0.612
+- slug: slow-database-queries
+  similarity: 0.605
+- slug: n-plus-one-query-problem
+  similarity: 0.582
+- slug: algorithmic-complexity-problems
+  similarity: 0.558
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Constantly Shifting Deadlines"
-description: "The project's end date is repeatedly pushed back to accommodate new feature requests, leading to a loss of credibility and a great deal of frustration for the development team."
-category: ['Process', 'Project Management']
-related_problems: ['scope-creep', 'unclear-goals-and-priorities', 'misaligned-deliverables']
+title: Constantly Shifting Deadlines
+description: The project's end date is repeatedly pushed back to accommodate new feature
+  requests, leading to a loss of credibility and a great deal of frustration for the
+  development team.
+category:
+- Process
+- Project Management
+related_problems:
+- slug: frequent-changes-to-requirements
+  similarity: 0.798
+- slug: no-formal-change-control-process
+  similarity: 0.682
+- slug: scope-creep
+  similarity: 0.666
+- slug: development-disruption
+  similarity: 0.66
+- slug: unrealistic-deadlines
+  similarity: 0.658
 layout: problem
 ---
 

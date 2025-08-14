@@ -1,8 +1,22 @@
 ---
-title: "Increased Manual Work"
-description: "Developers spend time on repetitive tasks that should be automated, reducing time available for actual development work."
-category: ['Process', 'Technical', 'Automation']
-related_problems: ['tool-limitations', 'inefficient-processes', 'slow-development-velocity']
+title: Increased Manual Work
+description: Developers spend time on repetitive tasks that should be automated, reducing
+  time available for actual development work.
+category:
+- Process
+- Technical
+- Automation
+related_problems:
+- slug: increased-manual-testing-effort
+  similarity: 0.744
+- slug: inefficient-processes
+  similarity: 0.7
+- slug: reduced-individual-productivity
+  similarity: 0.678
+- slug: cognitive-overload
+  similarity: 0.67
+- slug: inconsistent-execution
+  similarity: 0.659
 layout: problem
 ---
 

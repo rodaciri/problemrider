@@ -1,8 +1,22 @@
 ---
-title: "New Hire Frustration"
-description: "Recently hired developers experience significant frustration due to barriers preventing them from contributing effectively to the team."
-category: ['Team Dynamics', 'Workplace Health', 'Process']
-related_problems: ['extended-onboarding-period', 'slow-knowledge-transfer', 'knowledge-silos']
+title: New Hire Frustration
+description: Recently hired developers experience significant frustration due to barriers
+  preventing them from contributing effectively to the team.
+category:
+- Team Dynamics
+- Workplace Health
+- Process
+related_problems:
+- slug: high-turnover
+  similarity: 0.719
+- slug: developer-frustration-and-burnout
+  similarity: 0.677
+- slug: author-frustration
+  similarity: 0.601
+- slug: difficult-developer-onboarding
+  similarity: 0.592
+- slug: increased-cognitive-load
+  similarity: 0.554
 layout: problem
 ---
 

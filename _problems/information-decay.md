@@ -1,8 +1,22 @@
 ---
-title: "Information Decay"
-description: "System documentation becomes outdated, inaccurate, or incomplete over time, making it unreliable for decision-making and system understanding."
-category: ['Documentation', 'Knowledge Management', 'Maintenance']
-related_problems: ['knowledge-silos', 'information-fragmentation', 'slow-knowledge-transfer']
+title: Information Decay
+description: System documentation becomes outdated, inaccurate, or incomplete over
+  time, making it unreliable for decision-making and system understanding.
+category:
+- Documentation
+- Knowledge Management
+- Maintenance
+related_problems:
+- slug: poor-documentation
+  similarity: 0.848
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.688
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.594
+- slug: rapid-system-changes
+  similarity: 0.569
+- slug: unclear-documentation-ownership
+  similarity: 0.563
 layout: problem
 ---
 

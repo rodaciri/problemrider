@@ -1,8 +1,22 @@
 ---
-title: "Reduced Individual Productivity"
-description: "Individual developers complete fewer tasks and take longer to resolve problems despite maintaining the same work effort."
-category: ['Process', 'Technical', 'Individual Performance']
-related_problems: ['context-switching-overhead', 'tool-limitations', 'inefficient-processes']
+title: Reduced Individual Productivity
+description: Individual developers complete fewer tasks and take longer to resolve
+  problems despite maintaining the same work effort.
+category:
+- Process
+- Technical
+- Individual Performance
+related_problems:
+- slug: reduced-team-productivity
+  similarity: 0.739
+- slug: slow-development-velocity
+  similarity: 0.705
+- slug: increased-manual-work
+  similarity: 0.678
+- slug: procrastination-on-complex-tasks
+  similarity: 0.649
+- slug: inefficient-processes
+  similarity: 0.645
 layout: problem
 ---
 

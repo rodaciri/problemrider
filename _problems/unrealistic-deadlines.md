@@ -1,8 +1,22 @@
 ---
-title: "Unrealistic Deadlines"
-description: "Management sets aggressive deadlines that do not account for the actual effort required, leading to compromised quality and unsustainable work practices."
-category: ['Process', 'Organizational', 'Planning']
-related_problems: ['time-pressure', 'missed-deadlines', 'increased-technical-shortcuts']
+title: Unrealistic Deadlines
+description: Management sets aggressive deadlines that do not account for the actual
+  effort required, leading to compromised quality and unsustainable work practices.
+category:
+- Process
+- Organizational
+- Planning
+related_problems:
+- slug: unrealistic-schedule
+  similarity: 0.771
+- slug: deadline-pressure
+  similarity: 0.712
+- slug: missed-deadlines
+  similarity: 0.686
+- slug: constantly-shifting-deadlines
+  similarity: 0.658
+- slug: planning-credibility-issues
+  similarity: 0.655
 layout: problem
 ---
 

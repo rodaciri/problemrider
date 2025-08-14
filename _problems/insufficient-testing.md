@@ -1,8 +1,21 @@
 ---
-title: "Quality Blind Spots"
-description: "The testing process is not comprehensive enough, leading to a high defect rate in production."
-category: ['Process', 'Quality']
-related_problems: ['high-defect-rate-in-production', 'poor-test-coverage', 'legacy-code-without-tests']
+title: Quality Blind Spots
+description: The testing process is not comprehensive enough, leading to a high defect
+  rate in production.
+category:
+- Process
+- Quality
+related_problems:
+- slug: high-defect-rate-in-production
+  similarity: 0.77
+- slug: inadequate-test-data-management
+  similarity: 0.675
+- slug: poor-test-coverage
+  similarity: 0.674
+- slug: quality-blind-spots
+  similarity: 0.666
+- slug: testing-environment-fragility
+  similarity: 0.665
 layout: problem
 ---
 

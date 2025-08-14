@@ -1,8 +1,22 @@
 ---
-title: "Cascade Delays"
-description: "Missed deadlines in one area cause delays in dependent work streams, creating a ripple effect that affects multiple projects and teams."
-category: ['Management', 'Process', 'Business']
-related_problems: ['missed-deadlines', 'poor-planning', 'external-dependencies']
+title: Cascade Delays
+description: Missed deadlines in one area cause delays in dependent work streams,
+  creating a ripple effect that affects multiple projects and teams.
+category:
+- Management
+- Process
+- Business
+related_problems:
+- slug: delayed-project-timelines
+  similarity: 0.706
+- slug: bottleneck-formation
+  similarity: 0.643
+- slug: missed-deadlines
+  similarity: 0.611
+- slug: work-blocking
+  similarity: 0.608
+- slug: uneven-work-flow
+  similarity: 0.605
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Knowledge Acquisition"
-description: "New team members learn different aspects and depths of system knowledge depending on their mentor or learning path, creating uneven skill distribution."
-category: ['Knowledge Management', 'Team Dynamics', 'Process']
-related_problems: ['knowledge-silos', 'mentor-burnout', 'slow-knowledge-transfer']
+title: Inconsistent Knowledge Acquisition
+description: New team members learn different aspects and depths of system knowledge
+  depending on their mentor or learning path, creating uneven skill distribution.
+category:
+- Knowledge Management
+- Team Dynamics
+- Process
+related_problems:
+- slug: skill-development-gaps
+  similarity: 0.733
+- slug: inconsistent-onboarding-experience
+  similarity: 0.703
+- slug: tacit-knowledge
+  similarity: 0.679
+- slug: knowledge-dependency
+  similarity: 0.626
+- slug: slow-knowledge-transfer
+  similarity: 0.609
 layout: problem
 ---
 

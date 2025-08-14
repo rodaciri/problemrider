@@ -1,8 +1,21 @@
 ---
-title: "Team Members Not Engaged in Review Process"
-description: "Code reviews are often assigned to the same people, or reviewers do not provide meaningful feedback, leading to a bottleneck and reduced quality."
-category: ['Process', 'Communication']
-related_problems: ['superficial-code-reviews']
+title: Team Members Not Engaged in Review Process
+description: Code reviews are often assigned to the same people, or reviewers do not
+  provide meaningful feedback, leading to a bottleneck and reduced quality.
+category:
+- Process
+- Communication
+related_problems:
+- slug: reviewer-anxiety
+  similarity: 0.7
+- slug: reviewer-inexperience
+  similarity: 0.682
+- slug: fear-of-conflict
+  similarity: 0.671
+- slug: inadequate-code-reviews
+  similarity: 0.665
+- slug: reduced-review-participation
+  similarity: 0.658
 layout: problem
 ---
 

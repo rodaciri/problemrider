@@ -1,8 +1,16 @@
 ---
-title: "Shadow Systems"
-description: "Alternative solutions developed outside official channels undermine standardization and create hidden dependencies."
-category: ['Process', 'Governance', 'Risk Management']
-related_problems: ['poor-operational-concept', 'lack-of-standardization', 'hidden-dependencies']
+title: Shadow Systems
+description: Alternative solutions developed outside official channels undermine standardization
+  and create hidden dependencies.
+category:
+- Process
+- Governance
+- Risk Management
+related_problems:
+- slug: inconsistent-behavior
+  similarity: 0.505
+- slug: change-management-chaos
+  similarity: 0.504
 layout: problem
 ---
 

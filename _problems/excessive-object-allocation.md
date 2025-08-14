@@ -1,8 +1,22 @@
 ---
-title: "Excessive Object Allocation"
-description: "Code creates a large number of temporary objects, putting pressure on the garbage collector and degrading performance."
-category: ['Performance', 'Technical', 'Memory']
-related_problems: ['inefficient-code', 'memory-leaks', 'gradual-performance-degradation']
+title: Excessive Object Allocation
+description: Code creates a large number of temporary objects, putting pressure on
+  the garbage collector and degrading performance.
+category:
+- Performance
+- Technical
+- Memory
+related_problems:
+- slug: garbage-collection-pressure
+  similarity: 0.751
+- slug: memory-fragmentation
+  similarity: 0.675
+- slug: circular-references
+  similarity: 0.642
+- slug: memory-leaks
+  similarity: 0.598
+- slug: unreleased-resources
+  similarity: 0.577
 layout: problem
 ---
 

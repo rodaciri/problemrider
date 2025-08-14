@@ -1,8 +1,21 @@
 ---
-title: "Maintenance Overhead"
-description: "A disproportionate amount of time and effort is spent on maintaining the existing system, often due to duplicated code and a lack of reusable components."
-category: ['Maintenance', 'Process']
-related_problems: ['high-maintenance-costs', 'code-duplication', 'increased-cost-of-development']
+title: Maintenance Overhead
+description: A disproportionate amount of time and effort is spent on maintaining
+  the existing system, often due to duplicated code and a lack of reusable components.
+category:
+- Maintenance
+- Process
+related_problems:
+- slug: high-maintenance-costs
+  similarity: 0.761
+- slug: maintenance-cost-increase
+  similarity: 0.731
+- slug: maintenance-bottlenecks
+  similarity: 0.73
+- slug: context-switching-overhead
+  similarity: 0.647
+- slug: maintenance-paralysis
+  similarity: 0.638
 layout: problem
 ---
 

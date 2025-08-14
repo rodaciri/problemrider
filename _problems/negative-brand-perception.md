@@ -1,8 +1,22 @@
 ---
-title: "Negative Brand Perception"
-description: "Users associate the brand with poor quality or unreliability due to technical problems."
-category: ['Business', 'Communication', 'Quality']
-related_problems: ['business-level-impact', 'high-defect-rate-in-production', 'poor-user-experience-ux-design']
+title: Negative Brand Perception
+description: Users associate the brand with poor quality or unreliability due to technical
+  problems.
+category:
+- Business
+- Communication
+- Quality
+related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.648
+- slug: negative-user-feedback
+  similarity: 0.597
+- slug: user-frustration
+  similarity: 0.572
+- slug: user-trust-erosion
+  similarity: 0.571
+- slug: competitive-disadvantage
+  similarity: 0.558
 layout: problem
 ---
 

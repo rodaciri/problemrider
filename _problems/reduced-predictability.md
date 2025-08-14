@@ -1,8 +1,22 @@
 ---
-title: "Reduced Predictability"
-description: "Development timelines, outcomes, and system behavior become difficult to predict accurately, making planning and expectations management challenging."
-category: ['Planning', 'Process', 'Risk Management']
-related_problems: ['extended-cycle-times', 'work-queue-buildup', 'planning-credibility-issues']
+title: Reduced Predictability
+description: Development timelines, outcomes, and system behavior become difficult
+  to predict accurately, making planning and expectations management challenging.
+category:
+- Planning
+- Process
+- Risk Management
+related_problems:
+- slug: unrealistic-schedule
+  similarity: 0.725
+- slug: planning-dysfunction
+  similarity: 0.72
+- slug: poor-planning
+  similarity: 0.7
+- slug: missed-deadlines
+  similarity: 0.666
+- slug: planning-credibility-issues
+  similarity: 0.663
 layout: problem
 ---
 

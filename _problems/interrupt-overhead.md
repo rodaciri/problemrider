@@ -1,8 +1,22 @@
 ---
-title: "Interrupt Overhead"
-description: "Excessive hardware interrupts disrupt CPU execution flow, causing frequent context switches and reducing application performance."
-category: ['Technical', 'Performance', 'Hardware']
-related_problems: ['context-switch-overhead', 'cpu-cache-misses', 'system-call-overhead']
+title: Interrupt Overhead
+description: Excessive hardware interrupts disrupt CPU execution flow, causing frequent
+  context switches and reducing application performance.
+category:
+- Technical
+- Performance
+- Hardware
+related_problems:
+- slug: garbage-collection-pressure
+  similarity: 0.685
+- slug: lock-contention
+  similarity: 0.594
+- slug: atomic-operation-overhead
+  similarity: 0.592
+- slug: excessive-disk-io
+  similarity: 0.587
+- slug: unoptimized-file-access
+  similarity: 0.568
 layout: problem
 ---
 

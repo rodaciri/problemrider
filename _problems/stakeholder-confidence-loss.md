@@ -1,8 +1,22 @@
 ---
-title: "Stakeholder Confidence Loss"
-description: "Business partners lose trust in the development team's ability to deliver on commitments, creating tension and reduced collaboration."
-category: ['Business', 'Organizational', 'Communication']
-related_problems: ['missed-deadlines', 'planning-credibility-issues', 'declining-business-metrics']
+title: Stakeholder Confidence Loss
+description: Business partners lose trust in the development team's ability to deliver
+  on commitments, creating tension and reduced collaboration.
+category:
+- Business
+- Organizational
+- Communication
+related_problems:
+- slug: planning-credibility-issues
+  similarity: 0.697
+- slug: stakeholder-frustration
+  similarity: 0.695
+- slug: communication-risk-outside-project
+  similarity: 0.653
+- slug: stakeholder-dissatisfaction
+  similarity: 0.649
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.626
 layout: problem
 ---
 

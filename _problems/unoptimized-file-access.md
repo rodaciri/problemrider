@@ -1,8 +1,20 @@
 ---
-title: "Unoptimized File Access"
-description: "Applications read or write files inefficiently, leading to excessive disk I/O and slow performance."
-category: ['Performance']
-related_problems: ['excessive-disk-io']
+title: Unoptimized File Access
+description: Applications read or write files inefficiently, leading to excessive
+  disk I/O and slow performance.
+category:
+- Performance
+related_problems:
+- slug: excessive-disk-io
+  similarity: 0.734
+- slug: resource-contention
+  similarity: 0.643
+- slug: interrupt-overhead
+  similarity: 0.568
+- slug: gradual-performance-degradation
+  similarity: 0.561
+- slug: high-client-side-resource-consumption
+  similarity: 0.555
 layout: problem
 ---
 

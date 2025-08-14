@@ -1,8 +1,22 @@
 ---
-title: "Duplicated Work"
-description: "Multiple team members unknowingly work on the same tasks or solve the same problems, leading to wasted effort and potential conflicts."
-category: ['Team Coordination', 'Communication', 'Efficiency']
-related_problems: ['team-confusion', 'team-coordination-issues', 'poor-communication']
+title: Duplicated Work
+description: Multiple team members unknowingly work on the same tasks or solve the
+  same problems, leading to wasted effort and potential conflicts.
+category:
+- Team Coordination
+- Communication
+- Efficiency
+related_problems:
+- slug: duplicated-effort
+  similarity: 0.894
+- slug: duplicated-research-effort
+  similarity: 0.733
+- slug: team-coordination-issues
+  similarity: 0.644
+- slug: partial-bug-fixes
+  similarity: 0.575
+- slug: merge-conflicts
+  similarity: 0.574
 layout: problem
 ---
 

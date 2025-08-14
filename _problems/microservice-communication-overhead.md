@@ -1,8 +1,22 @@
 ---
-title: "Microservice Communication Overhead"
-description: "Excessive network communication between microservices creates latency, reduces reliability, and impacts overall system performance."
-category: ['Microservices', 'Performance', 'Architecture']
-related_problems: ['network-latency-issues', 'service-dependency-problems', 'distributed-system-complexity']
+title: Microservice Communication Overhead
+description: Excessive network communication between microservices creates latency,
+  reduces reliability, and impacts overall system performance.
+category:
+- Microservices
+- Performance
+- Architecture
+related_problems:
+- slug: network-latency
+  similarity: 0.625
+- slug: high-api-latency
+  similarity: 0.6
+- slug: external-service-delays
+  similarity: 0.576
+- slug: load-balancing-problems
+  similarity: 0.558
+- slug: serialization-deserialization-bottlenecks
+  similarity: 0.534
 layout: problem
 ---
 

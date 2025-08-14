@@ -1,8 +1,22 @@
 ---
-title: "Virtual Memory Thrashing"
-description: "System constantly swaps pages between physical memory and disk, causing severe performance degradation due to excessive paging activity."
-category: ['Technical', 'Performance', 'Memory Management']
-related_problems: ['memory-swapping', 'memory-leaks', 'resource-contention']
+title: Virtual Memory Thrashing
+description: System constantly swaps pages between physical memory and disk, causing
+  severe performance degradation due to excessive paging activity.
+category:
+- Technical
+- Performance
+- Memory Management
+related_problems:
+- slug: excessive-disk-io
+  similarity: 0.56
+- slug: memory-fragmentation
+  similarity: 0.542
+- slug: garbage-collection-pressure
+  similarity: 0.524
+- slug: memory-swapping
+  similarity: 0.523
+- slug: unoptimized-file-access
+  similarity: 0.51
 layout: problem
 ---
 

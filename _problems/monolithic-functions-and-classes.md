@@ -1,8 +1,20 @@
 ---
-title: "Monolithic Functions and Classes"
-description: "Individual functions or classes perform too many unrelated responsibilities, making them difficult to understand and modify."
-category: ['Design', 'Maintenance', 'Quality']
-related_problems: ['high-coupling-low-cohesion', 'complex-and-obscure-logic', 'difficult-to-test-code']
+title: Monolithic Functions and Classes
+description: Individual functions or classes perform too many unrelated responsibilities,
+  making them difficult to understand and modify.
+category:
+- Design
+- Maintenance
+- Quality
+related_problems:
+- slug: poorly-defined-responsibilities
+  similarity: 0.553
+- slug: excessive-class-size
+  similarity: 0.551
+- slug: god-object-anti-pattern
+  similarity: 0.527
+- slug: difficult-to-understand-code
+  similarity: 0.515
 layout: problem
 ---
 

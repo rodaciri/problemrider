@@ -1,8 +1,23 @@
 ---
-title: "Difficult Developer Onboarding"
-description: "New team members take an unusually long time to become productive due to complex systems, poor documentation, and inadequate onboarding processes."
-category: ['Team Dynamics', 'Process', 'Knowledge Management', 'Maintenance']
-related_problems: ['high-technical-debt', 'complex-and-obscure-logic', 'knowledge-silos', 'inconsistent-codebase', 'brittle-codebase', 'high-turnover']
+title: Difficult Developer Onboarding
+description: New team members take an unusually long time to become productive due
+  to complex systems, poor documentation, and inadequate onboarding processes.
+category:
+- Team Dynamics
+- Process
+- Knowledge Management
+- Maintenance
+related_problems:
+- slug: high-turnover
+  similarity: 0.672
+- slug: increased-cognitive-load
+  similarity: 0.656
+- slug: brittle-codebase
+  similarity: 0.634
+- slug: inconsistent-onboarding-experience
+  similarity: 0.627
+- slug: rapid-team-growth
+  similarity: 0.626
 layout: problem
 ---
 

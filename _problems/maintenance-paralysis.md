@@ -1,8 +1,22 @@
 ---
-title: "Maintenance Paralysis"
-description: "Teams avoid necessary improvements because they cannot verify that changes don't break existing functionality."
-category: ['Maintenance', 'Process', 'Quality']
-related_problems: ['legacy-code-without-tests', 'fear-of-change', 'brittle-codebase']
+title: Maintenance Paralysis
+description: Teams avoid necessary improvements because they cannot verify that changes
+  don't break existing functionality.
+category:
+- Maintenance
+- Process
+- Quality
+related_problems:
+- slug: inability-to-innovate
+  similarity: 0.74
+- slug: resistance-to-change
+  similarity: 0.681
+- slug: high-maintenance-costs
+  similarity: 0.681
+- slug: maintenance-cost-increase
+  similarity: 0.67
+- slug: increased-cost-of-development
+  similarity: 0.661
 layout: problem
 ---
 

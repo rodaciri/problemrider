@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Test Infrastructure"
-description: "Missing tools, environments, or automation make thorough testing slow or impossible"
-category: ['Technical', 'Process', 'Infrastructure']
-related_problems: [insufficient-testing, poor-test-coverage, flaky-tests]
+title: Inadequate Test Infrastructure
+description: Missing tools, environments, or automation make thorough testing slow
+  or impossible
+category:
+- Technical
+- Process
+- Infrastructure
+related_problems:
+- slug: testing-environment-fragility
+  similarity: 0.771
+- slug: inadequate-test-data-management
+  similarity: 0.712
+- slug: increased-manual-testing-effort
+  similarity: 0.666
+- slug: legacy-code-without-tests
+  similarity: 0.648
+- slug: quality-blind-spots
+  similarity: 0.645
 layout: problem
 ---
 

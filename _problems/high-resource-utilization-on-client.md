@@ -1,8 +1,21 @@
 ---
-title: "High Resource Utilization on Client"
-description: "Client applications may consume excessive CPU or memory, leading to a poor user experience, especially on less powerful devices."
-category: ['Performance', 'User Experience']
-related_problems: ['inefficient-code', 'memory-leaks']
+title: High Resource Utilization on Client
+description: Client applications may consume excessive CPU or memory, leading to a
+  poor user experience, especially on less powerful devices.
+category:
+- Performance
+- User Experience
+related_problems:
+- slug: high-client-side-resource-consumption
+  similarity: 0.976
+- slug: inefficient-frontend-code
+  similarity: 0.771
+- slug: slow-application-performance
+  similarity: 0.673
+- slug: resource-contention
+  similarity: 0.667
+- slug: excessive-disk-io
+  similarity: 0.585
 layout: problem
 ---
 

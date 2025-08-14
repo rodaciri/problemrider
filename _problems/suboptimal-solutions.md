@@ -1,8 +1,14 @@
 ---
-title: "Suboptimal Solutions"
-description: "Delivered solutions work but are inefficient, difficult to use, or don't fully address the underlying problems they were meant to solve."
-category: ['Solution Quality', 'Design', 'Requirements']
-related_problems: ['scope-change-resistance', 'quality-compromises', 'poor-requirements-gathering']
+title: Suboptimal Solutions
+description: Delivered solutions work but are inefficient, difficult to use, or don't
+  fully address the underlying problems they were meant to solve.
+category:
+- Solution Quality
+- Design
+- Requirements
+related_problems:
+- slug: increased-technical-shortcuts
+  similarity: 0.544
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "Time Pressure"
-description: "Teams are forced to take shortcuts to meet immediate deadlines, deferring proper solutions and rushing important tasks like code reviews."
-category: ['Process', 'Quality']
-related_problems: ['high-technical-debt', 'inadequate-code-reviews', 'insufficient-testing']
+title: Time Pressure
+description: Teams are forced to take shortcuts to meet immediate deadlines, deferring
+  proper solutions and rushing important tasks like code reviews.
+category:
+- Process
+- Quality
+related_problems:
+- slug: deadline-pressure
+  similarity: 0.791
+- slug: constant-firefighting
+  similarity: 0.74
+- slug: development-disruption
+  similarity: 0.582
+- slug: unrealistic-deadlines
+  similarity: 0.581
+- slug: missed-deadlines
+  similarity: 0.578
 layout: problem
 ---
 

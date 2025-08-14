@@ -1,8 +1,20 @@
 ---
-title: "High Client-Side Resource Consumption"
-description: "Client applications consume excessive CPU or memory, leading to sluggish performance and poor user experience."
-category: ['Performance']
-related_problems: ['memory-leaks']
+title: High Client-Side Resource Consumption
+description: Client applications consume excessive CPU or memory, leading to sluggish
+  performance and poor user experience.
+category:
+- Performance
+related_problems:
+- slug: high-resource-utilization-on-client
+  similarity: 0.976
+- slug: inefficient-frontend-code
+  similarity: 0.783
+- slug: slow-application-performance
+  similarity: 0.69
+- slug: resource-contention
+  similarity: 0.663
+- slug: high-api-latency
+  similarity: 0.595
 layout: problem
 ---
 

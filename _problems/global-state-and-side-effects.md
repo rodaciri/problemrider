@@ -1,8 +1,21 @@
 ---
-title: "Global State and Side Effects"
-description: "Excessive use of global variables or functions with hidden side effects makes it difficult to reason about code behavior."
-category: ['Design', 'Maintenance']
-related_problems: ['brittle-codebase', 'high-coupling-low-cohesion', 'hidden-side-effects']
+title: Global State and Side Effects
+description: Excessive use of global variables or functions with hidden side effects
+  makes it difficult to reason about code behavior.
+category:
+- Design
+- Maintenance
+related_problems:
+- slug: hidden-side-effects
+  similarity: 0.623
+- slug: spaghetti-code
+  similarity: 0.572
+- slug: unpredictable-system-behavior
+  similarity: 0.566
+- slug: increasing-brittleness
+  similarity: 0.519
+- slug: hidden-dependencies
+  similarity: 0.518
 layout: problem
 ---
 

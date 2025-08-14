@@ -1,8 +1,22 @@
 ---
-title: "Changing Project Scope"
-description: "Frequent shifts in project direction confuse the team and prevent steady progress toward completion."
-category: ['Process', 'Management', 'Planning']
-related_problems: ['scope-creep', 'unclear-goals-and-priorities', 'delayed-decision-making']
+title: Changing Project Scope
+description: Frequent shifts in project direction confuse the team and prevent steady
+  progress toward completion.
+category:
+- Process
+- Management
+- Planning
+related_problems:
+- slug: no-formal-change-control-process
+  similarity: 0.783
+- slug: scope-change-resistance
+  similarity: 0.781
+- slug: scope-creep
+  similarity: 0.761
+- slug: frequent-changes-to-requirements
+  similarity: 0.741
+- slug: constantly-shifting-deadlines
+  similarity: 0.65
 layout: problem
 ---
 

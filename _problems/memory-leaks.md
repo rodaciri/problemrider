@@ -1,8 +1,21 @@
 ---
-title: "Memory Leaks"
-description: "Applications fail to release memory that is no longer needed, leading to gradual memory consumption and eventual performance degradation or crashes."
-category: ['Performance', 'Stability']
-related_problems: ['memory-swapping']
+title: Memory Leaks
+description: Applications fail to release memory that is no longer needed, leading
+  to gradual memory consumption and eventual performance degradation or crashes.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: gradual-performance-degradation
+  similarity: 0.683
+- slug: unreleased-resources
+  similarity: 0.642
+- slug: resource-contention
+  similarity: 0.609
+- slug: excessive-object-allocation
+  similarity: 0.598
+- slug: stack-overflow-errors
+  similarity: 0.595
 layout: problem
 ---
 

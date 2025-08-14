@@ -1,8 +1,16 @@
 ---
-title: "Service Discovery Failures"
-description: "Service discovery mechanisms fail to locate or connect to services, causing communication failures and system instability in distributed architectures."
-category: ['Microservices', 'Infrastructure', 'Networking']
-related_problems: ['network-connectivity-issues', 'configuration-management-problems', 'service-availability-issues']
+title: Service Discovery Failures
+description: Service discovery mechanisms fail to locate or connect to services, causing
+  communication failures and system instability in distributed architectures.
+category:
+- Microservices
+- Infrastructure
+- Networking
+related_problems:
+- slug: system-outages
+  similarity: 0.56
+- slug: load-balancing-problems
+  similarity: 0.547
 layout: problem
 ---
 

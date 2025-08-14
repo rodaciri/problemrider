@@ -1,8 +1,22 @@
 ---
-title: "Procrastination on Complex Tasks"
-description: "Difficult or cognitively demanding work is consistently postponed in favor of easier, more immediately gratifying tasks."
-category: ['Developer Experience', 'Psychology', 'Productivity']
-related_problems: ['avoidance-behaviors', 'mental-fatigue', 'complex-and-obscure-logic']
+title: Procrastination on Complex Tasks
+description: Difficult or cognitively demanding work is consistently postponed in
+  favor of easier, more immediately gratifying tasks.
+category:
+- Developer Experience
+- Psychology
+- Productivity
+related_problems:
+- slug: avoidance-behaviors
+  similarity: 0.751
+- slug: reduced-individual-productivity
+  similarity: 0.649
+- slug: increased-manual-work
+  similarity: 0.64
+- slug: priority-thrashing
+  similarity: 0.616
+- slug: deadline-pressure
+  similarity: 0.614
 layout: problem
 ---
 

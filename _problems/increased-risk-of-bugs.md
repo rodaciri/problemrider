@@ -1,8 +1,22 @@
 ---
-title: "Increased Risk of Bugs"
-description: "Code complexity and lack of clarity make it more likely that developers will introduce defects when making changes."
-category: ['Quality', 'Technical', 'Maintenance']
-related_problems: ['complex-and-obscure-logic', 'brittle-codebase', 'inexperienced-developers']
+title: Increased Risk of Bugs
+description: Code complexity and lack of clarity make it more likely that developers
+  will introduce defects when making changes.
+category:
+- Quality
+- Technical
+- Maintenance
+related_problems:
+- slug: increased-bug-count
+  similarity: 0.773
+- slug: lower-code-quality
+  similarity: 0.743
+- slug: high-bug-introduction-rate
+  similarity: 0.702
+- slug: fear-of-change
+  similarity: 0.697
+- slug: increased-cost-of-development
+  similarity: 0.687
 layout: problem
 ---
 

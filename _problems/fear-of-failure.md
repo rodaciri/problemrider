@@ -1,8 +1,21 @@
 ---
-title: "Fear of Failure"
-description: "A pervasive fear of making mistakes or failing can lead to inaction, risk aversion, and a reluctance to innovate within a development team."
-category: ['Culture', 'Process']
-related_problems: ['perfectionist-culture', 'release-anxiety', 'refactoring-avoidance']
+title: Fear of Failure
+description: A pervasive fear of making mistakes or failing can lead to inaction,
+  risk aversion, and a reluctance to innovate within a development team.
+category:
+- Culture
+- Process
+related_problems:
+- slug: fear-of-change
+  similarity: 0.705
+- slug: history-of-failed-changes
+  similarity: 0.704
+- slug: fear-of-breaking-changes
+  similarity: 0.651
+- slug: blame-culture
+  similarity: 0.626
+- slug: inexperienced-developers
+  similarity: 0.624
 layout: problem
 ---
 

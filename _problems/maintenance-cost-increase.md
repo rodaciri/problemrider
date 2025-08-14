@@ -1,8 +1,22 @@
 ---
-title: "Maintenance Cost Increase"
-description: "The resources required to maintain, support, and update software systems grow over time, consuming increasing portions of development budgets."
-category: ['Cost Management', 'Technical Debt', 'Resource Management']
-related_problems: ['high-technical-debt', 'quality-degradation', 'system-stagnation']
+title: Maintenance Cost Increase
+description: The resources required to maintain, support, and update software systems
+  grow over time, consuming increasing portions of development budgets.
+category:
+- Cost Management
+- Technical Debt
+- Resource Management
+related_problems:
+- slug: high-maintenance-costs
+  similarity: 0.815
+- slug: maintenance-overhead
+  similarity: 0.731
+- slug: increased-cost-of-development
+  similarity: 0.713
+- slug: maintenance-bottlenecks
+  similarity: 0.682
+- slug: increasing-brittleness
+  similarity: 0.674
 layout: problem
 ---
 

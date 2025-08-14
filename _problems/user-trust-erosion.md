@@ -1,8 +1,21 @@
 ---
-title: "User Trust Erosion"
-description: "Frequent issues and emergency fixes damage user confidence in the system's reliability, leading to a decline in user engagement and satisfaction."
-category: ['Business', 'User Experience']
-related_problems: ['negative-user-feedback', 'declining-business-metrics', 'release-instability']
+title: User Trust Erosion
+description: Frequent issues and emergency fixes damage user confidence in the system's
+  reliability, leading to a decline in user engagement and satisfaction.
+category:
+- Business
+- User Experience
+related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.644
+- slug: user-frustration
+  similarity: 0.622
+- slug: negative-user-feedback
+  similarity: 0.603
+- slug: declining-business-metrics
+  similarity: 0.584
+- slug: negative-brand-perception
+  similarity: 0.571
 layout: problem
 ---
 

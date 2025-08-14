@@ -1,8 +1,22 @@
 ---
-title: "Uneven Work Flow"
-description: "Work progresses in irregular fits and starts rather than flowing smoothly through the development process."
-category: ['Process', 'Flow', 'Team Dynamics']
-related_problems: ['bottleneck-formation', 'work-queue-buildup', 'context-switching-overhead']
+title: Uneven Work Flow
+description: Work progresses in irregular fits and starts rather than flowing smoothly
+  through the development process.
+category:
+- Process
+- Flow
+- Team Dynamics
+related_problems:
+- slug: uneven-workload-distribution
+  similarity: 0.744
+- slug: bottleneck-formation
+  similarity: 0.728
+- slug: missed-deadlines
+  similarity: 0.653
+- slug: capacity-mismatch
+  similarity: 0.646
+- slug: extended-cycle-times
+  similarity: 0.621
 layout: problem
 ---
 

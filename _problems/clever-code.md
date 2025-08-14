@@ -1,8 +1,22 @@
 ---
-title: "Clever Code"
-description: "Code written to demonstrate technical prowess rather than clarity, making it difficult for others to understand and maintain."
-category: ['Maintenance', 'Team', 'Technical']
-related_problems: ['complex-and-obscure-logic', 'increased-cognitive-load', 'difficult-developer-onboarding']
+title: Clever Code
+description: Code written to demonstrate technical prowess rather than clarity, making
+  it difficult for others to understand and maintain.
+category:
+- Maintenance
+- Team
+- Technical
+related_problems:
+- slug: complex-and-obscure-logic
+  similarity: 0.699
+- slug: difficult-to-understand-code
+  similarity: 0.688
+- slug: difficult-code-comprehension
+  similarity: 0.638
+- slug: defensive-coding-practices
+  similarity: 0.625
+- slug: inexperienced-developers
+  similarity: 0.592
 layout: problem
 ---
 

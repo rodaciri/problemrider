@@ -1,8 +1,22 @@
 ---
-title: "Slow Feature Development"
-description: "The pace of developing and delivering new features is consistently slow, often due to the complexity and fragility of the existing codebase."
-category: ['Process', 'Maintenance', 'Quality']
-related_problems: ['slow-development-velocity', 'high-technical-debt', 'brittle-codebase']
+title: Slow Feature Development
+description: The pace of developing and delivering new features is consistently slow,
+  often due to the complexity and fragility of the existing codebase.
+category:
+- Process
+- Maintenance
+- Quality
+related_problems:
+- slug: slow-development-velocity
+  similarity: 0.807
+- slug: delayed-value-delivery
+  similarity: 0.721
+- slug: large-estimates-for-small-changes
+  similarity: 0.705
+- slug: increased-time-to-market
+  similarity: 0.704
+- slug: large-feature-scope
+  similarity: 0.702
 layout: problem
 ---
 

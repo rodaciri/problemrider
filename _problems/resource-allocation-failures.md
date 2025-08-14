@@ -1,8 +1,22 @@
 ---
-title: "Resource Allocation Failures"
-description: "Objects, connections, file handles, or other system resources are allocated but never properly deallocated or closed, leading to resource exhaustion."
-category: ['Technical', 'Performance', 'Resource Management']
-related_problems: ['memory-leaks', 'unreleased-resources', 'resource-contention']
+title: Resource Allocation Failures
+description: Objects, connections, file handles, or other system resources are allocated
+  but never properly deallocated or closed, leading to resource exhaustion.
+category:
+- Technical
+- Performance
+- Resource Management
+related_problems:
+- slug: unreleased-resources
+  similarity: 0.853
+- slug: database-connection-leaks
+  similarity: 0.725
+- slug: incorrect-max-connection-pool-size
+  similarity: 0.647
+- slug: thread-pool-exhaustion
+  similarity: 0.642
+- slug: misconfigured-connection-pools
+  similarity: 0.597
 layout: problem
 ---
 

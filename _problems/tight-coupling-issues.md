@@ -1,8 +1,22 @@
 ---
-title: "Tight Coupling Issues"
-description: "Components are overly dependent on each other, making changes difficult and reducing system flexibility and maintainability."
-category: ['Architecture', 'Code Quality', 'Maintenance']
-related_problems: ['monolithic-architecture-constraints', 'change-impact-complexity', 'testing-difficulties']
+title: Tight Coupling Issues
+description: Components are overly dependent on each other, making changes difficult
+  and reducing system flexibility and maintainability.
+category:
+- Architecture
+- Code Quality
+- Maintenance
+related_problems:
+- slug: high-coupling-low-cohesion
+  similarity: 0.736
+- slug: hidden-dependencies
+  similarity: 0.656
+- slug: inadequate-integration-tests
+  similarity: 0.646
+- slug: circular-dependency-problems
+  similarity: 0.601
+- slug: unpredictable-system-behavior
+  similarity: 0.599
 layout: problem
 ---
 

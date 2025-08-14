@@ -1,8 +1,22 @@
 ---
-title: "Constant Firefighting"
-description: "The development team is perpetually occupied with fixing bugs and addressing urgent issues, leaving little to no time for new feature development."
-category: ['Process', 'Maintenance', 'Quality']
-related_problems: ['high-defect-rate-in-production', 'frequent-hotfixes-and-rollbacks', 'developer-frustration-and-burnout']
+title: Constant Firefighting
+description: The development team is perpetually occupied with fixing bugs and addressing
+  urgent issues, leaving little to no time for new feature development.
+category:
+- Process
+- Maintenance
+- Quality
+related_problems:
+- slug: development-disruption
+  similarity: 0.743
+- slug: time-pressure
+  similarity: 0.74
+- slug: operational-overhead
+  similarity: 0.629
+- slug: high-defect-rate-in-production
+  similarity: 0.619
+- slug: deadline-pressure
+  similarity: 0.618
 layout: problem
 ---
 

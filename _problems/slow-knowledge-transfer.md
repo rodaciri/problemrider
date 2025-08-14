@@ -1,8 +1,22 @@
 ---
-title: "Slow Knowledge Transfer"
-description: "A situation where it takes a long time for new team members to become productive."
-category: ['Knowledge Sharing', 'Process', 'Team']
-related_problems: ['knowledge-silos', 'inadequate-onboarding', 'poor-documentation']
+title: Slow Knowledge Transfer
+description: A situation where it takes a long time for new team members to become
+  productive.
+category:
+- Knowledge Sharing
+- Process
+- Team
+related_problems:
+- slug: tacit-knowledge
+  similarity: 0.796
+- slug: knowledge-sharing-breakdown
+  similarity: 0.679
+- slug: skill-development-gaps
+  similarity: 0.647
+- slug: knowledge-silos
+  similarity: 0.637
+- slug: knowledge-dependency
+  similarity: 0.626
 layout: problem
 ---
 

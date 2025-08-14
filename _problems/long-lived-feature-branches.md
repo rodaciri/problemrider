@@ -1,8 +1,21 @@
 ---
-title: "Long-Lived Feature Branches"
-description: "Code is not being reviewed and merged in a timely manner, leading to integration problems and increased risk."
-category: ['Process', 'Maintenance']
-related_problems: ['inadequate-code-reviews']
+title: Long-Lived Feature Branches
+description: Code is not being reviewed and merged in a timely manner, leading to
+  integration problems and increased risk.
+category:
+- Process
+- Maintenance
+related_problems:
+- slug: large-feature-scope
+  similarity: 0.759
+- slug: merge-conflicts
+  similarity: 0.623
+- slug: slow-feature-development
+  similarity: 0.574
+- slug: incomplete-projects
+  similarity: 0.572
+- slug: team-coordination-issues
+  similarity: 0.536
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "History of Failed Changes"
-description: "A past record of failed deployments or changes creates a culture of fear and resistance to future modifications."
-category: ['Process', 'Culture']
-related_problems: ['fear-of-breaking-changes', 'release-anxiety', 'resistance-to-change']
+title: History of Failed Changes
+description: A past record of failed deployments or changes creates a culture of fear
+  and resistance to future modifications.
+category:
+- Process
+- Culture
+related_problems:
+- slug: increasing-brittleness
+  similarity: 0.707
+- slug: fear-of-failure
+  similarity: 0.704
+- slug: fear-of-breaking-changes
+  similarity: 0.702
+- slug: release-instability
+  similarity: 0.693
+- slug: large-risky-releases
+  similarity: 0.675
 layout: problem
 ---
 

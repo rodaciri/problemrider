@@ -1,8 +1,21 @@
 ---
-title: "High Database Resource Utilization"
-description: "The database server consistently operates with high CPU or memory usage, risking instability and slowing down all dependent services."
-category: ['Performance', 'Stability']
-related_problems: ['slow-database-queries', 'inefficient-database-indexing', 'high-connection-count', 'long-running-transactions']
+title: High Database Resource Utilization
+description: The database server consistently operates with high CPU or memory usage,
+  risking instability and slowing down all dependent services.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: slow-database-queries
+  similarity: 0.881
+- slug: high-number-of-database-queries
+  similarity: 0.806
+- slug: resource-contention
+  similarity: 0.801
+- slug: memory-swapping
+  similarity: 0.769
+- slug: high-connection-count
+  similarity: 0.756
 layout: problem
 ---
 

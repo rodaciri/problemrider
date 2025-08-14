@@ -1,8 +1,22 @@
 ---
-title: "Nitpicking Culture"
-description: "Code reviews focus excessively on minor, insignificant details while overlooking important design and functionality issues."
-category: ['Culture', 'Process', 'Team Dynamics']
-related_problems: ['superficial-code-reviews', 'author-frustration', 'code-review-inefficiency']
+title: Nitpicking Culture
+description: Code reviews focus excessively on minor, insignificant details while
+  overlooking important design and functionality issues.
+category:
+- Culture
+- Process
+- Team Dynamics
+related_problems:
+- slug: perfectionist-review-culture
+  similarity: 0.672
+- slug: style-arguments-in-code-reviews
+  similarity: 0.662
+- slug: superficial-code-reviews
+  similarity: 0.659
+- slug: code-review-inefficiency
+  similarity: 0.626
+- slug: defensive-coding-practices
+  similarity: 0.597
 layout: problem
 ---
 

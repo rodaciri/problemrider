@@ -1,8 +1,18 @@
 ---
-title: "Hidden Side Effects"
-description: "Functions have undocumented side effects that modify state or trigger actions beyond their apparent purpose."
-category: ['Technical', 'Design', 'Quality']
-related_problems: ['global-state-and-side-effects', 'unpredictable-system-behavior', 'difficult-to-test-code']
+title: Hidden Side Effects
+description: Functions have undocumented side effects that modify state or trigger
+  actions beyond their apparent purpose.
+category:
+- Technical
+- Design
+- Quality
+related_problems:
+- slug: unpredictable-system-behavior
+  similarity: 0.653
+- slug: hidden-dependencies
+  similarity: 0.633
+- slug: global-state-and-side-effects
+  similarity: 0.623
 layout: problem
 ---
 

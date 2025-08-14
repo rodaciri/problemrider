@@ -1,8 +1,20 @@
 ---
-title: "Excessive Disk I/O"
-description: "The system performs a high number of disk read/write operations, indicating inefficient data access or processing."
-category: ['Performance']
-related_problems: ['inefficient-database-indexing', 'memory-swapping', 'unoptimized-file-access', 'excessive-logging']
+title: Excessive Disk I/O
+description: The system performs a high number of disk read/write operations, indicating
+  inefficient data access or processing.
+category:
+- Performance
+related_problems:
+- slug: unoptimized-file-access
+  similarity: 0.734
+- slug: resource-contention
+  similarity: 0.714
+- slug: high-database-resource-utilization
+  similarity: 0.597
+- slug: memory-swapping
+  similarity: 0.592
+- slug: interrupt-overhead
+  similarity: 0.587
 layout: problem
 ---
 

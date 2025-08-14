@@ -1,8 +1,22 @@
 ---
-title: "Architectural Mismatch"
-description: "New business requirements don't fit well within existing architectural constraints, requiring extensive workarounds or compromises."
-category: ['Design', 'Business', 'Technical']
-related_problems: ['stagnant-architecture', 'accumulation-of-workarounds', 'obsolete-technologies']
+title: Architectural Mismatch
+description: New business requirements don't fit well within existing architectural
+  constraints, requiring extensive workarounds or compromises.
+category:
+- Design
+- Business
+- Technical
+related_problems:
+- slug: stagnant-architecture
+  similarity: 0.707
+- slug: technical-architecture-limitations
+  similarity: 0.639
+- slug: complex-implementation-paths
+  similarity: 0.62
+- slug: implementation-rework
+  similarity: 0.572
+- slug: second-system-effect
+  similarity: 0.56
 layout: problem
 ---
 

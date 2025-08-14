@@ -1,8 +1,21 @@
 ---
-title: "Deployment Coupling"
-description: "A situation where multiple components or services must be deployed together, even if only one of them has changed."
-category: ['Architecture', 'Deployment']
-related_problems: ['monolithic-architecture-constraints', 'long-release-cycles', 'large-risky-releases']
+title: Deployment Coupling
+description: A situation where multiple components or services must be deployed together,
+  even if only one of them has changed.
+category:
+- Architecture
+- Deployment
+related_problems:
+- slug: deployment-environment-inconsistencies
+  similarity: 0.615
+- slug: tight-coupling-issues
+  similarity: 0.598
+- slug: deployment-risk
+  similarity: 0.592
+- slug: complex-deployment-process
+  similarity: 0.574
+- slug: shared-dependencies
+  similarity: 0.565
 layout: problem
 ---
 

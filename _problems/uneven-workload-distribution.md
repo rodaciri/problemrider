@@ -1,8 +1,22 @@
 ---
-title: "Uneven Workload Distribution"
-description: "Work is not distributed fairly or effectively across team members, leading to some being overloaded while others are underutilized."
-category: ['Team Dynamics', 'Resource Management', 'Process']
-related_problems: ['single-points-of-failure', 'mentor-burnout', 'knowledge-silos']
+title: Uneven Workload Distribution
+description: Work is not distributed fairly or effectively across team members, leading
+  to some being overloaded while others are underutilized.
+category:
+- Team Dynamics
+- Resource Management
+- Process
+related_problems:
+- slug: uneven-work-flow
+  similarity: 0.744
+- slug: capacity-mismatch
+  similarity: 0.63
+- slug: overworked-teams
+  similarity: 0.625
+- slug: bottleneck-formation
+  similarity: 0.605
+- slug: increased-stress-and-burnout
+  similarity: 0.602
 layout: problem
 ---
 

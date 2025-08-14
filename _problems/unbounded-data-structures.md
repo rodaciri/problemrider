@@ -1,8 +1,22 @@
 ---
-title: "Unbounded Data Structures"
-description: "Data structures that grow indefinitely without proper pruning or size limits, leading to memory exhaustion and performance degradation."
-category: ['Technical', 'Performance', 'Data Management']
-related_problems: ['memory-leaks', 'unbounded-data-growth', 'gradual-performance-degradation']
+title: Unbounded Data Structures
+description: Data structures that grow indefinitely without proper pruning or size
+  limits, leading to memory exhaustion and performance degradation.
+category:
+- Technical
+- Performance
+- Data Management
+related_problems:
+- slug: unbounded-data-growth
+  similarity: 0.81
+- slug: data-structure-cache-inefficiency
+  similarity: 0.709
+- slug: alignment-and-padding-issues
+  similarity: 0.667
+- slug: algorithmic-complexity-problems
+  similarity: 0.648
+- slug: memory-fragmentation
+  similarity: 0.64
 layout: problem
 ---
 

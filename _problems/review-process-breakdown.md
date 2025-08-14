@@ -1,8 +1,22 @@
 ---
-title: "Review Process Breakdown"
-description: "Code review practices fail to identify critical issues, provide meaningful feedback, or improve code quality due to systemic process failures."
-category: ['Process', 'Quality', 'Team Dynamics']
-related_problems: ['superficial-code-reviews', 'review-bottlenecks', 'team-members-not-engaged-in-review-process']
+title: Review Process Breakdown
+description: Code review practices fail to identify critical issues, provide meaningful
+  feedback, or improve code quality due to systemic process failures.
+category:
+- Process
+- Quality
+- Team Dynamics
+related_problems:
+- slug: insufficient-code-review
+  similarity: 0.905
+- slug: inadequate-code-reviews
+  similarity: 0.874
+- slug: superficial-code-reviews
+  similarity: 0.752
+- slug: code-review-inefficiency
+  similarity: 0.747
+- slug: inadequate-initial-reviews
+  similarity: 0.729
 layout: problem
 ---
 

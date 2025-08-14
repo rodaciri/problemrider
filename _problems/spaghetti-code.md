@@ -1,8 +1,18 @@
 ---
-title: "Spaghetti Code"
-description: "Code with tangled, unstructured logic that is nearly impossible to understand, debug, or modify safely."
-category: ['Code Quality', 'Maintainability', 'Architecture']
-related_problems: ['difficult-code-comprehension', 'debugging-difficulties', 'high-technical-debt']
+title: Spaghetti Code
+description: Code with tangled, unstructured logic that is nearly impossible to understand,
+  debug, or modify safely.
+category:
+- Code Quality
+- Maintainability
+- Architecture
+related_problems:
+- slug: global-state-and-side-effects
+  similarity: 0.572
+- slug: clever-code
+  similarity: 0.556
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.543
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Knowledge Gaps"
-description: "Lack of understanding about systems, business requirements, or technical domains leads to extended research time and suboptimal solutions."
-category: ['Knowledge Management', 'Team Dynamics', 'Process']
-related_problems: ['slow-development-velocity', 'difficult-developer-onboarding']
+title: Knowledge Gaps
+description: Lack of understanding about systems, business requirements, or technical
+  domains leads to extended research time and suboptimal solutions.
+category:
+- Knowledge Management
+- Team Dynamics
+- Process
+related_problems:
+- slug: incomplete-knowledge
+  similarity: 0.655
+- slug: implicit-knowledge
+  similarity: 0.649
+- slug: feature-gaps
+  similarity: 0.642
+- slug: team-churn-impact
+  similarity: 0.63
+- slug: inadequate-requirements-gathering
+  similarity: 0.608
 layout: problem
 ---
 

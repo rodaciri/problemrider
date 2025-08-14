@@ -1,8 +1,22 @@
 ---
-title: "Feature Bloat"
-description: "Products become overly complex with numerous features that dilute the core value proposition and confuse users."
-category: ['Product Management', 'Design', 'Strategy']
-related_problems: ['scope-creep', 'delayed-value-delivery', 'unclear-goals-and-priorities']
+title: Feature Bloat
+description: Products become overly complex with numerous features that dilute the
+  core value proposition and confuse users.
+category:
+- Product Management
+- Design
+- Strategy
+related_problems:
+- slug: feature-gaps
+  similarity: 0.615
+- slug: large-feature-scope
+  similarity: 0.605
+- slug: slow-feature-development
+  similarity: 0.573
+- slug: complex-implementation-paths
+  similarity: 0.568
+- slug: reduced-feature-quality
+  similarity: 0.548
 layout: problem
 ---
 

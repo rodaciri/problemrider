@@ -1,8 +1,23 @@
 ---
-title: "Eager to Please Stakeholders"
-description: "The project team agrees to every new request from the stakeholders without pushing back or explaining the trade-offs, which can lead to scope creep and a number of other problems."
-category: ['Process', 'Project Management', 'Communication']
-related_problems: ['scope-creep', 'constantly-shifting-deadlines', 'budget-overruns']
+title: Eager to Please Stakeholders
+description: The project team agrees to every new request from the stakeholders without
+  pushing back or explaining the trade-offs, which can lead to scope creep and a number
+  of other problems.
+category:
+- Process
+- Project Management
+- Communication
+related_problems:
+- slug: unclear-goals-and-priorities
+  similarity: 0.619
+- slug: stakeholder-frustration
+  similarity: 0.587
+- slug: product-direction-chaos
+  similarity: 0.58
+- slug: communication-risk-outside-project
+  similarity: 0.562
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.55
 layout: problem
 ---
 

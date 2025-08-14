@@ -1,8 +1,16 @@
 ---
-title: "SQL Injection Vulnerabilities"
-description: "Inadequate input sanitization allows attackers to inject malicious SQL code, potentially compromising database security and data integrity."
-category: ['Security', 'Database', 'Input Validation']
-related_problems: ['input-validation-failures', 'database-security-issues', 'data-exposure-vulnerabilities']
+title: SQL Injection Vulnerabilities
+description: Inadequate input sanitization allows attackers to inject malicious SQL
+  code, potentially compromising database security and data integrity.
+category:
+- Security
+- Database
+- Input Validation
+related_problems:
+- slug: log-injection-vulnerabilities
+  similarity: 0.662
+- slug: cross-site-scripting-vulnerabilities
+  similarity: 0.546
 layout: problem
 ---
 

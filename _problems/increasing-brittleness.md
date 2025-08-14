@@ -1,8 +1,22 @@
 ---
-title: "Increasing Brittleness"
-description: "Software systems become more fragile and prone to breaking over time, with small changes having unpredictable and widespread effects."
-category: ['System Quality', 'Maintainability', 'Risk']
-related_problems: ['high-technical-debt', 'tight-coupling-issues', 'maintenance-paralysis']
+title: Increasing Brittleness
+description: Software systems become more fragile and prone to breaking over time,
+  with small changes having unpredictable and widespread effects.
+category:
+- System Quality
+- Maintainability
+- Risk
+related_problems:
+- slug: brittle-codebase
+  similarity: 0.725
+- slug: increased-bug-count
+  similarity: 0.713
+- slug: history-of-failed-changes
+  similarity: 0.707
+- slug: quality-degradation
+  similarity: 0.696
+- slug: unpredictable-system-behavior
+  similarity: 0.69
 layout: problem
 ---
 

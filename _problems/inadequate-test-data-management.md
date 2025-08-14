@@ -1,8 +1,21 @@
 ---
-title: "Inadequate Test Data Management"
-description: "The use of unrealistic, outdated, or insufficient test data leads to tests that do not accurately reflect real-world scenarios."
-category: ['Process', 'Quality']
-related_problems: ['insufficient-testing', 'flaky-tests', 'data-migration-integrity-issues']
+title: Inadequate Test Data Management
+description: The use of unrealistic, outdated, or insufficient test data leads to
+  tests that do not accurately reflect real-world scenarios.
+category:
+- Process
+- Quality
+related_problems:
+- slug: inadequate-test-infrastructure
+  similarity: 0.712
+- slug: insufficient-testing
+  similarity: 0.675
+- slug: testing-environment-fragility
+  similarity: 0.645
+- slug: high-defect-rate-in-production
+  similarity: 0.631
+- slug: increased-manual-testing-effort
+  similarity: 0.62
 layout: problem
 ---
 

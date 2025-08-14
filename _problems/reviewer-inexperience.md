@@ -1,8 +1,23 @@
 ---
-title: "Reviewer Inexperience"
-description: "Reviewers lack the experience to identify deeper issues, so they focus on what they understand."
-category: ['Process', 'Quality', 'Team', 'Individual']
-related_problems: ['superficial-code-reviews', 'inadequate-code-reviews', 'bikeshedding']
+title: Reviewer Inexperience
+description: Reviewers lack the experience to identify deeper issues, so they focus
+  on what they understand.
+category:
+- Process
+- Quality
+- Team
+- Individual
+related_problems:
+- slug: reviewer-anxiety
+  similarity: 0.769
+- slug: inexperienced-developers
+  similarity: 0.758
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.682
+- slug: insufficient-code-review
+  similarity: 0.669
+- slug: reduced-review-participation
+  similarity: 0.663
 layout: problem
 ---
 

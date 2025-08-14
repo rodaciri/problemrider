@@ -1,8 +1,22 @@
 ---
-title: "Immature Delivery Strategy"
-description: "Software rollout processes are improvised, inconsistent, or inadequately planned, increasing downtime and user confusion."
-category: ['Process', 'Operations', 'Deployment']
-related_problems: ['complex-deployment-process', 'lack-of-rollback-strategy', 'deployment-environment-inconsistencies']
+title: Immature Delivery Strategy
+description: Software rollout processes are improvised, inconsistent, or inadequately
+  planned, increasing downtime and user confusion.
+category:
+- Process
+- Operations
+- Deployment
+related_problems:
+- slug: large-risky-releases
+  similarity: 0.704
+- slug: manual-deployment-processes
+  similarity: 0.653
+- slug: poor-operational-concept
+  similarity: 0.603
+- slug: complex-deployment-process
+  similarity: 0.602
+- slug: release-anxiety
+  similarity: 0.595
 layout: problem
 ---
 

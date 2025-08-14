@@ -1,8 +1,22 @@
 ---
-title: "Release Instability"
-description: "Production releases are frequently unstable, causing disruptions for users and requiring immediate attention from the development team."
-category: ['Process', 'Quality', 'Deployment']
-related_problems: ['frequent-hotfixes-and-rollbacks', 'high-defect-rate-in-production', 'release-instability']
+title: Release Instability
+description: Production releases are frequently unstable, causing disruptions for
+  users and requiring immediate attention from the development team.
+category:
+- Process
+- Quality
+- Deployment
+related_problems:
+- slug: large-risky-releases
+  similarity: 0.785
+- slug: history-of-failed-changes
+  similarity: 0.693
+- slug: long-release-cycles
+  similarity: 0.69
+- slug: high-defect-rate-in-production
+  similarity: 0.666
+- slug: increased-bug-count
+  similarity: 0.66
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Refactoring Avoidance"
-description: "The development team actively avoids refactoring the codebase, even when they acknowledge it's necessary, due to fear of introducing new bugs."
-category: ['Process', 'Maintenance', 'Quality']
-related_problems: ['fear-of-change', 'brittle-codebase', 'high-technical-debt']
+title: Refactoring Avoidance
+description: The development team actively avoids refactoring the codebase, even when
+  they acknowledge it's necessary, due to fear of introducing new bugs.
+category:
+- Process
+- Maintenance
+- Quality
+related_problems:
+- slug: high-technical-debt
+  similarity: 0.766
+- slug: brittle-codebase
+  similarity: 0.673
+- slug: maintenance-paralysis
+  similarity: 0.659
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.638
+- slug: fear-of-breaking-changes
+  similarity: 0.637
 layout: problem
 ---
 

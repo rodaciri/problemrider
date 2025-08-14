@@ -1,8 +1,22 @@
 ---
-title: "Fear of Change"
-description: "Developers are hesitant to modify existing code due to the high risk of breaking something."
-category: ['Process', 'Technical', 'Maintenance']
-related_problems: ['brittle-codebase', 'insufficient-testing', 'high-technical-debt']
+title: Fear of Change
+description: Developers are hesitant to modify existing code due to the high risk
+  of breaking something.
+category:
+- Process
+- Technical
+- Maintenance
+related_problems:
+- slug: fear-of-breaking-changes
+  similarity: 0.747
+- slug: resistance-to-change
+  similarity: 0.718
+- slug: fear-of-failure
+  similarity: 0.705
+- slug: large-estimates-for-small-changes
+  similarity: 0.699
+- slug: increased-risk-of-bugs
+  similarity: 0.697
 layout: problem
 ---
 

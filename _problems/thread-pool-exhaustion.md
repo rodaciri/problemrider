@@ -1,8 +1,22 @@
 ---
-title: "Thread Pool Exhaustion"
-description: "All available threads in the thread pool are consumed by long-running or blocked operations, preventing new tasks from being processed."
-category: ['Technical', 'Performance', 'Concurrency']
-related_problems: ['deadlock-conditions', 'service-timeouts', 'resource-contention']
+title: Thread Pool Exhaustion
+description: All available threads in the thread pool are consumed by long-running
+  or blocked operations, preventing new tasks from being processed.
+category:
+- Technical
+- Performance
+- Concurrency
+related_problems:
+- slug: resource-allocation-failures
+  similarity: 0.642
+- slug: deadlock-conditions
+  similarity: 0.626
+- slug: database-connection-leaks
+  similarity: 0.61
+- slug: misconfigured-connection-pools
+  similarity: 0.596
+- slug: incorrect-max-connection-pool-size
+  similarity: 0.584
 layout: problem
 ---
 

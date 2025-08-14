@@ -1,8 +1,23 @@
 ---
-title: "Decision Paralysis"
-description: "Developers struggle to make choices without clear guidance, which can lead to a slowdown in development and a great deal of frustration for the development team."
-category: ['Management', 'Team', 'Process']
-related_problems: ['unclear-goals-and-priorities', 'fear-of-failure', 'increased-cognitive-load']
+title: Decision Paralysis
+description: Developers struggle to make choices without clear guidance, which can
+  lead to a slowdown in development and a great deal of frustration for the development
+  team.
+category:
+- Management
+- Team
+- Process
+related_problems:
+- slug: delayed-decision-making
+  similarity: 0.708
+- slug: decision-avoidance
+  similarity: 0.67
+- slug: fear-of-failure
+  similarity: 0.613
+- slug: development-disruption
+  similarity: 0.561
+- slug: avoidance-behaviors
+  similarity: 0.559
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Algorithmic Complexity Problems"
-description: "Code uses inefficient algorithms or data structures, leading to performance bottlenecks and resource waste."
-category: ['Technical', 'Performance', 'Design']
-related_problems: ['inefficient-code', 'slow-application-performance', 'gradual-performance-degradation']
+title: Algorithmic Complexity Problems
+description: Code uses inefficient algorithms or data structures, leading to performance
+  bottlenecks and resource waste.
+category:
+- Technical
+- Performance
+- Design
+related_problems:
+- slug: data-structure-cache-inefficiency
+  similarity: 0.656
+- slug: unbounded-data-structures
+  similarity: 0.648
+- slug: inefficient-code
+  similarity: 0.565
+- slug: alignment-and-padding-issues
+  similarity: 0.561
+- slug: imperative-data-fetching-logic
+  similarity: 0.558
 layout: problem
 ---
 

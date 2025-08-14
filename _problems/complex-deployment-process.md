@@ -1,8 +1,21 @@
 ---
-title: "Complex Deployment Process"
-description: "The process of deploying software to production is manual, time-consuming, and error-prone, which contributes to long release cycles and a high risk of failure."
-category: ['Process', 'Deployment']
-related_problems: ['long-release-cycles', 'large-risky-releases', 'release-anxiety']
+title: Complex Deployment Process
+description: The process of deploying software to production is manual, time-consuming,
+  and error-prone, which contributes to long release cycles and a high risk of failure.
+category:
+- Process
+- Deployment
+related_problems:
+- slug: manual-deployment-processes
+  similarity: 0.733
+- slug: immature-delivery-strategy
+  similarity: 0.602
+- slug: deployment-coupling
+  similarity: 0.574
+- slug: deployment-risk
+  similarity: 0.573
+- slug: deployment-environment-inconsistencies
+  similarity: 0.543
 layout: problem
 ---
 

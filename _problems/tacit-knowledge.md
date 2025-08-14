@@ -1,8 +1,21 @@
 ---
-title: "Tacit Knowledge"
-description: "Knowledge that is difficult to transfer to another person by means of writing it down or verbalizing it."
-category: ['Team', 'Process']
-related_problems: ['knowledge-silos', 'slow-knowledge-transfer', 'inadequate-onboarding']
+title: Tacit Knowledge
+description: Knowledge that is difficult to transfer to another person by means of
+  writing it down or verbalizing it.
+category:
+- Team
+- Process
+related_problems:
+- slug: slow-knowledge-transfer
+  similarity: 0.796
+- slug: knowledge-sharing-breakdown
+  similarity: 0.694
+- slug: skill-development-gaps
+  similarity: 0.692
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.679
+- slug: knowledge-silos
+  similarity: 0.65
 layout: problem
 ---
 

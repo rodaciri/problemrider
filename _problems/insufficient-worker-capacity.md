@@ -1,8 +1,21 @@
 ---
-title: "Insufficient Worker Capacity"
-description: "There are not enough worker processes or threads to handle the incoming volume of tasks in an asynchronous system, leading to growing queues."
-category: ['Performance', 'Stability']
-related_problems: ['growing-task-queues', 'inefficient-code', 'external-service-delays']
+title: Insufficient Worker Capacity
+description: There are not enough worker processes or threads to handle the incoming
+  volume of tasks in an asynchronous system, leading to growing queues.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: task-queues-backing-up
+  similarity: 0.934
+- slug: growing-task-queues
+  similarity: 0.84
+- slug: increased-error-rates
+  similarity: 0.607
+- slug: work-queue-buildup
+  similarity: 0.55
+- slug: capacity-mismatch
+  similarity: 0.546
 layout: problem
 ---
 

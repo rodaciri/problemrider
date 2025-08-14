@@ -1,8 +1,22 @@
 ---
-title: "Avoidance Behaviors"
-description: "Complex tasks are postponed or avoided entirely due to cognitive overload, fear, or perceived difficulty."
-category: ['Team', 'Process', 'Management']
-related_problems: ['bikeshedding', 'cognitive-overload', 'fear-of-change', 'mental-fatigue']
+title: Avoidance Behaviors
+description: Complex tasks are postponed or avoided entirely due to cognitive overload,
+  fear, or perceived difficulty.
+category:
+- Team
+- Process
+- Management
+related_problems:
+- slug: procrastination-on-complex-tasks
+  similarity: 0.751
+- slug: increased-manual-work
+  similarity: 0.629
+- slug: cognitive-overload
+  similarity: 0.619
+- slug: fear-of-failure
+  similarity: 0.61
+- slug: reduced-individual-productivity
+  similarity: 0.595
 layout: problem
 ---
 

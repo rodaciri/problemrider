@@ -1,8 +1,21 @@
 ---
-title: "Log Spam"
-description: "The application or database logs are flooded with a large number of similar-looking queries, making it difficult to identify and diagnose other issues."
-category: ['Maintenance', 'Observability']
-related_problems: ['n-plus-one-query-problem', 'debugging-difficulties', 'excessive-logging']
+title: Log Spam
+description: The application or database logs are flooded with a large number of similar-looking
+  queries, making it difficult to identify and diagnose other issues.
+category:
+- Maintenance
+- Observability
+related_problems:
+- slug: excessive-logging
+  similarity: 0.753
+- slug: slow-database-queries
+  similarity: 0.674
+- slug: high-database-resource-utilization
+  similarity: 0.662
+- slug: high-number-of-database-queries
+  similarity: 0.654
+- slug: increased-error-rates
+  similarity: 0.65
 layout: problem
 ---
 

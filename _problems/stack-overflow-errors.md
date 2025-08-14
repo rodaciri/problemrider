@@ -1,8 +1,22 @@
 ---
-title: "Stack Overflow Errors"
-description: "Programs exceed the allocated stack space due to excessive recursion or large local variables, causing application crashes."
-category: ['Technical', 'Performance', 'Runtime Errors']
-related_problems: ['recursive-algorithm-issues', 'memory-leaks', 'unpredictable-system-behavior']
+title: Stack Overflow Errors
+description: Programs exceed the allocated stack space due to excessive recursion
+  or large local variables, causing application crashes.
+category:
+- Technical
+- Performance
+- Runtime Errors
+related_problems:
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.741
+- slug: null-pointer-dereferences
+  similarity: 0.684
+- slug: inadequate-error-handling
+  similarity: 0.611
+- slug: memory-leaks
+  similarity: 0.595
+- slug: excessive-object-allocation
+  similarity: 0.565
 layout: problem
 ---
 

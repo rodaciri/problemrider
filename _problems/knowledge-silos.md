@@ -1,8 +1,22 @@
 ---
-title: "Knowledge Silos"
-description: "Important research findings and expertise remain isolated to individual team members, preventing knowledge sharing and team learning."
-category: ['Team', 'Process', 'Culture']
-related_problems: ['duplicated-research-effort', 'poor-communication', 'inconsistent-execution']
+title: Knowledge Silos
+description: Important research findings and expertise remain isolated to individual
+  team members, preventing knowledge sharing and team learning.
+category:
+- Team
+- Process
+- Culture
+related_problems:
+- slug: knowledge-sharing-breakdown
+  similarity: 0.821
+- slug: team-silos
+  similarity: 0.742
+- slug: knowledge-dependency
+  similarity: 0.678
+- slug: tacit-knowledge
+  similarity: 0.65
+- slug: slow-knowledge-transfer
+  similarity: 0.637
 layout: problem
 ---
 

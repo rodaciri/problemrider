@@ -1,8 +1,21 @@
 ---
-title: "Misconfigured Connection Pools"
-description: "Application connection pools are improperly set up, leading to inefficient resource utilization or connection exhaustion."
-category: ['Performance', 'Stability']
-related_problems: ['database-connection-leaks', 'high-database-resource-utilization', 'slow-application-performance']
+title: Misconfigured Connection Pools
+description: Application connection pools are improperly set up, leading to inefficient
+  resource utilization or connection exhaustion.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: incorrect-max-connection-pool-size
+  similarity: 0.919
+- slug: database-connection-leaks
+  similarity: 0.73
+- slug: high-connection-count
+  similarity: 0.693
+- slug: high-database-resource-utilization
+  similarity: 0.672
+- slug: service-timeouts
+  similarity: 0.652
 layout: problem
 ---
 

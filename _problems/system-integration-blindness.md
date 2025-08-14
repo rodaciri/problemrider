@@ -1,8 +1,22 @@
 ---
-title: "System Integration Blindness"
-description: "Components work correctly in isolation but fail when integrated, revealing gaps in end-to-end system understanding."
-category: ['Integration', 'Testing', 'Architecture']
-related_problems: ['integration-difficulties', 'system-outages', 'hidden-dependencies']
+title: System Integration Blindness
+description: Components work correctly in isolation but fail when integrated, revealing
+  gaps in end-to-end system understanding.
+category:
+- Integration
+- Testing
+- Architecture
+related_problems:
+- slug: inadequate-integration-tests
+  similarity: 0.739
+- slug: missing-end-to-end-tests
+  similarity: 0.731
+- slug: poor-interfaces-between-applications
+  similarity: 0.624
+- slug: hidden-dependencies
+  similarity: 0.62
+- slug: quality-blind-spots
+  similarity: 0.594
 layout: problem
 ---
 

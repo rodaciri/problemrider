@@ -1,8 +1,21 @@
 ---
-title: "Limited Team Learning"
-description: "A situation where a team does not learn from its mistakes and does not improve over time."
-category: ['Team', 'Process']
-related_problems: ['knowledge-silos', 'lack-of-a-feedback-loop', 'blame-culture']
+title: Limited Team Learning
+description: A situation where a team does not learn from its mistakes and does not
+  improve over time.
+category:
+- Team
+- Process
+related_problems:
+- slug: reduced-innovation
+  similarity: 0.602
+- slug: slow-knowledge-transfer
+  similarity: 0.591
+- slug: skill-development-gaps
+  similarity: 0.583
+- slug: tacit-knowledge
+  similarity: 0.581
+- slug: reduced-team-flexibility
+  similarity: 0.573
 layout: problem
 ---
 

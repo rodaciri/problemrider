@@ -1,8 +1,22 @@
 ---
-title: "Insufficient Design Skills"
-description: "The development team lacks the necessary skills and experience to design and build well-structured, maintainable software."
-category: ['Team', 'Quality', 'Maintenance']
-related_problems: ['monolithic-functions-and-classes', 'high-coupling-low-cohesion', 'complex-and-obscure-logic']
+title: Insufficient Design Skills
+description: The development team lacks the necessary skills and experience to design
+  and build well-structured, maintainable software.
+category:
+- Team
+- Quality
+- Maintenance
+related_problems:
+- slug: brittle-codebase
+  similarity: 0.716
+- slug: inexperienced-developers
+  similarity: 0.668
+- slug: fear-of-breaking-changes
+  similarity: 0.644
+- slug: inability-to-innovate
+  similarity: 0.62
+- slug: difficult-code-comprehension
+  similarity: 0.619
 layout: problem
 ---
 

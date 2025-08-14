@@ -1,8 +1,22 @@
 ---
-title: "Single Points of Failure"
-description: "Progress is blocked when specific knowledge holders or system components are unavailable, creating critical dependencies."
-category: ['Team Dynamics', 'Process', 'Risk Management']
-related_problems: ['knowledge-silos', 'high-turnover', 'team-churn-impact']
+title: Single Points of Failure
+description: Progress is blocked when specific knowledge holders or system components
+  are unavailable, creating critical dependencies.
+category:
+- Team Dynamics
+- Process
+- Risk Management
+related_problems:
+- slug: reduced-team-flexibility
+  similarity: 0.626
+- slug: knowledge-dependency
+  similarity: 0.619
+- slug: staff-availability-issues
+  similarity: 0.594
+- slug: cascade-failures
+  similarity: 0.589
+- slug: knowledge-silos
+  similarity: 0.573
 layout: problem
 ---
 

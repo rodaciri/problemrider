@@ -1,8 +1,22 @@
 ---
-title: "Reduced Innovation"
-description: "Teams become resistant to new ideas and focus only on the bare minimum to get by."
-category: ['Process', 'Team Dynamics', 'Business']
-related_problems: ['developer-frustration-and-burnout', 'fear-of-change', 'obsolete-technologies']
+title: Reduced Innovation
+description: Teams become resistant to new ideas and focus only on the bare minimum
+  to get by.
+category:
+- Process
+- Team Dynamics
+- Business
+related_problems:
+- slug: inability-to-innovate
+  similarity: 0.695
+- slug: premature-technology-introduction
+  similarity: 0.64
+- slug: fear-of-breaking-changes
+  similarity: 0.618
+- slug: resistance-to-change
+  similarity: 0.612
+- slug: limited-team-learning
+  similarity: 0.602
 layout: problem
 ---
 

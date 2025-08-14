@@ -1,8 +1,22 @@
 ---
-title: "Poor Project Control"
-description: "Project progress is not monitored effectively, allowing problems to go unnoticed until recovery becomes difficult or impossible."
-category: ['Management', 'Process', 'Planning']
-related_problems: ['unclear-goals-and-priorities', 'inadequate-communication', 'delayed-decision-making']
+title: Poor Project Control
+description: Project progress is not monitored effectively, allowing problems to go
+  unnoticed until recovery becomes difficult or impossible.
+category:
+- Management
+- Process
+- Planning
+related_problems:
+- slug: planning-dysfunction
+  similarity: 0.67
+- slug: poor-planning
+  similarity: 0.636
+- slug: delayed-project-timelines
+  similarity: 0.594
+- slug: unclear-goals-and-priorities
+  similarity: 0.584
+- slug: project-authority-vacuum
+  similarity: 0.556
 layout: problem
 ---
 

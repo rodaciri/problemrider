@@ -1,8 +1,20 @@
 ---
-title: "Network Latency"
-description: "Delays in data transmission across the network significantly increase response times and impact application performance."
-category: ['Performance']
-related_problems: ['high-api-latency', 'service-timeouts']
+title: Network Latency
+description: Delays in data transmission across the network significantly increase
+  response times and impact application performance.
+category:
+- Performance
+related_problems:
+- slug: high-api-latency
+  similarity: 0.785
+- slug: service-timeouts
+  similarity: 0.708
+- slug: external-service-delays
+  similarity: 0.664
+- slug: slow-application-performance
+  similarity: 0.653
+- slug: upstream-timeouts
+  similarity: 0.648
 layout: problem
 ---
 

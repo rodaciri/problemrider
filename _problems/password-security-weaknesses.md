@@ -1,8 +1,16 @@
 ---
-title: "Password Security Weaknesses"
-description: "Weak password policies, inadequate storage mechanisms, and poor authentication practices create security vulnerabilities."
-category: ['Security', 'Authentication', 'Credential Management']
-related_problems: ['authentication-bypass-vulnerabilities', 'brute-force-attack-vulnerabilities', 'credential-stuffing-attacks']
+title: Password Security Weaknesses
+description: Weak password policies, inadequate storage mechanisms, and poor authentication
+  practices create security vulnerabilities.
+category:
+- Security
+- Authentication
+- Credential Management
+related_problems:
+- slug: authentication-bypass-vulnerabilities
+  similarity: 0.621
+- slug: secret-management-problems
+  similarity: 0.569
 layout: problem
 ---
 

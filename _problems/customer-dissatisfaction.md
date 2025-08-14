@@ -1,8 +1,22 @@
 ---
-title: "Customer Dissatisfaction"
-description: "Users become frustrated with system reliability, performance, or usability issues, leading to complaints and potential customer loss."
-category: ['User Experience', 'Business Impact', 'Quality']
-related_problems: ['quality-degradation', 'poor-user-experience-ux-design', 'system-instability']
+title: Customer Dissatisfaction
+description: Users become frustrated with system reliability, performance, or usability
+  issues, leading to complaints and potential customer loss.
+category:
+- User Experience
+- Business Impact
+- Quality
+related_problems:
+- slug: user-frustration
+  similarity: 0.802
+- slug: increased-customer-support-load
+  similarity: 0.701
+- slug: negative-brand-perception
+  similarity: 0.648
+- slug: user-trust-erosion
+  similarity: 0.644
+- slug: system-outages
+  similarity: 0.622
 layout: problem
 ---
 

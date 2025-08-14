@@ -1,8 +1,21 @@
 ---
-title: "Frequent Changes to Requirements"
-description: "The requirements for a project or feature are constantly being updated, even after development has started, leading to rework, delays, and frustration."
-category: ['Process', 'Communication']
-related_problems: ['scope-creep', 'scope-creep', 'no-formal-change-control-process']
+title: Frequent Changes to Requirements
+description: The requirements for a project or feature are constantly being updated,
+  even after development has started, leading to rework, delays, and frustration.
+category:
+- Process
+- Communication
+related_problems:
+- slug: constantly-shifting-deadlines
+  similarity: 0.798
+- slug: no-formal-change-control-process
+  similarity: 0.786
+- slug: changing-project-scope
+  similarity: 0.741
+- slug: scope-creep
+  similarity: 0.716
+- slug: wasted-development-effort
+  similarity: 0.66
 layout: problem
 ---
 

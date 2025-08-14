@@ -1,8 +1,21 @@
 ---
-title: "Style Arguments in Code Reviews"
-description: "A situation where a significant amount of time in code reviews is spent debating trivial style issues instead of focusing on logic and design."
-category: ['Process', 'Code Quality']
-related_problems: ['inconsistent-codebase', 'undefined-code-style-guidelines', 'inadequate-code-reviews']
+title: Style Arguments in Code Reviews
+description: A situation where a significant amount of time in code reviews is spent
+  debating trivial style issues instead of focusing on logic and design.
+category:
+- Process
+- Code Quality
+related_problems:
+- slug: code-review-inefficiency
+  similarity: 0.716
+- slug: nitpicking-culture
+  similarity: 0.662
+- slug: superficial-code-reviews
+  similarity: 0.661
+- slug: inadequate-code-reviews
+  similarity: 0.639
+- slug: defensive-coding-practices
+  similarity: 0.607
 layout: problem
 ---
 

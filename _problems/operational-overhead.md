@@ -1,8 +1,21 @@
 ---
-title: "Operational Overhead"
-description: "A significant amount of time and resources are spent on emergency response and firefighting, rather than on planned development and innovation."
-category: ['Process', 'Maintenance']
-related_problems: ['constant-firefighting', 'maintenance-overhead', 'increased-cost-of-development']
+title: Operational Overhead
+description: A significant amount of time and resources are spent on emergency response
+  and firefighting, rather than on planned development and innovation.
+category:
+- Process
+- Maintenance
+related_problems:
+- slug: constant-firefighting
+  similarity: 0.629
+- slug: maintenance-overhead
+  similarity: 0.579
+- slug: context-switching-overhead
+  similarity: 0.526
+- slug: inefficient-processes
+  similarity: 0.521
+- slug: reduced-team-productivity
+  similarity: 0.515
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Increased Time to Market"
-description: "It takes longer to get new features and products to market, potentially resulting in loss of competitive advantage and revenue opportunities."
-category: ['Business', 'Process', 'Strategic']
-related_problems: ['slow-development-velocity', 'missed-deadlines', 'complex-deployment-process']
+title: Increased Time to Market
+description: It takes longer to get new features and products to market, potentially
+  resulting in loss of competitive advantage and revenue opportunities.
+category:
+- Business
+- Process
+- Strategic
+related_problems:
+- slug: delayed-value-delivery
+  similarity: 0.759
+- slug: slow-feature-development
+  similarity: 0.704
+- slug: slow-development-velocity
+  similarity: 0.637
+- slug: release-instability
+  similarity: 0.589
+- slug: delayed-project-timelines
+  similarity: 0.583
 layout: problem
 ---
 

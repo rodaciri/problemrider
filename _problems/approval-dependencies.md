@@ -1,8 +1,22 @@
 ---
-title: "Approval Dependencies"
-description: "Work progress is frequently blocked by the need for approvals from specific individuals, creating bottlenecks and delays."
-category: ['Process', 'Dependencies', 'Bottlenecks']
-related_problems: ['bottleneck-formation', 'single-points-of-failure', 'delayed-decision-making']
+title: Approval Dependencies
+description: Work progress is frequently blocked by the need for approvals from specific
+  individuals, creating bottlenecks and delays.
+category:
+- Process
+- Dependencies
+- Bottlenecks
+related_problems:
+- slug: work-blocking
+  similarity: 0.713
+- slug: work-queue-buildup
+  similarity: 0.625
+- slug: delayed-decision-making
+  similarity: 0.593
+- slug: inefficient-processes
+  similarity: 0.571
+- slug: bottleneck-formation
+  similarity: 0.552
 layout: problem
 ---
 

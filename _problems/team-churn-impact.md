@@ -1,8 +1,22 @@
 ---
-title: "Team Churn Impact"
-description: "Over time, as developers join and leave the team, they bring inconsistent practices and knowledge gaps that degrade code quality."
-category: ['Process', 'Communication', 'Quality']
-related_problems: ['inconsistent-codebase', 'poor-documentation', 'loss-of-stakeholder-confidence']
+title: Team Churn Impact
+description: Over time, as developers join and leave the team, they bring inconsistent
+  practices and knowledge gaps that degrade code quality.
+category:
+- Process
+- Communication
+- Quality
+related_problems:
+- slug: inexperienced-developers
+  similarity: 0.646
+- slug: knowledge-gaps
+  similarity: 0.63
+- slug: difficult-developer-onboarding
+  similarity: 0.609
+- slug: high-turnover
+  similarity: 0.604
+- slug: implicit-knowledge
+  similarity: 0.603
 layout: problem
 ---
 

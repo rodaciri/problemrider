@@ -1,8 +1,22 @@
 ---
-title: "Poor Interfaces Between Applications"
-description: "Disconnected or poorly defined interfaces lead to fragile integrations and inconsistent data"
-category: ['Technical', 'Design', 'Integration']
-related_problems: [high-coupling-low-cohesion, inconsistent-behavior, high-maintenance-costs]
+title: Poor Interfaces Between Applications
+description: Disconnected or poorly defined interfaces lead to fragile integrations
+  and inconsistent data
+category:
+- Technical
+- Design
+- Integration
+related_problems:
+- slug: integration-difficulties
+  similarity: 0.683
+- slug: inadequate-integration-tests
+  similarity: 0.678
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.636
+- slug: system-integration-blindness
+  similarity: 0.624
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.587
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Hidden Dependencies"
-description: "Workarounds and patches create unexpected dependencies between system components that are not obvious from the code structure."
-category: ['Technical', 'Design', 'Maintenance']
-related_problems: ['accumulation-of-workarounds', 'high-coupling-low-cohesion', 'ripple-effect-of-changes']
+title: Hidden Dependencies
+description: Workarounds and patches create unexpected dependencies between system
+  components that are not obvious from the code structure.
+category:
+- Technical
+- Design
+- Maintenance
+related_problems:
+- slug: unpredictable-system-behavior
+  similarity: 0.743
+- slug: high-coupling-low-cohesion
+  similarity: 0.664
+- slug: tight-coupling-issues
+  similarity: 0.656
+- slug: inadequate-integration-tests
+  similarity: 0.635
+- slug: hidden-side-effects
+  similarity: 0.633
 layout: problem
 ---
 

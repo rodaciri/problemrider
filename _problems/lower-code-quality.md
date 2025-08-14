@@ -1,8 +1,22 @@
 ---
-title: "Lower Code Quality"
-description: "Burned-out or rushed developers are more likely to make mistakes, leading to an increase in defects."
-category: ['Quality', 'Process', 'Team Dynamics']
-related_problems: ['developer-frustration-and-burnout', 'time-pressure', 'high-bug-introduction-rate']
+title: Lower Code Quality
+description: Burned-out or rushed developers are more likely to make mistakes, leading
+  to an increase in defects.
+category:
+- Quality
+- Process
+- Team Dynamics
+related_problems:
+- slug: increased-risk-of-bugs
+  similarity: 0.743
+- slug: code-review-inefficiency
+  similarity: 0.719
+- slug: inadequate-code-reviews
+  similarity: 0.708
+- slug: inexperienced-developers
+  similarity: 0.691
+- slug: superficial-code-reviews
+  similarity: 0.688
 layout: problem
 ---
 

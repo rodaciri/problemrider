@@ -1,8 +1,22 @@
 ---
-title: "System Integration Blindness"
-description: "Complete user flows are not tested from start to finish, allowing workflow-breaking bugs to reach production."
-category: ['Testing', 'Quality', 'Process']
-related_problems: ['insufficient-testing', 'inadequate-integration-tests', 'high-defect-rate-in-production']
+title: System Integration Blindness
+description: Complete user flows are not tested from start to finish, allowing workflow-breaking
+  bugs to reach production.
+category:
+- Testing
+- Quality
+- Process
+related_problems:
+- slug: system-integration-blindness
+  similarity: 0.731
+- slug: inadequate-integration-tests
+  similarity: 0.647
+- slug: quality-blind-spots
+  similarity: 0.644
+- slug: inconsistent-behavior
+  similarity: 0.523
+- slug: single-points-of-failure
+  similarity: 0.52
 layout: problem
 ---
 

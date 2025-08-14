@@ -1,8 +1,22 @@
 ---
-title: "Decision Avoidance"
-description: "Important technical decisions are repeatedly deferred, preventing progress and creating bottlenecks in development work."
-category: ['Process', 'Team Dynamics', 'Decision Making']
-related_problems: ['analysis-paralysis', 'decision-paralysis', 'unclear-goals-and-priorities']
+title: Decision Avoidance
+description: Important technical decisions are repeatedly deferred, preventing progress
+  and creating bottlenecks in development work.
+category:
+- Process
+- Team Dynamics
+- Decision Making
+related_problems:
+- slug: delayed-decision-making
+  similarity: 0.803
+- slug: decision-paralysis
+  similarity: 0.67
+- slug: accumulated-decision-debt
+  similarity: 0.628
+- slug: avoidance-behaviors
+  similarity: 0.564
+- slug: work-blocking
+  similarity: 0.551
 layout: problem
 ---
 

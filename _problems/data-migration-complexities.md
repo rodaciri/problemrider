@@ -1,8 +1,20 @@
 ---
-title: "Data Migration Complexities"
-description: "Complex data migration processes create risks of data loss, corruption, or extended downtime during system updates."
-category: ['Technical', 'Process', 'Integration']
-related_problems: ['database-schema-design-problems', 'data-consistency-issues', 'deployment-failures']
+title: Data Migration Complexities
+description: Complex data migration processes create risks of data loss, corruption,
+  or extended downtime during system updates.
+category:
+- Technical
+- Process
+- Integration
+related_problems:
+- slug: data-migration-integrity-issues
+  similarity: 0.73
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.647
+- slug: deployment-risk
+  similarity: 0.543
+- slug: missing-rollback-strategy
+  similarity: 0.51
 layout: problem
 ---
 

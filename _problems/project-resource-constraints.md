@@ -1,8 +1,22 @@
 ---
-title: "Project Resource Constraints"
-description: "Projects cannot obtain necessary budget, personnel, or organizational resources due to poor planning or competing priorities."
-category: ['Management', 'Resource Planning', 'Organizational']
-related_problems: ['project-authority-vacuum', 'competing-priorities', 'staff-availability-issues']
+title: Project Resource Constraints
+description: Projects cannot obtain necessary budget, personnel, or organizational
+  resources due to poor planning or competing priorities.
+category:
+- Management
+- Resource Planning
+- Organizational
+related_problems:
+- slug: poor-planning
+  similarity: 0.694
+- slug: project-authority-vacuum
+  similarity: 0.692
+- slug: staff-availability-issues
+  similarity: 0.672
+- slug: planning-dysfunction
+  similarity: 0.606
+- slug: capacity-mismatch
+  similarity: 0.583
 layout: problem
 ---
 

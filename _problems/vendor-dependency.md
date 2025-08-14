@@ -1,8 +1,20 @@
 ---
-title: "Vendor Dependency"
-description: "Excessive reliance on external vendors or suppliers creates risks when they become unavailable, change terms, or fail to meet expectations."
-category: ['Risk Management', 'Vendor Relations', 'Business Continuity']
-related_problems: ['vendor-lock-in', 'single-points-of-failure', 'technology-lock-in']
+title: Vendor Dependency
+description: Excessive reliance on external vendors or suppliers creates risks when
+  they become unavailable, change terms, or fail to meet expectations.
+category:
+- Risk Management
+- Vendor Relations
+- Business Continuity
+related_problems:
+- slug: dependency-on-supplier
+  similarity: 0.854
+- slug: vendor-relationship-strain
+  similarity: 0.656
+- slug: vendor-dependency-entrapment
+  similarity: 0.626
+- slug: vendor-lock-in
+  similarity: 0.515
 layout: problem
 ---
 

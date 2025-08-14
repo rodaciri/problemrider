@@ -1,8 +1,14 @@
 ---
-title: "Legal Disputes"
-description: "Conflicts over contracts, deliverables, or responsibilities escalate to legal proceedings, consuming resources and damaging relationships."
-category: ['Legal', 'Risk Management', 'Vendor Relations']
-related_problems: ['poor-contract-design', 'vendor-relationship-strain', 'scope-creep']
+title: Legal Disputes
+description: Conflicts over contracts, deliverables, or responsibilities escalate
+  to legal proceedings, consuming resources and damaging relationships.
+category:
+- Legal
+- Risk Management
+- Vendor Relations
+related_problems:
+- slug: vendor-relationship-strain
+  similarity: 0.61
 layout: problem
 ---
 

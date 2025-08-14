@@ -1,8 +1,22 @@
 ---
-title: "Conflicting Reviewer Opinions"
-description: "Multiple reviewers provide contradictory guidance on the same code changes, creating confusion and inefficiency."
-category: ['Process', 'Team Dynamics', 'Communication']
-related_problems: ['code-review-inefficiency', 'author-frustration', 'code-review-inefficiency']
+title: Conflicting Reviewer Opinions
+description: Multiple reviewers provide contradictory guidance on the same code changes,
+  creating confusion and inefficiency.
+category:
+- Process
+- Team Dynamics
+- Communication
+related_problems:
+- slug: fear-of-conflict
+  similarity: 0.624
+- slug: author-frustration
+  similarity: 0.608
+- slug: code-review-inefficiency
+  similarity: 0.592
+- slug: extended-review-cycles
+  similarity: 0.582
+- slug: review-process-breakdown
+  similarity: 0.58
 layout: problem
 ---
 

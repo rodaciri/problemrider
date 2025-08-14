@@ -1,8 +1,21 @@
 ---
-title: "Procedural Programming in OOP Languages"
-description: "Code is written in a procedural style within object-oriented languages, leading to large, monolithic functions and poor encapsulation."
-category: ['Technical', 'Design', 'Architecture', 'Quality']
-related_problems: ['high-coupling-low-cohesion', 'monolithic-functions-and-classes', 'complex-and-obscure-logic']
+title: Procedural Programming in OOP Languages
+description: Code is written in a procedural style within object-oriented languages,
+  leading to large, monolithic functions and poor encapsulation.
+category:
+- Technical
+- Design
+- Architecture
+- Quality
+related_problems:
+- slug: procedural-background
+  similarity: 0.695
+- slug: misunderstanding-of-oop
+  similarity: 0.62
+- slug: spaghetti-code
+  similarity: 0.543
+- slug: over-reliance-on-utility-classes
+  similarity: 0.519
 layout: problem
 ---
 

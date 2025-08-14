@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Quality"
-description: "Some parts of the system are well-maintained while others deteriorate, creating unpredictable user experiences and maintenance challenges."
-category: ['Quality', 'Maintenance', 'Process']
-related_problems: ['lack-of-ownership-and-accountability', 'high-technical-debt', 'inconsistent-codebase']
+title: Inconsistent Quality
+description: Some parts of the system are well-maintained while others deteriorate,
+  creating unpredictable user experiences and maintenance challenges.
+category:
+- Quality
+- Maintenance
+- Process
+related_problems:
+- slug: quality-degradation
+  similarity: 0.673
+- slug: inconsistent-coding-standards
+  similarity: 0.629
+- slug: increasing-brittleness
+  similarity: 0.599
+- slug: inadequate-integration-tests
+  similarity: 0.584
+- slug: lower-code-quality
+  similarity: 0.58
 layout: problem
 ---
 

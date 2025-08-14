@@ -1,8 +1,22 @@
 ---
-title: "Scope Change Resistance"
-description: "Necessary changes to project scope are avoided or resisted due to process constraints, contract limitations, or organizational inertia."
-category: ['Change Management', 'Process', 'Risk Management']
-related_problems: ['poor-contract-design', 'changing-project-scope', 'fear-of-change']
+title: Scope Change Resistance
+description: Necessary changes to project scope are avoided or resisted due to process
+  constraints, contract limitations, or organizational inertia.
+category:
+- Change Management
+- Process
+- Risk Management
+related_problems:
+- slug: changing-project-scope
+  similarity: 0.781
+- slug: no-formal-change-control-process
+  similarity: 0.774
+- slug: scope-creep
+  similarity: 0.724
+- slug: frequent-changes-to-requirements
+  similarity: 0.647
+- slug: resistance-to-change
+  similarity: 0.533
 layout: problem
 ---
 

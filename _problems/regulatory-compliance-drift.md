@@ -1,8 +1,22 @@
 ---
-title: "Regulatory Compliance Drift"
-description: "Legacy systems fall behind evolving regulatory requirements, creating compliance gaps that are expensive and risky to address"
-category: ['Legal', 'Risk Management', 'Process']
-related_problems: [data-protection-risk, stagnant-architecture, legacy-skill-shortage-crisis]
+title: Regulatory Compliance Drift
+description: Legacy systems fall behind evolving regulatory requirements, creating
+  compliance gaps that are expensive and risky to address
+category:
+- Legal
+- Risk Management
+- Process
+related_problems:
+- slug: data-migration-integrity-issues
+  similarity: 0.564
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.557
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.552
+- slug: vendor-dependency-entrapment
+  similarity: 0.549
+- slug: architectural-mismatch
+  similarity: 0.543
 layout: problem
 ---
 

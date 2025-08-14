@@ -1,8 +1,22 @@
 ---
-title: "Communication Risk Within Project"
-description: "Misunderstandings and unclear messages reduce coordination and trust among project team members."
-category: ['Communication', 'Team Dynamics', 'Process']
-related_problems: ['poor-communication', 'team-coordination-issues', 'stakeholder-developer-communication-gap']
+title: Communication Risk Within Project
+description: Misunderstandings and unclear messages reduce coordination and trust
+  among project team members.
+category:
+- Communication
+- Team Dynamics
+- Process
+related_problems:
+- slug: team-confusion
+  similarity: 0.758
+- slug: communication-risk-outside-project
+  similarity: 0.728
+- slug: language-barriers
+  similarity: 0.688
+- slug: communication-breakdown
+  similarity: 0.665
+- slug: requirements-ambiguity
+  similarity: 0.65
 layout: problem
 ---
 

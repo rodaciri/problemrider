@@ -1,8 +1,22 @@
 ---
-title: "Quality Blind Spots"
-description: "Critical system behaviors and failure modes remain undetected due to gaps in testing coverage and verification practices."
-category: ['Quality', 'Process', 'Risk Management']
-related_problems: ['high-defect-rate-in-production', 'flaky-tests', 'legacy-code-without-tests']
+title: Quality Blind Spots
+description: Critical system behaviors and failure modes remain undetected due to
+  gaps in testing coverage and verification practices.
+category:
+- Quality
+- Process
+- Risk Management
+related_problems:
+- slug: poor-test-coverage
+  similarity: 0.725
+- slug: testing-environment-fragility
+  similarity: 0.682
+- slug: inadequate-integration-tests
+  similarity: 0.67
+- slug: insufficient-testing
+  similarity: 0.666
+- slug: inadequate-test-infrastructure
+  similarity: 0.645
 layout: problem
 ---
 

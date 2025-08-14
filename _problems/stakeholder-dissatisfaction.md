@@ -1,8 +1,22 @@
 ---
-title: "Stakeholder Dissatisfaction"
-description: "Business stakeholders become unhappy with project outcomes, development speed, or communication quality."
-category: ['Stakeholder Relations', 'Communication', 'Project Management']
-related_problems: ['misaligned-deliverables', 'stakeholder-developer-communication-gap', 'delayed-project-timelines']
+title: Stakeholder Dissatisfaction
+description: Business stakeholders become unhappy with project outcomes, development
+  speed, or communication quality.
+category:
+- Stakeholder Relations
+- Communication
+- Project Management
+related_problems:
+- slug: stakeholder-frustration
+  similarity: 0.908
+- slug: stakeholder-confidence-loss
+  similarity: 0.649
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.645
+- slug: declining-business-metrics
+  similarity: 0.604
+- slug: communication-risk-outside-project
+  similarity: 0.598
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "Uncontrolled Codebase Growth"
-description: "A situation where a codebase grows in size and complexity without any control or planning."
-category: ['Code Quality', 'Maintenance']
-related_problems: ['monolithic-architecture-constraints', 'high-technical-debt', 'bloated-class']
+title: Uncontrolled Codebase Growth
+description: A situation where a codebase grows in size and complexity without any
+  control or planning.
+category:
+- Code Quality
+- Maintenance
+related_problems:
+- slug: brittle-codebase
+  similarity: 0.652
+- slug: feature-creep-without-refactoring
+  similarity: 0.633
+- slug: insufficient-design-skills
+  similarity: 0.589
+- slug: difficult-code-comprehension
+  similarity: 0.566
+- slug: high-turnover
+  similarity: 0.554
 layout: problem
 ---
 

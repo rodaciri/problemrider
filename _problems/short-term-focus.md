@@ -1,8 +1,22 @@
 ---
-title: "Short-Term Focus"
-description: "Management prioritizes immediate feature delivery over long-term code health and architectural improvements, creating sustainability issues."
-category: ['Process', 'Organizational', 'Strategic']
-related_problems: ['high-technical-debt', 'time-pressure', 'inability-to-innovate']
+title: Short-Term Focus
+description: Management prioritizes immediate feature delivery over long-term code
+  health and architectural improvements, creating sustainability issues.
+category:
+- Process
+- Organizational
+- Strategic
+related_problems:
+- slug: slow-feature-development
+  similarity: 0.575
+- slug: difficulty-quantifying-benefits
+  similarity: 0.571
+- slug: increased-technical-shortcuts
+  similarity: 0.567
+- slug: large-feature-scope
+  similarity: 0.545
+- slug: rapid-system-changes
+  similarity: 0.537
 layout: problem
 ---
 

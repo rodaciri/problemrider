@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Requirements Gathering"
-description: "Insufficient analysis and documentation of requirements leads to building solutions that don't meet actual needs."
-category: ['Process', 'Analysis', 'Planning']
-related_problems: ['unclear-goals-and-priorities', 'implementation-rework', 'wasted-development-effort']
+title: Inadequate Requirements Gathering
+description: Insufficient analysis and documentation of requirements leads to building
+  solutions that don't meet actual needs.
+category:
+- Process
+- Analysis
+- Planning
+related_problems:
+- slug: requirements-ambiguity
+  similarity: 0.69
+- slug: poor-operational-concept
+  similarity: 0.657
+- slug: complex-implementation-paths
+  similarity: 0.626
+- slug: knowledge-gaps
+  similarity: 0.608
+- slug: poor-planning
+  similarity: 0.596
 layout: problem
 ---
 

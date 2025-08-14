@@ -1,8 +1,21 @@
 ---
-title: "Large Feature Scope"
-description: "Features are too large to be broken down into smaller, incremental changes, leading to long-lived branches and integration problems."
-category: ['Process', 'Maintenance']
-related_problems: ['long-lived-feature-branches', 'high-technical-debt']
+title: Large Feature Scope
+description: Features are too large to be broken down into smaller, incremental changes,
+  leading to long-lived branches and integration problems.
+category:
+- Process
+- Maintenance
+related_problems:
+- slug: long-lived-feature-branches
+  similarity: 0.759
+- slug: slow-feature-development
+  similarity: 0.702
+- slug: incomplete-projects
+  similarity: 0.643
+- slug: feature-creep
+  similarity: 0.628
+- slug: large-estimates-for-small-changes
+  similarity: 0.613
 layout: problem
 ---
 

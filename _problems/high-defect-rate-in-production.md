@@ -1,8 +1,21 @@
 ---
-title: "High Defect Rate in Production"
-description: "A large number of bugs are discovered in the live environment after a release, indicating underlying issues in the development and quality assurance process."
-category: ['Quality', 'Business']
-related_problems: ['inadequate-code-reviews', 'scope-creep', 'brittle-codebase', 'deployment-environment-inconsistencies']
+title: High Defect Rate in Production
+description: A large number of bugs are discovered in the live environment after a
+  release, indicating underlying issues in the development and quality assurance process.
+category:
+- Quality
+- Business
+related_problems:
+- slug: increased-bug-count
+  similarity: 0.788
+- slug: insufficient-testing
+  similarity: 0.77
+- slug: high-bug-introduction-rate
+  similarity: 0.703
+- slug: increased-cost-of-development
+  similarity: 0.699
+- slug: increased-risk-of-bugs
+  similarity: 0.679
 layout: problem
 ---
 

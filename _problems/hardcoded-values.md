@@ -1,8 +1,14 @@
 ---
-title: "Hardcoded Values"
-description: "Magic numbers and fixed strings reduce flexibility, making configuration and adaptation difficult"
-category: ['Technical', 'Maintenance', 'Design']
-related_problems: [fear-of-change, difficult-to-test-code, high-maintenance-costs]
+title: Hardcoded Values
+description: Magic numbers and fixed strings reduce flexibility, making configuration
+  and adaptation difficult
+category:
+- Technical
+- Maintenance
+- Design
+related_problems:
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.506
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Competing Priorities"
-description: "Multiple urgent projects or initiatives compete for the same limited resources, creating conflicts and inefficiencies."
-category: ['Management', 'Resource Planning', 'Organizational']
-related_problems: ['project-resource-constraints', 'context-switching-overhead', 'unclear-goals-and-priorities']
+title: Competing Priorities
+description: Multiple urgent projects or initiatives compete for the same limited
+  resources, creating conflicts and inefficiencies.
+category:
+- Management
+- Resource Planning
+- Organizational
+related_problems:
+- slug: priority-thrashing
+  similarity: 0.658
+- slug: unclear-goals-and-priorities
+  similarity: 0.56
+- slug: power-struggles
+  similarity: 0.541
+- slug: project-resource-constraints
+  similarity: 0.539
+- slug: duplicated-work
+  similarity: 0.535
 layout: problem
 ---
 

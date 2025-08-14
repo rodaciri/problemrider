@@ -1,8 +1,22 @@
 ---
-title: "System Outages"
-description: "Service interruptions and system failures occur frequently, causing business disruption and user frustration."
-category: ['Reliability', 'Operations', 'Business Impact']
-related_problems: ['poor-system-environment', 'single-points-of-failure', 'poor-operational-concept']
+title: System Outages
+description: Service interruptions and system failures occur frequently, causing business
+  disruption and user frustration.
+category:
+- Reliability
+- Operations
+- Business Impact
+related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.622
+- slug: poor-system-environment
+  similarity: 0.618
+- slug: monitoring-gaps
+  similarity: 0.611
+- slug: service-timeouts
+  similarity: 0.607
+- slug: service-discovery-failures
+  similarity: 0.56
 layout: problem
 ---
 

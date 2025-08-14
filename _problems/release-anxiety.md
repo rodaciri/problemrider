@@ -1,8 +1,22 @@
 ---
-title: "Release Anxiety"
-description: "The development team is anxious and stressed about deployments due to the high risk of failure and the pressure to get it right."
-category: ['Process', 'Quality', 'Deployment']
-related_problems: ['large-risky-releases', 'release-instability', 'developer-frustration-and-burnout']
+title: Release Anxiety
+description: The development team is anxious and stressed about deployments due to
+  the high risk of failure and the pressure to get it right.
+category:
+- Process
+- Quality
+- Deployment
+related_problems:
+- slug: deployment-risk
+  similarity: 0.704
+- slug: large-risky-releases
+  similarity: 0.687
+- slug: release-instability
+  similarity: 0.634
+- slug: fear-of-failure
+  similarity: 0.614
+- slug: history-of-failed-changes
+  similarity: 0.606
 layout: problem
 ---
 

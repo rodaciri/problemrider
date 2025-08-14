@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Initial Reviews"
-description: "First-round code reviews are incomplete or superficial, failing to identify important issues that are discovered in later review rounds."
-category: ['Process', 'Quality', 'Efficiency']
-related_problems: ['extended-review-cycles', 'reviewer-inexperience', 'review-bottlenecks']
+title: Inadequate Initial Reviews
+description: First-round code reviews are incomplete or superficial, failing to identify
+  important issues that are discovered in later review rounds.
+category:
+- Process
+- Quality
+- Efficiency
+related_problems:
+- slug: insufficient-code-review
+  similarity: 0.752
+- slug: review-process-breakdown
+  similarity: 0.729
+- slug: code-review-inefficiency
+  similarity: 0.698
+- slug: superficial-code-reviews
+  similarity: 0.697
+- slug: inadequate-code-reviews
+  similarity: 0.668
 layout: problem
 ---
 

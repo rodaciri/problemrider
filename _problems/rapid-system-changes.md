@@ -1,8 +1,22 @@
 ---
-title: "Rapid System Changes"
-description: "Frequent modifications to system architecture, APIs, or core functionality outpace documentation and team understanding."
-category: ['Process', 'Change Management', 'Documentation']
-related_problems: ['poor-documentation', 'configuration-drift', 'team-coordination-issues']
+title: Rapid System Changes
+description: Frequent modifications to system architecture, APIs, or core functionality
+  outpace documentation and team understanding.
+category:
+- Process
+- Change Management
+- Documentation
+related_problems:
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.609
+- slug: unpredictable-system-behavior
+  similarity: 0.607
+- slug: stagnant-architecture
+  similarity: 0.596
+- slug: increasing-brittleness
+  similarity: 0.595
+- slug: maintenance-overhead
+  similarity: 0.589
 layout: problem
 ---
 

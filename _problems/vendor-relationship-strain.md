@@ -1,8 +1,22 @@
 ---
-title: "Vendor Relationship Strain"
-description: "Tensions and conflicts arise between the organization and external vendors due to misaligned expectations, poor communication, or contract issues."
-category: ['Vendor Management', 'Communication', 'Business Relations']
-related_problems: ['poor-contract-design', 'dependency-on-supplier', 'communication-risk-outside-project']
+title: Vendor Relationship Strain
+description: Tensions and conflicts arise between the organization and external vendors
+  due to misaligned expectations, poor communication, or contract issues.
+category:
+- Vendor Management
+- Communication
+- Business Relations
+related_problems:
+- slug: dependency-on-supplier
+  similarity: 0.682
+- slug: vendor-dependency
+  similarity: 0.656
+- slug: legal-disputes
+  similarity: 0.61
+- slug: vendor-dependency-entrapment
+  similarity: 0.566
+- slug: poor-contract-design
+  similarity: 0.505
 layout: problem
 ---
 

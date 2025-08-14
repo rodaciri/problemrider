@@ -1,8 +1,20 @@
 ---
-title: "Rate Limiting Issues"
-description: "Rate limiting mechanisms are misconfigured, too restrictive, or ineffective, causing legitimate requests to be blocked or failing to prevent abuse."
-category: ['API Design', 'Security', 'Performance']
-related_problems: ['api-abuse-vulnerabilities', 'performance-bottlenecks', 'service-availability-issues']
+title: Rate Limiting Issues
+description: Rate limiting mechanisms are misconfigured, too restrictive, or ineffective,
+  causing legitimate requests to be blocked or failing to prevent abuse.
+category:
+- API Design
+- Security
+- Performance
+related_problems:
+- slug: increased-error-rates
+  similarity: 0.553
+- slug: load-balancing-problems
+  similarity: 0.522
+- slug: gradual-performance-degradation
+  similarity: 0.505
+- slug: system-outages
+  similarity: 0.5
 layout: problem
 ---
 

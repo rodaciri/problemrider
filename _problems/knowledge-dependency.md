@@ -1,8 +1,22 @@
 ---
-title: "Knowledge Dependency"
-description: "Team members remain dependent on specific experienced individuals for knowledge and decision-making longer than appropriate for their role and tenure."
-category: ['Team Dynamics', 'Knowledge Management', 'Independence']
-related_problems: ['knowledge-silos', 'single-points-of-failure', 'mentor-burnout']
+title: Knowledge Dependency
+description: Team members remain dependent on specific experienced individuals for
+  knowledge and decision-making longer than appropriate for their role and tenure.
+category:
+- Team Dynamics
+- Knowledge Management
+- Independence
+related_problems:
+- slug: knowledge-silos
+  similarity: 0.678
+- slug: skill-development-gaps
+  similarity: 0.638
+- slug: tacit-knowledge
+  similarity: 0.627
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.626
+- slug: slow-knowledge-transfer
+  similarity: 0.626
 layout: problem
 ---
 

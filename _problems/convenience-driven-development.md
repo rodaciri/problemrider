@@ -1,8 +1,21 @@
 ---
-title: "Convenience-Driven Development"
-description: "A development practice where developers choose the easiest and most convenient solution, rather than the best solution."
-category: ['Code Quality', 'Process']
-related_problems: ['bloated-class', 'god-object-anti-pattern', 'high-technical-debt']
+title: Convenience-Driven Development
+description: A development practice where developers choose the easiest and most convenient
+  solution, rather than the best solution.
+category:
+- Code Quality
+- Process
+related_problems:
+- slug: accumulation-of-workarounds
+  similarity: 0.541
+- slug: uncontrolled-codebase-growth
+  similarity: 0.507
+- slug: brittle-codebase
+  similarity: 0.506
+- slug: procedural-background
+  similarity: 0.501
+- slug: difficult-code-comprehension
+  similarity: 0.5
 layout: problem
 ---
 

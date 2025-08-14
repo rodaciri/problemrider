@@ -1,8 +1,22 @@
 ---
-title: "Delayed Bug Fixes"
-description: "Known issues remain unresolved for extended periods, causing ongoing problems and user frustration."
-category: ['Quality', 'Process', 'Maintenance']
-related_problems: ['avoidance-behaviors', 'competing-priorities', 'fear-of-change']
+title: Delayed Bug Fixes
+description: Known issues remain unresolved for extended periods, causing ongoing
+  problems and user frustration.
+category:
+- Quality
+- Process
+- Maintenance
+related_problems:
+- slug: increased-bug-count
+  similarity: 0.696
+- slug: delayed-issue-resolution
+  similarity: 0.685
+- slug: long-release-cycles
+  similarity: 0.682
+- slug: regression-bugs
+  similarity: 0.638
+- slug: high-bug-introduction-rate
+  similarity: 0.631
 layout: problem
 ---
 

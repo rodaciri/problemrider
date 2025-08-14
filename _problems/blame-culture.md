@@ -1,8 +1,22 @@
 ---
-title: "Blame Culture"
-description: "Mistakes are punished instead of addressed constructively, discouraging risk-taking and learning"
-category: ['Management', 'Team', 'Process']
-related_problems: ['fear-of-failure', 'fear-of-change', 'developer-frustration-and-burnout']
+title: Blame Culture
+description: Mistakes are punished instead of addressed constructively, discouraging
+  risk-taking and learning
+category:
+- Management
+- Team
+- Process
+related_problems:
+- slug: fear-of-failure
+  similarity: 0.626
+- slug: perfectionist-culture
+  similarity: 0.524
+- slug: perfectionist-review-culture
+  similarity: 0.514
+- slug: team-dysfunction
+  similarity: 0.513
+- slug: workaround-culture
+  similarity: 0.51
 layout: problem
 ---
 

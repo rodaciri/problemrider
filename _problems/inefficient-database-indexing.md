@@ -1,8 +1,21 @@
 ---
-title: "Inefficient Database Indexing"
-description: "The database lacks appropriate indexes for common query patterns, forcing slow, full-table scans for data retrieval operations."
-category: ['Performance', 'Database']
-related_problems: ['queries-that-prevent-index-usage', 'slow-database-queries', 'database-query-performance-issues', 'high-database-resource-utilization']
+title: Inefficient Database Indexing
+description: The database lacks appropriate indexes for common query patterns, forcing
+  slow, full-table scans for data retrieval operations.
+category:
+- Performance
+- Database
+related_problems:
+- slug: incorrect-index-type
+  similarity: 0.932
+- slug: queries-that-prevent-index-usage
+  similarity: 0.887
+- slug: index-fragmentation
+  similarity: 0.724
+- slug: unused-indexes
+  similarity: 0.715
+- slug: slow-database-queries
+  similarity: 0.639
 layout: problem
 ---
 

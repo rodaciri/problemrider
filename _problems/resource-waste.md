@@ -1,8 +1,22 @@
 ---
-title: "Resource Waste"
-description: "Available resources are not utilized effectively, leading to underutilization while other areas remain constrained or overloaded."
-category: ['Resource Management', 'Efficiency', 'Process']
-related_problems: ['capacity-mismatch', 'uneven-workload-distribution', 'process-design-flaws']
+title: Resource Waste
+description: Available resources are not utilized effectively, leading to underutilization
+  while other areas remain constrained or overloaded.
+category:
+- Resource Management
+- Efficiency
+- Process
+related_problems:
+- slug: capacity-mismatch
+  similarity: 0.643
+- slug: project-resource-constraints
+  similarity: 0.57
+- slug: maintenance-overhead
+  similarity: 0.552
+- slug: poor-planning
+  similarity: 0.517
+- slug: maintenance-cost-increase
+  similarity: 0.507
 layout: problem
 ---
 

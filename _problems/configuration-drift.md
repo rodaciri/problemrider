@@ -1,8 +1,22 @@
 ---
-title: "Configuration Drift"
-description: "System configurations gradually diverge from intended standards over time, creating inconsistencies and reliability issues."
-category: ['Configuration', 'Operations', 'System Management']
-related_problems: ['deployment-environment-inconsistencies', 'inadequate-configuration-management', 'unpredictable-system-behavior']
+title: Configuration Drift
+description: System configurations gradually diverge from intended standards over
+  time, creating inconsistencies and reliability issues.
+category:
+- Configuration
+- Operations
+- System Management
+related_problems:
+- slug: inadequate-configuration-management
+  similarity: 0.813
+- slug: configuration-chaos
+  similarity: 0.806
+- slug: deployment-environment-inconsistencies
+  similarity: 0.731
+- slug: legacy-configuration-management-chaos
+  similarity: 0.67
+- slug: change-management-chaos
+  similarity: 0.604
 layout: problem
 ---
 

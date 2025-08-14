@@ -1,8 +1,22 @@
 ---
-title: "Legacy API Versioning Nightmare"
-description: "Legacy systems with poorly designed APIs create versioning and backward compatibility challenges that compound over time"
-category: ['Technical', 'Integration', 'Design']
-related_problems: [poor-interfaces-between-applications, vendor-lock-in, fear-of-breaking-changes]
+title: Legacy API Versioning Nightmare
+description: Legacy systems with poorly designed APIs create versioning and backward
+  compatibility challenges that compound over time
+category:
+- Technical
+- Integration
+- Design
+related_problems:
+- slug: api-versioning-conflicts
+  similarity: 0.805
+- slug: breaking-changes
+  similarity: 0.659
+- slug: rapid-system-changes
+  similarity: 0.609
+- slug: information-decay
+  similarity: 0.594
+- slug: poor-interfaces-between-applications
+  similarity: 0.587
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Legacy System Documentation Archaeology"
-description: "Critical system knowledge exists only in obsolete documentation formats, outdated diagrams, and departed employees' tribal knowledge"
-category: ['Knowledge Management', 'Documentation', 'Organizational']
-related_problems: [knowledge-gaps, legacy-business-logic-extraction-difficulty, legacy-skill-shortage]
+title: Legacy System Documentation Archaeology
+description: Critical system knowledge exists only in obsolete documentation formats,
+  outdated diagrams, and departed employees' tribal knowledge
+category:
+- Knowledge Management
+- Documentation
+- Organizational
+related_problems:
+- slug: information-decay
+  similarity: 0.688
+- slug: poor-documentation
+  similarity: 0.615
+- slug: implicit-knowledge
+  similarity: 0.611
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.602
+- slug: obsolete-technologies
+  similarity: 0.582
 layout: problem
 ---
 

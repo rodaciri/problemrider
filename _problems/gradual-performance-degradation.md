@@ -1,8 +1,22 @@
 ---
-title: "Gradual Performance Degradation"
-description: "Application performance slowly deteriorates over time due to resource leaks, accumulating technical debt, or inefficient algorithms."
-category: ['Performance', 'Maintenance', 'Technical']
-related_problems: ['memory-leaks', 'high-technical-debt', 'inefficient-code']
+title: Gradual Performance Degradation
+description: Application performance slowly deteriorates over time due to resource
+  leaks, accumulating technical debt, or inefficient algorithms.
+category:
+- Performance
+- Maintenance
+- Technical
+related_problems:
+- slug: memory-leaks
+  similarity: 0.683
+- slug: unreleased-resources
+  similarity: 0.655
+- slug: resource-contention
+  similarity: 0.629
+- slug: garbage-collection-pressure
+  similarity: 0.603
+- slug: slow-application-performance
+  similarity: 0.597
 layout: problem
 ---
 

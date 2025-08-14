@@ -1,8 +1,22 @@
 ---
-title: "Poor System Environment"
-description: "The system is deployed in an unstable, misconfigured, or unsuitable environment that causes outages, performance issues, and operational difficulties."
-category: ['Infrastructure', 'Operations', 'Deployment']
-related_problems: ['deployment-environment-inconsistencies', 'configuration-drift', 'operational-overhead']
+title: Poor System Environment
+description: The system is deployed in an unstable, misconfigured, or unsuitable environment
+  that causes outages, performance issues, and operational difficulties.
+category:
+- Infrastructure
+- Operations
+- Deployment
+related_problems:
+- slug: inadequate-error-handling
+  similarity: 0.644
+- slug: poor-operational-concept
+  similarity: 0.64
+- slug: configuration-chaos
+  similarity: 0.628
+- slug: deployment-environment-inconsistencies
+  similarity: 0.622
+- slug: quality-blind-spots
+  similarity: 0.621
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Skill Development Gaps"
-description: "Team members don't develop expertise in important technologies or domains due to avoidance, specialization, or inadequate learning opportunities."
-category: ['Skills', 'Team Development', 'Learning']
-related_problems: ['avoidance-behaviors', 'knowledge-silos', 'inappropriate-skillset']
+title: Skill Development Gaps
+description: Team members don't develop expertise in important technologies or domains
+  due to avoidance, specialization, or inadequate learning opportunities.
+category:
+- Skills
+- Team Development
+- Learning
+related_problems:
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.733
+- slug: tacit-knowledge
+  similarity: 0.692
+- slug: inappropriate-skillset
+  similarity: 0.65
+- slug: slow-knowledge-transfer
+  similarity: 0.647
+- slug: knowledge-dependency
+  similarity: 0.638
 layout: problem
 ---
 

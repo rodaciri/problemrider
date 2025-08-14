@@ -1,8 +1,22 @@
 ---
-title: "Missed Deadlines"
-description: "Projects regularly exceed their estimated completion times and teams consistently fail to meet sprint goals and delivery commitments."
-category: ['Process', 'Business', 'Team Dynamics']
-related_problems: ['slow-development-velocity', 'time-pressure', 'unclear-goals-and-priorities']
+title: Missed Deadlines
+description: Projects regularly exceed their estimated completion times and teams
+  consistently fail to meet sprint goals and delivery commitments.
+category:
+- Process
+- Business
+- Team Dynamics
+related_problems:
+- slug: delayed-project-timelines
+  similarity: 0.741
+- slug: slow-development-velocity
+  similarity: 0.698
+- slug: unrealistic-deadlines
+  similarity: 0.686
+- slug: unrealistic-schedule
+  similarity: 0.679
+- slug: deadline-pressure
+  similarity: 0.677
 layout: problem
 ---
 

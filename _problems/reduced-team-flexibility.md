@@ -1,8 +1,22 @@
 ---
-title: "Reduced Team Flexibility"
-description: "The team's ability to adapt to changing requirements, reassign work, or respond to unexpected challenges is significantly limited."
-category: ['Team Dynamics', 'Adaptability', 'Process']
-related_problems: ['knowledge-silos', 'skill-specialization', 'single-points-of-failure']
+title: Reduced Team Flexibility
+description: The team's ability to adapt to changing requirements, reassign work,
+  or respond to unexpected challenges is significantly limited.
+category:
+- Team Dynamics
+- Adaptability
+- Process
+related_problems:
+- slug: reduced-team-productivity
+  similarity: 0.645
+- slug: development-disruption
+  similarity: 0.639
+- slug: staff-availability-issues
+  similarity: 0.628
+- slug: single-points-of-failure
+  similarity: 0.626
+- slug: bottleneck-formation
+  similarity: 0.598
 layout: problem
 ---
 

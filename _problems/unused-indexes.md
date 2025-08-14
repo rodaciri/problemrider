@@ -1,8 +1,21 @@
 ---
-title: "Unused Indexes"
-description: "The database has indexes that are never used by any queries, which still consume storage space and add overhead to write operations."
-category: ['Performance', 'Maintenance']
-related_problems: ['poor-caching-strategy']
+title: Unused Indexes
+description: The database has indexes that are never used by any queries, which still
+  consume storage space and add overhead to write operations.
+category:
+- Performance
+- Maintenance
+related_problems:
+- slug: index-fragmentation
+  similarity: 0.793
+- slug: inefficient-database-indexing
+  similarity: 0.715
+- slug: queries-that-prevent-index-usage
+  similarity: 0.699
+- slug: incorrect-index-type
+  similarity: 0.624
+- slug: memory-swapping
+  similarity: 0.605
 layout: problem
 ---
 

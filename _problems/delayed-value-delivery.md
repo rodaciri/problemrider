@@ -1,8 +1,21 @@
 ---
-title: "Delayed Value Delivery"
-description: "Users have to wait for an extended period to receive new features or bug fixes, leading to frustration and a competitive disadvantage."
-category: ['Business', 'Process']
-related_problems: ['long-release-cycles', 'slow-feature-development', 'competitive-disadvantage']
+title: Delayed Value Delivery
+description: Users have to wait for an extended period to receive new features or
+  bug fixes, leading to frustration and a competitive disadvantage.
+category:
+- Business
+- Process
+related_problems:
+- slug: increased-time-to-market
+  similarity: 0.759
+- slug: slow-feature-development
+  similarity: 0.721
+- slug: slow-development-velocity
+  similarity: 0.657
+- slug: delayed-project-timelines
+  similarity: 0.603
+- slug: release-instability
+  similarity: 0.593
 layout: problem
 ---
 

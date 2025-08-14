@@ -1,8 +1,23 @@
 ---
-title: "Long-Running Transactions"
-description: "Database transactions that remain open for a long time can hold locks, consume resources, and block other operations."
-category: ['Technical', 'Performance', 'Database', 'Stability']
-related_problems: ['high-database-resource-utilization', 'inefficient-code', 'network-latency']
+title: Long-Running Transactions
+description: Database transactions that remain open for a long time can hold locks,
+  consume resources, and block other operations.
+category:
+- Technical
+- Performance
+- Database
+- Stability
+related_problems:
+- slug: long-running-database-transactions
+  similarity: 0.987
+- slug: high-database-resource-utilization
+  similarity: 0.666
+- slug: high-connection-count
+  similarity: 0.654
+- slug: deadlock-conditions
+  similarity: 0.652
+- slug: slow-database-queries
+  similarity: 0.614
 layout: problem
 ---
 

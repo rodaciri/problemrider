@@ -1,8 +1,22 @@
 ---
-title: "Priority Thrashing"
-description: "Work priorities change frequently and unexpectedly, causing constant task switching and disrupting planned work flow."
-category: ['Planning', 'Process', 'Team Dynamics']
-related_problems: ['context-switching-overhead', 'unclear-goals-and-priorities', 'changing-project-scope']
+title: Priority Thrashing
+description: Work priorities change frequently and unexpectedly, causing constant
+  task switching and disrupting planned work flow.
+category:
+- Planning
+- Process
+- Team Dynamics
+related_problems:
+- slug: competing-priorities
+  similarity: 0.658
+- slug: unclear-goals-and-priorities
+  similarity: 0.62
+- slug: procrastination-on-complex-tasks
+  similarity: 0.616
+- slug: missed-deadlines
+  similarity: 0.587
+- slug: context-switching-overhead
+  similarity: 0.585
 layout: problem
 ---
 

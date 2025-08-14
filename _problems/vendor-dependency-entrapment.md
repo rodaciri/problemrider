@@ -1,8 +1,22 @@
 ---
-title: "Vendor Dependency Entrapment"
-description: "Legacy systems become trapped by discontinued vendor products, forcing expensive custom support contracts or complete system replacement"
-category: ['Strategic', 'Risk Management', 'Technical']
-related_problems: [vendor-lock-in, legacy-skill-shortage-crisis, obsolete-technologies]
+title: Vendor Dependency Entrapment
+description: Legacy systems become trapped by discontinued vendor products, forcing
+  expensive custom support contracts or complete system replacement
+category:
+- Strategic
+- Risk Management
+- Technical
+related_problems:
+- slug: dependency-on-supplier
+  similarity: 0.688
+- slug: vendor-dependency
+  similarity: 0.626
+- slug: legacy-skill-shortage
+  similarity: 0.612
+- slug: obsolete-technologies
+  similarity: 0.569
+- slug: vendor-relationship-strain
+  similarity: 0.566
 layout: problem
 ---
 

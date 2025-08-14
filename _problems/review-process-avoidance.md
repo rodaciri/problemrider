@@ -1,8 +1,22 @@
 ---
-title: "Review Process Avoidance"
-description: "Team members actively seek ways to bypass or minimize code review requirements, undermining the quality assurance process."
-category: ['Process', 'Team Dynamics', 'Quality Assurance']
-related_problems: ['author-frustration', 'code-review-inefficiency', 'reduced-code-submission-frequency']
+title: Review Process Avoidance
+description: Team members actively seek ways to bypass or minimize code review requirements,
+  undermining the quality assurance process.
+category:
+- Process
+- Team Dynamics
+- Quality Assurance
+related_problems:
+- slug: review-process-breakdown
+  similarity: 0.656
+- slug: insufficient-code-review
+  similarity: 0.594
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 0.576
+- slug: resistance-to-change
+  similarity: 0.562
+- slug: reduced-review-participation
+  similarity: 0.558
 layout: problem
 ---
 

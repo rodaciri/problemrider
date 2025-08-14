@@ -1,8 +1,21 @@
 ---
-title: "Perfectionist Culture"
-description: "A culture of perfectionism and a reluctance to release anything that is not 100% perfect can lead to analysis paralysis and long release cycles."
-category: ['Process', 'Culture']
-related_problems: ['long-release-cycles', 'delayed-value-delivery', 'reduced-innovation']
+title: Perfectionist Culture
+description: A culture of perfectionism and a reluctance to release anything that
+  is not 100% perfect can lead to analysis paralysis and long release cycles.
+category:
+- Process
+- Culture
+related_problems:
+- slug: perfectionist-review-culture
+  similarity: 0.653
+- slug: fear-of-failure
+  similarity: 0.603
+- slug: history-of-failed-changes
+  similarity: 0.594
+- slug: insufficient-design-skills
+  similarity: 0.56
+- slug: release-anxiety
+  similarity: 0.558
 layout: problem
 ---
 

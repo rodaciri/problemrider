@@ -1,8 +1,22 @@
 ---
-title: "Deadlock Conditions"
-description: "Multiple threads or processes wait indefinitely for each other to release resources, causing system freeze and application unresponsiveness."
-category: ['Technical', 'Concurrency', 'Performance']
-related_problems: ['synchronization-problems', 'resource-contention', 'service-timeouts']
+title: Deadlock Conditions
+description: Multiple threads or processes wait indefinitely for each other to release
+  resources, causing system freeze and application unresponsiveness.
+category:
+- Technical
+- Concurrency
+- Performance
+related_problems:
+- slug: long-running-database-transactions
+  similarity: 0.658
+- slug: long-running-transactions
+  similarity: 0.652
+- slug: thread-pool-exhaustion
+  similarity: 0.626
+- slug: lock-contention
+  similarity: 0.617
+- slug: race-conditions
+  similarity: 0.608
 layout: problem
 ---
 

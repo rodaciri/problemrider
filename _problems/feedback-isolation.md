@@ -1,8 +1,22 @@
 ---
-title: "Feedback Isolation"
-description: "Development teams operate without regular input from stakeholders and users, leading to products that miss requirements and user needs."
-category: ['Communication', 'Process', 'Product Management']
-related_problems: ['misaligned-deliverables', 'stakeholder-developer-communication-gap', 'user-frustration']
+title: Feedback Isolation
+description: Development teams operate without regular input from stakeholders and
+  users, leading to products that miss requirements and user needs.
+category:
+- Communication
+- Process
+- Product Management
+related_problems:
+- slug: no-continuous-feedback-loop
+  similarity: 0.876
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.673
+- slug: communication-risk-outside-project
+  similarity: 0.549
+- slug: poor-communication
+  similarity: 0.534
+- slug: stakeholder-frustration
+  similarity: 0.526
 layout: problem
 ---
 

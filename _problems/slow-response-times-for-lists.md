@@ -1,8 +1,22 @@
 ---
-title: "Slow Response Times for Lists"
-description: "Web pages or API endpoints that display lists of items are significantly slower to load than those that display single items, often due to inefficient data fetching."
-category: ['Performance', 'Database']
-related_problems: ['n-plus-one-query-problem', 'slow-application-performance', 'high-number-of-database-queries']
+title: Slow Response Times for Lists
+description: Web pages or API endpoints that display lists of items are significantly
+  slower to load than those that display single items, often due to inefficient data
+  fetching.
+category:
+- Performance
+- Database
+related_problems:
+- slug: n-plus-one-query-problem
+  similarity: 0.734
+- slug: poor-caching-strategy
+  similarity: 0.662
+- slug: high-number-of-database-queries
+  similarity: 0.622
+- slug: high-api-latency
+  similarity: 0.584
+- slug: slow-application-performance
+  similarity: 0.574
 layout: problem
 ---
 

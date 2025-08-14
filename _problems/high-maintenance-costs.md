@@ -1,8 +1,21 @@
 ---
-title: "High Maintenance Costs"
-description: "A disproportionately large amount of the development budget and effort is consumed by maintaining the existing system rather than creating new value."
-category: ['Maintenance', 'Business']
-related_problems: ['increased-cost-of-development', 'high-technical-debt', 'constant-firefighting']
+title: High Maintenance Costs
+description: A disproportionately large amount of the development budget and effort
+  is consumed by maintaining the existing system rather than creating new value.
+category:
+- Maintenance
+- Business
+related_problems:
+- slug: maintenance-cost-increase
+  similarity: 0.815
+- slug: maintenance-overhead
+  similarity: 0.761
+- slug: maintenance-bottlenecks
+  similarity: 0.707
+- slug: increased-cost-of-development
+  similarity: 0.707
+- slug: maintenance-paralysis
+  similarity: 0.681
 layout: problem
 ---
 

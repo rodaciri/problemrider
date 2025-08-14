@@ -1,8 +1,22 @@
 ---
-title: "Difficult to Understand Code"
-description: "It's hard to grasp the purpose of modules or functions without understanding many other parts of the system, slowing development and increasing errors."
-category: ['Technical', 'Maintenance', 'Quality']
-related_problems: ['high-coupling-low-cohesion', 'complex-and-obscure-logic', 'knowledge-gaps']
+title: Difficult to Understand Code
+description: It's hard to grasp the purpose of modules or functions without understanding
+  many other parts of the system, slowing development and increasing errors.
+category:
+- Technical
+- Maintenance
+- Quality
+related_problems:
+- slug: clever-code
+  similarity: 0.688
+- slug: complex-and-obscure-logic
+  similarity: 0.669
+- slug: difficult-code-comprehension
+  similarity: 0.647
+- slug: reviewer-inexperience
+  similarity: 0.643
+- slug: inexperienced-developers
+  similarity: 0.637
 layout: problem
 ---
 

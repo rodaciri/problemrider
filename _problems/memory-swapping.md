@@ -1,8 +1,20 @@
 ---
-title: "Memory Swapping"
-description: "The database server runs out of physical memory and starts using disk swap space, which dramatically slows down performance."
-category: ['Performance']
-related_problems: ['upstream-timeouts', 'inefficient-code', 'high-connection-count', 'slow-database-queries']
+title: Memory Swapping
+description: The database server runs out of physical memory and starts using disk
+  swap space, which dramatically slows down performance.
+category:
+- Performance
+related_problems:
+- slug: resource-contention
+  similarity: 0.838
+- slug: high-database-resource-utilization
+  similarity: 0.769
+- slug: slow-database-queries
+  similarity: 0.69
+- slug: index-fragmentation
+  similarity: 0.664
+- slug: database-query-performance-issues
+  similarity: 0.618
 layout: problem
 ---
 

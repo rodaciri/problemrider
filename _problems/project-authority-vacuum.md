@@ -1,8 +1,22 @@
 ---
-title: "Project Authority Vacuum"
-description: "Critical projects lack sufficient organizational backing and executive sponsorship to overcome resistance and secure resources."
-category: ['Management', 'Organizational', 'Leadership']
-related_problems: ['power-struggles', 'resource-allocation-failures', 'unclear-goals-and-priorities']
+title: Project Authority Vacuum
+description: Critical projects lack sufficient organizational backing and executive
+  sponsorship to overcome resistance and secure resources.
+category:
+- Management
+- Organizational
+- Leadership
+related_problems:
+- slug: project-resource-constraints
+  similarity: 0.692
+- slug: poor-planning
+  similarity: 0.608
+- slug: poor-project-control
+  similarity: 0.556
+- slug: planning-dysfunction
+  similarity: 0.554
+- slug: unclear-goals-and-priorities
+  similarity: 0.524
 layout: problem
 ---
 

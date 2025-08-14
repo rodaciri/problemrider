@@ -1,8 +1,21 @@
 ---
-title: "Partial Bug Fixes"
-description: "Issues appear to be resolved but resurface in different contexts because the fix was not applied to all instances of the duplicated code."
-category: ['Maintenance', 'Quality']
-related_problems: ['synchronization-problems', 'code-duplication', 'regression-bugs']
+title: Partial Bug Fixes
+description: Issues appear to be resolved but resurface in different contexts because
+  the fix was not applied to all instances of the duplicated code.
+category:
+- Maintenance
+- Quality
+related_problems:
+- slug: synchronization-problems
+  similarity: 0.661
+- slug: duplicated-effort
+  similarity: 0.623
+- slug: delayed-bug-fixes
+  similarity: 0.614
+- slug: regression-bugs
+  similarity: 0.599
+- slug: duplicated-work
+  similarity: 0.575
 layout: problem
 ---
 

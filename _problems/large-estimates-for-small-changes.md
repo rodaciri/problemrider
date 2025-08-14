@@ -1,8 +1,21 @@
 ---
-title: "Large Estimates for Small Changes"
-description: "The team consistently provides large time estimates for seemingly small changes, indicating underlying code complexity and risk."
-category: ['Process', 'Maintenance']
-related_problems: ['brittle-codebase', 'high-technical-debt', 'fear-of-change']
+title: Large Estimates for Small Changes
+description: The team consistently provides large time estimates for seemingly small
+  changes, indicating underlying code complexity and risk.
+category:
+- Process
+- Maintenance
+related_problems:
+- slug: slow-feature-development
+  similarity: 0.705
+- slug: fear-of-change
+  similarity: 0.699
+- slug: brittle-codebase
+  similarity: 0.692
+- slug: increased-cost-of-development
+  similarity: 0.691
+- slug: increased-risk-of-bugs
+  similarity: 0.658
 layout: problem
 ---
 

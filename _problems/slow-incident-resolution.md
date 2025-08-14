@@ -1,8 +1,16 @@
 ---
-title: "Slow Incident Resolution"
-description: "Problems and outages take excessive time to diagnose and resolve, prolonging business impact and user frustration."
-category: ['Operations', 'Support', 'Process']
-related_problems: ['poor-operational-concept', 'debugging-difficulties', 'monitoring-gaps']
+title: Slow Incident Resolution
+description: Problems and outages take excessive time to diagnose and resolve, prolonging
+  business impact and user frustration.
+category:
+- Operations
+- Support
+- Process
+related_problems:
+- slug: delayed-issue-resolution
+  similarity: 0.554
+- slug: monitoring-gaps
+  similarity: 0.5
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Logging Configuration Issues"
-description: "Improper logging configuration results in missing critical information, excessive log volume, or security vulnerabilities."
-category: ['Logging', 'Configuration', 'Observability']
-related_problems: ['inadequate-error-handling', 'performance-monitoring-gaps', 'information-disclosure-vulnerabilities']
+title: Logging Configuration Issues
+description: Improper logging configuration results in missing critical information,
+  excessive log volume, or security vulnerabilities.
+category:
+- Logging
+- Configuration
+- Observability
+related_problems:
+- slug: excessive-logging
+  similarity: 0.712
+- slug: insufficient-audit-logging
+  similarity: 0.653
+- slug: log-spam
+  similarity: 0.578
+- slug: increased-error-rates
+  similarity: 0.575
+- slug: inadequate-configuration-management
+  similarity: 0.515
 layout: problem
 ---
 

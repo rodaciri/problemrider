@@ -1,8 +1,21 @@
 ---
-title: "Service Timeouts"
-description: "Services fail to complete requests within an acceptable time limit, causing errors, cascading failures, and system instability."
-category: ['Performance', 'Stability']
-related_problems: ['high-api-latency']
+title: Service Timeouts
+description: Services fail to complete requests within an acceptable time limit, causing
+  errors, cascading failures, and system instability.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: upstream-timeouts
+  similarity: 0.861
+- slug: increased-error-rates
+  similarity: 0.717
+- slug: network-latency
+  similarity: 0.708
+- slug: high-api-latency
+  similarity: 0.693
+- slug: high-connection-count
+  similarity: 0.668
 layout: problem
 ---
 

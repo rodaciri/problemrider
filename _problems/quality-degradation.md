@@ -1,8 +1,22 @@
 ---
-title: "Quality Degradation"
-description: "System quality decreases over time due to accumulating technical debt, shortcuts, and insufficient quality practices."
-category: ['Quality', 'Technical Debt', 'Process']
-related_problems: ['high-technical-debt', 'brittle-codebase', 'insufficient-testing']
+title: Quality Degradation
+description: System quality decreases over time due to accumulating technical debt,
+  shortcuts, and insufficient quality practices.
+category:
+- Quality
+- Technical Debt
+- Process
+related_problems:
+- slug: increasing-brittleness
+  similarity: 0.696
+- slug: increased-bug-count
+  similarity: 0.685
+- slug: lower-code-quality
+  similarity: 0.675
+- slug: inconsistent-quality
+  similarity: 0.673
+- slug: maintenance-cost-increase
+  similarity: 0.661
 layout: problem
 ---
 

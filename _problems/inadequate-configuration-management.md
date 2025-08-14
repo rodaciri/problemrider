@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Configuration Management"
-description: "Versions of code, data, or infrastructure are not tracked properly, leading to errors or rollback issues"
-category: ['Process', 'Technical', 'Maintenance']
-related_problems: [missing-rollback-strategy, release-instability, debugging-difficulties]
+title: Inadequate Configuration Management
+description: Versions of code, data, or infrastructure are not tracked properly, leading
+  to errors or rollback issues
+category:
+- Process
+- Technical
+- Maintenance
+related_problems:
+- slug: configuration-drift
+  similarity: 0.813
+- slug: configuration-chaos
+  similarity: 0.722
+- slug: deployment-environment-inconsistencies
+  similarity: 0.68
+- slug: change-management-chaos
+  similarity: 0.626
+- slug: poor-system-environment
+  similarity: 0.612
 layout: problem
 ---
 

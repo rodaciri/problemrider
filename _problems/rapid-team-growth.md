@@ -1,8 +1,22 @@
 ---
-title: "Rapid Team Growth"
-description: "Teams expand in size quickly without adequate preparation, overwhelming existing infrastructure and support systems."
-category: ['Team Dynamics', 'Organizational Structure', 'Process']
-related_problems: ['mentor-burnout', 'knowledge-silos', 'extended-onboarding-period']
+title: Rapid Team Growth
+description: Teams expand in size quickly without adequate preparation, overwhelming
+  existing infrastructure and support systems.
+category:
+- Team Dynamics
+- Organizational Structure
+- Process
+related_problems:
+- slug: difficult-developer-onboarding
+  similarity: 0.626
+- slug: bottleneck-formation
+  similarity: 0.558
+- slug: slow-development-velocity
+  similarity: 0.544
+- slug: increased-cognitive-load
+  similarity: 0.521
+- slug: inconsistent-onboarding-experience
+  similarity: 0.519
 layout: problem
 ---
 

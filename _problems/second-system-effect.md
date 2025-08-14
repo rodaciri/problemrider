@@ -1,8 +1,22 @@
 ---
-title: "Second-System Effect"
-description: "Lessons from an old system lead to overcompensation, creating bloated or overly ambitious designs"
-category: ['Design', 'Process', 'Technical']
-related_problems: [gold-plating, feature-creep, complex-implementation-paths]
+title: Second-System Effect
+description: Lessons from an old system lead to overcompensation, creating bloated
+  or overly ambitious designs
+category:
+- Design
+- Process
+- Technical
+related_problems:
+- slug: stagnant-architecture
+  similarity: 0.602
+- slug: technical-architecture-limitations
+  similarity: 0.562
+- slug: architectural-mismatch
+  similarity: 0.56
+- slug: implementation-rework
+  similarity: 0.547
+- slug: rapid-system-changes
+  similarity: 0.544
 layout: problem
 ---
 

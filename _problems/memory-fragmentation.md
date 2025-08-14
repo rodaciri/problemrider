@@ -1,8 +1,22 @@
 ---
-title: "Memory Fragmentation"
-description: "Available memory becomes divided into small, non-contiguous blocks, preventing allocation of larger objects despite sufficient total free memory."
-category: ['Technical', 'Memory Management', 'Performance']
-related_problems: ['memory-leaks', 'gradual-performance-degradation', 'resource-allocation-failures']
+title: Memory Fragmentation
+description: Available memory becomes divided into small, non-contiguous blocks, preventing
+  allocation of larger objects despite sufficient total free memory.
+category:
+- Technical
+- Memory Management
+- Performance
+related_problems:
+- slug: excessive-object-allocation
+  similarity: 0.675
+- slug: garbage-collection-pressure
+  similarity: 0.659
+- slug: unbounded-data-structures
+  similarity: 0.64
+- slug: unbounded-data-growth
+  similarity: 0.57
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.549
 layout: problem
 ---
 

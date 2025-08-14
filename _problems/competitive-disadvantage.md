@@ -1,8 +1,20 @@
 ---
-title: "Competitive Disadvantage"
-description: "Users switch to competitors who offer better experience or more features due to technical shortcomings."
-category: ['Business', 'Strategic', 'Quality']
-related_problems: ['business-level-impact', 'slow-development-velocity', 'obsolete-technologies']
+title: Competitive Disadvantage
+description: Users switch to competitors who offer better experience or more features
+  due to technical shortcomings.
+category:
+- Business
+- Strategic
+- Quality
+related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.582
+- slug: increased-time-to-market
+  similarity: 0.569
+- slug: negative-brand-perception
+  similarity: 0.558
+- slug: feature-bloat
+  similarity: 0.509
 layout: problem
 ---
 

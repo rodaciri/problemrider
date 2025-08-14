@@ -1,8 +1,22 @@
 ---
-title: "Author Frustration"
-description: "Developers become frustrated with unpredictable, conflicting, or seemingly arbitrary feedback during the code review process."
-category: ['Team Dynamics', 'Process', 'Workplace Health']
-related_problems: ['code-review-inefficiency', 'style-arguments-in-code-reviews', 'code-review-inefficiency']
+title: Author Frustration
+description: Developers become frustrated with unpredictable, conflicting, or seemingly
+  arbitrary feedback during the code review process.
+category:
+- Team Dynamics
+- Process
+- Workplace Health
+related_problems:
+- slug: reviewer-anxiety
+  similarity: 0.693
+- slug: defensive-coding-practices
+  similarity: 0.69
+- slug: fear-of-conflict
+  similarity: 0.678
+- slug: increased-cognitive-load
+  similarity: 0.647
+- slug: inexperienced-developers
+  similarity: 0.62
 layout: problem
 ---
 

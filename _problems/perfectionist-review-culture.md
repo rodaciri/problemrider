@@ -1,8 +1,22 @@
 ---
-title: "Perfectionist Review Culture"
-description: "Team culture emphasizes making code perfect through reviews rather than focusing on meaningful improvements, leading to excessive revision cycles."
-category: ['Culture', 'Process', 'Team Dynamics']
-related_problems: ['extended-review-cycles', 'code-review-inefficiency', 'analysis-paralysis']
+title: Perfectionist Review Culture
+description: Team culture emphasizes making code perfect through reviews rather than
+  focusing on meaningful improvements, leading to excessive revision cycles.
+category:
+- Culture
+- Process
+- Team Dynamics
+related_problems:
+- slug: nitpicking-culture
+  similarity: 0.672
+- slug: perfectionist-culture
+  similarity: 0.653
+- slug: review-process-breakdown
+  similarity: 0.639
+- slug: insufficient-code-review
+  similarity: 0.629
+- slug: inadequate-initial-reviews
+  similarity: 0.623
 layout: problem
 ---
 

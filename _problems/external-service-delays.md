@@ -1,8 +1,21 @@
 ---
-title: "External Service Delays"
-description: "An API depends on other services (third-party or internal) that are slow to respond, causing the API itself to be slow."
-category: ['Performance', 'Stability']
-related_problems: ['high-api-latency', 'increased-error-rates', 'slow-database-queries', 'inefficient-code', 'upstream-timeouts', 'poor-caching-strategy']
+title: External Service Delays
+description: An API depends on other services (third-party or internal) that are slow
+  to respond, causing the API itself to be slow.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: high-api-latency
+  similarity: 0.779
+- slug: slow-application-performance
+  similarity: 0.707
+- slug: network-latency
+  similarity: 0.664
+- slug: upstream-timeouts
+  similarity: 0.646
+- slug: service-timeouts
+  similarity: 0.612
 layout: problem
 ---
 

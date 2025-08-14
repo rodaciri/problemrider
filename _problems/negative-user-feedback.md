@@ -1,8 +1,20 @@
 ---
-title: "Negative User Feedback"
-description: "Users complain about slow loading times, application freezes, or other issues, indicating dissatisfaction with the application's performance or usability."
-category: ['Business']
-related_problems: ['business-level-impact', 'slow-application-performance', 'high-defect-rate-in-production']
+title: Negative User Feedback
+description: Users complain about slow loading times, application freezes, or other
+  issues, indicating dissatisfaction with the application's performance or usability.
+category:
+- Business
+related_problems:
+- slug: declining-business-metrics
+  similarity: 0.642
+- slug: user-trust-erosion
+  similarity: 0.603
+- slug: negative-brand-perception
+  similarity: 0.597
+- slug: customer-dissatisfaction
+  similarity: 0.578
+- slug: user-frustration
+  similarity: 0.573
 layout: problem
 ---
 

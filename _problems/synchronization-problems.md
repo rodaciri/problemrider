@@ -1,8 +1,22 @@
 ---
-title: "Synchronization Problems"
-description: "Updates to one copy of duplicated logic don't get applied to other copies, causing divergent behavior across the system."
-category: ['Maintenance', 'Quality', 'Consistency']
-related_problems: ['code-duplication', 'inconsistent-codebase', 'increased-bug-risk']
+title: Synchronization Problems
+description: Updates to one copy of duplicated logic don't get applied to other copies,
+  causing divergent behavior across the system.
+category:
+- Maintenance
+- Quality
+- Consistency
+related_problems:
+- slug: partial-bug-fixes
+  similarity: 0.661
+- slug: code-duplication
+  similarity: 0.637
+- slug: inconsistent-behavior
+  similarity: 0.557
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.555
+- slug: duplicated-effort
+  similarity: 0.515
 layout: problem
 ---
 

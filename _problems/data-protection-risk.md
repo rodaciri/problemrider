@@ -1,8 +1,14 @@
 ---
-title: "Data Protection Risk"
-description: "Handling of personal or sensitive data lacks safeguards, exposing the project to legal and ethical issues"
-category: ['Security', 'Process', 'Legal']
-related_problems: [insufficient-testing]
+title: Data Protection Risk
+description: Handling of personal or sensitive data lacks safeguards, exposing the
+  project to legal and ethical issues
+category:
+- Security
+- Process
+- Legal
+related_problems:
+- slug: silent-data-corruption
+  similarity: 0.504
 layout: problem
 ---
 

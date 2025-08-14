@@ -1,8 +1,19 @@
 ---
-title: "Excessive Class Size"
-description: "Classes become overly large and complex, making them difficult to understand, maintain, and test."
-category: ['Code Quality', 'Object-Oriented Design']
-related_problems: ['god-object-anti-pattern', 'tight-coupling-issues']
+title: Excessive Class Size
+description: Classes become overly large and complex, making them difficult to understand,
+  maintain, and test.
+category:
+- Code Quality
+- Object-Oriented Design
+related_problems:
+- slug: bloated-class
+  similarity: 0.552
+- slug: monolithic-functions-and-classes
+  similarity: 0.551
+- slug: over-reliance-on-utility-classes
+  similarity: 0.531
+- slug: god-object-anti-pattern
+  similarity: 0.523
 layout: problem
 ---
 

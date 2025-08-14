@@ -1,8 +1,22 @@
 ---
-title: "Delayed Project Timelines"
-description: "Projects consistently take longer than planned, missing deadlines and extending delivery schedules beyond original estimates."
-category: ['Project Management', 'Process', 'Planning']
-related_problems: ['unrealistic-deadlines', 'scope-creep', 'planning-credibility-issues']
+title: Delayed Project Timelines
+description: Projects consistently take longer than planned, missing deadlines and
+  extending delivery schedules beyond original estimates.
+category:
+- Project Management
+- Process
+- Planning
+related_problems:
+- slug: missed-deadlines
+  similarity: 0.741
+- slug: unrealistic-schedule
+  similarity: 0.721
+- slug: cascade-delays
+  similarity: 0.706
+- slug: planning-credibility-issues
+  similarity: 0.662
+- slug: reduced-predictability
+  similarity: 0.643
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Lack of Ownership and Accountability"
-description: "No clear responsibility for maintaining code quality, documentation, or specific system components over time."
-category: ['Process', 'Communication', 'Maintenance']
-related_problems: ['high-technical-debt', 'poor-documentation', 'inconsistent-codebase']
+title: Lack of Ownership and Accountability
+description: No clear responsibility for maintaining code quality, documentation,
+  or specific system components over time.
+category:
+- Process
+- Communication
+- Maintenance
+related_problems:
+- slug: unclear-documentation-ownership
+  similarity: 0.706
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.602
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.583
+- slug: maintenance-bottlenecks
+  similarity: 0.579
+- slug: maintenance-paralysis
+  similarity: 0.575
 layout: problem
 ---
 

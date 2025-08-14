@@ -1,8 +1,22 @@
 ---
-title: "Resistance to Change"
-description: "Teams are hesitant to refactor or improve parts of the system due to perceived risk and effort, leading to stagnation."
-category: ['Process', 'Team Dynamics', 'Maintenance']
-related_problems: ['fear-of-change', 'high-technical-debt', 'maintenance-paralysis']
+title: Resistance to Change
+description: Teams are hesitant to refactor or improve parts of the system due to
+  perceived risk and effort, leading to stagnation.
+category:
+- Process
+- Team Dynamics
+- Maintenance
+related_problems:
+- slug: fear-of-breaking-changes
+  similarity: 0.727
+- slug: fear-of-change
+  similarity: 0.718
+- slug: maintenance-paralysis
+  similarity: 0.681
+- slug: large-estimates-for-small-changes
+  similarity: 0.64
+- slug: difficulty-quantifying-benefits
+  similarity: 0.638
 layout: problem
 ---
 

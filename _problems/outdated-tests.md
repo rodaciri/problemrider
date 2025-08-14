@@ -1,8 +1,22 @@
 ---
-title: "Outdated Tests"
-description: "Tests are not updated when the code changes, leading to false positives or negatives and reduced confidence."
-category: ['Testing', 'Maintenance', 'Quality']
-related_problems: ['insufficient-testing', 'insufficient-testing', 'high-technical-debt']
+title: Outdated Tests
+description: Tests are not updated when the code changes, leading to false positives
+  or negatives and reduced confidence.
+category:
+- Testing
+- Maintenance
+- Quality
+related_problems:
+- slug: legacy-code-without-tests
+  similarity: 0.567
+- slug: regression-bugs
+  similarity: 0.554
+- slug: inadequate-test-data-management
+  similarity: 0.53
+- slug: testing-environment-fragility
+  similarity: 0.523
+- slug: flaky-tests
+  similarity: 0.519
 layout: problem
 ---
 

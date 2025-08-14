@@ -1,8 +1,18 @@
 ---
-title: "Poor Contract Design"
-description: "Legal agreements and contracts don't reflect project realities, technical requirements, or allow for necessary flexibility during development."
-category: ['Legal', 'Risk Management', 'Project Management']
-related_problems: ['vendor-dependency-entrapment', 'scope-creep', 'unrealistic-deadlines']
+title: Poor Contract Design
+description: Legal agreements and contracts don't reflect project realities, technical
+  requirements, or allow for necessary flexibility during development.
+category:
+- Legal
+- Risk Management
+- Project Management
+related_problems:
+- slug: inadequate-requirements-gathering
+  similarity: 0.522
+- slug: poor-planning
+  similarity: 0.507
+- slug: vendor-relationship-strain
+  similarity: 0.505
 layout: problem
 ---
 

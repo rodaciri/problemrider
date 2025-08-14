@@ -1,8 +1,22 @@
 ---
-title: "Invisible Nature of Technical Debt"
-description: "The impact of technical debt is not visible to non-technical stakeholders, making it hard to justify addressing it and allocate resources for improvement."
-category: ['Process', 'Organizational', 'Communication']
-related_problems: ['high-technical-debt', 'short-term-focus', 'stakeholder-developer-communication-gap']
+title: Invisible Nature of Technical Debt
+description: The impact of technical debt is not visible to non-technical stakeholders,
+  making it hard to justify addressing it and allocate resources for improvement.
+category:
+- Process
+- Organizational
+- Communication
+related_problems:
+- slug: high-technical-debt
+  similarity: 0.747
+- slug: modernization-roi-justification-failure
+  similarity: 0.646
+- slug: refactoring-avoidance
+  similarity: 0.638
+- slug: difficulty-quantifying-benefits
+  similarity: 0.59
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.583
 layout: problem
 ---
 

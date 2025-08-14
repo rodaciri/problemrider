@@ -1,8 +1,21 @@
 ---
-title: "Unclear Sharing Expectations"
-description: "A situation where it is not clear what information should be shared with the rest of the team."
-category: ['Team', 'Process']
-related_problems: ['knowledge-silos', 'poor-communication', 'team-coordination-issues']
+title: Unclear Sharing Expectations
+description: A situation where it is not clear what information should be shared with
+  the rest of the team.
+category:
+- Team
+- Process
+related_problems:
+- slug: communication-risk-within-project
+  similarity: 0.63
+- slug: knowledge-sharing-breakdown
+  similarity: 0.627
+- slug: team-confusion
+  similarity: 0.613
+- slug: communication-breakdown
+  similarity: 0.602
+- slug: poor-teamwork
+  similarity: 0.57
 layout: problem
 ---
 

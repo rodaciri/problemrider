@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Execution"
-description: "Manual processes lead to variations in how tasks are completed across team members and over time, creating unpredictable outcomes."
-category: ['Process', 'Quality', 'Team Dynamics']
-related_problems: ['increased-manual-work', 'undefined-code-style-guidelines', 'poor-communication']
+title: Inconsistent Execution
+description: Manual processes lead to variations in how tasks are completed across
+  team members and over time, creating unpredictable outcomes.
+category:
+- Process
+- Quality
+- Team Dynamics
+related_problems:
+- slug: inconsistent-behavior
+  similarity: 0.763
+- slug: increased-manual-work
+  similarity: 0.659
+- slug: uneven-work-flow
+  similarity: 0.608
+- slug: process-design-flaws
+  similarity: 0.59
+- slug: uneven-workload-distribution
+  similarity: 0.59
 layout: problem
 ---
 

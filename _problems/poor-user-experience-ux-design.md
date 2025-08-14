@@ -1,8 +1,19 @@
 ---
-title: "Poor User Experience (UX) Design"
-description: "The application is difficult to use, confusing, or does not meet user needs."
-category: ['Design', 'Business']
-related_problems: ['negative-user-feedback', 'business-level-impact']
+title: Poor User Experience (UX) Design
+description: The application is difficult to use, confusing, or does not meet user
+  needs.
+category:
+- Design
+- Business
+related_problems:
+- slug: user-frustration
+  similarity: 0.548
+- slug: inadequate-error-handling
+  similarity: 0.538
+- slug: inadequate-onboarding
+  similarity: 0.528
+- slug: user-trust-erosion
+  similarity: 0.502
 layout: problem
 ---
 

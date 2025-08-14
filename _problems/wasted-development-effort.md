@@ -1,8 +1,22 @@
 ---
-title: "Wasted Development Effort"
-description: "Significant development work is abandoned, reworked, or becomes obsolete due to poor planning, changing requirements, or inefficient processes."
-category: ['Process', 'Planning', 'Resource Management']
-related_problems: ['changing-project-scope', 'implementation-rework', 'poor-planning']
+title: Wasted Development Effort
+description: Significant development work is abandoned, reworked, or becomes obsolete
+  due to poor planning, changing requirements, or inefficient processes.
+category:
+- Process
+- Planning
+- Resource Management
+related_problems:
+- slug: implementation-rework
+  similarity: 0.68
+- slug: incomplete-projects
+  similarity: 0.677
+- slug: frequent-changes-to-requirements
+  similarity: 0.66
+- slug: development-disruption
+  similarity: 0.65
+- slug: scope-creep
+  similarity: 0.632
 layout: problem
 ---
 

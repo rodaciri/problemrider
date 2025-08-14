@@ -1,8 +1,12 @@
 ---
-title: "[Name of the Problem]"
-description: "Brief one-line description of the problem"
-category: [<a fitting name for on or more categories where the problems belongs to e.g. 'Technical', 'Process', 'Communication', 'Design', 'Performance', 'Security', 'Maintenance', 'and others'>]
-related_problems: [<a list of names of other existing problems that might fit because they are somehow related>]
+title: [Name of the Problem]
+description: Brief one-line description of the problem
+category:
+- <a fitting name for one or more categories where the problem belongs to e.g. 'Technical', 'Process', 'Communication', 'Design', 'Performance', 'Security', 'Maintenance', 'and others'>
+related_problems:
+# NOTE: The related_problems section with similarity scores is automatically generated 
+# by scripts/calculate_related_problems.py. You can initially leave this empty or 
+# add manual slugs that will be replaced with semantic relationships and scores.
 layout: problem
 ---
 

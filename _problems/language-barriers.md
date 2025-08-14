@@ -1,8 +1,22 @@
 ---
-title: "Language Barriers"
-description: "Differences in language or terminology hinder smooth communication and understanding within the team."
-category: ['Communication', 'Team Dynamics', 'Cultural']
-related_problems: ['poor-communication', 'communication-risk-within-project', 'team-coordination-issues']
+title: Language Barriers
+description: Differences in language or terminology hinder smooth communication and
+  understanding within the team.
+category:
+- Communication
+- Team Dynamics
+- Cultural
+related_problems:
+- slug: communication-risk-within-project
+  similarity: 0.688
+- slug: communication-breakdown
+  similarity: 0.616
+- slug: poor-communication
+  similarity: 0.608
+- slug: team-confusion
+  similarity: 0.593
+- slug: poor-teamwork
+  similarity: 0.557
 layout: problem
 ---
 

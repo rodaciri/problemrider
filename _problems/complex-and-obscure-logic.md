@@ -1,8 +1,21 @@
 ---
-title: "Complex and Obscure Logic"
-description: "The code is hard to understand due to convoluted logic, lack of comments, or poor naming conventions."
-category: ['Maintenance', 'Quality']
-related_problems: ['brittle-codebase', 'high-technical-debt']
+title: Complex and Obscure Logic
+description: The code is hard to understand due to convoluted logic, lack of comments,
+  or poor naming conventions.
+category:
+- Maintenance
+- Quality
+related_problems:
+- slug: clever-code
+  similarity: 0.699
+- slug: difficult-to-understand-code
+  similarity: 0.669
+- slug: difficult-code-comprehension
+  similarity: 0.649
+- slug: inexperienced-developers
+  similarity: 0.549
+- slug: brittle-codebase
+  similarity: 0.548
 layout: problem
 ---
 

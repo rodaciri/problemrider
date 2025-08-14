@@ -1,8 +1,21 @@
 ---
-title: "High Number of Database Queries"
-description: "A single user request triggers an unexpectedly large number of database queries, leading to performance degradation and increased database load."
-category: ['Performance', 'Database']
-related_problems: ['n-plus-one-query-problem', 'slow-application-performance', 'high-database-resource-utilization']
+title: High Number of Database Queries
+description: A single user request triggers an unexpectedly large number of database
+  queries, leading to performance degradation and increased database load.
+category:
+- Performance
+- Database
+related_problems:
+- slug: high-database-resource-utilization
+  similarity: 0.806
+- slug: slow-database-queries
+  similarity: 0.787
+- slug: poor-caching-strategy
+  similarity: 0.758
+- slug: n-plus-one-query-problem
+  similarity: 0.71
+- slug: database-query-performance-issues
+  similarity: 0.69
 layout: problem
 ---
 

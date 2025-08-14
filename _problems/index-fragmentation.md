@@ -1,8 +1,21 @@
 ---
-title: "Index Fragmentation"
-description: "Over time, as data is inserted, updated, and deleted, database indexes become disorganized, reducing their efficiency."
-category: ['Performance', 'Database']
-related_problems: ['excessive-disk-io']
+title: Index Fragmentation
+description: Over time, as data is inserted, updated, and deleted, database indexes
+  become disorganized, reducing their efficiency.
+category:
+- Performance
+- Database
+related_problems:
+- slug: unused-indexes
+  similarity: 0.793
+- slug: inefficient-database-indexing
+  similarity: 0.724
+- slug: memory-swapping
+  similarity: 0.664
+- slug: incorrect-index-type
+  similarity: 0.641
+- slug: queries-that-prevent-index-usage
+  similarity: 0.633
 layout: problem
 ---
 

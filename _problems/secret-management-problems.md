@@ -1,8 +1,14 @@
 ---
-title: "Secret Management Problems"
-description: "Inadequate handling of sensitive credentials and secrets creates security vulnerabilities and operational challenges."
-category: ['Security', 'Configuration', 'Credential Management']
-related_problems: ['environment-variable-issues', 'insecure-data-storage', 'configuration-drift']
+title: Secret Management Problems
+description: Inadequate handling of sensitive credentials and secrets creates security
+  vulnerabilities and operational challenges.
+category:
+- Security
+- Configuration
+- Credential Management
+related_problems:
+- slug: password-security-weaknesses
+  similarity: 0.569
 layout: problem
 ---
 

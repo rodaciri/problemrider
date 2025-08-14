@@ -1,8 +1,21 @@
 ---
-title: "Automated Tooling Ineffectiveness"
-description: "A situation where automated tooling, such as linters and formatters, is not effective because of the inconsistency of the codebase."
-category: ['Code Quality', 'Process']
-related_problems: ['inconsistent-codebase', 'undefined-code-style-guidelines']
+title: Automated Tooling Ineffectiveness
+description: A situation where automated tooling, such as linters and formatters,
+  is not effective because of the inconsistency of the codebase.
+category:
+- Code Quality
+- Process
+related_problems:
+- slug: tool-limitations
+  similarity: 0.571
+- slug: increased-manual-work
+  similarity: 0.54
+- slug: inconsistent-coding-standards
+  similarity: 0.533
+- slug: debugging-difficulties
+  similarity: 0.521
+- slug: inconsistent-behavior
+  similarity: 0.501
 layout: problem
 ---
 

@@ -1,8 +1,23 @@
 ---
-title: "Mentor Burnout"
-description: "Experienced team members become overwhelmed and exhausted from excessive mentoring and knowledge transfer responsibilities."
-category: ['Individual', 'Team', 'Management', 'Culture']
-related_problems: ['knowledge-silos', 'slow-knowledge-transfer', 'single-points-of-failure']
+title: Mentor Burnout
+description: Experienced team members become overwhelmed and exhausted from excessive
+  mentoring and knowledge transfer responsibilities.
+category:
+- Individual
+- Team
+- Management
+- Culture
+related_problems:
+- slug: inadequate-mentoring-structure
+  similarity: 0.709
+- slug: developer-frustration-and-burnout
+  similarity: 0.657
+- slug: increased-stress-and-burnout
+  similarity: 0.575
+- slug: knowledge-dependency
+  similarity: 0.567
+- slug: high-turnover
+  similarity: 0.548
 layout: problem
 ---
 

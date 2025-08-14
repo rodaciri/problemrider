@@ -1,8 +1,22 @@
 ---
-title: "Delayed Issue Resolution"
-description: "Problems persist longer because no one feels responsible for fixing them, leading to accumulated technical debt and user frustration."
-category: ['Process', 'Maintenance', 'Accountability']
-related_problems: ['lack-of-ownership-and-accountability', 'high-technical-debt', 'customer-dissatisfaction']
+title: Delayed Issue Resolution
+description: Problems persist longer because no one feels responsible for fixing them,
+  leading to accumulated technical debt and user frustration.
+category:
+- Process
+- Maintenance
+- Accountability
+related_problems:
+- slug: delayed-bug-fixes
+  similarity: 0.685
+- slug: slow-incident-resolution
+  similarity: 0.554
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.549
+- slug: customer-dissatisfaction
+  similarity: 0.54
+- slug: workaround-culture
+  similarity: 0.523
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "System Stagnation"
-description: "Software systems remain unchanged and fail to evolve to meet new requirements, technologies, or business needs over extended periods."
-category: ['Technical', 'Strategy', 'Business']
-related_problems: ['maintenance-paralysis', 'obsolete-technologies', 'competitive-disadvantage']
+title: System Stagnation
+description: Software systems remain unchanged and fail to evolve to meet new requirements,
+  technologies, or business needs over extended periods.
+category:
+- Technical
+- Strategy
+- Business
+related_problems:
+- slug: stagnant-architecture
+  similarity: 0.765
+- slug: obsolete-technologies
+  similarity: 0.648
+- slug: technology-stack-fragmentation
+  similarity: 0.59
+- slug: technology-isolation
+  similarity: 0.588
+- slug: rapid-system-changes
+  similarity: 0.587
 layout: problem
 ---
 

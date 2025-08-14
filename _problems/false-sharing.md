@@ -1,8 +1,22 @@
 ---
-title: "False Sharing"
-description: "Multiple CPU cores access different variables located on the same cache line, causing unnecessary cache coherency traffic and performance degradation."
-category: ['Technical', 'Performance', 'Concurrency']
-related_problems: ['race-conditions', 'synchronization-problems', 'gradual-performance-degradation']
+title: False Sharing
+description: Multiple CPU cores access different variables located on the same cache
+  line, causing unnecessary cache coherency traffic and performance degradation.
+category:
+- Technical
+- Performance
+- Concurrency
+related_problems:
+- slug: atomic-operation-overhead
+  similarity: 0.697
+- slug: lock-contention
+  similarity: 0.643
+- slug: race-conditions
+  similarity: 0.626
+- slug: memory-barrier-inefficiency
+  similarity: 0.62
+- slug: dma-coherency-issues
+  similarity: 0.538
 layout: problem
 ---
 

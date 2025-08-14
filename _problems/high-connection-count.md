@@ -1,8 +1,21 @@
 ---
-title: "High Connection Count"
-description: "A large number of open database connections, even if idle, can consume significant memory resources and lead to connection rejections."
-category: ['Performance', 'Stability']
-related_problems: ['memory-swapping', 'misconfigured-connection-pools', 'long-running-transactions']
+title: High Connection Count
+description: A large number of open database connections, even if idle, can consume
+  significant memory resources and lead to connection rejections.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: high-database-resource-utilization
+  similarity: 0.756
+- slug: incorrect-max-connection-pool-size
+  similarity: 0.753
+- slug: database-connection-leaks
+  similarity: 0.729
+- slug: misconfigured-connection-pools
+  similarity: 0.693
+- slug: long-running-database-transactions
+  similarity: 0.67
 layout: problem
 ---
 

@@ -273,13 +273,39 @@ Be rigorous: correlation and co-occurrence are NOT causation. Require clear mech
             self._save_cache()
             return error_result
     
-    def validate_all_relationships(self, min_confidence: float = 0.7, limit: int = None, random_start: bool = False) -> List[Dict]:
+    def validate_all_relationships(self, min_confidence: float = 0.7, limit: int = None, random_start: bool = False, specific_file: str = None) -> List[Dict]:
         """Validate causal relationships in the graph."""
         print(f"Validating causal relationships with LLM{f' (limit: {limit})' if limit else ''}...")
         
         validation_results = []
         edges = list(self.causal_graph.edges(data=True))
         total_edges = len(edges)
+        
+        # Filter by specific file if requested
+        if specific_file:
+            # Handle .md extension - remove it to get the slug
+            file_slug = specific_file
+            if file_slug.endswith('.md'):
+                file_slug = file_slug[:-3]
+            
+            if file_slug not in self.problems:
+                print(f"❌ Problem file '{specific_file}' not found. Available files:")
+                available_files = list(self.problems.keys())[:10]  # Show first 10
+                for f in available_files:
+                    print(f"  - {f}.md")
+                if len(self.problems) > 10:
+                    print(f"  ... and {len(self.problems) - 10} more")
+                return []
+            
+            specific_file = file_slug  # Use slug for rest of the function
+            
+            # Filter edges to only include relationships involving the specific file
+            filtered_edges = [
+                edge for edge in edges 
+                if edge[0] == specific_file or edge[1] == specific_file
+            ]
+            edges = filtered_edges
+            print(f"📁 Focusing on relationships for '{specific_file}' ({len(edges)} relationships)")
         
         # Randomize order if requested
         if random_start:
@@ -291,7 +317,10 @@ Be rigorous: correlation and co-occurrence are NOT causation. Require clear mech
         if limit:
             edges = edges[:limit]
             selection_method = "random" if random_start else "first"
-            print(f"Processing {selection_method} {len(edges)} relationships out of {total_edges}")
+            if specific_file:
+                print(f"Processing {selection_method} {len(edges)} relationships for '{specific_file}' out of {total_edges} total")
+            else:
+                print(f"Processing {selection_method} {len(edges)} relationships out of {total_edges}")
         
         for i, edge in enumerate(edges, 1):
             cause, effect, data = edge
@@ -573,10 +602,12 @@ def main():
     parser = argparse.ArgumentParser(
         description="Validate causal relationships using SD-SCM inspired approach",
         epilog="""Examples:
-  %(prog)s --limit 10                    # Validate first 10 relationships
-  %(prog)s --random-start --limit 5      # Validate 5 random relationships  
-  %(prog)s --update-files                # Update problem files with results
-  %(prog)s --random-start --update-files # Random validation + file updates""",
+  %(prog)s --limit 10                      # Validate first 10 relationships
+  %(prog)s --random-start --limit 5        # Validate 5 random relationships  
+  %(prog)s --file feature-factory.md       # Validate relationships for specific problem
+  %(prog)s --file bikeshedding.md --limit 3 # Validate 3 relationships for specific problem
+  %(prog)s --update-files                  # Update problem files with results
+  %(prog)s --random-start --update-files   # Random validation + file updates""",
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument("--output", default="causal_validation_report.md", help="Output report file (default: %(default)s)")
@@ -584,6 +615,7 @@ def main():
     parser.add_argument("--limit", type=int, default=5, help="Limit number of relationships to validate (default: %(default)s)")
     parser.add_argument("--update-files", action="store_true", help="Update problem files with confidence scores and new relationships")
     parser.add_argument("--random-start", action="store_true", help="🎲 Start validation with random relationships instead of deterministic order (useful for varied sampling)")
+    parser.add_argument("--file", type=str, help="Validate relationships for a specific problem file (e.g., 'feature-factory.md' or 'feature-factory')")
     args = parser.parse_args()
     
     validator = CausalRelationshipValidator()
@@ -591,7 +623,7 @@ def main():
     validator.build_causal_graph()
     
     # Validate existing relationships
-    validation_results = validator.validate_all_relationships(limit=args.limit, random_start=args.random_start)
+    validation_results = validator.validate_all_relationships(limit=args.limit, random_start=args.random_start, specific_file=args.file)
     
     # Find missing causal relationships
     missing_relationships = validator.find_missing_causal_relationships(sample_size=args.sample_missing)

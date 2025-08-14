@@ -66,6 +66,9 @@ In the repository, you'll find a mix of files that the Jekyll blog system needs 
 - `CLAUDE.md` - just a symbolic link to `GEMINI.md` (we're working with both CLIs and thus mirror the instructions for them)
 - `GEMINI.md` - Additional AI assistant instructions
 - `git-tail.sh` - a helper shell script for continuously monitoring change operations of AI agents
+- `.claude/commands/rc` - custom commands for AI Agents for generating, categorizing, merging and linking problems
+- `scripts/` - Python utilities for maintenance (link checking, title conversion, backlog management, Neo4j export) and visualization
+   generation
 
 ## Main Contributors
 

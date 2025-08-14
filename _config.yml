@@ -59,3 +59,4 @@ exclude:
   - GEMINI.md
   - README.md
   - git-tail.sh
+  - _embeddings/

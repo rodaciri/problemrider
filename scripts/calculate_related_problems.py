@@ -56,20 +56,17 @@ class SimpleEmbeddingAnalyzer:
                             'description': metadata.get('description', ''),
                             'current_related_problems': metadata.get('related_problems', []),
                             'metadata': metadata,
-                            'content_sections': self._extract_sections(markdown_content)
+                            'content_sections': self._extract_additional_sections(markdown_content)
                         }
             except Exception as e:
                 print(f"Error loading {file_path}: {e}")
                 
         print(f"Loaded {len(self.problems)} problems")
     
-    def _extract_sections(self, content: str) -> dict:
+    def _extract_additional_sections(self, content: str) -> dict:
         """Extract specific sections: indicators and examples."""
         
-        sections = {
-            'indicators': '',
-            'examples': ''
-        }
+        sections = {'indicators': ''}  # Initialize with empty indicators
         
         # Extract indicators section
         indicators_pattern = r'## Indicators.*?\n(.*?)(?=\n## |\n$)'
@@ -82,18 +79,7 @@ class SimpleEmbeddingAnalyzer:
             indicators_text = re.sub(r'[-*]\s*', '', indicators_text)  # Remove bullets
             indicators_text = re.sub(r'\s+', ' ', indicators_text).strip()
             sections['indicators'] = indicators_text
-        
-        # Extract examples section
-        examples_pattern = r'## Examples.*?\n(.*?)(?=\n## |\n$)'
-        examples_match = re.search(examples_pattern, content, re.IGNORECASE | re.DOTALL)
-        if examples_match:
-            examples_text = examples_match.group(1)
-            # Clean markdown formatting
-            examples_text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', examples_text)
-            examples_text = re.sub(r'\*\*([^\*]+)\*\*', r'\1', examples_text)
-            examples_text = re.sub(r'\s+', ' ', examples_text).strip()
-            sections['examples'] = examples_text
-        
+                
         return sections
     
     def create_embeddings(self) -> None:
@@ -104,7 +90,7 @@ class SimpleEmbeddingAnalyzer:
         keys_to_encode = []
         
         for problem_key, problem_data in self.problems.items():
-            # Combine title, description, and indicators (no examples)
+            # Combine title, description, anond indicators (no examples)
             text_parts = [
                 problem_data['title'],
                 problem_data['description'],

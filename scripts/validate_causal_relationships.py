@@ -38,7 +38,10 @@ class CausalRelationshipValidator:
         
         # Cache for validation results to avoid re-validating same relationships
         self.validation_cache: Dict[str, Dict] = {}
-        self.cache_file = Path("causal_validation_cache.json")
+        self.cache_file = Path("scripts/tmp/causal_validation_cache.json")
+        
+        # Ensure cache directory exists
+        self.cache_file.parent.mkdir(parents=True, exist_ok=True)
         self._load_cache()
         
         # Initialize OpenRouter client for better cost control

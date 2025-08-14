@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: system-stagnation
   similarity: 0.7
+- slug: inability-to-innovate
+  similarity: 0.65
 layout: problem
 ---
 

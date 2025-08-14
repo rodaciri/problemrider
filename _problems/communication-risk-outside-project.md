@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: stakeholder-developer-communication-gap
   similarity: 0.6
+- slug: stakeholder-confidence-loss
+  similarity: 0.6
 layout: problem
 ---
 

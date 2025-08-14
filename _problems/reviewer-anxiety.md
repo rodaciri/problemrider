@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: release-anxiety
   similarity: 0.65
+- slug: review-process-avoidance
+  similarity: 0.65
 layout: problem
 ---
 

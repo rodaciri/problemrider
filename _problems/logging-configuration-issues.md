@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: inadequate-configuration-management
   similarity: 0.55
+- slug: configuration-chaos
+  similarity: 0.55
 layout: problem
 ---
 

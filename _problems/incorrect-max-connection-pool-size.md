@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: high-database-resource-utilization
   similarity: 0.6
+- slug: database-query-performance-issues
+  similarity: 0.6
 layout: problem
 ---
 

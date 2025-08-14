@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: team-members-not-engaged-in-review-process
   similarity: 0.65
+- slug: fear-of-change
+  similarity: 0.65
 layout: problem
 ---
 

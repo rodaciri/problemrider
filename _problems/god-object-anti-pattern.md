@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: over-reliance-on-utility-classes
   similarity: 0.6
+- slug: misunderstanding-of-oop
+  similarity: 0.55
 layout: problem
 ---
 

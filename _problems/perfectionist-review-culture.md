@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: review-process-breakdown
   similarity: 0.65
+- slug: fear-of-conflict
+  similarity: 0.6
 layout: problem
 ---
 

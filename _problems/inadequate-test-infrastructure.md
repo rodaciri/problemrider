@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: inefficient-development-environment
   similarity: 0.6
+- slug: insufficient-testing
+  similarity: 0.55
 layout: problem
 ---
 

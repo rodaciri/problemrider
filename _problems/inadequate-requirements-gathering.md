@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: stakeholder-developer-communication-gap
   similarity: 0.55
+- slug: feature-gaps
+  similarity: 0.55
 layout: problem
 ---
 

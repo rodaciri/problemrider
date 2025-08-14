@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: increased-cognitive-load
   similarity: 0.55
+- slug: maintenance-cost-increase
+  similarity: 0.5
 layout: problem
 ---
 

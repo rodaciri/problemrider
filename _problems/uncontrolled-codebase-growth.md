@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: rapid-team-growth
   similarity: 0.6
+- slug: inconsistent-codebase
+  similarity: 0.6
 layout: problem
 ---
 

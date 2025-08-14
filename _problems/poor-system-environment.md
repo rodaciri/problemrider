@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: environment-variable-issues
   similarity: 0.6
+- slug: testing-environment-fragility
+  similarity: 0.6
 layout: problem
 ---
 

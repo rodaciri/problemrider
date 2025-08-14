@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.5
 - slug: high-client-side-resource-consumption
   similarity: 0.5
+- slug: database-query-performance-issues
+  similarity: 0.5
 layout: problem
 ---
 

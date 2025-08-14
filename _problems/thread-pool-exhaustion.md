@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: high-client-side-resource-consumption
   similarity: 0.55
+- slug: insufficient-worker-capacity
+  similarity: 0.5
 layout: problem
 ---
 

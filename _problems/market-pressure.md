@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: product-direction-chaos
   similarity: 0.55
+- slug: eager-to-please-stakeholders
+  similarity: 0.5
 layout: problem
 ---
 

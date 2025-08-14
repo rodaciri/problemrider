@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: slow-feature-development
   similarity: 0.6
+- slug: no-continuous-feedback-loop
+  similarity: 0.55
 layout: problem
 ---
 

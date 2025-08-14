@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.6
 - slug: unused-indexes
   similarity: 0.55
+- slug: poor-caching-strategy
+  similarity: 0.55
 layout: problem
 ---
 

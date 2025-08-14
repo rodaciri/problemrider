@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: inexperienced-developers
   similarity: 0.65
+- slug: fear-of-breaking-changes
+  similarity: 0.6
 layout: problem
 ---
 

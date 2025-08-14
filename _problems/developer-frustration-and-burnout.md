@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: development-disruption
   similarity: 0.6
+- slug: stakeholder-frustration
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: system-stagnation
   similarity: 0.55
+- slug: declining-business-metrics
+  similarity: 0.55
 layout: problem
 ---
 

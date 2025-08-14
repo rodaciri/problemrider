@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: assumption-based-development
   similarity: 0.55
+- slug: increased-technical-shortcuts
+  similarity: 0.55
 layout: problem
 ---
 

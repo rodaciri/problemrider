@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: information-fragmentation
   similarity: 0.65
+- slug: incomplete-knowledge
+  similarity: 0.65
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: unpredictable-system-behavior
   similarity: 0.6
+- slug: increased-bug-count
+  similarity: 0.6
 layout: problem
 ---
 

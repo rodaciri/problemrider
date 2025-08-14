@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: complex-and-obscure-logic
   similarity: 0.65
+- slug: legacy-code-without-tests
+  similarity: 0.6
 layout: problem
 ---
 

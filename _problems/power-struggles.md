@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: team-confusion
   similarity: 0.6
+- slug: project-authority-vacuum
+  similarity: 0.55
 layout: problem
 ---
 

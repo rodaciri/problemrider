@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: maintenance-paralysis
   similarity: 0.65
+- slug: history-of-failed-changes
+  similarity: 0.65
 layout: problem
 ---
 

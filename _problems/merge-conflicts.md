@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: duplicated-effort
   similarity: 0.55
+- slug: duplicated-research-effort
+  similarity: 0.55
 layout: problem
 ---
 

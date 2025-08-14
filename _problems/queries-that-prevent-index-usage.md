@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.65
 - slug: slow-database-queries
   similarity: 0.6
+- slug: index-fragmentation
+  similarity: 0.55
 layout: problem
 ---
 

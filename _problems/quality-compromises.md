@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: increased-technical-shortcuts
   similarity: 0.6
+- slug: insufficient-testing
+  similarity: 0.6
 layout: problem
 ---
 

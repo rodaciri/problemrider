@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: inconsistent-quality
   similarity: 0.65
+- slug: code-duplication
+  similarity: 0.55
 layout: problem
 ---
 

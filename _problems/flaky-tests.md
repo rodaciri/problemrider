@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: quality-blind-spots
   similarity: 0.55
+- slug: inadequate-integration-tests
+  similarity: 0.55
 layout: problem
 ---
 

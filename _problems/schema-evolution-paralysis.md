@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: legacy-api-versioning-nightmare
   similarity: 0.55
+- slug: stagnant-architecture
+  similarity: 0.55
 layout: problem
 ---
 

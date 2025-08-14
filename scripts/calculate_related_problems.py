@@ -6,6 +6,7 @@ Install dependencies: pip install -r scripts/requirements.txt
 Usage:
     python scripts/calculate_related_problems.py --dry-run
     python scripts/calculate_related_problems.py --use-local --local-url http://192.168.1.100:8000
+    python scripts/calculate_related_problems.py --file new-problem  # Update specific problem only
     
 Environment variables:
     LOCAL_EMBEDDING_URL: Default URL for local embedding service (default: http://host.docker.internal:1234)
@@ -59,6 +60,7 @@ class SimpleEmbeddingAnalyzer:
         self.local_url = local_url or os.getenv('LOCAL_EMBEDDING_URL', DEFAULT_LOCAL_EMBEDDING_URL)
         self.local_model_name = None
         
+        
         if self.use_local:
             if requests is None:
                 raise ValueError("requests package is required for local embedding service")
@@ -78,6 +80,68 @@ class SimpleEmbeddingAnalyzer:
             else:
                 import platform
                 print(f"CPU: {platform.processor()}")
+    
+    def _get_content_hash(self, problem_data: Dict) -> str:
+        """Generate MD5 hash of problem content for cache invalidation."""
+        import hashlib
+        
+        # Combine the content that affects embeddings
+        content_parts = [
+            problem_data['title'],
+            problem_data['description'],
+            problem_data['content_sections']['description'],
+            problem_data['content_sections']['indicators']
+        ]
+        content_text = " ".join(part for part in content_parts if part.strip())
+        
+        return hashlib.md5(content_text.encode()).hexdigest()
+    
+    def _get_timestamp(self) -> str:
+        """Get current timestamp."""
+        from datetime import datetime
+        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    def _get_model_name(self) -> str:
+        """Get the name of the embedding model being used."""
+        if self.use_local:
+            return f"local:{self.local_model_name}" if self.local_model_name else "local:unknown"
+        else:
+            return "Qwen/Qwen3-Embedding-0.6B"
+    
+    def _save_embedding_to_file(self, problem_key: str, embedding: np.ndarray, content_hash: str) -> None:
+        """Save embedding and hash directly to the problem file's YAML frontmatter."""
+        problem_data = self.problems[problem_key]
+        file_path = problem_data['file_path']
+        
+        try:
+            # Read current file
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Split frontmatter and content
+            if content.startswith('---'):
+                parts = content.split('---', 2)
+                if len(parts) >= 3:
+                    metadata = yaml.safe_load(parts[1])
+                    markdown_content = parts[2]
+                    
+                    # Add embedding data to metadata
+                    metadata['_embedding'] = embedding.tolist()  # Convert to list for JSON serialization
+                    metadata['_embedding_hash'] = content_hash
+                    metadata['_embedding_model'] = self._get_model_name()
+                    metadata['_embedding_timestamp'] = self._get_timestamp()
+                    
+                    # Write back to file
+                    new_yaml = yaml.dump(metadata, default_flow_style=False, sort_keys=False, width=float('inf'))
+                    new_content = f"---\n{new_yaml}---{markdown_content}"
+                    
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        f.write(new_content)
+                    
+                    print(f"💾 Updated {problem_key} with embedding cache")
+                    
+        except Exception as e:
+            print(f"⚠️  Could not save embedding to {problem_key}: {e}")
     
     def _test_local_service(self):
         """Test connectivity to local embedding service and detect available models."""
@@ -244,39 +308,69 @@ class SimpleEmbeddingAnalyzer:
         return np.array(embeddings)
     
     def create_embeddings(self) -> None:
-        """Create fresh embeddings using local service or Qwen3-Embedding-0.6B."""
-        print("Creating fresh embeddings...")
+        """Create embeddings using cache when possible, only computing new/changed problems."""
+        print("Creating embeddings (using cache when possible)...")
         
         texts_to_encode = []
         keys_to_encode = []
+        cached_count = 0
         
+        # Check each problem against embedded cache in YAML frontmatter
         for problem_key, problem_data in self.problems.items():
-            # Combine title, YAML description, description section, and indicators
-            text_parts = [
-                problem_data['title'],
-                problem_data['description'],  # YAML description
-                problem_data['content_sections']['description'],  # Description section
-                problem_data['content_sections']['indicators']
-            ]
-            # Filter out empty parts
-            text_parts = [part for part in text_parts if part.strip()]
-            text = " ".join(text_parts)
-            texts_to_encode.append(text)
-            keys_to_encode.append(problem_key)
+            content_hash = self._get_content_hash(problem_data)
+            
+            # Check if we have embedded cache with matching content hash and model
+            metadata = problem_data['metadata']
+            cached_embedding = metadata.get('_embedding')
+            cached_hash = metadata.get('_embedding_hash')
+            cached_model = metadata.get('_embedding_model')
+            current_model = self._get_model_name()
+            
+            if (cached_embedding and 
+                cached_hash == content_hash and 
+                cached_model == current_model):
+                # Use cached embedding from file
+                if isinstance(cached_embedding, list):
+                    cached_embedding = np.array(cached_embedding)
+                self.embeddings[problem_key] = cached_embedding
+                cached_count += 1
+            else:
+                # Need to compute new embedding
+                text_parts = [
+                    problem_data['title'],
+                    problem_data['description'],  # YAML description
+                    problem_data['content_sections']['description'],  # Description section
+                    problem_data['content_sections']['indicators']
+                ]
+                # Filter out empty parts
+                text_parts = [part for part in text_parts if part.strip()]
+                text = " ".join(text_parts)
+                texts_to_encode.append(text)
+                keys_to_encode.append(problem_key)
         
-        print(f"📊 Encoding {len(texts_to_encode)} problems...")
+        print(f"📁 Using {cached_count} cached embeddings")
         
-        if self.use_local:
-            print(f"🌐 Generating embeddings via local service at {self.local_url}")
-            embeddings = self._get_embeddings_local(texts_to_encode)
+        if texts_to_encode:
+            print(f"🆕 Computing {len(texts_to_encode)} new embeddings...")
+            
+            if self.use_local:
+                print(f"🌐 Generating embeddings via local service at {self.local_url}")
+                new_embeddings = self._get_embeddings_local(texts_to_encode)
+            else:
+                print("🤖 Generating embeddings using local Qwen3-Embedding-0.6B model")
+                new_embeddings = self.model.encode(texts_to_encode, show_progress_bar=True, convert_to_numpy=True)
+            
+            # Store new embeddings and update files
+            for key, embedding in zip(keys_to_encode, new_embeddings):
+                self.embeddings[key] = embedding
+                
+                # Update the file with embedded cache
+                content_hash = self._get_content_hash(self.problems[key])
+                self._save_embedding_to_file(key, embedding, content_hash)
         else:
-            print("🤖 Generating embeddings using local Qwen3-Embedding-0.6B model")
-            embeddings = self.model.encode(texts_to_encode, show_progress_bar=True, convert_to_numpy=True)
+            print("✅ All embeddings loaded from cache")
         
-        for key, embedding in zip(keys_to_encode, embeddings):
-            self.embeddings[key] = embedding
-        
-        print(f"Created fresh embeddings for {len(self.embeddings)} problems")
+        print(f"Ready with embeddings for {len(self.embeddings)} problems")
     
     def find_related(self, problem_key: str, top_k: int = 5, min_similarity: float = 0.3) -> List[Tuple[str, float]]:
         """Find related problems using cosine similarity."""
@@ -295,12 +389,31 @@ class SimpleEmbeddingAnalyzer:
         
         return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
     
-    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3):
+    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3, specific_file: str = None):
         """Update all files with new related problems."""
-        print(f"\n{'[DRY RUN] ' if dry_run else ''}Updating files...")
+        if specific_file:
+            # Handle .md extension - remove it to get the slug
+            file_slug = specific_file
+            if file_slug.endswith('.md'):
+                file_slug = file_slug[:-3]
+            
+            if file_slug not in self.problems:
+                print(f"❌ Problem file '{specific_file}' not found. Available files:")
+                available_files = list(self.problems.keys())[:10]  # Show first 10
+                for f in available_files:
+                    print(f"  - {f}.md")
+                if len(self.problems) > 10:
+                    print(f"  ... and {len(self.problems) - 10} more")
+                return
+            
+            problem_keys = [file_slug]
+            print(f"{'[DRY RUN] ' if dry_run else ''}Updating specific file: {specific_file}")
+        else:
+            problem_keys = list(self.problems.keys())
+            print(f"{'[DRY RUN] ' if dry_run else ''}Updating all files...")
         
         updates = 0
-        for problem_key in self.problems.keys():
+        for problem_key in problem_keys:
             related = self.find_related(problem_key, top_k=5, min_similarity=min_similarity)
             # Create list of objects with slug and similarity (as quantized decimals)
             new_related = [{"slug": key, "similarity": round(score * 20) / 20} for key, score in related]
@@ -316,7 +429,10 @@ class SimpleEmbeddingAnalyzer:
                 if not dry_run:
                     self._update_file(problem_key, new_related)
         
-        print(f"Total: {updates} files would be updated")
+        if specific_file:
+            print(f"Updated 1 specific file" if updates > 0 else "No updates needed for specific file")
+        else:
+            print(f"Total: {updates} files would be updated")
     
     def _update_file(self, problem_key: str, new_related: List[dict]):
         """Update a single file."""
@@ -341,6 +457,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
     parser.add_argument("--use-local", action="store_true", help="Use local embedding service instead of sentence-transformers")
     parser.add_argument("--local-url", type=str, help=f"URL of local embedding service (default: {DEFAULT_LOCAL_EMBEDDING_URL})")
+    parser.add_argument("--file", type=str, help="Process only specific problem file (e.g., 'new-problem' or 'new-problem.md')")
     args = parser.parse_args()
     
     analyzer = SimpleEmbeddingAnalyzer(
@@ -350,7 +467,7 @@ def main():
     analyzer.load_problems()
     analyzer.create_embeddings()
 
-    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY)
+    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY, specific_file=args.file)
 
 if __name__ == "__main__":
     main()

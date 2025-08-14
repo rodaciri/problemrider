@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: inconsistent-codebase
   similarity: 0.55
+- slug: constantly-shifting-deadlines
+  similarity: 0.55
 layout: problem
 ---
 

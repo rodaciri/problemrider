@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: competing-priorities
   similarity: 0.6
+- slug: scope-change-resistance
+  similarity: 0.55
 layout: problem
 ---
 

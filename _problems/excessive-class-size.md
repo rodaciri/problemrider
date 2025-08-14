@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: large-pull-requests
   similarity: 0.55
+- slug: uncontrolled-codebase-growth
+  similarity: 0.55
 layout: problem
 ---
 

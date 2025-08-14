@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: feature-factory
   similarity: 0.55
+- slug: difficulty-quantifying-benefits
+  similarity: 0.55
 layout: problem
 ---
 

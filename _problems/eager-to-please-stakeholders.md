@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: communication-risk-outside-project
   similarity: 0.65
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.6
 layout: problem
 ---
 

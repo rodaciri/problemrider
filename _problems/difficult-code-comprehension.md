@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.7
 - slug: increased-cognitive-load
   similarity: 0.7
+- slug: inconsistent-codebase
+  similarity: 0.65
 layout: problem
 ---
 

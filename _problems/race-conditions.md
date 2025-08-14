@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: resource-contention
   similarity: 0.5
+- slug: team-coordination-issues
+  similarity: 0.5
 layout: problem
 ---
 

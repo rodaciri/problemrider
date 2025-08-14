@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: slow-application-performance
   similarity: 0.65
+- slug: development-disruption
+  similarity: 0.65
 layout: problem
 ---
 

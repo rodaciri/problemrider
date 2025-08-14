@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: extended-review-cycles
   similarity: 0.6
+- slug: delayed-bug-fixes
+  similarity: 0.6
 layout: problem
 ---
 

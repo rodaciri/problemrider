@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: unproductive-meetings
   similarity: 0.55
+- slug: development-disruption
+  similarity: 0.55
 layout: problem
 ---
 

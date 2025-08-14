@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: inefficient-code
   similarity: 0.65
+- slug: inefficient-database-indexing
+  similarity: 0.6
 layout: problem
 ---
 

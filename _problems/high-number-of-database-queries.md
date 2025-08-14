@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: high-database-resource-utilization
   similarity: 0.7
+- slug: imperative-data-fetching-logic
+  similarity: 0.7
 layout: problem
 ---
 

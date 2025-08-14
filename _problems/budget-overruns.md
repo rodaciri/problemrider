@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: stakeholder-dissatisfaction
   similarity: 0.6
+- slug: poor-planning
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: inconsistent-onboarding-experience
   similarity: 0.55
+- slug: insufficient-design-skills
+  similarity: 0.5
 layout: problem
 ---
 

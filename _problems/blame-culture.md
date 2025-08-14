@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.5
 - slug: workaround-culture
   similarity: 0.5
+- slug: perfectionist-culture
+  similarity: 0.5
 layout: problem
 ---
 

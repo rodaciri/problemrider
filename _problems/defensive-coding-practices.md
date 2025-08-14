@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: superficial-code-reviews
   similarity: 0.55
+- slug: undefined-code-style-guidelines
+  similarity: 0.55
 layout: problem
 ---
 

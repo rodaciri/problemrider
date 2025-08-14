@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: team-silos
   similarity: 0.65
+- slug: duplicated-effort
+  similarity: 0.65
 layout: problem
 ---
 

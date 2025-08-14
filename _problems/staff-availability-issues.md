@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: project-authority-vacuum
   similarity: 0.5
+- slug: single-points-of-failure
+  similarity: 0.5
 layout: problem
 ---
 

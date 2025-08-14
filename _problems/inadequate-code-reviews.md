@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.75
 - slug: team-members-not-engaged-in-review-process
   similarity: 0.75
+- slug: review-bottlenecks
+  similarity: 0.75
 layout: problem
 ---
 

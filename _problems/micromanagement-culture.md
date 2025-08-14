@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: approval-dependencies
   similarity: 0.5
+- slug: decision-paralysis
+  similarity: 0.5
 layout: problem
 ---
 

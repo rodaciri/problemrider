@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: monolithic-functions-and-classes
   similarity: 0.6
+- slug: god-object-anti-pattern
+  similarity: 0.6
 layout: problem
 ---
 

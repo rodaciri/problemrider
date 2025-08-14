@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: network-latency
   similarity: 0.6
+- slug: increased-error-rates
+  similarity: 0.55
 layout: problem
 ---
 

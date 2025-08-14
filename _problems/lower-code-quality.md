@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: team-churn-impact
   similarity: 0.6
+- slug: reduced-code-submission-frequency
+  similarity: 0.55
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: reduced-team-productivity
   similarity: 0.65
+- slug: team-silos
+  similarity: 0.6
 layout: problem
 ---
 

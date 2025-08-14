@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: insufficient-design-skills
   similarity: 0.65
+- slug: complex-deployment-process
+  similarity: 0.6
 layout: problem
 ---
 

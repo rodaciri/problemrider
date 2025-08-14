@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: unmotivated-employees
   similarity: 0.5
+- slug: team-dysfunction
+  similarity: 0.5
 layout: problem
 ---
 

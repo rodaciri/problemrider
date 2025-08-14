@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: poor-system-environment
   similarity: 0.65
+- slug: context-switching-overhead
+  similarity: 0.6
 layout: problem
 ---
 

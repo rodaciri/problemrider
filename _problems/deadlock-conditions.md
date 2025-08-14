@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: long-running-database-transactions
   similarity: 0.55
+- slug: long-running-transactions
+  similarity: 0.5
 layout: problem
 ---
 

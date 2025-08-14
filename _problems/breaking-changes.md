@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: fear-of-breaking-changes
   similarity: 0.55
+- slug: brittle-codebase
+  similarity: 0.55
 layout: problem
 ---
 

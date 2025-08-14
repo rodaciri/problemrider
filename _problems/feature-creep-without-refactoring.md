@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: feature-bloat
   similarity: 0.55
+- slug: accumulation-of-workarounds
+  similarity: 0.55
 layout: problem
 ---
 

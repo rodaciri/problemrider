@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: circular-dependency-problems
   similarity: 0.6
+- slug: ripple-effect-of-changes
+  similarity: 0.6
 layout: problem
 ---
 

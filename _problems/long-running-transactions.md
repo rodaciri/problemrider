@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: unreleased-resources
   similarity: 0.55
+- slug: slow-database-queries
+  similarity: 0.55
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: god-object-anti-pattern
   similarity: 0.55
+- slug: feature-creep
+  similarity: 0.5
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: resource-allocation-failures
   similarity: 0.6
+- slug: excessive-object-allocation
+  similarity: 0.6
 layout: problem
 ---
 

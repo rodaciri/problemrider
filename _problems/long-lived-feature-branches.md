@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: fear-of-breaking-changes
   similarity: 0.55
+- slug: feature-creep
+  similarity: 0.55
 layout: problem
 ---
 

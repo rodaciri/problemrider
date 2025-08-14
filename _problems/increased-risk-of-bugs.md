@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: fear-of-change
   similarity: 0.6
+- slug: brittle-codebase
+  similarity: 0.6
 layout: problem
 ---
 

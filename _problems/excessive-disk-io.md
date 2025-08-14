@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.65
 - slug: excessive-logging
   similarity: 0.6
+- slug: high-api-latency
+  similarity: 0.6
 layout: problem
 ---
 

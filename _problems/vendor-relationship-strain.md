@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: legal-disputes
   similarity: 0.55
+- slug: stakeholder-dissatisfaction
+  similarity: 0.5
 layout: problem
 ---
 

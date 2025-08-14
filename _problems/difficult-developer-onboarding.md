@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: slow-knowledge-transfer
   similarity: 0.6
+- slug: inefficient-development-environment
+  similarity: 0.6
 layout: problem
 ---
 

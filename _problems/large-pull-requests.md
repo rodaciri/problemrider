@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: inadequate-code-reviews
   similarity: 0.6
+- slug: excessive-class-size
+  similarity: 0.55
 layout: problem
 ---
 

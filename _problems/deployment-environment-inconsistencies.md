@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: deployment-coupling
   similarity: 0.6
+- slug: deployment-risk
+  similarity: 0.6
 layout: problem
 ---
 

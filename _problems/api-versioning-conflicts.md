@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: abi-compatibility-issues
   similarity: 0.6
+- slug: deployment-environment-inconsistencies
+  similarity: 0.55
 layout: problem
 ---
 

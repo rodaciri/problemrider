@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: slow-database-queries
   similarity: 0.6
+- slug: external-service-delays
+  similarity: 0.6
 layout: problem
 ---
 

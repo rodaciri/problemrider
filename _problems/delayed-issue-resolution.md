@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: debugging-difficulties
   similarity: 0.6
+- slug: delayed-project-timelines
+  similarity: 0.6
 layout: problem
 ---
 

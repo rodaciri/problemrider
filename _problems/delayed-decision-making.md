@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: work-blocking
   similarity: 0.65
+- slug: delayed-project-timelines
+  similarity: 0.65
 layout: problem
 ---
 

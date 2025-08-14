@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: team-confusion
   similarity: 0.55
+- slug: manual-deployment-processes
+  similarity: 0.55
 layout: problem
 ---
 

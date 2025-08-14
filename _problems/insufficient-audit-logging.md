@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: monitoring-gaps
   similarity: 0.55
+- slug: log-spam
+  similarity: 0.5
 layout: problem
 ---
 

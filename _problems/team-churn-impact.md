@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: information-decay
   similarity: 0.6
+- slug: lower-code-quality
+  similarity: 0.6
 layout: problem
 ---
 

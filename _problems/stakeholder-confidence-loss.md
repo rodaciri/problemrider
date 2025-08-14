@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: declining-business-metrics
   similarity: 0.65
+- slug: communication-risk-outside-project
+  similarity: 0.6
 layout: problem
 ---
 

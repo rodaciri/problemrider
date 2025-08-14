@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: frequent-hotfixes-and-rollbacks
   similarity: 0.6
+- slug: high-defect-rate-in-production
+  similarity: 0.6
 layout: problem
 ---
 

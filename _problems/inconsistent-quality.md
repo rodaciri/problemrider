@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: lack-of-ownership-and-accountability
   similarity: 0.65
+- slug: reduced-feature-quality
+  similarity: 0.65
 layout: problem
 ---
 

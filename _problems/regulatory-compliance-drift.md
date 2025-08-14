@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: vendor-dependency-entrapment
   similarity: 0.5
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.5
 layout: problem
 ---
 

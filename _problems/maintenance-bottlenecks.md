@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: review-bottlenecks
   similarity: 0.65
+- slug: maintenance-overhead
+  similarity: 0.65
 layout: problem
 ---
 

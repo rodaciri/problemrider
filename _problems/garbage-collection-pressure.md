@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.5
 - slug: resource-allocation-failures
   similarity: 0.5
+- slug: interrupt-overhead
+  similarity: 0.5
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: slow-application-performance
   similarity: 0.7
+- slug: high-api-latency
+  similarity: 0.6
 layout: problem
 ---
 

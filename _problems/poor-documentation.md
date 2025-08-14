@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: incomplete-knowledge
   similarity: 0.65
+- slug: implicit-knowledge
+  similarity: 0.6
 layout: problem
 ---
 

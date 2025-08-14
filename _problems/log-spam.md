@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: n-plus-one-query-problem
   similarity: 0.55
+- slug: imperative-data-fetching-logic
+  similarity: 0.55
 layout: problem
 ---
 

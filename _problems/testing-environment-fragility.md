@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: poor-system-environment
   similarity: 0.6
+- slug: inadequate-test-data-management
+  similarity: 0.6
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: poor-teamwork
   similarity: 0.65
+- slug: poor-communication
+  similarity: 0.65
 layout: problem
 ---
 

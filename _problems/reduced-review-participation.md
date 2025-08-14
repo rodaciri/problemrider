@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: reviewer-inexperience
   similarity: 0.65
+- slug: code-review-inefficiency
+  similarity: 0.65
 layout: problem
 ---
 

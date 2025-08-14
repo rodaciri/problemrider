@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: author-frustration
   similarity: 0.6
+- slug: stakeholder-frustration
+  similarity: 0.6
 layout: problem
 ---
 

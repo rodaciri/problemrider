@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: frequent-changes-to-requirements
   similarity: 0.65
+- slug: change-management-chaos
+  similarity: 0.6
 layout: problem
 ---
 

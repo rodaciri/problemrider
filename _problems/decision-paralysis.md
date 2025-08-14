@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: modernization-strategy-paralysis
   similarity: 0.65
+- slug: work-blocking
+  similarity: 0.65
 layout: problem
 ---
 

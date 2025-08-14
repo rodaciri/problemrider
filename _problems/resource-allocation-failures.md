@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: memory-leaks
   similarity: 0.6
+- slug: resource-waste
+  similarity: 0.6
 layout: problem
 ---
 

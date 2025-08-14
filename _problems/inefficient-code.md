@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.65
 - slug: imperative-data-fetching-logic
   similarity: 0.65
+- slug: difficult-code-comprehension
+  similarity: 0.65
 layout: problem
 ---
 

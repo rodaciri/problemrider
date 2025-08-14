@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.5
 - slug: decision-paralysis
   similarity: 0.5
+- slug: inadequate-requirements-gathering
+  similarity: 0.5
 layout: problem
 ---
 

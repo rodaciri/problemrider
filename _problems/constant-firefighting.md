@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: operational-overhead
   similarity: 0.65
+- slug: frequent-changes-to-requirements
+  similarity: 0.65
 layout: problem
 ---
 

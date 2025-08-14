@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: outdated-tests
   similarity: 0.55
+- slug: inexperienced-developers
+  similarity: 0.55
 layout: problem
 ---
 

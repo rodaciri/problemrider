@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: testing-complexity
   similarity: 0.6
+- slug: quality-blind-spots
+  similarity: 0.55
 layout: problem
 ---
 

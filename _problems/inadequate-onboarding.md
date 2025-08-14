@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: difficult-developer-onboarding
   similarity: 0.6
+- slug: user-frustration
+  similarity: 0.6
 layout: problem
 ---
 

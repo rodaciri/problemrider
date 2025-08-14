@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: test-debt
   similarity: 0.65
+- slug: maintenance-overhead
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: development-disruption
   similarity: 0.6
+- slug: work-queue-buildup
+  similarity: 0.6
 layout: problem
 ---
 

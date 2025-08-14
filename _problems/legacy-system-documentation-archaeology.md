@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: information-decay
   similarity: 0.6
+- slug: information-fragmentation
+  similarity: 0.6
 layout: problem
 ---
 

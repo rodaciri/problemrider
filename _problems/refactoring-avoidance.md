@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: brittle-codebase
   similarity: 0.6
+- slug: high-technical-debt
+  similarity: 0.6
 layout: problem
 ---
 

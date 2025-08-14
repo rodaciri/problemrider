@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: delayed-bug-fixes
   similarity: 0.55
+- slug: increasing-brittleness
+  similarity: 0.55
 layout: problem
 ---
 

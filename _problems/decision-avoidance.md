@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: maintenance-paralysis
   similarity: 0.65
+- slug: analysis-paralysis
+  similarity: 0.6
 layout: problem
 ---
 

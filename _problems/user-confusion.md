@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.65
 - slug: customer-dissatisfaction
   similarity: 0.65
+- slug: poor-user-experience-ux-design
+  similarity: 0.6
 layout: problem
 ---
 

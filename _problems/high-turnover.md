@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: high-bug-introduction-rate
   similarity: 0.6
+- slug: inconsistent-onboarding-experience
+  similarity: 0.6
 layout: problem
 ---
 

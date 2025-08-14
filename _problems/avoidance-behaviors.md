@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: accumulation-of-workarounds
   similarity: 0.6
+- slug: complex-implementation-paths
+  similarity: 0.55
 layout: problem
 ---
 

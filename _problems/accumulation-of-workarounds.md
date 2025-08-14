@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: accumulated-decision-debt
   similarity: 0.6
+- slug: refactoring-avoidance
+  similarity: 0.6
 layout: problem
 ---
 

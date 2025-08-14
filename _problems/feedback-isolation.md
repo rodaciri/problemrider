@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: negative-user-feedback
   similarity: 0.55
+- slug: feature-gaps
+  similarity: 0.55
 layout: problem
 ---
 

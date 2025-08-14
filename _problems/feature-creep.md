@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: gold-plating
   similarity: 0.65
+- slug: slow-feature-development
+  similarity: 0.6
 layout: problem
 ---
 

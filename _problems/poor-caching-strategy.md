@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.6
 - slug: inefficient-code
   similarity: 0.6
+- slug: slow-application-performance
+  similarity: 0.6
 layout: problem
 ---
 

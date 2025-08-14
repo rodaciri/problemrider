@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.6
 - slug: high-resource-utilization-on-client
   similarity: 0.6
+- slug: excessive-disk-io
+  similarity: 0.6
 layout: problem
 ---
 

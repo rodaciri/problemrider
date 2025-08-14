@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: unrealistic-schedule
   similarity: 0.6
+- slug: decision-paralysis
+  similarity: 0.55
 layout: problem
 ---
 

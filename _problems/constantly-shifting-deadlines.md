@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: changing-project-scope
   similarity: 0.65
+- slug: eager-to-please-stakeholders
+  similarity: 0.65
 layout: problem
 ---
 

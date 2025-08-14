@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: knowledge-sharing-breakdown
   similarity: 0.65
+- slug: incomplete-knowledge
+  similarity: 0.6
 layout: problem
 ---
 

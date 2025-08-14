@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: feature-bloat
   similarity: 0.6
+- slug: quality-degradation
+  similarity: 0.6
 layout: problem
 ---
 

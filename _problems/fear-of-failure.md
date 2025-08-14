@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: history-of-failed-changes
   similarity: 0.6
+- slug: resistance-to-change
+  similarity: 0.6
 layout: problem
 ---
 

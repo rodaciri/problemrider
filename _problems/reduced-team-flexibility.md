@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-innovation
   similarity: 0.6
+- slug: poor-teamwork
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: decision-paralysis
   similarity: 0.65
+- slug: decision-avoidance
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: context-switching-overhead
   similarity: 0.6
+- slug: technical-architecture-limitations
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: slow-response-times-for-lists
   similarity: 0.55
+- slug: external-service-delays
+  similarity: 0.55
 layout: problem
 ---
 

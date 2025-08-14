@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: cross-system-data-synchronization-problems
   similarity: 0.55
+- slug: system-integration-blindness
+  similarity: 0.55
 layout: problem
 ---
 

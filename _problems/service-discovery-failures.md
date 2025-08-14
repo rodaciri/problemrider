@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: microservice-communication-overhead
   similarity: 0.5
+- slug: service-timeouts
+  similarity: 0.5
 layout: problem
 ---
 

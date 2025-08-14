@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: rapid-system-changes
   similarity: 0.55
+- slug: test-debt
+  similarity: 0.55
 layout: problem
 ---
 

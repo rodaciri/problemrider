@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: context-switching-overhead
   similarity: 0.6
+- slug: time-pressure
+  similarity: 0.6
 layout: problem
 ---
 

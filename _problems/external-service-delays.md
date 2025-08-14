@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: service-timeouts
   similarity: 0.6
+- slug: delayed-value-delivery
+  similarity: 0.6
 layout: problem
 ---
 

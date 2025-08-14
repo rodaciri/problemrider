@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.75
 - slug: inconsistent-naming-conventions
   similarity: 0.7
+- slug: difficult-code-reuse
+  similarity: 0.7
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: communication-breakdown
   similarity: 0.65
+- slug: stakeholder-confidence-loss
+  similarity: 0.65
 layout: problem
 ---
 

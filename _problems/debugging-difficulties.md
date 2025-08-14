@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: partial-bug-fixes
   similarity: 0.6
+- slug: accumulation-of-workarounds
+  similarity: 0.6
 layout: problem
 ---
 

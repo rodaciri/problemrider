@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: scope-change-resistance
   similarity: 0.65
+- slug: eager-to-please-stakeholders
+  similarity: 0.6
 layout: problem
 ---
 

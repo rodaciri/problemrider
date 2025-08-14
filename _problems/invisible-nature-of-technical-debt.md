@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: resistance-to-change
   similarity: 0.6
+- slug: decision-avoidance
+  similarity: 0.6
 layout: problem
 ---
 

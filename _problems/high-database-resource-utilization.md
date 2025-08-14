@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: high-connection-count
   similarity: 0.7
+- slug: database-query-performance-issues
+  similarity: 0.7
 layout: problem
 ---
 

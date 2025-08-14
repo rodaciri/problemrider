@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: increased-error-rates
   similarity: 0.55
+- slug: misconfigured-connection-pools
+  similarity: 0.55
 layout: problem
 ---
 

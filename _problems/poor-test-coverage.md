@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: legacy-code-without-tests
   similarity: 0.55
+- slug: difficult-to-test-code
+  similarity: 0.55
 layout: problem
 ---
 

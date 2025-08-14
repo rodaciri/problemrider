@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: code-duplication
   similarity: 0.6
+- slug: synchronization-problems
+  similarity: 0.6
 layout: problem
 ---
 

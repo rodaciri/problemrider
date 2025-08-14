@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: development-disruption
   similarity: 0.6
+- slug: poor-operational-concept
+  similarity: 0.6
 layout: problem
 ---
 

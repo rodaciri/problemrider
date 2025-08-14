@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: slow-incident-resolution
   similarity: 0.6
+- slug: long-release-cycles
+  similarity: 0.6
 layout: problem
 ---
 

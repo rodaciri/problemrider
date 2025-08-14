@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: uneven-work-flow
   similarity: 0.6
+- slug: process-design-flaws
+  similarity: 0.6
 layout: problem
 ---
 

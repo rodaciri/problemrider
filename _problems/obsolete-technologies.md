@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: legacy-api-versioning-nightmare
   similarity: 0.6
+- slug: poor-documentation
+  similarity: 0.6
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: code-review-inefficiency
   similarity: 0.6
+- slug: inadequate-initial-reviews
+  similarity: 0.6
 layout: problem
 ---
 

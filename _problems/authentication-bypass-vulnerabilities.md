@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.5
 - slug: buffer-overflow-vulnerabilities
   similarity: 0.5
+- slug: cross-site-scripting-vulnerabilities
+  similarity: 0.5
 layout: problem
 ---
 

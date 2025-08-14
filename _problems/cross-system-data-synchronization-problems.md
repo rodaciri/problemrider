@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: modernization-strategy-paralysis
   similarity: 0.55
+- slug: poor-interfaces-between-applications
+  similarity: 0.55
 layout: problem
 ---
 

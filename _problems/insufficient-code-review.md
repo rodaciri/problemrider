@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.75
 - slug: inadequate-initial-reviews
   similarity: 0.7
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.7
 layout: problem
 ---
 

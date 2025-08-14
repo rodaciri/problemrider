@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: imperative-data-fetching-logic
   similarity: 0.6
+- slug: slow-database-queries
+  similarity: 0.6
 layout: problem
 ---
 

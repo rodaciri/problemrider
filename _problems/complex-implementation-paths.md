@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: architectural-mismatch
   similarity: 0.55
+- slug: procrastination-on-complex-tasks
+  similarity: 0.55
 layout: problem
 ---
 

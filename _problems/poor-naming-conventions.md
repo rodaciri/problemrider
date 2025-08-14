@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-codebase
   similarity: 0.6
+- slug: inconsistent-coding-standards
+  similarity: 0.55
 layout: problem
 ---
 

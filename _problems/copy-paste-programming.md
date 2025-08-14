@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: insufficient-design-skills
   similarity: 0.6
+- slug: defensive-coding-practices
+  similarity: 0.6
 layout: problem
 ---
 

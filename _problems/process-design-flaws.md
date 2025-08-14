@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: insufficient-code-review
   similarity: 0.6
+- slug: delayed-decision-making
+  similarity: 0.55
 layout: problem
 ---
 

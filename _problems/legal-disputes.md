@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.5
 - slug: power-struggles
   similarity: 0.5
+- slug: stakeholder-frustration
+  similarity: 0.5
 layout: problem
 ---
 

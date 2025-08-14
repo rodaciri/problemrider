@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: ripple-effect-of-changes
   similarity: 0.6
+- slug: team-coordination-issues
+  similarity: 0.6
 layout: problem
 ---
 

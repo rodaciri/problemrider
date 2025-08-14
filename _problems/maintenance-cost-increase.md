@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: increasing-brittleness
   similarity: 0.55
+- slug: quality-degradation
+  similarity: 0.55
 layout: problem
 ---
 

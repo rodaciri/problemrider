@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: vendor-lock-in
   similarity: 0.55
+- slug: maintenance-bottlenecks
+  similarity: 0.55
 layout: problem
 ---
 

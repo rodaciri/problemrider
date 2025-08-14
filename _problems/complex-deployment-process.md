@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: insufficient-testing
   similarity: 0.6
+- slug: missing-rollback-strategy
+  similarity: 0.6
 layout: problem
 ---
 

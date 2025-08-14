@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: strangler-fig-pattern-failures
   similarity: 0.65
+- slug: second-system-effect
+  similarity: 0.6
 layout: problem
 ---
 

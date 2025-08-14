@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: project-resource-constraints
   similarity: 0.55
+- slug: resistance-to-change
+  similarity: 0.55
 layout: problem
 ---
 

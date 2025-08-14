@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: duplicated-research-effort
   similarity: 0.65
+- slug: difficult-code-reuse
+  similarity: 0.65
 layout: problem
 ---
 

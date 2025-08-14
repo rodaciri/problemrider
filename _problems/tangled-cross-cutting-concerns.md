@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: circular-dependency-problems
   similarity: 0.55
+- slug: poorly-defined-responsibilities
+  similarity: 0.55
 layout: problem
 ---
 

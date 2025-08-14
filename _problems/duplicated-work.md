@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: team-confusion
   similarity: 0.6
+- slug: synchronization-problems
+  similarity: 0.6
 layout: problem
 ---
 

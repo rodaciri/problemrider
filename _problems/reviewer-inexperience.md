@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: inadequate-initial-reviews
   similarity: 0.65
+- slug: reviewer-anxiety
+  similarity: 0.65
 layout: problem
 ---
 

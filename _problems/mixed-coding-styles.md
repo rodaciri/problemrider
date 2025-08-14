@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: spaghetti-code
   similarity: 0.65
+- slug: undefined-code-style-guidelines
+  similarity: 0.65
 layout: problem
 ---
 

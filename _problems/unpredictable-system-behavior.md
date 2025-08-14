@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: change-management-chaos
   similarity: 0.6
+- slug: configuration-chaos
+  similarity: 0.6
 layout: problem
 ---
 

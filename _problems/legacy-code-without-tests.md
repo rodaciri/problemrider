@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: poor-test-coverage
   similarity: 0.55
+- slug: inadequate-test-infrastructure
+  similarity: 0.55
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: review-bottlenecks
   similarity: 0.7
+- slug: code-review-inefficiency
+  similarity: 0.7
 layout: problem
 ---
 

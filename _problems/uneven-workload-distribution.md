@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-knowledge-acquisition
   similarity: 0.6
+- slug: capacity-mismatch
+  similarity: 0.55
 layout: problem
 ---
 

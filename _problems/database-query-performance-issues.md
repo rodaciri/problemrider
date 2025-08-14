@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: n-plus-one-query-problem
   similarity: 0.65
+- slug: queries-that-prevent-index-usage
+  similarity: 0.65
 layout: problem
 ---
 

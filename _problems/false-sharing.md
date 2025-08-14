@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: dma-coherency-issues
   similarity: 0.55
+- slug: data-structure-cache-inefficiency
+  similarity: 0.5
 layout: problem
 ---
 

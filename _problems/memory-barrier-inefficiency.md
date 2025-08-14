@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: lock-contention
   similarity: 0.55
+- slug: interrupt-overhead
+  similarity: 0.55
 layout: problem
 ---
 

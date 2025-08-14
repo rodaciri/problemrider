@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: difficult-code-reuse
   similarity: 0.6
+- slug: difficult-code-comprehension
+  similarity: 0.55
 layout: problem
 ---
 

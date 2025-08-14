@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: false-sharing
   similarity: 0.55
+- slug: memory-barrier-inefficiency
+  similarity: 0.55
 layout: problem
 ---
 

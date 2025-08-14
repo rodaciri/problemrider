@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: maintenance-paralysis
   similarity: 0.65
+- slug: refactoring-avoidance
+  similarity: 0.65
 layout: problem
 ---
 

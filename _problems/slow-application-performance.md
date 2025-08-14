@@ -14,6 +14,8 @@ related_problems:
   similarity: 0.7
 - slug: inefficient-frontend-code
   similarity: 0.7
+- slug: slow-response-times-for-lists
+  similarity: 0.65
 layout: problem
 ---
 

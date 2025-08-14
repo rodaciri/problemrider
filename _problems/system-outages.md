@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: cascade-failures
   similarity: 0.6
+- slug: user-confusion
+  similarity: 0.55
 layout: problem
 ---
 

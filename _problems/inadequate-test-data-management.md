@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: testing-environment-fragility
   similarity: 0.6
+- slug: legacy-code-without-tests
+  similarity: 0.6
 layout: problem
 ---
 

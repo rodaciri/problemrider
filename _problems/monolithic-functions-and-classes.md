@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: over-reliance-on-utility-classes
   similarity: 0.6
+- slug: bloated-class
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: decision-paralysis
   similarity: 0.6
+- slug: cascade-delays
+  similarity: 0.6
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: hidden-dependencies
   similarity: 0.55
+- slug: inconsistent-codebase
+  similarity: 0.5
 layout: problem
 ---
 

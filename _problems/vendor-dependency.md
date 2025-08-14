@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: knowledge-dependency
   similarity: 0.55
+- slug: shared-dependencies
+  similarity: 0.55
 layout: problem
 ---
 

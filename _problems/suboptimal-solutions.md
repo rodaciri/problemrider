@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: quality-compromises
   similarity: 0.5
+- slug: slow-application-performance
+  similarity: 0.5
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: unclear-sharing-expectations
   similarity: 0.6
+- slug: changing-project-scope
+  similarity: 0.6
 layout: problem
 ---
 

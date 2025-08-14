@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: extended-research-time
   similarity: 0.6
+- slug: perfectionist-review-culture
+  similarity: 0.6
 layout: problem
 ---
 

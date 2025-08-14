@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: stagnant-architecture
   similarity: 0.55
+- slug: poor-contract-design
+  similarity: 0.5
 layout: problem
 ---
 

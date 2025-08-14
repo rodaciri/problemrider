@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-individual-productivity
   similarity: 0.6
+- slug: development-disruption
+  similarity: 0.6
 layout: problem
 ---
 

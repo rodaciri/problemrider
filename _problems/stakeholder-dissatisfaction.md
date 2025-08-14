@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: communication-risk-outside-project
   similarity: 0.65
+- slug: misaligned-deliverables
+  similarity: 0.65
 layout: problem
 ---
 

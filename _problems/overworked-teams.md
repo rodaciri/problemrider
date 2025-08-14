@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-team-productivity
   similarity: 0.55
+- slug: mentor-burnout
+  similarity: 0.55
 layout: problem
 ---
 

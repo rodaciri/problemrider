@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: new-hire-frustration
   similarity: 0.55
+- slug: unproductive-meetings
+  similarity: 0.5
 layout: problem
 ---
 

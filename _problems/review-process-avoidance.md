@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: rushed-approvals
   similarity: 0.65
+- slug: reviewer-anxiety
+  similarity: 0.65
 layout: problem
 ---
 

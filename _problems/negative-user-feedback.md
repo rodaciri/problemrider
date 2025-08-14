@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.6
 - slug: negative-brand-perception
   similarity: 0.6
+- slug: feedback-isolation
+  similarity: 0.55
 layout: problem
 ---
 

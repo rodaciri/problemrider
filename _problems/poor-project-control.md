@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: poor-operational-concept
   similarity: 0.55
+- slug: scope-creep
+  similarity: 0.55
 layout: problem
 ---
 

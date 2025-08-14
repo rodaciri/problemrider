@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: cascade-failures
   similarity: 0.6
+- slug: tangled-cross-cutting-concerns
+  similarity: 0.55
 layout: problem
 ---
 

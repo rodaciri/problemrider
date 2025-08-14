@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: memory-leaks
   similarity: 0.55
+- slug: gradual-performance-degradation
+  similarity: 0.55
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: mental-fatigue
   similarity: 0.6
+- slug: procrastination-on-complex-tasks
+  similarity: 0.6
 layout: problem
 ---
 

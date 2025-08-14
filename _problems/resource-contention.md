@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: memory-swapping
   similarity: 0.65
+- slug: lock-contention
+  similarity: 0.65
 layout: problem
 ---
 

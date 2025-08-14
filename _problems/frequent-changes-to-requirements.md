@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: no-formal-change-control-process
   similarity: 0.65
+- slug: constant-firefighting
+  similarity: 0.65
 layout: problem
 ---
 

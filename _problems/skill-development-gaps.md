@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: feature-gaps
   similarity: 0.6
+- slug: knowledge-dependency
+  similarity: 0.6
 layout: problem
 ---
 

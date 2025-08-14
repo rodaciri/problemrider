@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: algorithmic-complexity-problems
   similarity: 0.55
+- slug: cache-invalidation-problems
+  similarity: 0.55
 layout: problem
 ---
 

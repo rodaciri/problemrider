@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: context-switching-overhead
   similarity: 0.65
+- slug: maintenance-bottlenecks
+  similarity: 0.65
 layout: problem
 ---
 

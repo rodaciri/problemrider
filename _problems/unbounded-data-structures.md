@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: algorithmic-complexity-problems
   similarity: 0.5
+- slug: alignment-and-padding-issues
+  similarity: 0.5
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: unrealistic-schedule
   similarity: 0.65
+- slug: reduced-predictability
+  similarity: 0.65
 layout: problem
 ---
 

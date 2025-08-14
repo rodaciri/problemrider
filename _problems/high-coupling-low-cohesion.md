@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: deployment-coupling
   similarity: 0.55
+- slug: inconsistent-quality
+  similarity: 0.55
 layout: problem
 ---
 

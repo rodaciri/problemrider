@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: inability-to-innovate
   similarity: 0.7
+- slug: refactoring-avoidance
+  similarity: 0.7
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: analysis-paralysis
   similarity: 0.55
+- slug: long-build-and-test-times
+  similarity: 0.55
 layout: problem
 ---
 

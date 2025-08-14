@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.6
 - slug: excessive-disk-io
   similarity: 0.6
+- slug: service-timeouts
+  similarity: 0.6
 layout: problem
 ---
 

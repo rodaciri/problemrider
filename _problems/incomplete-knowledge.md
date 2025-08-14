@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: insufficient-design-skills
   similarity: 0.65
+- slug: poor-documentation
+  similarity: 0.65
 layout: problem
 ---
 

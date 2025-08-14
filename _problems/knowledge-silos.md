@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: tacit-knowledge
   similarity: 0.7
+- slug: duplicated-research-effort
+  similarity: 0.65
 layout: problem
 ---
 

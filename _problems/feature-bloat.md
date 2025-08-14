@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: feature-gaps
   similarity: 0.55
+- slug: gold-plating
+  similarity: 0.55
 layout: problem
 ---
 

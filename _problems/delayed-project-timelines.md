@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: poor-planning
   similarity: 0.7
+- slug: extended-cycle-times
+  similarity: 0.65
 layout: problem
 ---
 

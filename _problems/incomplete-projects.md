@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-feature-quality
   similarity: 0.6
+- slug: poor-project-control
+  similarity: 0.6
 layout: problem
 ---
 

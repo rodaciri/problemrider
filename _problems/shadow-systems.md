@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: obsolete-technologies
   similarity: 0.55
+- slug: vendor-dependency-entrapment
+  similarity: 0.55
 layout: problem
 ---
 

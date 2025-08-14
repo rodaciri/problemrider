@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: monitoring-gaps
   similarity: 0.6
+- slug: poor-documentation
+  similarity: 0.55
 layout: problem
 ---
 

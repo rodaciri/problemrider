@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-individual-productivity
   similarity: 0.6
+- slug: wasted-development-effort
+  similarity: 0.55
 layout: problem
 ---
 

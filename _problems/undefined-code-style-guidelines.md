@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-naming-conventions
   similarity: 0.6
+- slug: style-arguments-in-code-reviews
+  similarity: 0.6
 layout: problem
 ---
 

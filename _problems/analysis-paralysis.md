@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: constant-firefighting
   similarity: 0.6
+- slug: delayed-decision-making
+  similarity: 0.6
 layout: problem
 ---
 

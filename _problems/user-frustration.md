@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: user-trust-erosion
   similarity: 0.65
+- slug: poor-user-experience-ux-design
+  similarity: 0.65
 layout: problem
 ---
 

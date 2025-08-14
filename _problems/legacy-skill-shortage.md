@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: legacy-system-documentation-archaeology
   similarity: 0.65
+- slug: technology-stack-fragmentation
+  similarity: 0.65
 layout: problem
 ---
 

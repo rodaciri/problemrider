@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: high-turnover
   similarity: 0.6
+- slug: regression-bugs
+  similarity: 0.6
 layout: problem
 ---
 

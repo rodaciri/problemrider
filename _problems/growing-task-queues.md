@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.5
 - slug: increased-error-rates
   similarity: 0.5
+- slug: thread-pool-exhaustion
+  similarity: 0.5
 layout: problem
 ---
 

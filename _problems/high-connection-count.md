@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: database-connection-leaks
   similarity: 0.65
+- slug: service-timeouts
+  similarity: 0.6
 layout: problem
 ---
 

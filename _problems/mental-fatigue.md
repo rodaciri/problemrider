@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: increased-stress-and-burnout
   similarity: 0.55
+- slug: increased-cognitive-load
+  similarity: 0.55
 layout: problem
 ---
 

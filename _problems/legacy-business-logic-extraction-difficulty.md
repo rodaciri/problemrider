@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: data-migration-integrity-issues
   similarity: 0.55
+- slug: complex-domain-model
+  similarity: 0.55
 layout: problem
 ---
 

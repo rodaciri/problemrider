@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: hidden-dependencies
   similarity: 0.65
+- slug: cascade-failures
+  similarity: 0.6
 layout: problem
 ---
 

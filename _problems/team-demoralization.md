@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: developer-frustration-and-burnout
   similarity: 0.6
+- slug: increased-stress-and-burnout
+  similarity: 0.6
 layout: problem
 ---
 

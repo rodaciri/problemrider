@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: constantly-shifting-deadlines
   similarity: 0.55
+- slug: slow-feature-development
+  similarity: 0.55
 layout: problem
 ---
 

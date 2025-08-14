@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: quality-blind-spots
   similarity: 0.65
+- slug: cascade-failures
+  similarity: 0.6
 layout: problem
 ---
 

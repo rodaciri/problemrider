@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: increased-time-to-market
   similarity: 0.65
+- slug: uneven-work-flow
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-team-productivity
   similarity: 0.6
+- slug: technology-isolation
+  similarity: 0.6
 layout: problem
 ---
 

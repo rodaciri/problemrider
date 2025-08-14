@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: premature-technology-introduction
   similarity: 0.55
+- slug: technology-isolation
+  similarity: 0.5
 layout: problem
 ---
 

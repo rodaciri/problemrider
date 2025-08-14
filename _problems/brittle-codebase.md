@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: uncontrolled-codebase-growth
   similarity: 0.65
+- slug: complex-and-obscure-logic
+  similarity: 0.65
 layout: problem
 ---
 

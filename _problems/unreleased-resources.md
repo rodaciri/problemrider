@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: database-connection-leaks
   similarity: 0.55
+- slug: long-running-transactions
+  similarity: 0.55
 layout: problem
 ---
 

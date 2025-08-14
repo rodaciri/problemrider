@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: difficult-code-comprehension
   similarity: 0.55
+- slug: delayed-issue-resolution
+  similarity: 0.55
 layout: problem
 ---
 

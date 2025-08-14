@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: implicit-knowledge
   similarity: 0.65
+- slug: inappropriate-skillset
+  similarity: 0.65
 layout: problem
 ---
 

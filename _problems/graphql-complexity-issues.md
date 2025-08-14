@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: high-number-of-database-queries
   similarity: 0.55
+- slug: n-plus-one-query-problem
+  similarity: 0.5
 layout: problem
 ---
 

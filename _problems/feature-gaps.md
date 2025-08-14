@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: skill-development-gaps
   similarity: 0.6
+- slug: feature-bloat
+  similarity: 0.55
 layout: problem
 ---
 

@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: priority-thrashing
   similarity: 0.65
+- slug: frequent-changes-to-requirements
+  similarity: 0.65
 layout: problem
 ---
 

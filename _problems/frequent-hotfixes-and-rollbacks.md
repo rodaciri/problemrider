@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: manual-deployment-processes
   similarity: 0.55
+- slug: deployment-risk
+  similarity: 0.55
 layout: problem
 ---
 

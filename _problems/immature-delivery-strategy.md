@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: missing-rollback-strategy
   similarity: 0.6
+- slug: poor-operational-concept
+  similarity: 0.6
 layout: problem
 ---
 

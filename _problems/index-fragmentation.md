@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.6
 - slug: high-number-of-database-queries
   similarity: 0.6
+- slug: lazy-loading
+  similarity: 0.6
 layout: problem
 ---
 

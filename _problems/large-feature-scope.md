@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: large-risky-releases
   similarity: 0.6
+- slug: large-pull-requests
+  similarity: 0.6
 layout: problem
 ---
 

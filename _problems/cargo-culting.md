@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: increased-technical-shortcuts
   similarity: 0.55
+- slug: inability-to-innovate
+  similarity: 0.55
 layout: problem
 ---
 

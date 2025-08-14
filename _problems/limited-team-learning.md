@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: inconsistent-knowledge-acquisition
   similarity: 0.55
+- slug: reduced-innovation
+  similarity: 0.55
 layout: problem
 ---
 

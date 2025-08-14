@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: inadequate-error-handling
   similarity: 0.55
+- slug: high-connection-count
+  similarity: 0.55
 layout: problem
 ---
 

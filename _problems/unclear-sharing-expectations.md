@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: unclear-goals-and-priorities
   similarity: 0.6
+- slug: communication-breakdown
+  similarity: 0.6
 layout: problem
 ---
 

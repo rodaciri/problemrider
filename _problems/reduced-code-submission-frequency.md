@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: fear-of-change
   similarity: 0.6
+- slug: review-process-avoidance
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: time-pressure
   similarity: 0.6
+- slug: perfectionist-culture
+  similarity: 0.6
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: second-system-effect
   similarity: 0.6
+- slug: vendor-lock-in
+  similarity: 0.6
 layout: problem
 ---
 

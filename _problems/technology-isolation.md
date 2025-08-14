@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: vendor-lock-in
   similarity: 0.65
+- slug: reduced-innovation
+  similarity: 0.6
 layout: problem
 ---
 

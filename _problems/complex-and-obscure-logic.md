@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.7
 - slug: inconsistent-codebase
   similarity: 0.65
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.65
 layout: problem
 ---
 

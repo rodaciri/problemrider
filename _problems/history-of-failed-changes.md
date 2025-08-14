@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: fear-of-failure
   similarity: 0.6
+- slug: perfectionist-culture
+  similarity: 0.6
 layout: problem
 ---
 

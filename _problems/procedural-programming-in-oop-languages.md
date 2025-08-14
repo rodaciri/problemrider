@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: spaghetti-code
   similarity: 0.55
+- slug: mixed-coding-styles
+  similarity: 0.5
 layout: problem
 ---
 

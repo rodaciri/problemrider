@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: communication-breakdown
   similarity: 0.55
+- slug: team-coordination-issues
+  similarity: 0.55
 layout: problem
 ---
 

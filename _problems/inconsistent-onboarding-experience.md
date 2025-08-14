@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: inconsistent-behavior
   similarity: 0.6
+- slug: inappropriate-skillset
+  similarity: 0.6
 layout: problem
 ---
 

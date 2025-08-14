@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: mixed-coding-styles
   similarity: 0.55
+- slug: inconsistent-coding-standards
+  similarity: 0.55
 layout: problem
 ---
 

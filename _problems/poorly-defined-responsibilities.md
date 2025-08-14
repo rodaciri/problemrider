@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: requirements-ambiguity
   similarity: 0.6
+- slug: tight-coupling-issues
+  similarity: 0.6
 layout: problem
 ---
 

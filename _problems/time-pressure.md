@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.65
 - slug: unrealistic-deadlines
   similarity: 0.65
+- slug: constantly-shifting-deadlines
+  similarity: 0.65
 layout: problem
 ---
 

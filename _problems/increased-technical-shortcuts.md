@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: workaround-culture
   similarity: 0.6
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.6
 layout: problem
 ---
 

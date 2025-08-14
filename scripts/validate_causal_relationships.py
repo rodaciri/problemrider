@@ -23,6 +23,7 @@ except ImportError:
 
 try:
     import openai
+    import os
 except ImportError:
     print("❌ openai not installed")
     print("Run: pip install openai")
@@ -35,8 +36,50 @@ class CausalRelationshipValidator:
         self.problems: Dict[str, Dict] = {}
         self.causal_graph = nx.DiGraph()
         
-        # Initialize OpenAI client (uses environment variables)
-        self.client = openai.OpenAI()
+        # Cache for validation results to avoid re-validating same relationships
+        self.validation_cache: Dict[str, Dict] = {}
+        self.cache_file = Path("causal_validation_cache.json")
+        self._load_cache()
+        
+        # Initialize OpenRouter client for better cost control
+        try:
+            self.client = openai.OpenAI(
+                base_url="https://openrouter.ai/api/v1",
+                api_key=os.getenv("OPENROUTER_API_KEY")
+            )
+            if not os.getenv("OPENROUTER_API_KEY"):
+                print("❌ OPENROUTER_API_KEY environment variable not set")
+                print("Set it with: export OPENROUTER_API_KEY='your-key-here'")
+                print("Get your key from: https://openrouter.ai/")
+                exit(1)
+        except Exception as e:
+            print(f"❌ Failed to initialize OpenRouter client: {e}")
+            exit(1)
+    
+    def _load_cache(self) -> None:
+        """Load validation cache from disk."""
+        if self.cache_file.exists():
+            try:
+                with open(self.cache_file, 'r') as f:
+                    self.validation_cache = json.load(f)
+                print(f"📁 Loaded {len(self.validation_cache)} cached validations")
+            except Exception as e:
+                print(f"⚠️  Could not load cache: {e}")
+                self.validation_cache = {}
+        else:
+            self.validation_cache = {}
+    
+    def _save_cache(self) -> None:
+        """Save validation cache to disk."""
+        try:
+            with open(self.cache_file, 'w') as f:
+                json.dump(self.validation_cache, f, indent=2)
+        except Exception as e:
+            print(f"⚠️  Could not save cache: {e}")
+    
+    def _get_cache_key(self, cause: str, effect: str) -> str:
+        """Generate cache key for a causal relationship."""
+        return f"{cause}->{effect}"
     
     def load_problems(self) -> None:
         """Load all problem files and extract causal relationships."""
@@ -96,6 +139,9 @@ class CausalRelationshipValidator:
             
             # Extract causal relationships from text
             self._extract_causal_links(problem_key, problem_data)
+        
+        # Check for cycles
+        self._detect_and_report_cycles()
     
     def _extract_causal_links(self, problem_key: str, problem_data: Dict) -> None:
         """Extract causal relationships mentioned in problem text."""
@@ -103,32 +149,61 @@ class CausalRelationshipValidator:
         symptoms_text = problem_data['symptoms']
         root_causes_text = problem_data['root_causes']
         
-        # Simple regex to find markdown links to other problems
-        link_pattern = r'\[([^\]]+)\]\(([^)]+)\.md\)'
+        # Enhanced regex patterns to find markdown links
+        link_patterns = [
+            r'\[([^\]]+)\]\(([^)]+)\.md\)',  # Standard markdown links
+            r'\[([^\]]+)\]\(([^)]+)\.md\)\s*\([0-9.]+\)',  # Links with confidence scores
+            r'\[([^\]]+)\]\(\.\.?/([^)]+)\.md\)',  # Relative path links
+        ]
         
         # Find symptom relationships
-        for match in re.finditer(link_pattern, symptoms_text):
-            linked_problem = match.group(2)
-            if linked_problem in self.problems:
-                # This problem manifests as symptoms in the linked problem
-                self.causal_graph.add_edge(problem_key, linked_problem, 
-                                         relationship='manifests_as')
+        for pattern in link_patterns:
+            for match in re.finditer(pattern, symptoms_text):
+                linked_problem = match.group(2).replace('../', '').replace('./', '')
+                if linked_problem in self.problems:
+                    # This problem manifests as symptoms in the linked problem
+                    self.causal_graph.add_edge(problem_key, linked_problem, 
+                                             relationship='manifests_as')
         
         # Find root cause relationships
-        for match in re.finditer(link_pattern, root_causes_text):
-            linked_problem = match.group(2)
-            if linked_problem in self.problems:
-                # The linked problem causes this problem
-                self.causal_graph.add_edge(linked_problem, problem_key, 
-                                         relationship='causes')
+        for pattern in link_patterns:
+            for match in re.finditer(pattern, root_causes_text):
+                linked_problem = match.group(2).replace('../', '').replace('./', '')
+                if linked_problem in self.problems:
+                    # The linked problem causes this problem
+                    self.causal_graph.add_edge(linked_problem, problem_key, 
+                                             relationship='causes')
+    
+    def _detect_and_report_cycles(self) -> None:
+        """Detect and report circular causal relationships."""
+        try:
+            cycles = list(nx.simple_cycles(self.causal_graph))
+            if cycles:
+                print(f"⚠️  Found {len(cycles)} circular causal relationships:")
+                for i, cycle in enumerate(cycles[:5]):  # Show first 5 cycles
+                    cycle_titles = [self.problems[node]['title'] for node in cycle]
+                    print(f"  {i+1}. {' → '.join(cycle_titles)} → {cycle_titles[0]}")
+                if len(cycles) > 5:
+                    print(f"  ... and {len(cycles) - 5} more cycles")
+                print("  These may indicate conceptual issues or need validation.")
+            else:
+                print("✓ No circular causal relationships detected")
+        except Exception as e:
+            print(f"⚠️  Could not check for cycles: {e}")
     
     def validate_causal_relationship(self, cause: str, effect: str) -> Dict:
         """Use LLM to validate a causal relationship with focus on causal chains."""
+        # Check cache first
+        cache_key = self._get_cache_key(cause, effect)
+        if cache_key in self.validation_cache:
+            print(f"  💾 Using cached result")
+            return self.validation_cache[cache_key]
+        
         cause_info = self.problems.get(cause, {})
         effect_info = self.problems.get(effect, {})
         
         prompt = f"""
-You are an expert in legacy software systems and causal reasoning. Evaluate whether there is a DIRECT CAUSAL CHAIN between these two problems:
+You are an expert in legacy software systems and causal reasoning following SD-SCM (Structural Causal Model) principles. Evaluate whether there is a DIRECT CAUSAL CHAIN between these two problems in legacy systems.
 
 POTENTIAL ROOT CAUSE:
 Title: {cause_info.get('title', 'Unknown')}
@@ -140,24 +215,38 @@ Title: {effect_info.get('title', 'Unknown')}
 Description: {effect_info.get('description', 'No description')}
 Symptoms: {effect_info.get('symptoms', 'None listed')}
 
-CRITICAL: Focus on CAUSAL CHAINS, not just relatedness. Ask yourself:
-1. Could the ROOT CAUSE problem directly trigger or cause the EFFECT problem?
-2. Would fixing the ROOT CAUSE problem prevent or reduce the EFFECT problem?
-3. Is there a logical cause-and-effect mechanism between them?
+CAUSAL EVALUATION FRAMEWORK:
+Apply these tests systematically:
+
+1. TEMPORAL PRECEDENCE: Does the ROOT CAUSE logically precede the EFFECT in legacy system degradation?
+
+2. MECHANISM: What is the specific technical mechanism by which the ROOT CAUSE would produce the EFFECT?
+   - Architectural degradation patterns
+   - Technical debt accumulation
+   - System complexity cascade effects
+   - Resource constraint propagation
+   - Knowledge loss impacts
+
+3. COUNTERFACTUAL: If we could eliminate the ROOT CAUSE, would the EFFECT be prevented or significantly reduced?
+
+4. ALTERNATIVE EXPLANATIONS: Are there more plausible direct causes for the EFFECT that don't involve the ROOT CAUSE?
+
+5. LEGACY SYSTEM CONTEXT: Does this causal relationship make sense in the context of aging software systems, technical debt, and organizational constraints?
 
 Please respond with a JSON object containing:
-- "plausible": boolean (true/false) - Is there a direct causal relationship?
-- "confidence": number (0.0 to 1.0) - How confident are you in this causal chain?
-- "reasoning": string explaining the causal mechanism (if any)
-- "causal_chain": string describing the step-by-step causal process
-- "relationship_type": string ("causes", "symptom_of", "unrelated", "correlated_only")
+- "plausible": boolean - Is there a direct causal relationship?
+- "confidence": number (0.0 to 1.0) - Based on strength of evidence and mechanism clarity
+- "reasoning": string - Detailed explanation of the causal mechanism or why it's implausible
+- "causal_chain": string - Step-by-step process from cause to effect (if plausible)
+- "relationship_type": string - One of: "direct_cause", "indirect_cause", "symptom_of", "correlated_only", "unrelated"
+- "temporal_order": string - "cause_before_effect", "simultaneous", "unclear", or "effect_before_cause"
 
-Focus on CAUSALITY, not correlation or general relatedness. Be strict about what constitutes a true causal relationship.
+Be rigorous: correlation and co-occurrence are NOT causation. Require clear mechanisms and logical necessity.
 """
         
         try:
             response = self.client.chat.completions.create(
-                model="gpt-5",
+                model="openai/gpt-5-nano",
                 messages=[
                     {"role": "system", "content": "You are an expert in legacy software systems and causal reasoning."},
                     {"role": "user", "content": prompt}
@@ -166,29 +255,48 @@ Focus on CAUSALITY, not correlation or general relatedness. Be strict about what
             
             # Parse JSON response
             result = json.loads(response.choices[0].message.content)
+            
+            # Cache the result
+            self.validation_cache[cache_key] = result
+            self._save_cache()
+            
             return result
             
         except Exception as e:
             print(f"Error validating relationship {cause} -> {effect}: {e}")
-            return {"plausible": False, "confidence": 0.0, "reasoning": f"Error: {e}", "alternative_relationship": ""}
+            error_result = {"plausible": False, "confidence": 0.0, "reasoning": f"Error: {e}", "alternative_relationship": ""}
+            # Cache error results too to avoid retrying immediately
+            self.validation_cache[cache_key] = error_result
+            self._save_cache()
+            return error_result
     
-    def validate_all_relationships(self, min_confidence: float = 0.7, limit: int = None) -> List[Dict]:
+    def validate_all_relationships(self, min_confidence: float = 0.7, limit: int = None, random_start: bool = False) -> List[Dict]:
         """Validate causal relationships in the graph."""
         print(f"Validating causal relationships with LLM{f' (limit: {limit})' if limit else ''}...")
         
         validation_results = []
         edges = list(self.causal_graph.edges(data=True))
+        total_edges = len(edges)
+        
+        # Randomize order if requested
+        if random_start:
+            import random
+            random.shuffle(edges)
+            print("🎲 Starting with random relationships")
         
         # Limit the number of relationships to validate
         if limit:
             edges = edges[:limit]
-            print(f"Processing first {len(edges)} relationships out of {len(list(self.causal_graph.edges()))}")
+            selection_method = "random" if random_start else "first"
+            print(f"Processing {selection_method} {len(edges)} relationships out of {total_edges}")
         
-        for edge in edges:
+        for i, edge in enumerate(edges, 1):
             cause, effect, data = edge
             relationship_type = data.get('relationship', 'unknown')
             
-            print(f"Validating: {cause} --{relationship_type}--> {effect}")
+            # Progress indicator
+            progress = f"[{i}/{len(edges)}]"
+            print(f"{progress} Validating: {cause} --{relationship_type}--> {effect}")
             
             validation = self.validate_causal_relationship(cause, effect)
             
@@ -200,9 +308,11 @@ Focus on CAUSALITY, not correlation or general relatedness. Be strict about what
                 'needs_review': validation['confidence'] < min_confidence or not validation['plausible']
             }
             
-            # Display result immediately
-            print(f"  Result: {validation['plausible']} (confidence: {validation['confidence']:.2f})")
+            # Display result immediately with progress
+            status = "✓" if validation['plausible'] else "✗"
+            print(f"  {status} Result: {validation['plausible']} (confidence: {validation['confidence']:.2f})")
             print(f"  Reasoning: {validation['reasoning'][:100]}...")
+            print(f"  Progress: {i}/{len(edges)} ({i/len(edges)*100:.1f}%)")
             print()
             
             validation_results.append(result)
@@ -457,11 +567,20 @@ Focus on CAUSALITY, not correlation or general relatedness. Be strict about what
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Validate causal relationships using SD-SCM inspired approach")
-    parser.add_argument("--output", default="causal_validation_report.md", help="Output report file")
-    parser.add_argument("--sample-missing", type=int, default=5, help="Sample size for missing relationship detection")
-    parser.add_argument("--limit", type=int, default=5, help="Limit number of relationships to validate (default: 5)")
-    parser.add_argument("--update-files", action="store_true", help="Update problem files with confidence scores")
+    parser = argparse.ArgumentParser(
+        description="Validate causal relationships using SD-SCM inspired approach",
+        epilog="""Examples:
+  %(prog)s --limit 10                    # Validate first 10 relationships
+  %(prog)s --random-start --limit 5      # Validate 5 random relationships  
+  %(prog)s --update-files                # Update problem files with results
+  %(prog)s --random-start --update-files # Random validation + file updates""",
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument("--output", default="causal_validation_report.md", help="Output report file (default: %(default)s)")
+    parser.add_argument("--sample-missing", type=int, default=5, help="Sample size for missing relationship detection (default: %(default)s)")
+    parser.add_argument("--limit", type=int, default=5, help="Limit number of relationships to validate (default: %(default)s)")
+    parser.add_argument("--update-files", action="store_true", help="Update problem files with confidence scores and new relationships")
+    parser.add_argument("--random-start", action="store_true", help="🎲 Start validation with random relationships instead of deterministic order (useful for varied sampling)")
     args = parser.parse_args()
     
     validator = CausalRelationshipValidator()
@@ -469,7 +588,7 @@ def main():
     validator.build_causal_graph()
     
     # Validate existing relationships
-    validation_results = validator.validate_all_relationships(limit=args.limit)
+    validation_results = validator.validate_all_relationships(limit=args.limit, random_start=args.random_start)
     
     # Find missing causal relationships
     missing_relationships = validator.find_missing_causal_relationships(sample_size=args.sample_missing)

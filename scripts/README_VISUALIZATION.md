@@ -35,14 +35,16 @@ The script generates an interactive D3.js-based network visualization of legacy 
 
 ## Template System
 
-The script uses a template-based approach for better maintainability:
+The script uses a template-based approach for better maintainability with two separate template files:
 
-- **Template Location**: `scripts/templates/landscape.template.html`
-- **Benefits**: 
-  - Separates HTML structure from Python data processing logic
-  - Easier to edit styling and layout without dealing with Python string escaping
-  - Cleaner version control for template changes
-  - Potential reusability for other visualization scripts
+### HTML Template
+- **Location**: `scripts/templates/landscape.template.html`
+- **Purpose**: Contains Jekyll page structure, CSS styling, and DOM elements
+
+### JavaScript Template  
+- **Location**: `scripts/templates/visualization.template.js`
+- **Purpose**: Contains all D3.js visualization logic and interactions
+- **Placeholder**: `{{GRAPH_DATA}}` gets replaced with actual problem data
 
 ## Visualization Features
 

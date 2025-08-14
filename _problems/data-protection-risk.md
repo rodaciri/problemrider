@@ -8,15 +8,15 @@ category:
 - Legal
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 0.579
-- slug: regulatory-compliance-drift
   similarity: 0.57
+- slug: regulatory-compliance-drift
+  similarity: 0.559
 - slug: insufficient-audit-logging
-  similarity: 0.534
+  similarity: 0.538
 - slug: authorization-flaws
-  similarity: 0.519
-- slug: silent-data-corruption
-  similarity: 0.515
+  similarity: 0.512
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.511
 layout: problem
 ---
 

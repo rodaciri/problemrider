@@ -7,15 +7,15 @@ category:
 - User Experience
 related_problems:
 - slug: difficult-developer-onboarding
-  similarity: 0.613
+  similarity: 0.605
 - slug: high-turnover
-  similarity: 0.57
+  similarity: 0.575
 - slug: poor-user-experience-ux-design
-  similarity: 0.546
-- slug: increased-customer-support-load
-  similarity: 0.539
+  similarity: 0.543
 - slug: declining-business-metrics
-  similarity: 0.538
+  similarity: 0.543
+- slug: inconsistent-onboarding-experience
+  similarity: 0.541
 layout: problem
 ---
 

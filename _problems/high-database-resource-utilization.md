@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: high-connection-count
-  similarity: 0.779
-- slug: slow-database-queries
-  similarity: 0.742
+  similarity: 0.795
 - slug: increased-error-rates
+  similarity: 0.744
+- slug: slow-database-queries
   similarity: 0.741
 - slug: resource-contention
-  similarity: 0.733
-- slug: misconfigured-connection-pools
-  similarity: 0.692
+  similarity: 0.734
+- slug: high-number-of-database-queries
+  similarity: 0.707
 layout: problem
 ---
 

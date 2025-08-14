@@ -14,8 +14,8 @@ related_problems:
   similarity: 0.631
 - slug: team-silos
   similarity: 0.603
-- slug: team-coordination-issues
-  similarity: 0.595
+- slug: inexperienced-developers
+  similarity: 0.596
 layout: problem
 ---
 

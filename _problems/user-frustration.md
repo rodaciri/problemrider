@@ -12,11 +12,11 @@ related_problems:
 - slug: user-trust-erosion
   similarity: 0.669
 - slug: negative-brand-perception
-  similarity: 0.634
+  similarity: 0.639
 - slug: poor-user-experience-ux-design
-  similarity: 0.626
-- slug: competitive-disadvantage
-  similarity: 0.617
+  similarity: 0.622
+- slug: negative-user-feedback
+  similarity: 0.618
 layout: problem
 ---
 

@@ -1,8 +1,13 @@
 ---
-title: "Bikeshedding"
-description: "Reviewers focus on trivial issues like whitespace and variable names instead of more important issues like logic and design."
-category: ['Process', 'Team']
-related_problems: ['inadequate-configuration-management', 'undefined-code-style-guidelines']
+title: Bikeshedding
+description: Reviewers focus on trivial issues like whitespace and variable names
+  instead of more important issues like logic and design.
+category:
+- Process
+- Team
+related_problems:
+- slug: unproductive-meetings
+  similarity: 0.511
 layout: problem
 ---
 

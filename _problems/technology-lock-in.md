@@ -7,13 +7,15 @@ category:
 - Technology
 related_problems:
 - slug: technology-isolation
-  similarity: 0.635
-- slug: technology-stack-fragmentation
-  similarity: 0.591
+  similarity: 0.637
 - slug: vendor-lock-in
-  similarity: 0.582
+  similarity: 0.588
+- slug: technology-stack-fragmentation
+  similarity: 0.588
 - slug: technical-architecture-limitations
-  similarity: 0.533
+  similarity: 0.553
+- slug: high-maintenance-costs
+  similarity: 0.502
 layout: problem
 ---
 

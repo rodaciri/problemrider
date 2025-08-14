@@ -12,9 +12,9 @@ related_problems:
   similarity: 0.631
 - slug: stakeholder-frustration
   similarity: 0.6
+- slug: slow-feature-development
+  similarity: 0.592
 - slug: inconsistent-behavior
-  similarity: 0.591
-- slug: unclear-goals-and-priorities
   similarity: 0.591
 layout: problem
 ---

@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: resource-contention
-  similarity: 0.713
+  similarity: 0.743
 - slug: unoptimized-file-access
-  similarity: 0.674
+  similarity: 0.673
 - slug: high-database-resource-utilization
-  similarity: 0.625
-- slug: gradual-performance-degradation
-  similarity: 0.607
+  similarity: 0.636
 - slug: memory-swapping
-  similarity: 0.605
+  similarity: 0.635
+- slug: virtual-memory-thrashing
+  similarity: 0.63
 layout: problem
 ---
 

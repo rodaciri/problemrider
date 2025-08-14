@@ -12,11 +12,11 @@ related_problems:
 - slug: tight-coupling-issues
   similarity: 0.638
 - slug: hidden-dependencies
-  similarity: 0.629
-- slug: large-estimates-for-small-changes
-  similarity: 0.616
+  similarity: 0.63
 - slug: high-coupling-low-cohesion
-  similarity: 0.614
+  similarity: 0.612
+- slug: fear-of-change
+  similarity: 0.608
 layout: problem
 ---
 

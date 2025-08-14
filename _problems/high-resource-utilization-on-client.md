@@ -7,15 +7,15 @@ category:
 - User Experience
 related_problems:
 - slug: high-client-side-resource-consumption
-  similarity: 0.985
+  similarity: 0.987
 - slug: inefficient-frontend-code
-  similarity: 0.738
+  similarity: 0.753
 - slug: slow-application-performance
-  similarity: 0.637
+  similarity: 0.646
 - slug: resource-contention
-  similarity: 0.603
-- slug: high-api-latency
-  similarity: 0.542
+  similarity: 0.614
+- slug: excessive-disk-io
+  similarity: 0.574
 layout: problem
 ---
 

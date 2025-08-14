@@ -9,11 +9,11 @@ related_problems:
 - slug: resource-contention
   similarity: 0.679
 - slug: external-service-delays
-  similarity: 0.669
+  similarity: 0.673
 - slug: network-latency
   similarity: 0.659
-- slug: slow-database-queries
-  similarity: 0.639
+- slug: high-resource-utilization-on-client
+  similarity: 0.646
 layout: problem
 ---
 

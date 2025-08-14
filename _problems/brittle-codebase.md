@@ -12,11 +12,11 @@ related_problems:
 - slug: large-estimates-for-small-changes
   similarity: 0.755
 - slug: insufficient-design-skills
-  similarity: 0.72
+  similarity: 0.723
 - slug: fear-of-breaking-changes
   similarity: 0.707
-- slug: high-technical-debt
-  similarity: 0.676
+- slug: refactoring-avoidance
+  similarity: 0.687
 layout: problem
 ---
 

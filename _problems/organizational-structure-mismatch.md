@@ -9,14 +9,14 @@ category:
 related_problems:
 - slug: team-coordination-issues
   similarity: 0.653
+- slug: architectural-mismatch
+  similarity: 0.572
 - slug: team-dysfunction
   similarity: 0.572
-- slug: architectural-mismatch
-  similarity: 0.564
-- slug: team-confusion
-  similarity: 0.551
 - slug: change-management-chaos
   similarity: 0.548
+- slug: team-silos
+  similarity: 0.547
 layout: problem
 ---
 

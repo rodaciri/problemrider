@@ -8,15 +8,15 @@ category:
 - Data Processing
 related_problems:
 - slug: serialization-deserialization-bottlenecks
-  similarity: 0.672
+  similarity: 0.657
 - slug: alignment-and-padding-issues
-  similarity: 0.576
+  similarity: 0.581
 - slug: atomic-operation-overhead
-  similarity: 0.543
+  similarity: 0.557
 - slug: data-structure-cache-inefficiency
-  similarity: 0.538
-- slug: algorithmic-complexity-problems
-  similarity: 0.513
+  similarity: 0.534
+- slug: false-sharing
+  similarity: 0.524
 layout: problem
 ---
 

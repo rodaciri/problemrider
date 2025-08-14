@@ -7,16 +7,16 @@ category:
 - Process
 - Decision Making
 related_problems:
-- slug: deadline-pressure
-  similarity: 0.684
 - slug: lower-code-quality
-  similarity: 0.681
+  similarity: 0.694
+- slug: deadline-pressure
+  similarity: 0.683
 - slug: increased-technical-shortcuts
-  similarity: 0.664
+  similarity: 0.658
 - slug: time-pressure
-  similarity: 0.647
-- slug: short-term-focus
-  similarity: 0.635
+  similarity: 0.649
+- slug: review-process-breakdown
+  similarity: 0.633
 layout: problem
 ---
 

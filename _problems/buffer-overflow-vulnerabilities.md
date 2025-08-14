@@ -13,8 +13,8 @@ related_problems:
 - slug: integer-overflow-underflow
   similarity: 0.645
 - slug: error-message-information-disclosure
-  similarity: 0.593
-- slug: race-conditions
+  similarity: 0.591
+- slug: excessive-object-allocation
   similarity: 0.59
 layout: problem
 ---

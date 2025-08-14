@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: maintenance-overhead
-  similarity: 0.696
+  similarity: 0.724
 - slug: inefficient-processes
-  similarity: 0.65
-- slug: uneven-workload-distribution
-  similarity: 0.62
+  similarity: 0.679
 - slug: increased-manual-work
+  similarity: 0.64
+- slug: uneven-workload-distribution
+  similarity: 0.617
+- slug: resource-waste
   similarity: 0.613
-- slug: constant-firefighting
-  similarity: 0.612
 layout: problem
 ---
 

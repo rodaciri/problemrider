@@ -8,15 +8,15 @@ category:
 - Performance
 related_problems:
 - slug: garbage-collection-pressure
-  similarity: 0.656
+  similarity: 0.667
 - slug: excessive-object-allocation
-  similarity: 0.644
+  similarity: 0.634
 - slug: unbounded-data-structures
-  similarity: 0.641
+  similarity: 0.634
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.582
 - slug: virtual-memory-thrashing
-  similarity: 0.567
-- slug: unbounded-data-growth
-  similarity: 0.563
+  similarity: 0.582
 layout: problem
 ---
 

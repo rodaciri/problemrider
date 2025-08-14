@@ -7,8 +7,6 @@ category:
 - Change Management
 - Documentation
 related_problems:
-- slug: second-system-effect
-  similarity: 0.656
 - slug: unpredictable-system-behavior
   similarity: 0.645
 - slug: stagnant-architecture
@@ -17,6 +15,8 @@ related_problems:
   similarity: 0.637
 - slug: legacy-api-versioning-nightmare
   similarity: 0.625
+- slug: resistance-to-change
+  similarity: 0.623
 layout: problem
 ---
 

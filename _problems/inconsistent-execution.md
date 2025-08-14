@@ -10,13 +10,13 @@ related_problems:
 - slug: inconsistent-behavior
   similarity: 0.799
 - slug: increased-manual-work
-  similarity: 0.651
+  similarity: 0.65
 - slug: inconsistent-quality
-  similarity: 0.643
+  similarity: 0.642
 - slug: team-confusion
-  similarity: 0.64
-- slug: inconsistent-onboarding-experience
-  similarity: 0.613
+  similarity: 0.641
+- slug: process-design-flaws
+  similarity: 0.612
 layout: problem
 ---
 

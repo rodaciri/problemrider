@@ -12,11 +12,11 @@ related_problems:
 - slug: monitoring-gaps
   similarity: 0.611
 - slug: debugging-difficulties
-  similarity: 0.556
+  similarity: 0.554
 - slug: system-outages
   similarity: 0.537
-- slug: communication-breakdown
-  similarity: 0.533
+- slug: poor-operational-concept
+  similarity: 0.532
 layout: problem
 ---
 

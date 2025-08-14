@@ -11,11 +11,11 @@ related_problems:
 - slug: high-defect-rate-in-production
   similarity: 0.663
 - slug: inadequate-test-infrastructure
-  similarity: 0.629
+  similarity: 0.63
 - slug: testing-environment-fragility
-  similarity: 0.607
-- slug: legacy-code-without-tests
-  similarity: 0.582
+  similarity: 0.606
+- slug: increased-manual-testing-effort
+  similarity: 0.577
 layout: problem
 ---
 

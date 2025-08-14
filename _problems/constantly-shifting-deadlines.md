@@ -8,14 +8,14 @@ category:
 - Project Management
 related_problems:
 - slug: frequent-changes-to-requirements
-  similarity: 0.761
+  similarity: 0.763
 - slug: unrealistic-deadlines
-  similarity: 0.723
+  similarity: 0.724
 - slug: development-disruption
-  similarity: 0.698
+  similarity: 0.709
 - slug: changing-project-scope
-  similarity: 0.696
-- slug: scope-creep
+  similarity: 0.7
+- slug: missed-deadlines
   similarity: 0.69
 layout: problem
 ---

@@ -12,9 +12,9 @@ related_problems:
 - slug: inconsistent-execution
   similarity: 0.593
 - slug: team-confusion
-  similarity: 0.558
-- slug: user-trust-erosion
-  similarity: 0.545
+  similarity: 0.557
+- slug: author-frustration
+  similarity: 0.55
 layout: problem
 ---
 

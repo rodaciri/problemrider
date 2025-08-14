@@ -7,16 +7,16 @@ category:
 - Performance
 - Concurrency
 related_problems:
-- slug: lock-contention
-  similarity: 0.721
 - slug: atomic-operation-overhead
-  similarity: 0.701
+  similarity: 0.702
+- slug: lock-contention
+  similarity: 0.698
 - slug: false-sharing
-  similarity: 0.627
+  similarity: 0.623
+- slug: alignment-and-padding-issues
+  similarity: 0.562
 - slug: race-conditions
-  similarity: 0.546
-- slug: deadlock-conditions
-  similarity: 0.533
+  similarity: 0.548
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: brittle-codebase
-  similarity: 0.673
+  similarity: 0.677
 - slug: feature-creep-without-refactoring
-  similarity: 0.668
+  similarity: 0.672
+- slug: high-technical-debt
+  similarity: 0.603
 - slug: high-maintenance-costs
   similarity: 0.603
-- slug: high-technical-debt
-  similarity: 0.602
-- slug: difficult-code-comprehension
-  similarity: 0.588
+- slug: refactoring-avoidance
+  similarity: 0.601
 layout: problem
 ---
 

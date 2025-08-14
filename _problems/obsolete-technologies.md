@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Process
 related_problems:
-- slug: system-stagnation
-  similarity: 0.648
 - slug: legacy-skill-shortage
+  similarity: 0.668
+- slug: system-stagnation
   similarity: 0.615
-- slug: technology-isolation
-  similarity: 0.594
-- slug: technology-stack-fragmentation
-  similarity: 0.589
 - slug: increasing-brittleness
-  similarity: 0.589
+  similarity: 0.615
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.591
+- slug: technology-isolation
+  similarity: 0.59
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Operational
 related_problems:
 - slug: technology-isolation
-  similarity: 0.753
+  similarity: 0.759
 - slug: monolithic-architecture-constraints
-  similarity: 0.682
+  similarity: 0.68
 - slug: system-stagnation
-  similarity: 0.605
+  similarity: 0.607
 - slug: legacy-skill-shortage
-  similarity: 0.593
-- slug: technology-lock-in
   similarity: 0.591
+- slug: obsolete-technologies
+  similarity: 0.588
 layout: problem
 ---
 

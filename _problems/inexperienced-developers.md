@@ -7,16 +7,16 @@ category:
 - Quality
 - Communication
 related_problems:
-- slug: insufficient-design-skills
-  similarity: 0.724
 - slug: knowledge-gaps
-  similarity: 0.716
+  similarity: 0.72
+- slug: insufficient-design-skills
+  similarity: 0.719
 - slug: inability-to-innovate
-  similarity: 0.698
-- slug: difficult-developer-onboarding
-  similarity: 0.686
+  similarity: 0.69
 - slug: team-churn-impact
-  similarity: 0.681
+  similarity: 0.68
+- slug: skill-development-gaps
+  similarity: 0.668
 layout: problem
 ---
 

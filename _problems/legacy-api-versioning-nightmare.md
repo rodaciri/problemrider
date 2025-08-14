@@ -12,11 +12,11 @@ related_problems:
 - slug: breaking-changes
   similarity: 0.702
 - slug: poor-interfaces-between-applications
-  similarity: 0.66
+  similarity: 0.658
 - slug: rapid-system-changes
   similarity: 0.625
-- slug: dependency-version-conflicts
-  similarity: 0.608
+- slug: vendor-lock-in
+  similarity: 0.624
 layout: problem
 ---
 

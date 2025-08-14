@@ -8,14 +8,14 @@ category:
 related_problems:
 - slug: memory-swapping
   similarity: 0.772
-- slug: high-database-resource-utilization
-  similarity: 0.733
 - slug: excessive-disk-io
-  similarity: 0.713
+  similarity: 0.743
+- slug: high-database-resource-utilization
+  similarity: 0.734
 - slug: slow-application-performance
   similarity: 0.679
-- slug: slow-database-queries
-  similarity: 0.651
+- slug: long-running-transactions
+  similarity: 0.655
 layout: problem
 ---
 

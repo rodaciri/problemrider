@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: tight-coupling-issues
-  similarity: 0.712
+  similarity: 0.709
 - slug: unpredictable-system-behavior
-  similarity: 0.617
+  similarity: 0.622
 - slug: ripple-effect-of-changes
-  similarity: 0.614
+  similarity: 0.612
 - slug: difficult-to-understand-code
-  similarity: 0.587
-- slug: merge-conflicts
-  similarity: 0.583
+  similarity: 0.6
+- slug: hidden-dependencies
+  similarity: 0.586
 layout: problem
 ---
 

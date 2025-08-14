@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: inability-to-innovate
-  similarity: 0.753
+  similarity: 0.763
 - slug: premature-technology-introduction
-  similarity: 0.714
+  similarity: 0.717
 - slug: resistance-to-change
-  similarity: 0.639
-- slug: inexperienced-developers
-  similarity: 0.606
-- slug: skill-development-gaps
-  similarity: 0.605
+  similarity: 0.637
+- slug: wasted-development-effort
+  similarity: 0.61
+- slug: fear-of-breaking-changes
+  similarity: 0.609
 layout: problem
 ---
 

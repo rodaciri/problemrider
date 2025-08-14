@@ -10,13 +10,13 @@ related_problems:
 - slug: stagnant-architecture
   similarity: 0.646
 - slug: second-system-effect
-  similarity: 0.628
+  similarity: 0.616
 - slug: implementation-rework
-  similarity: 0.591
+  similarity: 0.592
 - slug: rapid-system-changes
-  similarity: 0.581
-- slug: complex-implementation-paths
-  similarity: 0.579
+  similarity: 0.589
+- slug: analysis-paralysis
+  similarity: 0.585
 layout: problem
 ---
 

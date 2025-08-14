@@ -6,16 +6,8 @@ category:
 - Code Quality
 - Process
 related_problems:
-- slug: accumulation-of-workarounds
-  similarity: 0.541
 - slug: uncontrolled-codebase-growth
-  similarity: 0.507
-- slug: brittle-codebase
-  similarity: 0.506
-- slug: procedural-background
-  similarity: 0.501
-- slug: difficult-code-comprehension
-  similarity: 0.5
+  similarity: 0.514
 layout: problem
 ---
 

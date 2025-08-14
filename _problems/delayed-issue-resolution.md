@@ -12,11 +12,11 @@ related_problems:
 - slug: slow-incident-resolution
   similarity: 0.664
 - slug: lack-of-ownership-and-accountability
-  similarity: 0.619
+  similarity: 0.626
 - slug: delayed-project-timelines
   similarity: 0.591
-- slug: increased-customer-support-load
-  similarity: 0.564
+- slug: workaround-culture
+  similarity: 0.565
 layout: problem
 ---
 

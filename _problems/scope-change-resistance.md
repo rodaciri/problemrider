@@ -8,15 +8,15 @@ category:
 - Risk Management
 related_problems:
 - slug: changing-project-scope
-  similarity: 0.781
+  similarity: 75%
 - slug: no-formal-change-control-process
-  similarity: 0.774
+  similarity: 65%
 - slug: scope-creep
-  similarity: 0.724
-- slug: frequent-changes-to-requirements
-  similarity: 0.647
-- slug: resistance-to-change
-  similarity: 0.533
+  similarity: 65%
+- slug: eager-to-please-stakeholders
+  similarity: 60%
+- slug: project-resource-constraints
+  similarity: 55%
 layout: problem
 ---
 

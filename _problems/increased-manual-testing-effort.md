@@ -8,15 +8,15 @@ category:
 - Efficiency
 related_problems:
 - slug: increased-manual-work
-  similarity: 0.804
+  similarity: 75%
+- slug: manual-deployment-processes
+  similarity: 65%
 - slug: long-release-cycles
-  similarity: 0.738
-- slug: high-defect-rate-in-production
-  similarity: 0.727
+  similarity: 60%
+- slug: testing-complexity
+  similarity: 60%
 - slug: insufficient-testing
-  similarity: 0.714
-- slug: testing-environment-fragility
-  similarity: 0.712
+  similarity: 55%
 layout: problem
 ---
 

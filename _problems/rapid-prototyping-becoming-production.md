@@ -7,16 +7,16 @@ category:
 - Process
 - Architecture
 related_problems:
+- slug: brittle-codebase
+  similarity: 55%
 - slug: increased-technical-shortcuts
-  similarity: 0.567
-- slug: legacy-code-without-tests
-  similarity: 0.544
+  similarity: 55%
+- slug: process-design-flaws
+  similarity: 55%
+- slug: convenience-driven-development
+  similarity: 55%
 - slug: rapid-system-changes
-  similarity: 0.537
-- slug: tool-limitations
-  similarity: 0.521
-- slug: quality-blind-spots
-  similarity: 0.515
+  similarity: 55%
 layout: problem
 ---
 

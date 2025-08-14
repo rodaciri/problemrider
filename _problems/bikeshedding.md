@@ -6,8 +6,16 @@ category:
 - Process
 - Team
 related_problems:
+- slug: incomplete-knowledge
+  similarity: 60%
+- slug: nitpicking-culture
+  similarity: 55%
 - slug: unproductive-meetings
-  similarity: 0.511
+  similarity: 55%
+- slug: team-coordination-issues
+  similarity: 55%
+- slug: time-pressure
+  similarity: 55%
 layout: problem
 ---
 

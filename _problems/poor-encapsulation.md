@@ -8,11 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: misunderstanding-of-oop
-  similarity: 0.546
+  similarity: 60%
+- slug: high-coupling-low-cohesion
+  similarity: 60%
+- slug: tight-coupling-issues
+  similarity: 60%
 - slug: over-reliance-on-utility-classes
-  similarity: 0.533
-- slug: procedural-programming-in-oop-languages
-  similarity: 0.511
+  similarity: 55%
+- slug: incomplete-knowledge
+  similarity: 55%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Database
 - Resource Management
 related_problems:
-- slug: incorrect-max-connection-pool-size
-  similarity: 0.789
 - slug: misconfigured-connection-pools
-  similarity: 0.73
+  similarity: 70%
 - slug: high-connection-count
-  similarity: 0.729
+  similarity: 65%
+- slug: incorrect-max-connection-pool-size
+  similarity: 65%
+- slug: database-query-performance-issues
+  similarity: 60%
 - slug: resource-allocation-failures
-  similarity: 0.725
-- slug: unreleased-resources
-  similarity: 0.694
+  similarity: 60%
 layout: problem
 ---
 

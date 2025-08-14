@@ -7,16 +7,16 @@ category:
 - Efficiency
 - Team Dynamics
 related_problems:
-- slug: reduced-code-submission-frequency
-  similarity: 0.741
+- slug: extended-cycle-times
+  similarity: 70%
 - slug: code-review-inefficiency
-  similarity: 0.738
+  similarity: 65%
+- slug: long-release-cycles
+  similarity: 60%
 - slug: inadequate-initial-reviews
-  similarity: 0.734
-- slug: review-process-breakdown
-  similarity: 0.698
-- slug: insufficient-code-review
-  similarity: 0.671
+  similarity: 60%
+- slug: extended-research-time
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Technical Debt
 - Resource Management
 related_problems:
-- slug: maintenance-overhead
-  similarity: 0.804
 - slug: high-maintenance-costs
-  similarity: 0.788
+  similarity: 80%
 - slug: increased-cost-of-development
-  similarity: 0.777
-- slug: increasing-brittleness
-  similarity: 0.721
+  similarity: 75%
+- slug: maintenance-overhead
+  similarity: 70%
+- slug: maintenance-bottlenecks
+  similarity: 60%
 - slug: quality-degradation
-  similarity: 0.721
+  similarity: 55%
 layout: problem
 ---
 

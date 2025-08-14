@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: user-frustration
-  similarity: 0.869
+  similarity: 75%
+- slug: stakeholder-dissatisfaction
+  similarity: 65%
+- slug: user-confusion
+  similarity: 65%
 - slug: increased-customer-support-load
-  similarity: 0.723
-- slug: negative-brand-perception
-  similarity: 0.673
-- slug: competitive-disadvantage
-  similarity: 0.652
-- slug: system-outages
-  similarity: 0.635
+  similarity: 60%
+- slug: quality-degradation
+  similarity: 60%
 layout: problem
 ---
 

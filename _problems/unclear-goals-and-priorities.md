@@ -7,16 +7,16 @@ category:
 - Communication
 - Management
 related_problems:
-- slug: team-confusion
-  similarity: 0.803
-- slug: poor-planning
-  similarity: 0.68
 - slug: product-direction-chaos
-  similarity: 0.674
-- slug: changing-project-scope
-  similarity: 0.674
-- slug: stakeholder-developer-communication-gap
-  similarity: 0.673
+  similarity: 75%
+- slug: team-confusion
+  similarity: 75%
+- slug: priority-thrashing
+  similarity: 65%
+- slug: competing-priorities
+  similarity: 65%
+- slug: unclear-sharing-expectations
+  similarity: 60%
 layout: problem
 ---
 

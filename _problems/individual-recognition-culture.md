@@ -6,10 +6,16 @@ category:
 - Team
 - Process
 related_problems:
-- slug: blame-culture
-  similarity: 0.514
 - slug: micromanagement-culture
-  similarity: 0.514
+  similarity: 55%
+- slug: blame-culture
+  similarity: 50%
+- slug: poor-teamwork
+  similarity: 50%
+- slug: knowledge-silos
+  similarity: 50%
+- slug: team-dysfunction
+  similarity: 50%
 layout: problem
 ---
 

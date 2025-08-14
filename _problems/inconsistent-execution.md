@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: inconsistent-behavior
-  similarity: 0.799
-- slug: increased-manual-work
-  similarity: 0.65
+  similarity: 75%
 - slug: inconsistent-quality
-  similarity: 0.642
+  similarity: 60%
+- slug: uneven-work-flow
+  similarity: 55%
+- slug: duplicated-work
+  similarity: 55%
 - slug: team-confusion
-  similarity: 0.641
-- slug: process-design-flaws
-  similarity: 0.612
+  similarity: 55%
 layout: problem
 ---
 

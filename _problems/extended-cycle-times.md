@@ -7,16 +7,16 @@ category:
 - Flow
 - Efficiency
 related_problems:
-- slug: work-queue-buildup
-  similarity: 0.693
-- slug: uneven-work-flow
-  similarity: 0.681
-- slug: work-blocking
-  similarity: 0.661
-- slug: overworked-teams
-  similarity: 0.618
-- slug: reduced-individual-productivity
-  similarity: 0.615
+- slug: extended-review-cycles
+  similarity: 70%
+- slug: extended-research-time
+  similarity: 65%
+- slug: delayed-project-timelines
+  similarity: 65%
+- slug: long-release-cycles
+  similarity: 65%
+- slug: increased-time-to-market
+  similarity: 65%
 layout: problem
 ---
 

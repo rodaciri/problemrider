@@ -7,16 +7,16 @@ category:
 - Communication
 - Business
 related_problems:
-- slug: new-hire-frustration
-  similarity: 0.735
 - slug: difficult-developer-onboarding
-  similarity: 0.733
+  similarity: 65%
+- slug: new-hire-frustration
+  similarity: 65%
 - slug: team-churn-impact
-  similarity: 0.688
-- slug: inexperienced-developers
-  similarity: 0.661
+  similarity: 65%
 - slug: mentor-burnout
-  similarity: 0.631
+  similarity: 60%
+- slug: high-bug-introduction-rate
+  similarity: 60%
 layout: problem
 ---
 

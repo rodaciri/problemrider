@@ -7,16 +7,16 @@ category:
 - Culture
 - Process
 related_problems:
-- slug: blame-culture
-  similarity: 0.594
-- slug: delayed-decision-making
-  similarity: 0.532
-- slug: decision-avoidance
-  similarity: 0.524
 - slug: individual-recognition-culture
-  similarity: 0.514
+  similarity: 55%
+- slug: perfectionist-culture
+  similarity: 55%
+- slug: perfectionist-review-culture
+  similarity: 55%
+- slug: nitpicking-culture
+  similarity: 55%
 - slug: approval-dependencies
-  similarity: 0.511
+  similarity: 55%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Technical
 - Maintenance
 related_problems:
-- slug: increased-bug-count
-  similarity: 0.758
-- slug: lower-code-quality
-  similarity: 0.73
 - slug: high-bug-introduction-rate
-  similarity: 0.708
+  similarity: 70%
+- slug: increased-bug-count
+  similarity: 65%
+- slug: increased-cost-of-development
+  similarity: 60%
+- slug: difficult-to-understand-code
+  similarity: 60%
 - slug: fear-of-change
-  similarity: 0.707
-- slug: unpredictable-system-behavior
-  similarity: 0.699
+  similarity: 60%
 layout: problem
 ---
 

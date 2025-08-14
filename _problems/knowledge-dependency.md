@@ -7,16 +7,16 @@ category:
 - Knowledge Management
 - Independence
 related_problems:
+- slug: inconsistent-knowledge-acquisition
+  similarity: 70%
 - slug: knowledge-silos
-  similarity: 0.702
-- slug: knowledge-gaps
-  similarity: 0.678
+  similarity: 70%
+- slug: mentor-burnout
+  similarity: 65%
 - slug: slow-knowledge-transfer
-  similarity: 0.678
-- slug: skill-development-gaps
-  similarity: 0.663
-- slug: single-points-of-failure
-  similarity: 0.658
+  similarity: 65%
+- slug: implicit-knowledge
+  similarity: 65%
 layout: problem
 ---
 

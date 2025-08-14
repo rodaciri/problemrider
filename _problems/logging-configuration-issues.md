@@ -7,16 +7,16 @@ category:
 - Configuration
 - Observability
 related_problems:
-- slug: excessive-logging
-  similarity: 0.723
 - slug: insufficient-audit-logging
-  similarity: 0.692
+  similarity: 65%
+- slug: excessive-logging
+  similarity: 60%
 - slug: log-injection-vulnerabilities
-  similarity: 0.615
-- slug: error-message-information-disclosure
-  similarity: 0.582
+  similarity: 60%
 - slug: log-spam
-  similarity: 0.572
+  similarity: 60%
+- slug: inadequate-configuration-management
+  similarity: 55%
 layout: problem
 ---
 

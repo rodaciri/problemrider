@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: high-turnover
-  similarity: 0.688
-- slug: inexperienced-developers
-  similarity: 0.681
+  similarity: 65%
+- slug: reduced-team-productivity
+  similarity: 60%
+- slug: team-silos
+  similarity: 60%
 - slug: team-members-not-engaged-in-review-process
-  similarity: 0.64
-- slug: knowledge-gaps
-  similarity: 0.632
-- slug: knowledge-dependency
-  similarity: 0.631
+  similarity: 60%
+- slug: lower-code-quality
+  similarity: 60%
 layout: problem
 ---
 

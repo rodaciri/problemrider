@@ -7,16 +7,16 @@ category:
 - Operations
 - Deployment
 related_problems:
-- slug: manual-deployment-processes
-  similarity: 0.732
-- slug: poor-operational-concept
-  similarity: 0.685
 - slug: complex-deployment-process
-  similarity: 0.683
-- slug: release-instability
-  similarity: 0.682
+  similarity: 70%
+- slug: manual-deployment-processes
+  similarity: 65%
 - slug: deployment-risk
-  similarity: 0.681
+  similarity: 60%
+- slug: misaligned-deliverables
+  similarity: 60%
+- slug: missing-rollback-strategy
+  similarity: 60%
 layout: problem
 ---
 

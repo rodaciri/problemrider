@@ -7,16 +7,16 @@ category:
 - Concurrency
 - Performance
 related_problems:
-- slug: memory-barrier-inefficiency
-  similarity: 0.721
-- slug: atomic-operation-overhead
-  similarity: 0.696
-- slug: deadlock-conditions
-  similarity: 0.639
-- slug: false-sharing
-  similarity: 0.617
 - slug: race-conditions
-  similarity: 0.567
+  similarity: 65%
+- slug: resource-contention
+  similarity: 65%
+- slug: deadlock-conditions
+  similarity: 60%
+- slug: atomic-operation-overhead
+  similarity: 55%
+- slug: false-sharing
+  similarity: 55%
 layout: problem
 ---
 

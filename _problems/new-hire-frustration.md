@@ -7,16 +7,16 @@ category:
 - Workplace Health
 - Process
 related_problems:
-- slug: high-turnover
-  similarity: 0.735
-- slug: developer-frustration-and-burnout
-  similarity: 0.665
 - slug: difficult-developer-onboarding
-  similarity: 0.657
-- slug: increased-cognitive-load
-  similarity: 0.596
-- slug: team-demoralization
-  similarity: 0.58
+  similarity: 75%
+- slug: high-turnover
+  similarity: 65%
+- slug: inconsistent-onboarding-experience
+  similarity: 65%
+- slug: developer-frustration-and-burnout
+  similarity: 60%
+- slug: author-frustration
+  similarity: 60%
 layout: problem
 ---
 

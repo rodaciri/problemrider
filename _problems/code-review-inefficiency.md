@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: inadequate-code-reviews
-  similarity: 0.785
-- slug: insufficient-code-review
-  similarity: 0.757
-- slug: review-process-breakdown
-  similarity: 0.747
+  similarity: 75%
 - slug: review-bottlenecks
-  similarity: 0.73
-- slug: lower-code-quality
-  similarity: 0.719
+  similarity: 75%
+- slug: insufficient-code-review
+  similarity: 75%
+- slug: review-process-breakdown
+  similarity: 75%
+- slug: inadequate-initial-reviews
+  similarity: 70%
 layout: problem
 ---
 

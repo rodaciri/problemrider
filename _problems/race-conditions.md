@@ -7,16 +7,16 @@ category:
 - Concurrency
 - Data Integrity
 related_problems:
-- slug: dma-coherency-issues
-  similarity: 0.642
+- slug: lock-contention
+  similarity: 65%
 - slug: false-sharing
-  similarity: 0.621
+  similarity: 60%
 - slug: deadlock-conditions
-  similarity: 0.603
-- slug: buffer-overflow-vulnerabilities
-  similarity: 0.59
-- slug: atomic-operation-overhead
-  similarity: 0.584
+  similarity: 60%
+- slug: synchronization-problems
+  similarity: 55%
+- slug: resource-contention
+  similarity: 50%
 layout: problem
 ---
 

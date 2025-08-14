@@ -8,15 +8,15 @@ category:
 - Planning
 related_problems:
 - slug: requirements-ambiguity
-  similarity: 0.706
-- slug: poor-planning
-  similarity: 0.69
-- slug: poor-operational-concept
-  similarity: 0.669
+  similarity: 65%
+- slug: feedback-isolation
+  similarity: 60%
+- slug: no-continuous-feedback-loop
+  similarity: 60%
+- slug: poor-documentation
+  similarity: 55%
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.635
-- slug: complex-implementation-paths
-  similarity: 0.63
+  similarity: 55%
 layout: problem
 ---
 

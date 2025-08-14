@@ -8,15 +8,15 @@ category:
 - Accountability
 related_problems:
 - slug: delayed-bug-fixes
-  similarity: 0.744
+  similarity: 80%
 - slug: slow-incident-resolution
-  similarity: 0.664
-- slug: lack-of-ownership-and-accountability
-  similarity: 0.626
-- slug: delayed-project-timelines
-  similarity: 0.591
-- slug: workaround-culture
-  similarity: 0.565
+  similarity: 65%
+- slug: delayed-value-delivery
+  similarity: 65%
+- slug: missed-deadlines
+  similarity: 60%
+- slug: slow-development-velocity
+  similarity: 60%
 layout: problem
 ---
 

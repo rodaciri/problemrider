@@ -7,16 +7,16 @@ category:
 - Process
 - Risk Management
 related_problems:
-- slug: unrealistic-schedule
-  similarity: 0.725
-- slug: planning-dysfunction
-  similarity: 0.72
-- slug: poor-planning
-  similarity: 0.7
-- slug: missed-deadlines
-  similarity: 0.666
 - slug: planning-credibility-issues
-  similarity: 0.663
+  similarity: 65%
+- slug: reduced-team-flexibility
+  similarity: 65%
+- slug: poor-planning
+  similarity: 65%
+- slug: delayed-project-timelines
+  similarity: 60%
+- slug: constantly-shifting-deadlines
+  similarity: 60%
 layout: problem
 ---
 

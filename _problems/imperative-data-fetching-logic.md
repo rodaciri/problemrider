@@ -8,16 +8,16 @@ category:
 - Database
 - Design
 related_problems:
-- slug: high-number-of-database-queries
-  similarity: 0.66
-- slug: n-plus-one-query-problem
-  similarity: 0.641
-- slug: database-query-performance-issues
-  similarity: 0.639
 - slug: lazy-loading
-  similarity: 0.632
+  similarity: 75%
+- slug: high-number-of-database-queries
+  similarity: 70%
+- slug: n-plus-one-query-problem
+  similarity: 70%
 - slug: slow-database-queries
-  similarity: 0.632
+  similarity: 70%
+- slug: inefficient-code
+  similarity: 65%
 layout: problem
 ---
 

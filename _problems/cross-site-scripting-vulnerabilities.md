@@ -7,9 +7,15 @@ category:
 - Technical
 related_problems:
 - slug: sql-injection-vulnerabilities
-  similarity: 0.546
+  similarity: 65%
 - slug: log-injection-vulnerabilities
-  similarity: 0.54
+  similarity: 60%
+- slug: buffer-overflow-vulnerabilities
+  similarity: 55%
+- slug: session-management-issues
+  similarity: 55%
+- slug: authentication-bypass-vulnerabilities
+  similarity: 50%
 layout: problem
 ---
 

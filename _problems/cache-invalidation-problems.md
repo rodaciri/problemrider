@@ -8,15 +8,13 @@ category:
 - Integration
 related_problems:
 - slug: poor-caching-strategy
-  similarity: 0.705
-- slug: dma-coherency-issues
-  similarity: 0.63
-- slug: silent-data-corruption
-  similarity: 0.568
-- slug: race-conditions
-  similarity: 0.566
-- slug: false-sharing
-  similarity: 0.562
+  similarity: 65%
+- slug: data-structure-cache-inefficiency
+  similarity: 55%
+- slug: synchronization-problems
+  similarity: 55%
+- slug: cross-system-data-synchronization-problems
+  similarity: 50%
 layout: problem
 ---
 

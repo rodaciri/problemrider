@@ -5,16 +5,16 @@ category:
 - Process
 - Productivity
 related_problems:
-- slug: inefficient-development-environment
-  similarity: 0.677
-- slug: time-pressure
-  similarity: 0.621
-- slug: tool-limitations
-  similarity: 0.62
-- slug: deadline-pressure
-  similarity: 0.604
-- slug: testing-environment-fragility
-  similarity: 0.603
+- slug: long-release-cycles
+  similarity: 60%
+- slug: work-queue-buildup
+  similarity: 60%
+- slug: extended-cycle-times
+  similarity: 60%
+- slug: extended-research-time
+  similarity: 55%
+- slug: maintenance-bottlenecks
+  similarity: 55%
 layout: problem
 ---
 

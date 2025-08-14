@@ -7,16 +7,16 @@ category:
 - Performance
 - Design
 related_problems:
-- slug: data-structure-cache-inefficiency
-  similarity: 0.695
-- slug: unbounded-data-structures
-  similarity: 0.678
-- slug: unbounded-data-growth
-  similarity: 0.632
 - slug: inefficient-code
-  similarity: 0.579
-- slug: gradual-performance-degradation
-  similarity: 0.577
+  similarity: 70%
+- slug: graphql-complexity-issues
+  similarity: 60%
+- slug: database-query-performance-issues
+  similarity: 60%
+- slug: complex-and-obscure-logic
+  similarity: 60%
+- slug: inefficient-frontend-code
+  similarity: 60%
 layout: problem
 ---
 

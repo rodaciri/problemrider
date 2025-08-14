@@ -7,13 +7,15 @@ category:
 - Object-Oriented Design
 related_problems:
 - slug: bloated-class
-  similarity: 0.552
+  similarity: 75%
 - slug: monolithic-functions-and-classes
-  similarity: 0.551
+  similarity: 65%
 - slug: over-reliance-on-utility-classes
-  similarity: 0.531
+  similarity: 65%
 - slug: god-object-anti-pattern
-  similarity: 0.523
+  similarity: 60%
+- slug: large-pull-requests
+  similarity: 55%
 layout: problem
 ---
 

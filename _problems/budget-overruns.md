@@ -8,16 +8,16 @@ category:
 - Business
 - Process
 related_problems:
-- slug: poor-planning
-  similarity: 0.656
-- slug: incomplete-projects
-  similarity: 0.626
+- slug: operational-overhead
+  similarity: 65%
+- slug: eager-to-please-stakeholders
+  similarity: 65%
 - slug: scope-creep
-  similarity: 0.597
-- slug: unrealistic-deadlines
-  similarity: 0.592
-- slug: increased-cost-of-development
-  similarity: 0.592
+  similarity: 60%
+- slug: constantly-shifting-deadlines
+  similarity: 60%
+- slug: stakeholder-dissatisfaction
+  similarity: 60%
 layout: problem
 ---
 

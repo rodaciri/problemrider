@@ -6,16 +6,16 @@ category:
 - Team
 - Process
 related_problems:
-- slug: merge-conflicts
-  similarity: 0.742
-- slug: duplicated-effort
-  similarity: 0.713
 - slug: team-dysfunction
-  similarity: 0.683
-- slug: poor-communication
-  similarity: 0.645
-- slug: duplicated-work
-  similarity: 0.644
+  similarity: 75%
+- slug: poor-teamwork
+  similarity: 70%
+- slug: team-confusion
+  similarity: 70%
+- slug: inconsistent-codebase
+  similarity: 65%
+- slug: team-silos
+  similarity: 65%
 layout: problem
 ---
 

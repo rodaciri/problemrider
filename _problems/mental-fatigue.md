@@ -7,16 +7,16 @@ category:
 - Team Dynamics
 - Individual Performance
 related_problems:
-- slug: reduced-individual-productivity
-  similarity: 0.716
-- slug: increased-cognitive-load
-  similarity: 0.694
 - slug: developer-frustration-and-burnout
-  similarity: 0.688
+  similarity: 65%
 - slug: cognitive-overload
-  similarity: 0.685
-- slug: context-switching-overhead
-  similarity: 0.676
+  similarity: 60%
+- slug: reduced-individual-productivity
+  similarity: 55%
+- slug: mentor-burnout
+  similarity: 55%
+- slug: increased-stress-and-burnout
+  similarity: 55%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Organizational
 - Trust
 related_problems:
-- slug: stakeholder-confidence-loss
-  similarity: 0.766
-- slug: planning-dysfunction
-  similarity: 0.752
 - slug: poor-planning
-  similarity: 0.747
-- slug: missed-deadlines
-  similarity: 0.746
+  similarity: 70%
+- slug: stakeholder-confidence-loss
+  similarity: 70%
+- slug: planning-dysfunction
+  similarity: 65%
 - slug: reduced-predictability
-  similarity: 0.739
+  similarity: 65%
+- slug: eager-to-please-stakeholders
+  similarity: 60%
 layout: problem
 ---
 

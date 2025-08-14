@@ -7,16 +7,16 @@ category:
 - Management
 - Politics
 related_problems:
-- slug: team-dysfunction
-  similarity: 0.668
-- slug: project-authority-vacuum
-  similarity: 0.645
-- slug: project-resource-constraints
-  similarity: 0.608
 - slug: competing-priorities
-  similarity: 0.607
+  similarity: 65%
+- slug: product-direction-chaos
+  similarity: 60%
+- slug: team-dysfunction
+  similarity: 60%
 - slug: team-confusion
-  similarity: 0.603
+  similarity: 60%
+- slug: decision-paralysis
+  similarity: 60%
 layout: problem
 ---
 

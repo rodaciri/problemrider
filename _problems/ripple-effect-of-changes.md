@@ -7,16 +7,16 @@ category:
 - Design
 - Maintenance
 related_problems:
-- slug: unpredictable-system-behavior
-  similarity: 0.753
 - slug: tight-coupling-issues
-  similarity: 0.638
-- slug: hidden-dependencies
-  similarity: 0.63
-- slug: high-coupling-low-cohesion
-  similarity: 0.612
-- slug: fear-of-change
-  similarity: 0.608
+  similarity: 70%
+- slug: cascade-failures
+  similarity: 70%
+- slug: unpredictable-system-behavior
+  similarity: 65%
+- slug: deployment-coupling
+  similarity: 65%
+- slug: change-management-chaos
+  similarity: 60%
 layout: problem
 ---
 

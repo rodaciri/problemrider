@@ -7,16 +7,16 @@ category:
 - Risk Management
 - Process
 related_problems:
+- slug: configuration-drift
+  similarity: 60%
+- slug: legacy-configuration-management-chaos
+  similarity: 55%
 - slug: data-migration-integrity-issues
-  similarity: 0.586
-- slug: architectural-mismatch
-  similarity: 0.578
+  similarity: 55%
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.577
-- slug: cross-system-data-synchronization-problems
-  similarity: 0.57
-- slug: legacy-system-documentation-archaeology
-  similarity: 0.567
+  similarity: 55%
+- slug: vendor-dependency-entrapment
+  similarity: 50%
 layout: problem
 ---
 

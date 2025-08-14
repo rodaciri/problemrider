@@ -8,15 +8,7 @@ category:
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities
-  similarity: 0.709
-- slug: stack-overflow-errors
-  similarity: 0.684
-- slug: abi-compatibility-issues
-  similarity: 0.535
-- slug: inadequate-error-handling
-  similarity: 0.531
-- slug: race-conditions
-  similarity: 0.517
+  similarity: 55%
 layout: problem
 ---
 

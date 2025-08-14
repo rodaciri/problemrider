@@ -8,16 +8,16 @@ category:
 - Knowledge Management
 - Maintenance
 related_problems:
-- slug: high-turnover
-  similarity: 0.736
+- slug: new-hire-frustration
+  similarity: 75%
 - slug: inconsistent-onboarding-experience
-  similarity: 0.686
-- slug: slow-feature-development
-  similarity: 0.685
-- slug: inefficient-development-environment
-  similarity: 0.665
-- slug: slow-development-velocity
-  similarity: 0.664
+  similarity: 70%
+- slug: high-turnover
+  similarity: 65%
+- slug: inexperienced-developers
+  similarity: 60%
+- slug: slow-knowledge-transfer
+  similarity: 60%
 layout: problem
 ---
 

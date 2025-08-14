@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Communication
 related_problems:
-- slug: inconsistent-coding-standards
-  similarity: 0.739
-- slug: inconsistent-codebase
-  similarity: 0.739
 - slug: poor-naming-conventions
-  similarity: 0.685
+  similarity: 75%
+- slug: inconsistent-coding-standards
+  similarity: 75%
+- slug: inconsistent-codebase
+  similarity: 70%
+- slug: mixed-coding-styles
+  similarity: 65%
 - slug: undefined-code-style-guidelines
-  similarity: 0.674
-- slug: nitpicking-culture
-  similarity: 0.644
+  similarity: 60%
 layout: problem
 ---
 

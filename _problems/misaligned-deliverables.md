@@ -7,15 +7,15 @@ category:
 - Communication
 related_problems:
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.74
-- slug: product-direction-chaos
-  similarity: 0.631
-- slug: stakeholder-frustration
-  similarity: 0.6
-- slug: slow-feature-development
-  similarity: 0.592
-- slug: inconsistent-behavior
-  similarity: 0.591
+  similarity: 75%
+- slug: no-continuous-feedback-loop
+  similarity: 65%
+- slug: stakeholder-dissatisfaction
+  similarity: 65%
+- slug: missed-deadlines
+  similarity: 65%
+- slug: team-confusion
+  similarity: 60%
 layout: problem
 ---
 

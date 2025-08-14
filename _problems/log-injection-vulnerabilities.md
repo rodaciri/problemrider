@@ -8,15 +8,15 @@ category:
 - Input Validation
 related_problems:
 - slug: sql-injection-vulnerabilities
-  similarity: 0.662
+  similarity: 65%
 - slug: cross-site-scripting-vulnerabilities
-  similarity: 0.54
-- slug: error-message-information-disclosure
-  similarity: 0.526
-- slug: authentication-bypass-vulnerabilities
-  similarity: 0.523
+  similarity: 60%
+- slug: insufficient-audit-logging
+  similarity: 60%
 - slug: logging-configuration-issues
-  similarity: 0.504
+  similarity: 60%
+- slug: log-spam
+  similarity: 55%
 layout: problem
 ---
 

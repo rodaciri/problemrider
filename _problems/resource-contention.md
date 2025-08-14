@@ -6,16 +6,16 @@ category:
 - Performance
 - Stability
 related_problems:
-- slug: memory-swapping
-  similarity: 0.772
-- slug: excessive-disk-io
-  similarity: 0.743
+- slug: high-client-side-resource-consumption
+  similarity: 70%
 - slug: high-database-resource-utilization
-  similarity: 0.734
-- slug: slow-application-performance
-  similarity: 0.679
-- slug: long-running-transactions
-  similarity: 0.655
+  similarity: 70%
+- slug: high-resource-utilization-on-client
+  similarity: 70%
+- slug: excessive-disk-io
+  similarity: 65%
+- slug: memory-swapping
+  similarity: 65%
 layout: problem
 ---
 

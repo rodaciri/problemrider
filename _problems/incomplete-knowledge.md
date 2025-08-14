@@ -6,16 +6,16 @@ category:
 - Team
 - Knowledge Management
 related_problems:
-- slug: knowledge-gaps
-  similarity: 0.699
 - slug: incomplete-projects
-  similarity: 0.647
-- slug: tacit-knowledge
-  similarity: 0.631
-- slug: team-silos
-  similarity: 0.603
+  similarity: 70%
+- slug: inconsistent-knowledge-acquisition
+  similarity: 70%
 - slug: inexperienced-developers
-  similarity: 0.596
+  similarity: 70%
+- slug: information-fragmentation
+  similarity: 65%
+- slug: insufficient-design-skills
+  similarity: 65%
 layout: problem
 ---
 

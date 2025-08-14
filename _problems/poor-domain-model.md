@@ -8,15 +8,15 @@ category:
 - Technical
 related_problems:
 - slug: complex-domain-model
-  similarity: 0.738
+  similarity: 75%
+- slug: poorly-defined-responsibilities
+  similarity: 55%
+- slug: poor-interfaces-between-applications
+  similarity: 55%
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.685
-- slug: architectural-mismatch
-  similarity: 0.595
-- slug: knowledge-gaps
-  similarity: 0.594
-- slug: stagnant-architecture
-  similarity: 0.575
+  similarity: 55%
+- slug: database-schema-design-problems
+  similarity: 50%
 layout: problem
 ---
 

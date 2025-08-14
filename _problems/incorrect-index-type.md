@@ -6,15 +6,15 @@ category:
 - Performance
 related_problems:
 - slug: inefficient-database-indexing
-  similarity: 0.824
-- slug: queries-that-prevent-index-usage
-  similarity: 0.792
-- slug: unused-indexes
-  similarity: 0.575
-- slug: slow-database-queries
-  similarity: 0.575
+  similarity: 85%
 - slug: index-fragmentation
-  similarity: 0.567
+  similarity: 70%
+- slug: queries-that-prevent-index-usage
+  similarity: 70%
+- slug: unused-indexes
+  similarity: 70%
+- slug: lazy-loading
+  similarity: 65%
 layout: problem
 ---
 

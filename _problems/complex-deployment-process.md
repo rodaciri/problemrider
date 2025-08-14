@@ -7,15 +7,15 @@ category:
 - Deployment
 related_problems:
 - slug: manual-deployment-processes
-  similarity: 0.739
-- slug: deployment-risk
-  similarity: 0.686
+  similarity: 75%
+- slug: large-risky-releases
+  similarity: 70%
 - slug: immature-delivery-strategy
-  similarity: 0.68
-- slug: inadequate-configuration-management
-  similarity: 0.611
-- slug: deployment-coupling
-  similarity: 0.602
+  similarity: 70%
+- slug: deployment-risk
+  similarity: 70%
+- slug: insufficient-testing
+  similarity: 65%
 layout: problem
 ---
 

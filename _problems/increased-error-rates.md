@@ -6,16 +6,16 @@ category:
 - Quality
 - Stability
 related_problems:
-- slug: high-database-resource-utilization
-  similarity: 0.741
+- slug: high-bug-introduction-rate
+  similarity: 60%
+- slug: increased-bug-count
+  similarity: 60%
 - slug: service-timeouts
-  similarity: 0.726
+  similarity: 60%
 - slug: upstream-timeouts
-  similarity: 0.643
-- slug: external-service-delays
-  similarity: 0.635
-- slug: high-connection-count
-  similarity: 0.63
+  similarity: 55%
+- slug: inadequate-error-handling
+  similarity: 55%
 layout: problem
 ---
 

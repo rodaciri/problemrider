@@ -5,16 +5,16 @@ description: Users complain about slow loading times, application freezes, or ot
 category:
 - Business
 related_problems:
-- slug: declining-business-metrics
-  similarity: 0.642
-- slug: user-trust-erosion
-  similarity: 0.603
-- slug: negative-brand-perception
-  similarity: 0.597
-- slug: customer-dissatisfaction
-  similarity: 0.578
 - slug: user-frustration
-  similarity: 0.573
+  similarity: 65%
+- slug: slow-application-performance
+  similarity: 60%
+- slug: poor-user-experience-ux-design
+  similarity: 60%
+- slug: inadequate-onboarding
+  similarity: 60%
+- slug: negative-brand-perception
+  similarity: 60%
 layout: problem
 ---
 

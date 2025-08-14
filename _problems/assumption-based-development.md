@@ -7,10 +7,16 @@ category:
 - Requirements
 - Communication
 related_problems:
-- slug: requirements-ambiguity
-  similarity: 0.551
-- slug: inadequate-requirements-gathering
-  similarity: 0.519
+- slug: convenience-driven-development
+  similarity: 55%
+- slug: inexperienced-developers
+  similarity: 50%
+- slug: decision-avoidance
+  similarity: 50%
+- slug: feedback-isolation
+  similarity: 50%
+- slug: decision-paralysis
+  similarity: 50%
 layout: problem
 ---
 

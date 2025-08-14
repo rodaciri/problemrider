@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: misaligned-deliverables
-  similarity: 0.74
-- slug: stakeholder-frustration
-  similarity: 0.737
-- slug: poor-communication
-  similarity: 0.696
+  similarity: 75%
+- slug: no-continuous-feedback-loop
+  similarity: 75%
 - slug: stakeholder-dissatisfaction
-  similarity: 0.695
-- slug: feedback-isolation
-  similarity: 0.681
+  similarity: 70%
+- slug: stakeholder-frustration
+  similarity: 65%
+- slug: communication-breakdown
+  similarity: 65%
 layout: problem
 ---
 

@@ -5,16 +5,16 @@ description: The code responsible for handling a request is computationally expe
 category:
 - Performance
 related_problems:
-- slug: slow-application-performance
-  similarity: 0.632
-- slug: resource-contention
-  similarity: 0.62
-- slug: high-api-latency
-  similarity: 0.592
 - slug: inefficient-frontend-code
-  similarity: 0.587
+  similarity: 75%
 - slug: algorithmic-complexity-problems
-  similarity: 0.574
+  similarity: 70%
+- slug: slow-application-performance
+  similarity: 65%
+- slug: complex-and-obscure-logic
+  similarity: 65%
+- slug: imperative-data-fetching-logic
+  similarity: 65%
 layout: problem
 ---
 

@@ -7,16 +7,14 @@ category:
 - Performance
 - Data Processing
 related_problems:
-- slug: endianness-conversion-overhead
-  similarity: 0.672
-- slug: high-api-latency
-  similarity: 0.584
-- slug: data-structure-cache-inefficiency
-  similarity: 0.561
+- slug: algorithmic-complexity-problems
+  similarity: 50%
 - slug: atomic-operation-overhead
-  similarity: 0.555
-- slug: microservice-communication-overhead
-  similarity: 0.553
+  similarity: 50%
+- slug: endianness-conversion-overhead
+  similarity: 50%
+- slug: database-query-performance-issues
+  similarity: 50%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: poor-communication
-  similarity: 0.931
-- slug: team-dysfunction
-  similarity: 0.754
-- slug: communication-risk-within-project
-  similarity: 0.752
-- slug: poor-teamwork
-  similarity: 0.703
+  similarity: 90%
+- slug: knowledge-sharing-breakdown
+  similarity: 75%
 - slug: team-silos
-  similarity: 0.683
+  similarity: 70%
+- slug: stakeholder-developer-communication-gap
+  similarity: 65%
+- slug: team-coordination-issues
+  similarity: 65%
 layout: problem
 ---
 

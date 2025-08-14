@@ -7,16 +7,16 @@ category:
 - Business
 - Technical
 related_problems:
+- slug: organizational-structure-mismatch
+  similarity: 75%
 - slug: stagnant-architecture
-  similarity: 0.783
-- slug: second-system-effect
-  similarity: 0.692
-- slug: complex-implementation-paths
-  similarity: 0.684
+  similarity: 70%
 - slug: technical-architecture-limitations
-  similarity: 0.656
-- slug: requirements-ambiguity
-  similarity: 0.628
+  similarity: 70%
+- slug: second-system-effect
+  similarity: 60%
+- slug: capacity-mismatch
+  similarity: 60%
 layout: problem
 ---
 

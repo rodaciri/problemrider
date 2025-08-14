@@ -7,16 +7,16 @@ category:
 - Business
 - Measurement
 related_problems:
-- slug: short-term-focus
-  similarity: 0.693
 - slug: invisible-nature-of-technical-debt
-  similarity: 0.662
-- slug: implementation-rework
-  similarity: 0.646
+  similarity: 65%
 - slug: modernization-roi-justification-failure
-  similarity: 0.62
-- slug: high-technical-debt
-  similarity: 0.597
+  similarity: 65%
+- slug: maintenance-paralysis
+  similarity: 55%
+- slug: short-term-focus
+  similarity: 55%
+- slug: complex-implementation-paths
+  similarity: 55%
 layout: problem
 ---
 

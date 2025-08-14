@@ -6,16 +6,16 @@ category:
 - Business
 - User Experience
 related_problems:
-- slug: difficult-developer-onboarding
-  similarity: 0.605
-- slug: high-turnover
-  similarity: 0.575
-- slug: poor-user-experience-ux-design
-  similarity: 0.543
-- slug: declining-business-metrics
-  similarity: 0.543
 - slug: inconsistent-onboarding-experience
-  similarity: 0.541
+  similarity: 70%
+- slug: poor-user-experience-ux-design
+  similarity: 65%
+- slug: negative-user-feedback
+  similarity: 60%
+- slug: user-confusion
+  similarity: 60%
+- slug: difficult-developer-onboarding
+  similarity: 60%
 layout: problem
 ---
 

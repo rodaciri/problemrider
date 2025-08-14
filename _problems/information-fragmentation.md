@@ -7,16 +7,16 @@ category:
 - Process
 - Communication
 related_problems:
-- slug: knowledge-sharing-breakdown
-  similarity: 0.64
-- slug: information-decay
-  similarity: 0.614
 - slug: knowledge-silos
-  similarity: 0.614
+  similarity: 70%
+- slug: knowledge-sharing-breakdown
+  similarity: 70%
 - slug: poor-documentation
-  similarity: 0.611
-- slug: legacy-system-documentation-archaeology
-  similarity: 0.601
+  similarity: 70%
+- slug: information-decay
+  similarity: 70%
+- slug: incomplete-knowledge
+  similarity: 65%
 layout: problem
 ---
 

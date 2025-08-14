@@ -8,15 +8,15 @@ category:
 - Resource Management
 related_problems:
 - slug: inefficient-processes
-  similarity: 0.692
-- slug: implementation-rework
-  similarity: 0.685
+  similarity: 70%
 - slug: incomplete-projects
-  similarity: 0.679
-- slug: poor-planning
-  similarity: 0.651
-- slug: development-disruption
-  similarity: 0.644
+  similarity: 65%
+- slug: resource-waste
+  similarity: 60%
+- slug: implementation-rework
+  similarity: 60%
+- slug: uneven-work-flow
+  similarity: 60%
 layout: problem
 ---
 

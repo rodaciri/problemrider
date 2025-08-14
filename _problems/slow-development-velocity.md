@@ -8,16 +8,16 @@ category:
 - Team Dynamics
 - Business
 related_problems:
-- slug: reduced-team-productivity
-  similarity: 0.8
 - slug: slow-feature-development
-  similarity: 0.776
-- slug: reduced-individual-productivity
-  similarity: 0.765
-- slug: time-pressure
-  similarity: 0.73
+  similarity: 80%
+- slug: reduced-team-productivity
+  similarity: 70%
 - slug: missed-deadlines
-  similarity: 0.713
+  similarity: 65%
+- slug: gradual-performance-degradation
+  similarity: 60%
+- slug: development-disruption
+  similarity: 60%
 layout: problem
 ---
 

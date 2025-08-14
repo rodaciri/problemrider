@@ -7,16 +7,16 @@ category:
 - Quality
 - Communication
 related_problems:
-- slug: review-bottlenecks
-  similarity: 0.775
 - slug: rushed-approvals
-  similarity: 0.77
+  similarity: 65%
+- slug: review-bottlenecks
+  similarity: 60%
+- slug: large-feature-scope
+  similarity: 60%
 - slug: reduced-code-submission-frequency
-  similarity: 0.652
-- slug: insufficient-code-review
-  similarity: 0.601
-- slug: review-process-breakdown
-  similarity: 0.588
+  similarity: 60%
+- slug: inadequate-code-reviews
+  similarity: 60%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Culture
 related_problems:
 - slug: knowledge-sharing-breakdown
-  similarity: 0.8
+  similarity: 80%
 - slug: team-silos
-  similarity: 0.777
+  similarity: 70%
+- slug: information-fragmentation
+  similarity: 70%
 - slug: knowledge-dependency
-  similarity: 0.706
-- slug: slow-knowledge-transfer
-  similarity: 0.673
-- slug: knowledge-gaps
-  similarity: 0.657
+  similarity: 70%
+- slug: tacit-knowledge
+  similarity: 70%
 layout: problem
 ---
 

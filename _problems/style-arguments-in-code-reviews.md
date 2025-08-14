@@ -6,16 +6,16 @@ category:
 - Process
 - Code Quality
 related_problems:
-- slug: code-review-inefficiency
-  similarity: 0.735
 - slug: superficial-code-reviews
-  similarity: 0.674
+  similarity: 65%
+- slug: mixed-coding-styles
+  similarity: 65%
 - slug: nitpicking-culture
-  similarity: 0.672
-- slug: inadequate-code-reviews
-  similarity: 0.658
-- slug: review-process-breakdown
-  similarity: 0.639
+  similarity: 65%
+- slug: undefined-code-style-guidelines
+  similarity: 60%
+- slug: code-review-inefficiency
+  similarity: 60%
 layout: problem
 ---
 

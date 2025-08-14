@@ -7,16 +7,16 @@ category:
 - Data Management
 - Maintenance
 related_problems:
-- slug: data-migration-integrity-issues
-  similarity: 0.659
 - slug: database-schema-design-problems
-  similarity: 0.64
+  similarity: 70%
+- slug: modernization-strategy-paralysis
+  similarity: 60%
+- slug: data-migration-integrity-issues
+  similarity: 60%
+- slug: maintenance-paralysis
+  similarity: 55%
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.593
-- slug: data-migration-complexities
-  similarity: 0.592
-- slug: stagnant-architecture
-  similarity: 0.59
+  similarity: 55%
 layout: problem
 ---
 

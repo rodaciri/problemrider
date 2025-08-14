@@ -8,15 +8,15 @@ category:
 - Productivity
 related_problems:
 - slug: avoidance-behaviors
-  similarity: 0.871
-- slug: reduced-individual-productivity
-  similarity: 0.726
-- slug: increased-manual-work
-  similarity: 0.695
-- slug: deadline-pressure
-  similarity: 0.671
+  similarity: 80%
+- slug: decision-avoidance
+  similarity: 60%
 - slug: cognitive-overload
-  similarity: 0.663
+  similarity: 60%
+- slug: accumulation-of-workarounds
+  similarity: 60%
+- slug: difficult-code-comprehension
+  similarity: 60%
 layout: problem
 ---
 

@@ -6,16 +6,16 @@ category:
 - Performance
 - Stability
 related_problems:
-- slug: high-connection-count
-  similarity: 0.795
-- slug: increased-error-rates
-  similarity: 0.744
+- slug: high-resource-utilization-on-client
+  similarity: 75%
+- slug: high-client-side-resource-consumption
+  similarity: 75%
 - slug: slow-database-queries
-  similarity: 0.741
-- slug: resource-contention
-  similarity: 0.734
+  similarity: 75%
 - slug: high-number-of-database-queries
-  similarity: 0.707
+  similarity: 70%
+- slug: high-connection-count
+  similarity: 70%
 layout: problem
 ---
 

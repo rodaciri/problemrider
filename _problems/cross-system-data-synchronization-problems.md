@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 0.735
-- slug: poor-interfaces-between-applications
-  similarity: 0.689
+  similarity: 75%
 - slug: data-migration-complexities
-  similarity: 0.655
+  similarity: 65%
 - slug: synchronization-problems
-  similarity: 0.607
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.586
+  similarity: 60%
+- slug: legacy-configuration-management-chaos
+  similarity: 60%
+- slug: modernization-strategy-paralysis
+  similarity: 55%
 layout: problem
 ---
 

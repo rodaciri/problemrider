@@ -7,16 +7,16 @@ category:
 - Performance
 - Architecture
 related_problems:
+- slug: interrupt-overhead
+  similarity: 55%
 - slug: service-discovery-failures
-  similarity: 0.616
-- slug: network-latency
-  similarity: 0.585
+  similarity: 50%
+- slug: endianness-conversion-overhead
+  similarity: 50%
+- slug: atomic-operation-overhead
+  similarity: 50%
 - slug: upstream-timeouts
-  similarity: 0.565
-- slug: high-api-latency
-  similarity: 0.56
-- slug: serialization-deserialization-bottlenecks
-  similarity: 0.553
+  similarity: 50%
 layout: problem
 ---
 

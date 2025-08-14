@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: inefficient-database-indexing
-  similarity: 0.682
+  similarity: 75%
 - slug: index-fragmentation
-  similarity: 0.675
-- slug: queries-that-prevent-index-usage
-  similarity: 0.675
+  similarity: 70%
 - slug: incorrect-index-type
-  similarity: 0.572
-- slug: unbounded-data-growth
-  similarity: 0.533
+  similarity: 70%
+- slug: queries-that-prevent-index-usage
+  similarity: 70%
+- slug: database-query-performance-issues
+  similarity: 65%
 layout: problem
 ---
 

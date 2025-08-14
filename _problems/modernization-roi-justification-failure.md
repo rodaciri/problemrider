@@ -8,15 +8,15 @@ category:
 - Financial
 related_problems:
 - slug: modernization-strategy-paralysis
-  similarity: 0.692
-- slug: high-maintenance-costs
-  similarity: 0.662
-- slug: invisible-nature-of-technical-debt
-  similarity: 0.622
+  similarity: 75%
 - slug: difficulty-quantifying-benefits
-  similarity: 0.62
-- slug: second-system-effect
-  similarity: 0.586
+  similarity: 65%
+- slug: high-maintenance-costs
+  similarity: 60%
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 60%
+- slug: obsolete-technologies
+  similarity: 60%
 layout: problem
 ---
 

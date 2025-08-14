@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Quality
 related_problems:
-- slug: flaky-tests
-  similarity: 0.618
 - slug: legacy-code-without-tests
-  similarity: 0.615
-- slug: testing-environment-fragility
-  similarity: 0.602
-- slug: poor-test-coverage
-  similarity: 0.555
+  similarity: 65%
 - slug: inadequate-test-data-management
-  similarity: 0.552
+  similarity: 65%
+- slug: flaky-tests
+  similarity: 60%
+- slug: testing-complexity
+  similarity: 60%
+- slug: obsolete-technologies
+  similarity: 55%
 layout: problem
 ---
 

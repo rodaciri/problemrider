@@ -6,8 +6,16 @@ category:
 - Code Quality
 - Process
 related_problems:
-- slug: uncontrolled-codebase-growth
-  similarity: 0.514
+- slug: cv-driven-development
+  similarity: 70%
+- slug: brittle-codebase
+  similarity: 60%
+- slug: difficult-code-comprehension
+  similarity: 55%
+- slug: feature-creep-without-refactoring
+  similarity: 55%
+- slug: assumption-based-development
+  similarity: 55%
 layout: problem
 ---
 

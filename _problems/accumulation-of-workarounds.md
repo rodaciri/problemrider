@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: workaround-culture
-  similarity: 0.798
+  similarity: 75%
 - slug: increased-technical-shortcuts
-  similarity: 0.677
-- slug: unpredictable-system-behavior
-  similarity: 0.661
-- slug: code-duplication
-  similarity: 0.637
-- slug: complex-implementation-paths
-  similarity: 0.634
+  similarity: 65%
+- slug: high-technical-debt
+  similarity: 65%
+- slug: maintenance-paralysis
+  similarity: 60%
+- slug: accumulated-decision-debt
+  similarity: 60%
 layout: problem
 ---
 

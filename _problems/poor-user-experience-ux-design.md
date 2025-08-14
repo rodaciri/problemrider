@@ -6,16 +6,16 @@ category:
 - Design
 - Business
 related_problems:
-- slug: user-frustration
-  similarity: 0.626
-- slug: reduced-feature-quality
-  similarity: 0.584
-- slug: inadequate-error-handling
-  similarity: 0.57
 - slug: inadequate-onboarding
-  similarity: 0.546
-- slug: customer-dissatisfaction
-  similarity: 0.543
+  similarity: 65%
+- slug: user-frustration
+  similarity: 65%
+- slug: user-confusion
+  similarity: 60%
+- slug: negative-user-feedback
+  similarity: 60%
+- slug: slow-application-performance
+  similarity: 60%
 layout: problem
 ---
 

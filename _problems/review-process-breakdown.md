@@ -7,16 +7,16 @@ category:
 - Quality
 - Team Dynamics
 related_problems:
-- slug: insufficient-code-review
-  similarity: 0.905
 - slug: inadequate-code-reviews
-  similarity: 0.874
-- slug: superficial-code-reviews
-  similarity: 0.752
+  similarity: 90%
+- slug: insufficient-code-review
+  similarity: 85%
 - slug: code-review-inefficiency
-  similarity: 0.747
-- slug: inadequate-initial-reviews
-  similarity: 0.729
+  similarity: 75%
+- slug: review-bottlenecks
+  similarity: 70%
+- slug: review-process-avoidance
+  similarity: 70%
 layout: problem
 ---
 

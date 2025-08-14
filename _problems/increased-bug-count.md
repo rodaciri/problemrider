@@ -7,16 +7,16 @@ category:
 - Maintenance
 - Process
 related_problems:
-- slug: increased-risk-of-bugs
-  similarity: 0.758
 - slug: high-bug-introduction-rate
-  similarity: 0.71
+  similarity: 75%
+- slug: increased-risk-of-bugs
+  similarity: 65%
 - slug: high-defect-rate-in-production
-  similarity: 0.709
-- slug: regression-bugs
-  similarity: 0.707
-- slug: release-instability
-  similarity: 0.692
+  similarity: 65%
+- slug: increased-error-rates
+  similarity: 60%
+- slug: increased-cost-of-development
+  similarity: 60%
 layout: problem
 ---
 

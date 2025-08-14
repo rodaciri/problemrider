@@ -7,15 +7,15 @@ category:
 - Maintenance
 related_problems:
 - slug: constant-firefighting
-  similarity: 0.757
-- slug: constantly-shifting-deadlines
-  similarity: 0.698
-- slug: reduced-team-flexibility
-  similarity: 0.665
-- slug: time-pressure
-  similarity: 0.663
-- slug: maintenance-paralysis
-  similarity: 0.661
+  similarity: 75%
+- slug: context-switching-overhead
+  similarity: 70%
+- slug: reduced-team-productivity
+  similarity: 70%
+- slug: inefficient-development-environment
+  similarity: 65%
+- slug: priority-thrashing
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Process
 related_problems:
 - slug: unrealistic-deadlines
-  similarity: 0.844
-- slug: reduced-predictability
-  similarity: 0.759
-- slug: planning-dysfunction
-  similarity: 0.754
-- slug: missed-deadlines
-  similarity: 0.748
+  similarity: 80%
 - slug: delayed-project-timelines
-  similarity: 0.718
+  similarity: 70%
+- slug: missed-deadlines
+  similarity: 65%
+- slug: poor-planning
+  similarity: 65%
+- slug: constantly-shifting-deadlines
+  similarity: 65%
 layout: problem
 ---
 

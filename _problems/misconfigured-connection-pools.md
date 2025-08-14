@@ -7,15 +7,15 @@ category:
 - Stability
 related_problems:
 - slug: incorrect-max-connection-pool-size
-  similarity: 0.919
-- slug: database-connection-leaks
-  similarity: 0.73
+  similarity: 85%
 - slug: high-connection-count
-  similarity: 0.693
+  similarity: 75%
+- slug: database-connection-leaks
+  similarity: 70%
 - slug: high-database-resource-utilization
-  similarity: 0.672
-- slug: service-timeouts
-  similarity: 0.652
+  similarity: 65%
+- slug: database-query-performance-issues
+  similarity: 60%
 layout: problem
 ---
 

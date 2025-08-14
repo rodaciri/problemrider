@@ -6,14 +6,16 @@ category:
 - Code Quality
 - Maintenance
 related_problems:
-- slug: inconsistent-codebase
-  similarity: 0.793
-- slug: undefined-code-style-guidelines
-  similarity: 0.741
 - slug: inconsistent-coding-standards
-  similarity: 0.669
+  similarity: 75%
+- slug: inconsistent-codebase
+  similarity: 75%
 - slug: inconsistent-naming-conventions
-  similarity: 0.553
+  similarity: 65%
+- slug: spaghetti-code
+  similarity: 65%
+- slug: undefined-code-style-guidelines
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Team Dynamics
 related_problems:
 - slug: inadequate-code-reviews
-  similarity: 0.803
-- slug: review-process-breakdown
-  similarity: 0.796
+  similarity: 80%
 - slug: insufficient-code-review
-  similarity: 0.78
-- slug: code-review-inefficiency
-  similarity: 0.724
+  similarity: 75%
+- slug: inadequate-initial-reviews
+  similarity: 75%
 - slug: nitpicking-culture
-  similarity: 0.719
+  similarity: 70%
+- slug: review-process-breakdown
+  similarity: 70%
 layout: problem
 ---
 

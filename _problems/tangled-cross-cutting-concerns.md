@@ -6,16 +6,16 @@ category:
 - Code Quality
 - Architecture
 related_problems:
-- slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.559
 - slug: spaghetti-code
-  similarity: 0.559
-- slug: system-integration-blindness
-  similarity: 0.532
+  similarity: 60%
+- slug: complex-and-obscure-logic
+  similarity: 60%
 - slug: tight-coupling-issues
-  similarity: 0.527
-- slug: inadequate-integration-tests
-  similarity: 0.512
+  similarity: 60%
+- slug: team-coordination-issues
+  similarity: 60%
+- slug: circular-dependency-problems
+  similarity: 55%
 layout: problem
 ---
 

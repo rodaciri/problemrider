@@ -6,16 +6,16 @@ category:
 - Testing
 - Quality
 related_problems:
+- slug: difficult-to-test-code
+  similarity: 70%
 - slug: insufficient-testing
-  similarity: 0.654
-- slug: high-defect-rate-in-production
-  similarity: 0.644
-- slug: testing-environment-fragility
-  similarity: 0.637
+  similarity: 65%
+- slug: complex-and-obscure-logic
+  similarity: 65%
+- slug: inconsistent-quality
+  similarity: 60%
 - slug: quality-blind-spots
-  similarity: 0.6
-- slug: increased-manual-testing-effort
-  similarity: 0.584
+  similarity: 60%
 layout: problem
 ---
 

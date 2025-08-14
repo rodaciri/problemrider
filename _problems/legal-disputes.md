@@ -7,10 +7,16 @@ category:
 - Risk Management
 - Vendor Relations
 related_problems:
+- slug: stakeholder-dissatisfaction
+  similarity: 55%
+- slug: budget-overruns
+  similarity: 55%
 - slug: vendor-relationship-strain
-  similarity: 0.704
+  similarity: 55%
 - slug: poor-contract-design
-  similarity: 0.54
+  similarity: 50%
+- slug: power-struggles
+  similarity: 50%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: inadequate-integration-tests
-  similarity: 0.784
+  similarity: 75%
 - slug: missing-end-to-end-tests
-  similarity: 0.735
+  similarity: 70%
 - slug: hidden-dependencies
-  similarity: 0.673
-- slug: unpredictable-system-behavior
-  similarity: 0.669
+  similarity: 65%
 - slug: poor-interfaces-between-applications
-  similarity: 0.66
+  similarity: 65%
+- slug: quality-blind-spots
+  similarity: 65%
 layout: problem
 ---
 

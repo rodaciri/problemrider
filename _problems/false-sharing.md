@@ -7,16 +7,16 @@ category:
 - Performance
 - Concurrency
 related_problems:
-- slug: atomic-operation-overhead
-  similarity: 0.697
-- slug: lock-contention
-  similarity: 0.643
 - slug: race-conditions
-  similarity: 0.626
+  similarity: 60%
 - slug: memory-barrier-inefficiency
-  similarity: 0.62
+  similarity: 55%
+- slug: atomic-operation-overhead
+  similarity: 55%
+- slug: lock-contention
+  similarity: 55%
 - slug: dma-coherency-issues
-  similarity: 0.538
+  similarity: 55%
 layout: problem
 ---
 

@@ -6,16 +6,16 @@ category:
 - Process
 - Maintenance
 related_problems:
-- slug: brittle-codebase
-  similarity: 0.755
 - slug: fear-of-change
-  similarity: 0.734
+  similarity: 60%
+- slug: brittle-codebase
+  similarity: 55%
+- slug: history-of-failed-changes
+  similarity: 55%
 - slug: slow-feature-development
-  similarity: 0.727
-- slug: resistance-to-change
-  similarity: 0.722
+  similarity: 55%
 - slug: increased-cost-of-development
-  similarity: 0.717
+  similarity: 55%
 layout: problem
 ---
 

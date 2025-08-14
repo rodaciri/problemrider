@@ -7,16 +7,16 @@ category:
 - Development Workflow
 - Team Dynamics
 related_problems:
-- slug: large-pull-requests
-  similarity: 0.737
-- slug: extended-review-cycles
-  similarity: 0.723
-- slug: review-bottlenecks
-  similarity: 0.711
-- slug: code-review-inefficiency
-  similarity: 0.686
 - slug: reduced-review-participation
-  similarity: 0.672
+  similarity: 65%
+- slug: inadequate-code-reviews
+  similarity: 60%
+- slug: review-bottlenecks
+  similarity: 60%
+- slug: large-pull-requests
+  similarity: 60%
+- slug: fear-of-change
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Process
 related_problems:
 - slug: high-maintenance-costs
-  similarity: 0.812
-- slug: maintenance-cost-increase
-  similarity: 0.808
-- slug: maintenance-bottlenecks
-  similarity: 0.786
-- slug: high-technical-debt
-  similarity: 0.737
+  similarity: 80%
 - slug: operational-overhead
-  similarity: 0.724
+  similarity: 70%
+- slug: maintenance-cost-increase
+  similarity: 70%
+- slug: maintenance-paralysis
+  similarity: 65%
+- slug: context-switching-overhead
+  similarity: 65%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: decision-avoidance
-  similarity: 0.78
+  similarity: 75%
 - slug: delayed-decision-making
-  similarity: 0.63
+  similarity: 70%
 - slug: high-technical-debt
-  similarity: 0.619
-- slug: invisible-nature-of-technical-debt
-  similarity: 0.577
-- slug: unrealistic-schedule
-  similarity: 0.564
+  similarity: 65%
+- slug: accumulation-of-workarounds
+  similarity: 60%
+- slug: decision-paralysis
+  similarity: 60%
 layout: problem
 ---
 

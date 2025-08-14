@@ -7,15 +7,13 @@ category:
 - Stability
 related_problems:
 - slug: growing-task-queues
-  similarity: 0.79
+  similarity: 85%
 - slug: insufficient-worker-capacity
-  similarity: 0.785
+  similarity: 80%
 - slug: work-queue-buildup
-  similarity: 0.637
-- slug: thread-pool-exhaustion
-  similarity: 0.558
-- slug: high-database-resource-utilization
-  similarity: 0.523
+  similarity: 70%
+- slug: maintenance-overhead
+  similarity: 50%
 layout: problem
 ---
 

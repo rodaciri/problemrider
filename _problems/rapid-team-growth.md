@@ -7,16 +7,16 @@ category:
 - Organizational Structure
 - Process
 related_problems:
-- slug: difficult-developer-onboarding
-  similarity: 0.617
+- slug: rapid-system-changes
+  similarity: 60%
+- slug: uncontrolled-codebase-growth
+  similarity: 60%
+- slug: slow-knowledge-transfer
+  similarity: 55%
 - slug: high-turnover
-  similarity: 0.582
-- slug: bottleneck-formation
-  similarity: 0.571
-- slug: time-pressure
-  similarity: 0.548
-- slug: increased-cognitive-load
-  similarity: 0.542
+  similarity: 55%
+- slug: constant-firefighting
+  similarity: 55%
 layout: problem
 ---
 

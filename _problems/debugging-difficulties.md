@@ -7,16 +7,16 @@ category:
 - Development Experience
 - Quality
 related_problems:
-- slug: tool-limitations
-  similarity: 0.719
-- slug: inefficient-development-environment
-  similarity: 0.686
-- slug: lower-code-quality
-  similarity: 0.679
-- slug: increased-risk-of-bugs
-  similarity: 0.677
 - slug: delayed-bug-fixes
-  similarity: 0.666
+  similarity: 65%
+- slug: difficult-to-understand-code
+  similarity: 60%
+- slug: delayed-issue-resolution
+  similarity: 60%
+- slug: difficult-code-comprehension
+  similarity: 60%
+- slug: partial-bug-fixes
+  similarity: 60%
 layout: problem
 ---
 

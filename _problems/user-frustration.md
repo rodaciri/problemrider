@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: customer-dissatisfaction
-  similarity: 0.869
-- slug: user-trust-erosion
-  similarity: 0.669
-- slug: negative-brand-perception
-  similarity: 0.639
-- slug: poor-user-experience-ux-design
-  similarity: 0.622
+  similarity: 75%
+- slug: user-confusion
+  similarity: 75%
+- slug: stakeholder-frustration
+  similarity: 65%
 - slug: negative-user-feedback
-  similarity: 0.618
+  similarity: 65%
+- slug: user-trust-erosion
+  similarity: 65%
 layout: problem
 ---
 

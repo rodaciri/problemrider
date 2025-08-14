@@ -8,15 +8,15 @@ category:
 - Design
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 0.863
-- slug: breaking-changes
-  similarity: 0.702
+  similarity: 80%
+- slug: obsolete-technologies
+  similarity: 60%
+- slug: legacy-configuration-management-chaos
+  similarity: 60%
 - slug: poor-interfaces-between-applications
-  similarity: 0.658
-- slug: rapid-system-changes
-  similarity: 0.625
-- slug: vendor-lock-in
-  similarity: 0.624
+  similarity: 60%
+- slug: integration-difficulties
+  similarity: 60%
 layout: problem
 ---
 

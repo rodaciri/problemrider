@@ -6,16 +6,16 @@ category:
 - Architecture
 - Deployment
 related_problems:
-- slug: deployment-coupling
-  similarity: 0.672
-- slug: dependency-version-conflicts
-  similarity: 0.671
 - slug: shared-database
-  similarity: 0.62
+  similarity: 75%
+- slug: deployment-coupling
+  similarity: 65%
+- slug: hidden-dependencies
+  similarity: 60%
+- slug: circular-dependency-problems
+  similarity: 60%
 - slug: tight-coupling-issues
-  similarity: 0.589
-- slug: api-versioning-conflicts
-  similarity: 0.552
+  similarity: 60%
 layout: problem
 ---
 

@@ -8,15 +8,15 @@ category:
 - Knowledge Management
 related_problems:
 - slug: knowledge-silos
-  similarity: 0.796
-- slug: team-silos
-  similarity: 0.708
-- slug: slow-knowledge-transfer
-  similarity: 0.69
+  similarity: 80%
 - slug: communication-breakdown
-  similarity: 0.674
-- slug: knowledge-gaps
-  similarity: 0.661
+  similarity: 75%
+- slug: unclear-sharing-expectations
+  similarity: 70%
+- slug: information-fragmentation
+  similarity: 70%
+- slug: poor-teamwork
+  similarity: 65%
 layout: problem
 ---
 

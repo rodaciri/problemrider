@@ -8,15 +8,15 @@ category:
 - Decision Making
 related_problems:
 - slug: lower-code-quality
-  similarity: 0.694
-- slug: deadline-pressure
-  similarity: 0.683
+  similarity: 65%
+- slug: reduced-feature-quality
+  similarity: 65%
+- slug: quality-degradation
+  similarity: 65%
+- slug: inconsistent-quality
+  similarity: 60%
 - slug: increased-technical-shortcuts
-  similarity: 0.658
-- slug: time-pressure
-  similarity: 0.649
-- slug: review-process-breakdown
-  similarity: 0.633
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,15 +7,15 @@ category:
 - Performance
 related_problems:
 - slug: tool-limitations
-  similarity: 0.805
+  similarity: 70%
+- slug: slow-feature-development
+  similarity: 65%
 - slug: inefficient-processes
-  similarity: 0.722
-- slug: slow-development-velocity
-  similarity: 0.694
-- slug: maintenance-bottlenecks
-  similarity: 0.688
-- slug: long-build-and-test-times
-  similarity: 0.677
+  similarity: 65%
+- slug: development-disruption
+  similarity: 65%
+- slug: poor-system-environment
+  similarity: 65%
 layout: problem
 ---
 

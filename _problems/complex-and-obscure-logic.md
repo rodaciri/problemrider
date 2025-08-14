@@ -6,16 +6,16 @@ category:
 - Maintenance
 - Quality
 related_problems:
-- slug: difficult-to-understand-code
-  similarity: 0.658
-- slug: clever-code
-  similarity: 0.618
 - slug: difficult-code-comprehension
-  similarity: 0.614
-- slug: insufficient-design-skills
-  similarity: 0.569
-- slug: brittle-codebase
-  similarity: 0.55
+  similarity: 75%
+- slug: spaghetti-code
+  similarity: 75%
+- slug: difficult-to-understand-code
+  similarity: 75%
+- slug: clever-code
+  similarity: 70%
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 65%
 layout: problem
 ---
 

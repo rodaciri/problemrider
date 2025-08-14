@@ -7,16 +7,16 @@ category:
 - Quality
 - Maintenance
 related_problems:
-- slug: brittle-codebase
-  similarity: 0.723
 - slug: inexperienced-developers
-  similarity: 0.719
-- slug: lower-code-quality
-  similarity: 0.662
-- slug: inability-to-innovate
-  similarity: 0.659
-- slug: tool-limitations
-  similarity: 0.644
+  similarity: 70%
+- slug: misunderstanding-of-oop
+  similarity: 70%
+- slug: inconsistent-codebase
+  similarity: 70%
+- slug: incomplete-knowledge
+  similarity: 65%
+- slug: difficult-code-reuse
+  similarity: 65%
 layout: problem
 ---
 

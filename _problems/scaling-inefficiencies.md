@@ -6,10 +6,16 @@ category:
 - Architecture
 - Scalability
 related_problems:
+- slug: maintenance-bottlenecks
+  similarity: 60%
 - slug: monolithic-architecture-constraints
-  similarity: 0.525
-- slug: shared-database
-  similarity: 0.5
+  similarity: 60%
+- slug: inconsistent-quality
+  similarity: 60%
+- slug: team-coordination-issues
+  similarity: 55%
+- slug: inefficient-code
+  similarity: 55%
 layout: problem
 ---
 

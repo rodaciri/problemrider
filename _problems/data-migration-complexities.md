@@ -8,15 +8,15 @@ category:
 - Integration
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 0.747
+  similarity: 70%
 - slug: cross-system-data-synchronization-problems
-  similarity: 0.655
-- slug: schema-evolution-paralysis
-  similarity: 0.592
-- slug: missing-rollback-strategy
-  similarity: 0.571
+  similarity: 65%
 - slug: deployment-risk
-  similarity: 0.567
+  similarity: 55%
+- slug: complex-deployment-process
+  similarity: 55%
+- slug: complex-and-obscure-logic
+  similarity: 55%
 layout: problem
 ---
 

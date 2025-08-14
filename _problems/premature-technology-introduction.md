@@ -7,16 +7,16 @@ category:
 - Process
 - Risk Management
 related_problems:
-- slug: reduced-innovation
-  similarity: 0.714
-- slug: cv-driven-development
-  similarity: 0.625
-- slug: inability-to-innovate
-  similarity: 0.6
-- slug: decision-avoidance
-  similarity: 0.598
-- slug: skill-development-gaps
-  similarity: 0.598
+- slug: increased-technical-shortcuts
+  similarity: 60%
+- slug: obsolete-technologies
+  similarity: 60%
+- slug: technology-lock-in
+  similarity: 55%
+- slug: cargo-culting
+  similarity: 55%
+- slug: technology-isolation
+  similarity: 55%
 layout: problem
 ---
 

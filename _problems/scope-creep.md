@@ -7,16 +7,16 @@ category:
 - Project Management
 - Requirements
 related_problems:
-- slug: no-formal-change-control-process
-  similarity: 0.795
 - slug: changing-project-scope
-  similarity: 0.761
-- slug: scope-change-resistance
-  similarity: 0.724
-- slug: frequent-changes-to-requirements
-  similarity: 0.716
+  similarity: 80%
+- slug: no-formal-change-control-process
+  similarity: 70%
 - slug: feature-creep
-  similarity: 0.686
+  similarity: 70%
+- slug: frequent-changes-to-requirements
+  similarity: 70%
+- slug: scope-change-resistance
+  similarity: 65%
 layout: problem
 ---
 

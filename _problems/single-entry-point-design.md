@@ -7,7 +7,15 @@ category:
 - Design
 related_problems:
 - slug: god-object-anti-pattern
-  similarity: 0.502
+  similarity: 60%
+- slug: monolithic-functions-and-classes
+  similarity: 55%
+- slug: maintenance-bottlenecks
+  similarity: 55%
+- slug: monolithic-architecture-constraints
+  similarity: 50%
+- slug: process-design-flaws
+  similarity: 50%
 layout: problem
 ---
 

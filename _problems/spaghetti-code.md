@@ -7,16 +7,16 @@ category:
 - Maintainability
 - Architecture
 related_problems:
-- slug: procedural-programming-in-oop-languages
-  similarity: 0.625
-- slug: global-state-and-side-effects
-  similarity: 0.605
-- slug: clever-code
-  similarity: 0.604
-- slug: difficult-to-understand-code
-  similarity: 0.577
-- slug: stack-overflow-errors
-  similarity: 0.548
+- slug: complex-and-obscure-logic
+  similarity: 75%
+- slug: brittle-codebase
+  similarity: 65%
+- slug: inconsistent-codebase
+  similarity: 65%
+- slug: difficult-code-comprehension
+  similarity: 65%
+- slug: mixed-coding-styles
+  similarity: 65%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Process
 - Technical
 related_problems:
-- slug: architectural-mismatch
-  similarity: 0.694
-- slug: stagnant-architecture
-  similarity: 0.687
-- slug: implementation-rework
-  similarity: 0.684
-- slug: complex-implementation-paths
-  similarity: 0.66
 - slug: modernization-strategy-paralysis
-  similarity: 0.623
+  similarity: 60%
+- slug: architectural-mismatch
+  similarity: 60%
+- slug: stagnant-architecture
+  similarity: 60%
+- slug: legacy-system-documentation-archaeology
+  similarity: 55%
+- slug: strangler-fig-pattern-failures
+  similarity: 55%
 layout: problem
 ---
 

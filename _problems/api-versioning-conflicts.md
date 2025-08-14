@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.805
-- slug: breaking-changes
-  similarity: 0.707
+  similarity: 80%
 - slug: dependency-version-conflicts
-  similarity: 0.694
+  similarity: 70%
 - slug: poor-interfaces-between-applications
-  similarity: 0.571
-- slug: rapid-system-changes
-  similarity: 0.533
+  similarity: 65%
+- slug: breaking-changes
+  similarity: 65%
+- slug: abi-compatibility-issues
+  similarity: 55%
 layout: problem
 ---
 

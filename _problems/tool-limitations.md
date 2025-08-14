@@ -8,15 +8,15 @@ category:
 - Tooling
 related_problems:
 - slug: inefficient-development-environment
-  similarity: 0.808
+  similarity: 70%
 - slug: inefficient-processes
-  similarity: 0.741
-- slug: increased-manual-work
-  similarity: 0.725
-- slug: debugging-difficulties
-  similarity: 0.719
+  similarity: 65%
 - slug: reduced-individual-productivity
-  similarity: 0.701
+  similarity: 65%
+- slug: bottleneck-formation
+  similarity: 60%
+- slug: context-switching-overhead
+  similarity: 60%
 layout: problem
 ---
 

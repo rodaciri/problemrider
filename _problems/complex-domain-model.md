@@ -8,15 +8,15 @@ category:
 - Architecture
 related_problems:
 - slug: poor-domain-model
-  similarity: 0.738
-- slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.693
+  similarity: 75%
 - slug: complex-implementation-paths
-  similarity: 0.6
-- slug: inadequate-requirements-gathering
-  similarity: 0.516
-- slug: knowledge-gaps
-  similarity: 0.507
+  similarity: 60%
+- slug: complex-and-obscure-logic
+  similarity: 60%
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 55%
+- slug: difficult-code-comprehension
+  similarity: 55%
 layout: problem
 ---
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple embeddings using sentence-transformers with all-MiniLM-L6-v2.
+Simple embeddings using sentence-transformers with Qwen3-Embedding-0.6B.
 Install dependencies: pip install -r scripts/requirements.txt
 """
 
@@ -39,8 +39,18 @@ class SimpleEmbeddingAnalyzer:
         self.problems: Dict[str, Dict] = {}
         self.embeddings: Dict[str, np.ndarray] = {}
         
-        print("Loading all-MiniLM-L6-v2 model...")
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        print("Loading Qwen3-Embedding-0.6B model...")
+        self.model = SentenceTransformer('Qwen/Qwen3-Embedding-0.6B')
+        
+        device = self.model.device
+        print(f"Using device: {device}")
+        if 'cuda' in str(device):
+            import torch
+            gpu_name = torch.cuda.get_device_name(device)
+            print(f"GPU: {gpu_name}")
+        else:
+            import platform
+            print(f"CPU: {platform.processor()}")
         
     def load_problems(self) -> None:
         """Load all problem files."""
@@ -96,7 +106,7 @@ class SimpleEmbeddingAnalyzer:
         return sections
     
     def create_embeddings(self) -> None:
-        """Create fresh embeddings using all-MiniLM-L6-v2."""
+        """Create fresh embeddings using Qwen3-Embedding-0.6B."""
         print("Creating fresh embeddings...")
         
         texts_to_encode = []
@@ -141,31 +151,21 @@ class SimpleEmbeddingAnalyzer:
         
         return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
     
-    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3, force_update: bool = False):
+    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3):
         """Update all files with new related problems."""
         print(f"\n{'[DRY RUN] ' if dry_run else ''}Updating files...")
         
         updates = 0
         for problem_key in self.problems.keys():
             related = self.find_related(problem_key, top_k=5, min_similarity=min_similarity)
-            # Create list of objects with slug and similarity
-            new_related = [{"slug": key, "similarity": round(score, 3)} for key, score in related]
+            # Create list of objects with slug and similarity (as percentages)
+            new_related = [{"slug": key, "similarity": f"{round(score * 100 / 5) * 5}%"} for key, score in related]
             
-            old_related = self.problems[problem_key]['current_related_problems']
-            
-            # Compare only slugs for change detection, but force update if requested
-            old_slugs = [item["slug"] if isinstance(item, dict) else item for item in (old_related or [])]
-            new_slugs = [item["slug"] for item in new_related]
-            
-            # Check if old format (simple strings) vs new format (dict with slug/similarity)
-            needs_format_update = old_related and len(old_related) > 0 and not isinstance(old_related[0], dict)
-            
-            if new_related and (force_update or needs_format_update or set(new_slugs) != set(old_slugs)):
+            if new_related:
                 updates += 1
                 # Show all updates with actual related problems
-                related_with_scores = [f"{key} ({score:.3f})" for key, score in related]
+                related_with_scores = [f"{key} ({round(score * 100 / 5) * 5}%)" for key, score in related]
                 print(f"{problem_key}:")
-                print(f"  Old: {old_related}")
                 print(f"  New: {related_with_scores}")
                 print()
                 
@@ -193,7 +193,7 @@ class SimpleEmbeddingAnalyzer:
                 f.write(new_content)
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate related problems using all-MiniLM-L6-v2")
+    parser = argparse.ArgumentParser(description="Generate related problems using Qwen3-Embedding-0.6B")
     parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
     args = parser.parse_args()
     
@@ -201,7 +201,7 @@ def main():
     analyzer.load_problems()
     analyzer.create_embeddings()
 
-    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY, force_update=False)
+    analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY)
 
 if __name__ == "__main__":
     main()

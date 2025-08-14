@@ -8,15 +8,15 @@ category:
 - Quality
 related_problems:
 - slug: slow-development-velocity
-  similarity: 0.781
-- slug: large-estimates-for-small-changes
-  similarity: 0.726
+  similarity: 80%
+- slug: inefficient-development-environment
+  similarity: 65%
 - slug: delayed-value-delivery
-  similarity: 0.711
-- slug: difficult-developer-onboarding
-  similarity: 0.685
-- slug: constantly-shifting-deadlines
-  similarity: 0.678
+  similarity: 65%
+- slug: large-feature-scope
+  similarity: 65%
+- slug: slow-application-performance
+  similarity: 65%
 layout: problem
 ---
 

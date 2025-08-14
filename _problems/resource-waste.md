@@ -7,16 +7,16 @@ category:
 - Efficiency
 - Process
 related_problems:
-- slug: capacity-mismatch
-  similarity: 0.661
-- slug: operational-overhead
-  similarity: 0.611
-- slug: uneven-workload-distribution
-  similarity: 0.609
+- slug: unreleased-resources
+  similarity: 65%
+- slug: wasted-development-effort
+  similarity: 60%
 - slug: project-resource-constraints
-  similarity: 0.589
-- slug: maintenance-overhead
-  similarity: 0.572
+  similarity: 60%
+- slug: capacity-mismatch
+  similarity: 60%
+- slug: resource-allocation-failures
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Design
 - Requirements
 related_problems:
-- slug: increased-technical-shortcuts
-  similarity: 0.557
-- slug: tool-limitations
-  similarity: 0.542
-- slug: workaround-culture
-  similarity: 0.54
-- slug: inefficient-processes
-  similarity: 0.523
-- slug: accumulation-of-workarounds
-  similarity: 0.516
+- slug: poor-user-experience-ux-design
+  similarity: 55%
+- slug: process-design-flaws
+  similarity: 55%
+- slug: reduced-feature-quality
+  similarity: 55%
+- slug: inefficient-code
+  similarity: 55%
+- slug: quality-compromises
+  similarity: 55%
 layout: problem
 ---
 

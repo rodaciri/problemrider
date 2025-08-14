@@ -7,16 +7,16 @@ category:
 - Organizational
 - Strategic
 related_problems:
-- slug: difficulty-quantifying-benefits
-  similarity: 0.693
-- slug: high-technical-debt
-  similarity: 0.645
-- slug: quality-compromises
-  similarity: 0.628
-- slug: reduced-feature-quality
-  similarity: 0.612
 - slug: increased-technical-shortcuts
-  similarity: 0.609
+  similarity: 65%
+- slug: high-technical-debt
+  similarity: 60%
+- slug: quality-compromises
+  similarity: 55%
+- slug: maintenance-paralysis
+  similarity: 55%
+- slug: difficulty-quantifying-benefits
+  similarity: 55%
 layout: problem
 ---
 

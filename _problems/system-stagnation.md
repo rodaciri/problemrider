@@ -8,15 +8,15 @@ category:
 - Business
 related_problems:
 - slug: stagnant-architecture
-  similarity: 0.8
-- slug: architectural-mismatch
-  similarity: 0.62
+  similarity: 75%
+- slug: resistance-to-change
+  similarity: 70%
+- slug: quality-degradation
+  similarity: 65%
 - slug: obsolete-technologies
-  similarity: 0.615
-- slug: technical-architecture-limitations
-  similarity: 0.612
-- slug: technology-isolation
-  similarity: 0.611
+  similarity: 60%
+- slug: technology-lock-in
+  similarity: 60%
 layout: problem
 ---
 

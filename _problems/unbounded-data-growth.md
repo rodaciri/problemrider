@@ -8,15 +8,15 @@ category:
 - Maintenance
 related_problems:
 - slug: unbounded-data-structures
-  similarity: 0.837
+  similarity: 80%
 - slug: unreleased-resources
-  similarity: 0.676
-- slug: gradual-performance-degradation
-  similarity: 0.647
+  similarity: 60%
+- slug: uncontrolled-codebase-growth
+  similarity: 60%
 - slug: algorithmic-complexity-problems
-  similarity: 0.617
-- slug: resource-allocation-failures
-  similarity: 0.6
+  similarity: 55%
+- slug: memory-leaks
+  similarity: 55%
 layout: problem
 ---
 

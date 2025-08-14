@@ -7,16 +7,16 @@ category:
 - Strategic
 - Quality
 related_problems:
-- slug: increased-time-to-market
-  similarity: 0.682
-- slug: customer-dissatisfaction
-  similarity: 0.652
-- slug: negative-brand-perception
-  similarity: 0.62
 - slug: user-frustration
-  similarity: 0.617
+  similarity: 55%
+- slug: customer-dissatisfaction
+  similarity: 55%
 - slug: delayed-value-delivery
-  similarity: 0.597
+  similarity: 55%
+- slug: increased-time-to-market
+  similarity: 55%
+- slug: negative-brand-perception
+  similarity: 55%
 layout: problem
 ---
 

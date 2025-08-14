@@ -5,16 +5,16 @@ description: The database server runs out of physical memory and starts using di
 category:
 - Performance
 related_problems:
-- slug: resource-contention
-  similarity: 0.772
 - slug: virtual-memory-thrashing
-  similarity: 0.656
-- slug: high-database-resource-utilization
-  similarity: 0.655
+  similarity: 70%
 - slug: excessive-disk-io
-  similarity: 0.605
-- slug: slow-database-queries
-  similarity: 0.602
+  similarity: 70%
+- slug: high-database-resource-utilization
+  similarity: 65%
+- slug: resource-contention
+  similarity: 65%
+- slug: slow-application-performance
+  similarity: 60%
 layout: problem
 ---
 

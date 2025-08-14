@@ -7,16 +7,16 @@ category:
 - Governance
 - Risk Management
 related_problems:
-- slug: workaround-culture
-  similarity: 0.578
-- slug: manual-deployment-processes
-  similarity: 0.522
-- slug: inadequate-configuration-management
-  similarity: 0.522
-- slug: knowledge-gaps
-  similarity: 0.506
-- slug: system-integration-blindness
-  similarity: 0.505
+- slug: hidden-dependencies
+  similarity: 60%
+- slug: poor-documentation
+  similarity: 55%
+- slug: implicit-knowledge
+  similarity: 55%
+- slug: technology-stack-fragmentation
+  similarity: 55%
+- slug: obsolete-technologies
+  similarity: 55%
 layout: problem
 ---
 

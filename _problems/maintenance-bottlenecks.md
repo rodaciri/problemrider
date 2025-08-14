@@ -7,16 +7,16 @@ category:
 - Process
 - Maintenance
 related_problems:
-- slug: maintenance-overhead
-  similarity: 0.786
-- slug: maintenance-cost-increase
-  similarity: 0.696
-- slug: high-maintenance-costs
-  similarity: 0.691
-- slug: tool-limitations
-  similarity: 0.688
-- slug: inefficient-development-environment
-  similarity: 0.688
+- slug: bottleneck-formation
+  similarity: 75%
+- slug: maintenance-paralysis
+  similarity: 70%
+- slug: legacy-skill-shortage
+  similarity: 65%
+- slug: single-points-of-failure
+  similarity: 65%
+- slug: review-bottlenecks
+  similarity: 65%
 layout: problem
 ---
 

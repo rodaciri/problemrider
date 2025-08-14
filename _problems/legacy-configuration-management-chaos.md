@@ -7,16 +7,16 @@ category:
 - Process
 - Operational
 related_problems:
-- slug: inadequate-configuration-management
-  similarity: 0.74
-- slug: configuration-drift
-  similarity: 0.693
 - slug: configuration-chaos
-  similarity: 0.688
-- slug: deployment-environment-inconsistencies
-  similarity: 0.62
-- slug: poor-system-environment
-  similarity: 0.597
+  similarity: 70%
+- slug: inadequate-configuration-management
+  similarity: 65%
+- slug: legacy-system-documentation-archaeology
+  similarity: 65%
+- slug: configuration-drift
+  similarity: 60%
+- slug: legacy-api-versioning-nightmare
+  similarity: 60%
 layout: problem
 ---
 

@@ -7,16 +7,16 @@ category:
 - Code Quality
 - Maintenance
 related_problems:
-- slug: high-coupling-low-cohesion
-  similarity: 0.712
-- slug: unpredictable-system-behavior
-  similarity: 0.675
-- slug: inadequate-integration-tests
-  similarity: 0.649
 - slug: ripple-effect-of-changes
-  similarity: 0.638
+  similarity: 70%
 - slug: deployment-coupling
-  similarity: 0.628
+  similarity: 70%
+- slug: circular-dependency-problems
+  similarity: 70%
+- slug: high-coupling-low-cohesion
+  similarity: 65%
+- slug: hidden-dependencies
+  similarity: 65%
 layout: problem
 ---
 

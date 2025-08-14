@@ -6,16 +6,16 @@ category:
 - Quality
 - User Experience
 related_problems:
-- slug: inconsistent-execution
-  similarity: 0.799
-- slug: inconsistent-quality
-  similarity: 0.674
 - slug: user-confusion
-  similarity: 0.673
+  similarity: 75%
+- slug: inconsistent-execution
+  similarity: 75%
+- slug: inconsistent-quality
+  similarity: 65%
 - slug: unpredictable-system-behavior
-  similarity: 0.631
-- slug: change-management-chaos
-  similarity: 0.611
+  similarity: 65%
+- slug: deployment-environment-inconsistencies
+  similarity: 65%
 layout: problem
 ---
 

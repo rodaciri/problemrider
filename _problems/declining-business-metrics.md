@@ -7,16 +7,16 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: negative-user-feedback
-  similarity: 0.63
-- slug: user-trust-erosion
-  similarity: 0.622
 - slug: stakeholder-dissatisfaction
-  similarity: 0.579
-- slug: modernization-roi-justification-failure
-  similarity: 0.572
-- slug: competitive-disadvantage
-  similarity: 0.569
+  similarity: 65%
+- slug: stakeholder-confidence-loss
+  similarity: 65%
+- slug: stakeholder-frustration
+  similarity: 60%
+- slug: user-frustration
+  similarity: 55%
+- slug: negative-user-feedback
+  similarity: 55%
 layout: problem
 ---
 

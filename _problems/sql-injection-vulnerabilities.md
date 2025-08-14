@@ -7,12 +7,12 @@ category:
 - Database
 - Input Validation
 related_problems:
-- slug: log-injection-vulnerabilities
-  similarity: 0.678
 - slug: cross-site-scripting-vulnerabilities
-  similarity: 0.568
-- slug: authentication-bypass-vulnerabilities
-  similarity: 0.54
+  similarity: 65%
+- slug: log-injection-vulnerabilities
+  similarity: 65%
+- slug: buffer-overflow-vulnerabilities
+  similarity: 55%
 layout: problem
 ---
 

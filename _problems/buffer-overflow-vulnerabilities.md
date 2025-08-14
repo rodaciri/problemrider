@@ -6,16 +6,16 @@ category:
 - Security
 - Technical
 related_problems:
-- slug: stack-overflow-errors
-  similarity: 0.763
+- slug: cross-site-scripting-vulnerabilities
+  similarity: 55%
 - slug: null-pointer-dereferences
-  similarity: 0.704
-- slug: integer-overflow-underflow
-  similarity: 0.645
-- slug: error-message-information-disclosure
-  similarity: 0.591
-- slug: excessive-object-allocation
-  similarity: 0.59
+  similarity: 55%
+- slug: sql-injection-vulnerabilities
+  similarity: 55%
+- slug: authentication-bypass-vulnerabilities
+  similarity: 50%
+- slug: log-injection-vulnerabilities
+  similarity: 50%
 layout: problem
 ---
 

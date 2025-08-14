@@ -6,16 +6,16 @@ category:
 - Performance
 - Stability
 related_problems:
+- slug: memory-fragmentation
+  similarity: 65%
+- slug: high-client-side-resource-consumption
+  similarity: 65%
 - slug: unreleased-resources
-  similarity: 0.698
+  similarity: 60%
 - slug: gradual-performance-degradation
-  similarity: 0.69
-- slug: resource-contention
-  similarity: 0.617
-- slug: excessive-object-allocation
-  similarity: 0.616
+  similarity: 60%
 - slug: resource-allocation-failures
-  similarity: 0.615
+  similarity: 60%
 layout: problem
 ---
 

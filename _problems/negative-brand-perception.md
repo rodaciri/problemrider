@@ -7,16 +7,16 @@ category:
 - Communication
 - Quality
 related_problems:
-- slug: customer-dissatisfaction
-  similarity: 0.648
-- slug: negative-user-feedback
-  similarity: 0.597
 - slug: user-frustration
-  similarity: 0.572
-- slug: user-trust-erosion
-  similarity: 0.571
+  similarity: 60%
+- slug: negative-user-feedback
+  similarity: 60%
 - slug: competitive-disadvantage
-  similarity: 0.558
+  similarity: 55%
+- slug: customer-dissatisfaction
+  similarity: 55%
+- slug: poor-user-experience-ux-design
+  similarity: 50%
 layout: problem
 ---
 

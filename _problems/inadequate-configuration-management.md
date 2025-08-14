@@ -7,16 +7,16 @@ category:
 - Technical
 - Maintenance
 related_problems:
-- slug: configuration-drift
-  similarity: 0.783
-- slug: legacy-configuration-management-chaos
-  similarity: 0.74
-- slug: deployment-environment-inconsistencies
-  similarity: 0.693
 - slug: configuration-chaos
-  similarity: 0.685
-- slug: manual-deployment-processes
-  similarity: 0.662
+  similarity: 75%
+- slug: configuration-drift
+  similarity: 70%
+- slug: legacy-configuration-management-chaos
+  similarity: 65%
+- slug: change-management-chaos
+  similarity: 65%
+- slug: poor-system-environment
+  similarity: 55%
 layout: problem
 ---
 

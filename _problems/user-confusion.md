@@ -1,8 +1,18 @@
 ---
-title: "User Confusion"
-description: "End users encounter different behavior for what should be identical operations, leading to frustration and a loss of trust in the system."
-category: ['User Experience']
-related_problems: ['inconsistent-behavior', 'synchronization-problems', 'negative-user-feedback']
+title: User Confusion
+description: End users encounter different behavior for what should be identical operations,
+  leading to frustration and a loss of trust in the system.
+category:
+- User Experience
+related_problems:
+- slug: inconsistent-behavior
+  similarity: 0.6
+- slug: user-frustration
+  similarity: 0.584
+- slug: incomplete-knowledge
+  similarity: 0.538
+- slug: customer-dissatisfaction
+  similarity: 0.532
 layout: problem
 ---
 

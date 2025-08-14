@@ -1,8 +1,22 @@
 ---
-title: "Increased Cognitive Load"
-description: "Developers must expend excessive mental energy to understand and work with inconsistent, complex, or poorly structured code."
-category: ['Process', 'Maintenance', 'Quality']
-related_problems: ['inconsistent-codebase', 'complex-and-obscure-logic', 'developer-frustration-and-burnout']
+title: Increased Cognitive Load
+description: Developers must expend excessive mental energy to understand and work
+  with inconsistent, complex, or poorly structured code.
+category:
+- Process
+- Maintenance
+- Quality
+related_problems:
+- slug: cognitive-overload
+  similarity: 0.701
+- slug: inexperienced-developers
+  similarity: 0.685
+- slug: difficult-developer-onboarding
+  similarity: 0.656
+- slug: code-review-inefficiency
+  similarity: 0.649
+- slug: reviewer-inexperience
+  similarity: 0.648
 layout: problem
 ---
 

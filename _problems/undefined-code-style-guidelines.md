@@ -1,8 +1,21 @@
 ---
-title: "Undefined Code Style Guidelines"
-description: "The team lacks clear, agreed-upon coding standards, resulting in subjective stylistic feedback and inconsistent code."
-category: ['Process', 'Maintenance']
-related_problems: ['inconsistent-codebase', 'superficial-code-reviews', 'inconsistent-coding-standards']
+title: Undefined Code Style Guidelines
+description: The team lacks clear, agreed-upon coding standards, resulting in subjective
+  stylistic feedback and inconsistent code.
+category:
+- Process
+- Maintenance
+related_problems:
+- slug: inconsistent-codebase
+  similarity: 0.827
+- slug: mixed-coding-styles
+  similarity: 0.741
+- slug: inconsistent-coding-standards
+  similarity: 0.593
+- slug: style-arguments-in-code-reviews
+  similarity: 0.589
+- slug: inconsistent-naming-conventions
+  similarity: 0.567
 layout: problem
 ---
 

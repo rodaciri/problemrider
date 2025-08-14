@@ -1,8 +1,22 @@
 ---
-title: "Implementation Starts Without Design"
-description: "Development begins with unclear structure, leading to disorganized code and architectural drift"
-category: ['Process', 'Design', 'Technical']
-related_problems: [high-technical-debt, architectural-drift, poor-domain-model]
+title: Implementation Starts Without Design
+description: Development begins with unclear structure, leading to disorganized code
+  and architectural drift
+category:
+- Process
+- Design
+- Technical
+related_problems:
+- slug: stagnant-architecture
+  similarity: 0.547
+- slug: inadequate-requirements-gathering
+  similarity: 0.531
+- slug: complex-implementation-paths
+  similarity: 0.516
+- slug: analysis-paralysis
+  similarity: 0.512
+- slug: rapid-system-changes
+  similarity: 0.503
 layout: problem
 ---
 

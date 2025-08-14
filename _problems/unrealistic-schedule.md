@@ -1,8 +1,22 @@
 ---
-title: "Unrealistic Schedule"
-description: "Project timelines are based on optimistic assumptions rather than realistic estimates, leading to stress and shortcuts."
-category: ['Planning', 'Management', 'Process']
-related_problems: ['time-pressure', 'missed-deadlines', 'increased-technical-shortcuts']
+title: Unrealistic Schedule
+description: Project timelines are based on optimistic assumptions rather than realistic
+  estimates, leading to stress and shortcuts.
+category:
+- Planning
+- Management
+- Process
+related_problems:
+- slug: unrealistic-deadlines
+  similarity: 0.771
+- slug: reduced-predictability
+  similarity: 0.725
+- slug: delayed-project-timelines
+  similarity: 0.721
+- slug: planning-credibility-issues
+  similarity: 0.683
+- slug: missed-deadlines
+  similarity: 0.679
 layout: problem
 ---
 

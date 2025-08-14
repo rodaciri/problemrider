@@ -1,8 +1,22 @@
 ---
-title: "High Turnover"
-description: "New developers become frustrated and leave the team due to poor onboarding and system complexity."
-category: ['Process', 'Communication', 'Business']
-related_problems: ['difficult-developer-onboarding', 'developer-frustration-and-burnout', 'team-churn-impact']
+title: High Turnover
+description: New developers become frustrated and leave the team due to poor onboarding
+  and system complexity.
+category:
+- Process
+- Communication
+- Business
+related_problems:
+- slug: new-hire-frustration
+  similarity: 0.719
+- slug: developer-frustration-and-burnout
+  similarity: 0.675
+- slug: difficult-developer-onboarding
+  similarity: 0.672
+- slug: insufficient-design-skills
+  similarity: 0.604
+- slug: team-churn-impact
+  similarity: 0.604
 layout: problem
 ---
 

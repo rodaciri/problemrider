@@ -1,8 +1,23 @@
 ---
-title: "Technical Architecture Limitations"
-description: "System architecture design creates constraints that limit performance, scalability, maintainability, or development velocity."
-category: ['Technical', 'Architecture', 'Technical Debt', 'Performance']
-related_problems: ['monolithic-architecture-constraints', 'tight-coupling-issues', 'bottleneck-formation']
+title: Technical Architecture Limitations
+description: System architecture design creates constraints that limit performance,
+  scalability, maintainability, or development velocity.
+category:
+- Technical
+- Architecture
+- Technical Debt
+- Performance
+related_problems:
+- slug: stagnant-architecture
+  similarity: 0.64
+- slug: architectural-mismatch
+  similarity: 0.639
+- slug: system-stagnation
+  similarity: 0.579
+- slug: second-system-effect
+  similarity: 0.562
+- slug: rapid-system-changes
+  similarity: 0.531
 layout: problem
 ---
 

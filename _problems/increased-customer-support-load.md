@@ -1,8 +1,18 @@
 ---
-title: "Increased Customer Support Load"
-description: "Users contact support more frequently due to frustration or inability to complete tasks."
-category: ['Business', 'Process', 'Quality']
-related_problems: ['business-level-impact', 'poor-user-experience-ux-design', 'high-defect-rate-in-production']
+title: Increased Customer Support Load
+description: Users contact support more frequently due to frustration or inability
+  to complete tasks.
+category:
+- Business
+- Process
+- Quality
+related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.701
+- slug: maintenance-cost-increase
+  similarity: 0.59
+- slug: user-frustration
+  similarity: 0.503
 layout: problem
 ---
 

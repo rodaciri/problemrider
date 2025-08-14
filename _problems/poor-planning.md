@@ -1,8 +1,22 @@
 ---
-title: "Poor Planning"
-description: "Teams do not have clear plans or realistic estimates of the work involved, leading to project delays and resource allocation problems."
-category: ['Process', 'Project Management', 'Organizational']
-related_problems: ['missed-deadlines', 'unrealistic-deadlines', 'unclear-goals-and-priorities']
+title: Poor Planning
+description: Teams do not have clear plans or realistic estimates of the work involved,
+  leading to project delays and resource allocation problems.
+category:
+- Process
+- Project Management
+- Organizational
+related_problems:
+- slug: planning-dysfunction
+  similarity: 0.795
+- slug: reduced-predictability
+  similarity: 0.7
+- slug: planning-credibility-issues
+  similarity: 0.698
+- slug: project-resource-constraints
+  similarity: 0.694
+- slug: unrealistic-schedule
+  similarity: 0.65
 layout: problem
 ---
 

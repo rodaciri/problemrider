@@ -1,8 +1,20 @@
 ---
-title: "Rapid Prototyping Becoming Production"
-description: "Code written quickly for prototypes or proof-of-concepts ends up in production systems without proper engineering practices."
-category: ['Code Quality', 'Process', 'Architecture']
-related_problems: ['spaghetti-code', 'high-technical-debt', 'inadequate-testing']
+title: Rapid Prototyping Becoming Production
+description: Code written quickly for prototypes or proof-of-concepts ends up in production
+  systems without proper engineering practices.
+category:
+- Code Quality
+- Process
+- Architecture
+related_problems:
+- slug: tool-limitations
+  similarity: 0.556
+- slug: legacy-code-without-tests
+  similarity: 0.523
+- slug: increased-technical-shortcuts
+  similarity: 0.516
+- slug: quality-blind-spots
+  similarity: 0.5
 layout: problem
 ---
 

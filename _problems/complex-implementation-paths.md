@@ -1,8 +1,22 @@
 ---
-title: "Complex Implementation Paths"
-description: "Simple business requirements require complex technical solutions due to architectural constraints or design limitations."
-category: ['Technical', 'Design', 'Process']
-related_problems: ['architectural-mismatch', 'stagnant-architecture', 'high-coupling-low-cohesion']
+title: Complex Implementation Paths
+description: Simple business requirements require complex technical solutions due
+  to architectural constraints or design limitations.
+category:
+- Technical
+- Design
+- Process
+related_problems:
+- slug: inadequate-requirements-gathering
+  similarity: 0.626
+- slug: architectural-mismatch
+  similarity: 0.62
+- slug: implementation-rework
+  similarity: 0.614
+- slug: large-feature-scope
+  similarity: 0.586
+- slug: requirements-ambiguity
+  similarity: 0.581
 layout: problem
 ---
 

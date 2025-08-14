@@ -24,12 +24,22 @@ layout: default
     <h2>Related Problems</h2>
     <ul class="related-problems-list">
       {% for related in page.related_problems %}
-        {% assign related_problem = site.problems | where: "slug", related | first %}
+        {% if related.slug %}
+          {% assign related_slug = related.slug %}
+          {% assign similarity_score = related.similarity %}
+        {% else %}
+          {% assign related_slug = related %}
+          {% assign similarity_score = nil %}
+        {% endif %}
+        {% assign related_problem = site.problems | where: "slug", related_slug | first %}
         {% if related_problem %}
           <li>
             <a href="{{ related_problem.url | relative_url }}">
               {{ related_problem.title }}
             </a>
+            {% if similarity_score %}
+              <span class="similarity-score">({{ similarity_score }})</span>
+            {% endif %}
             {% if related_problem.description %}
               <p class="related-description">{{ related_problem.description }}</p>
             {% endif %}

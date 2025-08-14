@@ -1,8 +1,22 @@
 ---
-title: "Market Pressure"
-description: "External competitive forces or market conditions drive rushed decisions, scope changes, and unrealistic expectations."
-category: ['Business', 'External Factors', 'Strategy']
-related_problems: ['changing-project-scope', 'time-pressure', 'unrealistic-schedule']
+title: Market Pressure
+description: External competitive forces or market conditions drive rushed decisions,
+  scope changes, and unrealistic expectations.
+category:
+- Business
+- External Factors
+- Strategy
+related_problems:
+- slug: increased-time-to-market
+  similarity: 0.544
+- slug: deadline-pressure
+  similarity: 0.534
+- slug: dependency-on-supplier
+  similarity: 0.532
+- slug: product-direction-chaos
+  similarity: 0.53
+- slug: delayed-decision-making
+  similarity: 0.52
 layout: problem
 ---
 

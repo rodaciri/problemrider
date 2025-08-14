@@ -1,8 +1,20 @@
 ---
-title: "Schema Evolution Paralysis"
-description: "Database schema cannot be modified to support new requirements due to extensive dependencies and lack of migration tooling"
-category: ['Technical', 'Data Management', 'Maintenance']
-related_problems: [fear-of-change, stagnant-architecture, data-migration-integrity-issues]
+title: Schema Evolution Paralysis
+description: Database schema cannot be modified to support new requirements due to
+  extensive dependencies and lack of migration tooling
+category:
+- Technical
+- Data Management
+- Maintenance
+related_problems:
+- slug: data-migration-integrity-issues
+  similarity: 0.588
+- slug: architectural-mismatch
+  similarity: 0.543
+- slug: database-schema-design-problems
+  similarity: 0.54
+- slug: implementation-rework
+  similarity: 0.512
 layout: problem
 ---
 

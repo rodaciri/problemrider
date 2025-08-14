@@ -1,8 +1,22 @@
 ---
-title: "Technology Isolation"
-description: "The system becomes increasingly isolated from modern technology stacks, limiting ability to attract talent and leverage new capabilities."
-category: ['Technical', 'Strategic', 'Organizational']
-related_problems: ['stagnant-architecture', 'obsolete-technologies', 'high-turnover']
+title: Technology Isolation
+description: The system becomes increasingly isolated from modern technology stacks,
+  limiting ability to attract talent and leverage new capabilities.
+category:
+- Technical
+- Strategic
+- Organizational
+related_problems:
+- slug: technology-stack-fragmentation
+  similarity: 0.658
+- slug: obsolete-technologies
+  similarity: 0.594
+- slug: system-stagnation
+  similarity: 0.588
+- slug: vendor-lock-in
+  similarity: 0.553
+- slug: technology-lock-in
+  similarity: 0.551
 layout: problem
 ---
 

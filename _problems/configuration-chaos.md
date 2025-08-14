@@ -1,8 +1,22 @@
 ---
-title: "Configuration Chaos"
-description: "System configurations are inconsistent, difficult to manage, and prone to drift, causing unpredictable behavior across environments."
-category: ['Configuration', 'Operations', 'Process']
-related_problems: ['configuration-drift', 'deployment-environment-inconsistencies', 'environment-variable-issues']
+title: Configuration Chaos
+description: System configurations are inconsistent, difficult to manage, and prone
+  to drift, causing unpredictable behavior across environments.
+category:
+- Configuration
+- Operations
+- Process
+related_problems:
+- slug: configuration-drift
+  similarity: 0.806
+- slug: inadequate-configuration-management
+  similarity: 0.722
+- slug: legacy-configuration-management-chaos
+  similarity: 0.705
+- slug: deployment-environment-inconsistencies
+  similarity: 0.698
+- slug: change-management-chaos
+  similarity: 0.657
 layout: problem
 ---
 

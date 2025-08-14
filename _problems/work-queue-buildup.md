@@ -1,8 +1,22 @@
 ---
-title: "Work Queue Buildup"
-description: "Tasks accumulate in queues waiting for bottleneck resources or processes, creating delays and reducing overall system throughput."
-category: ['Process', 'Flow', 'Performance']
-related_problems: ['bottleneck-formation', 'context-switching-overhead', 'review-bottlenecks']
+title: Work Queue Buildup
+description: Tasks accumulate in queues waiting for bottleneck resources or processes,
+  creating delays and reducing overall system throughput.
+category:
+- Process
+- Flow
+- Performance
+related_problems:
+- slug: bottleneck-formation
+  similarity: 0.691
+- slug: growing-task-queues
+  similarity: 0.671
+- slug: extended-cycle-times
+  similarity: 0.626
+- slug: approval-dependencies
+  similarity: 0.625
+- slug: task-queues-backing-up
+  similarity: 0.622
 layout: problem
 ---
 

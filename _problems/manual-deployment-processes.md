@@ -1,8 +1,22 @@
 ---
-title: "Manual Deployment Processes"
-description: "Releases require human intervention, increasing the chance for mistakes and inconsistencies"
-category: ['Process', 'Technical', 'Operational']
-related_problems: [complex-deployment-process, release-anxiety, frequent-hotfixes-and-rollbacks]
+title: Manual Deployment Processes
+description: Releases require human intervention, increasing the chance for mistakes
+  and inconsistencies
+category:
+- Process
+- Technical
+- Operational
+related_problems:
+- slug: complex-deployment-process
+  similarity: 0.733
+- slug: immature-delivery-strategy
+  similarity: 0.653
+- slug: increased-manual-work
+  similarity: 0.632
+- slug: deployment-risk
+  similarity: 0.624
+- slug: increased-manual-testing-effort
+  similarity: 0.622
 layout: problem
 ---
 

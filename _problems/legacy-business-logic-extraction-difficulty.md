@@ -1,8 +1,22 @@
 ---
-title: "Legacy Business Logic Extraction Difficulty"
-description: "Critical business rules are embedded deep within legacy code structures, making them nearly impossible to identify and extract"
-category: ['Technical', 'Design', 'Knowledge Management']
-related_problems: [poor-domain-model, legacy-system-documentation-archaeology, complex-and-obscure-logic]
+title: Legacy Business Logic Extraction Difficulty
+description: Critical business rules are embedded deep within legacy code structures,
+  making them nearly impossible to identify and extract
+category:
+- Technical
+- Design
+- Knowledge Management
+related_problems:
+- slug: poor-domain-model
+  similarity: 0.644
+- slug: complex-domain-model
+  similarity: 0.637
+- slug: data-migration-integrity-issues
+  similarity: 0.571
+- slug: complex-implementation-paths
+  similarity: 0.519
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.513
 layout: problem
 ---
 

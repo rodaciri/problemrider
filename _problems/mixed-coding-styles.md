@@ -1,8 +1,19 @@
 ---
-title: "Mixed Coding Styles"
-description: "A situation where different parts of the codebase use different formatting, naming conventions, and design patterns."
-category: ['Code Quality', 'Maintenance']
-related_problems: ['inconsistent-codebase', 'undefined-code-style-guidelines', 'inadequate-code-reviews']
+title: Mixed Coding Styles
+description: A situation where different parts of the codebase use different formatting,
+  naming conventions, and design patterns.
+category:
+- Code Quality
+- Maintenance
+related_problems:
+- slug: inconsistent-codebase
+  similarity: 0.793
+- slug: undefined-code-style-guidelines
+  similarity: 0.741
+- slug: inconsistent-coding-standards
+  similarity: 0.669
+- slug: inconsistent-naming-conventions
+  similarity: 0.553
 layout: problem
 ---
 

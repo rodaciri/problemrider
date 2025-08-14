@@ -1,8 +1,20 @@
 ---
-title: "Poor Caching Strategy"
-description: "Data that could be cached is fetched from the source on every request, adding unnecessary overhead and increasing latency."
-category: ['Performance']
-related_problems: ['high-api-latency', 'high-database-resource-utilization']
+title: Poor Caching Strategy
+description: Data that could be cached is fetched from the source on every request,
+  adding unnecessary overhead and increasing latency.
+category:
+- Performance
+related_problems:
+- slug: high-number-of-database-queries
+  similarity: 0.758
+- slug: resource-contention
+  similarity: 0.705
+- slug: slow-database-queries
+  similarity: 0.674
+- slug: slow-response-times-for-lists
+  similarity: 0.662
+- slug: cache-invalidation-problems
+  similarity: 0.657
 layout: problem
 ---
 

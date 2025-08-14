@@ -1,8 +1,16 @@
 ---
-title: "Database Schema Design Problems"
-description: "Poor database schema design creates performance issues, data integrity problems, and maintenance difficulties."
-category: ['Database', 'Design', 'Data Modeling']
-related_problems: ['database-query-performance-issues', 'data-consistency-issues', 'database-normalization-problems']
+title: Database Schema Design Problems
+description: Poor database schema design creates performance issues, data integrity
+  problems, and maintenance difficulties.
+category:
+- Database
+- Design
+- Data Modeling
+related_problems:
+- slug: schema-evolution-paralysis
+  similarity: 0.54
+- slug: database-query-performance-issues
+  similarity: 0.53
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Inefficient Processes"
-description: "Poor workflows, excessive meetings, or bureaucratic procedures waste development time and reduce team productivity."
-category: ['Process', 'Team Dynamics', 'Organizational']
-related_problems: ['slow-development-velocity', 'developer-frustration-and-burnout', 'unproductive-meetings']
+title: Inefficient Processes
+description: Poor workflows, excessive meetings, or bureaucratic procedures waste
+  development time and reduce team productivity.
+category:
+- Process
+- Team Dynamics
+- Organizational
+related_problems:
+- slug: inefficient-development-environment
+  similarity: 0.747
+- slug: tool-limitations
+  similarity: 0.735
+- slug: increased-manual-work
+  similarity: 0.7
+- slug: process-design-flaws
+  similarity: 0.671
+- slug: reduced-team-productivity
+  similarity: 0.65
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Frequent Hotfixes and Rollbacks"
-description: "The team is constantly deploying small fixes or rolling back releases due to insufficient testing and quality control."
-category: ['Process', 'Quality', 'Deployment']
-related_problems: ['insufficient-testing', 'high-defect-rate-in-production', 'poor-test-coverage']
+title: Frequent Hotfixes and Rollbacks
+description: The team is constantly deploying small fixes or rolling back releases
+  due to insufficient testing and quality control.
+category:
+- Process
+- Quality
+- Deployment
+related_problems:
+- slug: large-risky-releases
+  similarity: 0.691
+- slug: high-defect-rate-in-production
+  similarity: 0.643
+- slug: long-release-cycles
+  similarity: 0.602
+- slug: immature-delivery-strategy
+  similarity: 0.591
+- slug: deployment-risk
+  similarity: 0.583
 layout: problem
 ---
 

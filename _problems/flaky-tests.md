@@ -1,8 +1,22 @@
 ---
-title: "Flaky Tests"
-description: "Tests fail randomly due to timing, setup, or dependencies, undermining trust in the test suite"
-category: ['Technical', 'Process', 'Maintenance']
-related_problems: ['insufficient-testing', 'poor-test-coverage', 'debugging-difficulties']
+title: Flaky Tests
+description: Tests fail randomly due to timing, setup, or dependencies, undermining
+  trust in the test suite
+category:
+- Technical
+- Process
+- Maintenance
+related_problems:
+- slug: testing-environment-fragility
+  similarity: 0.671
+- slug: quality-blind-spots
+  similarity: 0.603
+- slug: inadequate-integration-tests
+  similarity: 0.6
+- slug: inadequate-test-infrastructure
+  similarity: 0.594
+- slug: inadequate-test-data-management
+  similarity: 0.581
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Declining Business Metrics"
-description: "Key business indicators such as user engagement, conversion rates, revenue, and stakeholder confidence deteriorate due to technical problems."
-category: ['Business', 'Communication', 'Process']
-related_problems: ['slow-application-performance', 'high-defect-rate-in-production', 'negative-user-feedback', 'slow-development-velocity', 'high-bug-introduction-rate']
+title: Declining Business Metrics
+description: Key business indicators such as user engagement, conversion rates, revenue,
+  and stakeholder confidence deteriorate due to technical problems.
+category:
+- Business
+- Communication
+- Process
+related_problems:
+- slug: negative-user-feedback
+  similarity: 0.642
+- slug: stakeholder-dissatisfaction
+  similarity: 0.604
+- slug: user-trust-erosion
+  similarity: 0.584
+- slug: stakeholder-frustration
+  similarity: 0.578
+- slug: inadequate-onboarding
+  similarity: 0.571
 layout: problem
 ---
 

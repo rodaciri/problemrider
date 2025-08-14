@@ -1,8 +1,22 @@
 ---
-title: "Code Review Inefficiency"
-description: "The code review process takes excessive time, provides limited value, or creates bottlenecks in the development workflow."
-category: ['Process', 'Team Dynamics', 'Quality']
-related_problems: ['review-bottlenecks', 'large-pull-requests', 'inadequate-code-reviews']
+title: Code Review Inefficiency
+description: The code review process takes excessive time, provides limited value,
+  or creates bottlenecks in the development workflow.
+category:
+- Process
+- Team Dynamics
+- Quality
+related_problems:
+- slug: inadequate-code-reviews
+  similarity: 0.785
+- slug: insufficient-code-review
+  similarity: 0.757
+- slug: review-process-breakdown
+  similarity: 0.747
+- slug: review-bottlenecks
+  similarity: 0.73
+- slug: lower-code-quality
+  similarity: 0.719
 layout: problem
 ---
 

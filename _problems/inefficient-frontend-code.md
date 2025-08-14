@@ -1,8 +1,21 @@
 ---
-title: "Inefficient Frontend Code"
-description: "Unoptimized JavaScript, excessive DOM manipulation, or complex CSS animations that are computationally expensive."
-category: ['Performance', 'Frontend']
-related_problems: ['high-client-side-resource-consumption']
+title: Inefficient Frontend Code
+description: Unoptimized JavaScript, excessive DOM manipulation, or complex CSS animations
+  that are computationally expensive.
+category:
+- Performance
+- Frontend
+related_problems:
+- slug: high-client-side-resource-consumption
+  similarity: 0.783
+- slug: high-resource-utilization-on-client
+  similarity: 0.771
+- slug: slow-application-performance
+  similarity: 0.634
+- slug: resource-contention
+  similarity: 0.582
+- slug: inefficient-code
+  similarity: 0.549
 layout: problem
 ---
 

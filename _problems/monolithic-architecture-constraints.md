@@ -1,8 +1,22 @@
 ---
-title: "Monolithic Architecture Constraints"
-description: "Large monolithic codebases become difficult to maintain, scale, and deploy as they grow in size and complexity."
-category: ['Architecture', 'Scalability', 'Maintenance']
-related_problems: ['tight-coupling-issues', 'deployment-complexity', 'team-coordination-difficulties']
+title: Monolithic Architecture Constraints
+description: Large monolithic codebases become difficult to maintain, scale, and deploy
+  as they grow in size and complexity.
+category:
+- Architecture
+- Scalability
+- Maintenance
+related_problems:
+- slug: technology-stack-fragmentation
+  similarity: 0.636
+- slug: deployment-coupling
+  similarity: 0.523
+- slug: architectural-mismatch
+  similarity: 0.517
+- slug: poor-interfaces-between-applications
+  similarity: 0.512
+- slug: deployment-environment-inconsistencies
+  similarity: 0.507
 layout: problem
 ---
 

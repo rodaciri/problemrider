@@ -1,8 +1,22 @@
 ---
-title: "Review Process Breakdown"
-description: "Code reviews are not consistently performed, are rushed, superficial, or fail to identify critical issues, leading to lower code quality and increased risk."
-category: ['Process', 'Quality']
-related_problems: ['team-members-not-engaged-in-review-process', 'bikeshedding']
+title: Review Process Breakdown
+description: Code reviews are not consistently performed, are rushed, superficial,
+  or fail to identify critical issues, leading to lower code quality and increased
+  risk.
+category:
+- Process
+- Quality
+related_problems:
+- slug: review-process-breakdown
+  similarity: 0.874
+- slug: insufficient-code-review
+  similarity: 0.871
+- slug: code-review-inefficiency
+  similarity: 0.785
+- slug: superficial-code-reviews
+  similarity: 0.733
+- slug: lower-code-quality
+  similarity: 0.708
 layout: problem
 ---
 

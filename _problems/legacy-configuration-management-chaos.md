@@ -1,8 +1,18 @@
 ---
-title: "Legacy Configuration Management Chaos"
-description: "Configuration settings are hardcoded, undocumented, or stored in proprietary formats that prevent modern deployment practices"
-category: ['Technical', 'Process', 'Operational']
-related_problems: [inadequate-configuration-management, hardcoded-values, manual-deployment-processes]
+title: Legacy Configuration Management Chaos
+description: Configuration settings are hardcoded, undocumented, or stored in proprietary
+  formats that prevent modern deployment practices
+category:
+- Technical
+- Process
+- Operational
+related_problems:
+- slug: configuration-chaos
+  similarity: 0.705
+- slug: configuration-drift
+  similarity: 0.67
+- slug: inadequate-configuration-management
+  similarity: 0.608
 layout: problem
 ---
 

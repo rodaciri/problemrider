@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Mentoring Structure"
-description: "The organization lacks a systematic approach to mentoring new developers, leading to inconsistent guidance and support."
-category: ['Team Dynamics', 'Process', 'Knowledge Management']
-related_problems: ['mentor-burnout', 'extended-onboarding-period', 'knowledge-silos']
+title: Inadequate Mentoring Structure
+description: The organization lacks a systematic approach to mentoring new developers,
+  leading to inconsistent guidance and support.
+category:
+- Team Dynamics
+- Process
+- Knowledge Management
+related_problems:
+- slug: mentor-burnout
+  similarity: 0.709
+- slug: difficult-developer-onboarding
+  similarity: 0.583
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.539
+- slug: high-turnover
+  similarity: 0.537
+- slug: inconsistent-onboarding-experience
+  similarity: 0.521
 layout: problem
 ---
 

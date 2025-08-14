@@ -1,8 +1,13 @@
 ---
-title: "Gold Plating"
-description: "Developers add unnecessary features or complexity to a project because they believe it will impress the stakeholders, even if it was not requested."
-category: ['Process', 'Project Management']
-related_problems: ['scope-creep', 'feature-creep', 'unclear-goals-and-priorities']
+title: Gold Plating
+description: Developers add unnecessary features or complexity to a project because
+  they believe it will impress the stakeholders, even if it was not requested.
+category:
+- Process
+- Project Management
+related_problems:
+- slug: insufficient-design-skills
+  similarity: 0.501
 layout: problem
 ---
 

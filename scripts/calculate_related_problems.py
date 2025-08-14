@@ -160,18 +160,26 @@ class SimpleEmbeddingAnalyzer:
                 print(f"  Current: {current}")
                 print(f"  New: {[f'{k}({s:.3f})' for k, s in related]}")
     
-    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3):
+    def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3, force_update: bool = False):
         """Update all files with new related problems."""
         print(f"\n{'[DRY RUN] ' if dry_run else ''}Updating files...")
         
         updates = 0
         for problem_key in self.problems.keys():
             related = self.find_related(problem_key, top_k=5, min_similarity=min_similarity)
-            new_related = [key for key, score in related]
+            # Create list of objects with slug and similarity
+            new_related = [{"slug": key, "similarity": round(score, 3)} for key, score in related]
             
             old_related = self.problems[problem_key]['current_related_problems']
             
-            if new_related and set(new_related) != set(old_related):
+            # Compare only slugs for change detection, but force update if requested
+            old_slugs = [item["slug"] if isinstance(item, dict) else item for item in (old_related or [])]
+            new_slugs = [item["slug"] for item in new_related]
+            
+            # Check if old format (simple strings) vs new format (dict with slug/similarity)
+            needs_format_update = old_related and len(old_related) > 0 and not isinstance(old_related[0], dict)
+            
+            if new_related and (force_update or needs_format_update or set(new_slugs) != set(old_slugs)):
                 updates += 1
                 # Show all updates with actual related problems
                 related_with_scores = [f"{key} ({score:.3f})" for key, score in related]
@@ -185,7 +193,7 @@ class SimpleEmbeddingAnalyzer:
         
         print(f"Total: {updates} files would be updated")
     
-    def _update_file(self, problem_key: str, new_related: List[str]):
+    def _update_file(self, problem_key: str, new_related: List[dict]):
         """Update a single file."""
         problem_data = self.problems[problem_key]
         file_path = problem_data['file_path']
@@ -216,7 +224,7 @@ def main():
     if args.test:
         analyzer.test_sample()
     else:
-        analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY)
+        analyzer.update_all_files(dry_run=args.dry_run, min_similarity=MIN_SIMILARITY, force_update=False)
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,20 @@
 ---
-title: "Difficult Code Comprehension"
-description: "A situation where developers have a hard time understanding the codebase."
-category: ['Code Quality', 'Maintenance']
-related_problems: ['inconsistent-codebase', 'complex-and-obscure-logic', 'poor-documentation']
+title: Difficult Code Comprehension
+description: A situation where developers have a hard time understanding the codebase.
+category:
+- Code Quality
+- Maintenance
+related_problems:
+- slug: brittle-codebase
+  similarity: 0.682
+- slug: complex-and-obscure-logic
+  similarity: 0.649
+- slug: difficult-to-understand-code
+  similarity: 0.647
+- slug: increased-cognitive-load
+  similarity: 0.64
+- slug: clever-code
+  similarity: 0.638
 layout: problem
 ---
 

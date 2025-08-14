@@ -1,8 +1,20 @@
 ---
-title: "Poorly Defined Responsibilities"
-description: "Modules or classes are not designed with a single, clear responsibility, leading to confusion and tight coupling."
-category: ['Design', 'Architecture', 'Maintenance']
-related_problems: ['high-coupling-low-cohesion', 'monolithic-functions-and-classes', 'complex-and-obscure-logic']
+title: Poorly Defined Responsibilities
+description: Modules or classes are not designed with a single, clear responsibility,
+  leading to confusion and tight coupling.
+category:
+- Design
+- Architecture
+- Maintenance
+related_problems:
+- slug: high-coupling-low-cohesion
+  similarity: 0.569
+- slug: tight-coupling-issues
+  similarity: 0.561
+- slug: monolithic-functions-and-classes
+  similarity: 0.553
+- slug: requirements-ambiguity
+  similarity: 0.502
 layout: problem
 ---
 

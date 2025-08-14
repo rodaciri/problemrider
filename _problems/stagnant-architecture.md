@@ -1,8 +1,22 @@
 ---
-title: "Stagnant Architecture"
-description: "The system architecture doesn't evolve to meet changing business needs because major refactoring is consistently avoided."
-category: ['Design', 'Technical', 'Process']
-related_problems: ['fear-of-change', 'high-technical-debt', 'obsolete-technologies']
+title: Stagnant Architecture
+description: The system architecture doesn't evolve to meet changing business needs
+  because major refactoring is consistently avoided.
+category:
+- Design
+- Technical
+- Process
+related_problems:
+- slug: system-stagnation
+  similarity: 0.765
+- slug: architectural-mismatch
+  similarity: 0.707
+- slug: technical-architecture-limitations
+  similarity: 0.64
+- slug: second-system-effect
+  similarity: 0.602
+- slug: rapid-system-changes
+  similarity: 0.596
 layout: problem
 ---
 

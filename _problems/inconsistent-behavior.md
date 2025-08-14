@@ -1,8 +1,21 @@
 ---
-title: "Inconsistent Behavior"
-description: "The same business process produces different outcomes depending on where it's triggered, leading to a confusing and unpredictable user experience."
-category: ['Quality', 'User Experience']
-related_problems: ['synchronization-problems', 'code-duplication', 'inconsistent-codebase']
+title: Inconsistent Behavior
+description: The same business process produces different outcomes depending on where
+  it's triggered, leading to a confusing and unpredictable user experience.
+category:
+- Quality
+- User Experience
+related_problems:
+- slug: inconsistent-execution
+  similarity: 0.763
+- slug: change-management-chaos
+  similarity: 0.614
+- slug: unpredictable-system-behavior
+  similarity: 0.611
+- slug: user-confusion
+  similarity: 0.6
+- slug: high-defect-rate-in-production
+  similarity: 0.571
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Large, Risky Releases"
-description: "Infrequent releases lead to large, complex deployments that are difficult to test, prone to failure, and have a significant impact on users when they go wrong."
-category: ['Process', 'Quality', 'Deployment']
-related_problems: ['long-release-cycles', 'release-instability', 'frequent-hotfixes-and-rollbacks']
+title: Large, Risky Releases
+description: Infrequent releases lead to large, complex deployments that are difficult
+  to test, prone to failure, and have a significant impact on users when they go wrong.
+category:
+- Process
+- Quality
+- Deployment
+related_problems:
+- slug: release-instability
+  similarity: 0.785
+- slug: immature-delivery-strategy
+  similarity: 0.704
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 0.691
+- slug: release-anxiety
+  similarity: 0.687
+- slug: deployment-risk
+  similarity: 0.68
 layout: problem
 ---
 

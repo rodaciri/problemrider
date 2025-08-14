@@ -1,8 +1,23 @@
 ---
-title: "Slow Development Velocity"
-description: "The team consistently fails to deliver features and bug fixes at a predictable and acceptable pace, with overall productivity systematically declining."
-category: ['Process', 'Maintenance', 'Team Dynamics', 'Business']
-related_problems: ['complex-and-obscure-logic', 'high-technical-debt', 'brittle-codebase', 'developer-frustration-and-burnout']
+title: Slow Development Velocity
+description: The team consistently fails to deliver features and bug fixes at a predictable
+  and acceptable pace, with overall productivity systematically declining.
+category:
+- Process
+- Maintenance
+- Team Dynamics
+- Business
+related_problems:
+- slug: slow-feature-development
+  similarity: 0.807
+- slug: reduced-team-productivity
+  similarity: 0.764
+- slug: inefficient-development-environment
+  similarity: 0.739
+- slug: reduced-individual-productivity
+  similarity: 0.705
+- slug: missed-deadlines
+  similarity: 0.698
 layout: problem
 ---
 

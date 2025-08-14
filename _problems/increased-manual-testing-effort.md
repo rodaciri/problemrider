@@ -1,8 +1,22 @@
 ---
-title: "Increased Manual Testing Effort"
-description: "A disproportionate amount of time is spent on manual testing due to a lack of automation."
-category: ['Testing', 'Process', 'Efficiency']
-related_problems: ['insufficient-testing', 'poor-test-coverage', 'long-release-cycles']
+title: Increased Manual Testing Effort
+description: A disproportionate amount of time is spent on manual testing due to a
+  lack of automation.
+category:
+- Testing
+- Process
+- Efficiency
+related_problems:
+- slug: increased-manual-work
+  similarity: 0.744
+- slug: long-release-cycles
+  similarity: 0.706
+- slug: inadequate-test-infrastructure
+  similarity: 0.666
+- slug: testing-environment-fragility
+  similarity: 0.657
+- slug: manual-deployment-processes
+  similarity: 0.622
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Team Confusion"
-description: "Team members are unclear about project goals, priorities, responsibilities, or processes, leading to misaligned efforts and wasted work."
-category: ['Communication', 'Team Dynamics', 'Planning']
-related_problems: ['unclear-goals-and-priorities', 'poor-communication', 'changing-project-scope']
+title: Team Confusion
+description: Team members are unclear about project goals, priorities, responsibilities,
+  or processes, leading to misaligned efforts and wasted work.
+category:
+- Communication
+- Team Dynamics
+- Planning
+related_problems:
+- slug: communication-risk-within-project
+  similarity: 0.758
+- slug: unclear-goals-and-priorities
+  similarity: 0.758
+- slug: requirements-ambiguity
+  similarity: 0.666
+- slug: communication-breakdown
+  similarity: 0.651
+- slug: team-dysfunction
+  similarity: 0.645
 layout: problem
 ---
 

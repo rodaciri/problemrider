@@ -1,8 +1,22 @@
 ---
-title: "Accumulation of Workarounds"
-description: "Instead of fixing core issues, developers create elaborate workarounds that add complexity and technical debt to the system."
-category: ['Technical', 'Process', 'Maintenance']
-related_problems: ['fear-of-change', 'high-technical-debt', 'brittle-codebase']
+title: Accumulation of Workarounds
+description: Instead of fixing core issues, developers create elaborate workarounds
+  that add complexity and technical debt to the system.
+category:
+- Technical
+- Process
+- Maintenance
+related_problems:
+- slug: workaround-culture
+  similarity: 0.75
+- slug: increased-technical-shortcuts
+  similarity: 0.636
+- slug: increased-risk-of-bugs
+  similarity: 0.613
+- slug: code-duplication
+  similarity: 0.612
+- slug: unpredictable-system-behavior
+  similarity: 0.6
 layout: problem
 ---
 

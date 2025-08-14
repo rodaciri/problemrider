@@ -1,8 +1,14 @@
 ---
-title: "Integer Overflow and Underflow"
-description: "Arithmetic operations produce results that exceed the maximum or minimum values representable by integer data types, leading to unexpected behavior."
-category: ['Technical', 'Data Integrity', 'Security']
-related_problems: ['unpredictable-system-behavior', 'data-protection-risk', 'algorithmic-complexity-problems']
+title: Integer Overflow and Underflow
+description: Arithmetic operations produce results that exceed the maximum or minimum
+  values representable by integer data types, leading to unexpected behavior.
+category:
+- Technical
+- Data Integrity
+- Security
+related_problems:
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.562
 layout: problem
 ---
 

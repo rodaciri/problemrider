@@ -1,8 +1,22 @@
 ---
-title: "Planning Dysfunction"
-description: "Project planning processes fail to create realistic timelines, allocate resources effectively, or account for project complexities and risks."
-category: ['Planning', 'Project Management', 'Process']
-related_problems: ['unrealistic-deadlines', 'resource-allocation-failures', 'scope-creep']
+title: Planning Dysfunction
+description: Project planning processes fail to create realistic timelines, allocate
+  resources effectively, or account for project complexities and risks.
+category:
+- Planning
+- Project Management
+- Process
+related_problems:
+- slug: poor-planning
+  similarity: 0.795
+- slug: reduced-predictability
+  similarity: 0.72
+- slug: planning-credibility-issues
+  similarity: 0.701
+- slug: poor-project-control
+  similarity: 0.67
+- slug: unrealistic-schedule
+  similarity: 0.667
 layout: problem
 ---
 

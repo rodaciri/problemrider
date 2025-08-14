@@ -1,8 +1,20 @@
 ---
-title: "Queries That Prevent Index Usage"
-description: "The way a query is written can prevent the database from using an available index, forcing slower full-table scans or less efficient index scans."
-category: ['Performance']
-related_problems: ['inefficient-database-indexing', 'slow-database-queries', 'database-query-performance-issues']
+title: Queries That Prevent Index Usage
+description: The way a query is written can prevent the database from using an available
+  index, forcing slower full-table scans or less efficient index scans.
+category:
+- Performance
+related_problems:
+- slug: inefficient-database-indexing
+  similarity: 0.887
+- slug: incorrect-index-type
+  similarity: 0.832
+- slug: unused-indexes
+  similarity: 0.699
+- slug: index-fragmentation
+  similarity: 0.633
+- slug: database-query-performance-issues
+  similarity: 0.57
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Lazy Loading"
-description: "The use of lazy loading in an ORM framework leads to a large number of unnecessary database queries, which can significantly degrade application performance."
-category: ['Technical', 'Performance', 'Database']
-related_problems: ['n-plus-one-query-problem', 'slow-application-performance', 'high-number-of-database-queries']
+title: Lazy Loading
+description: The use of lazy loading in an ORM framework leads to a large number of
+  unnecessary database queries, which can significantly degrade application performance.
+category:
+- Technical
+- Performance
+- Database
+related_problems:
+- slug: high-number-of-database-queries
+  similarity: 0.674
+- slug: slow-database-queries
+  similarity: 0.669
+- slug: high-database-resource-utilization
+  similarity: 0.643
+- slug: poor-caching-strategy
+  similarity: 0.588
+- slug: memory-swapping
+  similarity: 0.56
 layout: problem
 ---
 

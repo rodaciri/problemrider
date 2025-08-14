@@ -1,8 +1,18 @@
 ---
-title: "Difficult Code Reuse"
-description: "It is difficult to reuse code in different contexts because it is not designed in a modular and reusable way."
-category: ['Design', 'Quality', 'Maintenance']
-related_problems: ['procedural-programming-in-oop-languages', 'code-duplication', 'high-coupling-low-cohesion']
+title: Difficult Code Reuse
+description: It is difficult to reuse code in different contexts because it is not
+  designed in a modular and reusable way.
+category:
+- Design
+- Quality
+- Maintenance
+related_problems:
+- slug: code-duplication
+  similarity: 0.581
+- slug: high-coupling-low-cohesion
+  similarity: 0.553
+- slug: copy-paste-programming
+  similarity: 0.524
 layout: problem
 ---
 

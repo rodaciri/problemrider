@@ -1,8 +1,23 @@
 ---
-title: "High Technical Debt"
-description: "Accumulation of design or implementation shortcuts that lead to increased costs and effort in the long run."
-category: ['Technical', 'Quality', 'Maintenance', 'Process']
-related_problems: ['brittle-codebase', 'slow-development-velocity']
+title: High Technical Debt
+description: Accumulation of design or implementation shortcuts that lead to increased
+  costs and effort in the long run.
+category:
+- Technical
+- Quality
+- Maintenance
+- Process
+related_problems:
+- slug: refactoring-avoidance
+  similarity: 0.766
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.747
+- slug: increased-technical-shortcuts
+  similarity: 0.648
+- slug: high-maintenance-costs
+  similarity: 0.635
+- slug: slow-development-velocity
+  similarity: 0.605
 layout: problem
 ---
 

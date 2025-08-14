@@ -1,8 +1,21 @@
 ---
-title: "Resource Contention"
-description: "The server is overloaded, and the application is competing for limited resources like CPU, memory, or I/O."
-category: ['Performance', 'Stability']
-related_problems: ['inefficient-code']
+title: Resource Contention
+description: The server is overloaded, and the application is competing for limited
+  resources like CPU, memory, or I/O.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: memory-swapping
+  similarity: 0.838
+- slug: high-database-resource-utilization
+  similarity: 0.801
+- slug: slow-application-performance
+  similarity: 0.733
+- slug: excessive-disk-io
+  similarity: 0.714
+- slug: poor-caching-strategy
+  similarity: 0.705
 layout: problem
 ---
 

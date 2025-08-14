@@ -1,8 +1,22 @@
 ---
-title: "Power Struggles"
-description: "Internal conflicts between departments or managers interfere with decision-making and project progress."
-category: ['Organizational', 'Management', 'Politics']
-related_problems: ['delayed-decision-making', 'team-coordination-issues', 'unclear-goals-and-priorities']
+title: Power Struggles
+description: Internal conflicts between departments or managers interfere with decision-making
+  and project progress.
+category:
+- Organizational
+- Management
+- Politics
+related_problems:
+- slug: team-dysfunction
+  similarity: 0.643
+- slug: delayed-decision-making
+  similarity: 0.57
+- slug: poor-teamwork
+  similarity: 0.565
+- slug: unclear-goals-and-priorities
+  similarity: 0.561
+- slug: change-management-chaos
+  similarity: 0.56
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Inexperienced Developers"
-description: "Development team lacks the knowledge and experience to implement best practices and maintainable solutions."
-category: ['Process', 'Quality', 'Communication']
-related_problems: ['complex-and-obscure-logic', 'high-technical-debt', 'insufficient-testing']
+title: Inexperienced Developers
+description: Development team lacks the knowledge and experience to implement best
+  practices and maintainable solutions.
+category:
+- Process
+- Quality
+- Communication
+related_problems:
+- slug: reviewer-inexperience
+  similarity: 0.758
+- slug: lower-code-quality
+  similarity: 0.691
+- slug: increased-cognitive-load
+  similarity: 0.685
+- slug: reviewer-anxiety
+  similarity: 0.672
+- slug: insufficient-design-skills
+  similarity: 0.668
 layout: problem
 ---
 

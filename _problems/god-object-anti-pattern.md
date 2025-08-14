@@ -1,8 +1,16 @@
 ---
-title: "God Object Anti-Pattern"
-description: "Single classes or components handle too many responsibilities, becoming overly complex and difficult to maintain or test."
-category: ['Code Quality', 'Architecture', 'Object-Oriented Design']
-related_problems: ['tight-coupling-issues', 'single-responsibility-violations', 'testing-difficulties']
+title: God Object Anti-Pattern
+description: Single classes or components handle too many responsibilities, becoming
+  overly complex and difficult to maintain or test.
+category:
+- Code Quality
+- Architecture
+- Object-Oriented Design
+related_problems:
+- slug: monolithic-functions-and-classes
+  similarity: 0.527
+- slug: excessive-class-size
+  similarity: 0.523
 layout: problem
 ---
 

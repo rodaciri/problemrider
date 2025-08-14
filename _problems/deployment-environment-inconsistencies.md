@@ -1,8 +1,22 @@
 ---
-title: "Deployment Environment Inconsistencies"
-description: "Differences between deployment environments cause applications to behave differently or fail when moved between environments."
-category: ['Deployment', 'Environment Management', 'Configuration']
-related_problems: ['configuration-drift', 'environment-variable-issues', 'dependency-version-conflicts']
+title: Deployment Environment Inconsistencies
+description: Differences between deployment environments cause applications to behave
+  differently or fail when moved between environments.
+category:
+- Deployment
+- Environment Management
+- Configuration
+related_problems:
+- slug: configuration-drift
+  similarity: 0.731
+- slug: configuration-chaos
+  similarity: 0.698
+- slug: inadequate-configuration-management
+  similarity: 0.68
+- slug: environment-variable-issues
+  similarity: 0.653
+- slug: inadequate-integration-tests
+  similarity: 0.626
 layout: problem
 ---
 

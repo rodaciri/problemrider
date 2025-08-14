@@ -1,8 +1,22 @@
 ---
-title: "Communication Breakdown"
-description: "Collaboration breaks down as developers become isolated and less willing to engage with peers."
-category: ['Communication', 'Team Dynamics', 'Process']
-related_problems: ['developer-frustration-and-burnout', 'knowledge-silos', 'inadequate-code-reviews']
+title: Communication Breakdown
+description: Collaboration breaks down as developers become isolated and less willing
+  to engage with peers.
+category:
+- Communication
+- Team Dynamics
+- Process
+related_problems:
+- slug: communication-breakdown
+  similarity: 0.87
+- slug: poor-teamwork
+  similarity: 0.666
+- slug: team-dysfunction
+  similarity: 0.652
+- slug: team-coordination-issues
+  similarity: 0.645
+- slug: communication-risk-within-project
+  similarity: 0.621
 layout: problem
 ---
 

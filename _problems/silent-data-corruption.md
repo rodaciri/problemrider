@@ -1,8 +1,21 @@
 ---
-title: "Silent Data Corruption"
-description: "Data becomes corrupted without triggering errors or alerts, leading to incorrect results and loss of data integrity."
-category: ['Data Quality', 'Reliability', 'Security', 'Technical']
-related_problems: ['data-migration-integrity-issues', 'inadequate-error-handling', 'insufficient-data-validation']
+title: Silent Data Corruption
+description: Data becomes corrupted without triggering errors or alerts, leading to
+  incorrect results and loss of data integrity.
+category:
+- Data Quality
+- Reliability
+- Security
+- Technical
+related_problems:
+- slug: cache-invalidation-problems
+  similarity: 0.595
+- slug: data-migration-integrity-issues
+  similarity: 0.539
+- slug: dma-coherency-issues
+  similarity: 0.534
+- slug: data-protection-risk
+  similarity: 0.504
 layout: problem
 ---
 

@@ -1,8 +1,16 @@
 ---
-title: "Assumption-Based Development"
-description: "Developers make decisions based on assumptions about requirements or user needs rather than validating their understanding."
-category: ['Process', 'Requirements', 'Communication']
-related_problems: ['inadequate-requirements-gathering', 'misaligned-deliverables', 'implementation-rework']
+title: Assumption-Based Development
+description: Developers make decisions based on assumptions about requirements or
+  user needs rather than validating their understanding.
+category:
+- Process
+- Requirements
+- Communication
+related_problems:
+- slug: requirements-ambiguity
+  similarity: 0.551
+- slug: inadequate-requirements-gathering
+  similarity: 0.519
 layout: problem
 ---
 

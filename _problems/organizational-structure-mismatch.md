@@ -1,8 +1,22 @@
 ---
-title: "Organizational Structure Mismatch"
-description: "A situation where the structure of the organization does not match the architecture of the system."
-category: ['Team', 'Process', 'Architecture']
-related_problems: ['team-coordination-issues', 'communication-breakdowns', 'slow-development-velocity']
+title: Organizational Structure Mismatch
+description: A situation where the structure of the organization does not match the
+  architecture of the system.
+category:
+- Team
+- Process
+- Architecture
+related_problems:
+- slug: team-coordination-issues
+  similarity: 0.62
+- slug: team-dysfunction
+  similarity: 0.581
+- slug: inconsistent-behavior
+  similarity: 0.538
+- slug: communication-breakdown
+  similarity: 0.532
+- slug: duplicated-effort
+  similarity: 0.53
 layout: problem
 ---
 

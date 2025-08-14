@@ -1,8 +1,22 @@
 ---
-title: "Unclear Goals and Priorities"
-description: "Constantly shifting priorities and lack of clear direction lead to a sense of futility among team members."
-category: ['Process', 'Communication', 'Management']
-related_problems: ['developer-frustration-and-burnout', 'decreased-productivity', 'scope-creep']
+title: Unclear Goals and Priorities
+description: Constantly shifting priorities and lack of clear direction lead to a
+  sense of futility among team members.
+category:
+- Process
+- Communication
+- Management
+related_problems:
+- slug: team-confusion
+  similarity: 0.758
+- slug: product-direction-chaos
+  similarity: 0.661
+- slug: changing-project-scope
+  similarity: 0.649
+- slug: communication-risk-within-project
+  similarity: 0.641
+- slug: priority-thrashing
+  similarity: 0.62
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Code Duplication"
-description: "Similar or identical code exists in multiple places, making maintenance difficult and introducing inconsistency risks."
-category: ['Maintenance', 'Technical', 'Design']
-related_problems: ['high-technical-debt', 'high-coupling-low-cohesion', 'inconsistent-codebase']
+title: Code Duplication
+description: Similar or identical code exists in multiple places, making maintenance
+  difficult and introducing inconsistency risks.
+category:
+- Maintenance
+- Technical
+- Design
+related_problems:
+- slug: copy-paste-programming
+  similarity: 0.777
+- slug: synchronization-problems
+  similarity: 0.637
+- slug: accumulation-of-workarounds
+  similarity: 0.612
+- slug: difficult-code-reuse
+  similarity: 0.581
+- slug: partial-bug-fixes
+  similarity: 0.573
 layout: problem
 ---
 

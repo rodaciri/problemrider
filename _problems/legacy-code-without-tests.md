@@ -1,8 +1,22 @@
 ---
-title: "Legacy Code Without Tests"
-description: "Existing legacy systems often lack automated tests, making it challenging to add them incrementally and safely modify the code."
-category: ['Testing', 'Maintenance', 'Legacy']
-related_problems: ['insufficient-testing', 'difficult-to-test-code', 'fear-of-change']
+title: Legacy Code Without Tests
+description: Existing legacy systems often lack automated tests, making it challenging
+  to add them incrementally and safely modify the code.
+category:
+- Testing
+- Maintenance
+- Legacy
+related_problems:
+- slug: inadequate-test-infrastructure
+  similarity: 0.648
+- slug: increased-manual-testing-effort
+  similarity: 0.616
+- slug: poor-test-coverage
+  similarity: 0.604
+- slug: difficult-to-test-code
+  similarity: 0.585
+- slug: inadequate-test-data-management
+  similarity: 0.578
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Feature Gaps"
-description: "Important functionality is missing because developers assumed it wasn't needed, creating incomplete solutions that don't meet user needs."
-category: ['Product', 'Requirements', 'User Experience']
-related_problems: ['assumption-based-development', 'inadequate-requirements-gathering', 'user-frustration']
+title: Feature Gaps
+description: Important functionality is missing because developers assumed it wasn't
+  needed, creating incomplete solutions that don't meet user needs.
+category:
+- Product
+- Requirements
+- User Experience
+related_problems:
+- slug: incomplete-projects
+  similarity: 0.666
+- slug: reduced-feature-quality
+  similarity: 0.653
+- slug: knowledge-gaps
+  similarity: 0.642
+- slug: feature-bloat
+  similarity: 0.615
+- slug: slow-feature-development
+  similarity: 0.568
 layout: problem
 ---
 

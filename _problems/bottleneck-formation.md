@@ -1,8 +1,22 @@
 ---
-title: "Bottleneck Formation"
-description: "Specific team members, processes, or system components become constraints that limit the overall flow and productivity of development work."
-category: ['Process', 'Team Dynamics', 'Performance']
-related_problems: ['single-points-of-failure', 'review-bottlenecks', 'uneven-workload-distribution']
+title: Bottleneck Formation
+description: Specific team members, processes, or system components become constraints
+  that limit the overall flow and productivity of development work.
+category:
+- Process
+- Team Dynamics
+- Performance
+related_problems:
+- slug: uneven-work-flow
+  similarity: 0.728
+- slug: work-queue-buildup
+  similarity: 0.691
+- slug: capacity-mismatch
+  similarity: 0.68
+- slug: work-blocking
+  similarity: 0.651
+- slug: reduced-team-productivity
+  similarity: 0.647
 layout: problem
 ---
 

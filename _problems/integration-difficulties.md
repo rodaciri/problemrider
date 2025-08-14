@@ -1,8 +1,22 @@
 ---
-title: "Integration Difficulties"
-description: "Connecting with modern services requires extensive workarounds due to architectural limitations or outdated integration patterns."
-category: ['Technical', 'Design', 'Integration']
-related_problems: ['stagnant-architecture', 'obsolete-technologies', 'architectural-mismatch']
+title: Integration Difficulties
+description: Connecting with modern services requires extensive workarounds due to
+  architectural limitations or outdated integration patterns.
+category:
+- Technical
+- Design
+- Integration
+related_problems:
+- slug: poor-interfaces-between-applications
+  similarity: 0.683
+- slug: stagnant-architecture
+  similarity: 0.582
+- slug: inadequate-integration-tests
+  similarity: 0.563
+- slug: system-stagnation
+  similarity: 0.545
+- slug: technology-isolation
+  similarity: 0.53
 layout: problem
 ---
 

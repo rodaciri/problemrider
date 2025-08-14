@@ -1,8 +1,21 @@
 ---
-title: "Inefficient Development Environment"
-description: "The team is slowed down by a slow and cumbersome development environment"
-category: ['Technical', 'Process', 'Performance']
-related_problems: [slow-development-velocity, developer-frustration-and-burnout, increased-cost-of-development]
+title: Inefficient Development Environment
+description: The team is slowed down by a slow and cumbersome development environment
+category:
+- Technical
+- Process
+- Performance
+related_problems:
+- slug: tool-limitations
+  similarity: 0.768
+- slug: inefficient-processes
+  similarity: 0.747
+- slug: slow-development-velocity
+  similarity: 0.739
+- slug: slow-feature-development
+  similarity: 0.656
+- slug: inability-to-innovate
+  similarity: 0.65
 layout: problem
 ---
 

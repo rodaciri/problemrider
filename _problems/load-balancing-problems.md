@@ -1,8 +1,22 @@
 ---
-title: "Load Balancing Problems"
-description: "Load balancing mechanisms distribute traffic inefficiently or fail to adapt to changing conditions, causing performance issues and service instability."
-category: ['Infrastructure', 'Performance', 'Scalability']
-related_problems: ['service-discovery-failures', 'resource-allocation-problems', 'performance-bottlenecks']
+title: Load Balancing Problems
+description: Load balancing mechanisms distribute traffic inefficiently or fail to
+  adapt to changing conditions, causing performance issues and service instability.
+category:
+- Infrastructure
+- Performance
+- Scalability
+related_problems:
+- slug: thread-pool-exhaustion
+  similarity: 0.567
+- slug: resource-contention
+  similarity: 0.565
+- slug: network-latency
+  similarity: 0.565
+- slug: microservice-communication-overhead
+  similarity: 0.558
+- slug: capacity-mismatch
+  similarity: 0.55
 layout: problem
 ---
 

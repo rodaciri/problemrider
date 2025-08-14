@@ -1,8 +1,22 @@
 ---
-title: "Poor Test Coverage"
-description: "Critical parts of the codebase are not covered by tests, creating blind spots in quality assurance."
-category: ['Testing', 'Quality', 'Process']
-related_problems: ['insufficient-testing', 'legacy-code-without-tests', 'increased-risk-of-bugs']
+title: Poor Test Coverage
+description: Critical parts of the codebase are not covered by tests, creating blind
+  spots in quality assurance.
+category:
+- Testing
+- Quality
+- Process
+related_problems:
+- slug: quality-blind-spots
+  similarity: 0.725
+- slug: insufficient-testing
+  similarity: 0.674
+- slug: high-defect-rate-in-production
+  similarity: 0.653
+- slug: inadequate-test-infrastructure
+  similarity: 0.611
+- slug: inadequate-test-data-management
+  similarity: 0.605
 layout: problem
 ---
 

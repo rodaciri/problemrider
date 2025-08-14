@@ -1,8 +1,22 @@
 ---
-title: "Unpredictable System Behavior"
-description: "Changes in one part of the system have unexpected side effects in seemingly unrelated areas due to hidden dependencies."
-category: ['Technical', 'Design', 'Maintenance']
-related_problems: ['brittle-codebase', 'global-state-and-side-effects', 'high-coupling-low-cohesion', 'hidden-side-effects']
+title: Unpredictable System Behavior
+description: Changes in one part of the system have unexpected side effects in seemingly
+  unrelated areas due to hidden dependencies.
+category:
+- Technical
+- Design
+- Maintenance
+related_problems:
+- slug: hidden-dependencies
+  similarity: 0.743
+- slug: increasing-brittleness
+  similarity: 0.69
+- slug: increased-risk-of-bugs
+  similarity: 0.686
+- slug: increased-bug-count
+  similarity: 0.678
+- slug: ripple-effect-of-changes
+  similarity: 0.674
 layout: problem
 ---
 

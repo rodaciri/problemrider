@@ -1,8 +1,22 @@
 ---
-title: "Incomplete Projects"
-description: "Features are started but never finished due to shifting priorities, leading to a great deal of wasted effort and a sense of frustration for the development team."
-category: ['Process', 'Project Management']
-related_problems: ['unclear-goals-and-priorities', 'constantly-shifting-deadlines', 'developer-frustration-and-burnout']
+title: Incomplete Projects
+description: Features are started but never finished due to shifting priorities, leading
+  to a great deal of wasted effort and a sense of frustration for the development
+  team.
+category:
+- Process
+- Project Management
+related_problems:
+- slug: wasted-development-effort
+  similarity: 0.677
+- slug: feature-gaps
+  similarity: 0.666
+- slug: slow-feature-development
+  similarity: 0.65
+- slug: large-feature-scope
+  similarity: 0.643
+- slug: frequent-changes-to-requirements
+  similarity: 0.595
 layout: problem
 ---
 

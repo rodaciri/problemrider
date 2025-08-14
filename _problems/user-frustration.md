@@ -1,8 +1,22 @@
 ---
-title: "User Frustration"
-description: "Users become dissatisfied with system reliability, usability, or performance, leading to decreased adoption and negative feedback."
-category: ['User Experience', 'Business Impact', 'Quality']
-related_problems: ['system-outages', 'poor-user-experience-ux-design', 'unpredictable-system-behavior']
+title: User Frustration
+description: Users become dissatisfied with system reliability, usability, or performance,
+  leading to decreased adoption and negative feedback.
+category:
+- User Experience
+- Business Impact
+- Quality
+related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.802
+- slug: user-trust-erosion
+  similarity: 0.622
+- slug: user-confusion
+  similarity: 0.584
+- slug: negative-user-feedback
+  similarity: 0.573
+- slug: negative-brand-perception
+  similarity: 0.572
 layout: problem
 ---
 

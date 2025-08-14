@@ -1,8 +1,22 @@
 ---
-title: "Unclear Documentation Ownership"
-description: "No clear responsibility for maintaining documentation leads to outdated, inconsistent, or missing information."
-category: ['Documentation', 'Process', 'Responsibility']
-related_problems: ['poor-documentation', 'knowledge-silos', 'lack-of-accountability']
+title: Unclear Documentation Ownership
+description: No clear responsibility for maintaining documentation leads to outdated,
+  inconsistent, or missing information.
+category:
+- Documentation
+- Process
+- Responsibility
+related_problems:
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.706
+- slug: information-decay
+  similarity: 0.563
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.558
+- slug: poor-documentation
+  similarity: 0.528
+- slug: team-confusion
+  similarity: 0.506
 layout: problem
 ---
 

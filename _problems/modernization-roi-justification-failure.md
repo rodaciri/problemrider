@@ -1,8 +1,22 @@
 ---
-title: "Modernization ROI Justification Failure"
-description: "Unable to build compelling business cases for legacy modernization due to hidden technical debt and unclear benefit quantification"
-category: ['Strategic', 'Business', 'Financial']
-related_problems: [high-technical-debt, modernization-strategy-paralysis, unclear-goals-and-priorities]
+title: Modernization ROI Justification Failure
+description: Unable to build compelling business cases for legacy modernization due
+  to hidden technical debt and unclear benefit quantification
+category:
+- Strategic
+- Business
+- Financial
+related_problems:
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.646
+- slug: modernization-strategy-paralysis
+  similarity: 0.599
+- slug: difficulty-quantifying-benefits
+  similarity: 0.554
+- slug: legacy-skill-shortage
+  similarity: 0.552
+- slug: high-maintenance-costs
+  similarity: 0.54
 layout: problem
 ---
 

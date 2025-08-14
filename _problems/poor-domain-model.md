@@ -1,8 +1,20 @@
 ---
-title: "Poor Domain Model"
-description: "Core business concepts are poorly understood or reflected in the system, leading to fragile logic and miscommunication"
-category: ['Design', 'Communication', 'Technical']
-related_problems: [misaligned-deliverables, stakeholder-developer-communication-gap, complex-and-obscure-logic]
+title: Poor Domain Model
+description: Core business concepts are poorly understood or reflected in the system,
+  leading to fragile logic and miscommunication
+category:
+- Design
+- Communication
+- Technical
+related_problems:
+- slug: complex-domain-model
+  similarity: 0.701
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.644
+- slug: inadequate-requirements-gathering
+  similarity: 0.524
+- slug: complex-implementation-paths
+  similarity: 0.514
 layout: problem
 ---
 

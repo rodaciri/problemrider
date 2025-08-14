@@ -1,8 +1,13 @@
 ---
-title: "Unproductive Meetings"
-description: "Meetings that consume significant time but yield little progress or concrete decisions."
-category: ['Process', 'Communication']
-related_problems: ['bikeshedding']
+title: Unproductive Meetings
+description: Meetings that consume significant time but yield little progress or concrete
+  decisions.
+category:
+- Process
+- Communication
+related_problems:
+- slug: inefficient-processes
+  similarity: 0.544
 layout: problem
 ---
 

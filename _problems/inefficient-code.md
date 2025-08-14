@@ -1,8 +1,20 @@
 ---
-title: "Inefficient Code"
-description: "The code responsible for handling a request is computationally expensive or contains performance bottlenecks."
-category: ['Performance']
-related_problems: ['high-resource-utilization-on-client']
+title: Inefficient Code
+description: The code responsible for handling a request is computationally expensive
+  or contains performance bottlenecks.
+category:
+- Performance
+related_problems:
+- slug: high-api-latency
+  similarity: 0.65
+- slug: slow-application-performance
+  similarity: 0.631
+- slug: poor-caching-strategy
+  similarity: 0.582
+- slug: resource-contention
+  similarity: 0.581
+- slug: algorithmic-complexity-problems
+  similarity: 0.565
 layout: problem
 ---
 

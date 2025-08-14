@@ -1,8 +1,21 @@
 ---
-title: "Growing Task Queues"
-description: "Asynchronous processing queues accumulate unprocessed tasks, indicating a bottleneck in the processing pipeline."
-category: ['Performance', 'Stability']
-related_problems: ['external-service-delays', 'high-database-resource-utilization']
+title: Growing Task Queues
+description: Asynchronous processing queues accumulate unprocessed tasks, indicating
+  a bottleneck in the processing pipeline.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: task-queues-backing-up
+  similarity: 0.855
+- slug: insufficient-worker-capacity
+  similarity: 0.84
+- slug: work-queue-buildup
+  similarity: 0.671
+- slug: capacity-mismatch
+  similarity: 0.594
+- slug: thread-pool-exhaustion
+  similarity: 0.567
 layout: problem
 ---
 

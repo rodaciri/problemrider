@@ -1,8 +1,22 @@
 ---
-title: "Deadline Pressure"
-description: "Intense pressure to meet deadlines leads to rushed decisions, shortcuts, and compromised quality in software development."
-category: ['Process', 'Management', 'Quality']
-related_problems: ['time-pressure', 'increased-technical-shortcuts', 'unrealistic-schedule']
+title: Deadline Pressure
+description: Intense pressure to meet deadlines leads to rushed decisions, shortcuts,
+  and compromised quality in software development.
+category:
+- Process
+- Management
+- Quality
+related_problems:
+- slug: time-pressure
+  similarity: 0.791
+- slug: unrealistic-deadlines
+  similarity: 0.712
+- slug: missed-deadlines
+  similarity: 0.677
+- slug: development-disruption
+  similarity: 0.673
+- slug: delayed-decision-making
+  similarity: 0.667
 layout: problem
 ---
 

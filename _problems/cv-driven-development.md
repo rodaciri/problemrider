@@ -1,8 +1,14 @@
 ---
-title: "CV Driven Development"
-description: "Choosing technologies or practices primarily to enhance personal resumes rather than solve business problems"
-category: ['Process', 'Technical', 'Communication']
-related_problems: ['cargo-culting', 'high-technical-debt', 'complex-and-obscure-logic', 'maintenance-overhead']
+title: CV Driven Development
+description: Choosing technologies or practices primarily to enhance personal resumes
+  rather than solve business problems
+category:
+- Process
+- Technical
+- Communication
+related_problems:
+- slug: premature-technology-introduction
+  similarity: 0.553
 layout: problem
 ---
 

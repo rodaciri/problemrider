@@ -1,8 +1,21 @@
 ---
-title: "Inadequate Onboarding"
-description: "New users struggle to understand how to use the application, leading to early abandonment."
-category: ['Business', 'User Experience']
-related_problems: ['negative-user-feedback', 'business-level-impact']
+title: Inadequate Onboarding
+description: New users struggle to understand how to use the application, leading
+  to early abandonment.
+category:
+- Business
+- User Experience
+related_problems:
+- slug: declining-business-metrics
+  similarity: 0.571
+- slug: difficult-developer-onboarding
+  similarity: 0.558
+- slug: high-turnover
+  similarity: 0.55
+- slug: poor-user-experience-ux-design
+  similarity: 0.528
+- slug: feature-gaps
+  similarity: 0.503
 layout: problem
 ---
 

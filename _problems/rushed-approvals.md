@@ -1,8 +1,22 @@
 ---
-title: "Rushed Approvals"
-description: "Pull requests are approved quickly without thorough examination due to time pressure or process issues."
-category: ['Process', 'Quality', 'Culture']
-related_problems: ['superficial-code-reviews', 'inadequate-code-reviews', 'time-pressure']
+title: Rushed Approvals
+description: Pull requests are approved quickly without thorough examination due to
+  time pressure or process issues.
+category:
+- Process
+- Quality
+- Culture
+related_problems:
+- slug: large-pull-requests
+  similarity: 0.77
+- slug: review-bottlenecks
+  similarity: 0.708
+- slug: insufficient-code-review
+  similarity: 0.606
+- slug: extended-review-cycles
+  similarity: 0.595
+- slug: reduced-code-submission-frequency
+  similarity: 0.579
 layout: problem
 ---
 

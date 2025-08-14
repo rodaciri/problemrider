@@ -1,8 +1,22 @@
 ---
-title: "Reduced Team Productivity"
-description: "The overall output and effectiveness of the development team decreases due to various systemic issues and inefficiencies."
-category: ['Team Dynamics', 'Process', 'Performance']
-related_problems: ['slow-development-velocity', 'context-switching-overhead', 'knowledge-sharing-breakdown']
+title: Reduced Team Productivity
+description: The overall output and effectiveness of the development team decreases
+  due to various systemic issues and inefficiencies.
+category:
+- Team Dynamics
+- Process
+- Performance
+related_problems:
+- slug: slow-development-velocity
+  similarity: 0.764
+- slug: reduced-individual-productivity
+  similarity: 0.739
+- slug: missed-deadlines
+  similarity: 0.674
+- slug: inefficient-processes
+  similarity: 0.65
+- slug: bottleneck-formation
+  similarity: 0.647
 layout: problem
 ---
 

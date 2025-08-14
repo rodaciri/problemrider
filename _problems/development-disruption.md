@@ -1,8 +1,21 @@
 ---
-title: "Development Disruption"
-description: "The development team is constantly interrupted by urgent production issues, which disrupts planned work and reduces overall productivity."
-category: ['Process', 'Maintenance']
-related_problems: ['constant-firefighting', 'context-switching-overhead', 'slow-development-velocity']
+title: Development Disruption
+description: The development team is constantly interrupted by urgent production issues,
+  which disrupts planned work and reduces overall productivity.
+category:
+- Process
+- Maintenance
+related_problems:
+- slug: constant-firefighting
+  similarity: 0.743
+- slug: deadline-pressure
+  similarity: 0.673
+- slug: constantly-shifting-deadlines
+  similarity: 0.66
+- slug: wasted-development-effort
+  similarity: 0.65
+- slug: inability-to-innovate
+  similarity: 0.644
 layout: problem
 ---
 

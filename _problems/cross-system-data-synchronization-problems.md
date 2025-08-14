@@ -1,8 +1,22 @@
 ---
-title: "Cross-System Data Synchronization Problems"
-description: "Maintaining data consistency between legacy and modern systems during migration creates complex synchronization challenges and potential data corruption"
-category: ['Technical', 'Data Management', 'Integration']
-related_problems: [data-migration-integrity-issues, poor-interfaces-between-applications, strangler-fig-pattern-failures]
+title: Cross-System Data Synchronization Problems
+description: Maintaining data consistency between legacy and modern systems during
+  migration creates complex synchronization challenges and potential data corruption
+category:
+- Technical
+- Data Management
+- Integration
+related_problems:
+- slug: data-migration-integrity-issues
+  similarity: 0.735
+- slug: data-migration-complexities
+  similarity: 0.647
+- slug: poor-interfaces-between-applications
+  similarity: 0.636
+- slug: regulatory-compliance-drift
+  similarity: 0.557
+- slug: synchronization-problems
+  similarity: 0.555
 layout: problem
 ---
 

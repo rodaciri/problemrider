@@ -1,8 +1,22 @@
 ---
-title: "Legacy Skill Shortage"
-description: "Critical shortage of developers with knowledge of legacy technologies creates bottlenecks and single points of failure for system maintenance"
-category: ['Organizational', 'Skills', 'Risk Management']
-related_problems: ['knowledge-gaps', 'high-turnover', 'legacy-system-documentation-archaeology']
+title: Legacy Skill Shortage
+description: Critical shortage of developers with knowledge of legacy technologies
+  creates bottlenecks and single points of failure for system maintenance
+category:
+- Organizational
+- Skills
+- Risk Management
+related_problems:
+- slug: obsolete-technologies
+  similarity: 0.615
+- slug: vendor-dependency-entrapment
+  similarity: 0.612
+- slug: modernization-roi-justification-failure
+  similarity: 0.552
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.543
+- slug: high-turnover
+  similarity: 0.528
 layout: problem
 ---
 

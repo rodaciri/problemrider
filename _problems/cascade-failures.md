@@ -1,8 +1,22 @@
 ---
-title: "Cascade Failures"
-description: "A single change triggers a chain reaction of failures across multiple system components."
-category: ['Technical', 'Design', 'Performance']
-related_problems: ['unpredictable-system-behavior', 'high-coupling-low-cohesion', 'brittle-codebase']
+title: Cascade Failures
+description: A single change triggers a chain reaction of failures across multiple
+  system components.
+category:
+- Technical
+- Design
+- Performance
+related_problems:
+- slug: single-points-of-failure
+  similarity: 0.589
+- slug: poor-system-environment
+  similarity: 0.588
+- slug: inadequate-integration-tests
+  similarity: 0.539
+- slug: change-management-chaos
+  similarity: 0.533
+- slug: increasing-brittleness
+  similarity: 0.521
 layout: problem
 ---
 

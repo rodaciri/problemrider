@@ -1,8 +1,22 @@
 ---
-title: "Team Dysfunction"
-description: "Team members work in isolation, resist collaboration, or lack mutual respect, reducing overall effectiveness."
-category: ['Team Dynamics', 'Communication', 'Culture']
-related_problems: ['team-silos', 'poor-communication', 'knowledge-sharing-breakdown']
+title: Team Dysfunction
+description: Team members work in isolation, resist collaboration, or lack mutual
+  respect, reducing overall effectiveness.
+category:
+- Team Dynamics
+- Communication
+- Culture
+related_problems:
+- slug: team-dysfunction
+  similarity: 0.87
+- slug: communication-breakdown
+  similarity: 0.722
+- slug: poor-communication
+  similarity: 0.666
+- slug: inappropriate-skillset
+  similarity: 0.634
+- slug: skill-development-gaps
+  similarity: 0.629
 layout: problem
 ---
 

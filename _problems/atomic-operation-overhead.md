@@ -1,8 +1,22 @@
 ---
-title: "Atomic Operation Overhead"
-description: "Excessive use of atomic operations creates performance bottlenecks due to memory synchronization overhead and cache coherency traffic."
-category: ['Performance', 'Technical', 'Design']
-related_problems: ['lock-contention', 'false-sharing', 'memory-barrier-inefficiency']
+title: Atomic Operation Overhead
+description: Excessive use of atomic operations creates performance bottlenecks due
+  to memory synchronization overhead and cache coherency traffic.
+category:
+- Performance
+- Technical
+- Design
+related_problems:
+- slug: false-sharing
+  similarity: 0.697
+- slug: memory-barrier-inefficiency
+  similarity: 0.648
+- slug: lock-contention
+  similarity: 0.629
+- slug: interrupt-overhead
+  similarity: 0.592
+- slug: garbage-collection-pressure
+  similarity: 0.54
 layout: problem
 ---
 

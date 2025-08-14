@@ -1,8 +1,12 @@
 ---
-title: "Shared Database"
-description: "A situation where multiple services or components share a single database."
-category: ['Architecture', 'Data']
-related_problems: ['deployment-coupling', 'scaling-inefficiencies', 'tight-coupling-issues']
+title: Shared Database
+description: A situation where multiple services or components share a single database.
+category:
+- Architecture
+- Data
+related_problems:
+- slug: shared-dependencies
+  similarity: 0.567
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Communication Risk Outside Project"
-description: "External stakeholders are left uninformed, leading to surprises and misaligned expectations about project progress."
-category: ['Communication', 'Stakeholder Management', 'Process']
-related_problems: ['stakeholder-confidence-loss', 'misaligned-deliverables', 'unclear-goals-and-priorities']
+title: Communication Risk Outside Project
+description: External stakeholders are left uninformed, leading to surprises and misaligned
+  expectations about project progress.
+category:
+- Communication
+- Stakeholder Management
+- Process
+related_problems:
+- slug: communication-risk-within-project
+  similarity: 0.728
+- slug: stakeholder-confidence-loss
+  similarity: 0.653
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.65
+- slug: stakeholder-frustration
+  similarity: 0.599
+- slug: stakeholder-dissatisfaction
+  similarity: 0.598
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Database Connection Leaks"
-description: "Database connections are opened but not properly closed, leading to connection pool exhaustion and application failures."
-category: ['Technical', 'Database', 'Resource Management']
-related_problems: ['resource-allocation-failures', 'service-timeouts', 'resource-contention', 'misconfigured-connection-pools', 'high-database-resource-utilization']
+title: Database Connection Leaks
+description: Database connections are opened but not properly closed, leading to connection
+  pool exhaustion and application failures.
+category:
+- Technical
+- Database
+- Resource Management
+related_problems:
+- slug: incorrect-max-connection-pool-size
+  similarity: 0.789
+- slug: misconfigured-connection-pools
+  similarity: 0.73
+- slug: high-connection-count
+  similarity: 0.729
+- slug: resource-allocation-failures
+  similarity: 0.725
+- slug: unreleased-resources
+  similarity: 0.694
 layout: problem
 ---
 

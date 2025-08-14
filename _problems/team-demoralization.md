@@ -1,8 +1,22 @@
 ---
-title: "Team Demoralization"
-description: "Team members lose motivation, confidence, and enthusiasm for their work due to persistent problems or organizational issues."
-category: ['Team Dynamics', 'Culture', 'Management']
-related_problems: ['developer-frustration-and-burnout', 'high-turnover', 'reduced-team-productivity']
+title: Team Demoralization
+description: Team members lose motivation, confidence, and enthusiasm for their work
+  due to persistent problems or organizational issues.
+category:
+- Team Dynamics
+- Culture
+- Management
+related_problems:
+- slug: unmotivated-employees
+  similarity: 0.646
+- slug: team-dysfunction
+  similarity: 0.597
+- slug: poor-teamwork
+  similarity: 0.588
+- slug: release-anxiety
+  similarity: 0.539
+- slug: developer-frustration-and-burnout
+  similarity: 0.538
 layout: problem
 ---
 

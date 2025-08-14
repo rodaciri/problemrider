@@ -1,8 +1,22 @@
 ---
-title: "Context Switching Overhead"
-description: "Developers must constantly switch between different tools, systems, or problem domains, reducing productivity and increasing cognitive load."
-category: ['Process', 'Development Experience', 'Productivity']
-related_problems: ['slow-development-velocity', 'developer-frustration-and-burnout', 'increased-cognitive-load', 'constant-firefighting']
+title: Context Switching Overhead
+description: Developers must constantly switch between different tools, systems, or
+  problem domains, reducing productivity and increasing cognitive load.
+category:
+- Process
+- Development Experience
+- Productivity
+related_problems:
+- slug: increased-manual-work
+  similarity: 0.65
+- slug: maintenance-overhead
+  similarity: 0.647
+- slug: development-disruption
+  similarity: 0.614
+- slug: inefficient-processes
+  similarity: 0.613
+- slug: inefficient-development-environment
+  similarity: 0.612
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Scope Creep"
-description: "Project requirements expand continuously without proper control or impact analysis, threatening timelines, budgets, and the original objectives."
-category: ['Process', 'Project Management', 'Requirements']
-related_problems: ['no-formal-change-control-process', 'missed-deadlines', 'time-pressure', 'constantly-shifting-deadlines', 'budget-overruns']
+title: Scope Creep
+description: Project requirements expand continuously without proper control or impact
+  analysis, threatening timelines, budgets, and the original objectives.
+category:
+- Process
+- Project Management
+- Requirements
+related_problems:
+- slug: no-formal-change-control-process
+  similarity: 0.795
+- slug: changing-project-scope
+  similarity: 0.761
+- slug: scope-change-resistance
+  similarity: 0.724
+- slug: frequent-changes-to-requirements
+  similarity: 0.716
+- slug: feature-creep
+  similarity: 0.686
 layout: problem
 ---
 

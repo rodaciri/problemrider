@@ -1,8 +1,22 @@
 ---
-title: "Duplicated Effort"
-description: "Multiple team members unknowingly work on the same problems or implement similar solutions independently."
-category: ['Team Coordination', 'Efficiency', 'Communication']
-related_problems: ['team-confusion', 'poor-communication', 'knowledge-silos']
+title: Duplicated Effort
+description: Multiple team members unknowingly work on the same problems or implement
+  similar solutions independently.
+category:
+- Team Coordination
+- Efficiency
+- Communication
+related_problems:
+- slug: duplicated-work
+  similarity: 0.894
+- slug: duplicated-research-effort
+  similarity: 0.799
+- slug: team-coordination-issues
+  similarity: 0.713
+- slug: partial-bug-fixes
+  similarity: 0.623
+- slug: merge-conflicts
+  similarity: 0.604
 layout: problem
 ---
 

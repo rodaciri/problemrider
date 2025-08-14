@@ -1,8 +1,22 @@
 ---
-title: "Planning Credibility Issues"
-description: "Future estimates and plans are questioned or ignored due to history of inaccurate predictions and missed commitments."
-category: ['Process', 'Organizational', 'Trust']
-related_problems: ['missed-deadlines', 'poor-planning', 'unrealistic-deadlines']
+title: Planning Credibility Issues
+description: Future estimates and plans are questioned or ignored due to history of
+  inaccurate predictions and missed commitments.
+category:
+- Process
+- Organizational
+- Trust
+related_problems:
+- slug: planning-dysfunction
+  similarity: 0.701
+- slug: poor-planning
+  similarity: 0.698
+- slug: stakeholder-confidence-loss
+  similarity: 0.697
+- slug: unrealistic-schedule
+  similarity: 0.683
+- slug: reduced-predictability
+  similarity: 0.663
 layout: problem
 ---
 

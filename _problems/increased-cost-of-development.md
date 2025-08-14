@@ -1,8 +1,22 @@
 ---
-title: "Increased Cost of Development"
-description: "The cost of fixing bugs and maintaining poor code is significantly higher than preventing issues initially."
-category: ['Business', 'Process', 'Quality']
-related_problems: ['high-bug-introduction-rate', 'high-technical-debt', 'brittle-codebase']
+title: Increased Cost of Development
+description: The cost of fixing bugs and maintaining poor code is significantly higher
+  than preventing issues initially.
+category:
+- Business
+- Process
+- Quality
+related_problems:
+- slug: maintenance-cost-increase
+  similarity: 0.713
+- slug: high-maintenance-costs
+  similarity: 0.707
+- slug: high-defect-rate-in-production
+  similarity: 0.699
+- slug: large-estimates-for-small-changes
+  similarity: 0.691
+- slug: increased-risk-of-bugs
+  similarity: 0.687
 layout: problem
 ---
 

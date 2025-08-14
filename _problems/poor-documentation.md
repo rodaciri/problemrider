@@ -1,8 +1,22 @@
 ---
-title: "Information Decay"
-description: "System documentation is outdated, incomplete, inaccurate, or difficult to find and use effectively."
-category: ['Documentation', 'Knowledge Management', 'Maintainability']
-related_problems: ['knowledge-silos', 'slow-knowledge-transfer', 'difficult-code-comprehension']
+title: Information Decay
+description: System documentation is outdated, incomplete, inaccurate, or difficult
+  to find and use effectively.
+category:
+- Documentation
+- Knowledge Management
+- Maintainability
+related_problems:
+- slug: information-decay
+  similarity: 0.848
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.615
+- slug: unclear-documentation-ownership
+  similarity: 0.528
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.502
+- slug: information-fragmentation
+  similarity: 0.5
 layout: problem
 ---
 

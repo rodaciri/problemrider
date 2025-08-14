@@ -1,8 +1,22 @@
 ---
-title: "Dependency on Supplier"
-description: "External vendors control critical parts of the system, reducing organizational flexibility and increasing lock-in risk."
-category: ['Vendor Management', 'Risk Management', 'Architecture']
-related_problems: ['vendor-dependency-entrapment', 'single-points-of-failure', 'technology-lock-in']
+title: Dependency on Supplier
+description: External vendors control critical parts of the system, reducing organizational
+  flexibility and increasing lock-in risk.
+category:
+- Vendor Management
+- Risk Management
+- Architecture
+related_problems:
+- slug: vendor-dependency
+  similarity: 0.854
+- slug: vendor-dependency-entrapment
+  similarity: 0.688
+- slug: vendor-relationship-strain
+  similarity: 0.682
+- slug: vendor-lock-in
+  similarity: 0.612
+- slug: market-pressure
+  similarity: 0.532
 layout: problem
 ---
 

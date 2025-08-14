@@ -1,8 +1,13 @@
 ---
-title: "Authorization Flaws"
-description: "Inadequate access control mechanisms allow users to perform actions or access resources beyond their intended permissions."
-category: ['Security', 'Technical']
-related_problems: ['authentication-bypass-vulnerabilities']
+title: Authorization Flaws
+description: Inadequate access control mechanisms allow users to perform actions or
+  access resources beyond their intended permissions.
+category:
+- Security
+- Technical
+related_problems:
+- slug: authentication-bypass-vulnerabilities
+  similarity: 0.569
 layout: problem
 ---
 

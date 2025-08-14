@@ -1,8 +1,21 @@
 ---
-title: "Review Bottlenecks"
-description: "The code review process becomes a significant bottleneck, delaying the delivery of new features and bug fixes."
-category: ['Process', 'Team Dynamics']
-related_problems: ['large-pull-requests', 'inadequate-code-reviews', 'slow-development-velocity']
+title: Review Bottlenecks
+description: The code review process becomes a significant bottleneck, delaying the
+  delivery of new features and bug fixes.
+category:
+- Process
+- Team Dynamics
+related_problems:
+- slug: large-pull-requests
+  similarity: 0.775
+- slug: code-review-inefficiency
+  similarity: 0.73
+- slug: rushed-approvals
+  similarity: 0.708
+- slug: inadequate-code-reviews
+  similarity: 0.697
+- slug: reduced-code-submission-frequency
+  similarity: 0.672
 layout: problem
 ---
 

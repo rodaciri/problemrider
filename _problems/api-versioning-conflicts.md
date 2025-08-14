@@ -1,8 +1,22 @@
 ---
-title: "API Versioning Conflicts"
-description: "Inconsistent or poorly managed API versioning creates compatibility issues, breaking changes, and integration failures between services."
-category: ['Integration', 'Design', 'Maintenance']
-related_problems: ['integration-difficulties', 'breaking-changes', 'vendor-dependency', 'deployment-coupling']
+title: API Versioning Conflicts
+description: Inconsistent or poorly managed API versioning creates compatibility issues,
+  breaking changes, and integration failures between services.
+category:
+- Integration
+- Design
+- Maintenance
+related_problems:
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.805
+- slug: breaking-changes
+  similarity: 0.707
+- slug: dependency-version-conflicts
+  similarity: 0.694
+- slug: poor-interfaces-between-applications
+  similarity: 0.571
+- slug: rapid-system-changes
+  similarity: 0.533
 layout: problem
 ---
 

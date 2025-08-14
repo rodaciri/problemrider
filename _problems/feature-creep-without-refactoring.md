@@ -1,8 +1,22 @@
 ---
-title: "Feature Creep Without Refactoring"
-description: "The continuous addition of new features to a codebase without taking the time to refactor and improve the design."
-category: ['Code Quality', 'Maintenance', 'Process']
-related_problems: ['bloated-class', 'god-object-anti-pattern', 'high-technical-debt']
+title: Feature Creep Without Refactoring
+description: The continuous addition of new features to a codebase without taking
+  the time to refactor and improve the design.
+category:
+- Code Quality
+- Maintenance
+- Process
+related_problems:
+- slug: feature-creep
+  similarity: 0.838
+- slug: brittle-codebase
+  similarity: 0.662
+- slug: slow-feature-development
+  similarity: 0.659
+- slug: uncontrolled-codebase-growth
+  similarity: 0.633
+- slug: scope-creep
+  similarity: 0.625
 layout: problem
 ---
 

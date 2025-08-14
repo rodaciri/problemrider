@@ -1,8 +1,22 @@
 ---
-title: "Reviewer Anxiety"
-description: "Team members feel uncertain and anxious about conducting code reviews, leading to avoidance or superficial review practices."
-category: ['Team Dynamics', 'Process', 'Workplace Health']  
-related_problems: ['code-review-inefficiency', 'reviewer-inexperience', 'code-review-inefficiency']
+title: Reviewer Anxiety
+description: Team members feel uncertain and anxious about conducting code reviews,
+  leading to avoidance or superficial review practices.
+category:
+- Team Dynamics
+- Process
+- Workplace Health
+related_problems:
+- slug: reviewer-inexperience
+  similarity: 0.769
+- slug: reduced-review-participation
+  similarity: 0.739
+- slug: fear-of-conflict
+  similarity: 0.723
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.7
+- slug: author-frustration
+  similarity: 0.693
 layout: problem
 ---
 

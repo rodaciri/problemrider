@@ -1,8 +1,21 @@
 ---
-title: "Feedback Isolation"
-description: "Stakeholders are not involved throughout the development process, and feedback is only gathered at the very end, leading to misaligned deliverables."
-category: ['Process', 'Communication']
-related_problems: ['misaligned-deliverables', 'stakeholder-developer-communication-gap']
+title: Feedback Isolation
+description: Stakeholders are not involved throughout the development process, and
+  feedback is only gathered at the very end, leading to misaligned deliverables.
+category:
+- Process
+- Communication
+related_problems:
+- slug: feedback-isolation
+  similarity: 0.876
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.697
+- slug: misaligned-deliverables
+  similarity: 0.592
+- slug: poor-communication
+  similarity: 0.53
+- slug: communication-risk-outside-project
+  similarity: 0.526
 layout: problem
 ---
 

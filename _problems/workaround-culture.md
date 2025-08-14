@@ -1,8 +1,22 @@
 ---
-title: "Workaround Culture"
-description: "Teams implement increasingly complex workarounds rather than fixing root issues, creating layers of technical debt."
-category: ['Process', 'Culture', 'Maintenance']
-related_problems: ['maintenance-paralysis', 'high-technical-debt', 'fear-of-change']
+title: Workaround Culture
+description: Teams implement increasingly complex workarounds rather than fixing root
+  issues, creating layers of technical debt.
+category:
+- Process
+- Culture
+- Maintenance
+related_problems:
+- slug: accumulation-of-workarounds
+  similarity: 0.75
+- slug: maintenance-paralysis
+  similarity: 0.628
+- slug: increased-technical-shortcuts
+  similarity: 0.627
+- slug: delayed-bug-fixes
+  similarity: 0.598
+- slug: resistance-to-change
+  similarity: 0.579
 layout: problem
 ---
 

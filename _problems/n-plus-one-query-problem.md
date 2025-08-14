@@ -1,8 +1,22 @@
 ---
-title: "N+1 Query Problem"
-description: "An application makes numerous unnecessary database calls to fetch related data where a single, more efficient query would suffice, causing significant performance degradation."
-category: ['Performance', 'Database']
-related_problems: ['slow-database-queries', 'high-database-resource-utilization', 'slow-application-performance']
+title: N+1 Query Problem
+description: An application makes numerous unnecessary database calls to fetch related
+  data where a single, more efficient query would suffice, causing significant performance
+  degradation.
+category:
+- Performance
+- Database
+related_problems:
+- slug: slow-response-times-for-lists
+  similarity: 0.734
+- slug: high-number-of-database-queries
+  similarity: 0.71
+- slug: slow-database-queries
+  similarity: 0.65
+- slug: poor-caching-strategy
+  similarity: 0.617
+- slug: database-query-performance-issues
+  similarity: 0.611
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Unreleased Resources"
-description: "Objects, connections, file handles, or other system resources are allocated but never properly deallocated or closed."
-category: ['Technical', 'Performance', 'Maintenance']
-related_problems: ['memory-leaks', 'gradual-performance-degradation', 'high-resource-utilization-on-client']
+title: Unreleased Resources
+description: Objects, connections, file handles, or other system resources are allocated
+  but never properly deallocated or closed.
+category:
+- Technical
+- Performance
+- Maintenance
+related_problems:
+- slug: resource-allocation-failures
+  similarity: 0.853
+- slug: database-connection-leaks
+  similarity: 0.694
+- slug: gradual-performance-degradation
+  similarity: 0.655
+- slug: memory-leaks
+  similarity: 0.642
+- slug: unbounded-data-growth
+  similarity: 0.625
 layout: problem
 ---
 

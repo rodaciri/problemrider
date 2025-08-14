@@ -1,8 +1,22 @@
 ---
-title: "Work Blocking"
-description: "Development tasks cannot proceed without pending approvals, creating bottlenecks and delays in the development process."
-category: ['Process', 'Workflow', 'Management']
-related_problems: ['approval-dependencies', 'slow-development-velocity', 'developer-frustration-and-burnout']
+title: Work Blocking
+description: Development tasks cannot proceed without pending approvals, creating
+  bottlenecks and delays in the development process.
+category:
+- Process
+- Workflow
+- Management
+related_problems:
+- slug: approval-dependencies
+  similarity: 0.713
+- slug: delayed-decision-making
+  similarity: 0.679
+- slug: bottleneck-formation
+  similarity: 0.651
+- slug: work-queue-buildup
+  similarity: 0.616
+- slug: cascade-delays
+  similarity: 0.608
 layout: problem
 ---
 

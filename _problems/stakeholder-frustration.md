@@ -1,8 +1,22 @@
 ---
-title: "Stakeholder Frustration"
-description: "Business stakeholders become frustrated with development progress, quality, or communication, leading to strained relationships and reduced support."
-category: ['Business', 'Communication', 'Management']
-related_problems: ['stakeholder-confidence-loss', 'poor-communication', 'missed-deadlines']
+title: Stakeholder Frustration
+description: Business stakeholders become frustrated with development progress, quality,
+  or communication, leading to strained relationships and reduced support.
+category:
+- Business
+- Communication
+- Management
+related_problems:
+- slug: stakeholder-dissatisfaction
+  similarity: 0.908
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.71
+- slug: stakeholder-confidence-loss
+  similarity: 0.695
+- slug: communication-risk-outside-project
+  similarity: 0.599
+- slug: eager-to-please-stakeholders
+  similarity: 0.587
 layout: problem
 ---
 

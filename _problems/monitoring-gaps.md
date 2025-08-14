@@ -1,8 +1,23 @@
 ---
-title: "Monitoring Gaps"
-description: "Insufficient production monitoring and observability make it difficult to detect and diagnose issues in a timely manner, leading to longer outages and more severe consequences."
-category: ['Process', 'Quality', 'Maintenance']
-related_problems: ['unpredictable-system-behavior', 'debugging-difficulties', 'slow-application-performance']
+title: Monitoring Gaps
+description: Insufficient production monitoring and observability make it difficult
+  to detect and diagnose issues in a timely manner, leading to longer outages and
+  more severe consequences.
+category:
+- Process
+- Quality
+- Maintenance
+related_problems:
+- slug: system-outages
+  similarity: 0.611
+- slug: poor-system-environment
+  similarity: 0.562
+- slug: customer-dissatisfaction
+  similarity: 0.56
+- slug: service-timeouts
+  similarity: 0.54
+- slug: increased-error-rates
+  similarity: 0.54
 layout: problem
 ---
 

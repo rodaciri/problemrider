@@ -1,8 +1,22 @@
 ---
-title: "Process Design Flaws"
-description: "Development processes are poorly designed, creating inefficiencies, bottlenecks, and obstacles to productive work."
-category: ['Process', 'Design', 'Efficiency']
-related_problems: ['bottleneck-formation', 'inefficient-processes', 'operational-overhead']
+title: Process Design Flaws
+description: Development processes are poorly designed, creating inefficiencies, bottlenecks,
+  and obstacles to productive work.
+category:
+- Process
+- Design
+- Efficiency
+related_problems:
+- slug: inefficient-processes
+  similarity: 0.671
+- slug: tool-limitations
+  similarity: 0.595
+- slug: inconsistent-execution
+  similarity: 0.59
+- slug: review-process-breakdown
+  similarity: 0.576
+- slug: wasted-development-effort
+  similarity: 0.569
 layout: problem
 ---
 

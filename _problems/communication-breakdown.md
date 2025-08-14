@@ -1,8 +1,22 @@
 ---
-title: "Communication Breakdown"
-description: "Team members fail to effectively share information, coordinate work, or collaborate, leading to duplicated effort and misaligned solutions."
-category: ['Communication', 'Team Dynamics', 'Process']
-related_problems: ['knowledge-silos', 'duplicated-effort', 'team-coordination-issues']
+title: Communication Breakdown
+description: Team members fail to effectively share information, coordinate work,
+  or collaborate, leading to duplicated effort and misaligned solutions.
+category:
+- Communication
+- Team Dynamics
+- Process
+related_problems:
+- slug: poor-communication
+  similarity: 0.87
+- slug: poor-teamwork
+  similarity: 0.722
+- slug: team-dysfunction
+  similarity: 0.716
+- slug: communication-risk-within-project
+  similarity: 0.665
+- slug: team-confusion
+  similarity: 0.651
 layout: problem
 ---
 

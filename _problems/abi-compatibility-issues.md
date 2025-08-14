@@ -1,8 +1,22 @@
 ---
-title: "ABI Compatibility Issues"
-description: "Application Binary Interface incompatibilities between different versions of libraries or system components cause runtime failures or undefined behavior."
-category: ['Technical', 'Integration', 'Dependencies']
-related_problems: ['obsolete-technologies', 'integration-difficulties', 'unpredictable-system-behavior']
+title: ABI Compatibility Issues
+description: Application Binary Interface incompatibilities between different versions
+  of libraries or system components cause runtime failures or undefined behavior.
+category:
+- Technical
+- Integration
+- Dependencies
+related_problems:
+- slug: dependency-version-conflicts
+  similarity: 0.58
+- slug: inadequate-integration-tests
+  similarity: 0.566
+- slug: null-pointer-dereferences
+  similarity: 0.535
+- slug: api-versioning-conflicts
+  similarity: 0.515
+- slug: poor-interfaces-between-applications
+  similarity: 0.503
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Analysis Paralysis"
-description: "Teams become stuck in research phases without moving to implementation, preventing actual progress on development work."
-category: ['Process', 'Team', 'Management']
-related_problems: ['extended-research-time', 'decision-paralysis', 'perfectionist-culture']
+title: Analysis Paralysis
+description: Teams become stuck in research phases without moving to implementation,
+  preventing actual progress on development work.
+category:
+- Process
+- Team
+- Management
+related_problems:
+- slug: extended-research-time
+  similarity: 0.679
+- slug: delayed-decision-making
+  similarity: 0.607
+- slug: deadline-pressure
+  similarity: 0.575
+- slug: poor-planning
+  similarity: 0.563
+- slug: maintenance-paralysis
+  similarity: 0.561
 layout: problem
 ---
 

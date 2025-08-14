@@ -1,8 +1,22 @@
 ---
-title: "Maintenance Bottlenecks"
-description: "A situation where a small number of developers are the only ones who can make changes to a critical part of the system."
-category: ['Team', 'Process', 'Maintenance']
-related_problems: ['knowledge-silos', 'bus-factor', 'developer-frustration-and-burnout']
+title: Maintenance Bottlenecks
+description: A situation where a small number of developers are the only ones who
+  can make changes to a critical part of the system.
+category:
+- Team
+- Process
+- Maintenance
+related_problems:
+- slug: maintenance-overhead
+  similarity: 0.73
+- slug: high-maintenance-costs
+  similarity: 0.707
+- slug: maintenance-cost-increase
+  similarity: 0.682
+- slug: inefficient-development-environment
+  similarity: 0.647
+- slug: maintenance-paralysis
+  similarity: 0.646
 layout: problem
 ---
 

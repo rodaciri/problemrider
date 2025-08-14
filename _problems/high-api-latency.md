@@ -1,8 +1,20 @@
 ---
-title: "High API Latency"
-description: "The time it takes for an API to respond to a request is excessively long, leading to poor application performance and a negative user experience."
-category: ['Performance']
-related_problems: ['slow-database-queries', 'poor-caching-strategy']
+title: High API Latency
+description: The time it takes for an API to respond to a request is excessively long,
+  leading to poor application performance and a negative user experience.
+category:
+- Performance
+related_problems:
+- slug: slow-application-performance
+  similarity: 0.831
+- slug: network-latency
+  similarity: 0.785
+- slug: external-service-delays
+  similarity: 0.779
+- slug: upstream-timeouts
+  similarity: 0.753
+- slug: service-timeouts
+  similarity: 0.693
 layout: problem
 ---
 

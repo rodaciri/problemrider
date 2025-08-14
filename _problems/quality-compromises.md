@@ -1,8 +1,22 @@
 ---
-title: "Quality Compromises"
-description: "Quality standards are deliberately lowered or shortcuts are taken to meet deadlines, budgets, or other constraints, creating long-term problems."
-category: ['Quality', 'Process', 'Decision Making']
-related_problems: ['time-pressure', 'short-term-focus', 'high-technical-debt']
+title: Quality Compromises
+description: Quality standards are deliberately lowered or shortcuts are taken to
+  meet deadlines, budgets, or other constraints, creating long-term problems.
+category:
+- Quality
+- Process
+- Decision Making
+related_problems:
+- slug: lower-code-quality
+  similarity: 0.626
+- slug: deadline-pressure
+  similarity: 0.607
+- slug: reduced-feature-quality
+  similarity: 0.606
+- slug: inadequate-initial-reviews
+  similarity: 0.594
+- slug: code-review-inefficiency
+  similarity: 0.59
 layout: problem
 ---
 

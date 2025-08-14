@@ -1,8 +1,22 @@
 ---
-title: "Change Management Chaos"
-description: "Changes to systems occur without coordination, oversight, or impact assessment, leading to conflicts and unintended consequences."
-category: ['Process', 'Risk Management', 'Coordination']
-related_problems: ['breaking-changes', 'cascade-failures', 'integration-difficulties']
+title: Change Management Chaos
+description: Changes to systems occur without coordination, oversight, or impact assessment,
+  leading to conflicts and unintended consequences.
+category:
+- Process
+- Risk Management
+- Coordination
+related_problems:
+- slug: configuration-chaos
+  similarity: 0.657
+- slug: inadequate-configuration-management
+  similarity: 0.626
+- slug: history-of-failed-changes
+  similarity: 0.619
+- slug: inconsistent-behavior
+  similarity: 0.614
+- slug: unpredictable-system-behavior
+  similarity: 0.612
 layout: problem
 ---
 

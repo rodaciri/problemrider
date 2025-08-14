@@ -1,8 +1,22 @@
 ---
-title: "Superficial Code Reviews"
-description: "Code reviews focus only on surface-level issues like formatting and style while missing important design, logic, or security problems."
-category: ['Process', 'Quality', 'Team Dynamics']
-related_problems: ['reviewer-anxiety', 'inadequate-initial-reviews', 'code-review-inefficiency']
+title: Superficial Code Reviews
+description: Code reviews focus only on surface-level issues like formatting and style
+  while missing important design, logic, or security problems.
+category:
+- Process
+- Quality
+- Team Dynamics
+related_problems:
+- slug: review-process-breakdown
+  similarity: 0.752
+- slug: inadequate-code-reviews
+  similarity: 0.733
+- slug: insufficient-code-review
+  similarity: 0.718
+- slug: code-review-inefficiency
+  similarity: 0.713
+- slug: inadequate-initial-reviews
+  similarity: 0.697
 layout: problem
 ---
 

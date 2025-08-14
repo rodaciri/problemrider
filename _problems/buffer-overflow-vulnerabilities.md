@@ -1,8 +1,21 @@
 ---
-title: "Buffer Overflow Vulnerabilities"
-description: "Programs write data beyond the boundaries of allocated memory buffers, leading to security vulnerabilities and system instability."
-category: ['Security', 'Technical']
-related_problems: ['memory-leaks', 'unpredictable-system-behavior', 'data-protection-risk']
+title: Buffer Overflow Vulnerabilities
+description: Programs write data beyond the boundaries of allocated memory buffers,
+  leading to security vulnerabilities and system instability.
+category:
+- Security
+- Technical
+related_problems:
+- slug: stack-overflow-errors
+  similarity: 0.741
+- slug: null-pointer-dereferences
+  similarity: 0.709
+- slug: error-message-information-disclosure
+  similarity: 0.582
+- slug: integer-overflow-underflow
+  similarity: 0.562
+- slug: memory-fragmentation
+  similarity: 0.549
 layout: problem
 ---
 

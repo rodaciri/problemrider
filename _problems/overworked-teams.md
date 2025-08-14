@@ -1,8 +1,22 @@
 ---
-title: "Overworked Teams"
-description: "High workloads lead to burnout, mistakes, and long-term drops in quality and productivity."
-category: ['Team Dynamics', 'Management', 'Health']
-related_problems: ['developer-frustration-and-burnout', 'high-turnover', 'reduced-code-quality']
+title: Overworked Teams
+description: High workloads lead to burnout, mistakes, and long-term drops in quality
+  and productivity.
+category:
+- Team Dynamics
+- Management
+- Health
+related_problems:
+- slug: increased-stress-and-burnout
+  similarity: 0.807
+- slug: uneven-workload-distribution
+  similarity: 0.625
+- slug: developer-frustration-and-burnout
+  similarity: 0.619
+- slug: deadline-pressure
+  similarity: 0.584
+- slug: unmotivated-employees
+  similarity: 0.574
 layout: problem
 ---
 

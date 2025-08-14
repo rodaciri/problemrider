@@ -1,8 +1,22 @@
 ---
-title: "Duplicated Research Effort"
-description: "Multiple team members research the same topics independently, wasting time and failing to build collective knowledge."
-category: ['Process', 'Team Dynamics', 'Knowledge Management']
-related_problems: ['extended-research-time', 'poor-communication', 'insufficient-knowledge-sharing']
+title: Duplicated Research Effort
+description: Multiple team members research the same topics independently, wasting
+  time and failing to build collective knowledge.
+category:
+- Process
+- Team Dynamics
+- Knowledge Management
+related_problems:
+- slug: duplicated-effort
+  similarity: 0.799
+- slug: duplicated-work
+  similarity: 0.733
+- slug: team-coordination-issues
+  similarity: 0.63
+- slug: slow-knowledge-transfer
+  similarity: 0.594
+- slug: extended-research-time
+  similarity: 0.591
 layout: problem
 ---
 

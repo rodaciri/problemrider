@@ -1,8 +1,22 @@
 ---
-title: "Dependency Version Conflicts"
-description: "Conflicting versions of dependencies cause runtime errors, build failures, and unexpected behavior in applications."
-category: ['Dependencies', 'Build System', 'Configuration']
-related_problems: ['library-compatibility-issues', 'build-system-problems', 'runtime-environment-issues']
+title: Dependency Version Conflicts
+description: Conflicting versions of dependencies cause runtime errors, build failures,
+  and unexpected behavior in applications.
+category:
+- Dependencies
+- Build System
+- Configuration
+related_problems:
+- slug: api-versioning-conflicts
+  similarity: 0.694
+- slug: hidden-dependencies
+  similarity: 0.581
+- slug: abi-compatibility-issues
+  similarity: 0.58
+- slug: shared-dependencies
+  similarity: 0.575
+- slug: unpredictable-system-behavior
+  similarity: 0.564
 layout: problem
 ---
 

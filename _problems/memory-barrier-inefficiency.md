@@ -1,8 +1,22 @@
 ---
-title: "Memory Barrier Inefficiency"
-description: "Excessive or incorrectly placed memory barriers disrupt CPU pipeline optimization and reduce performance in multi-threaded applications."
-category: ['Technical', 'Performance', 'Concurrency']
-related_problems: ['synchronization-problems', 'lock-contention', 'false-sharing']
+title: Memory Barrier Inefficiency
+description: Excessive or incorrectly placed memory barriers disrupt CPU pipeline
+  optimization and reduce performance in multi-threaded applications.
+category:
+- Technical
+- Performance
+- Concurrency
+related_problems:
+- slug: lock-contention
+  similarity: 0.72
+- slug: atomic-operation-overhead
+  similarity: 0.648
+- slug: false-sharing
+  similarity: 0.62
+- slug: race-conditions
+  similarity: 0.541
+- slug: garbage-collection-pressure
+  similarity: 0.535
 layout: problem
 ---
 

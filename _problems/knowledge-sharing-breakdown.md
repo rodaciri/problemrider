@@ -1,8 +1,22 @@
 ---
-title: "Knowledge Sharing Breakdown"
-description: "The process of sharing knowledge and expertise among team members is ineffective, leading to information silos and reduced team learning."
-category: ['Team Dynamics', 'Process', 'Knowledge Management']
-related_problems: ['knowledge-silos', 'poor-communication', 'inadequate-code-reviews']
+title: Knowledge Sharing Breakdown
+description: The process of sharing knowledge and expertise among team members is
+  ineffective, leading to information silos and reduced team learning.
+category:
+- Team Dynamics
+- Process
+- Knowledge Management
+related_problems:
+- slug: knowledge-silos
+  similarity: 0.821
+- slug: team-silos
+  similarity: 0.729
+- slug: tacit-knowledge
+  similarity: 0.694
+- slug: slow-knowledge-transfer
+  similarity: 0.679
+- slug: incomplete-knowledge
+  similarity: 0.635
 layout: problem
 ---
 

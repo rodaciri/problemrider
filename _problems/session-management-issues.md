@@ -1,8 +1,14 @@
 ---
-title: "Session Management Issues"
-description: "Poor session handling creates security vulnerabilities through session hijacking, fixation, or improper lifecycle management."
-category: ['Security', 'Authentication', 'Session Management']
-related_problems: ['authentication-bypass-vulnerabilities', 'cross-site-scripting-vulnerabilities', 'insecure-data-storage']
+title: Session Management Issues
+description: Poor session handling creates security vulnerabilities through session
+  hijacking, fixation, or improper lifecycle management.
+category:
+- Security
+- Authentication
+- Session Management
+related_problems:
+- slug: authentication-bypass-vulnerabilities
+  similarity: 0.506
 layout: problem
 ---
 

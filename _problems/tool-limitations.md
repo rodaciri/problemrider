@@ -1,8 +1,22 @@
 ---
-title: "Tool Limitations"
-description: "Inadequate development tools slow down common tasks and reduce developer productivity and satisfaction."
-category: ['Technical', 'Process', 'Tooling']
-related_problems: ['slow-development-velocity', 'developer-frustration-and-burnout', 'context-switching-overhead']
+title: Tool Limitations
+description: Inadequate development tools slow down common tasks and reduce developer
+  productivity and satisfaction.
+category:
+- Technical
+- Process
+- Tooling
+related_problems:
+- slug: inefficient-development-environment
+  similarity: 0.768
+- slug: inefficient-processes
+  similarity: 0.735
+- slug: slow-development-velocity
+  similarity: 0.67
+- slug: increased-manual-work
+  similarity: 0.654
+- slug: inexperienced-developers
+  similarity: 0.651
 layout: problem
 ---
 

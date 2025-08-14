@@ -1,8 +1,22 @@
 ---
-title: "Extended Cycle Times"
-description: "The time from when work begins until it's completed and delivered becomes much longer than the actual work time required."
-category: ['Process', 'Flow', 'Efficiency']
-related_problems: ['work-queue-buildup', 'bottleneck-formation', 'context-switching-overhead']
+title: Extended Cycle Times
+description: The time from when work begins until it's completed and delivered becomes
+  much longer than the actual work time required.
+category:
+- Process
+- Flow
+- Efficiency
+related_problems:
+- slug: work-queue-buildup
+  similarity: 0.626
+- slug: uneven-work-flow
+  similarity: 0.621
+- slug: reduced-individual-productivity
+  similarity: 0.533
+- slug: unrealistic-schedule
+  similarity: 0.524
+- slug: bottleneck-formation
+  similarity: 0.52
 layout: problem
 ---
 

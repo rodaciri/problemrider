@@ -1,8 +1,21 @@
 ---
-title: "Upstream Timeouts"
-description: "Services that consume an API fail because they do not receive a response within their configured timeout window."
-category: ['Performance', 'Stability']
-related_problems: ['high-api-latency', 'network-latency', 'resource-contention']
+title: Upstream Timeouts
+description: Services that consume an API fail because they do not receive a response
+  within their configured timeout window.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: service-timeouts
+  similarity: 0.861
+- slug: high-api-latency
+  similarity: 0.753
+- slug: network-latency
+  similarity: 0.648
+- slug: external-service-delays
+  similarity: 0.646
+- slug: increased-error-rates
+  similarity: 0.626
 layout: problem
 ---
 

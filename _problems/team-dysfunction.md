@@ -1,8 +1,22 @@
 ---
-title: "Team Dysfunction"
-description: "Team members cannot collaborate effectively due to conflicting goals, interpersonal issues, or structural problems that prevent coordinated effort."
-category: ['Team Dynamics', 'Management', 'Organizational']
-related_problems: ['communication-breakdown', 'blame-culture', 'individual-recognition-culture']
+title: Team Dysfunction
+description: Team members cannot collaborate effectively due to conflicting goals,
+  interpersonal issues, or structural problems that prevent coordinated effort.
+category:
+- Team Dynamics
+- Management
+- Organizational
+related_problems:
+- slug: poor-teamwork
+  similarity: 0.87
+- slug: communication-breakdown
+  similarity: 0.716
+- slug: team-coordination-issues
+  similarity: 0.683
+- slug: poor-communication
+  similarity: 0.652
+- slug: team-confusion
+  similarity: 0.645
 layout: problem
 ---
 

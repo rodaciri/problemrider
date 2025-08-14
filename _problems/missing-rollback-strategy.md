@@ -1,8 +1,20 @@
 ---
-title: "Deployment Risk"
-description: "There's no tested method to undo a deployment if things go wrong, increasing risk"
-category: ['Process', 'Technical', 'Risk Management']
-related_problems: [complex-deployment-process, release-anxiety, frequent-hotfixes-and-rollbacks]
+title: Deployment Risk
+description: There's no tested method to undo a deployment if things go wrong, increasing
+  risk
+category:
+- Process
+- Technical
+- Risk Management
+related_problems:
+- slug: deployment-risk
+  similarity: 0.715
+- slug: large-risky-releases
+  similarity: 0.569
+- slug: inadequate-configuration-management
+  similarity: 0.535
+- slug: data-migration-complexities
+  similarity: 0.51
 layout: problem
 ---
 

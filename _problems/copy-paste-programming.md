@@ -1,8 +1,22 @@
 ---
-title: "Copy-Paste Programming"
-description: "Developers frequently copy and paste code rather than creating reusable components, leading to maintenance nightmares and subtle bugs."
-category: ['Process', 'Quality', 'Maintenance']
-related_problems: ['code-duplication', 'inconsistent-codebase', 'high-technical-debt']
+title: Copy-Paste Programming
+description: Developers frequently copy and paste code rather than creating reusable
+  components, leading to maintenance nightmares and subtle bugs.
+category:
+- Process
+- Quality
+- Maintenance
+related_problems:
+- slug: code-duplication
+  similarity: 0.777
+- slug: accumulation-of-workarounds
+  similarity: 0.572
+- slug: partial-bug-fixes
+  similarity: 0.562
+- slug: inconsistent-codebase
+  similarity: 0.546
+- slug: inconsistent-naming-conventions
+  similarity: 0.533
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Deployment Risk"
-description: "System deployments carry high risk of failure or damage due to irreversible changes and lack of recovery mechanisms."
-category: ['Risk Management', 'Process', 'Operations']
-related_problems: ['release-anxiety', 'system-outages', 'complex-deployment-process']
+title: Deployment Risk
+description: System deployments carry high risk of failure or damage due to irreversible
+  changes and lack of recovery mechanisms.
+category:
+- Risk Management
+- Process
+- Operations
+related_problems:
+- slug: missing-rollback-strategy
+  similarity: 0.715
+- slug: release-anxiety
+  similarity: 0.704
+- slug: large-risky-releases
+  similarity: 0.68
+- slug: manual-deployment-processes
+  similarity: 0.624
+- slug: history-of-failed-changes
+  similarity: 0.593
 layout: problem
 ---
 

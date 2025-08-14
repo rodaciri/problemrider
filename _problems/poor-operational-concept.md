@@ -1,8 +1,22 @@
 ---
-title: "Poor Operational Concept"
-description: "Lack of planning for monitoring, maintenance, or support leads to post-launch instability"
-category: ['Process', 'Operational', 'Planning']
-related_problems: [monitoring-gaps, operational-overhead, release-instability]
+title: Poor Operational Concept
+description: Lack of planning for monitoring, maintenance, or support leads to post-launch
+  instability
+category:
+- Process
+- Operational
+- Planning
+related_problems:
+- slug: inadequate-requirements-gathering
+  similarity: 0.657
+- slug: poor-system-environment
+  similarity: 0.64
+- slug: immature-delivery-strategy
+  similarity: 0.603
+- slug: release-instability
+  similarity: 0.583
+- slug: planning-dysfunction
+  similarity: 0.574
 layout: problem
 ---
 

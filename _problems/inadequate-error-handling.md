@@ -1,8 +1,22 @@
 ---
-title: "Inadequate Error Handling"
-description: "Poor error handling mechanisms fail to gracefully manage exceptions, leading to application crashes and poor user experiences."
-category: ['Error Handling', 'Reliability', 'User Experience']
-related_problems: ['unhandled-exceptions', 'system-crashes', 'poor-error-reporting']
+title: Inadequate Error Handling
+description: Poor error handling mechanisms fail to gracefully manage exceptions,
+  leading to application crashes and poor user experiences.
+category:
+- Error Handling
+- Reliability
+- User Experience
+related_problems:
+- slug: poor-system-environment
+  similarity: 0.644
+- slug: stack-overflow-errors
+  similarity: 0.611
+- slug: error-message-information-disclosure
+  similarity: 0.57
+- slug: memory-leaks
+  similarity: 0.566
+- slug: increasing-brittleness
+  similarity: 0.563
 layout: problem
 ---
 

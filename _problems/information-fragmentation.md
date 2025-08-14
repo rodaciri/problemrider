@@ -1,8 +1,22 @@
 ---
-title: "Information Fragmentation"
-description: "Critical system knowledge is scattered across multiple locations and formats, making it difficult to find and maintain."
-category: ['Knowledge Management', 'Process', 'Communication']
-related_problems: ['knowledge-silos', 'duplicated-research-effort', 'slow-knowledge-transfer']
+title: Information Fragmentation
+description: Critical system knowledge is scattered across multiple locations and
+  formats, making it difficult to find and maintain.
+category:
+- Knowledge Management
+- Process
+- Communication
+related_problems:
+- slug: knowledge-sharing-breakdown
+  similarity: 0.6
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.573
+- slug: information-decay
+  similarity: 0.536
+- slug: implicit-knowledge
+  similarity: 0.524
+- slug: knowledge-gaps
+  similarity: 0.518
 layout: problem
 ---
 

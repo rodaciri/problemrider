@@ -1,8 +1,22 @@
 ---
-title: "Data Migration Integrity Issues"
-description: "Data loses integrity, consistency, or meaning during migration from legacy to modern systems due to schema mismatches and format incompatibilities"
-category: ['Technical', 'Data Management', 'Migration']
-related_problems: [poor-domain-model, cross-system-data-synchronization-problems, legacy-business-logic-extraction-difficulty]
+title: Data Migration Integrity Issues
+description: Data loses integrity, consistency, or meaning during migration from legacy
+  to modern systems due to schema mismatches and format incompatibilities
+category:
+- Technical
+- Data Management
+- Migration
+related_problems:
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.735
+- slug: data-migration-complexities
+  similarity: 0.73
+- slug: schema-evolution-paralysis
+  similarity: 0.588
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.571
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.568
 layout: problem
 ---
 

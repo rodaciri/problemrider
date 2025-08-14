@@ -1,8 +1,18 @@
 ---
-title: "Cargo Culting"
-description: "Uncritical adoption of technical solutions without understanding their underlying principles and context"
-category: ['Process', 'Team', 'Design']
-related_problems: ['copy-paste-programming', 'incomplete-knowledge', 'knowledge-gaps', 'insufficient-design-skills']
+title: Cargo Culting
+description: Uncritical adoption of technical solutions without understanding their
+  underlying principles and context
+category:
+- Process
+- Team
+- Design
+related_problems:
+- slug: modernization-strategy-paralysis
+  similarity: 0.512
+- slug: inability-to-innovate
+  similarity: 0.512
+- slug: reduced-innovation
+  similarity: 0.504
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "Authentication Bypass Vulnerabilities"
-description: "Security flaws that allow attackers to bypass authentication mechanisms and gain unauthorized access to protected resources."
-category: ['Security', 'Technical']
-related_problems: ['authorization-flaws', 'session-management-issues']
+title: Authentication Bypass Vulnerabilities
+description: Security flaws that allow attackers to bypass authentication mechanisms
+  and gain unauthorized access to protected resources.
+category:
+- Security
+- Technical
+related_problems:
+- slug: password-security-weaknesses
+  similarity: 0.621
+- slug: authorization-flaws
+  similarity: 0.569
+- slug: log-injection-vulnerabilities
+  similarity: 0.523
+- slug: session-management-issues
+  similarity: 0.506
+- slug: insufficient-audit-logging
+  similarity: 0.5
 layout: problem
 ---
 

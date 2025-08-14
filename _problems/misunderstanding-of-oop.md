@@ -1,8 +1,20 @@
 ---
-title: "Misunderstanding of OOP"
-description: "A lack of understanding of the fundamental principles of object-oriented programming can lead to the creation of poorly designed and difficult-to-maintain code."
-category: ['Team', 'Design']
-related_problems: ['procedural-programming-in-oop-languages', 'procedural-background', 'insufficient-design-skills']
+title: Misunderstanding of OOP
+description: A lack of understanding of the fundamental principles of object-oriented
+  programming can lead to the creation of poorly designed and difficult-to-maintain
+  code.
+category:
+- Team
+- Design
+related_problems:
+- slug: over-reliance-on-utility-classes
+  similarity: 0.688
+- slug: procedural-background
+  similarity: 0.628
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.62
+- slug: complex-and-obscure-logic
+  similarity: 0.527
 layout: problem
 ---
 

@@ -1,8 +1,19 @@
 ---
-title: "Over-Reliance on Utility Classes"
-description: "The excessive use of utility classes with static methods can lead to a procedural style of programming and a lack of proper object-oriented design."
-category: ['Design', 'Quality']
-related_problems: ['procedural-programming-in-oop-languages', 'misunderstanding-of-oop', 'high-coupling-low-cohesion']
+title: Over-Reliance on Utility Classes
+description: The excessive use of utility classes with static methods can lead to
+  a procedural style of programming and a lack of proper object-oriented design.
+category:
+- Design
+- Quality
+related_problems:
+- slug: misunderstanding-of-oop
+  similarity: 0.688
+- slug: procedural-background
+  similarity: 0.617
+- slug: excessive-class-size
+  similarity: 0.531
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.519
 layout: problem
 ---
 

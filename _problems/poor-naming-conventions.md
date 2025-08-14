@@ -1,8 +1,16 @@
 ---
-title: "Poor Naming Conventions"
-description: "Variables, functions, classes, and other code elements are named in ways that don't clearly communicate their purpose or meaning."
-category: ['Code Quality', 'Maintainability', 'Developer Experience']
-related_problems: ['difficult-code-comprehension', 'inconsistent-coding-standards', 'increased-cognitive-load']
+title: Poor Naming Conventions
+description: Variables, functions, classes, and other code elements are named in ways
+  that don't clearly communicate their purpose or meaning.
+category:
+- Code Quality
+- Maintainability
+- Developer Experience
+related_problems:
+- slug: defensive-coding-practices
+  similarity: 0.576
+- slug: inconsistent-naming-conventions
+  similarity: 0.552
 layout: problem
 ---
 

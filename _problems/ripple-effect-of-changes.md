@@ -1,8 +1,22 @@
 ---
-title: "Ripple Effect of Changes"
-description: "A small change in one part of the system requires modifications in many other seemingly unrelated parts, indicating high coupling."
-category: ['Technical', 'Design', 'Maintenance']
-related_problems: ['high-coupling-low-cohesion', 'brittle-codebase', 'fear-of-change']
+title: Ripple Effect of Changes
+description: A small change in one part of the system requires modifications in many
+  other seemingly unrelated parts, indicating high coupling.
+category:
+- Technical
+- Design
+- Maintenance
+related_problems:
+- slug: unpredictable-system-behavior
+  similarity: 0.674
+- slug: high-coupling-low-cohesion
+  similarity: 0.644
+- slug: increasing-brittleness
+  similarity: 0.593
+- slug: increased-risk-of-bugs
+  similarity: 0.579
+- slug: accumulation-of-workarounds
+  similarity: 0.569
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Extended Review Cycles"
-description: "Code reviews require multiple rounds of feedback and revision, significantly extending the time from code submission to approval."
-category: ['Process', 'Efficiency', 'Team Dynamics']
-related_problems: ['code-review-inefficiency', 'conflicting-reviewer-opinions', 'large-pull-requests']
+title: Extended Review Cycles
+description: Code reviews require multiple rounds of feedback and revision, significantly
+  extending the time from code submission to approval.
+category:
+- Process
+- Efficiency
+- Team Dynamics
+related_problems:
+- slug: code-review-inefficiency
+  similarity: 0.703
+- slug: insufficient-code-review
+  similarity: 0.663
+- slug: inadequate-initial-reviews
+  similarity: 0.643
+- slug: reduced-code-submission-frequency
+  similarity: 0.636
+- slug: review-process-breakdown
+  similarity: 0.636
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Requirements Ambiguity"
-description: "System requirements are unclear, incomplete, or open to multiple interpretations, leading to misaligned implementations and rework."
-category: ['Requirements', 'Communication', 'Process']
-related_problems: ['misaligned-deliverables', 'implementation-rework', 'stakeholder-developer-communication-gap']
+title: Requirements Ambiguity
+description: System requirements are unclear, incomplete, or open to multiple interpretations,
+  leading to misaligned implementations and rework.
+category:
+- Requirements
+- Communication
+- Process
+related_problems:
+- slug: inadequate-requirements-gathering
+  similarity: 0.69
+- slug: team-confusion
+  similarity: 0.666
+- slug: communication-risk-within-project
+  similarity: 0.65
+- slug: unclear-goals-and-priorities
+  similarity: 0.583
+- slug: complex-implementation-paths
+  similarity: 0.581
 layout: problem
 ---
 

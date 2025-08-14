@@ -1,8 +1,22 @@
 ---
-title: "Procedural Background"
-description: "Developers with a background in procedural programming may struggle to adapt to an object-oriented way of thinking, leading to the creation of procedural-style code in an object-oriented language."
-category: ['Team', 'Design']
-related_problems: ['procedural-programming-in-oop-languages', 'misunderstanding-of-oop', 'insufficient-design-skills']
+title: Procedural Background
+description: Developers with a background in procedural programming may struggle to
+  adapt to an object-oriented way of thinking, leading to the creation of procedural-style
+  code in an object-oriented language.
+category:
+- Team
+- Design
+related_problems:
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.695
+- slug: misunderstanding-of-oop
+  similarity: 0.628
+- slug: over-reliance-on-utility-classes
+  similarity: 0.617
+- slug: difficult-code-comprehension
+  similarity: 0.507
+- slug: convenience-driven-development
+  similarity: 0.501
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "Fear of Conflict"
-description: "Reviewers avoid challenging complex logic or design decisions, opting for easier, less confrontational feedback."
-category: ['Process', 'Communication']
-related_problems: ['inadequate-code-reviews', 'superficial-code-reviews']
+title: Fear of Conflict
+description: Reviewers avoid challenging complex logic or design decisions, opting
+  for easier, less confrontational feedback.
+category:
+- Process
+- Communication
+related_problems:
+- slug: reviewer-anxiety
+  similarity: 0.723
+- slug: author-frustration
+  similarity: 0.678
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.671
+- slug: defensive-coding-practices
+  similarity: 0.658
+- slug: conflicting-reviewer-opinions
+  similarity: 0.624
 layout: problem
 ---
 

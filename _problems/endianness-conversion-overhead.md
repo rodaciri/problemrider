@@ -1,8 +1,16 @@
 ---
-title: "Endianness Conversion Overhead"
-description: "Frequent byte order conversions between different endianness formats create performance overhead in data processing and network communication."
-category: ['Technical', 'Performance', 'Data Processing']
-related_problems: ['network-latency', 'inefficient-code', 'data-serialization-bottlenecks']
+title: Endianness Conversion Overhead
+description: Frequent byte order conversions between different endianness formats
+  create performance overhead in data processing and network communication.
+category:
+- Technical
+- Performance
+- Data Processing
+related_problems:
+- slug: serialization-deserialization-bottlenecks
+  similarity: 0.584
+- slug: algorithmic-complexity-problems
+  similarity: 0.504
 layout: problem
 ---
 

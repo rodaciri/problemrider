@@ -1,8 +1,22 @@
 ---
-title: "Defensive Coding Practices"
-description: "Developers write overly verbose code, excessive comments, or unnecessary defensive logic to preempt anticipated criticism during code reviews."
-category: ['Code Quality', 'Team Dynamics', 'Development Workflow']
-related_problems: ['author-frustration', 'nitpicking-culture', 'reviewer-anxiety']
+title: Defensive Coding Practices
+description: Developers write overly verbose code, excessive comments, or unnecessary
+  defensive logic to preempt anticipated criticism during code reviews.
+category:
+- Code Quality
+- Team Dynamics
+- Development Workflow
+related_problems:
+- slug: author-frustration
+  similarity: 0.69
+- slug: superficial-code-reviews
+  similarity: 0.673
+- slug: fear-of-conflict
+  similarity: 0.658
+- slug: lower-code-quality
+  similarity: 0.649
+- slug: clever-code
+  similarity: 0.625
 layout: problem
 ---
 

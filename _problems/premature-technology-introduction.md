@@ -1,8 +1,22 @@
 ---
-title: "Premature Technology Introduction"
-description: "New frameworks, tools, or platforms are introduced without proper evaluation, adding risk and learning overhead to projects."
-category: ['Technical', 'Process', 'Risk Management']
-related_problems: ['cv-driven-development', 'technology-lock-in', 'increased-complexity']
+title: Premature Technology Introduction
+description: New frameworks, tools, or platforms are introduced without proper evaluation,
+  adding risk and learning overhead to projects.
+category:
+- Technical
+- Process
+- Risk Management
+related_problems:
+- slug: reduced-innovation
+  similarity: 0.64
+- slug: cv-driven-development
+  similarity: 0.553
+- slug: obsolete-technologies
+  similarity: 0.548
+- slug: increased-time-to-market
+  similarity: 0.522
+- slug: decision-avoidance
+  similarity: 0.512
 layout: problem
 ---
 

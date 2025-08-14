@@ -1,8 +1,22 @@
 ---
-title: "Race Conditions"
-description: "Multiple threads access shared resources simultaneously without proper synchronization, leading to unpredictable behavior and data corruption."
-category: ['Technical', 'Concurrency', 'Data Integrity']
-related_problems: ['synchronization-problems', 'global-state-and-side-effects', 'unpredictable-system-behavior']
+title: Race Conditions
+description: Multiple threads access shared resources simultaneously without proper
+  synchronization, leading to unpredictable behavior and data corruption.
+category:
+- Technical
+- Concurrency
+- Data Integrity
+related_problems:
+- slug: dma-coherency-issues
+  similarity: 0.647
+- slug: false-sharing
+  similarity: 0.626
+- slug: deadlock-conditions
+  similarity: 0.608
+- slug: lock-contention
+  similarity: 0.57
+- slug: inconsistent-behavior
+  similarity: 0.545
 layout: problem
 ---
 

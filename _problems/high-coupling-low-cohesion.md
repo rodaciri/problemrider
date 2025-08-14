@@ -1,8 +1,21 @@
 ---
-title: "High Coupling and Low Cohesion"
-description: "Software components are overly dependent on each other and perform too many unrelated functions, making the system difficult to change and understand."
-category: ['Design', 'Maintenance']
-related_problems: ['ripple-effect-of-changes', 'brittle-codebase', 'difficult-to-test-code', 'maintenance-overhead']
+title: High Coupling and Low Cohesion
+description: Software components are overly dependent on each other and perform too
+  many unrelated functions, making the system difficult to change and understand.
+category:
+- Design
+- Maintenance
+related_problems:
+- slug: tight-coupling-issues
+  similarity: 0.736
+- slug: hidden-dependencies
+  similarity: 0.664
+- slug: ripple-effect-of-changes
+  similarity: 0.644
+- slug: unpredictable-system-behavior
+  similarity: 0.637
+- slug: increasing-brittleness
+  similarity: 0.595
 layout: problem
 ---
 

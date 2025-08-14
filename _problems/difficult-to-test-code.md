@@ -1,8 +1,22 @@
 ---
-title: "Difficult to Test Code"
-description: "Components cannot be easily tested in isolation due to tight coupling, global dependencies, or complex setup requirements."
-category: ['Technical', 'Quality', 'Testing']
-related_problems: ['global-state-and-side-effects', 'high-coupling-low-cohesion', 'insufficient-testing']
+title: Difficult to Test Code
+description: Components cannot be easily tested in isolation due to tight coupling,
+  global dependencies, or complex setup requirements.
+category:
+- Technical
+- Quality
+- Testing
+related_problems:
+- slug: inadequate-integration-tests
+  similarity: 0.595
+- slug: inadequate-test-infrastructure
+  similarity: 0.593
+- slug: testing-environment-fragility
+  similarity: 0.586
+- slug: legacy-code-without-tests
+  similarity: 0.585
+- slug: poor-test-coverage
+  similarity: 0.541
 layout: problem
 ---
 

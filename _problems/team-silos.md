@@ -1,8 +1,21 @@
 ---
-title: "Team Silos"
-description: "Development teams or individual developers work in isolation, leading to duplicated effort, inconsistent solutions, and a lack of knowledge sharing."
-category: ['Process', 'Communication']
-related_problems: ['poor-communication', 'inconsistent-codebase']
+title: Team Silos
+description: Development teams or individual developers work in isolation, leading
+  to duplicated effort, inconsistent solutions, and a lack of knowledge sharing.
+category:
+- Process
+- Communication
+related_problems:
+- slug: knowledge-silos
+  similarity: 0.742
+- slug: knowledge-sharing-breakdown
+  similarity: 0.729
+- slug: tacit-knowledge
+  similarity: 0.642
+- slug: incomplete-knowledge
+  similarity: 0.638
+- slug: poor-teamwork
+  similarity: 0.622
 layout: problem
 ---
 

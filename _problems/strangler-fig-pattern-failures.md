@@ -1,8 +1,22 @@
 ---
-title: "Strangler Fig Pattern Failures"
-description: "Incremental modernization using the strangler fig pattern stalls due to complex interdependencies and data consistency challenges"
-category: ['Technical', 'Design', 'Migration']
-related_problems: [cross-system-data-synchronization-problems, poor-interfaces-between-applications, implementation-starts-without-design]
+title: Strangler Fig Pattern Failures
+description: Incremental modernization using the strangler fig pattern stalls due
+  to complex interdependencies and data consistency challenges
+category:
+- Technical
+- Design
+- Migration
+related_problems:
+- slug: system-stagnation
+  similarity: 0.557
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.548
+- slug: technology-stack-fragmentation
+  similarity: 0.528
+- slug: poor-interfaces-between-applications
+  similarity: 0.522
+- slug: stagnant-architecture
+  similarity: 0.512
 layout: problem
 ---
 

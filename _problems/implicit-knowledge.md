@@ -1,8 +1,21 @@
 ---
-title: "Implicit Knowledge"
-description: "Critical system knowledge exists as unwritten assumptions, tribal knowledge, and undocumented practices rather than being explicitly captured."
-category: ['Knowledge Sharing', 'Process']
-related_problems: ['knowledge-silos', 'information-fragmentation', 'slow-knowledge-transfer']
+title: Implicit Knowledge
+description: Critical system knowledge exists as unwritten assumptions, tribal knowledge,
+  and undocumented practices rather than being explicitly captured.
+category:
+- Knowledge Sharing
+- Process
+related_problems:
+- slug: knowledge-gaps
+  similarity: 0.649
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.611
+- slug: incomplete-knowledge
+  similarity: 0.61
+- slug: team-churn-impact
+  similarity: 0.603
+- slug: tacit-knowledge
+  similarity: 0.603
 layout: problem
 ---
 

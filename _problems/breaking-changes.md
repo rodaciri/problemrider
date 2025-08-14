@@ -1,8 +1,22 @@
 ---
-title: "Breaking Changes"
-description: "API updates break existing client integrations, causing compatibility issues and forcing costly emergency fixes."
-category: ['Integration', 'API Management', 'Maintenance']
-related_problems: ['api-versioning-conflicts', 'high-client-side-resource-consumption', 'customer-dissatisfaction']
+title: Breaking Changes
+description: API updates break existing client integrations, causing compatibility
+  issues and forcing costly emergency fixes.
+category:
+- Integration
+- API Management
+- Maintenance
+related_problems:
+- slug: api-versioning-conflicts
+  similarity: 0.707
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.659
+- slug: rapid-system-changes
+  similarity: 0.583
+- slug: regression-bugs
+  similarity: 0.572
+- slug: unpredictable-system-behavior
+  similarity: 0.547
 layout: problem
 ---
 

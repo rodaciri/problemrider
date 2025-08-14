@@ -1,8 +1,22 @@
 ---
-title: "Unmotivated Employees"
-description: "Team members lack engagement and enthusiasm, contributing minimally to project success and affecting overall team morale."
-category: ['Team Dynamics', 'Management', 'Culture']
-related_problems: ['high-turnover', 'reduced-team-productivity', 'poor-teamwork']
+title: Unmotivated Employees
+description: Team members lack engagement and enthusiasm, contributing minimally to
+  project success and affecting overall team morale.
+category:
+- Team Dynamics
+- Management
+- Culture
+related_problems:
+- slug: team-demoralization
+  similarity: 0.646
+- slug: increased-stress-and-burnout
+  similarity: 0.617
+- slug: poor-teamwork
+  similarity: 0.61
+- slug: inappropriate-skillset
+  similarity: 0.604
+- slug: staff-availability-issues
+  similarity: 0.586
 layout: problem
 ---
 

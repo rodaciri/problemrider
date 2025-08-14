@@ -1,8 +1,22 @@
 ---
-title: "Regression Bugs"
-description: "New features or fixes inadvertently break existing functionality that was previously working correctly."
-category: ['Quality', 'Testing', 'Process']
-related_problems: ['insufficient-testing', 'poor-test-coverage', 'brittle-codebase']
+title: Regression Bugs
+description: New features or fixes inadvertently break existing functionality that
+  was previously working correctly.
+category:
+- Quality
+- Testing
+- Process
+related_problems:
+- slug: increased-bug-count
+  similarity: 0.684
+- slug: unpredictable-system-behavior
+  similarity: 0.652
+- slug: delayed-bug-fixes
+  similarity: 0.638
+- slug: increasing-brittleness
+  similarity: 0.62
+- slug: history-of-failed-changes
+  similarity: 0.605
 layout: problem
 ---
 

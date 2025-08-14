@@ -1,8 +1,22 @@
 ---
-title: "Extended Research Time"
-description: "Developers spend significant portions of their day researching rather than implementing, due to knowledge gaps or complex legacy systems."
-category: ['Process', 'Technical', 'Individual Performance']
-related_problems: ['knowledge-gaps', 'legacy-code-without-tests', 'reduced-individual-productivity']
+title: Extended Research Time
+description: Developers spend significant portions of their day researching rather
+  than implementing, due to knowledge gaps or complex legacy systems.
+category:
+- Process
+- Technical
+- Individual Performance
+related_problems:
+- slug: analysis-paralysis
+  similarity: 0.679
+- slug: difficult-developer-onboarding
+  similarity: 0.603
+- slug: knowledge-gaps
+  similarity: 0.601
+- slug: deadline-pressure
+  similarity: 0.598
+- slug: increased-cognitive-load
+  similarity: 0.596
 layout: problem
 ---
 

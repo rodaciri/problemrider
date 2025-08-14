@@ -1,8 +1,18 @@
 ---
-title: "Accumulated Decision Debt"
-description: "Deferred decisions create compound complexity for future choices, making the system increasingly difficult to evolve."
-category: ['Management', 'Process', 'Design']
-related_problems: ['decision-avoidance', 'analysis-paralysis', 'high-technical-debt']
+title: Accumulated Decision Debt
+description: Deferred decisions create compound complexity for future choices, making
+  the system increasingly difficult to evolve.
+category:
+- Management
+- Process
+- Design
+related_problems:
+- slug: decision-avoidance
+  similarity: 0.628
+- slug: delayed-decision-making
+  similarity: 0.558
+- slug: decision-paralysis
+  similarity: 0.501
 layout: problem
 ---
 

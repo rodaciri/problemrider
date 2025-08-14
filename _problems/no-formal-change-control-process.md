@@ -1,8 +1,21 @@
 ---
-title: "No Formal Change Control Process"
-description: "Changes to project scope or requirements are not formally evaluated or approved, leading to uncontrolled scope creep and project delays."
-category: ['Process', 'Project Management']
-related_problems: ['scope-creep']
+title: No Formal Change Control Process
+description: Changes to project scope or requirements are not formally evaluated or
+  approved, leading to uncontrolled scope creep and project delays.
+category:
+- Process
+- Project Management
+related_problems:
+- slug: scope-creep
+  similarity: 0.795
+- slug: frequent-changes-to-requirements
+  similarity: 0.786
+- slug: changing-project-scope
+  similarity: 0.783
+- slug: scope-change-resistance
+  similarity: 0.774
+- slug: constantly-shifting-deadlines
+  similarity: 0.682
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Coding Standards"
-description: "Lack of uniform coding standards across the codebase creates maintenance difficulties and reduces code readability and quality."
-category: ['Code Quality', 'Team Collaboration', 'Maintenance']
-related_problems: ['code-review-inefficiency', 'inconsistent-codebase', 'maintenance-overhead', 'developer-frustration-and-burnout']
+title: Inconsistent Coding Standards
+description: Lack of uniform coding standards across the codebase creates maintenance
+  difficulties and reduces code readability and quality.
+category:
+- Code Quality
+- Team Collaboration
+- Maintenance
+related_problems:
+- slug: inconsistent-naming-conventions
+  similarity: 0.733
+- slug: inconsistent-codebase
+  similarity: 0.679
+- slug: mixed-coding-styles
+  similarity: 0.669
+- slug: inconsistent-quality
+  similarity: 0.629
+- slug: lower-code-quality
+  similarity: 0.599
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "Incorrect Max Connection Pool Size"
-description: "The maximum number of connections in a database connection pool is set incorrectly, leading to either wasted resources or connection exhaustion."
-category: ['Performance', 'Stability']
-related_problems: ['misconfigured-connection-pools', 'high-connection-count', 'long-running-database-transactions']
+title: Incorrect Max Connection Pool Size
+description: The maximum number of connections in a database connection pool is set
+  incorrectly, leading to either wasted resources or connection exhaustion.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: misconfigured-connection-pools
+  similarity: 0.919
+- slug: database-connection-leaks
+  similarity: 0.789
+- slug: high-connection-count
+  similarity: 0.753
+- slug: high-database-resource-utilization
+  similarity: 0.7
+- slug: resource-allocation-failures
+  similarity: 0.647
 layout: problem
 ---
 

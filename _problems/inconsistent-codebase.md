@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Codebase"
-description: "The project's code lacks uniform style, coding standards, and design patterns, making it difficult to read, maintain, and onboard new developers."
-category: ['Maintenance', 'Quality', 'Process']
-related_problems: ['undefined-code-style-guidelines', 'inconsistent-coding-standards', 'inadequate-code-reviews']
+title: Inconsistent Codebase
+description: The project's code lacks uniform style, coding standards, and design
+  patterns, making it difficult to read, maintain, and onboard new developers.
+category:
+- Maintenance
+- Quality
+- Process
+related_problems:
+- slug: undefined-code-style-guidelines
+  similarity: 0.827
+- slug: mixed-coding-styles
+  similarity: 0.793
+- slug: inconsistent-coding-standards
+  similarity: 0.679
+- slug: inconsistent-naming-conventions
+  similarity: 0.674
+- slug: difficult-code-comprehension
+  similarity: 0.631
 layout: problem
 ---
 

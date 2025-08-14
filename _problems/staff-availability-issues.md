@@ -1,8 +1,22 @@
 ---
-title: "Staff Availability Issues"
-description: "Needed roles remain unfilled or employees are overbooked, reducing execution capacity and project progress."
-category: ['Resource Management', 'Team Dynamics', 'Planning']
-related_problems: ['understaffing', 'overworked-teams', 'bottleneck-formation']
+title: Staff Availability Issues
+description: Needed roles remain unfilled or employees are overbooked, reducing execution
+  capacity and project progress.
+category:
+- Resource Management
+- Team Dynamics
+- Planning
+related_problems:
+- slug: project-resource-constraints
+  similarity: 0.672
+- slug: reduced-team-flexibility
+  similarity: 0.628
+- slug: single-points-of-failure
+  similarity: 0.594
+- slug: unmotivated-employees
+  similarity: 0.586
+- slug: knowledge-dependency
+  similarity: 0.583
 layout: problem
 ---
 

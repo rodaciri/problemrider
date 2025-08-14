@@ -1,8 +1,18 @@
 ---
-title: "Circular Dependency Problems"
-description: "Components depend on each other in circular patterns, creating initialization issues, testing difficulties, and architectural complexity."
-category: ['Design', 'Technical', 'Maintenance']
-related_problems: ['tight-coupling-issues', 'high-coupling-low-cohesion', 'testing-complexity']
+title: Circular Dependency Problems
+description: Components depend on each other in circular patterns, creating initialization
+  issues, testing difficulties, and architectural complexity.
+category:
+- Design
+- Technical
+- Maintenance
+related_problems:
+- slug: tight-coupling-issues
+  similarity: 0.601
+- slug: shared-dependencies
+  similarity: 0.526
+- slug: dependency-version-conflicts
+  similarity: 0.514
 layout: problem
 ---
 

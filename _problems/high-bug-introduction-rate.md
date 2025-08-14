@@ -1,8 +1,21 @@
 ---
-title: "High Bug Introduction Rate"
-description: "A high rate of new bugs are introduced with every change to the codebase, indicating underlying quality issues."
-category: ['Quality', 'Maintenance']
-related_problems: ['brittle-codebase', 'insufficient-testing', 'poor-test-coverage']
+title: High Bug Introduction Rate
+description: A high rate of new bugs are introduced with every change to the codebase,
+  indicating underlying quality issues.
+category:
+- Quality
+- Maintenance
+related_problems:
+- slug: increased-bug-count
+  similarity: 0.723
+- slug: high-defect-rate-in-production
+  similarity: 0.703
+- slug: increased-risk-of-bugs
+  similarity: 0.702
+- slug: delayed-bug-fixes
+  similarity: 0.631
+- slug: increased-cost-of-development
+  similarity: 0.626
 layout: problem
 ---
 

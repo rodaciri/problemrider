@@ -1,8 +1,22 @@
 ---
-title: "Vendor Lock-In"
-description: "System is overly dependent on a specific vendor's tools or APIs, limiting future options"
-category: ['Technical', 'Strategic', 'Risk Management']
-related_problems: [dependency-on-supplier, high-maintenance-costs, obsolete-technologies]
+title: Vendor Lock-In
+description: System is overly dependent on a specific vendor's tools or APIs, limiting
+  future options
+category:
+- Technical
+- Strategic
+- Risk Management
+related_problems:
+- slug: dependency-on-supplier
+  similarity: 0.612
+- slug: vendor-dependency-entrapment
+  similarity: 0.558
+- slug: technology-isolation
+  similarity: 0.553
+- slug: technology-lock-in
+  similarity: 0.543
+- slug: vendor-dependency
+  similarity: 0.515
 layout: problem
 ---
 

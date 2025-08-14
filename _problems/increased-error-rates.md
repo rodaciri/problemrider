@@ -1,8 +1,21 @@
 ---
-title: "Increased Error Rates"
-description: "An unusual or sustained rise in the frequency of errors reported by an application or service."
-category: ['Quality', 'Stability']
-related_problems: ['negative-user-feedback', 'external-service-delays', 'resource-contention']
+title: Increased Error Rates
+description: An unusual or sustained rise in the frequency of errors reported by an
+  application or service.
+category:
+- Quality
+- Stability
+related_problems:
+- slug: service-timeouts
+  similarity: 0.717
+- slug: excessive-logging
+  similarity: 0.668
+- slug: log-spam
+  similarity: 0.65
+- slug: network-latency
+  similarity: 0.631
+- slug: high-connection-count
+  similarity: 0.628
 layout: problem
 ---
 

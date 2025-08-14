@@ -1,8 +1,22 @@
 ---
-title: "Environment Variable Issues"
-description: "Improper management of environment variables causes configuration problems, security vulnerabilities, and deployment failures."
-category: ['Configuration', 'Security', 'Deployment']
-related_problems: ['configuration-drift', 'secret-management-problems', 'deployment-failures']
+title: Environment Variable Issues
+description: Improper management of environment variables causes configuration problems,
+  security vulnerabilities, and deployment failures.
+category:
+- Configuration
+- Security
+- Deployment
+related_problems:
+- slug: deployment-environment-inconsistencies
+  similarity: 0.653
+- slug: poor-system-environment
+  similarity: 0.597
+- slug: configuration-chaos
+  similarity: 0.581
+- slug: inadequate-configuration-management
+  similarity: 0.579
+- slug: configuration-drift
+  similarity: 0.565
 layout: problem
 ---
 

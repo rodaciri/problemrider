@@ -1,8 +1,22 @@
 ---
-title: "Data Structure Cache Inefficiency"
-description: "Data structures are organized in ways that cause poor cache performance, leading to excessive memory access latency and reduced throughput."
-category: ['Technical', 'Performance', 'Data Management']
-related_problems: ['cpu-cache-misses', 'algorithmic-complexity-problems', 'memory-fragmentation']
+title: Data Structure Cache Inefficiency
+description: Data structures are organized in ways that cause poor cache performance,
+  leading to excessive memory access latency and reduced throughput.
+category:
+- Technical
+- Performance
+- Data Management
+related_problems:
+- slug: alignment-and-padding-issues
+  similarity: 0.767
+- slug: unbounded-data-structures
+  similarity: 0.709
+- slug: algorithmic-complexity-problems
+  similarity: 0.656
+- slug: dma-coherency-issues
+  similarity: 0.578
+- slug: serialization-deserialization-bottlenecks
+  similarity: 0.526
 layout: problem
 ---
 

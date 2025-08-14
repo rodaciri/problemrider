@@ -1,8 +1,23 @@
 ---
-title: "Budget Overruns"
-description: "The project costs more than originally planned due to the extra work being done, which can lead to a loss of funding and a great deal of frustration for the stakeholders."
-category: ['Management', 'Business', 'Process']
-related_problems: ['scope-creep', 'constantly-shifting-deadlines', 'increased-cost-of-development']
+title: Budget Overruns
+description: The project costs more than originally planned due to the extra work
+  being done, which can lead to a loss of funding and a great deal of frustration
+  for the stakeholders.
+category:
+- Management
+- Business
+- Process
+related_problems:
+- slug: poor-planning
+  similarity: 0.608
+- slug: project-resource-constraints
+  similarity: 0.562
+- slug: planning-dysfunction
+  similarity: 0.556
+- slug: high-maintenance-costs
+  similarity: 0.527
+- slug: project-authority-vacuum
+  similarity: 0.501
 layout: problem
 ---
 

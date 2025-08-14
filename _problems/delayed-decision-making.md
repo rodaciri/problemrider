@@ -1,8 +1,22 @@
 ---
-title: "Delayed Decision Making"
-description: "Important decisions that affect development progress are postponed or take excessive time to make, creating bottlenecks and uncertainty."
-category: ['Process', 'Leadership', 'Team Dynamics']
-related_problems: ['decision-avoidance', 'analysis-paralysis', 'unclear-goals-and-priorities']
+title: Delayed Decision Making
+description: Important decisions that affect development progress are postponed or
+  take excessive time to make, creating bottlenecks and uncertainty.
+category:
+- Process
+- Leadership
+- Team Dynamics
+related_problems:
+- slug: decision-avoidance
+  similarity: 0.803
+- slug: decision-paralysis
+  similarity: 0.708
+- slug: work-blocking
+  similarity: 0.679
+- slug: deadline-pressure
+  similarity: 0.667
+- slug: inefficient-processes
+  similarity: 0.631
 layout: problem
 ---
 

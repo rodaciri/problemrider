@@ -1,8 +1,21 @@
 ---
-title: "Testing Complexity"
-description: "Quality assurance must verify the same functionality in multiple locations, which increases the testing effort and the risk of missing bugs."
-category: ['Testing', 'Quality']
-related_problems: ['synchronization-problems', 'code-duplication', 'increased-manual-testing-effort']
+title: Testing Complexity
+description: Quality assurance must verify the same functionality in multiple locations,
+  which increases the testing effort and the risk of missing bugs.
+category:
+- Testing
+- Quality
+related_problems:
+- slug: insufficient-testing
+  similarity: 0.644
+- slug: testing-environment-fragility
+  similarity: 0.605
+- slug: high-defect-rate-in-production
+  similarity: 0.565
+- slug: quality-blind-spots
+  similarity: 0.552
+- slug: poor-test-coverage
+  similarity: 0.545
 layout: problem
 ---
 

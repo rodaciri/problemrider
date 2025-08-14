@@ -1,8 +1,22 @@
 ---
-title: "Review Process Breakdown"
-description: "Code review processes fail to catch design flaws, bugs, or quality issues due to inadequate depth, time, or expertise."
-category: ['Process', 'Quality', 'Team Dynamics']
-related_problems: ['inadequate-code-reviews', 'spaghetti-code', 'high-technical-debt']
+title: Review Process Breakdown
+description: Code review processes fail to catch design flaws, bugs, or quality issues
+  due to inadequate depth, time, or expertise.
+category:
+- Process
+- Quality
+- Team Dynamics
+related_problems:
+- slug: review-process-breakdown
+  similarity: 0.905
+- slug: inadequate-code-reviews
+  similarity: 0.871
+- slug: code-review-inefficiency
+  similarity: 0.757
+- slug: inadequate-initial-reviews
+  similarity: 0.752
+- slug: superficial-code-reviews
+  similarity: 0.718
 layout: problem
 ---
 

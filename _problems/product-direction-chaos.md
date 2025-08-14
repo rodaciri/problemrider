@@ -1,8 +1,22 @@
 ---
-title: "Product Direction Chaos"
-description: "Multiple stakeholders provide conflicting priorities without clear product leadership, causing team confusion and wasted effort."
-category: ['Process', 'Product Management', 'Communication']
-related_problems: ['scope-creep', 'misaligned-deliverables', 'stakeholder-developer-communication-gap']
+title: Product Direction Chaos
+description: Multiple stakeholders provide conflicting priorities without clear product
+  leadership, causing team confusion and wasted effort.
+category:
+- Process
+- Product Management
+- Communication
+related_problems:
+- slug: unclear-goals-and-priorities
+  similarity: 0.661
+- slug: eager-to-please-stakeholders
+  similarity: 0.58
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.573
+- slug: communication-risk-within-project
+  similarity: 0.554
+- slug: team-confusion
+  similarity: 0.549
 layout: problem
 ---
 

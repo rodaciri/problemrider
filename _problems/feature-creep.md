@@ -1,8 +1,22 @@
 ---
-title: "Feature Creep"
-description: "The scope of a feature or component gradually expands over time, leading to a complex and bloated system that is difficult to maintain."
-category: ['Process', 'Design', 'Maintenance']
-related_problems: ['monolithic-functions-and-classes', 'scope-creep', 'complex-and-obscure-logic']
+title: Feature Creep
+description: The scope of a feature or component gradually expands over time, leading
+  to a complex and bloated system that is difficult to maintain.
+category:
+- Process
+- Design
+- Maintenance
+related_problems:
+- slug: feature-creep-without-refactoring
+  similarity: 0.838
+- slug: scope-creep
+  similarity: 0.686
+- slug: increasing-brittleness
+  similarity: 0.634
+- slug: large-feature-scope
+  similarity: 0.628
+- slug: slow-feature-development
+  similarity: 0.622
 layout: problem
 ---
 

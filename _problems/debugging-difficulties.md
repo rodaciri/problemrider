@@ -1,8 +1,22 @@
 ---
-title: "Debugging Difficulties"
-description: "Finding and fixing bugs becomes challenging due to complex code architecture, poor logging, or inadequate development tools."
-category: ['Maintenance', 'Development Experience', 'Quality']
-related_problems: ['monolithic-functions-and-classes', 'complex-and-obscure-logic', 'global-state-and-side-effects']
+title: Debugging Difficulties
+description: Finding and fixing bugs becomes challenging due to complex code architecture,
+  poor logging, or inadequate development tools.
+category:
+- Maintenance
+- Development Experience
+- Quality
+related_problems:
+- slug: increasing-brittleness
+  similarity: 0.647
+- slug: tool-limitations
+  similarity: 0.641
+- slug: increased-cost-of-development
+  similarity: 0.638
+- slug: high-defect-rate-in-production
+  similarity: 0.635
+- slug: large-estimates-for-small-changes
+  similarity: 0.622
 layout: problem
 ---
 

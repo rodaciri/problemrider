@@ -1,8 +1,22 @@
 ---
-title: "Lock Contention"
-description: "Multiple threads compete for the same locks, causing threads to block and reducing parallel execution efficiency."
-category: ['Technical', 'Concurrency', 'Performance']
-related_problems: ['deadlock-conditions', 'thread-pool-exhaustion', 'synchronization-problems']
+title: Lock Contention
+description: Multiple threads compete for the same locks, causing threads to block
+  and reducing parallel execution efficiency.
+category:
+- Technical
+- Concurrency
+- Performance
+related_problems:
+- slug: memory-barrier-inefficiency
+  similarity: 0.72
+- slug: false-sharing
+  similarity: 0.643
+- slug: atomic-operation-overhead
+  similarity: 0.629
+- slug: deadlock-conditions
+  similarity: 0.617
+- slug: interrupt-overhead
+  similarity: 0.594
 layout: problem
 ---
 

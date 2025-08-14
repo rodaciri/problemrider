@@ -1,8 +1,21 @@
 ---
-title: "Task Queues Backing Up"
-description: "Asynchronous jobs or messages take longer to process, causing queues to grow and delaying critical operations."
-category: ['Performance', 'Stability']
-related_problems: ['insufficient-worker-capacity', 'inefficient-code', 'network-latency']
+title: Task Queues Backing Up
+description: Asynchronous jobs or messages take longer to process, causing queues
+  to grow and delaying critical operations.
+category:
+- Performance
+- Stability
+related_problems:
+- slug: insufficient-worker-capacity
+  similarity: 0.934
+- slug: growing-task-queues
+  similarity: 0.855
+- slug: increased-error-rates
+  similarity: 0.628
+- slug: work-queue-buildup
+  similarity: 0.622
+- slug: excessive-disk-io
+  similarity: 0.54
 layout: problem
 ---
 

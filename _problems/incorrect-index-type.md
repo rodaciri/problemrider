@@ -1,8 +1,20 @@
 ---
-title: "Incorrect Index Type"
-description: "Using an inappropriate type of database index for a given query pattern, leading to inefficient data retrieval."
-category: ['Performance']
-related_problems: ['queries-that-prevent-index-usage', 'inefficient-database-indexing', 'slow-database-queries', 'database-query-performance-issues']
+title: Incorrect Index Type
+description: Using an inappropriate type of database index for a given query pattern,
+  leading to inefficient data retrieval.
+category:
+- Performance
+related_problems:
+- slug: inefficient-database-indexing
+  similarity: 0.932
+- slug: queries-that-prevent-index-usage
+  similarity: 0.832
+- slug: index-fragmentation
+  similarity: 0.641
+- slug: slow-database-queries
+  similarity: 0.636
+- slug: unused-indexes
+  similarity: 0.624
 layout: problem
 ---
 

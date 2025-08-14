@@ -1,8 +1,15 @@
 ---
-title: "Technology Lock-In"
-description: "A situation where it is difficult or impossible to switch to a new technology because of the high cost or effort involved."
-category: ['Architecture', 'Technology']
-related_problems: ['monolithic-architecture-constraints', 'vendor-lock-in', 'obsolete-technologies']
+title: Technology Lock-In
+description: A situation where it is difficult or impossible to switch to a new technology
+  because of the high cost or effort involved.
+category:
+- Architecture
+- Technology
+related_problems:
+- slug: technology-isolation
+  similarity: 0.551
+- slug: vendor-lock-in
+  similarity: 0.543
 layout: problem
 ---
 

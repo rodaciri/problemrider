@@ -1,8 +1,22 @@
 ---
-title: "Inappropriate Skillset"
-description: "Team members lack essential knowledge or experience needed for their assigned roles and responsibilities."
-category: ['Team', 'Individual', 'Management']
-related_problems: ['extended-onboarding-period', 'increased-error-rates', 'slow-development-velocity']
+title: Inappropriate Skillset
+description: Team members lack essential knowledge or experience needed for their
+  assigned roles and responsibilities.
+category:
+- Team
+- Individual
+- Management
+related_problems:
+- slug: skill-development-gaps
+  similarity: 0.65
+- slug: poor-teamwork
+  similarity: 0.634
+- slug: knowledge-dependency
+  similarity: 0.606
+- slug: unmotivated-employees
+  similarity: 0.604
+- slug: team-dysfunction
+  similarity: 0.573
 layout: problem
 ---
 

@@ -1,8 +1,20 @@
 ---
-title: "Complex Domain Model"
-description: "The business domain being modeled in software is inherently complex, making the system difficult to understand and implement correctly."
-category: ['Design', 'Business Logic', 'Architecture']
-related_problems: ['difficult-code-comprehension', 'slow-knowledge-transfer', 'excessive-class-size']
+title: Complex Domain Model
+description: The business domain being modeled in software is inherently complex,
+  making the system difficult to understand and implement correctly.
+category:
+- Design
+- Business Logic
+- Architecture
+related_problems:
+- slug: poor-domain-model
+  similarity: 0.701
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.637
+- slug: complex-implementation-paths
+  similarity: 0.568
+- slug: inadequate-requirements-gathering
+  similarity: 0.524
 layout: problem
 ---
 

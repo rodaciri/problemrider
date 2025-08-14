@@ -1,8 +1,22 @@
 ---
-title: "Brittle Codebase"
-description: "The existing code is difficult to modify without introducing new bugs, making maintenance and feature development risky."
-category: ['Maintenance', 'Technical', 'Design']
-related_problems: ['insufficient-testing', 'high-coupling-low-cohesion', 'inconsistent-codebase']
+title: Brittle Codebase
+description: The existing code is difficult to modify without introducing new bugs,
+  making maintenance and feature development risky.
+category:
+- Maintenance
+- Technical
+- Design
+related_problems:
+- slug: increasing-brittleness
+  similarity: 0.725
+- slug: fear-of-breaking-changes
+  similarity: 0.719
+- slug: insufficient-design-skills
+  similarity: 0.716
+- slug: large-estimates-for-small-changes
+  similarity: 0.692
+- slug: difficult-code-comprehension
+  similarity: 0.682
 layout: problem
 ---
 

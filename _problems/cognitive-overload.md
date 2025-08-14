@@ -1,8 +1,22 @@
 ---
-title: "Cognitive Overload"
-description: "Developers must maintain too many complex systems or concepts in their working memory simultaneously, reducing their effectiveness."
-category: ['Individual', 'Technical', 'Process']
-related_problems: ['context-switching-overhead', 'mental-fatigue', 'high-coupling-low-cohesion']
+title: Cognitive Overload
+description: Developers must maintain too many complex systems or concepts in their
+  working memory simultaneously, reducing their effectiveness.
+category:
+- Individual
+- Technical
+- Process
+related_problems:
+- slug: increased-cognitive-load
+  similarity: 0.701
+- slug: increased-manual-work
+  similarity: 0.67
+- slug: maintenance-bottlenecks
+  similarity: 0.62
+- slug: avoidance-behaviors
+  similarity: 0.619
+- slug: inefficient-processes
+  similarity: 0.618
 layout: problem
 ---
 

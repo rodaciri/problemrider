@@ -1,8 +1,21 @@
 ---
-title: "Past Negative Experiences"
-description: "A situation where developers are hesitant to make changes to the codebase because of negative experiences in the past."
-category: ['Team', 'Process']
-related_problems: ['fear-of-change', 'brittle-codebase', 'insufficient-testing']
+title: Past Negative Experiences
+description: A situation where developers are hesitant to make changes to the codebase
+  because of negative experiences in the past.
+category:
+- Team
+- Process
+related_problems:
+- slug: fear-of-breaking-changes
+  similarity: 0.625
+- slug: fear-of-failure
+  similarity: 0.611
+- slug: history-of-failed-changes
+  similarity: 0.604
+- slug: fear-of-change
+  similarity: 0.564
+- slug: inability-to-innovate
+  similarity: 0.546
 layout: problem
 ---
 

@@ -1,8 +1,19 @@
 ---
-title: "Slow Application Performance"
-description: "User-facing features that rely on the API feel sluggish or unresponsive."
-category: ['Performance']
-related_problems: ['negative-user-feedback', 'high-resource-utilization-on-client', 'task-queues-backing-up', 'increased-error-rates', 'business-level-impact', 'high-api-latency', 'inefficient-frontend-code', 'network-latency', 'slow-database-queries', 'resource-contention']
+title: Slow Application Performance
+description: User-facing features that rely on the API feel sluggish or unresponsive.
+category:
+- Performance
+related_problems:
+- slug: high-api-latency
+  similarity: 0.831
+- slug: resource-contention
+  similarity: 0.733
+- slug: external-service-delays
+  similarity: 0.707
+- slug: high-client-side-resource-consumption
+  similarity: 0.69
+- slug: high-resource-utilization-on-client
+  similarity: 0.673
 layout: problem
 ---
 

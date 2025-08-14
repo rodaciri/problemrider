@@ -1,8 +1,21 @@
 ---
-title: "Team Coordination Issues"
-description: "A situation where multiple developers or teams have difficulty working together on the same codebase."
-category: ['Team', 'Process']
-related_problems: ['merge-conflicts', 'communication-breakdowns', 'slow-development-velocity']
+title: Team Coordination Issues
+description: A situation where multiple developers or teams have difficulty working
+  together on the same codebase.
+category:
+- Team
+- Process
+related_problems:
+- slug: merge-conflicts
+  similarity: 0.742
+- slug: duplicated-effort
+  similarity: 0.713
+- slug: team-dysfunction
+  similarity: 0.683
+- slug: poor-communication
+  similarity: 0.645
+- slug: duplicated-work
+  similarity: 0.644
 layout: problem
 ---
 

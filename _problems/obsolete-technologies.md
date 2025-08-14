@@ -1,8 +1,22 @@
 ---
-title: "Obsolete Technologies"
-description: "The system relies on outdated tools, frameworks, or languages that make modern development practices difficult to implement."
-category: ['Technical', 'Maintenance', 'Process']
-related_problems: ['high-technical-debt', 'slow-development-velocity', 'difficult-developer-onboarding']
+title: Obsolete Technologies
+description: The system relies on outdated tools, frameworks, or languages that make
+  modern development practices difficult to implement.
+category:
+- Technical
+- Maintenance
+- Process
+related_problems:
+- slug: system-stagnation
+  similarity: 0.648
+- slug: legacy-skill-shortage
+  similarity: 0.615
+- slug: technology-isolation
+  similarity: 0.594
+- slug: technology-stack-fragmentation
+  similarity: 0.589
+- slug: increasing-brittleness
+  similarity: 0.589
 layout: problem
 ---
 

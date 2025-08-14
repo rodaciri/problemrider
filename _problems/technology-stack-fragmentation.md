@@ -1,8 +1,22 @@
 ---
-title: "Technology Stack Fragmentation"
-description: "Legacy systems create isolated technology islands that prevent standardization and increase operational complexity across the organization"
-category: ['Technical', 'Organizational', 'Operational']
-related_problems: [vendor-lock-in, high-maintenance-costs, team-silos]
+title: Technology Stack Fragmentation
+description: Legacy systems create isolated technology islands that prevent standardization
+  and increase operational complexity across the organization
+category:
+- Technical
+- Organizational
+- Operational
+related_problems:
+- slug: technology-isolation
+  similarity: 0.658
+- slug: monolithic-architecture-constraints
+  similarity: 0.636
+- slug: system-stagnation
+  similarity: 0.59
+- slug: obsolete-technologies
+  similarity: 0.589
+- slug: vendor-dependency-entrapment
+  similarity: 0.545
 layout: problem
 ---
 

@@ -1,8 +1,18 @@
 ---
-title: "Circular References"
-description: "Two or more objects reference each other in a way that prevents garbage collection, leading to memory leaks and resource exhaustion."
-category: ['Technical', 'Performance', 'Memory Management']
-related_problems: ['memory-leaks', 'high-coupling-low-cohesion', 'global-state-and-side-effects']
+title: Circular References
+description: Two or more objects reference each other in a way that prevents garbage
+  collection, leading to memory leaks and resource exhaustion.
+category:
+- Technical
+- Performance
+- Memory Management
+related_problems:
+- slug: excessive-object-allocation
+  similarity: 0.642
+- slug: garbage-collection-pressure
+  similarity: 0.562
+- slug: memory-fragmentation
+  similarity: 0.517
 layout: problem
 ---
 

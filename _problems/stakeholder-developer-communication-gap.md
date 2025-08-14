@@ -1,8 +1,21 @@
 ---
-title: "Stakeholder-Developer Communication Gap"
-description: "A persistent misunderstanding between what stakeholders expect and what the development team builds, leading to rework and dissatisfaction."
-category: ['Communication', 'Process']
-related_problems: ['stakeholder-developer-communication-gap', 'product-direction-chaos', 'scope-creep']
+title: Stakeholder-Developer Communication Gap
+description: A persistent misunderstanding between what stakeholders expect and what
+  the development team builds, leading to rework and dissatisfaction.
+category:
+- Communication
+- Process
+related_problems:
+- slug: stakeholder-frustration
+  similarity: 0.71
+- slug: no-continuous-feedback-loop
+  similarity: 0.697
+- slug: feedback-isolation
+  similarity: 0.673
+- slug: communication-risk-outside-project
+  similarity: 0.65
+- slug: stakeholder-dissatisfaction
+  similarity: 0.645
 layout: problem
 ---
 

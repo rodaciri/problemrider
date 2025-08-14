@@ -1,8 +1,22 @@
 ---
-title: "Unbounded Data Growth"
-description: "Data structures, caches, or databases grow indefinitely without proper pruning, size limits, or archiving strategies."
-category: ['Performance', 'Technical', 'Maintenance']
-related_problems: ['memory-leaks', 'gradual-performance-degradation', 'slow-database-queries']
+title: Unbounded Data Growth
+description: Data structures, caches, or databases grow indefinitely without proper
+  pruning, size limits, or archiving strategies.
+category:
+- Performance
+- Technical
+- Maintenance
+related_problems:
+- slug: unbounded-data-structures
+  similarity: 0.81
+- slug: unreleased-resources
+  similarity: 0.625
+- slug: gradual-performance-degradation
+  similarity: 0.588
+- slug: memory-fragmentation
+  similarity: 0.57
+- slug: resource-allocation-failures
+  similarity: 0.553
 layout: problem
 ---
 

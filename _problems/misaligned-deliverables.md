@@ -1,8 +1,17 @@
 ---
-title: "Misaligned Deliverables"
-description: "The delivered product or feature does not match the expectations or requirements of the stakeholders."
-category: ['Process', 'Communication']
-related_problems: ['scope-creep', 'stakeholder-developer-communication-gap']
+title: Misaligned Deliverables
+description: The delivered product or feature does not match the expectations or requirements
+  of the stakeholders.
+category:
+- Process
+- Communication
+related_problems:
+- slug: no-continuous-feedback-loop
+  similarity: 0.592
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.542
+- slug: inconsistent-behavior
+  similarity: 0.531
 layout: problem
 ---
 

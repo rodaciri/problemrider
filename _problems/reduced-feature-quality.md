@@ -1,8 +1,22 @@
 ---
-title: "Reduced Feature Quality"
-description: "Less time is available for polish and refinement of delivered features, resulting in lower-quality user experiences and functionality."
-category: ['Quality', 'Process', 'User Experience']
-related_problems: ['time-pressure', 'slow-development-velocity', 'increased-technical-shortcuts']
+title: Reduced Feature Quality
+description: Less time is available for polish and refinement of delivered features,
+  resulting in lower-quality user experiences and functionality.
+category:
+- Quality
+- Process
+- User Experience
+related_problems:
+- slug: feature-gaps
+  similarity: 0.653
+- slug: quality-degradation
+  similarity: 0.61
+- slug: quality-compromises
+  similarity: 0.606
+- slug: implementation-rework
+  similarity: 0.583
+- slug: wasted-development-effort
+  similarity: 0.58
 layout: problem
 ---
 

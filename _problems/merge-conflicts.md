@@ -1,8 +1,22 @@
 ---
-title: "Merge Conflicts"
-description: "Multiple developers frequently modify the same large functions or files, creating version control conflicts that slow development."
-category: ['Process', 'Collaboration', 'Maintenance']
-related_problems: ['monolithic-functions-and-classes', 'poor-communication', 'high-coupling-low-cohesion']
+title: Merge Conflicts
+description: Multiple developers frequently modify the same large functions or files,
+  creating version control conflicts that slow development.
+category:
+- Process
+- Collaboration
+- Maintenance
+related_problems:
+- slug: team-coordination-issues
+  similarity: 0.742
+- slug: long-lived-feature-branches
+  similarity: 0.623
+- slug: duplicated-effort
+  similarity: 0.604
+- slug: tool-limitations
+  similarity: 0.593
+- slug: accumulation-of-workarounds
+  similarity: 0.578
 layout: problem
 ---
 

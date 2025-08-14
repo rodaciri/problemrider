@@ -1,8 +1,20 @@
 ---
-title: "Long Build and Test Times"
-description: "A situation where it takes a long time to build and test a system."
-category: ['Process', 'Productivity']
-related_problems: ['monolithic-architecture-constraints', 'slow-development-velocity', 'developer-frustration-and-burnout']
+title: Long Build and Test Times
+description: A situation where it takes a long time to build and test a system.
+category:
+- Process
+- Productivity
+related_problems:
+- slug: inefficient-development-environment
+  similarity: 0.624
+- slug: testing-environment-fragility
+  similarity: 0.613
+- slug: tool-limitations
+  similarity: 0.604
+- slug: deadline-pressure
+  similarity: 0.586
+- slug: slow-development-velocity
+  similarity: 0.585
 layout: problem
 ---
 

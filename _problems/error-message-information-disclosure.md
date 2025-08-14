@@ -1,8 +1,22 @@
 ---
-title: "Error Message Information Disclosure"
-description: "Error messages reveal sensitive system information that can be exploited by attackers to understand system architecture and vulnerabilities."
-category: ['Security', 'Error Handling', 'Information Disclosure']
-related_problems: ['inadequate-error-handling', 'security-information-leakage', 'debugging-information-exposure']
+title: Error Message Information Disclosure
+description: Error messages reveal sensitive system information that can be exploited
+  by attackers to understand system architecture and vulnerabilities.
+category:
+- Security
+- Error Handling
+- Information Disclosure
+related_problems:
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.582
+- slug: inadequate-error-handling
+  similarity: 0.57
+- slug: log-injection-vulnerabilities
+  similarity: 0.526
+- slug: stack-overflow-errors
+  similarity: 0.519
+- slug: poor-system-environment
+  similarity: 0.512
 layout: problem
 ---
 

@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Onboarding Experience"
-description: "New team members receive dramatically different onboarding experiences depending on who is available to help them, creating unequal outcomes."
-category: ['Process', 'Team Dynamics', 'Knowledge Management']
-related_problems: ['inadequate-mentoring-structure', 'knowledge-silos', 'extended-onboarding-period']
+title: Inconsistent Onboarding Experience
+description: New team members receive dramatically different onboarding experiences
+  depending on who is available to help them, creating unequal outcomes.
+category:
+- Process
+- Team Dynamics
+- Knowledge Management
+related_problems:
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.703
+- slug: difficult-developer-onboarding
+  similarity: 0.627
+- slug: inconsistent-execution
+  similarity: 0.552
+- slug: high-turnover
+  similarity: 0.54
+- slug: inadequate-mentoring-structure
+  similarity: 0.521
 layout: problem
 ---
 

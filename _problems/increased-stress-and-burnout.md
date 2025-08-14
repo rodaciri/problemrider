@@ -1,8 +1,22 @@
 ---
-title: "Increased Stress and Burnout"
-description: "Team members are overworked and stressed due to unrealistic expectations and time pressure, leading to decreased morale and productivity."
-category: ['Team Dynamics', 'Process', 'Individual Performance']
-related_problems: ['time-pressure', 'unrealistic-deadlines', 'developer-frustration-and-burnout']
+title: Increased Stress and Burnout
+description: Team members are overworked and stressed due to unrealistic expectations
+  and time pressure, leading to decreased morale and productivity.
+category:
+- Team Dynamics
+- Process
+- Individual Performance
+related_problems:
+- slug: overworked-teams
+  similarity: 0.807
+- slug: developer-frustration-and-burnout
+  similarity: 0.709
+- slug: mental-fatigue
+  similarity: 0.666
+- slug: unmotivated-employees
+  similarity: 0.617
+- slug: uneven-workload-distribution
+  similarity: 0.602
 layout: problem
 ---
 

@@ -1,8 +1,21 @@
 ---
-title: "Excessive Logging"
-description: "Applications generate a very high volume of logs, consuming excessive disk space and potentially impacting performance."
-category: ['Performance', 'Maintenance']
-related_problems: ['excessive-disk-io', 'slow-application-performance', 'log-spam', 'debugging-difficulties']
+title: Excessive Logging
+description: Applications generate a very high volume of logs, consuming excessive
+  disk space and potentially impacting performance.
+category:
+- Performance
+- Maintenance
+related_problems:
+- slug: log-spam
+  similarity: 0.753
+- slug: logging-configuration-issues
+  similarity: 0.712
+- slug: increased-error-rates
+  similarity: 0.668
+- slug: high-database-resource-utilization
+  similarity: 0.635
+- slug: slow-database-queries
+  similarity: 0.621
 layout: problem
 ---
 

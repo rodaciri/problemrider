@@ -1,8 +1,22 @@
 ---
-title: "Capacity Mismatch"
-description: "Available capacity at different stages of the development process doesn't match demand patterns, creating bottlenecks and underutilization."
-category: ['Resource Management', 'Process', 'Capacity Planning']
-related_problems: ['bottleneck-formation', 'uneven-workload-distribution', 'resource-allocation-failures']
+title: Capacity Mismatch
+description: Available capacity at different stages of the development process doesn't
+  match demand patterns, creating bottlenecks and underutilization.
+category:
+- Resource Management
+- Process
+- Capacity Planning
+related_problems:
+- slug: bottleneck-formation
+  similarity: 0.68
+- slug: uneven-work-flow
+  similarity: 0.646
+- slug: resource-waste
+  similarity: 0.643
+- slug: uneven-workload-distribution
+  similarity: 0.63
+- slug: work-queue-buildup
+  similarity: 0.613
 layout: problem
 ---
 

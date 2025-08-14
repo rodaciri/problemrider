@@ -1,8 +1,22 @@
 ---
-title: "Reduced Code Submission Frequency"
-description: "Developers batch multiple changes together or delay submissions to avoid frequent code review cycles, reducing feedback quality and integration frequency."
-category: ['Process', 'Development Workflow', 'Team Dynamics']
-related_problems: ['author-frustration', 'large-pull-requests', 'code-review-inefficiency']
+title: Reduced Code Submission Frequency
+description: Developers batch multiple changes together or delay submissions to avoid
+  frequent code review cycles, reducing feedback quality and integration frequency.
+category:
+- Process
+- Development Workflow
+- Team Dynamics
+related_problems:
+- slug: review-bottlenecks
+  similarity: 0.672
+- slug: large-pull-requests
+  similarity: 0.652
+- slug: extended-review-cycles
+  similarity: 0.636
+- slug: tool-limitations
+  similarity: 0.594
+- slug: code-review-inefficiency
+  similarity: 0.591
 layout: problem
 ---
 

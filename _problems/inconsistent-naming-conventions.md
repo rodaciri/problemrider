@@ -1,8 +1,22 @@
 ---
-title: "Inconsistent Naming Conventions"
-description: "Unstructured or conflicting names make code harder to read, navigate, and maintain"
-category: ['Technical', 'Maintenance', 'Communication']
-related_problems: [inconsistent-codebase, undefined-code-style-guidelines, increased-cognitive-load]
+title: Inconsistent Naming Conventions
+description: Unstructured or conflicting names make code harder to read, navigate,
+  and maintain
+category:
+- Technical
+- Maintenance
+- Communication
+related_problems:
+- slug: inconsistent-coding-standards
+  similarity: 0.733
+- slug: inconsistent-codebase
+  similarity: 0.674
+- slug: nitpicking-culture
+  similarity: 0.586
+- slug: increased-risk-of-bugs
+  similarity: 0.583
+- slug: undefined-code-style-guidelines
+  similarity: 0.567
 layout: problem
 ---
 

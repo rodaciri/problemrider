@@ -1,8 +1,22 @@
 ---
-title: "Testing Environment Fragility"
-description: "Testing infrastructure is unreliable, difficult to maintain, and fails to accurately represent production conditions, undermining test effectiveness."
-category: ['Infrastructure', 'Testing', 'Operations']
-related_problems: ['flaky-tests', 'environment-variable-issues', 'quality-blind-spots']
+title: Testing Environment Fragility
+description: Testing infrastructure is unreliable, difficult to maintain, and fails
+  to accurately represent production conditions, undermining test effectiveness.
+category:
+- Infrastructure
+- Testing
+- Operations
+related_problems:
+- slug: inadequate-test-infrastructure
+  similarity: 0.771
+- slug: quality-blind-spots
+  similarity: 0.682
+- slug: flaky-tests
+  similarity: 0.671
+- slug: insufficient-testing
+  similarity: 0.665
+- slug: increased-manual-testing-effort
+  similarity: 0.657
 layout: problem
 ---
 

@@ -3,9 +3,9 @@ title: Large, Risky Releases
 description: Infrequent releases lead to large, complex deployments that are difficult
   to test, prone to failure, and have a significant impact on users when they go wrong.
 category:
+- Code
+- Operations
 - Process
-- Quality
-- Deployment
 related_problems:
 - slug: complex-deployment-process
   similarity: 0.7

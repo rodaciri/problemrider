@@ -19,6 +19,31 @@
   }
   
   .problem-meta {
+    .problem-categories {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    
+    .category-tag {
+      font-size: 0.8rem;
+      color: #007acc;
+      background: #e6f3ff;
+      padding: 0.3rem 0.6rem;
+      border-radius: 12px;
+      text-decoration: none;
+      border: 1px solid #c3e0ff;
+      transition: all 0.2s;
+      
+      &:hover {
+        background: #007acc;
+        color: white;
+        transform: translateY(-1px);
+        box-shadow: 0 2px 4px rgba(0, 122, 204, 0.3);
+      }
+    }
+    
+    // Legacy support for old problem-category class
     .problem-category {
       background: #f0f0f0;
       padding: 0.25rem 0.5rem;
@@ -445,6 +470,42 @@
   }
 }
 
+.category-overview {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  
+  p {
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .category-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    
+    .category-tag {
+      font-size: 0.8rem;
+      color: #007acc;
+      background: #e6f3ff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 12px;
+      text-decoration: none;
+      border: 1px solid #c3e0ff;
+      transition: all 0.2s;
+      
+      &:hover {
+        background: #007acc;
+        color: white;
+        transform: translateY(-1px);
+        box-shadow: 0 2px 4px rgba(0, 122, 204, 0.3);
+      }
+    }
+  }
+}
+
 .categories-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -525,6 +586,34 @@
     
     .hidden-problems {
       margin-top: 1rem;
+    }
+  }
+}
+
+.back-to-top {
+  margin-top: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+  
+  .back-to-top-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #007acc;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #007acc;
+    border-radius: 6px;
+    background: white;
+    transition: all 0.2s;
+    
+    &:hover {
+      background: #007acc;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 122, 204, 0.3);
     }
   }
 }

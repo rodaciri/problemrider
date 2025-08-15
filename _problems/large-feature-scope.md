@@ -3,8 +3,8 @@ title: Large Feature Scope
 description: Features are too large to be broken down into smaller, incremental changes,
   leading to long-lived branches and integration problems.
 category:
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: long-lived-feature-branches
   similarity: 0.7

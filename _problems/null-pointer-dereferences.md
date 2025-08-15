@@ -3,8 +3,7 @@ title: Null Pointer Dereferences
 description: Programs attempt to access memory through null or invalid pointers, causing
   crashes and potential security vulnerabilities.
 category:
-- Technical
-- Runtime Errors
+- Code
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities

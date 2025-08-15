@@ -3,8 +3,8 @@ title: Individual Recognition Culture
 description: A culture where individual accomplishments are valued more than team
   accomplishments.
 category:
-- Team
 - Process
+- Team
 related_problems:
 - slug: micromanagement-culture
   similarity: 0.55

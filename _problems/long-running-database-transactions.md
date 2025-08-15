@@ -3,8 +3,8 @@ title: Long-Running Database Transactions
 description: Database transactions remain open for extended periods, holding locks
   and consuming resources, which can block other operations.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: long-running-transactions
   similarity: 0.95

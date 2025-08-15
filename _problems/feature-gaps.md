@@ -3,9 +3,8 @@ title: Feature Gaps
 description: Important functionality is missing because developers assumed it wasn't
   needed, creating incomplete solutions that don't meet user needs.
 category:
-- Product
+- Business
 - Requirements
-- User Experience
 related_problems:
 - slug: monitoring-gaps
   similarity: 0.6

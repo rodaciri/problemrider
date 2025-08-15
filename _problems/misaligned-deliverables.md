@@ -3,8 +3,8 @@ title: Misaligned Deliverables
 description: The delivered product or feature does not match the expectations or requirements
   of the stakeholders.
 category:
-- Process
 - Communication
+- Process
 related_problems:
 - slug: stakeholder-developer-communication-gap
   similarity: 0.75

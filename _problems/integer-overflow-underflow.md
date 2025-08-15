@@ -3,8 +3,8 @@ title: Integer Overflow and Underflow
 description: Arithmetic operations produce results that exceed the maximum or minimum
   values representable by integer data types, leading to unexpected behavior.
 category:
-- Technical
-- Data Integrity
+- Code
+- Data
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities

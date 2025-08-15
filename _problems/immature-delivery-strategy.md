@@ -3,9 +3,8 @@ title: Immature Delivery Strategy
 description: Software rollout processes are improvised, inconsistent, or inadequately
   planned, increasing downtime and user confusion.
 category:
-- Process
 - Operations
-- Deployment
+- Process
 related_problems:
 - slug: complex-deployment-process
   similarity: 0.7

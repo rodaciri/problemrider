@@ -3,9 +3,8 @@ title: Interrupt Overhead
 description: Excessive hardware interrupts disrupt CPU execution flow, causing frequent
   context switches and reducing application performance.
 category:
-- Technical
+- Code
 - Performance
-- Hardware
 related_problems:
 - slug: context-switching-overhead
   similarity: 0.65

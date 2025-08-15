@@ -4,7 +4,6 @@ description: A design where all requests to a system must go through a single ob
   or component.
 category:
 - Architecture
-- Design
 related_problems:
 - slug: god-object-anti-pattern
   similarity: 0.6

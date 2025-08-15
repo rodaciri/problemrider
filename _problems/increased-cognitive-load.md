@@ -3,9 +3,8 @@ title: Increased Cognitive Load
 description: Developers must expend excessive mental energy to understand and work
   with inconsistent, complex, or poorly structured code.
 category:
+- Code
 - Process
-- Maintenance
-- Quality
 related_problems:
 - slug: cognitive-overload
   similarity: 0.8

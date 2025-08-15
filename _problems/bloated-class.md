@@ -3,8 +3,7 @@ title: Bloated Class
 description: A class that has grown so large that it has become difficult to understand,
   maintain, and test.
 category:
-- Code Quality
-- Maintenance
+- Code
 related_problems:
 - slug: excessive-class-size
   similarity: 0.75

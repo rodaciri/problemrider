@@ -3,8 +3,8 @@ title: Tacit Knowledge
 description: Knowledge that is difficult to transfer to another person by means of
   writing it down or verbalizing it.
 category:
-- Team
 - Process
+- Team
 related_problems:
 - slug: slow-knowledge-transfer
   similarity: 0.75

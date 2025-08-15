@@ -4,7 +4,7 @@ description: Frequent issues and emergency fixes damage user confidence in the s
   reliability, leading to a decline in user engagement and satisfaction.
 category:
 - Business
-- User Experience
+- Requirements
 related_problems:
 - slug: user-confusion
   similarity: 0.65

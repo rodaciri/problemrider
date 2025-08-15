@@ -3,9 +3,9 @@ title: Poor Domain Model
 description: Core business concepts are poorly understood or reflected in the system,
   leading to fragile logic and miscommunication
 category:
-- Design
+- Architecture
+- Code
 - Communication
-- Technical
 related_problems:
 - slug: complex-domain-model
   similarity: 0.75

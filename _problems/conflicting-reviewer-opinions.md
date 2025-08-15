@@ -3,9 +3,9 @@ title: Conflicting Reviewer Opinions
 description: Multiple reviewers provide contradictory guidance on the same code changes,
   creating confusion and inefficiency.
 category:
-- Process
-- Team Dynamics
 - Communication
+- Process
+- Team
 related_problems:
 - slug: author-frustration
   similarity: 0.7

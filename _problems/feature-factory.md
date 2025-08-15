@@ -3,8 +3,8 @@ title: Feature Factory
 description: Organization prioritizes shipping features over understanding their business
   impact and user value
 category:
+- Management
 - Process
-- Strategy
 - Team
 related_problems:
 - slug: feature-bloat

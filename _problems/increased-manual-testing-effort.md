@@ -3,9 +3,8 @@ title: Increased Manual Testing Effort
 description: A disproportionate amount of time is spent on manual testing due to a
   lack of automation.
 category:
-- Testing
 - Process
-- Efficiency
+- Testing
 related_problems:
 - slug: increased-manual-work
   similarity: 0.75

@@ -3,10 +3,10 @@ title: Slow Development Velocity
 description: The team consistently fails to deliver features and bug fixes at a predictable
   and acceptable pace, with overall productivity systematically declining.
 category:
-- Process
-- Maintenance
-- Team Dynamics
 - Business
+- Code
+- Process
+- Team
 related_problems:
 - slug: slow-feature-development
   similarity: 0.8

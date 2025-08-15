@@ -4,9 +4,9 @@ description: The application code is written in a way that fetches data in a loo
   rather than using a more efficient, declarative approach, leading to performance
   problems.
 category:
+- Architecture
+- Data
 - Performance
-- Database
-- Design
 related_problems:
 - slug: lazy-loading
   similarity: 0.75

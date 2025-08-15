@@ -4,8 +4,7 @@ description: Code reviews require multiple rounds of feedback and revision, sign
   extending the time from code submission to approval.
 category:
 - Process
-- Efficiency
-- Team Dynamics
+- Team
 related_problems:
 - slug: extended-cycle-times
   similarity: 0.7

@@ -3,9 +3,9 @@ title: Breaking Changes
 description: API updates break existing client integrations, causing compatibility
   issues and forcing costly emergency fixes.
 category:
-- Integration
-- API Management
-- Maintenance
+- Architecture
+- Code
+- Testing
 related_problems:
 - slug: api-versioning-conflicts
   similarity: 0.65

@@ -3,9 +3,8 @@ title: Garbage Collection Pressure
 description: Excessive object allocation and deallocation causes frequent garbage
   collection cycles, creating performance pauses and reducing application throughput.
 category:
-- Technical
+- Code
 - Performance
-- Memory Management
 related_problems:
 - slug: excessive-object-allocation
   similarity: 0.7

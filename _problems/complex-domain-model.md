@@ -3,9 +3,8 @@ title: Complex Domain Model
 description: The business domain being modeled in software is inherently complex,
   making the system difficult to understand and implement correctly.
 category:
-- Design
-- Business Logic
 - Architecture
+- Business
 related_problems:
 - slug: poor-domain-model
   similarity: 0.75

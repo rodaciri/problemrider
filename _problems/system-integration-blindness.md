@@ -3,9 +3,8 @@ title: System Integration Blindness
 description: Components work correctly in isolation but fail when integrated, revealing
   gaps in end-to-end system understanding.
 category:
-- Integration
-- Testing
 - Architecture
+- Testing
 related_problems:
 - slug: inadequate-integration-tests
   similarity: 0.75

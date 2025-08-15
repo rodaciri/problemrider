@@ -3,8 +3,8 @@ title: Buffer Overflow Vulnerabilities
 description: Programs write data beyond the boundaries of allocated memory buffers,
   leading to security vulnerabilities and system instability.
 category:
+- Code
 - Security
-- Technical
 related_problems:
 - slug: cross-site-scripting-vulnerabilities
   similarity: 0.55

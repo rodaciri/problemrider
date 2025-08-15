@@ -3,9 +3,9 @@ title: Staff Availability Issues
 description: Needed roles remain unfilled or employees are overbooked, reducing execution
   capacity and project progress.
 category:
-- Resource Management
-- Team Dynamics
-- Planning
+- Performance
+- Process
+- Team
 related_problems:
 - slug: project-resource-constraints
   similarity: 0.6

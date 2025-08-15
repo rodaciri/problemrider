@@ -3,9 +3,8 @@ title: Reduced Review Participation
 description: Many team members avoid participating in code reviews, concentrating
   review burden on a few individuals and reducing coverage.
 category:
-- Team Dynamics
 - Process
-- Workload Distribution
+- Team
 related_problems:
 - slug: review-process-avoidance
   similarity: 0.7

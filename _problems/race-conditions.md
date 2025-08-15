@@ -3,9 +3,9 @@ title: Race Conditions
 description: Multiple threads access shared resources simultaneously without proper
   synchronization, leading to unpredictable behavior and data corruption.
 category:
-- Technical
-- Concurrency
-- Data Integrity
+- Code
+- Data
+- Performance
 related_problems:
 - slug: lock-contention
   similarity: 0.65

@@ -3,9 +3,9 @@ title: Legacy Business Logic Extraction Difficulty
 description: Critical business rules are embedded deep within legacy code structures,
   making them nearly impossible to identify and extract
 category:
-- Technical
-- Design
-- Knowledge Management
+- Architecture
+- Code
+- Communication
 related_problems:
 - slug: complex-and-obscure-logic
   similarity: 0.65

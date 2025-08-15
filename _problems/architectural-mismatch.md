@@ -3,9 +3,9 @@ title: Architectural Mismatch
 description: New business requirements don't fit well within existing architectural
   constraints, requiring extensive workarounds or compromises.
 category:
-- Design
+- Architecture
 - Business
-- Technical
+- Code
 related_problems:
 - slug: organizational-structure-mismatch
   similarity: 0.75

@@ -3,9 +3,8 @@ title: Insufficient Audit Logging
 description: Inadequate logging of security-relevant events makes it difficult to
   detect breaches, investigate incidents, or maintain compliance.
 category:
+- Code
 - Security
-- Logging
-- Compliance
 related_problems:
 - slug: logging-configuration-issues
   similarity: 0.65

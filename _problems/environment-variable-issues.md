@@ -3,9 +3,8 @@ title: Environment Variable Issues
 description: Improper management of environment variables causes configuration problems,
   security vulnerabilities, and deployment failures.
 category:
-- Configuration
+- Operations
 - Security
-- Deployment
 related_problems:
 - slug: deployment-environment-inconsistencies
   similarity: 0.65

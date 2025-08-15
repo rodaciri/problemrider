@@ -3,9 +3,8 @@ title: Ripple Effect of Changes
 description: A small change in one part of the system requires modifications in many
   other seemingly unrelated parts, indicating high coupling.
 category:
-- Technical
-- Design
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: tight-coupling-issues
   similarity: 0.7

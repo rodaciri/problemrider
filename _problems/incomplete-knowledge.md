@@ -3,8 +3,8 @@ title: Incomplete Knowledge
 description: Developers are unaware of all the locations where similar logic exists,
   which can lead to synchronization problems and other issues.
 category:
+- Communication
 - Team
-- Knowledge Management
 related_problems:
 - slug: incomplete-projects
   similarity: 0.7

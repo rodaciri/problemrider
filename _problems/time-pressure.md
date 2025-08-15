@@ -3,8 +3,8 @@ title: Time Pressure
 description: Teams are forced to take shortcuts to meet immediate deadlines, deferring
   proper solutions and rushing important tasks like code reviews.
 category:
+- Code
 - Process
-- Quality
 related_problems:
 - slug: deadline-pressure
   similarity: 0.75

@@ -4,7 +4,6 @@ description: Developers add unnecessary features or complexity to a project beca
   they believe it will impress the stakeholders, even if it was not requested.
 category:
 - Process
-- Project Management
 related_problems:
 - slug: feature-creep
   similarity: 0.65

@@ -3,9 +3,9 @@ title: Implementation Starts Without Design
 description: Development begins with unclear structure, leading to disorganized code
   and architectural drift
 category:
+- Architecture
+- Code
 - Process
-- Design
-- Technical
 related_problems:
 - slug: implementation-rework
   similarity: 0.55

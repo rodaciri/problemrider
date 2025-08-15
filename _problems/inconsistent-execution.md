@@ -3,9 +3,9 @@ title: Inconsistent Execution
 description: Manual processes lead to variations in how tasks are completed across
   team members and over time, creating unpredictable outcomes.
 category:
+- Code
 - Process
-- Quality
-- Team Dynamics
+- Team
 related_problems:
 - slug: inconsistent-behavior
   similarity: 0.75

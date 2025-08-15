@@ -3,9 +3,8 @@ title: Accumulation of Workarounds
 description: Instead of fixing core issues, developers create elaborate workarounds
   that add complexity and technical debt to the system.
 category:
-- Technical
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: workaround-culture
   similarity: 0.75

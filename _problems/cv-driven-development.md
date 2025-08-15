@@ -3,9 +3,9 @@ title: CV Driven Development
 description: Choosing technologies or practices primarily to enhance personal resumes
   rather than solve business problems
 category:
-- Process
-- Technical
+- Code
 - Communication
+- Process
 related_problems:
 - slug: convenience-driven-development
   similarity: 0.7

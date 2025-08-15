@@ -3,9 +3,9 @@ title: Integration Difficulties
 description: Connecting with modern services requires extensive workarounds due to
   architectural limitations or outdated integration patterns.
 category:
-- Technical
-- Design
-- Integration
+- Architecture
+- Code
+- Testing
 related_problems:
 - slug: poor-interfaces-between-applications
   similarity: 0.6

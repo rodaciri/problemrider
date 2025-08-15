@@ -3,8 +3,7 @@ title: Feature Creep Without Refactoring
 description: The continuous addition of new features to a codebase without taking
   the time to refactor and improve the design.
 category:
-- Code Quality
-- Maintenance
+- Code
 - Process
 related_problems:
 - slug: feature-creep

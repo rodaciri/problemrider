@@ -3,9 +3,9 @@ title: Increasing Brittleness
 description: Software systems become more fragile and prone to breaking over time,
   with small changes having unpredictable and widespread effects.
 category:
-- System Quality
-- Maintainability
-- Risk
+- Architecture
+- Code
+- Management
 related_problems:
 - slug: brittle-codebase
   similarity: 0.7

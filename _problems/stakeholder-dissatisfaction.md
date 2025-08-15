@@ -3,9 +3,8 @@ title: Stakeholder Dissatisfaction
 description: Business stakeholders become unhappy with project outcomes, development
   speed, or communication quality.
 category:
-- Stakeholder Relations
 - Communication
-- Project Management
+- Process
 related_problems:
 - slug: stakeholder-frustration
   similarity: 0.85

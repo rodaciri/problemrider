@@ -3,9 +3,9 @@ title: Superficial Code Reviews
 description: Code reviews focus only on surface-level issues like formatting and style
   while missing important design, logic, or security problems.
 category:
+- Code
 - Process
-- Quality
-- Team Dynamics
+- Team
 related_problems:
 - slug: inadequate-code-reviews
   similarity: 0.8

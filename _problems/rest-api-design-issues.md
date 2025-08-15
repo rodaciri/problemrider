@@ -3,9 +3,8 @@ title: REST API Design Issues
 description: Poor REST API design violates REST principles, creates usability problems,
   and leads to inefficient client-server interactions.
 category:
-- API Design
 - Architecture
-- Usability
+- Requirements
 related_problems:
 - slug: database-schema-design-problems
   similarity: 0.55

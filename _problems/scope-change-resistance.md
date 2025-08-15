@@ -3,9 +3,8 @@ title: Scope Change Resistance
 description: Necessary changes to project scope are avoided or resisted due to process
   constraints, contract limitations, or organizational inertia.
 category:
-- Change Management
+- Management
 - Process
-- Risk Management
 related_problems:
 - slug: changing-project-scope
   similarity: 0.75

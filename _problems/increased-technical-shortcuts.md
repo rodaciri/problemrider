@@ -3,9 +3,8 @@ title: Increased Technical Shortcuts
 description: Pressure to deliver leads to more quick fixes and workarounds instead
   of proper solutions, creating future maintenance problems.
 category:
-- Quality
+- Code
 - Process
-- Technical
 related_problems:
 - slug: high-technical-debt
   similarity: 0.75

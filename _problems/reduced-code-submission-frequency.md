@@ -4,8 +4,7 @@ description: Developers batch multiple changes together or delay submissions to 
   frequent code review cycles, reducing feedback quality and integration frequency.
 category:
 - Process
-- Development Workflow
-- Team Dynamics
+- Team
 related_problems:
 - slug: reduced-review-participation
   similarity: 0.6

@@ -3,8 +3,8 @@ title: History of Failed Changes
 description: A past record of failed deployments or changes creates a culture of fear
   and resistance to future modifications.
 category:
-- Process
 - Culture
+- Process
 related_problems:
 - slug: fear-of-breaking-changes
   similarity: 0.65

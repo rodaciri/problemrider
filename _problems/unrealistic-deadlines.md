@@ -3,9 +3,8 @@ title: Unrealistic Deadlines
 description: Management sets aggressive deadlines that do not account for the actual
   effort required, leading to compromised quality and unsustainable work practices.
 category:
+- Management
 - Process
-- Organizational
-- Planning
 related_problems:
 - slug: unrealistic-schedule
   similarity: 0.8

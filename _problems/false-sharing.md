@@ -3,9 +3,8 @@ title: False Sharing
 description: Multiple CPU cores access different variables located on the same cache
   line, causing unnecessary cache coherency traffic and performance degradation.
 category:
-- Technical
+- Code
 - Performance
-- Concurrency
 related_problems:
 - slug: race-conditions
   similarity: 0.6

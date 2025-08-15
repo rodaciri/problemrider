@@ -4,9 +4,8 @@ description: The project team agrees to every new request from the stakeholders 
   pushing back or explaining the trade-offs, which can lead to scope creep and a number
   of other problems.
 category:
-- Process
-- Project Management
 - Communication
+- Process
 related_problems:
 - slug: stakeholder-dissatisfaction
   similarity: 0.7

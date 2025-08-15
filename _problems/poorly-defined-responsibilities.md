@@ -3,9 +3,8 @@ title: Poorly Defined Responsibilities
 description: Modules or classes are not designed with a single, clear responsibility,
   leading to confusion and tight coupling.
 category:
-- Design
 - Architecture
-- Maintenance
+- Code
 related_problems:
 - slug: monolithic-functions-and-classes
   similarity: 0.7

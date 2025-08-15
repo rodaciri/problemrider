@@ -3,9 +3,8 @@ title: Microservice Communication Overhead
 description: Excessive network communication between microservices creates latency,
   reduces reliability, and impacts overall system performance.
 category:
-- Microservices
-- Performance
 - Architecture
+- Performance
 related_problems:
 - slug: interrupt-overhead
   similarity: 0.55

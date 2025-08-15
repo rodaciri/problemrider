@@ -3,9 +3,9 @@ title: Requirements Ambiguity
 description: System requirements are unclear, incomplete, or open to multiple interpretations,
   leading to misaligned implementations and rework.
 category:
-- Requirements
 - Communication
 - Process
+- Requirements
 related_problems:
 - slug: inadequate-requirements-gathering
   similarity: 0.65

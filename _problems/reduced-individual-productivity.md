@@ -3,9 +3,9 @@ title: Reduced Individual Productivity
 description: Individual developers complete fewer tasks and take longer to resolve
   problems despite maintaining the same work effort.
 category:
+- Code
+- Culture
 - Process
-- Technical
-- Individual Performance
 related_problems:
 - slug: reduced-team-productivity
   similarity: 0.75

@@ -3,9 +3,8 @@ title: Rapid System Changes
 description: Frequent modifications to system architecture, APIs, or core functionality
   outpace documentation and team understanding.
 category:
+- Communication
 - Process
-- Change Management
-- Documentation
 related_problems:
 - slug: change-management-chaos
   similarity: 0.65

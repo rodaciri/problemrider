@@ -3,9 +3,8 @@ title: Legacy Skill Shortage
 description: Critical shortage of developers with knowledge of legacy technologies
   creates bottlenecks and single points of failure for system maintenance
 category:
-- Organizational
-- Skills
-- Risk Management
+- Management
+- Team
 related_problems:
 - slug: maintenance-bottlenecks
   similarity: 0.65

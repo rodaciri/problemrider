@@ -3,9 +3,9 @@ title: Technology Stack Fragmentation
 description: Legacy systems create isolated technology islands that prevent standardization
   and increase operational complexity across the organization
 category:
-- Technical
-- Organizational
-- Operational
+- Code
+- Management
+- Operations
 related_problems:
 - slug: technology-isolation
   similarity: 0.75

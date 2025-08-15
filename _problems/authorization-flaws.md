@@ -3,8 +3,8 @@ title: Authorization Flaws
 description: Inadequate access control mechanisms allow users to perform actions or
   access resources beyond their intended permissions.
 category:
+- Code
 - Security
-- Technical
 related_problems:
 - slug: authentication-bypass-vulnerabilities
   similarity: 0.75

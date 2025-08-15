@@ -3,9 +3,8 @@ title: SQL Injection Vulnerabilities
 description: Inadequate input sanitization allows attackers to inject malicious SQL
   code, potentially compromising database security and data integrity.
 category:
+- Data
 - Security
-- Database
-- Input Validation
 related_problems:
 - slug: cross-site-scripting-vulnerabilities
   similarity: 0.65

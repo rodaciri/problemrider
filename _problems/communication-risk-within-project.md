@@ -4,8 +4,8 @@ description: Misunderstandings and unclear messages reduce coordination and trus
   among project team members.
 category:
 - Communication
-- Team Dynamics
 - Process
+- Team
 related_problems:
 - slug: communication-risk-outside-project
   similarity: 0.8

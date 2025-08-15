@@ -3,9 +3,8 @@ title: Modernization ROI Justification Failure
 description: Unable to build compelling business cases for legacy modernization due
   to hidden technical debt and unclear benefit quantification
 category:
-- Strategic
 - Business
-- Financial
+- Management
 related_problems:
 - slug: modernization-strategy-paralysis
   similarity: 0.75

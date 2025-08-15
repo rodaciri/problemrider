@@ -4,8 +4,6 @@ description: Developers must constantly switch between different tools, systems,
   problem domains, reducing productivity and increasing cognitive load.
 category:
 - Process
-- Development Experience
-- Productivity
 related_problems:
 - slug: cognitive-overload
   similarity: 0.7

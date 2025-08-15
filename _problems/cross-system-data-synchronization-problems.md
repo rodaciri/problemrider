@@ -3,9 +3,9 @@ title: Cross-System Data Synchronization Problems
 description: Maintaining data consistency between legacy and modern systems during
   migration creates complex synchronization challenges and potential data corruption
 category:
-- Technical
-- Data Management
-- Integration
+- Code
+- Data
+- Testing
 related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.75

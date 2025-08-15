@@ -3,8 +3,8 @@ title: Upstream Timeouts
 description: Services that consume an API fail because they do not receive a response
   within their configured timeout window.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: service-timeouts
   similarity: 0.85

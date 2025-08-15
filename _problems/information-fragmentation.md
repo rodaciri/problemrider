@@ -3,9 +3,8 @@ title: Information Fragmentation
 description: Critical system knowledge is scattered across multiple locations and
   formats, making it difficult to find and maintain.
 category:
-- Knowledge Management
-- Process
 - Communication
+- Process
 related_problems:
 - slug: knowledge-silos
   similarity: 0.7

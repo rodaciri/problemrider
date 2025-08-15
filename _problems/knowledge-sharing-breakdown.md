@@ -3,9 +3,9 @@ title: Knowledge Sharing Breakdown
 description: The process of sharing knowledge and expertise among team members is
   ineffective, leading to information silos and reduced team learning.
 category:
-- Team Dynamics
+- Communication
 - Process
-- Knowledge Management
+- Team
 related_problems:
 - slug: knowledge-silos
   similarity: 0.8

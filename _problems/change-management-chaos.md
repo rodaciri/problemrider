@@ -3,9 +3,9 @@ title: Change Management Chaos
 description: Changes to systems occur without coordination, oversight, or impact assessment,
   leading to conflicts and unintended consequences.
 category:
+- Management
 - Process
-- Risk Management
-- Coordination
+- Team
 related_problems:
 - slug: configuration-chaos
   similarity: 0.75

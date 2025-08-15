@@ -3,9 +3,8 @@ title: Outdated Tests
 description: Tests are not updated when the code changes, leading to false positives
   or negatives and reduced confidence.
 category:
+- Code
 - Testing
-- Maintenance
-- Quality
 related_problems:
 - slug: legacy-code-without-tests
   similarity: 0.65

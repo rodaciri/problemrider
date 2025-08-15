@@ -3,9 +3,8 @@ title: Technology Isolation
 description: The system becomes increasingly isolated from modern technology stacks,
   limiting ability to attract talent and leverage new capabilities.
 category:
-- Technical
-- Strategic
-- Organizational
+- Code
+- Management
 related_problems:
 - slug: technology-stack-fragmentation
   similarity: 0.75

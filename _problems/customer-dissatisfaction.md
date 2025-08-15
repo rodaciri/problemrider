@@ -3,9 +3,9 @@ title: Customer Dissatisfaction
 description: Users become frustrated with system reliability, performance, or usability
   issues, leading to complaints and potential customer loss.
 category:
-- User Experience
-- Business Impact
-- Quality
+- Business
+- Code
+- Requirements
 related_problems:
 - slug: user-frustration
   similarity: 0.75

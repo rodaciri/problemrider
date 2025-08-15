@@ -3,10 +3,10 @@ title: Reviewer Inexperience
 description: Reviewers lack the experience to identify deeper issues, so they focus
   on what they understand.
 category:
+- Code
+- Culture
 - Process
-- Quality
 - Team
-- Individual
 related_problems:
 - slug: inexperienced-developers
   similarity: 0.75

@@ -3,9 +3,9 @@ title: Resistance to Change
 description: Teams are hesitant to refactor or improve parts of the system due to
   perceived risk and effort, leading to stagnation.
 category:
+- Code
 - Process
-- Team Dynamics
-- Maintenance
+- Team
 related_problems:
 - slug: maintenance-paralysis
   similarity: 0.75

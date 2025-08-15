@@ -3,8 +3,8 @@ title: Stagnant Architecture
 description: The system architecture doesn't evolve to meet changing business needs
   because major refactoring is consistently avoided.
 category:
-- Design
-- Technical
+- Architecture
+- Code
 - Process
 related_problems:
 - slug: system-stagnation

@@ -3,9 +3,9 @@ title: Reduced Feature Quality
 description: Less time is available for polish and refinement of delivered features,
   resulting in lower-quality user experiences and functionality.
 category:
-- Quality
+- Code
 - Process
-- User Experience
+- Requirements
 related_problems:
 - slug: quality-compromises
   similarity: 0.65

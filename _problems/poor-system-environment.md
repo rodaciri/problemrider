@@ -3,9 +3,7 @@ title: Poor System Environment
 description: The system is deployed in an unstable, misconfigured, or unsuitable environment
   that causes outages, performance issues, and operational difficulties.
 category:
-- Infrastructure
 - Operations
-- Deployment
 related_problems:
 - slug: deployment-environment-inconsistencies
   similarity: 0.65

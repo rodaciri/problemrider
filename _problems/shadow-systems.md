@@ -3,9 +3,8 @@ title: Shadow Systems
 description: Alternative solutions developed outside official channels undermine standardization
   and create hidden dependencies.
 category:
+- Management
 - Process
-- Governance
-- Risk Management
 related_problems:
 - slug: hidden-dependencies
   similarity: 0.6

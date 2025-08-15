@@ -3,9 +3,7 @@ title: Delayed Project Timelines
 description: Projects consistently take longer than planned, missing deadlines and
   extending delivery schedules beyond original estimates.
 category:
-- Project Management
 - Process
-- Planning
 related_problems:
 - slug: missed-deadlines
   similarity: 0.8

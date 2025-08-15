@@ -3,9 +3,8 @@ title: Flaky Tests
 description: Tests fail randomly due to timing, setup, or dependencies, undermining
   trust in the test suite
 category:
-- Technical
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: testing-environment-fragility
   similarity: 0.7

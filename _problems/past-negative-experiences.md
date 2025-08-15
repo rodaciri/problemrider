@@ -3,8 +3,8 @@ title: Past Negative Experiences
 description: A situation where developers are hesitant to make changes to the codebase
   because of negative experiences in the past.
 category:
-- Team
 - Process
+- Team
 related_problems:
 - slug: history-of-failed-changes
   similarity: 0.65

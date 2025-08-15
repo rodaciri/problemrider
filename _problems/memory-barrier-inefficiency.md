@@ -3,9 +3,8 @@ title: Memory Barrier Inefficiency
 description: Excessive or incorrectly placed memory barriers disrupt CPU pipeline
   optimization and reduce performance in multi-threaded applications.
 category:
-- Technical
+- Code
 - Performance
-- Concurrency
 related_problems:
 - slug: atomic-operation-overhead
   similarity: 0.65

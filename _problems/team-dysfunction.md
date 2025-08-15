@@ -3,9 +3,8 @@ title: Team Dysfunction
 description: Team members cannot collaborate effectively due to conflicting goals,
   interpersonal issues, or structural problems that prevent coordinated effort.
 category:
-- Team Dynamics
 - Management
-- Organizational
+- Team
 related_problems:
 - slug: poor-teamwork
   similarity: 0.85

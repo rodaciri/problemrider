@@ -4,8 +4,8 @@ description: Data and the behavior that acts on that data are not bundled togeth
   in a single, cohesive unit, leading to a lack of data hiding and a high degree of
   coupling.
 category:
-- Design
-- Quality
+- Architecture
+- Code
 related_problems:
 - slug: misunderstanding-of-oop
   similarity: 0.6

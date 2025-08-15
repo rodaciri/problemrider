@@ -3,8 +3,8 @@ title: Unused Indexes
 description: The database has indexes that are never used by any queries, which still
   consume storage space and add overhead to write operations.
 category:
+- Code
 - Performance
-- Maintenance
 related_problems:
 - slug: inefficient-database-indexing
   similarity: 0.7

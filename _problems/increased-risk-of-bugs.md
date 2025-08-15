@@ -3,9 +3,7 @@ title: Increased Risk of Bugs
 description: Code complexity and lack of clarity make it more likely that developers
   will introduce defects when making changes.
 category:
-- Quality
-- Technical
-- Maintenance
+- Code
 related_problems:
 - slug: high-bug-introduction-rate
   similarity: 0.7

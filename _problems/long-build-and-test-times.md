@@ -3,7 +3,6 @@ title: Long Build and Test Times
 description: A situation where it takes a long time to build and test a system.
 category:
 - Process
-- Productivity
 related_problems:
 - slug: long-release-cycles
   similarity: 0.6

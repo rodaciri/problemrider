@@ -3,9 +3,9 @@ title: Lower Code Quality
 description: Burned-out or rushed developers are more likely to make mistakes, leading
   to an increase in defects.
 category:
-- Quality
+- Code
 - Process
-- Team Dynamics
+- Team
 related_problems:
 - slug: quality-compromises
   similarity: 0.65

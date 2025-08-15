@@ -3,9 +3,8 @@ title: Secret Management Problems
 description: Inadequate handling of sensitive credentials and secrets creates security
   vulnerabilities and operational challenges.
 category:
+- Operations
 - Security
-- Configuration
-- Credential Management
 related_problems:
 - slug: session-management-issues
   similarity: 0.6

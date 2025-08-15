@@ -3,9 +3,9 @@ title: Release Anxiety
 description: The development team is anxious and stressed about deployments due to
   the high risk of failure and the pressure to get it right.
 category:
+- Code
+- Operations
 - Process
-- Quality
-- Deployment
 related_problems:
 - slug: release-instability
   similarity: 0.65

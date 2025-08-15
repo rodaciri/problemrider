@@ -3,9 +3,9 @@ title: Uneven Workload Distribution
 description: Work is not distributed fairly or effectively across team members, leading
   to some being overloaded while others are underutilized.
 category:
-- Team Dynamics
-- Resource Management
+- Performance
 - Process
+- Team
 related_problems:
 - slug: uneven-work-flow
   similarity: 0.7

@@ -3,9 +3,9 @@ title: Increased Stress and Burnout
 description: Team members are overworked and stressed due to unrealistic expectations
   and time pressure, leading to decreased morale and productivity.
 category:
-- Team Dynamics
+- Culture
 - Process
-- Individual Performance
+- Team
 related_problems:
 - slug: overworked-teams
   similarity: 0.75

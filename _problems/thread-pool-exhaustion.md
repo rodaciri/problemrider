@@ -3,9 +3,8 @@ title: Thread Pool Exhaustion
 description: All available threads in the thread pool are consumed by long-running
   or blocked operations, preventing new tasks from being processed.
 category:
-- Technical
+- Code
 - Performance
-- Concurrency
 related_problems:
 - slug: resource-allocation-failures
   similarity: 0.6

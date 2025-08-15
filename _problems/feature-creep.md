@@ -3,9 +3,9 @@ title: Feature Creep
 description: The scope of a feature or component gradually expands over time, leading
   to a complex and bloated system that is difficult to maintain.
 category:
+- Architecture
+- Code
 - Process
-- Design
-- Maintenance
 related_problems:
 - slug: feature-creep-without-refactoring
   similarity: 0.85

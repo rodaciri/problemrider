@@ -4,7 +4,7 @@ description: A situation where multiple components or services share a common se
   of libraries and frameworks.
 category:
 - Architecture
-- Deployment
+- Operations
 related_problems:
 - slug: shared-database
   similarity: 0.75

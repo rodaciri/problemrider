@@ -3,9 +3,8 @@ title: Vendor Dependency
 description: Excessive reliance on external vendors or suppliers creates risks when
   they become unavailable, change terms, or fail to meet expectations.
 category:
-- Risk Management
-- Vendor Relations
-- Business Continuity
+- Dependencies
+- Management
 related_problems:
 - slug: dependency-on-supplier
   similarity: 0.9

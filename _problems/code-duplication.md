@@ -3,9 +3,8 @@ title: Code Duplication
 description: Similar or identical code exists in multiple places, making maintenance
   difficult and introducing inconsistency risks.
 category:
-- Maintenance
-- Technical
-- Design
+- Architecture
+- Code
 related_problems:
 - slug: duplicated-effort
   similarity: 0.7

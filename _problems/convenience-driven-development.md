@@ -3,7 +3,7 @@ title: Convenience-Driven Development
 description: A development practice where developers choose the easiest and most convenient
   solution, rather than the best solution.
 category:
-- Code Quality
+- Code
 - Process
 related_problems:
 - slug: cv-driven-development

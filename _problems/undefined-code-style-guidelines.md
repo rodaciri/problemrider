@@ -3,8 +3,8 @@ title: Undefined Code Style Guidelines
 description: The team lacks clear, agreed-upon coding standards, resulting in subjective
   stylistic feedback and inconsistent code.
 category:
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: inconsistent-codebase
   similarity: 0.75

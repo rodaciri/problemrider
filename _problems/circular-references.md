@@ -3,9 +3,8 @@ title: Circular References
 description: Two or more objects reference each other in a way that prevents garbage
   collection, leading to memory leaks and resource exhaustion.
 category:
-- Technical
+- Code
 - Performance
-- Memory Management
 related_problems:
 - slug: circular-dependency-problems
   similarity: 0.65

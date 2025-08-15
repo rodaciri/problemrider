@@ -3,9 +3,9 @@ title: System Stagnation
 description: Software systems remain unchanged and fail to evolve to meet new requirements,
   technologies, or business needs over extended periods.
 category:
-- Technical
-- Strategy
 - Business
+- Code
+- Management
 related_problems:
 - slug: stagnant-architecture
   similarity: 0.75

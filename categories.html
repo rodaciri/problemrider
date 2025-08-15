@@ -10,6 +10,27 @@ title: Categories
     Explore problems organized by category to find issues related to specific domains.
   </p>
 
+  <div class="category-overview">
+    <p>The catalog organizes problems into 15 core categories:</p>
+    <div class="category-tags">
+      <a href="#Architecture" class="category-tag">Architecture</a>
+      <a href="#Business" class="category-tag">Business</a>
+      <a href="#Code" class="category-tag">Code</a>
+      <a href="#Communication" class="category-tag">Communication</a>
+      <a href="#Culture" class="category-tag">Culture</a>
+      <a href="#Database" class="category-tag">Database</a>
+      <a href="#Dependencies" class="category-tag">Dependencies</a>
+      <a href="#Management" class="category-tag">Management</a>
+      <a href="#Operations" class="category-tag">Operations</a>
+      <a href="#Performance" class="category-tag">Performance</a>
+      <a href="#Process" class="category-tag">Process</a>
+      <a href="#Requirements" class="category-tag">Requirements</a>
+      <a href="#Security" class="category-tag">Security</a>
+      <a href="#Team" class="category-tag">Team</a>
+      <a href="#Testing" class="category-tag">Testing</a>
+    </div>
+  </div>
+
   {% assign all_categories = site.problems | map: 'category' | join: ',' | split: ',' | uniq | sort %}
   {% assign category_counts = "" | split: "," %}
   
@@ -24,7 +45,7 @@ title: Categories
     {% for category in all_categories %}
       {% if category != "" %}
         {% assign category_problems = site.problems | where_exp: "item", "item.category contains category" %}
-        <div class="category-card">
+        <div class="category-card" id="{{ category }}">
           <h2 class="category-title">{{ category }}</h2>
           <p class="category-count">{{ category_problems.size }} problem{% if category_problems.size != 1 %}s{% endif %}</p>
           
@@ -60,6 +81,10 @@ title: Categories
         </div>
       {% endif %}
     {% endfor %}
+  </div>
+  
+  <div class="back-to-top">
+    <a href="#" class="back-to-top-btn">↑ Back to Top</a>
   </div>
 </div>
 

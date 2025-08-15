@@ -3,7 +3,7 @@ title: Poor User Experience (UX) Design
 description: The application is difficult to use, confusing, or does not meet user
   needs.
 category:
-- Design
+- Architecture
 - Business
 related_problems:
 - slug: inadequate-onboarding

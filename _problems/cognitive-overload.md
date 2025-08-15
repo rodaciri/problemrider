@@ -3,8 +3,8 @@ title: Cognitive Overload
 description: Developers must maintain too many complex systems or concepts in their
   working memory simultaneously, reducing their effectiveness.
 category:
-- Individual
-- Technical
+- Code
+- Culture
 - Process
 related_problems:
 - slug: increased-cognitive-load

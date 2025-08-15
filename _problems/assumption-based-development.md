@@ -3,9 +3,9 @@ title: Assumption-Based Development
 description: Developers make decisions based on assumptions about requirements or
   user needs rather than validating their understanding.
 category:
+- Communication
 - Process
 - Requirements
-- Communication
 related_problems:
 - slug: convenience-driven-development
   similarity: 0.55

@@ -3,8 +3,8 @@ title: Cascade Failures
 description: A single change triggers a chain reaction of failures across multiple
   system components.
 category:
-- Technical
-- Design
+- Architecture
+- Code
 - Performance
 related_problems:
 - slug: ripple-effect-of-changes

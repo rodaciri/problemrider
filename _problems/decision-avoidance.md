@@ -4,8 +4,7 @@ description: Important technical decisions are repeatedly deferred, preventing p
   and creating bottlenecks in development work.
 category:
 - Process
-- Team Dynamics
-- Decision Making
+- Team
 related_problems:
 - slug: delayed-decision-making
   similarity: 0.8

@@ -3,9 +3,9 @@ title: Legacy Configuration Management Chaos
 description: Configuration settings are hardcoded, undocumented, or stored in proprietary
   formats that prevent modern deployment practices
 category:
-- Technical
+- Code
+- Operations
 - Process
-- Operational
 related_problems:
 - slug: configuration-chaos
   similarity: 0.7

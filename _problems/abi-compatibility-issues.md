@@ -3,9 +3,9 @@ title: ABI Compatibility Issues
 description: Application Binary Interface incompatibilities between different versions
   of libraries or system components cause runtime failures or undefined behavior.
 category:
-- Technical
-- Integration
+- Code
 - Dependencies
+- Testing
 related_problems:
 - slug: api-versioning-conflicts
   similarity: 0.6

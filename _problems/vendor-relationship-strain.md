@@ -3,9 +3,8 @@ title: Vendor Relationship Strain
 description: Tensions and conflicts arise between the organization and external vendors
   due to misaligned expectations, poor communication, or contract issues.
 category:
-- Vendor Management
 - Communication
-- Business Relations
+- Dependencies
 related_problems:
 - slug: vendor-dependency
   similarity: 0.65

@@ -3,9 +3,9 @@ title: Deployment Risk
 description: System deployments carry high risk of failure or damage due to irreversible
   changes and lack of recovery mechanisms.
 category:
-- Risk Management
-- Process
+- Management
 - Operations
+- Process
 related_problems:
 - slug: missing-rollback-strategy
   similarity: 0.9

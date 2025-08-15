@@ -3,9 +3,9 @@ title: System Integration Blindness
 description: Complete user flows are not tested from start to finish, allowing workflow-breaking
   bugs to reach production.
 category:
-- Testing
-- Quality
+- Code
 - Process
+- Testing
 related_problems:
 - slug: inadequate-integration-tests
   similarity: 0.75

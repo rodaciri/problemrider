@@ -3,9 +3,9 @@ title: Inexperienced Developers
 description: Development team lacks the knowledge and experience to implement best
   practices and maintainable solutions.
 category:
-- Process
-- Quality
+- Code
 - Communication
+- Process
 related_problems:
 - slug: reviewer-inexperience
   similarity: 0.75

@@ -3,9 +3,8 @@ title: Circular Dependency Problems
 description: Components depend on each other in circular patterns, creating initialization
   issues, testing difficulties, and architectural complexity.
 category:
-- Design
-- Technical
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: tight-coupling-issues
   similarity: 0.7

@@ -3,9 +3,9 @@ title: Rushed Approvals
 description: Pull requests are approved quickly without thorough examination due to
   time pressure or process issues.
 category:
-- Process
-- Quality
+- Code
 - Culture
+- Process
 related_problems:
 - slug: inadequate-code-reviews
   similarity: 0.65

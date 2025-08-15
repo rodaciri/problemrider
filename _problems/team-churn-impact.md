@@ -3,9 +3,9 @@ title: Team Churn Impact
 description: Over time, as developers join and leave the team, they bring inconsistent
   practices and knowledge gaps that degrade code quality.
 category:
-- Process
+- Code
 - Communication
-- Quality
+- Process
 related_problems:
 - slug: high-turnover
   similarity: 0.65

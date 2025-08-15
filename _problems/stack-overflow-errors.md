@@ -3,9 +3,8 @@ title: Stack Overflow Errors
 description: Programs exceed the allocated stack space due to excessive recursion
   or large local variables, causing application crashes.
 category:
-- Technical
+- Code
 - Performance
-- Runtime Errors
 related_problems:
 - slug: memory-leaks
   similarity: 0.55

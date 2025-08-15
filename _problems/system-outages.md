@@ -3,9 +3,9 @@ title: System Outages
 description: Service interruptions and system failures occur frequently, causing business
   disruption and user frustration.
 category:
-- Reliability
+- Business
+- Code
 - Operations
-- Business Impact
 related_problems:
 - slug: slow-incident-resolution
   similarity: 0.6

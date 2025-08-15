@@ -3,8 +3,8 @@ title: Tangled Cross-Cutting Concerns
 description: A situation where cross-cutting concerns, such as logging, security,
   and transactions, are tightly coupled with the business logic.
 category:
-- Code Quality
 - Architecture
+- Code
 related_problems:
 - slug: spaghetti-code
   similarity: 0.6

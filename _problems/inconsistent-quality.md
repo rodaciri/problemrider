@@ -3,8 +3,7 @@ title: Inconsistent Quality
 description: Some parts of the system are well-maintained while others deteriorate,
   creating unpredictable user experiences and maintenance challenges.
 category:
-- Quality
-- Maintenance
+- Code
 - Process
 related_problems:
 - slug: inconsistent-behavior

@@ -3,9 +3,9 @@ title: New Hire Frustration
 description: Recently hired developers experience significant frustration due to barriers
   preventing them from contributing effectively to the team.
 category:
-- Team Dynamics
-- Workplace Health
+- Culture
 - Process
+- Team
 related_problems:
 - slug: difficult-developer-onboarding
   similarity: 0.75

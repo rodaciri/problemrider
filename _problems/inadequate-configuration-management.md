@@ -3,9 +3,8 @@ title: Inadequate Configuration Management
 description: Versions of code, data, or infrastructure are not tracked properly, leading
   to errors or rollback issues
 category:
+- Code
 - Process
-- Technical
-- Maintenance
 related_problems:
 - slug: configuration-chaos
   similarity: 0.75

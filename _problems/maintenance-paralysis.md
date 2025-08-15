@@ -3,9 +3,8 @@ title: Maintenance Paralysis
 description: Teams avoid necessary improvements because they cannot verify that changes
   don't break existing functionality.
 category:
-- Maintenance
+- Code
 - Process
-- Quality
 related_problems:
 - slug: resistance-to-change
   similarity: 0.75

@@ -4,9 +4,8 @@ description: Insufficient production monitoring and observability make it diffic
   to detect and diagnose issues in a timely manner, leading to longer outages and
   more severe consequences.
 category:
+- Code
 - Process
-- Quality
-- Maintenance
 related_problems:
 - slug: quality-blind-spots
   similarity: 0.7

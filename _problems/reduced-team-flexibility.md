@@ -3,9 +3,9 @@ title: Reduced Team Flexibility
 description: The team's ability to adapt to changing requirements, reassign work,
   or respond to unexpected challenges is significantly limited.
 category:
-- Team Dynamics
-- Adaptability
+- Dependencies
 - Process
+- Team
 related_problems:
 - slug: reduced-team-productivity
   similarity: 0.65

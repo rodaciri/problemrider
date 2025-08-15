@@ -3,9 +3,9 @@ title: Product Direction Chaos
 description: Multiple stakeholders provide conflicting priorities without clear product
   leadership, causing team confusion and wasted effort.
 category:
-- Process
-- Product Management
+- Business
 - Communication
+- Process
 related_problems:
 - slug: unclear-goals-and-priorities
   similarity: 0.75

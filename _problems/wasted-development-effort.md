@@ -3,9 +3,8 @@ title: Wasted Development Effort
 description: Significant development work is abandoned, reworked, or becomes obsolete
   due to poor planning, changing requirements, or inefficient processes.
 category:
+- Performance
 - Process
-- Planning
-- Resource Management
 related_problems:
 - slug: inefficient-processes
   similarity: 0.7

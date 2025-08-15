@@ -4,7 +4,6 @@ description: Changes to project scope or requirements are not formally evaluated
   approved, leading to uncontrolled scope creep and project delays.
 category:
 - Process
-- Project Management
 related_problems:
 - slug: scope-creep
   similarity: 0.7

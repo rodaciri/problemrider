@@ -3,9 +3,9 @@ title: Cargo Culting
 description: Uncritical adoption of technical solutions without understanding their
   underlying principles and context
 category:
+- Architecture
 - Process
 - Team
-- Design
 related_problems:
 - slug: premature-technology-introduction
   similarity: 0.55

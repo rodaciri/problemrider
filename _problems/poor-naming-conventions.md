@@ -3,9 +3,8 @@ title: Poor Naming Conventions
 description: Variables, functions, classes, and other code elements are named in ways
   that don't clearly communicate their purpose or meaning.
 category:
-- Code Quality
-- Maintainability
-- Developer Experience
+- Code
+- Process
 related_problems:
 - slug: inconsistent-naming-conventions
   similarity: 0.75

@@ -4,8 +4,6 @@ description: Weak password policies, inadequate storage mechanisms, and poor aut
   practices create security vulnerabilities.
 category:
 - Security
-- Authentication
-- Credential Management
 related_problems:
 - slug: authentication-bypass-vulnerabilities
   similarity: 0.55

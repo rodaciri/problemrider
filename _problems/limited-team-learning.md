@@ -3,8 +3,8 @@ title: Limited Team Learning
 description: A situation where a team does not learn from its mistakes and does not
   improve over time.
 category:
-- Team
 - Process
+- Team
 related_problems:
 - slug: poor-teamwork
   similarity: 0.55

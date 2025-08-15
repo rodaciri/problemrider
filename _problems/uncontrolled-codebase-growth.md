@@ -3,8 +3,7 @@ title: Uncontrolled Codebase Growth
 description: A situation where a codebase grows in size and complexity without any
   control or planning.
 category:
-- Code Quality
-- Maintenance
+- Code
 related_problems:
 - slug: brittle-codebase
   similarity: 0.65

@@ -3,9 +3,9 @@ title: Large Pull Requests
 description: Pull requests are too large to review effectively, leading to superficial
   reviews and missed issues.
 category:
-- Process
-- Quality
+- Code
 - Communication
+- Process
 related_problems:
 - slug: rushed-approvals
   similarity: 0.65

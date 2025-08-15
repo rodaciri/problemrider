@@ -4,8 +4,8 @@ description: Users associate the brand with poor quality or unreliability due to
   problems.
 category:
 - Business
+- Code
 - Communication
-- Quality
 related_problems:
 - slug: user-frustration
   similarity: 0.6

@@ -3,9 +3,9 @@ title: Approval Dependencies
 description: Work progress is frequently blocked by the need for approvals from specific
   individuals, creating bottlenecks and delays.
 category:
-- Process
 - Dependencies
-- Bottlenecks
+- Performance
+- Process
 related_problems:
 - slug: work-blocking
   similarity: 0.75

@@ -3,9 +3,9 @@ title: Poor Test Coverage
 description: Critical parts of the codebase are not covered by tests, creating blind
   spots in quality assurance.
 category:
-- Testing
-- Quality
+- Code
 - Process
+- Testing
 related_problems:
 - slug: quality-blind-spots
   similarity: 0.75

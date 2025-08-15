@@ -3,8 +3,8 @@ title: Memory Leaks
 description: Applications fail to release memory that is no longer needed, leading
   to gradual memory consumption and eventual performance degradation or crashes.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: memory-fragmentation
   similarity: 0.65

@@ -3,7 +3,7 @@ title: Implicit Knowledge
 description: Critical system knowledge exists as unwritten assumptions, tribal knowledge,
   and undocumented practices rather than being explicitly captured.
 category:
-- Knowledge Sharing
+- Communication
 - Process
 related_problems:
 - slug: tacit-knowledge

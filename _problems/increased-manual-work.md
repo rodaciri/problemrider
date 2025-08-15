@@ -3,9 +3,8 @@ title: Increased Manual Work
 description: Developers spend time on repetitive tasks that should be automated, reducing
   time available for actual development work.
 category:
+- Code
 - Process
-- Technical
-- Automation
 related_problems:
 - slug: increased-manual-testing-effort
   similarity: 0.75

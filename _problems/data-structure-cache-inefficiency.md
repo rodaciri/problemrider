@@ -3,9 +3,9 @@ title: Data Structure Cache Inefficiency
 description: Data structures are organized in ways that cause poor cache performance,
   leading to excessive memory access latency and reduced throughput.
 category:
-- Technical
+- Code
+- Data
 - Performance
-- Data Management
 related_problems:
 - slug: alignment-and-padding-issues
   similarity: 0.75

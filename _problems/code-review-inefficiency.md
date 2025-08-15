@@ -3,9 +3,9 @@ title: Code Review Inefficiency
 description: The code review process takes excessive time, provides limited value,
   or creates bottlenecks in the development workflow.
 category:
+- Code
 - Process
-- Team Dynamics
-- Quality
+- Team
 related_problems:
 - slug: inadequate-code-reviews
   similarity: 0.75

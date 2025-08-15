@@ -3,9 +3,8 @@ title: Procrastination on Complex Tasks
 description: Difficult or cognitively demanding work is consistently postponed in
   favor of easier, more immediately gratifying tasks.
 category:
-- Developer Experience
-- Psychology
-- Productivity
+- Culture
+- Process
 related_problems:
 - slug: avoidance-behaviors
   similarity: 0.8

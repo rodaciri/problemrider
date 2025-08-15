@@ -3,9 +3,8 @@ title: Unpredictable System Behavior
 description: Changes in one part of the system have unexpected side effects in seemingly
   unrelated areas due to hidden dependencies.
 category:
-- Technical
-- Design
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: hidden-dependencies
   similarity: 0.7

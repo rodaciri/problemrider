@@ -3,9 +3,8 @@ title: Configuration Drift
 description: System configurations gradually diverge from intended standards over
   time, creating inconsistencies and reliability issues.
 category:
-- Configuration
+- Architecture
 - Operations
-- System Management
 related_problems:
 - slug: configuration-chaos
   similarity: 0.8

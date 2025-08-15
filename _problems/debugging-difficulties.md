@@ -3,9 +3,8 @@ title: Debugging Difficulties
 description: Finding and fixing bugs becomes challenging due to complex code architecture,
   poor logging, or inadequate development tools.
 category:
-- Maintenance
-- Development Experience
-- Quality
+- Code
+- Process
 related_problems:
 - slug: delayed-bug-fixes
   similarity: 0.65

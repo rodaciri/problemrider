@@ -4,8 +4,8 @@ description: Team members are unclear about project goals, priorities, responsib
   or processes, leading to misaligned efforts and wasted work.
 category:
 - Communication
-- Team Dynamics
-- Planning
+- Process
+- Team
 related_problems:
 - slug: team-dysfunction
   similarity: 0.75

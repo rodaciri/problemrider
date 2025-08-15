@@ -3,9 +3,9 @@ title: Rapid Team Growth
 description: Teams expand in size quickly without adequate preparation, overwhelming
   existing infrastructure and support systems.
 category:
-- Team Dynamics
-- Organizational Structure
+- Management
 - Process
+- Team
 related_problems:
 - slug: rapid-system-changes
   similarity: 0.6

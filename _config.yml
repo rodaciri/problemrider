@@ -60,3 +60,5 @@ exclude:
   - README.md
   - git-tail.sh
   - _embeddings/
+  - TECHDEBT.md
+  - ARCH.md

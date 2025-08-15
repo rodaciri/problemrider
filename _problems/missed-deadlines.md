@@ -3,9 +3,9 @@ title: Missed Deadlines
 description: Projects regularly exceed their estimated completion times and teams
   consistently fail to meet sprint goals and delivery commitments.
 category:
-- Process
 - Business
-- Team Dynamics
+- Process
+- Team
 related_problems:
 - slug: delayed-project-timelines
   similarity: 0.8

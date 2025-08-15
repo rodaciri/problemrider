@@ -3,9 +3,8 @@ title: Constant Firefighting
 description: The development team is perpetually occupied with fixing bugs and addressing
   urgent issues, leaving little to no time for new feature development.
 category:
+- Code
 - Process
-- Maintenance
-- Quality
 related_problems:
 - slug: development-disruption
   similarity: 0.75

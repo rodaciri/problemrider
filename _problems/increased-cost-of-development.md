@@ -4,8 +4,8 @@ description: The cost of fixing bugs and maintaining poor code is significantly 
   than preventing issues initially.
 category:
 - Business
+- Code
 - Process
-- Quality
 related_problems:
 - slug: maintenance-cost-increase
   similarity: 0.75

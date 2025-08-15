@@ -3,9 +3,9 @@ title: Unclear Documentation Ownership
 description: No clear responsibility for maintaining documentation leads to outdated,
   inconsistent, or missing information.
 category:
-- Documentation
+- Communication
+- Management
 - Process
-- Responsibility
 related_problems:
 - slug: lack-of-ownership-and-accountability
   similarity: 0.75

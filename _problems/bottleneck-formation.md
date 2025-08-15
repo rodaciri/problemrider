@@ -3,9 +3,9 @@ title: Bottleneck Formation
 description: Specific team members, processes, or system components become constraints
   that limit the overall flow and productivity of development work.
 category:
-- Process
-- Team Dynamics
 - Performance
+- Process
+- Team
 related_problems:
 - slug: maintenance-bottlenecks
   similarity: 0.75

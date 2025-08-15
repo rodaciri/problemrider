@@ -3,9 +3,9 @@ title: Inadequate Mentoring Structure
 description: The organization lacks a systematic approach to mentoring new developers,
   leading to inconsistent guidance and support.
 category:
-- Team Dynamics
+- Communication
 - Process
-- Knowledge Management
+- Team
 related_problems:
 - slug: mentor-burnout
   similarity: 0.6

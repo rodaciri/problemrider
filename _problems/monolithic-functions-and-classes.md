@@ -3,9 +3,8 @@ title: Monolithic Functions and Classes
 description: Individual functions or classes perform too many unrelated responsibilities,
   making them difficult to understand and modify.
 category:
-- Design
-- Maintenance
-- Quality
+- Architecture
+- Code
 related_problems:
 - slug: god-object-anti-pattern
   similarity: 0.75

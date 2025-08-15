@@ -3,9 +3,8 @@ title: Excessive Object Allocation
 description: Code creates a large number of temporary objects, putting pressure on
   the garbage collector and degrading performance.
 category:
+- Code
 - Performance
-- Technical
-- Memory
 related_problems:
 - slug: garbage-collection-pressure
   similarity: 0.7

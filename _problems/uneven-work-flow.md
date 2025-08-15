@@ -4,8 +4,7 @@ description: Work progresses in irregular fits and starts rather than flowing sm
   through the development process.
 category:
 - Process
-- Flow
-- Team Dynamics
+- Team
 related_problems:
 - slug: uneven-workload-distribution
   similarity: 0.7

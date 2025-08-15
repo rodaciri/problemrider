@@ -3,9 +3,9 @@ title: Maintenance Cost Increase
 description: The resources required to maintain, support, and update software systems
   grow over time, consuming increasing portions of development budgets.
 category:
-- Cost Management
-- Technical Debt
-- Resource Management
+- Code
+- Management
+- Performance
 related_problems:
 - slug: high-maintenance-costs
   similarity: 0.8

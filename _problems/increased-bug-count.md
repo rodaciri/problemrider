@@ -3,8 +3,7 @@ title: Increased Bug Count
 description: Changes introduce new defects more frequently, leading to a higher defect
   rate in production and degraded software quality.
 category:
-- Quality
-- Maintenance
+- Code
 - Process
 related_problems:
 - slug: high-bug-introduction-rate

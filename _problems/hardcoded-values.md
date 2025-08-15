@@ -3,9 +3,8 @@ title: Hardcoded Values
 description: Magic numbers and fixed strings reduce flexibility, making configuration
   and adaptation difficult
 category:
-- Technical
-- Maintenance
-- Design
+- Architecture
+- Code
 related_problems:
 - slug: legacy-configuration-management-chaos
   similarity: 0.55

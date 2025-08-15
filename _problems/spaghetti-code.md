@@ -3,9 +3,8 @@ title: Spaghetti Code
 description: Code with tangled, unstructured logic that is nearly impossible to understand,
   debug, or modify safely.
 category:
-- Code Quality
-- Maintainability
 - Architecture
+- Code
 related_problems:
 - slug: complex-and-obscure-logic
   similarity: 0.75

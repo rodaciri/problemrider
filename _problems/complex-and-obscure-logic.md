@@ -3,8 +3,7 @@ title: Complex and Obscure Logic
 description: The code is hard to understand due to convoluted logic, lack of comments,
   or poor naming conventions.
 category:
-- Maintenance
-- Quality
+- Code
 related_problems:
 - slug: difficult-code-comprehension
   similarity: 0.75

@@ -3,9 +3,8 @@ title: Unreleased Resources
 description: Objects, connections, file handles, or other system resources are allocated
   but never properly deallocated or closed.
 category:
-- Technical
+- Code
 - Performance
-- Maintenance
 related_problems:
 - slug: resource-allocation-failures
   similarity: 0.8

@@ -3,9 +3,8 @@ title: Load Balancing Problems
 description: Load balancing mechanisms distribute traffic inefficiently or fail to
   adapt to changing conditions, causing performance issues and service instability.
 category:
-- Infrastructure
+- Operations
 - Performance
-- Scalability
 related_problems:
 - slug: uneven-workload-distribution
   similarity: 0.6

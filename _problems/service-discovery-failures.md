@@ -3,9 +3,9 @@ title: Service Discovery Failures
 description: Service discovery mechanisms fail to locate or connect to services, causing
   communication failures and system instability in distributed architectures.
 category:
-- Microservices
-- Infrastructure
-- Networking
+- Architecture
+- Operations
+- Performance
 related_problems:
 - slug: system-outages
   similarity: 0.6

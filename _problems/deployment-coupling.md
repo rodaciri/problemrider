@@ -4,7 +4,7 @@ description: A situation where multiple components or services must be deployed 
   even if only one of them has changed.
 category:
 - Architecture
-- Deployment
+- Operations
 related_problems:
 - slug: tight-coupling-issues
   similarity: 0.7

@@ -3,8 +3,7 @@ title: High Bug Introduction Rate
 description: A high rate of new bugs are introduced with every change to the codebase,
   indicating underlying quality issues.
 category:
-- Quality
-- Maintenance
+- Code
 related_problems:
 - slug: increased-bug-count
   similarity: 0.75

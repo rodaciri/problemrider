@@ -3,7 +3,6 @@ title: Unrealistic Schedule
 description: Project timelines are based on optimistic assumptions rather than realistic
   estimates, leading to stress and shortcuts.
 category:
-- Planning
 - Management
 - Process
 related_problems:

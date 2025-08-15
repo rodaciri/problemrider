@@ -3,8 +3,8 @@ title: Unclear Sharing Expectations
 description: A situation where it is not clear what information should be shared with
   the rest of the team.
 category:
-- Team
 - Process
+- Team
 related_problems:
 - slug: knowledge-sharing-breakdown
   similarity: 0.7

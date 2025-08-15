@@ -3,9 +3,8 @@ title: Vendor Dependency Entrapment
 description: Legacy systems become trapped by discontinued vendor products, forcing
   expensive custom support contracts or complete system replacement
 category:
-- Strategic
-- Risk Management
-- Technical
+- Code
+- Management
 related_problems:
 - slug: vendor-dependency
   similarity: 0.75

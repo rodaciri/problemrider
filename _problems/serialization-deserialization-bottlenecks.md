@@ -3,9 +3,8 @@ title: Serialization/Deserialization Bottlenecks
 description: Inefficient serialization and deserialization of data creates performance
   bottlenecks in API communications and data persistence operations.
 category:
-- API Design
+- Architecture
 - Performance
-- Data Processing
 related_problems:
 - slug: algorithmic-complexity-problems
   similarity: 0.5

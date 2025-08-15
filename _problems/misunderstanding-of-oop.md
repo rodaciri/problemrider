@@ -4,8 +4,8 @@ description: A lack of understanding of the fundamental principles of object-ori
   programming can lead to the creation of poorly designed and difficult-to-maintain
   code.
 category:
+- Architecture
 - Team
-- Design
 related_problems:
 - slug: procedural-background
   similarity: 0.75

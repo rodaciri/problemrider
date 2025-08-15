@@ -102,8 +102,6 @@ node.on("mouseover", (event, d) => {
 })
 .on("mouseout", () => {
     tooltip.transition().style("opacity", 0);
-    // On mouse out, apply style according to selection (or reset if none)
-    updateStyles();
 })
 .on("click", (event, d) => {
     event.stopPropagation(); // Prevent click from propagating to background (SVG)

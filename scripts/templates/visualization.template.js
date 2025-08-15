@@ -4,25 +4,36 @@ const width = Math.min(1200, window.innerWidth * 0.9);
 const height = window.innerHeight - 60; // Account for header
 
 const categoryColors = {
-    'Business': '#d63384',
-    'Strategic': '#b02a37',
-    'Management': '#e94560',
-    'Project Management': '#f8617a',
-    'User Experience': '#ff6b8a',
-    'Technical': '#0d6efd',
-    'Database': '#0056b3',
-    'Frontend': '#1a73e8',
-    'Performance': '#4285f4',
-    'Quality': '#6fa8f5',
-    'Testing': '#a8c7fa',
-    'Maintenance': '#1e88e5',
-    'Design': '#42a5f5',
-    'Process': '#198754',
-    'Communication': '#20c997',
-    'Team Dynamics': '#6f42c1',
-    'Delivery': '#fd7e14',
-    'Reliability': '#6610f2',
-    'Stability': '#8e44ad'
+    // 15 core categories with vibrant, distinct colors
+    'Architecture': '#3498db',     // Blue
+    'Business': '#e74c3c',        // Red
+    'Code': '#f39c12',            // Orange  
+    'Communication': '#9b59b6',   // Purple
+    'Culture': '#e67e22',         // Dark Orange
+    'Database': '#2ecc71',        // Green
+    'Dependencies': '#16a085',    // Teal
+    'Management': '#e91e63',      // Pink
+    'Operations': '#34495e',      // Dark Blue-Gray
+    'Performance': '#f1c40f',     // Yellow
+    'Process': '#27ae60',         // Dark Green
+    'Requirements': '#8e44ad',    // Dark Purple  
+    'Security': '#c0392b',        // Dark Red
+    'Team': '#1abc9c',            // Turquoise
+    'Testing': '#ff6b35',         // Red-Orange
+    
+    // Legacy categories for backward compatibility
+    'Technical': '#3498db',
+    'Strategic': '#e74c3c',
+    'Project Management': '#e91e63',
+    'User Experience': '#8e44ad',
+    'Frontend': '#f39c12',
+    'Quality': '#ff6b35',
+    'Maintenance': '#27ae60',
+    'Design': '#3498db',
+    'Team Dynamics': '#1abc9c',
+    'Delivery': '#34495e',
+    'Reliability': '#c0392b',
+    'Stability': '#16a085'
 };
 
 const color = (category) => categoryColors[category] || '#6c757d';

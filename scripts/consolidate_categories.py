@@ -152,13 +152,13 @@ CATEGORY_MAPPING = {
     'Measurement': 'Testing',
     'Analysis': 'Testing',
     
-    # Database (data management, queries)
-    'Database': 'Database',
-    'Data Management': 'Database',
-    'Data Integrity': 'Database',
-    'Data Quality': 'Database',
-    'Data Modeling': 'Database',
-    'Data': 'Database',
+    # Data (data management, database, db queries)
+    'Database': 'Data',
+    'Data Management': 'Data',
+    'Data Integrity': 'Data',
+    'Data Quality': 'Data',
+    'Data Modeling': 'Data',
+    'Data': 'Data',
     
     # Dependencies (vendor management, integration, API issues)
     'Dependencies': 'Dependencies',
@@ -172,7 +172,7 @@ CATEGORY_MAPPING = {
     'User Experience': 'Requirements',
     'Usability': 'Requirements',
     
-    # Culture (individual issues, workplace health, organizational problems)
+    # Culture (individual issues, workplace health, organizational problems)sc
     'Culture': 'Culture',
     'Individual': 'Culture',
     'Individual Performance': 'Culture',

@@ -10,7 +10,11 @@ layout: default
     {% endif %}
     {% if page.category %}
       <div class="problem-meta">
-        <span class="problem-category">{{ page.category | join: ", " }}</span>
+        <div class="problem-categories">
+          {% for category in page.category %}
+            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+          {% endfor %}
+        </div>
       </div>
     {% endif %}
   </header>

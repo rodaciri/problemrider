@@ -71,7 +71,7 @@ title: All Problems
           <div class="problem-meta">
             <div class="problem-categories">
               {% for category in problem.category %}
-                <span class="category-tag">{{ category }}</span>
+                <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
               {% endfor %}
             </div>
           </div>

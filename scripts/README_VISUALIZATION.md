@@ -44,7 +44,7 @@ The script uses a template-based approach for better maintainability with two se
 ### JavaScript Template  
 - **Location**: `scripts/templates/visualization.template.js`
 - **Purpose**: Contains all D3.js visualization logic and interactions
-- **Placeholder**: `{{GRAPH_DATA}}` gets replaced with actual problem data
+- **Placeholder**: `{GRAPH_DATA}` gets replaced with actual problem data
 
 ## Visualization Features
 

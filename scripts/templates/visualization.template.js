@@ -1,4 +1,4 @@
-const graph = {{GRAPH_DATA}};
+const graph = {GRAPH_DATA};
 
 const width = Math.min(1200, window.innerWidth * 0.9);
 const height = window.innerHeight - 60; // Account for header

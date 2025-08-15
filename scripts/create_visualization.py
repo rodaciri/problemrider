@@ -108,7 +108,7 @@ def create_visualization():
         js_template = f.read()
     
     # Replace the placeholder with actual graph data
-    js_content = js_template.replace('{{GRAPH_DATA}}', json.dumps(graph_data, indent=2))
+    js_content = js_template.replace('{GRAPH_DATA}', json.dumps(graph_data, indent=2))
 
     # Load the Jekyll HTML template
     template_file = os.path.join(script_dir, 'templates', 'landscape.template.html')

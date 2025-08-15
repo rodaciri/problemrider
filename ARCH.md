@@ -1,5 +1,7 @@
 # Architecture Documentation (arc42)
 
+_Hint: AI generated; needs to be reviewed; but pretty good so far._
+
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview

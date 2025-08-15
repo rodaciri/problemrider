@@ -5,7 +5,7 @@ description: The application code is written in a way that fetches data in a loo
   problems.
 category:
 - Architecture
-- Database
+- Data
 - Performance
 related_problems:
 - slug: lazy-loading

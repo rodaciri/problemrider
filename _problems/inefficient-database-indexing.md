@@ -3,7 +3,7 @@ title: Inefficient Database Indexing
 description: The database lacks appropriate indexes for common query patterns, forcing
   slow, full-table scans for data retrieval operations.
 category:
-- Database
+- Data
 - Performance
 related_problems:
 - slug: incorrect-index-type

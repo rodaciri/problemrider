@@ -1,5 +1,32 @@
 # Technical Debt
 
+## Visualization Script Often Forgotten and Not Executed
+
+**Problem**: The graph visualization script (`scripts/create_visualization.py`) is a separate manual process that is often forgotten and not executed, leading to outdated or missing visualization content.
+
+**Impact**: 
+- Stale visualization data that doesn't reflect current problem catalog
+- Manual process easily forgotten during development workflow
+- Inconsistent user experience with outdated graph relationships
+- Developer friction when visualization is needed but not current
+- Potential confusion for users seeing outdated problem connections
+
+**Root Cause**: The visualization generation is decoupled from the main build process and requires manual execution, making it easy to overlook during regular development and content updates.
+
+**Suggested Resolution**:
+1. Integrate visualization generation into the Jekyll build process
+2. Add automation to regenerate visualization on content changes
+3. Create git hooks to remind developers to update visualization
+4. Consider moving to client-side dynamic visualization generation
+5. Add documentation or scripts to automate the visualization update process
+
+**Priority**: Medium - impacts user experience but doesn't break core functionality
+
+**Created by**: Markus  
+**Date**: 2025-08-15
+
+---
+
 ## Jekyll Publishing Unwanted Root-Level Files to Website
 
 **Problem**: Every new root-level file must be manually added to the `exclude` list in `_config.yml` to prevent Jekyll from publishing it to the website, creating extra work and a potential surface for failures.

@@ -5,9 +5,9 @@ const height = window.innerHeight - 60; // Account for header
 
 const categoryColors = {
     // 15 core categories with vibrant, distinct colors
-    'Architecture': '#3498db',     // Blue
+    'Architecture': '#3498db',    // Blue
     'Business': '#e74c3c',        // Red
-    'Code': '#f39c12',            // Orange  
+    'Code': '#f39c12',            // Orange
     'Communication': '#9b59b6',   // Purple
     'Culture': '#e67e22',         // Dark Orange
     'Database': '#2ecc71',        // Green
@@ -16,24 +16,10 @@ const categoryColors = {
     'Operations': '#34495e',      // Dark Blue-Gray
     'Performance': '#f1c40f',     // Yellow
     'Process': '#27ae60',         // Dark Green
-    'Requirements': '#8e44ad',    // Dark Purple  
+    'Requirements': '#8e44ad',    // Dark Purple
     'Security': '#c0392b',        // Dark Red
     'Team': '#1abc9c',            // Turquoise
-    'Testing': '#ff6b35',         // Red-Orange
-    
-    // Legacy categories for backward compatibility
-    'Technical': '#3498db',
-    'Strategic': '#e74c3c',
-    'Project Management': '#e91e63',
-    'User Experience': '#8e44ad',
-    'Frontend': '#f39c12',
-    'Quality': '#ff6b35',
-    'Maintenance': '#27ae60',
-    'Design': '#3498db',
-    'Team Dynamics': '#1abc9c',
-    'Delivery': '#34495e',
-    'Reliability': '#c0392b',
-    'Stability': '#16a085'
+    'Testing': '#ff6b35'          // Red-Orange
 };
 
 const color = (category) => categoryColors[category] || '#6c757d';
@@ -113,13 +99,6 @@ node.on("mouseover", (event, d) => {
     tooltip.html(`<strong>${d.title}</strong><br/><em>${d.category}</em><br/>${d.description}`)
         .style("left", (event.pageX + 15) + "px")
         .style("top", (event.pageY - 28) + "px");
-    
-    // Only apply hover effect if no node is selected
-    if (!selectedNode) {
-        node.style('opacity', otherNode => (otherNode.id === d.id ? 1 : nonActiveOpacity));
-        link.style('stroke-opacity', l => (l.source === d || l.target === d) ? 1 : nonActiveOpacity);
-        link.style('stroke', l => (l.source === d || l.target === d) ? '#6c757d' : '#adb5bd');
-    }
 })
 .on("mouseout", () => {
     tooltip.transition().style("opacity", 0);

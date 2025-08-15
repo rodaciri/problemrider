@@ -4,8 +4,7 @@ description: Components are overly dependent on each other, making changes diffi
   and reducing system flexibility and maintainability.
 category:
 - Architecture
-- Code Quality
-- Maintenance
+- Code
 related_problems:
 - slug: ripple-effect-of-changes
   similarity: 0.7

@@ -3,10 +3,9 @@ title: Mentor Burnout
 description: Experienced team members become overwhelmed and exhausted from excessive
   mentoring and knowledge transfer responsibilities.
 category:
-- Individual
-- Team
-- Management
 - Culture
+- Management
+- Team
 related_problems:
 - slug: knowledge-dependency
   similarity: 0.65

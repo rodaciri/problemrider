@@ -4,8 +4,7 @@ description: Insufficient analysis and documentation of requirements leads to bu
   solutions that don't meet actual needs.
 category:
 - Process
-- Analysis
-- Planning
+- Testing
 related_problems:
 - slug: requirements-ambiguity
   similarity: 0.65

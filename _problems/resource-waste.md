@@ -3,8 +3,7 @@ title: Resource Waste
 description: Available resources are not utilized effectively, leading to underutilization
   while other areas remain constrained or overloaded.
 category:
-- Resource Management
-- Efficiency
+- Performance
 - Process
 related_problems:
 - slug: unreleased-resources

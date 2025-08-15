@@ -3,7 +3,7 @@ title: Automated Tooling Ineffectiveness
 description: A situation where automated tooling, such as linters and formatters,
   is not effective because of the inconsistency of the codebase.
 category:
-- Code Quality
+- Code
 - Process
 related_problems:
 - slug: inadequate-test-infrastructure

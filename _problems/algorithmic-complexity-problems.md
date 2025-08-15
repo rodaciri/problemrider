@@ -3,9 +3,9 @@ title: Algorithmic Complexity Problems
 description: Code uses inefficient algorithms or data structures, leading to performance
   bottlenecks and resource waste.
 category:
-- Technical
+- Architecture
+- Code
 - Performance
-- Design
 related_problems:
 - slug: inefficient-code
   similarity: 0.7

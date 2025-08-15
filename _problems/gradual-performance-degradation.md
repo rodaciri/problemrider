@@ -3,9 +3,8 @@ title: Gradual Performance Degradation
 description: Application performance slowly deteriorates over time due to resource
   leaks, accumulating technical debt, or inefficient algorithms.
 category:
+- Code
 - Performance
-- Maintenance
-- Technical
 related_problems:
 - slug: quality-degradation
   similarity: 0.75

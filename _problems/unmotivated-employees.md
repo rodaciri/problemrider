@@ -3,9 +3,9 @@ title: Unmotivated Employees
 description: Team members lack engagement and enthusiasm, contributing minimally to
   project success and affecting overall team morale.
 category:
-- Team Dynamics
-- Management
 - Culture
+- Management
+- Team
 related_problems:
 - slug: team-demoralization
   similarity: 0.65

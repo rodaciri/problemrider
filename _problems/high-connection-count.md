@@ -3,8 +3,8 @@ title: High Connection Count
 description: A large number of open database connections, even if idle, can consume
   significant memory resources and lead to connection rejections.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: incorrect-max-connection-pool-size
   similarity: 0.8

@@ -3,9 +3,7 @@ title: Power Struggles
 description: Internal conflicts between departments or managers interfere with decision-making
   and project progress.
 category:
-- Organizational
 - Management
-- Politics
 related_problems:
 - slug: competing-priorities
   similarity: 0.6

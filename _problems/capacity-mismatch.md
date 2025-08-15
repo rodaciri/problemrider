@@ -3,9 +3,8 @@ title: Capacity Mismatch
 description: Available capacity at different stages of the development process doesn't
   match demand patterns, creating bottlenecks and underutilization.
 category:
-- Resource Management
+- Performance
 - Process
-- Capacity Planning
 related_problems:
 - slug: bottleneck-formation
   similarity: 0.6

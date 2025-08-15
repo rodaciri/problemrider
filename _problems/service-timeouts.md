@@ -3,8 +3,8 @@ title: Service Timeouts
 description: Services fail to complete requests within an acceptable time limit, causing
   errors, cascading failures, and system instability.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: upstream-timeouts
   similarity: 0.85

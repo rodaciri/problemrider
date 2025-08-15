@@ -3,8 +3,8 @@ title: Log Spam
 description: The application or database logs are flooded with a large number of similar-looking
   queries, making it difficult to identify and diagnose other issues.
 category:
-- Maintenance
-- Observability
+- Code
+- Operations
 related_problems:
 - slug: excessive-logging
   similarity: 0.65

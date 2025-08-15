@@ -3,9 +3,9 @@ title: User Frustration
 description: Users become dissatisfied with system reliability, usability, or performance,
   leading to decreased adoption and negative feedback.
 category:
-- User Experience
-- Business Impact
-- Quality
+- Business
+- Code
+- Requirements
 related_problems:
 - slug: customer-dissatisfaction
   similarity: 0.75

@@ -3,9 +3,9 @@ title: Dependency on Supplier
 description: External vendors control critical parts of the system, reducing organizational
   flexibility and increasing lock-in risk.
 category:
-- Vendor Management
-- Risk Management
 - Architecture
+- Dependencies
+- Management
 related_problems:
 - slug: vendor-dependency
   similarity: 0.9

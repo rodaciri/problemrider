@@ -4,8 +4,8 @@ description: Business partners lose trust in the development team's ability to d
   on commitments, creating tension and reduced collaboration.
 category:
 - Business
-- Organizational
 - Communication
+- Management
 related_problems:
 - slug: stakeholder-frustration
   similarity: 0.75

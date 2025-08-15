@@ -3,9 +3,8 @@ title: Information Decay
 description: System documentation is outdated, incomplete, inaccurate, or difficult
   to find and use effectively.
 category:
-- Documentation
-- Knowledge Management
-- Maintainability
+- Code
+- Communication
 related_problems:
 - slug: information-decay
   similarity: 0.8

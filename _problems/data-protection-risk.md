@@ -3,9 +3,8 @@ title: Data Protection Risk
 description: Handling of personal or sensitive data lacks safeguards, exposing the
   project to legal and ethical issues
 category:
-- Security
 - Process
-- Legal
+- Security
 related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.55

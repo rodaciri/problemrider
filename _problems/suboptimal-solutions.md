@@ -3,8 +3,8 @@ title: Suboptimal Solutions
 description: Delivered solutions work but are inefficient, difficult to use, or don't
   fully address the underlying problems they were meant to solve.
 category:
-- Solution Quality
-- Design
+- Architecture
+- Code
 - Requirements
 related_problems:
 - slug: process-design-flaws

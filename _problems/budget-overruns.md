@@ -4,8 +4,8 @@ description: The project costs more than originally planned due to the extra wor
   being done, which can lead to a loss of funding and a great deal of frustration
   for the stakeholders.
 category:
-- Management
 - Business
+- Management
 - Process
 related_problems:
 - slug: operational-overhead

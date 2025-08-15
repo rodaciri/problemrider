@@ -3,8 +3,8 @@ title: Resource Contention
 description: The server is overloaded, and the application is competing for limited
   resources like CPU, memory, or I/O.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: high-client-side-resource-consumption
   similarity: 0.7

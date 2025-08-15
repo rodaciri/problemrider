@@ -4,8 +4,8 @@ description: Large monolithic codebases become difficult to maintain, scale, and
   as they grow in size and complexity.
 category:
 - Architecture
-- Scalability
-- Maintenance
+- Code
+- Performance
 related_problems:
 - slug: monolithic-functions-and-classes
   similarity: 0.7

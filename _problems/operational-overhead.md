@@ -3,8 +3,8 @@ title: Operational Overhead
 description: A significant amount of time and resources are spent on emergency response
   and firefighting, rather than on planned development and innovation.
 category:
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: maintenance-overhead
   similarity: 0.7

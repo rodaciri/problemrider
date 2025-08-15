@@ -3,8 +3,8 @@ title: Global State and Side Effects
 description: Excessive use of global variables or functions with hidden side effects
   makes it difficult to reason about code behavior.
 category:
-- Design
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: hidden-side-effects
   similarity: 0.65

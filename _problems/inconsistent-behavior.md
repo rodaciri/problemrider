@@ -3,8 +3,8 @@ title: Inconsistent Behavior
 description: The same business process produces different outcomes depending on where
   it's triggered, leading to a confusing and unpredictable user experience.
 category:
-- Quality
-- User Experience
+- Code
+- Requirements
 related_problems:
 - slug: user-confusion
   similarity: 0.75

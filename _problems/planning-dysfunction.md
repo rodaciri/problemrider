@@ -3,8 +3,6 @@ title: Planning Dysfunction
 description: Project planning processes fail to create realistic timelines, allocate
   resources effectively, or account for project complexities and risks.
 category:
-- Planning
-- Project Management
 - Process
 related_problems:
 - slug: poor-planning

@@ -3,10 +3,8 @@ title: Procedural Programming in OOP Languages
 description: Code is written in a procedural style within object-oriented languages,
   leading to large, monolithic functions and poor encapsulation.
 category:
-- Technical
-- Design
 - Architecture
-- Quality
+- Code
 related_problems:
 - slug: procedural-background
   similarity: 0.75

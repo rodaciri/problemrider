@@ -4,8 +4,6 @@ description: Poor session handling creates security vulnerabilities through sess
   hijacking, fixation, or improper lifecycle management.
 category:
 - Security
-- Authentication
-- Session Management
 related_problems:
 - slug: secret-management-problems
   similarity: 0.6

@@ -5,7 +5,6 @@ description: The project's end date is repeatedly pushed back to accommodate new
   development team.
 category:
 - Process
-- Project Management
 related_problems:
 - slug: missed-deadlines
   similarity: 0.75

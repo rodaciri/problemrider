@@ -3,9 +3,9 @@ title: Rate Limiting Issues
 description: Rate limiting mechanisms are misconfigured, too restrictive, or ineffective,
   causing legitimate requests to be blocked or failing to prevent abuse.
 category:
-- API Design
-- Security
+- Architecture
 - Performance
+- Security
 related_problems:
 - slug: load-balancing-problems
   similarity: 0.55

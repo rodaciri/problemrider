@@ -4,8 +4,8 @@ description: Differences in language or terminology hinder smooth communication 
   understanding within the team.
 category:
 - Communication
-- Team Dynamics
-- Cultural
+- Culture
+- Team
 related_problems:
 - slug: team-dysfunction
   similarity: 0.6

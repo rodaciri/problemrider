@@ -3,9 +3,8 @@ title: Inadequate Error Handling
 description: Poor error handling mechanisms fail to gracefully manage exceptions,
   leading to application crashes and poor user experiences.
 category:
-- Error Handling
-- Reliability
-- User Experience
+- Code
+- Requirements
 related_problems:
 - slug: poor-user-experience-ux-design
   similarity: 0.55

@@ -3,8 +3,7 @@ title: Deadlock Conditions
 description: Multiple threads or processes wait indefinitely for each other to release
   resources, causing system freeze and application unresponsiveness.
 category:
-- Technical
-- Concurrency
+- Code
 - Performance
 related_problems:
 - slug: lock-contention

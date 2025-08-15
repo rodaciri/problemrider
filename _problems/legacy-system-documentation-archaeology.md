@@ -3,9 +3,8 @@ title: Legacy System Documentation Archaeology
 description: Critical system knowledge exists only in obsolete documentation formats,
   outdated diagrams, and departed employees' tribal knowledge
 category:
-- Knowledge Management
-- Documentation
-- Organizational
+- Communication
+- Management
 related_problems:
 - slug: poor-documentation
   similarity: 0.7

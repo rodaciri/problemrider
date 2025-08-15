@@ -3,8 +3,8 @@ title: High Coupling and Low Cohesion
 description: Software components are overly dependent on each other and perform too
   many unrelated functions, making the system difficult to change and understand.
 category:
-- Design
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: tight-coupling-issues
   similarity: 0.65

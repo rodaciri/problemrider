@@ -4,8 +4,8 @@ description: Mistakes are punished instead of addressed constructively, discoura
   risk-taking and learning
 category:
 - Management
-- Team
 - Process
+- Team
 related_problems:
 - slug: fear-of-failure
   similarity: 0.55

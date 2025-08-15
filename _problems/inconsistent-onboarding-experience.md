@@ -3,9 +3,9 @@ title: Inconsistent Onboarding Experience
 description: New team members receive dramatically different onboarding experiences
   depending on who is available to help them, creating unequal outcomes.
 category:
+- Communication
 - Process
-- Team Dynamics
-- Knowledge Management
+- Team
 related_problems:
 - slug: inconsistent-knowledge-acquisition
   similarity: 0.75

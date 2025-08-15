@@ -3,9 +3,8 @@ title: Testing Environment Fragility
 description: Testing infrastructure is unreliable, difficult to maintain, and fails
   to accurately represent production conditions, undermining test effectiveness.
 category:
-- Infrastructure
-- Testing
 - Operations
+- Testing
 related_problems:
 - slug: inadequate-test-infrastructure
   similarity: 0.7

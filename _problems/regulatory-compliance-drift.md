@@ -3,9 +3,9 @@ title: Regulatory Compliance Drift
 description: Legacy systems fall behind evolving regulatory requirements, creating
   compliance gaps that are expensive and risky to address
 category:
-- Legal
-- Risk Management
+- Management
 - Process
+- Security
 related_problems:
 - slug: configuration-drift
   similarity: 0.6

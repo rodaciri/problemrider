@@ -3,9 +3,8 @@ title: Endianness Conversion Overhead
 description: Frequent byte order conversions between different endianness formats
   create performance overhead in data processing and network communication.
 category:
-- Technical
+- Code
 - Performance
-- Data Processing
 related_problems:
 - slug: interrupt-overhead
   similarity: 0.55

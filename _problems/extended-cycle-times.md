@@ -4,8 +4,6 @@ description: The time from when work begins until it's completed and delivered b
   much longer than the actual work time required.
 category:
 - Process
-- Flow
-- Efficiency
 related_problems:
 - slug: extended-review-cycles
   similarity: 0.7

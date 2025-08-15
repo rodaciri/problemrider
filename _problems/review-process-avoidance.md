@@ -4,8 +4,8 @@ description: Team members actively seek ways to bypass or minimize code review r
   undermining the quality assurance process.
 category:
 - Process
-- Team Dynamics
-- Quality Assurance
+- Team
+- Testing
 related_problems:
 - slug: reduced-review-participation
   similarity: 0.7

@@ -3,9 +3,9 @@ title: Feature Bloat
 description: Products become overly complex with numerous features that dilute the
   core value proposition and confuse users.
 category:
-- Product Management
-- Design
-- Strategy
+- Architecture
+- Business
+- Management
 related_problems:
 - slug: feature-factory
   similarity: 0.65

@@ -3,9 +3,8 @@ title: Fear of Change
 description: Developers are hesitant to modify existing code due to the high risk
   of breaking something.
 category:
+- Code
 - Process
-- Technical
-- Maintenance
 related_problems:
 - slug: fear-of-breaking-changes
   similarity: 0.85

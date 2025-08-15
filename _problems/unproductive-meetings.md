@@ -3,8 +3,8 @@ title: Unproductive Meetings
 description: Meetings that consume significant time but yield little progress or concrete
   decisions.
 category:
-- Process
 - Communication
+- Process
 related_problems:
 - slug: inefficient-processes
   similarity: 0.6

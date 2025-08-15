@@ -3,9 +3,9 @@ title: Mental Fatigue
 description: Developers report feeling exhausted and mentally drained without accomplishing
   significant work, often due to cognitive overhead and inefficient workflows.
 category:
+- Culture
 - Process
-- Team Dynamics
-- Individual Performance
+- Team
 related_problems:
 - slug: developer-frustration-and-burnout
   similarity: 0.65

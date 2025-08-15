@@ -3,8 +3,8 @@ title: Misconfigured Connection Pools
 description: Application connection pools are improperly set up, leading to inefficient
   resource utilization or connection exhaustion.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: incorrect-max-connection-pool-size
   similarity: 0.85

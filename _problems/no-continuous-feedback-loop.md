@@ -3,8 +3,8 @@ title: Feedback Isolation
 description: Stakeholders are not involved throughout the development process, and
   feedback is only gathered at the very end, leading to misaligned deliverables.
 category:
-- Process
 - Communication
+- Process
 related_problems:
 - slug: feedback-isolation
   similarity: 0.75

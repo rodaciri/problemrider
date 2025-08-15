@@ -3,9 +3,8 @@ title: Inadequate Initial Reviews
 description: First-round code reviews are incomplete or superficial, failing to identify
   important issues that are discovered in later review rounds.
 category:
+- Code
 - Process
-- Quality
-- Efficiency
 related_problems:
 - slug: superficial-code-reviews
   similarity: 0.75

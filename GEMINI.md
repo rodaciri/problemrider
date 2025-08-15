@@ -62,3 +62,26 @@ The `scripts/` directory contains more utility scripts for maintaining the catal
 * `backlog_refinement.py`: Takes ideas withing the file `scripts/backlog/candidates.md` and sorts them into different files depending on already existing or similar problems.
 * `check_links.py`: Checks for broken markdown links in the `_problems` directory. Use `--fix` flag to automatically remove broken links while preserving the title and description text.
 * `convert_titles.py`: Converts titles to proper title case using New York Times Manual of Style rules. Works on YAML front matter titles, H1 headers, and markdown link text. Use `--fix` flag to actually modify files.
+* `consolidate_categories.py`: Consolidates problem categories from ~200+ categories down to 15 core categories to improve organization and navigation.
+
+## Categories
+
+The catalog uses 15 core categories to organize problems:
+
+1. **Process** - workflow, planning, development process
+2. **Architecture** - design, system structure, coupling issues
+3. **Code** - maintainability, technical debt, code issues
+4. **Performance** - speed, scalability, resource usage
+5. **Team** - team coordination, collaboration
+6. **Communication** - knowledge sharing, documentation
+7. **Management** - leadership, project management
+8. **Security** - vulnerabilities, compliance
+9. **Business** - strategy, product, business impact
+10. **Operations** - deployment, infrastructure, configuration
+11. **Testing** - quality assurance, integration tests
+12. **Database** - data management, queries
+13. **Dependencies** - vendor management, integration, API issues
+14. **Requirements** - user experience, planning, stakeholder needs
+15. **Culture** - individual issues, workplace health, organizational problems
+
+New categories may be added only if really needed and cannot be reasonably mapped to one of the existing 15 categories.

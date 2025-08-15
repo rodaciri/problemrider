@@ -3,8 +3,8 @@ title: Team Coordination Issues
 description: A situation where multiple developers or teams have difficulty working
   together on the same codebase.
 category:
-- Team
 - Process
+- Team
 related_problems:
 - slug: team-dysfunction
   similarity: 0.75

@@ -3,8 +3,7 @@ title: Lock Contention
 description: Multiple threads compete for the same locks, causing threads to block
   and reducing parallel execution efficiency.
 category:
-- Technical
-- Concurrency
+- Code
 - Performance
 related_problems:
 - slug: race-conditions

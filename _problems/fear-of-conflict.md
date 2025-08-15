@@ -3,8 +3,8 @@ title: Fear of Conflict
 description: Reviewers avoid challenging complex logic or design decisions, opting
   for easier, less confrontational feedback.
 category:
-- Process
 - Communication
+- Process
 related_problems:
 - slug: reviewer-anxiety
   similarity: 0.7

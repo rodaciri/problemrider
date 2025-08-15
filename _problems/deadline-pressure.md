@@ -3,9 +3,9 @@ title: Deadline Pressure
 description: Intense pressure to meet deadlines leads to rushed decisions, shortcuts,
   and compromised quality in software development.
 category:
-- Process
+- Code
 - Management
-- Quality
+- Process
 related_problems:
 - slug: time-pressure
   similarity: 0.75

@@ -3,9 +3,9 @@ title: Analysis Paralysis
 description: Teams become stuck in research phases without moving to implementation,
   preventing actual progress on development work.
 category:
+- Management
 - Process
 - Team
-- Management
 related_problems:
 - slug: decision-paralysis
   similarity: 0.75

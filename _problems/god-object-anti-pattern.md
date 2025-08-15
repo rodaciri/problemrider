@@ -3,9 +3,8 @@ title: God Object Anti-Pattern
 description: Single classes or components handle too many responsibilities, becoming
   overly complex and difficult to maintain or test.
 category:
-- Code Quality
 - Architecture
-- Object-Oriented Design
+- Code
 related_problems:
 - slug: monolithic-functions-and-classes
   similarity: 0.75

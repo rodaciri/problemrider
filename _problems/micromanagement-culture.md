@@ -3,8 +3,8 @@ title: Micromanagement Culture
 description: Management culture that requires approval for routine decisions, reducing
   team autonomy and creating unnecessary bottlenecks.
 category:
-- Management
 - Culture
+- Management
 - Process
 related_problems:
 - slug: individual-recognition-culture

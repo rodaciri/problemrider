@@ -3,9 +3,8 @@ title: Technical Architecture Limitations
 description: System architecture design creates constraints that limit performance,
   scalability, maintainability, or development velocity.
 category:
-- Technical
 - Architecture
-- Technical Debt
+- Code
 - Performance
 related_problems:
 - slug: architectural-mismatch

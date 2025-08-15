@@ -3,9 +3,9 @@ title: Lack of Ownership and Accountability
 description: No clear responsibility for maintaining code quality, documentation,
   or specific system components over time.
 category:
-- Process
+- Code
 - Communication
-- Maintenance
+- Process
 related_problems:
 - slug: unclear-documentation-ownership
   similarity: 0.75

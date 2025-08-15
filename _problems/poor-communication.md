@@ -4,8 +4,8 @@ description: Collaboration breaks down as developers become isolated and less wi
   to engage with peers.
 category:
 - Communication
-- Team Dynamics
 - Process
+- Team
 related_problems:
 - slug: communication-breakdown
   similarity: 0.9

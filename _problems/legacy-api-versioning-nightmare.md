@@ -3,9 +3,9 @@ title: Legacy API Versioning Nightmare
 description: Legacy systems with poorly designed APIs create versioning and backward
   compatibility challenges that compound over time
 category:
-- Technical
-- Integration
-- Design
+- Architecture
+- Code
+- Testing
 related_problems:
 - slug: api-versioning-conflicts
   similarity: 0.8

@@ -3,9 +3,7 @@ title: Difficult to Understand Code
 description: It's hard to grasp the purpose of modules or functions without understanding
   many other parts of the system, slowing development and increasing errors.
 category:
-- Technical
-- Maintenance
-- Quality
+- Code
 related_problems:
 - slug: difficult-code-comprehension
   similarity: 0.85

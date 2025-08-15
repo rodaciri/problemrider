@@ -3,9 +3,9 @@ title: Inadequate Test Infrastructure
 description: Missing tools, environments, or automation make thorough testing slow
   or impossible
 category:
-- Technical
+- Code
+- Operations
 - Process
-- Infrastructure
 related_problems:
 - slug: testing-environment-fragility
   similarity: 0.7

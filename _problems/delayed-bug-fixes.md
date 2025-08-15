@@ -3,9 +3,8 @@ title: Delayed Bug Fixes
 description: Known issues remain unresolved for extended periods, causing ongoing
   problems and user frustration.
 category:
-- Quality
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: delayed-issue-resolution
   similarity: 0.8

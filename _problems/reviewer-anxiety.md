@@ -3,9 +3,9 @@ title: Reviewer Anxiety
 description: Team members feel uncertain and anxious about conducting code reviews,
   leading to avoidance or superficial review practices.
 category:
-- Team Dynamics
+- Culture
 - Process
-- Workplace Health
+- Team
 related_problems:
 - slug: author-frustration
   similarity: 0.7

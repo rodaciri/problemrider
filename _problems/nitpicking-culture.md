@@ -5,7 +5,7 @@ description: Code reviews focus excessively on minor, insignificant details whil
 category:
 - Culture
 - Process
-- Team Dynamics
+- Team
 related_problems:
 - slug: perfectionist-review-culture
   similarity: 0.75

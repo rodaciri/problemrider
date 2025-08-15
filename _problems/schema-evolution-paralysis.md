@@ -3,9 +3,8 @@ title: Schema Evolution Paralysis
 description: Database schema cannot be modified to support new requirements due to
   extensive dependencies and lack of migration tooling
 category:
-- Technical
-- Data Management
-- Maintenance
+- Code
+- Database
 related_problems:
 - slug: database-schema-design-problems
   similarity: 0.7

@@ -3,9 +3,9 @@ title: Unclear Goals and Priorities
 description: Constantly shifting priorities and lack of clear direction lead to a
   sense of futility among team members.
 category:
-- Process
 - Communication
 - Management
+- Process
 related_problems:
 - slug: product-direction-chaos
   similarity: 0.75

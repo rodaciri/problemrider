@@ -3,9 +3,9 @@ title: Error Message Information Disclosure
 description: Error messages reveal sensitive system information that can be exploited
   by attackers to understand system architecture and vulnerabilities.
 category:
+- Code
+- Communication
 - Security
-- Error Handling
-- Information Disclosure
 related_problems:
 - slug: buffer-overflow-vulnerabilities
   similarity: 0.6

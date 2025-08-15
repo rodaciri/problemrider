@@ -4,8 +4,8 @@ description: Team members fail to effectively share information, coordinate work
   or collaborate, leading to duplicated effort and misaligned solutions.
 category:
 - Communication
-- Team Dynamics
 - Process
+- Team
 related_problems:
 - slug: poor-communication
   similarity: 0.9

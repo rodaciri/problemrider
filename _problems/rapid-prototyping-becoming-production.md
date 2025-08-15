@@ -3,9 +3,9 @@ title: Rapid Prototyping Becoming Production
 description: Code written quickly for prototypes or proof-of-concepts ends up in production
   systems without proper engineering practices.
 category:
-- Code Quality
-- Process
 - Architecture
+- Code
+- Process
 related_problems:
 - slug: brittle-codebase
   similarity: 0.55

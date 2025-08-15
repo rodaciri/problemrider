@@ -3,9 +3,9 @@ title: Inappropriate Skillset
 description: Team members lack essential knowledge or experience needed for their
   assigned roles and responsibilities.
 category:
-- Team
-- Individual
+- Culture
 - Management
+- Team
 related_problems:
 - slug: skill-development-gaps
   similarity: 0.7

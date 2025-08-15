@@ -5,7 +5,6 @@ description: Features are started but never finished due to shifting priorities,
   team.
 category:
 - Process
-- Project Management
 related_problems:
 - slug: incomplete-knowledge
   similarity: 0.7

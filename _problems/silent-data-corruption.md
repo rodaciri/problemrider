@@ -3,10 +3,9 @@ title: Silent Data Corruption
 description: Data becomes corrupted without triggering errors or alerts, leading to
   incorrect results and loss of data integrity.
 category:
-- Data Quality
-- Reliability
+- Code
+- Database
 - Security
-- Technical
 related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.55

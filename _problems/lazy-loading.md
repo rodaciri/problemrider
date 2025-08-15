@@ -3,9 +3,9 @@ title: Lazy Loading
 description: The use of lazy loading in an ORM framework leads to a large number of
   unnecessary database queries, which can significantly degrade application performance.
 category:
-- Technical
-- Performance
+- Code
 - Database
+- Performance
 related_problems:
 - slug: imperative-data-fetching-logic
   similarity: 0.75

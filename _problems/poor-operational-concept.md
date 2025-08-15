@@ -3,9 +3,8 @@ title: Poor Operational Concept
 description: Lack of planning for monitoring, maintenance, or support leads to post-launch
   instability
 category:
+- Operations
 - Process
-- Operational
-- Planning
 related_problems:
 - slug: poor-system-environment
   similarity: 0.6

@@ -3,9 +3,9 @@ title: Dependency Version Conflicts
 description: Conflicting versions of dependencies cause runtime errors, build failures,
   and unexpected behavior in applications.
 category:
+- Code
 - Dependencies
-- Build System
-- Configuration
+- Operations
 related_problems:
 - slug: api-versioning-conflicts
   similarity: 0.7

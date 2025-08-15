@@ -3,9 +3,8 @@ title: Refactoring Avoidance
 description: The development team actively avoids refactoring the codebase, even when
   they acknowledge it's necessary, due to fear of introducing new bugs.
 category:
+- Code
 - Process
-- Maintenance
-- Quality
 related_problems:
 - slug: resistance-to-change
   similarity: 0.75

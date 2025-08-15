@@ -3,9 +3,9 @@ title: Accumulated Decision Debt
 description: Deferred decisions create compound complexity for future choices, making
   the system increasingly difficult to evolve.
 category:
+- Architecture
 - Management
 - Process
-- Design
 related_problems:
 - slug: decision-avoidance
   similarity: 0.75

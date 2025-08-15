@@ -3,8 +3,7 @@ title: Increased Error Rates
 description: An unusual or sustained rise in the frequency of errors reported by an
   application or service.
 category:
-- Quality
-- Stability
+- Code
 related_problems:
 - slug: high-bug-introduction-rate
   similarity: 0.6

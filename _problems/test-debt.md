@@ -3,10 +3,8 @@ title: Test Debt
 description: The accumulated risk from inadequate or neglected quality assurance,
   leading to a fragile product and slow development velocity.
 category:
-- Quality
+- Code
 - Process
-- Planning
-- Technical
 related_problems:
 - slug: high-technical-debt
   similarity: 0.65

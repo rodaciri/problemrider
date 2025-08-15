@@ -3,8 +3,8 @@ title: High Database Resource Utilization
 description: The database server consistently operates with high CPU or memory usage,
   risking instability and slowing down all dependent services.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: high-resource-utilization-on-client
   similarity: 0.75

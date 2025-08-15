@@ -4,7 +4,7 @@ description: A situation where it is difficult or impossible to switch to a new 
   because of the high cost or effort involved.
 category:
 - Architecture
-- Technology
+- Code
 related_problems:
 - slug: vendor-lock-in
   similarity: 0.75

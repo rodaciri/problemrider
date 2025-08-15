@@ -3,9 +3,8 @@ title: Insufficient Design Skills
 description: The development team lacks the necessary skills and experience to design
   and build well-structured, maintainable software.
 category:
+- Code
 - Team
-- Quality
-- Maintenance
 related_problems:
 - slug: inexperienced-developers
   similarity: 0.7

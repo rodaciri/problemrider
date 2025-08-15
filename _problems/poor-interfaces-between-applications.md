@@ -3,9 +3,9 @@ title: Poor Interfaces Between Applications
 description: Disconnected or poorly defined interfaces lead to fragile integrations
   and inconsistent data
 category:
-- Technical
-- Design
-- Integration
+- Architecture
+- Code
+- Testing
 related_problems:
 - slug: inadequate-integration-tests
   similarity: 0.65

@@ -3,9 +3,9 @@ title: Merge Conflicts
 description: Multiple developers frequently modify the same large functions or files,
   creating version control conflicts that slow development.
 category:
+- Code
 - Process
-- Collaboration
-- Maintenance
+- Team
 related_problems:
 - slug: team-coordination-issues
   similarity: 0.65

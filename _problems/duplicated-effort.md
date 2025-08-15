@@ -3,9 +3,9 @@ title: Duplicated Effort
 description: Multiple team members unknowingly work on the same problems or implement
   similar solutions independently.
 category:
-- Team Coordination
-- Efficiency
 - Communication
+- Process
+- Team
 related_problems:
 - slug: duplicated-work
   similarity: 0.9

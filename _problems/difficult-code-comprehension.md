@@ -2,8 +2,7 @@
 title: Difficult Code Comprehension
 description: A situation where developers have a hard time understanding the codebase.
 category:
-- Code Quality
-- Maintenance
+- Code
 related_problems:
 - slug: difficult-to-understand-code
   similarity: 0.85

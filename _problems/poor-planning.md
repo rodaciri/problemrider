@@ -3,9 +3,8 @@ title: Poor Planning
 description: Teams do not have clear plans or realistic estimates of the work involved,
   leading to project delays and resource allocation problems.
 category:
+- Management
 - Process
-- Project Management
-- Organizational
 related_problems:
 - slug: planning-dysfunction
   similarity: 0.8

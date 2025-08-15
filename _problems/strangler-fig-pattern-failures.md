@@ -3,9 +3,9 @@ title: Strangler Fig Pattern Failures
 description: Incremental modernization using the strangler fig pattern stalls due
   to complex interdependencies and data consistency challenges
 category:
-- Technical
-- Design
-- Migration
+- Architecture
+- Code
+- Operations
 related_problems:
 - slug: modernization-strategy-paralysis
   similarity: 0.65

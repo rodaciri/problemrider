@@ -4,8 +4,8 @@ description: It takes longer to get new features and products to market, potenti
   resulting in loss of competitive advantage and revenue opportunities.
 category:
 - Business
+- Management
 - Process
-- Strategic
 related_problems:
 - slug: delayed-value-delivery
   similarity: 0.65

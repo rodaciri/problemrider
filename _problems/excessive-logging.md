@@ -3,8 +3,8 @@ title: Excessive Logging
 description: Applications generate a very high volume of logs, consuming excessive
   disk space and potentially impacting performance.
 category:
+- Code
 - Performance
-- Maintenance
 related_problems:
 - slug: log-spam
   similarity: 0.65

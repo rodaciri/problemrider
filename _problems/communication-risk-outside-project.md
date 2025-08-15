@@ -4,7 +4,6 @@ description: External stakeholders are left uninformed, leading to surprises and
   expectations about project progress.
 category:
 - Communication
-- Stakeholder Management
 - Process
 related_problems:
 - slug: communication-risk-within-project

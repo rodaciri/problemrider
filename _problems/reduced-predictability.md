@@ -3,9 +3,8 @@ title: Reduced Predictability
 description: Development timelines, outcomes, and system behavior become difficult
   to predict accurately, making planning and expectations management challenging.
 category:
-- Planning
+- Management
 - Process
-- Risk Management
 related_problems:
 - slug: planning-credibility-issues
   similarity: 0.65

@@ -3,9 +3,9 @@ title: Knowledge Silos
 description: Important research findings and expertise remain isolated to individual
   team members, preventing knowledge sharing and team learning.
 category:
-- Team
-- Process
 - Culture
+- Process
+- Team
 related_problems:
 - slug: knowledge-sharing-breakdown
   similarity: 0.8

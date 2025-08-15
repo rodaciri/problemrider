@@ -3,7 +3,7 @@ title: GraphQL Complexity Issues
 description: GraphQL queries become too complex or expensive to execute, causing performance
   problems and potential denial-of-service vulnerabilities.
 category:
-- API Design
+- Architecture
 - Performance
 - Security
 related_problems:

@@ -3,8 +3,7 @@ title: Memory Fragmentation
 description: Available memory becomes divided into small, non-contiguous blocks, preventing
   allocation of larger objects despite sufficient total free memory.
 category:
-- Technical
-- Memory Management
+- Code
 - Performance
 related_problems:
 - slug: memory-leaks

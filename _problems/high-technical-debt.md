@@ -3,9 +3,7 @@ title: High Technical Debt
 description: Accumulation of design or implementation shortcuts that lead to increased
   costs and effort in the long run.
 category:
-- Technical
-- Quality
-- Maintenance
+- Code
 - Process
 related_problems:
 - slug: increased-technical-shortcuts

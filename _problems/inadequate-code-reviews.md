@@ -4,8 +4,8 @@ description: Code reviews are not consistently performed, are rushed, superficia
   or fail to identify critical issues, leading to lower code quality and increased
   risk.
 category:
+- Code
 - Process
-- Quality
 related_problems:
 - slug: review-process-breakdown
   similarity: 0.9

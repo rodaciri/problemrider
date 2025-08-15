@@ -3,9 +3,9 @@ title: Reduced Team Productivity
 description: The overall output and effectiveness of the development team decreases
   due to various systemic issues and inefficiencies.
 category:
-- Team Dynamics
-- Process
 - Performance
+- Process
+- Team
 related_problems:
 - slug: reduced-individual-productivity
   similarity: 0.75

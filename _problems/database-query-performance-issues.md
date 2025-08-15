@@ -3,9 +3,9 @@ title: Database Query Performance Issues
 description: Poorly optimized database queries cause slow response times, high resource
   consumption, and scalability problems.
 category:
+- Architecture
+- Code
 - Performance
-- Technical
-- Design
 related_problems:
 - slug: slow-database-queries
   similarity: 0.8

@@ -3,9 +3,9 @@ title: Release Instability
 description: Production releases are frequently unstable, causing disruptions for
   users and requiring immediate attention from the development team.
 category:
+- Code
+- Operations
 - Process
-- Quality
-- Deployment
 related_problems:
 - slug: large-risky-releases
   similarity: 0.65

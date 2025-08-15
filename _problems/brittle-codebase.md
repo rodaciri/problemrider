@@ -3,9 +3,8 @@ title: Brittle Codebase
 description: The existing code is difficult to modify without introducing new bugs,
   making maintenance and feature development risky.
 category:
-- Maintenance
-- Technical
-- Design
+- Architecture
+- Code
 related_problems:
 - slug: inconsistent-codebase
   similarity: 0.75

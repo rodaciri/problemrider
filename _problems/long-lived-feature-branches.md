@@ -3,8 +3,8 @@ title: Long-Lived Feature Branches
 description: Code is not being reviewed and merged in a timely manner, leading to
   integration problems and increased risk.
 category:
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: large-feature-scope
   similarity: 0.7

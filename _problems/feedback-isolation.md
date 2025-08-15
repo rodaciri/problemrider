@@ -3,9 +3,9 @@ title: Feedback Isolation
 description: Development teams operate without regular input from stakeholders and
   users, leading to products that miss requirements and user needs.
 category:
+- Business
 - Communication
 - Process
-- Product Management
 related_problems:
 - slug: no-continuous-feedback-loop
   similarity: 0.75

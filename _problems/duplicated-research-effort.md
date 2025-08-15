@@ -3,9 +3,9 @@ title: Duplicated Research Effort
 description: Multiple team members research the same topics independently, wasting
   time and failing to build collective knowledge.
 category:
+- Communication
 - Process
-- Team Dynamics
-- Knowledge Management
+- Team
 related_problems:
 - slug: duplicated-effort
   similarity: 0.9

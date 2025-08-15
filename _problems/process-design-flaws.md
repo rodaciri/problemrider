@@ -3,9 +3,8 @@ title: Process Design Flaws
 description: Development processes are poorly designed, creating inefficiencies, bottlenecks,
   and obstacles to productive work.
 category:
+- Architecture
 - Process
-- Design
-- Efficiency
 related_problems:
 - slug: inefficient-processes
   similarity: 0.7

@@ -3,9 +3,8 @@ title: Unbounded Data Growth
 description: Data structures, caches, or databases grow indefinitely without proper
   pruning, size limits, or archiving strategies.
 category:
+- Code
 - Performance
-- Technical
-- Maintenance
 related_problems:
 - slug: unbounded-data-structures
   similarity: 0.8

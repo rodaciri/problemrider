@@ -3,9 +3,8 @@ title: Synchronization Problems
 description: Updates to one copy of duplicated logic don't get applied to other copies,
   causing divergent behavior across the system.
 category:
-- Maintenance
-- Quality
-- Consistency
+- Code
+- Culture
 related_problems:
 - slug: code-duplication
   similarity: 0.65

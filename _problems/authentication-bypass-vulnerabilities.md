@@ -3,8 +3,8 @@ title: Authentication Bypass Vulnerabilities
 description: Security flaws that allow attackers to bypass authentication mechanisms
   and gain unauthorized access to protected resources.
 category:
+- Code
 - Security
-- Technical
 related_problems:
 - slug: authorization-flaws
   similarity: 0.75

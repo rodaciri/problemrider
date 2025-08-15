@@ -3,7 +3,7 @@ title: Slow Knowledge Transfer
 description: A situation where it takes a long time for new team members to become
   productive.
 category:
-- Knowledge Sharing
+- Communication
 - Process
 - Team
 related_problems:

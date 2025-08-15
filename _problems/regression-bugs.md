@@ -3,9 +3,9 @@ title: Regression Bugs
 description: New features or fixes inadvertently break existing functionality that
   was previously working correctly.
 category:
-- Quality
-- Testing
+- Code
 - Process
+- Testing
 related_problems:
 - slug: breaking-changes
   similarity: 0.6

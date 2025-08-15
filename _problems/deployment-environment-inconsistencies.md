@@ -3,9 +3,7 @@ title: Deployment Environment Inconsistencies
 description: Differences between deployment environments cause applications to behave
   differently or fail when moved between environments.
 category:
-- Deployment
-- Environment Management
-- Configuration
+- Operations
 related_problems:
 - slug: environment-variable-issues
   similarity: 0.65

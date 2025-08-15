@@ -3,9 +3,8 @@ title: Priority Thrashing
 description: Work priorities change frequently and unexpectedly, causing constant
   task switching and disrupting planned work flow.
 category:
-- Planning
 - Process
-- Team Dynamics
+- Team
 related_problems:
 - slug: competing-priorities
   similarity: 0.7

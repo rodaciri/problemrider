@@ -3,9 +3,9 @@ title: Defensive Coding Practices
 description: Developers write overly verbose code, excessive comments, or unnecessary
   defensive logic to preempt anticipated criticism during code reviews.
 category:
-- Code Quality
-- Team Dynamics
-- Development Workflow
+- Code
+- Process
+- Team
 related_problems:
 - slug: clever-code
   similarity: 0.6

@@ -4,7 +4,7 @@ description: The code review process becomes a significant bottleneck, delaying 
   delivery of new features and bug fixes.
 category:
 - Process
-- Team Dynamics
+- Team
 related_problems:
 - slug: code-review-inefficiency
   similarity: 0.75

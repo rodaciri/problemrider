@@ -3,9 +3,9 @@ title: Review Process Breakdown
 description: Code review practices fail to identify critical issues, provide meaningful
   feedback, or improve code quality due to systemic process failures.
 category:
+- Code
 - Process
-- Quality
-- Team Dynamics
+- Team
 related_problems:
 - slug: inadequate-code-reviews
   similarity: 0.9

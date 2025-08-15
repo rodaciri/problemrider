@@ -3,9 +3,9 @@ title: Single Points of Failure
 description: Progress is blocked when specific knowledge holders or system components
   are unavailable, creating critical dependencies.
 category:
-- Team Dynamics
+- Management
 - Process
-- Risk Management
+- Team
 related_problems:
 - slug: maintenance-bottlenecks
   similarity: 0.65

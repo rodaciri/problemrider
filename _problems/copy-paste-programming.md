@@ -3,9 +3,8 @@ title: Copy-Paste Programming
 description: Developers frequently copy and paste code rather than creating reusable
   components, leading to maintenance nightmares and subtle bugs.
 category:
+- Code
 - Process
-- Quality
-- Maintenance
 related_problems:
 - slug: code-duplication
   similarity: 0.7

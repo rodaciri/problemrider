@@ -3,9 +3,8 @@ title: Short-Term Focus
 description: Management prioritizes immediate feature delivery over long-term code
   health and architectural improvements, creating sustainability issues.
 category:
+- Management
 - Process
-- Organizational
-- Strategic
 related_problems:
 - slug: increased-technical-shortcuts
   similarity: 0.65

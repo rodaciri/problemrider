@@ -3,8 +3,7 @@ title: Mixed Coding Styles
 description: A situation where different parts of the codebase use different formatting,
   naming conventions, and design patterns.
 category:
-- Code Quality
-- Maintenance
+- Code
 related_problems:
 - slug: inconsistent-coding-standards
   similarity: 0.75

@@ -3,9 +3,8 @@ title: Implementation Rework
 description: Features must be rebuilt when initial understanding proves incorrect,
   wasting development effort and delaying delivery.
 category:
+- Code
 - Process
-- Technical
-- Quality
 related_problems:
 - slug: wasted-development-effort
   similarity: 0.6

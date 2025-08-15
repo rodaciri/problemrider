@@ -3,9 +3,9 @@ title: Organizational Structure Mismatch
 description: A situation where the structure of the organization does not match the
   architecture of the system.
 category:
-- Team
-- Process
 - Architecture
+- Process
+- Team
 related_problems:
 - slug: architectural-mismatch
   similarity: 0.75

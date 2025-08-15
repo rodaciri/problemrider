@@ -3,9 +3,9 @@ title: Maintenance Bottlenecks
 description: A situation where a small number of developers are the only ones who
   can make changes to a critical part of the system.
 category:
-- Team
+- Code
 - Process
-- Maintenance
+- Team
 related_problems:
 - slug: bottleneck-formation
   similarity: 0.75

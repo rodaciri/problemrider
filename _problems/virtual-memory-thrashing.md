@@ -3,9 +3,8 @@ title: Virtual Memory Thrashing
 description: System constantly swaps pages between physical memory and disk, causing
   severe performance degradation due to excessive paging activity.
 category:
-- Technical
+- Code
 - Performance
-- Memory Management
 related_problems:
 - slug: memory-swapping
   similarity: 0.7

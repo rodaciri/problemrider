@@ -3,9 +3,9 @@ title: Data Migration Complexities
 description: Complex data migration processes create risks of data loss, corruption,
   or extended downtime during system updates.
 category:
-- Technical
+- Code
 - Process
-- Integration
+- Testing
 related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.7

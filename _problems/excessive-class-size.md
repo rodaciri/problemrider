@@ -3,8 +3,8 @@ title: Excessive Class Size
 description: Classes become overly large and complex, making them difficult to understand,
   maintain, and test.
 category:
-- Code Quality
-- Object-Oriented Design
+- Architecture
+- Code
 related_problems:
 - slug: bloated-class
   similarity: 0.75

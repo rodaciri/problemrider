@@ -3,8 +3,8 @@ title: Inadequate Test Data Management
 description: The use of unrealistic, outdated, or insufficient test data leads to
   tests that do not accurately reflect real-world scenarios.
 category:
+- Code
 - Process
-- Quality
 related_problems:
 - slug: insufficient-testing
   similarity: 0.65

@@ -3,9 +3,8 @@ title: Hidden Dependencies
 description: Workarounds and patches create unexpected dependencies between system
   components that are not obvious from the code structure.
 category:
-- Technical
-- Design
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: unpredictable-system-behavior
   similarity: 0.7

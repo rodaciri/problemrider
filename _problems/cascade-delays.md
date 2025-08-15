@@ -3,9 +3,9 @@ title: Cascade Delays
 description: Missed deadlines in one area cause delays in dependent work streams,
   creating a ripple effect that affects multiple projects and teams.
 category:
+- Business
 - Management
 - Process
-- Business
 related_problems:
 - slug: delayed-project-timelines
   similarity: 0.7

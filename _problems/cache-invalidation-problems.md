@@ -3,9 +3,9 @@ title: Cache Invalidation Problems
 description: Cached data becomes stale or inconsistent with the underlying data source,
   leading to incorrect application behavior and user confusion.
 category:
-- Technical
+- Code
 - Performance
-- Integration
+- Testing
 related_problems:
 - slug: poor-caching-strategy
   similarity: 0.65

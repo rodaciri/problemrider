@@ -3,8 +3,8 @@ title: Cross-Site Scripting Vulnerabilities
 description: Inadequate input validation and output encoding allows attackers to inject
   malicious scripts that execute in users' browsers.
 category:
+- Code
 - Security
-- Technical
 related_problems:
 - slug: sql-injection-vulnerabilities
   similarity: 0.65

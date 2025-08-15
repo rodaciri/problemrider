@@ -5,7 +5,6 @@ description: Project progress is not monitored effectively, allowing problems to
 category:
 - Management
 - Process
-- Planning
 related_problems:
 - slug: no-formal-change-control-process
   similarity: 0.65

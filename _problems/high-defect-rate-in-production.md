@@ -3,8 +3,8 @@ title: High Defect Rate in Production
 description: A large number of bugs are discovered in the live environment after a
   release, indicating underlying issues in the development and quality assurance process.
 category:
-- Quality
 - Business
+- Code
 related_problems:
 - slug: insufficient-testing
   similarity: 0.75

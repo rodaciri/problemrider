@@ -3,9 +3,9 @@ title: Second-System Effect
 description: Lessons from an old system lead to overcompensation, creating bloated
   or overly ambitious designs
 category:
-- Design
+- Architecture
+- Code
 - Process
-- Technical
 related_problems:
 - slug: modernization-strategy-paralysis
   similarity: 0.6

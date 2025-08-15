@@ -3,9 +3,9 @@ title: Legacy Code Without Tests
 description: Existing legacy systems often lack automated tests, making it challenging
   to add them incrementally and safely modify the code.
 category:
+- Code
+- Operations
 - Testing
-- Maintenance
-- Legacy
 related_problems:
 - slug: outdated-tests
   similarity: 0.65

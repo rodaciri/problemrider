@@ -3,8 +3,8 @@ title: Complex Deployment Process
 description: The process of deploying software to production is manual, time-consuming,
   and error-prone, which contributes to long release cycles and a high risk of failure.
 category:
+- Operations
 - Process
-- Deployment
 related_problems:
 - slug: manual-deployment-processes
   similarity: 0.75

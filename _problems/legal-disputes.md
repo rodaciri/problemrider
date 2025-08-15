@@ -3,9 +3,9 @@ title: Legal Disputes
 description: Conflicts over contracts, deliverables, or responsibilities escalate
   to legal proceedings, consuming resources and damaging relationships.
 category:
-- Legal
-- Risk Management
-- Vendor Relations
+- Dependencies
+- Management
+- Security
 related_problems:
 - slug: stakeholder-dissatisfaction
   similarity: 0.55

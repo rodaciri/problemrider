@@ -3,8 +3,8 @@ title: Team Silos
 description: Development teams or individual developers work in isolation, leading
   to duplicated effort, inconsistent solutions, and a lack of knowledge sharing.
 category:
-- Process
 - Communication
+- Process
 related_problems:
 - slug: knowledge-silos
   similarity: 0.7

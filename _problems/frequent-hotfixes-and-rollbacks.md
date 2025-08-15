@@ -3,9 +3,9 @@ title: Frequent Hotfixes and Rollbacks
 description: The team is constantly deploying small fixes or rolling back releases
   due to insufficient testing and quality control.
 category:
+- Code
+- Operations
 - Process
-- Quality
-- Deployment
 related_problems:
 - slug: large-risky-releases
   similarity: 0.65

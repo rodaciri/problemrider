@@ -3,9 +3,8 @@ title: Inconsistent Coding Standards
 description: Lack of uniform coding standards across the codebase creates maintenance
   difficulties and reduces code readability and quality.
 category:
-- Code Quality
-- Team Collaboration
-- Maintenance
+- Code
+- Team
 related_problems:
 - slug: inconsistent-codebase
   similarity: 0.8

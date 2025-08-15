@@ -3,8 +3,8 @@ title: High Number of Database Queries
 description: A single user request triggers an unexpectedly large number of database
   queries, leading to performance degradation and increased database load.
 category:
-- Performance
 - Database
+- Performance
 related_problems:
 - slug: slow-database-queries
   similarity: 0.75

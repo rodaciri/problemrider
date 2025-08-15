@@ -3,8 +3,7 @@ title: Inconsistent Codebase
 description: The project's code lacks uniform style, coding standards, and design
   patterns, making it difficult to read, maintain, and onboard new developers.
 category:
-- Maintenance
-- Quality
+- Code
 - Process
 related_problems:
 - slug: inconsistent-coding-standards

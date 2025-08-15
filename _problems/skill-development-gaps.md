@@ -3,9 +3,7 @@ title: Skill Development Gaps
 description: Team members don't develop expertise in important technologies or domains
   due to avoidance, specialization, or inadequate learning opportunities.
 category:
-- Skills
-- Team Development
-- Learning
+- Team
 related_problems:
 - slug: inappropriate-skillset
   similarity: 0.7

@@ -3,8 +3,8 @@ title: Task Queues Backing Up
 description: Asynchronous jobs or messages take longer to process, causing queues
   to grow and delaying critical operations.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: growing-task-queues
   similarity: 0.85

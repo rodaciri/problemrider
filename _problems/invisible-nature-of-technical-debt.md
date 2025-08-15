@@ -3,9 +3,9 @@ title: Invisible Nature of Technical Debt
 description: The impact of technical debt is not visible to non-technical stakeholders,
   making it hard to justify addressing it and allocate resources for improvement.
 category:
-- Process
-- Organizational
 - Communication
+- Management
+- Process
 related_problems:
 - slug: high-technical-debt
   similarity: 0.65

@@ -4,7 +4,7 @@ description: New users struggle to understand how to use the application, leadin
   to early abandonment.
 category:
 - Business
-- User Experience
+- Requirements
 related_problems:
 - slug: inconsistent-onboarding-experience
   similarity: 0.7

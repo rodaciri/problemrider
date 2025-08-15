@@ -3,9 +3,9 @@ title: Reduced Innovation
 description: Teams become resistant to new ideas and focus only on the bare minimum
   to get by.
 category:
-- Process
-- Team Dynamics
 - Business
+- Process
+- Team
 related_problems:
 - slug: inability-to-innovate
   similarity: 0.8

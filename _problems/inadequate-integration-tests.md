@@ -3,9 +3,9 @@ title: Inadequate Integration Tests
 description: The interactions between different modules or services are not thoroughly
   tested, leading to integration failures.
 category:
-- Testing
-- Quality
 - Architecture
+- Code
+- Testing
 related_problems:
 - slug: missing-end-to-end-tests
   similarity: 0.75

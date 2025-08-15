@@ -3,8 +3,8 @@ title: Development Disruption
 description: The development team is constantly interrupted by urgent production issues,
   which disrupts planned work and reduces overall productivity.
 category:
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: constant-firefighting
   similarity: 0.75

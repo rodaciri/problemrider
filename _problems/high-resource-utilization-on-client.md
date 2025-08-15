@@ -4,7 +4,7 @@ description: Client applications may consume excessive CPU or memory, leading to
   poor user experience, especially on less powerful devices.
 category:
 - Performance
-- User Experience
+- Requirements
 related_problems:
 - slug: high-client-side-resource-consumption
   similarity: 0.95

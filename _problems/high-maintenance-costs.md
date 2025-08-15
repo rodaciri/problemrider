@@ -3,8 +3,8 @@ title: High Maintenance Costs
 description: A disproportionately large amount of the development budget and effort
   is consumed by maintaining the existing system rather than creating new value.
 category:
-- Maintenance
 - Business
+- Code
 related_problems:
 - slug: maintenance-cost-increase
   similarity: 0.8

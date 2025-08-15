@@ -3,9 +3,9 @@ title: Delayed Issue Resolution
 description: Problems persist longer because no one feels responsible for fixing them,
   leading to accumulated technical debt and user frustration.
 category:
+- Code
+- Management
 - Process
-- Maintenance
-- Accountability
 related_problems:
 - slug: delayed-bug-fixes
   similarity: 0.8

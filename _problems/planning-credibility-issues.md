@@ -3,9 +3,9 @@ title: Planning Credibility Issues
 description: Future estimates and plans are questioned or ignored due to history of
   inaccurate predictions and missed commitments.
 category:
+- Business
+- Management
 - Process
-- Organizational
-- Trust
 related_problems:
 - slug: poor-planning
   similarity: 0.7

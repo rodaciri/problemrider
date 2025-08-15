@@ -3,9 +3,8 @@ title: Log Injection Vulnerabilities
 description: Unsanitized user input in log messages allows attackers to inject malicious
   content that can compromise log integrity or exploit log processing systems.
 category:
+- Code
 - Security
-- Logging
-- Input Validation
 related_problems:
 - slug: sql-injection-vulnerabilities
   similarity: 0.65

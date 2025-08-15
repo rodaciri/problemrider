@@ -3,9 +3,9 @@ title: Inconsistent Knowledge Acquisition
 description: New team members learn different aspects and depths of system knowledge
   depending on their mentor or learning path, creating uneven skill distribution.
 category:
-- Knowledge Management
-- Team Dynamics
+- Communication
 - Process
+- Team
 related_problems:
 - slug: inconsistent-onboarding-experience
   similarity: 0.75

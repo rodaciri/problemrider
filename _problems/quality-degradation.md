@@ -3,8 +3,7 @@ title: Quality Degradation
 description: System quality decreases over time due to accumulating technical debt,
   shortcuts, and insufficient quality practices.
 category:
-- Quality
-- Technical Debt
+- Code
 - Process
 related_problems:
 - slug: gradual-performance-degradation

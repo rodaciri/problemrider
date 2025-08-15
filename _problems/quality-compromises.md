@@ -3,9 +3,8 @@ title: Quality Compromises
 description: Quality standards are deliberately lowered or shortcuts are taken to
   meet deadlines, budgets, or other constraints, creating long-term problems.
 category:
-- Quality
+- Code
 - Process
-- Decision Making
 related_problems:
 - slug: reduced-feature-quality
   similarity: 0.65

@@ -2,9 +2,9 @@
 title: Inefficient Development Environment
 description: The team is slowed down by a slow and cumbersome development environment
 category:
-- Technical
-- Process
+- Code
 - Performance
+- Process
 related_problems:
 - slug: tool-limitations
   similarity: 0.7

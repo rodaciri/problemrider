@@ -4,8 +4,7 @@ description: External competitive forces or market conditions drive rushed decis
   scope changes, and unrealistic expectations.
 category:
 - Business
-- External Factors
-- Strategy
+- Management
 related_problems:
 - slug: power-struggles
   similarity: 0.55

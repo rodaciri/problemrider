@@ -3,8 +3,8 @@ title: Complex Implementation Paths
 description: Simple business requirements require complex technical solutions due
   to architectural constraints or design limitations.
 category:
-- Technical
-- Design
+- Architecture
+- Code
 - Process
 related_problems:
 - slug: complex-domain-model

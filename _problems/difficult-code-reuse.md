@@ -3,9 +3,8 @@ title: Difficult Code Reuse
 description: It is difficult to reuse code in different contexts because it is not
   designed in a modular and reusable way.
 category:
-- Design
-- Quality
-- Maintenance
+- Architecture
+- Code
 related_problems:
 - slug: difficult-code-comprehension
   similarity: 0.75

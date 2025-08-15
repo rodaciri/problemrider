@@ -3,9 +3,8 @@ title: Slow Feature Development
 description: The pace of developing and delivering new features is consistently slow,
   often due to the complexity and fragility of the existing codebase.
 category:
+- Code
 - Process
-- Maintenance
-- Quality
 related_problems:
 - slug: slow-development-velocity
   similarity: 0.8

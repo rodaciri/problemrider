@@ -3,9 +3,8 @@ title: Hidden Side Effects
 description: Functions have undocumented side effects that modify state or trigger
   actions beyond their apparent purpose.
 category:
-- Technical
-- Design
-- Quality
+- Architecture
+- Code
 related_problems:
 - slug: global-state-and-side-effects
   similarity: 0.65

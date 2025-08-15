@@ -3,9 +3,8 @@ title: Clever Code
 description: Code written to demonstrate technical prowess rather than clarity, making
   it difficult for others to understand and maintain.
 category:
-- Maintenance
+- Code
 - Team
-- Technical
 related_problems:
 - slug: complex-and-obscure-logic
   similarity: 0.7

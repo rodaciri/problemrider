@@ -3,9 +3,9 @@ title: Quality Blind Spots
 description: Critical system behaviors and failure modes remain undetected due to
   gaps in testing coverage and verification practices.
 category:
-- Quality
+- Code
+- Management
 - Process
-- Risk Management
 related_problems:
 - slug: poor-test-coverage
   similarity: 0.75

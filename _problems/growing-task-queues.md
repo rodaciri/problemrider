@@ -3,8 +3,8 @@ title: Growing Task Queues
 description: Asynchronous processing queues accumulate unprocessed tasks, indicating
   a bottleneck in the processing pipeline.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: insufficient-worker-capacity
   similarity: 0.85

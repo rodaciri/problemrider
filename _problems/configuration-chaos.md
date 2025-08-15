@@ -3,7 +3,6 @@ title: Configuration Chaos
 description: System configurations are inconsistent, difficult to manage, and prone
   to drift, causing unpredictable behavior across environments.
 category:
-- Configuration
 - Operations
 - Process
 related_problems:

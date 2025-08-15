@@ -3,9 +3,9 @@ title: Extended Research Time
 description: Developers spend significant portions of their day researching rather
   than implementing, due to knowledge gaps or complex legacy systems.
 category:
+- Code
+- Culture
 - Process
-- Technical
-- Individual Performance
 related_problems:
 - slug: extended-cycle-times
   similarity: 0.65

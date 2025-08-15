@@ -3,9 +3,9 @@ title: Improper Event Listener Management
 description: Event listeners are added but not removed when associated objects are
   destroyed, creating memory leaks and preventing garbage collection.
 category:
-- Technical
-- Memory Management
 - Architecture
+- Code
+- Performance
 related_problems:
 - slug: memory-leaks
   similarity: 0.55

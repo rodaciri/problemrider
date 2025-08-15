@@ -3,8 +3,8 @@ title: Frequent Changes to Requirements
 description: The requirements for a project or feature are constantly being updated,
   even after development has started, leading to rework, delays, and frustration.
 category:
-- Process
 - Communication
+- Process
 related_problems:
 - slug: changing-project-scope
   similarity: 0.75

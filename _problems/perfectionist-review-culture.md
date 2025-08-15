@@ -5,7 +5,7 @@ description: Team culture emphasizes making code perfect through reviews rather 
 category:
 - Culture
 - Process
-- Team Dynamics
+- Team
 related_problems:
 - slug: nitpicking-culture
   similarity: 0.75

@@ -4,8 +4,6 @@ description: Critical projects lack sufficient organizational backing and execut
   sponsorship to overcome resistance and secure resources.
 category:
 - Management
-- Organizational
-- Leadership
 related_problems:
 - slug: project-resource-constraints
   similarity: 0.65

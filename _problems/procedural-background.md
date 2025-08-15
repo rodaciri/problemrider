@@ -4,8 +4,8 @@ description: Developers with a background in procedural programming may struggle
   adapt to an object-oriented way of thinking, leading to the creation of procedural-style
   code in an object-oriented language.
 category:
+- Architecture
 - Team
-- Design
 related_problems:
 - slug: procedural-programming-in-oop-languages
   similarity: 0.75

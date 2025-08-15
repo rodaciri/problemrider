@@ -4,8 +4,7 @@ description: Multiple urgent projects or initiatives compete for the same limite
   resources, creating conflicts and inefficiencies.
 category:
 - Management
-- Resource Planning
-- Organizational
+- Performance
 related_problems:
 - slug: priority-thrashing
   similarity: 0.7

@@ -3,9 +3,9 @@ title: Inability to Innovate
 description: The team is so bogged down in day-to-day maintenance tasks that they
   have no time to think about future improvements or new approaches.
 category:
+- Management
 - Process
-- Strategic
-- Team Dynamics
+- Team
 related_problems:
 - slug: reduced-innovation
   similarity: 0.8

@@ -4,8 +4,8 @@ description: Users switch to competitors who offer better experience or more fea
   due to technical shortcomings.
 category:
 - Business
-- Strategic
-- Quality
+- Code
+- Management
 related_problems:
 - slug: user-frustration
   similarity: 0.55

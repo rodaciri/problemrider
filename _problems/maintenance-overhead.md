@@ -3,7 +3,7 @@ title: Maintenance Overhead
 description: A disproportionate amount of time and effort is spent on maintaining
   the existing system, often due to duplicated code and a lack of reusable components.
 category:
-- Maintenance
+- Code
 - Process
 related_problems:
 - slug: high-maintenance-costs

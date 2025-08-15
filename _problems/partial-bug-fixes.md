@@ -3,8 +3,7 @@ title: Partial Bug Fixes
 description: Issues appear to be resolved but resurface in different contexts because
   the fix was not applied to all instances of the duplicated code.
 category:
-- Maintenance
-- Quality
+- Code
 related_problems:
 - slug: delayed-bug-fixes
   similarity: 0.7

@@ -3,7 +3,7 @@ title: User Confusion
 description: End users encounter different behavior for what should be identical operations,
   leading to frustration and a loss of trust in the system.
 category:
-- User Experience
+- Requirements
 related_problems:
 - slug: user-frustration
   similarity: 0.75

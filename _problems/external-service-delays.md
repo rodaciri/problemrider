@@ -3,8 +3,8 @@ title: External Service Delays
 description: An API depends on other services (third-party or internal) that are slow
   to respond, causing the API itself to be slow.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: high-api-latency
   similarity: 0.75

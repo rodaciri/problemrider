@@ -3,9 +3,9 @@ title: API Versioning Conflicts
 description: Inconsistent or poorly managed API versioning creates compatibility issues,
   breaking changes, and integration failures between services.
 category:
-- Integration
-- Design
-- Maintenance
+- Architecture
+- Code
+- Testing
 related_problems:
 - slug: legacy-api-versioning-nightmare
   similarity: 0.8

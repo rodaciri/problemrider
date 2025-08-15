@@ -3,10 +3,10 @@ title: Difficult Developer Onboarding
 description: New team members take an unusually long time to become productive due
   to complex systems, poor documentation, and inadequate onboarding processes.
 category:
-- Team Dynamics
+- Code
+- Communication
 - Process
-- Knowledge Management
-- Maintenance
+- Team
 related_problems:
 - slug: new-hire-frustration
   similarity: 0.75

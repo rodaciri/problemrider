@@ -3,9 +3,9 @@ title: Inefficient Processes
 description: Poor workflows, excessive meetings, or bureaucratic procedures waste
   development time and reduce team productivity.
 category:
+- Management
 - Process
-- Team Dynamics
-- Organizational
+- Team
 related_problems:
 - slug: process-design-flaws
   similarity: 0.7

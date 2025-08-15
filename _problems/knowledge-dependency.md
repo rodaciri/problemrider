@@ -3,9 +3,9 @@ title: Knowledge Dependency
 description: Team members remain dependent on specific experienced individuals for
   knowledge and decision-making longer than appropriate for their role and tenure.
 category:
-- Team Dynamics
-- Knowledge Management
-- Independence
+- Communication
+- Dependencies
+- Team
 related_problems:
 - slug: inconsistent-knowledge-acquisition
   similarity: 0.7

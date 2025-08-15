@@ -3,9 +3,9 @@ title: Database Connection Leaks
 description: Database connections are opened but not properly closed, leading to connection
   pool exhaustion and application failures.
 category:
-- Technical
+- Code
 - Database
-- Resource Management
+- Performance
 related_problems:
 - slug: misconfigured-connection-pools
   similarity: 0.7

@@ -3,8 +3,7 @@ title: Obsolete Technologies
 description: The system relies on outdated tools, frameworks, or languages that make
   modern development practices difficult to implement.
 category:
-- Technical
-- Maintenance
+- Code
 - Process
 related_problems:
 - slug: technology-stack-fragmentation

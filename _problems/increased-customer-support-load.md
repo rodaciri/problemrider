@@ -4,8 +4,8 @@ description: Users contact support more frequently due to frustration or inabili
   to complete tasks.
 category:
 - Business
+- Code
 - Process
-- Quality
 related_problems:
 - slug: customer-dissatisfaction
   similarity: 0.6

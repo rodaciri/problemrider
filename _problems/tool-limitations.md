@@ -3,9 +3,8 @@ title: Tool Limitations
 description: Inadequate development tools slow down common tasks and reduce developer
   productivity and satisfaction.
 category:
-- Technical
+- Code
 - Process
-- Tooling
 related_problems:
 - slug: inefficient-development-environment
   similarity: 0.7

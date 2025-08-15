@@ -3,9 +3,9 @@ title: Review Process Breakdown
 description: Code review processes fail to catch design flaws, bugs, or quality issues
   due to inadequate depth, time, or expertise.
 category:
+- Code
 - Process
-- Quality
-- Team Dynamics
+- Team
 related_problems:
 - slug: inadequate-code-reviews
   similarity: 0.85

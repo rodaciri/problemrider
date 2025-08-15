@@ -3,9 +3,9 @@ title: Alignment and Padding Issues
 description: Data structures have inefficient memory layout due to poor alignment
   and excessive padding, wasting memory and reducing cache efficiency.
 category:
+- Architecture
+- Code
 - Performance
-- Technical
-- Design
 related_problems:
 - slug: data-structure-cache-inefficiency
   similarity: 0.75

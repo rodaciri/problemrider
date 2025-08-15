@@ -3,9 +3,9 @@ title: Team Demoralization
 description: Team members lose motivation, confidence, and enthusiasm for their work
   due to persistent problems or organizational issues.
 category:
-- Team Dynamics
 - Culture
 - Management
+- Team
 related_problems:
 - slug: unmotivated-employees
   similarity: 0.65

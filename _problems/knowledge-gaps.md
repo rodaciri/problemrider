@@ -3,9 +3,9 @@ title: Knowledge Gaps
 description: Lack of understanding about systems, business requirements, or technical
   domains leads to extended research time and suboptimal solutions.
 category:
-- Knowledge Management
-- Team Dynamics
+- Communication
 - Process
+- Team
 related_problems:
 - slug: incomplete-knowledge
   similarity: 0.65

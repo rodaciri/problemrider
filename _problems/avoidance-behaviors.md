@@ -3,9 +3,9 @@ title: Avoidance Behaviors
 description: Complex tasks are postponed or avoided entirely due to cognitive overload,
   fear, or perceived difficulty.
 category:
-- Team
-- Process
 - Management
+- Process
+- Team
 related_problems:
 - slug: procrastination-on-complex-tasks
   similarity: 0.8

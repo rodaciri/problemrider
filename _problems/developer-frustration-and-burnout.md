@@ -3,10 +3,9 @@ title: Developer Frustration and Burnout
 description: Developers are demotivated, disengaged, and exhausted due to persistent
   issues in the work environment and codebase.
 category:
-- Individual
-- Team
 - Culture
 - Management
+- Team
 related_problems:
 - slug: increased-stress-and-burnout
   similarity: 0.7

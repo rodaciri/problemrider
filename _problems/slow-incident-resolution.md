@@ -4,7 +4,6 @@ description: Problems and outages take excessive time to diagnose and resolve, p
   business impact and user frustration.
 category:
 - Operations
-- Support
 - Process
 related_problems:
 - slug: delayed-issue-resolution

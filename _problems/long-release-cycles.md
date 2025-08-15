@@ -3,9 +3,9 @@ title: Long Release Cycles
 description: Releases are delayed due to prolonged manual testing phases or last-minute
   bug discoveries.
 category:
+- Management
 - Process
 - Testing
-- Delivery
 related_problems:
 - slug: large-risky-releases
   similarity: 0.65

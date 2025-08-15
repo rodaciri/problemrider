@@ -3,8 +3,8 @@ title: Large Estimates for Small Changes
 description: The team consistently provides large time estimates for seemingly small
   changes, indicating underlying code complexity and risk.
 category:
+- Code
 - Process
-- Maintenance
 related_problems:
 - slug: fear-of-change
   similarity: 0.6

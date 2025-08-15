@@ -4,7 +4,7 @@ description: A situation where it is difficult or impossible to scale different 
   of a system independently.
 category:
 - Architecture
-- Scalability
+- Performance
 related_problems:
 - slug: maintenance-bottlenecks
   similarity: 0.6

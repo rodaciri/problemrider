@@ -3,9 +3,8 @@ title: Vendor Lock-In
 description: System is overly dependent on a specific vendor's tools or APIs, limiting
   future options
 category:
-- Technical
-- Strategic
-- Risk Management
+- Code
+- Management
 related_problems:
 - slug: technology-lock-in
   similarity: 0.75

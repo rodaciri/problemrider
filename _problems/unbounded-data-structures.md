@@ -3,9 +3,9 @@ title: Unbounded Data Structures
 description: Data structures that grow indefinitely without proper pruning or size
   limits, leading to memory exhaustion and performance degradation.
 category:
-- Technical
+- Code
+- Database
 - Performance
-- Data Management
 related_problems:
 - slug: unbounded-data-growth
   similarity: 0.8

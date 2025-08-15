@@ -3,8 +3,8 @@ title: Quality Blind Spots
 description: The testing process is not comprehensive enough, leading to a high defect
   rate in production.
 category:
+- Code
 - Process
-- Quality
 related_problems:
 - slug: high-defect-rate-in-production
   similarity: 0.75

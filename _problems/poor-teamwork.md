@@ -3,9 +3,9 @@ title: Team Dysfunction
 description: Team members work in isolation, resist collaboration, or lack mutual
   respect, reducing overall effectiveness.
 category:
-- Team Dynamics
 - Communication
 - Culture
+- Team
 related_problems:
 - slug: team-dysfunction
   similarity: 0.85

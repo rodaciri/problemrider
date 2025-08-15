@@ -3,8 +3,8 @@ title: Incorrect Max Connection Pool Size
 description: The maximum number of connections in a database connection pool is set
   incorrectly, leading to either wasted resources or connection exhaustion.
 category:
+- Code
 - Performance
-- Stability
 related_problems:
 - slug: misconfigured-connection-pools
   similarity: 0.85

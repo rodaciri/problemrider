@@ -3,9 +3,9 @@ title: Premature Technology Introduction
 description: New frameworks, tools, or platforms are introduced without proper evaluation,
   adding risk and learning overhead to projects.
 category:
-- Technical
+- Code
+- Management
 - Process
-- Risk Management
 related_problems:
 - slug: increased-technical-shortcuts
   similarity: 0.6

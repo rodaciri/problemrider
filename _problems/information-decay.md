@@ -3,9 +3,8 @@ title: Information Decay
 description: System documentation becomes outdated, inaccurate, or incomplete over
   time, making it unreliable for decision-making and system understanding.
 category:
-- Documentation
-- Knowledge Management
-- Maintenance
+- Code
+- Communication
 related_problems:
 - slug: poor-documentation
   similarity: 0.8

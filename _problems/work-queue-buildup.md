@@ -3,9 +3,8 @@ title: Work Queue Buildup
 description: Tasks accumulate in queues waiting for bottleneck resources or processes,
   creating delays and reducing overall system throughput.
 category:
-- Process
-- Flow
 - Performance
+- Process
 related_problems:
 - slug: growing-task-queues
   similarity: 0.7

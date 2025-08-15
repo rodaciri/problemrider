@@ -5,8 +5,8 @@ description: Developers struggle to make choices without clear guidance, which c
   team.
 category:
 - Management
-- Team
 - Process
+- Team
 related_problems:
 - slug: analysis-paralysis
   similarity: 0.75

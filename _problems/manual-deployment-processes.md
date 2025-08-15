@@ -3,9 +3,9 @@ title: Manual Deployment Processes
 description: Releases require human intervention, increasing the chance for mistakes
   and inconsistencies
 category:
+- Code
+- Operations
 - Process
-- Technical
-- Operational
 related_problems:
 - slug: complex-deployment-process
   similarity: 0.75

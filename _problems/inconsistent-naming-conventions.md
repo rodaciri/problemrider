@@ -3,8 +3,7 @@ title: Inconsistent Naming Conventions
 description: Unstructured or conflicting names make code harder to read, navigate,
   and maintain
 category:
-- Technical
-- Maintenance
+- Code
 - Communication
 related_problems:
 - slug: poor-naming-conventions

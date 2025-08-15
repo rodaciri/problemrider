@@ -3,9 +3,9 @@ title: Fear of Breaking Changes
 description: The team is reluctant to make changes to the codebase for fear of breaking
   existing functionality, which can lead to a stagnant and outdated system.
 category:
-- Process
+- Code
 - Culture
-- Maintenance
+- Process
 related_problems:
 - slug: fear-of-change
   similarity: 0.85

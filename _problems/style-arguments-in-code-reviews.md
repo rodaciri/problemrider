@@ -3,8 +3,8 @@ title: Style Arguments in Code Reviews
 description: A situation where a significant amount of time in code reviews is spent
   debating trivial style issues instead of focusing on logic and design.
 category:
+- Code
 - Process
-- Code Quality
 related_problems:
 - slug: superficial-code-reviews
   similarity: 0.65

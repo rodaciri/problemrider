@@ -4,8 +4,7 @@ description: Projects cannot obtain necessary budget, personnel, or organization
   resources due to poor planning or competing priorities.
 category:
 - Management
-- Resource Planning
-- Organizational
+- Performance
 related_problems:
 - slug: project-authority-vacuum
   similarity: 0.65

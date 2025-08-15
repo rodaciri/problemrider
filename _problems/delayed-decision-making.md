@@ -3,9 +3,9 @@ title: Delayed Decision Making
 description: Important decisions that affect development progress are postponed or
   take excessive time to make, creating bottlenecks and uncertainty.
 category:
+- Management
 - Process
-- Leadership
-- Team Dynamics
+- Team
 related_problems:
 - slug: decision-avoidance
   similarity: 0.8

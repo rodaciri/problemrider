@@ -3,9 +3,9 @@ title: Overworked Teams
 description: High workloads lead to burnout, mistakes, and long-term drops in quality
   and productivity.
 category:
-- Team Dynamics
+- Culture
 - Management
-- Health
+- Team
 related_problems:
 - slug: increased-stress-and-burnout
   similarity: 0.75

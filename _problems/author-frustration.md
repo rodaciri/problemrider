@@ -3,9 +3,9 @@ title: Author Frustration
 description: Developers become frustrated with unpredictable, conflicting, or seemingly
   arbitrary feedback during the code review process.
 category:
-- Team Dynamics
+- Culture
 - Process
-- Workplace Health
+- Team
 related_problems:
 - slug: reviewer-anxiety
   similarity: 0.7

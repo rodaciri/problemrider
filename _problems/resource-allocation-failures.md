@@ -3,9 +3,8 @@ title: Resource Allocation Failures
 description: Objects, connections, file handles, or other system resources are allocated
   but never properly deallocated or closed, leading to resource exhaustion.
 category:
-- Technical
+- Code
 - Performance
-- Resource Management
 related_problems:
 - slug: unreleased-resources
   similarity: 0.8

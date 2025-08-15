@@ -3,9 +3,9 @@ title: Workaround Culture
 description: Teams implement increasingly complex workarounds rather than fixing root
   issues, creating layers of technical debt.
 category:
-- Process
+- Code
 - Culture
-- Maintenance
+- Process
 related_problems:
 - slug: accumulation-of-workarounds
   similarity: 0.75

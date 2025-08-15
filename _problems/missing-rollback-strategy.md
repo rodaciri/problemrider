@@ -3,9 +3,9 @@ title: Deployment Risk
 description: There's no tested method to undo a deployment if things go wrong, increasing
   risk
 category:
+- Code
+- Management
 - Process
-- Technical
-- Risk Management
 related_problems:
 - slug: deployment-risk
   similarity: 0.9

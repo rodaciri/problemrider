@@ -4,7 +4,6 @@ description: Project requirements expand continuously without proper control or 
   analysis, threatening timelines, budgets, and the original objectives.
 category:
 - Process
-- Project Management
 - Requirements
 related_problems:
 - slug: changing-project-scope

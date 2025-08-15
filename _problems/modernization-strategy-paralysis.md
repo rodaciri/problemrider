@@ -3,9 +3,8 @@ title: Modernization Strategy Paralysis
 description: Teams become overwhelmed by modernization options (rewrite, refactor,
   replace, retire) and fail to make decisions, leaving systems in limbo
 category:
-- Strategic
+- Management
 - Process
-- Decision Making
 related_problems:
 - slug: modernization-roi-justification-failure
   similarity: 0.75

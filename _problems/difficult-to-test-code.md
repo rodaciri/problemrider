@@ -3,8 +3,7 @@ title: Difficult to Test Code
 description: Components cannot be easily tested in isolation due to tight coupling,
   global dependencies, or complex setup requirements.
 category:
-- Technical
-- Quality
+- Code
 - Testing
 related_problems:
 - slug: difficult-to-understand-code

@@ -3,9 +3,8 @@ title: Changing Project Scope
 description: Frequent shifts in project direction confuse the team and prevent steady
   progress toward completion.
 category:
-- Process
 - Management
-- Planning
+- Process
 related_problems:
 - slug: scope-creep
   similarity: 0.8

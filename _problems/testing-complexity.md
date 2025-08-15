@@ -3,8 +3,8 @@ title: Testing Complexity
 description: Quality assurance must verify the same functionality in multiple locations,
   which increases the testing effort and the risk of missing bugs.
 category:
+- Code
 - Testing
-- Quality
 related_problems:
 - slug: difficult-to-test-code
   similarity: 0.7

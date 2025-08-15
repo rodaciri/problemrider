@@ -3,9 +3,9 @@ title: DMA Coherency Issues
 description: Direct Memory Access operations conflict with CPU cache coherency, leading
   to data corruption or inconsistent data views between CPU and DMA devices.
 category:
-- Technical
-- Hardware
-- Data Integrity
+- Code
+- Database
+- Performance
 related_problems:
 - slug: false-sharing
   similarity: 0.55

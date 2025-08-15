@@ -3,9 +3,9 @@ title: Difficulty Quantifying Benefits
 description: It is hard to measure the ROI of refactoring work compared to new features,
   so technical improvements often lose out in prioritization decisions.
 category:
-- Process
 - Business
-- Measurement
+- Process
+- Testing
 related_problems:
 - slug: invisible-nature-of-technical-debt
   similarity: 0.65

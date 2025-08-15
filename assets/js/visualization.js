@@ -3069,2336 +3069,3932 @@ const graph = {
   ],
   "links": [
     {
-      "source": "budget-overruns.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "customer-dissatisfaction.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "style-arguments-in-code-reviews.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "insufficient-audit-logging.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "delayed-bug-fixes.md"
-    },
-    {
-      "source": "slow-database-queries.md",
-      "target": "unbounded-data-growth.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "customer-dissatisfaction.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "unclear-sharing-expectations.md"
-    },
-    {
-      "source": "feature-gaps.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "merge-conflicts.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "database-schema-design-problems.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "poor-system-environment.md",
-      "target": "configuration-drift.md"
-    },
-    {
-      "source": "task-queues-backing-up.md",
-      "target": "high-api-latency.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "hidden-dependencies.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "imperative-data-fetching-logic.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "over-reliance-on-utility-classes.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "reduced-code-submission-frequency.md",
-      "target": "author-frustration.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "complex-implementation-paths.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "author-frustration.md",
-      "target": "style-arguments-in-code-reviews.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "circular-references.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "accumulated-decision-debt.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "incomplete-knowledge.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "inconsistent-behavior.md"
-    },
-    {
-      "source": "mental-fatigue.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "delayed-bug-fixes.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "work-blocking.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "changing-project-scope.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "changing-project-scope.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "bloated-class.md"
-    },
-    {
-      "source": "team-demoralization.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "refactoring-avoidance.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "excessive-disk-io.md",
-      "target": "inefficient-database-indexing.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "organizational-structure-mismatch.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "complex-implementation-paths.md",
-      "target": "architectural-mismatch.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "delayed-bug-fixes.md"
-    },
-    {
-      "source": "rushed-approvals.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "scope-change-resistance.md",
-      "target": "poor-contract-design.md"
-    },
-    {
-      "source": "convenience-driven-development.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "information-fragmentation.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "inadequate-test-data-management.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "clever-code.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "declining-business-metrics.md"
-    },
-    {
-      "source": "mental-fatigue.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "high-number-of-database-queries.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "maintenance-paralysis.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "technology-lock-in.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "high-bug-introduction-rate.md"
-    },
-    {
-      "source": "increased-manual-work.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "user-trust-erosion.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "poor-naming-conventions.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "log-spam.md",
-      "target": "n-plus-one-query-problem.md"
-    },
-    {
-      "source": "workaround-culture.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "architectural-mismatch.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "eager-to-please-stakeholders.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "wasted-development-effort.md",
-      "target": "duplicated-work.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "organizational-structure-mismatch.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "tangled-cross-cutting-concerns.md"
-    },
-    {
-      "source": "copy-paste-programming.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "maintenance-cost-increase.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "stack-overflow-errors.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "developer-frustration-and-burnout.md"
-    },
-    {
-      "source": "feature-creep.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "complex-implementation-paths.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "test-debt.md",
-      "target": "assumption-based-development.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "poor-communication.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "race-conditions.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "excessive-class-size.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "insufficient-testing.md",
-      "target": "inadequate-integration-tests.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "perfectionist-review-culture.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "increased-manual-work.md"
-    },
-    {
-      "source": "resource-allocation-failures.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "refactoring-avoidance.md"
-    },
-    {
-      "source": "history-of-failed-changes.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "upstream-timeouts.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "user-confusion.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "changing-project-scope.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "resource-waste.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "inefficient-processes.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "increased-risk-of-bugs.md",
-      "target": "testing-complexity.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "feature-creep.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "stakeholder-frustration.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "knowledge-sharing-breakdown.md"
-    },
-    {
-      "source": "high-resource-utilization-on-client.md",
-      "target": "high-api-latency.md"
-    },
-    {
-      "source": "scaling-inefficiencies.md",
-      "target": "shared-dependencies.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "scaling-inefficiencies.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "avoidance-behaviors.md",
-      "target": "cognitive-overload.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "budget-overruns.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "delayed-value-delivery.md"
-    },
-    {
-      "source": "eager-to-please-stakeholders.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "rapid-prototyping-becoming-production.md"
-    },
-    {
-      "source": "testing-environment-fragility.md",
-      "target": "project-resource-constraints.md"
-    },
-    {
-      "source": "incomplete-projects.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "cascade-delays.md",
-      "target": "missed-deadlines.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "race-conditions.md"
-    },
-    {
-      "source": "avoidance-behaviors.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "communication-risk-within-project.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "increased-risk-of-bugs.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "service-timeouts.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "slow-database-queries.md"
-    },
-    {
-      "source": "assumption-based-development.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "n-plus-one-query-problem.md",
-      "target": "imperative-data-fetching-logic.md"
-    },
-    {
-      "source": "communication-breakdown.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "null-pointer-dereferences.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "technology-isolation.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "unmotivated-employees.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "synchronization-problems.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "increased-stress-and-burnout.md",
-      "target": "priority-thrashing.md"
-    },
-    {
-      "source": "stakeholder-dissatisfaction.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "long-build-and-test-times.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "team-demoralization.md",
-      "target": "project-authority-vacuum.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "author-frustration.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "hidden-side-effects.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "technology-isolation.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "maintenance-paralysis.md"
-    },
-    {
-      "source": "spaghetti-code.md",
-      "target": "rapid-prototyping-becoming-production.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "poorly-defined-responsibilities.md"
-    },
-    {
-      "source": "deployment-coupling.md",
-      "target": "shared-dependencies.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "synchronization-problems.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "difficult-to-understand-code.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "past-negative-experiences.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "large-pull-requests.md",
-      "target": "reduced-code-submission-frequency.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "reviewer-anxiety.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "poorly-defined-responsibilities.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "maintenance-cost-increase.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
       "source": "release-anxiety.md",
       "target": "insufficient-testing.md"
     },
     {
-      "source": "knowledge-silos.md",
-      "target": "legacy-skill-shortage.md"
+      "source": "increased-customer-support-load.md",
+      "target": "data-migration-integrity-issues.md"
     },
     {
-      "source": "cascade-failures.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "avoidance-behaviors.md",
-      "target": "mental-fatigue.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "requirements-ambiguity.md"
+      "source": "feature-bloat.md",
+      "target": "unclear-goals-and-priorities.md"
     },
     {
       "source": "slow-application-performance.md",
-      "target": "slow-response-times-for-lists.md"
+      "target": "strangler-fig-pattern-failures.md"
     },
     {
-      "source": "fear-of-change.md",
-      "target": "legacy-configuration-management-chaos.md"
+      "source": "slow-application-performance.md",
+      "target": "lazy-loading.md"
     },
     {
-      "source": "external-service-delays.md",
-      "target": "upstream-timeouts.md"
+      "source": "release-anxiety.md",
+      "target": "regression-bugs.md"
     },
     {
-      "source": "copy-paste-programming.md",
+      "source": "developer-frustration-and-burnout.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
       "target": "knowledge-gaps.md"
     },
     {
-      "source": "user-trust-erosion.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "difficult-to-test-code.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "system-stagnation.md",
-      "target": "maintenance-paralysis.md"
+      "source": "lower-code-quality.md",
+      "target": "slow-knowledge-transfer.md"
     },
     {
       "source": "mixed-coding-styles.md",
       "target": "undefined-code-style-guidelines.md"
     },
     {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "scaling-inefficiencies.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "circular-references.md",
-      "target": "improper-event-listener-management.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "shared-dependencies.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "work-queue-buildup.md",
-      "target": "capacity-mismatch.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "frequent-hotfixes-and-rollbacks.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "past-negative-experiences.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "skill-development-gaps.md",
-      "target": "reduced-review-participation.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "no-continuous-feedback-loop.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "increased-manual-work.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "defensive-coding-practices.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "inconsistent-knowledge-acquisition.md",
-      "target": "information-fragmentation.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "staff-availability-issues.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "superficial-code-reviews.md",
-      "target": "reviewer-inexperience.md"
-    },
-    {
-      "source": "delayed-bug-fixes.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "log-spam.md"
-    },
-    {
-      "source": "changing-project-scope.md",
-      "target": "market-pressure.md"
-    },
-    {
-      "source": "high-connection-count.md",
-      "target": "incorrect-max-connection-pool-size.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "unpredictable-system-behavior.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "database-connection-leaks.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "knowledge-sharing-breakdown.md"
-    },
-    {
-      "source": "long-build-and-test-times.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "premature-technology-introduction.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "vendor-dependency.md"
-    },
-    {
-      "source": "knowledge-dependency.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "information-fragmentation.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "god-object-anti-pattern.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "legacy-code-without-tests.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "unmotivated-employees.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "high-connection-count.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "increasing-brittleness.md",
-      "target": "tight-coupling-issues.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "configuration-chaos.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "poor-naming-conventions.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "micromanagement-culture.md",
-      "target": "knowledge-dependency.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "long-build-and-test-times.md"
-    },
-    {
-      "source": "unmotivated-employees.md",
-      "target": "project-authority-vacuum.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "poor-user-experience-ux-design.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "buffer-overflow-vulnerabilities.md",
-      "target": "integer-overflow-underflow.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "slow-response-times-for-lists.md"
-    },
-    {
-      "source": "knowledge-dependency.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "unreleased-resources.md"
+      "source": "negative-user-feedback.md",
+      "target": "high-api-latency.md"
     },
     {
       "source": "maintenance-paralysis.md",
-      "target": "high-coupling-low-cohesion.md"
+      "target": "obsolete-technologies.md"
     },
     {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "configuration-chaos.md"
+      "source": "virtual-memory-thrashing.md",
+      "target": "memory-leaks.md"
     },
     {
-      "source": "high-technical-debt.md",
-      "target": "frequent-changes-to-requirements.md"
+      "source": "vendor-dependency-entrapment.md",
+      "target": "vendor-lock-in.md"
     },
     {
-      "source": "poor-documentation.md",
-      "target": "unclear-documentation-ownership.md"
+      "source": "increased-customer-support-load.md",
+      "target": "data-protection-risk.md"
     },
     {
-      "source": "delayed-project-timelines.md",
-      "target": "high-technical-debt.md"
+      "source": "extended-research-time.md",
+      "target": "premature-technology-introduction.md"
     },
     {
-      "source": "database-schema-design-problems.md",
-      "target": "data-migration-integrity-issues.md"
+      "source": "high-api-latency.md",
+      "target": "external-service-delays.md"
     },
     {
-      "source": "knowledge-silos.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "poor-test-coverage.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "inconsistent-quality.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "assumption-based-development.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "accumulated-decision-debt.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "delayed-value-delivery.md"
-    },
-    {
-      "source": "task-queues-backing-up.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "feature-creep.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "shared-dependencies.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "high-resource-utilization-on-client.md",
-      "target": "scaling-inefficiencies.md"
+      "source": "high-bug-introduction-rate.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
     },
     {
       "source": "misaligned-deliverables.md",
       "target": "scope-change-resistance.md"
     },
     {
-      "source": "reduced-innovation.md",
-      "target": "release-anxiety.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "technology-lock-in.md"
-    },
-    {
-      "source": "difficulty-quantifying-benefits.md",
-      "target": "invisible-nature-of-technical-debt.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "inefficient-code.md",
-      "target": "algorithmic-complexity-problems.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "reduced-team-flexibility.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "review-bottlenecks.md"
-    },
-    {
-      "source": "incomplete-knowledge.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "synchronization-problems.md"
-    },
-    {
-      "source": "unbounded-data-structures.md",
-      "target": "session-management-issues.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "workaround-culture.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "inefficient-processes.md",
-      "target": "process-design-flaws.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "wasted-development-effort.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "increased-manual-testing-effort.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "suboptimal-solutions.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "merge-conflicts.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "poorly-defined-responsibilities.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "api-versioning-conflicts.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "resource-contention.md",
-      "target": "deadlock-conditions.md"
-    },
-    {
-      "source": "database-query-performance-issues.md",
-      "target": "database-schema-design-problems.md"
-    },
-    {
-      "source": "system-stagnation.md",
-      "target": "technology-lock-in.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "external-service-delays.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "maintenance-cost-increase.md"
-    },
-    {
-      "source": "integer-overflow-underflow.md",
-      "target": "inadequate-error-handling.md"
-    },
-    {
-      "source": "team-silos.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "spaghetti-code.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "team-confusion.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "growing-task-queues.md",
-      "target": "high-database-resource-utilization.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "stakeholder-confidence-loss.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "competing-priorities.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "shared-database.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "ripple-effect-of-changes.md",
-      "target": "hidden-dependencies.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "knowledge-dependency.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "poor-planning.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "reduced-feature-quality.md"
-    },
-    {
-      "source": "technology-isolation.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "inadequate-onboarding.md",
-      "target": "tacit-knowledge.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
+      "source": "high-defect-rate-in-production.md",
       "target": "inadequate-test-infrastructure.md"
     },
     {
-      "source": "missing-rollback-strategy.md",
-      "target": "short-term-focus.md"
+      "source": "inefficient-development-environment.md",
+      "target": "monolithic-architecture-constraints.md"
     },
     {
-      "source": "integration-difficulties.md",
-      "target": "legacy-configuration-management-chaos.md"
+      "source": "debugging-difficulties.md",
+      "target": "strangler-fig-pattern-failures.md"
     },
     {
-      "source": "difficult-code-comprehension.md",
-      "target": "spaghetti-code.md"
+      "source": "increased-error-rates.md",
+      "target": "external-service-delays.md"
     },
     {
-      "source": "system-outages.md",
-      "target": "single-points-of-failure.md"
+      "source": "user-trust-erosion.md",
+      "target": "large-risky-releases.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "eager-to-please-stakeholders.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
     },
     {
       "source": "modernization-roi-justification-failure.md",
       "target": "legacy-business-logic-extraction-difficulty.md"
     },
     {
-      "source": "increased-stress-and-burnout.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "poor-communication.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "gold-plating.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "monitoring-gaps.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "cascade-delays.md",
-      "target": "delayed-project-timelines.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "increased-risk-of-bugs.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "slow-feature-development.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "abi-compatibility-issues.md",
-      "target": "dependency-version-conflicts.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "bloated-class.md"
-    },
-    {
-      "source": "difficult-to-understand-code.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "micromanagement-culture.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "inconsistent-execution.md"
-    },
-    {
-      "source": "work-blocking.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "delayed-bug-fixes.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "excessive-class-size.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "fear-of-breaking-changes.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "maintenance-overhead.md"
-    },
-    {
-      "source": "inadequate-test-data-management.md",
-      "target": "deployment-environment-inconsistencies.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "time-pressure.md"
+      "source": "code-review-inefficiency.md",
+      "target": "conflicting-reviewer-opinions.md"
     },
     {
       "source": "stakeholder-confidence-loss.md",
-      "target": "regulatory-compliance-drift.md"
+      "target": "modernization-strategy-paralysis.md"
     },
     {
-      "source": "stagnant-architecture.md",
-      "target": "knowledge-gaps.md"
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "large-risky-releases.md"
     },
     {
-      "source": "high-maintenance-costs.md",
-      "target": "obsolete-technologies.md"
+      "source": "maintenance-overhead.md",
+      "target": "high-coupling-low-cohesion.md"
     },
     {
-      "source": "complex-deployment-process.md",
-      "target": "deployment-environment-inconsistencies.md"
+      "source": "customer-dissatisfaction.md",
+      "target": "quality-degradation.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "tool-limitations.md"
     },
     {
       "source": "high-defect-rate-in-production.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "external-service-delays.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "history-of-failed-changes.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "superficial-code-reviews.md",
-      "target": "reviewer-anxiety.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "difficult-to-understand-code.md"
-    },
-    {
-      "source": "long-running-transactions.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "quality-blind-spots.md"
+      "target": "inadequate-code-reviews.md"
     },
     {
       "source": "code-duplication.md",
       "target": "legacy-api-versioning-nightmare.md"
     },
     {
-      "source": "cache-invalidation-problems.md",
-      "target": "race-conditions.md"
+      "source": "high-coupling-low-cohesion.md",
+      "target": "implementation-starts-without-design.md"
     },
     {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "time-pressure.md"
+      "source": "high-maintenance-costs.md",
+      "target": "data-protection-risk.md"
     },
     {
-      "source": "tight-coupling-issues.md",
-      "target": "shared-database.md"
+      "source": "high-coupling-low-cohesion.md",
+      "target": "difficult-code-reuse.md"
     },
     {
-      "source": "delayed-decision-making.md",
-      "target": "project-authority-vacuum.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "feature-creep-without-refactoring.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "thread-pool-exhaustion.md",
-      "target": "service-timeouts.md"
+      "source": "declining-business-metrics.md",
+      "target": "delayed-value-delivery.md"
     },
     {
       "source": "slow-development-velocity.md",
-      "target": "limited-team-learning.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "process-design-flaws.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "wasted-development-effort.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "rapid-team-growth.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "invisible-nature-of-technical-debt.md"
-    },
-    {
-      "source": "monitoring-gaps.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "mixed-coding-styles.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "difficult-code-comprehension.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "memory-leaks.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "code-duplication.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "inadequate-integration-tests.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "priority-thrashing.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "shared-database.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "superficial-code-reviews.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "unrealistic-deadlines.md",
-      "target": "planning-credibility-issues.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "copy-paste-programming.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "style-arguments-in-code-reviews.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "large-risky-releases.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "legacy-code-without-tests.md"
-    },
-    {
-      "source": "cascade-delays.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "stakeholder-frustration.md",
-      "target": "scope-change-resistance.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "bloated-class.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
       "target": "obsolete-technologies.md"
     },
     {
-      "source": "high-technical-debt.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "copy-paste-programming.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "user-trust-erosion.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "incomplete-knowledge.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "release-anxiety.md"
-    },
-    {
-      "source": "obsolete-technologies.md",
-      "target": "reduced-innovation.md"
-    },
-    {
-      "source": "team-members-not-engaged-in-review-process.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "insufficient-testing.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "conflicting-reviewer-opinions.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "review-bottlenecks.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "god-object-anti-pattern.md"
-    },
-    {
-      "source": "time-pressure.md",
-      "target": "market-pressure.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "legacy-code-without-tests.md"
-    },
-    {
-      "source": "overworked-teams.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "n-plus-one-query-problem.md"
-    },
-    {
-      "source": "decision-avoidance.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "process-design-flaws.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "team-demoralization.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "wasted-development-effort.md"
-    },
-    {
-      "source": "past-negative-experiences.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "environment-variable-issues.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "organizational-structure-mismatch.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "resistance-to-change.md",
-      "target": "maintenance-paralysis.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "delayed-project-timelines.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "high-maintenance-costs.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "database-schema-design-problems.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "deadlock-conditions.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "resistance-to-change.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "team-demoralization.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "work-blocking.md",
-      "target": "micromanagement-culture.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "delayed-issue-resolution.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "reduced-review-participation.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
+      "source": "debugging-difficulties.md",
       "target": "missing-rollback-strategy.md"
     },
     {
-      "source": "n-plus-one-query-problem.md",
-      "target": "lazy-loading.md"
+      "source": "difficult-code-comprehension.md",
+      "target": "poor-naming-conventions.md"
     },
     {
-      "source": "legal-disputes.md",
-      "target": "communication-breakdown.md"
+      "source": "complex-deployment-process.md",
+      "target": "deployment-environment-inconsistencies.md"
     },
     {
-      "source": "budget-overruns.md",
-      "target": "legacy-skill-shortage.md"
+      "source": "inadequate-test-data-management.md",
+      "target": "data-protection-risk.md"
     },
     {
-      "source": "knowledge-gaps.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
+      "source": "cv-driven-development.md",
+      "target": "misaligned-deliverables.md"
     },
     {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "high-technical-debt.md"
+      "source": "unpredictable-system-behavior.md",
+      "target": "increasing-brittleness.md"
     },
     {
-      "source": "operational-overhead.md",
-      "target": "hardcoded-values.md"
+      "source": "slow-development-velocity.md",
+      "target": "history-of-failed-changes.md"
     },
     {
-      "source": "increased-risk-of-bugs.md",
-      "target": "inexperienced-developers.md"
+      "source": "high-client-side-resource-consumption.md",
+      "target": "breaking-changes.md"
     },
     {
-      "source": "rapid-prototyping-becoming-production.md",
-      "target": "project-resource-constraints.md"
+      "source": "high-technical-debt.md",
+      "target": "fear-of-breaking-changes.md"
     },
     {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "knowledge-gaps.md"
+      "source": "complex-deployment-process.md",
+      "target": "flaky-tests.md"
     },
     {
-      "source": "tight-coupling-issues.md",
-      "target": "single-entry-point-design.md"
+      "source": "reduced-innovation.md",
+      "target": "maintenance-overhead.md"
     },
     {
-      "source": "slow-application-performance.md",
-      "target": "algorithmic-complexity-problems.md"
+      "source": "debugging-difficulties.md",
+      "target": "inconsistent-naming-conventions.md"
     },
     {
-      "source": "data-migration-integrity-issues.md",
-      "target": "strangler-fig-pattern-failures.md"
+      "source": "reduced-innovation.md",
+      "target": "perfectionist-review-culture.md"
     },
     {
-      "source": "memory-leaks.md",
-      "target": "vendor-dependency.md"
+      "source": "high-technical-debt.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "rapid-team-growth.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "stakeholder-developer-communication-gap.md"
     },
     {
       "source": "developer-frustration-and-burnout.md",
-      "target": "difficult-developer-onboarding.md"
+      "target": "slow-knowledge-transfer.md"
     },
     {
-      "source": "quality-blind-spots.md",
-      "target": "outdated-tests.md"
+      "source": "increased-cognitive-load.md",
+      "target": "poor-naming-conventions.md"
     },
     {
-      "source": "reduced-team-productivity.md",
-      "target": "tool-limitations.md"
+      "source": "high-number-of-database-queries.md",
+      "target": "lazy-loading.md"
     },
     {
-      "source": "high-turnover.md",
-      "target": "team-demoralization.md"
+      "source": "high-defect-rate-in-production.md",
+      "target": "missing-end-to-end-tests.md"
     },
     {
-      "source": "review-bottlenecks.md",
-      "target": "lack-of-ownership-and-accountability.md"
+      "source": "negative-user-feedback.md",
+      "target": "poor-user-experience-ux-design.md"
     },
     {
-      "source": "quality-degradation.md",
-      "target": "priority-thrashing.md"
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "requirements-ambiguity.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "poor-communication.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "scaling-inefficiencies.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "clever-code.md"
     },
     {
       "source": "legacy-api-versioning-nightmare.md",
       "target": "poor-interfaces-between-applications.md"
     },
     {
-      "source": "incomplete-projects.md",
-      "target": "constantly-shifting-deadlines.md"
+      "source": "brittle-codebase.md",
+      "target": "complex-and-obscure-logic.md"
     },
     {
-      "source": "secret-management-problems.md",
-      "target": "legacy-configuration-management-chaos.md"
+      "source": "missed-deadlines.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "race-conditions.md",
+      "target": "dma-coherency-issues.md"
+    },
+    {
+      "source": "fear-of-breaking-changes.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "new-hire-frustration.md",
+      "target": "inconsistent-onboarding-experience.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "increased-cognitive-load.md"
+    },
+    {
+      "source": "past-negative-experiences.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "micromanagement-culture.md",
+      "target": "work-blocking.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "knowledge-sharing-breakdown.md"
+    },
+    {
+      "source": "slow-incident-resolution.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "dependency-on-supplier.md"
+    },
+    {
+      "source": "environment-variable-issues.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "increased-stress-and-burnout.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "no-formal-change-control-process.md"
     },
     {
       "source": "high-maintenance-costs.md",
-      "target": "high-technical-debt.md"
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "spaghetti-code.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "unmotivated-employees.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "decision-avoidance.md"
+    },
+    {
+      "source": "automated-tooling-ineffectiveness.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "tangled-cross-cutting-concerns.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "slow-feature-development.md"
+    },
+    {
+      "source": "breaking-changes.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "incomplete-projects.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "duplicated-research-effort.md",
+      "target": "information-fragmentation.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "high-client-side-resource-consumption.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "inability-to-innovate.md"
+    },
+    {
+      "source": "scope-change-resistance.md",
+      "target": "poor-contract-design.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
+      "target": "api-versioning-conflicts.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "uneven-workload-distribution.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "uncontrolled-codebase-growth.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "high-turnover.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "buffer-overflow-vulnerabilities.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "inadequate-test-infrastructure.md"
     },
     {
       "source": "debugging-difficulties.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "increased-risk-of-bugs.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "code-duplication.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "author-frustration.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "difficult-to-test-code.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "algorithmic-complexity-problems.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "synchronization-problems.md"
+    },
+    {
+      "source": "workaround-culture.md",
+      "target": "delayed-issue-resolution.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "new-hire-frustration.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "unmotivated-employees.md",
+      "target": "misaligned-deliverables.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "declining-business-metrics.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "inconsistent-quality.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "difficult-code-reuse.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "inefficient-processes.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "environment-variable-issues.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "team-silos.md",
+      "target": "organizational-structure-mismatch.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "memory-leaks.md",
+      "target": "unbounded-data-structures.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "review-bottlenecks.md"
+    },
+    {
+      "source": "slow-response-times-for-lists.md",
+      "target": "unbounded-data-growth.md"
+    },
+    {
+      "source": "delayed-bug-fixes.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "unclear-goals-and-priorities.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "high-maintenance-costs.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "inconsistent-behavior.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "organizational-structure-mismatch.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "information-fragmentation.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "uncontrolled-codebase-growth.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "slow-incident-resolution.md",
+      "target": "debugging-difficulties.md"
+    },
+    {
+      "source": "tacit-knowledge.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "uneven-work-flow.md",
+      "target": "bottleneck-formation.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "vendor-relationship-strain.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "quality-degradation.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "rushed-approvals.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "review-process-avoidance.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "feature-gaps.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "extended-research-time.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "high-turnover.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "information-fragmentation.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "excessive-class-size.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "memory-swapping.md",
+      "target": "slow-database-queries.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "cascade-delays.md",
+      "target": "delayed-project-timelines.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "knowledge-gaps.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "excessive-disk-io.md",
+      "target": "index-fragmentation.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "long-lived-feature-branches.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "database-schema-design-problems.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "inadequate-test-data-management.md",
+      "target": "deployment-environment-inconsistencies.md"
+    },
+    {
+      "source": "deadline-pressure.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "vendor-dependency.md",
+      "target": "premature-technology-introduction.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "tight-coupling-issues.md",
+      "target": "single-entry-point-design.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "poor-user-experience-ux-design.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "insufficient-code-review.md"
+    },
+    {
+      "source": "superficial-code-reviews.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
       "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "duplicated-research-effort.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "gradual-performance-degradation.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "maintenance-cost-increase.md",
+      "target": "technical-architecture-limitations.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "difficult-code-comprehension.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "overworked-teams.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "external-service-delays.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "deployment-coupling.md",
+      "target": "shared-dependencies.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "cascade-delays.md",
+      "target": "single-points-of-failure.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "work-queue-buildup.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "defensive-coding-practices.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "god-object-anti-pattern.md",
+      "target": "feature-creep-without-refactoring.md"
+    },
+    {
+      "source": "bloated-class.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "superficial-code-reviews.md",
+      "target": "reviewer-anxiety.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "development-disruption.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "frequent-hotfixes-and-rollbacks.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "poor-system-environment.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "poor-system-environment.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "reviewer-anxiety.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "complex-implementation-paths.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "team-dysfunction.md"
+    },
+    {
+      "source": "deployment-risk.md",
+      "target": "configuration-chaos.md"
+    },
+    {
+      "source": "excessive-class-size.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "team-confusion.md",
+      "target": "changing-project-scope.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "author-frustration.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "style-arguments-in-code-reviews.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "premature-technology-introduction.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "memory-swapping.md",
+      "target": "virtual-memory-thrashing.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "defensive-coding-practices.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "shadow-systems.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "database-schema-design-problems.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "inadequate-test-data-management.md"
+    },
+    {
+      "source": "task-queues-backing-up.md",
+      "target": "high-api-latency.md"
+    },
+    {
+      "source": "insufficient-worker-capacity.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "maintenance-cost-increase.md"
+    },
+    {
+      "source": "team-silos.md",
+      "target": "overworked-teams.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "slow-feature-development.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "skill-development-gaps.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "unbounded-data-growth.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "insufficient-code-review.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "database-query-performance-issues.md",
+      "target": "database-schema-design-problems.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "partial-bug-fixes.md"
+    },
+    {
+      "source": "resource-allocation-failures.md",
+      "target": "cascade-delays.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "memory-fragmentation.md",
+      "target": "alignment-and-padding-issues.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "procrastination-on-complex-tasks.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "increased-risk-of-bugs.md"
+    },
+    {
+      "source": "difficult-to-understand-code.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "organizational-structure-mismatch.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "decision-paralysis.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "legacy-code-without-tests.md",
+      "target": "hidden-dependencies.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "partial-bug-fixes.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "increased-manual-work.md"
+    },
+    {
+      "source": "resource-waste.md",
+      "target": "process-design-flaws.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "difficult-to-test-code.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "team-demoralization.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "feature-gaps.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "power-struggles.md",
+      "target": "project-authority-vacuum.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "procrastination-on-complex-tasks.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "skill-development-gaps.md",
+      "target": "procrastination-on-complex-tasks.md"
+    },
+    {
+      "source": "avoidance-behaviors.md",
+      "target": "cognitive-overload.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "staff-availability-issues.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "inconsistent-coding-standards.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "assumption-based-development.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "n-plus-one-query-problem.md",
+      "target": "lazy-loading.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "complex-implementation-paths.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "merge-conflicts.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "feature-creep.md"
+    },
+    {
+      "source": "inconsistent-onboarding-experience.md",
+      "target": "inadequate-mentoring-structure.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "testing-environment-fragility.md",
+      "target": "test-debt.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "testing-complexity.md"
+    },
+    {
+      "source": "knowledge-gaps.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "high-api-latency.md",
+      "target": "poor-caching-strategy.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "difficult-code-comprehension.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "slow-response-times-for-lists.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "refactoring-avoidance.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "insufficient-testing.md",
+      "target": "inadequate-integration-tests.md"
+    },
+    {
+      "source": "increased-stress-and-burnout.md",
+      "target": "delayed-project-timelines.md"
+    },
+    {
+      "source": "duplicated-effort.md",
+      "target": "team-confusion.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "knowledge-sharing-breakdown.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "shadow-systems.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "buffer-overflow-vulnerabilities.md"
+    },
+    {
+      "source": "limited-team-learning.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "synchronization-problems.md",
+      "target": "race-conditions.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "knowledge-dependency.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "user-trust-erosion.md"
+    },
+    {
+      "source": "network-latency.md",
+      "target": "endianness-conversion-overhead.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "inadequate-test-data-management.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "delayed-value-delivery.md"
+    },
+    {
+      "source": "inadequate-error-handling.md",
+      "target": "rapid-prototyping-becoming-production.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "resistance-to-change.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "integer-overflow-underflow.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "maintenance-bottlenecks.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "team-dysfunction.md"
+    },
+    {
+      "source": "author-frustration.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "hidden-dependencies.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "invisible-nature-of-technical-debt.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "increased-technical-shortcuts.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "delayed-bug-fixes.md"
+    },
+    {
+      "source": "convenience-driven-development.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "declining-business-metrics.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "implementation-rework.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "quality-degradation.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "misaligned-deliverables.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "high-maintenance-costs.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "system-stagnation.md"
+    },
+    {
+      "source": "difficult-code-comprehension.md",
+      "target": "excessive-class-size.md"
+    },
+    {
+      "source": "growing-task-queues.md",
+      "target": "high-database-resource-utilization.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "poor-documentation.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "rapid-team-growth.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "defensive-coding-practices.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "test-debt.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "feature-creep.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "incomplete-knowledge.md"
+    },
+    {
+      "source": "resistance-to-change.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "reduced-predictability.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "long-lived-feature-branches.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "style-arguments-in-code-reviews.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "customer-dissatisfaction.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "release-anxiety.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "integer-overflow-underflow.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "increased-technical-shortcuts.md"
+    },
+    {
+      "source": "inadequate-test-data-management.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "poor-documentation.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "poor-teamwork.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "duplicated-research-effort.md",
+      "target": "poor-communication.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "convenience-driven-development.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "operational-overhead.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "organizational-structure-mismatch.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "suboptimal-solutions.md",
+      "target": "scope-change-resistance.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "buffer-overflow-vulnerabilities.md",
+      "target": "integer-overflow-underflow.md"
+    },
+    {
+      "source": "tight-coupling-issues.md",
+      "target": "technical-architecture-limitations.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "feature-gaps.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "overworked-teams.md"
+    },
+    {
+      "source": "monitoring-gaps.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "single-entry-point-design.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "bloated-class.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "memory-leaks.md",
+      "target": "unreleased-resources.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "database-connection-leaks.md"
+    },
+    {
+      "source": "long-lived-feature-branches.md",
+      "target": "large-feature-scope.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "communication-risk-within-project.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "circular-dependency-problems.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "poor-test-coverage.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "log-spam.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "work-blocking.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "communication-risk-within-project.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "long-build-and-test-times.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "invisible-nature-of-technical-debt.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "knowledge-sharing-breakdown.md"
+    },
+    {
+      "source": "inefficient-code.md",
+      "target": "excessive-object-allocation.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "communication-breakdown.md",
+      "target": "developer-frustration-and-burnout.md"
+    },
+    {
+      "source": "information-decay.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "work-blocking.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "inadequate-test-data-management.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "increased-error-rates.md",
+      "target": "inappropriate-skillset.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "feature-bloat.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "style-arguments-in-code-reviews.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "gold-plating.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "feature-bloat.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "excessive-class-size.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "overworked-teams.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "inadequate-integration-tests.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "history-of-failed-changes.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "superficial-code-reviews.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "poor-communication.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "quality-compromises.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "tacit-knowledge.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "log-spam.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "queries-that-prevent-index-usage.md",
+      "target": "incorrect-index-type.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "deadlock-conditions.md",
+      "target": "thread-pool-exhaustion.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "superficial-code-reviews.md"
+    },
+    {
+      "source": "stakeholder-frustration.md",
+      "target": "scope-change-resistance.md"
+    },
+    {
+      "source": "memory-swapping.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "secret-management-problems.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "scaling-inefficiencies.md",
+      "target": "load-balancing-problems.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "feature-creep-without-refactoring.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "long-build-and-test-times.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "workaround-culture.md"
+    },
+    {
+      "source": "team-churn-impact.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "delayed-project-timelines.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "inadequate-mentoring-structure.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "breaking-changes.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "workaround-culture.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "superficial-code-reviews.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "difficult-to-understand-code.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "test-debt.md"
+    },
+    {
+      "source": "history-of-failed-changes.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "requirements-ambiguity.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "feature-factory.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "deadline-pressure.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "poor-naming-conventions.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "reduced-predictability.md",
+      "target": "work-queue-buildup.md"
+    },
+    {
+      "source": "staff-availability-issues.md",
+      "target": "single-points-of-failure.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "team-coordination-issues.md"
+    },
+    {
+      "source": "inadequate-error-handling.md",
+      "target": "silent-data-corruption.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "code-duplication.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "poorly-defined-responsibilities.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "technology-lock-in.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "cascade-delays.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "unclear-sharing-expectations.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "wasted-development-effort.md",
+      "target": "duplicated-effort.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "unbounded-data-growth.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "poor-system-environment.md"
+    },
+    {
+      "source": "database-schema-design-problems.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "duplicated-research-effort.md",
+      "target": "communication-risk-within-project.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "history-of-failed-changes.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "fear-of-breaking-changes.md",
+      "target": "high-bug-introduction-rate.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "poor-teamwork.md"
+    },
+    {
+      "source": "shared-dependencies.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "knowledge-dependency.md",
+      "target": "staff-availability-issues.md"
+    },
+    {
+      "source": "session-management-issues.md",
+      "target": "authentication-bypass-vulnerabilities.md"
+    },
+    {
+      "source": "poor-system-environment.md",
+      "target": "deployment-environment-inconsistencies.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "cache-invalidation-problems.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "deadline-pressure.md"
+    },
+    {
+      "source": "architectural-mismatch.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "suboptimal-solutions.md",
+      "target": "quality-compromises.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "synchronization-problems.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "communication-risk-outside-project.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "excessive-class-size.md"
+    },
+    {
+      "source": "architectural-mismatch.md",
+      "target": "accumulated-decision-debt.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "immature-delivery-strategy.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "circular-references.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "copy-paste-programming.md",
+      "target": "mixed-coding-styles.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "assumption-based-development.md",
+      "target": "requirements-ambiguity.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "false-sharing.md",
+      "target": "atomic-operation-overhead.md"
+    },
+    {
+      "source": "uneven-work-flow.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "new-hire-frustration.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "misconfigured-connection-pools.md",
+      "target": "incorrect-max-connection-pool-size.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "uneven-workload-distribution.md"
+    },
+    {
+      "source": "increased-manual-work.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "authentication-bypass-vulnerabilities.md",
+      "target": "password-security-weaknesses.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "debugging-difficulties.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "avoidance-behaviors.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "defensive-coding-practices.md",
+      "target": "conflicting-reviewer-opinions.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "cache-invalidation-problems.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "thread-pool-exhaustion.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "abi-compatibility-issues.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "difficult-to-test-code.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "mentor-burnout.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "cognitive-overload.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "shared-dependencies.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "bottleneck-formation.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "tacit-knowledge.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "budget-overruns.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "gold-plating.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "reduced-individual-productivity.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "high-api-latency.md",
+      "target": "slow-database-queries.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "tight-coupling-issues.md",
+      "target": "shared-database.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "merge-conflicts.md"
+    },
+    {
+      "source": "resistance-to-change.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "requirements-ambiguity.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "obsolete-technologies.md",
+      "target": "reduced-innovation.md"
+    },
+    {
+      "source": "cascade-delays.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "feature-creep.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "high-turnover.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "api-versioning-conflicts.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "extended-review-cycles.md",
+      "target": "perfectionist-review-culture.md"
+    },
+    {
+      "source": "frequent-changes-to-requirements.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "memory-fragmentation.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "communication-risk-within-project.md"
+    },
+    {
+      "source": "database-connection-leaks.md",
+      "target": "long-running-transactions.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "automated-tooling-ineffectiveness.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "poor-communication.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "suboptimal-solutions.md"
+    },
+    {
+      "source": "convenience-driven-development.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "insufficient-testing.md",
+      "target": "increased-manual-testing-effort.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "increased-manual-work.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "inconsistent-coding-standards.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "circular-dependency-problems.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "environment-variable-issues.md"
+    },
+    {
+      "source": "high-resource-utilization-on-client.md",
+      "target": "slow-application-performance.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "large-risky-releases.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "stakeholder-frustration.md",
+      "target": "extended-cycle-times.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "duplicated-effort.md",
+      "target": "team-coordination-issues.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "wasted-development-effort.md"
+    },
+    {
+      "source": "duplicated-work.md",
+      "target": "team-confusion.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "inappropriate-skillset.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "user-trust-erosion.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "mentor-burnout.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "poor-project-control.md"
+    },
+    {
+      "source": "test-debt.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "communication-breakdown.md",
+      "target": "organizational-structure-mismatch.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "developer-frustration-and-burnout.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "monitoring-gaps.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "shared-database.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "reduced-team-productivity.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "automated-tooling-ineffectiveness.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "large-estimates-for-small-changes.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "budget-overruns.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "mentor-burnout.md"
+    },
+    {
+      "source": "inefficient-database-indexing.md",
+      "target": "queries-that-prevent-index-usage.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "poor-naming-conventions.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "user-confusion.md",
+      "target": "inconsistent-behavior.md"
+    },
+    {
+      "source": "team-demoralization.md",
+      "target": "project-authority-vacuum.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "extended-review-cycles.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "increasing-brittleness.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "difficult-code-reuse.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "slow-incident-resolution.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "inadequate-test-data-management.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "incomplete-projects.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "past-negative-experiences.md"
+    },
+    {
+      "source": "insufficient-audit-logging.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "feature-creep.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "information-decay.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "poor-project-control.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "rapid-prototyping-becoming-production.md",
+      "target": "deadline-pressure.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "poor-system-environment.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "stack-overflow-errors.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "style-arguments-in-code-reviews.md"
+    },
+    {
+      "source": "workaround-culture.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "past-negative-experiences.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "increased-time-to-market.md",
+      "target": "reduced-team-productivity.md"
+    },
+    {
+      "source": "shared-database.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "developer-frustration-and-burnout.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "knowledge-dependency.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "team-confusion.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "inconsistent-execution.md"
+    },
+    {
+      "source": "team-members-not-engaged-in-review-process.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "reviewer-anxiety.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "past-negative-experiences.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "wasted-development-effort.md",
+      "target": "duplicated-work.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "individual-recognition-culture.md",
+      "target": "team-dysfunction.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "extended-research-time.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "feature-creep-without-refactoring.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "extended-review-cycles.md"
+    },
+    {
+      "source": "user-confusion.md",
+      "target": "cache-invalidation-problems.md"
+    },
+    {
+      "source": "information-decay.md",
+      "target": "rapid-system-changes.md"
+    },
+    {
+      "source": "knowledge-dependency.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "excessive-class-size.md",
+      "target": "refactoring-avoidance.md"
+    },
+    {
+      "source": "short-term-focus.md",
+      "target": "difficulty-quantifying-benefits.md"
+    },
+    {
+      "source": "reduced-team-flexibility.md",
+      "target": "inconsistent-knowledge-acquisition.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "high-bug-introduction-rate.md"
+    },
+    {
+      "source": "upstream-timeouts.md",
+      "target": "memory-swapping.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "inconsistent-quality.md"
+    },
+    {
+      "source": "deployment-coupling.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "perfectionist-review-culture.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "user-confusion.md",
+      "target": "inconsistent-quality.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "declining-business-metrics.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "superficial-code-reviews.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "single-points-of-failure.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "authentication-bypass-vulnerabilities.md",
+      "target": "authorization-flaws.md"
+    },
+    {
+      "source": "changing-project-scope.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "vendor-relationship-strain.md",
+      "target": "breaking-changes.md"
+    },
+    {
+      "source": "misunderstanding-of-oop.md",
+      "target": "over-reliance-on-utility-classes.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "memory-leaks.md",
+      "target": "vendor-dependency.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "knowledge-dependency.md"
+    },
+    {
+      "source": "single-entry-point-design.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "duplicated-research-effort.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "frequent-changes-to-requirements.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "user-confusion.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "lower-code-quality.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "procrastination-on-complex-tasks.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "technical-architecture-limitations.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "testing-complexity.md"
+    },
+    {
+      "source": "ripple-effect-of-changes.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "slow-application-performance.md"
+    },
+    {
+      "source": "decision-avoidance.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "reduced-team-flexibility.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "slow-response-times-for-lists.md"
+    },
+    {
+      "source": "competing-priorities.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "poor-planning.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "inconsistent-coding-standards.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "inefficient-frontend-code.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "changing-project-scope.md"
+    },
+    {
+      "source": "insufficient-testing.md",
+      "target": "poor-test-coverage.md"
+    },
+    {
+      "source": "shared-database.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "architectural-mismatch.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "inconsistent-knowledge-acquisition.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "superficial-code-reviews.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "maintenance-cost-increase.md",
+      "target": "system-stagnation.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "constantly-shifting-deadlines.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "feature-creep.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "user-trust-erosion.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "excessive-logging.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "long-build-and-test-times.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "duplicated-effort.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "limited-team-learning.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "long-lived-feature-branches.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "task-queues-backing-up.md",
+      "target": "insufficient-worker-capacity.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "bloated-class.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "system-stagnation.md",
+      "target": "technology-lock-in.md"
+    },
+    {
+      "source": "knowledge-gaps.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "inability-to-innovate.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "tangled-cross-cutting-concerns.md"
+    },
+    {
+      "source": "duplicated-research-effort.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "high-api-latency.md"
+    },
+    {
+      "source": "history-of-failed-changes.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "fear-of-breaking-changes.md"
+    },
+    {
+      "source": "configuration-drift.md",
+      "target": "configuration-chaos.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "unpredictable-system-behavior.md"
+    },
+    {
+      "source": "communication-risk-within-project.md",
+      "target": "assumption-based-development.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "poor-test-coverage.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "inconsistent-quality.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "priority-thrashing.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "api-versioning-conflicts.md",
+      "target": "breaking-changes.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "development-disruption.md"
+    },
+    {
+      "source": "unclear-sharing-expectations.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "user-confusion.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "tacit-knowledge.md"
+    },
+    {
+      "source": "authentication-bypass-vulnerabilities.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "resource-waste.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "high-resource-utilization-on-client.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "review-bottlenecks.md"
+    },
+    {
+      "source": "merge-conflicts.md",
+      "target": "team-coordination-issues.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "thread-pool-exhaustion.md",
+      "target": "deadlock-conditions.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "large-risky-releases.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "limited-team-learning.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "inconsistent-behavior.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "inadequate-test-data-management.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "limited-team-learning.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "poor-domain-model.md"
     },
     {
       "source": "release-anxiety.md",
@@ -5409,5224 +7005,244 @@ const graph = {
       "target": "memory-barrier-inefficiency.md"
     },
     {
-      "source": "team-silos.md",
-      "target": "information-decay.md"
+      "source": "reduced-team-productivity.md",
+      "target": "high-technical-debt.md"
     },
     {
-      "source": "inconsistent-behavior.md",
-      "target": "code-duplication.md"
+      "source": "brittle-codebase.md",
+      "target": "high-coupling-low-cohesion.md"
     },
     {
-      "source": "new-hire-frustration.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "increased-stress-and-burnout.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "poor-encapsulation.md",
-      "target": "procedural-background.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "operational-overhead.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "procrastination-on-complex-tasks.md",
-      "target": "mental-fatigue.md"
-    },
-    {
-      "source": "rushed-approvals.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "hidden-dependencies.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "race-conditions.md",
-      "target": "dma-coherency-issues.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "feature-creep.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "communication-breakdown.md",
-      "target": "rapid-team-growth.md"
-    },
-    {
-      "source": "high-connection-count.md",
-      "target": "long-running-transactions.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "inadequate-test-data-management.md"
-    },
-    {
-      "source": "upstream-timeouts.md",
-      "target": "memory-swapping.md"
-    },
-    {
-      "source": "gold-plating.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "reduced-review-participation.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "poor-user-experience-ux-design.md"
+      "source": "unclear-goals-and-priorities.md",
+      "target": "power-struggles.md"
     },
     {
       "source": "delayed-decision-making.md",
       "target": "decision-avoidance.md"
     },
     {
-      "source": "inefficient-database-indexing.md",
-      "target": "incorrect-index-type.md"
-    },
-    {
-      "source": "team-confusion.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "regression-bugs.md"
-    },
-    {
-      "source": "uncontrolled-codebase-growth.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "poor-user-experience-ux-design.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "difficulty-quantifying-benefits.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "poor-documentation.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "unmotivated-employees.md",
-      "target": "misaligned-deliverables.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "time-pressure.md",
-      "target": "missed-deadlines.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "quality-compromises.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "environment-variable-issues.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "new-hire-frustration.md"
-    },
-    {
-      "source": "misunderstanding-of-oop.md",
-      "target": "over-reliance-on-utility-classes.md"
-    },
-    {
-      "source": "reduced-review-participation.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "micromanagement-culture.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "slow-response-times-for-lists.md",
-      "target": "n-plus-one-query-problem.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "fear-of-breaking-changes.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "work-queue-buildup.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "vendor-relationship-strain.md",
-      "target": "poor-contract-design.md"
-    },
-    {
-      "source": "convenience-driven-development.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "reviewer-anxiety.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "excessive-disk-io.md",
-      "target": "unoptimized-file-access.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "delayed-bug-fixes.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "developer-frustration-and-burnout.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "requirements-ambiguity.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "poor-system-environment.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "past-negative-experiences.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "large-risky-releases.md",
-      "target": "deployment-coupling.md"
-    },
-    {
-      "source": "unmotivated-employees.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "resource-allocation-failures.md",
-      "target": "database-connection-leaks.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "team-coordination-issues.md"
-    },
-    {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "fear-of-breaking-changes.md"
-    },
-    {
-      "source": "partial-bug-fixes.md",
-      "target": "incomplete-knowledge.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "slow-incident-resolution.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "poor-project-control.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "user-confusion.md",
-      "target": "inconsistent-behavior.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "poor-system-environment.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "test-debt.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "wasted-development-effort.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "large-estimates-for-small-changes.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "synchronization-problems.md",
-      "target": "lock-contention.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "requirements-ambiguity.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "past-negative-experiences.md"
-    },
-    {
-      "source": "development-disruption.md",
-      "target": "premature-technology-introduction.md"
-    },
-    {
-      "source": "hidden-dependencies.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "configuration-drift.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
       "source": "high-technical-debt.md",
       "target": "history-of-failed-changes.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "deployment-coupling.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "insufficient-audit-logging.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "staff-availability-issues.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "assumption-based-development.md"
-    },
-    {
-      "source": "maintenance-cost-increase.md",
-      "target": "quality-degradation.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "inappropriate-skillset.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "immature-delivery-strategy.md"
-    },
-    {
-      "source": "fear-of-breaking-changes.md",
-      "target": "history-of-failed-changes.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "quality-degradation.md"
-    },
-    {
-      "source": "legacy-code-without-tests.md",
-      "target": "hidden-dependencies.md"
-    },
-    {
-      "source": "knowledge-dependency.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "inefficient-processes.md",
-      "target": "unproductive-meetings.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "insufficient-code-review.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "tight-coupling-issues.md",
-      "target": "technical-architecture-limitations.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "long-lived-feature-branches.md"
-    },
-    {
-      "source": "team-churn-impact.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "technology-lock-in.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "resistance-to-change.md",
-      "target": "team-demoralization.md"
-    },
-    {
-      "source": "author-frustration.md",
-      "target": "conflicting-reviewer-opinions.md"
     },
     {
       "source": "inadequate-test-data-management.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "team-silos.md",
-      "target": "organizational-structure-mismatch.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "inability-to-innovate.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "reduced-team-productivity.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "feature-gaps.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "organizational-structure-mismatch.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "high-connection-count.md",
-      "target": "misconfigured-connection-pools.md"
-    },
-    {
-      "source": "constantly-shifting-deadlines.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "unclear-sharing-expectations.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "inconsistent-knowledge-acquisition.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "insufficient-testing.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "team-demoralization.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "unclear-goals-and-priorities.md",
-      "target": "power-struggles.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "test-debt.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "language-barriers.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "architectural-mismatch.md",
-      "target": "technology-lock-in.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "technology-lock-in.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "unclear-goals-and-priorities.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "long-build-and-test-times.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "poor-test-coverage.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "high-number-of-database-queries.md"
-    },
-    {
-      "source": "feature-gaps.md",
-      "target": "assumption-based-development.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "ripple-effect-of-changes.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "staff-availability-issues.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "inappropriate-skillset.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "power-struggles.md"
-    },
-    {
-      "source": "cascade-delays.md",
-      "target": "single-points-of-failure.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "unproductive-meetings.md"
-    },
-    {
-      "source": "increased-technical-shortcuts.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "spaghetti-code.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "changing-project-scope.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "procedural-background.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "poor-system-environment.md",
-      "target": "deployment-environment-inconsistencies.md"
-    },
-    {
-      "source": "communication-breakdown.md",
-      "target": "developer-frustration-and-burnout.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "partial-bug-fixes.md",
-      "target": "synchronization-problems.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "work-queue-buildup.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "development-disruption.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
       "target": "poor-domain-model.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "memory-leaks.md",
-      "target": "unreleased-resources.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "micromanagement-culture.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "difficult-code-comprehension.md"
-    },
-    {
-      "source": "memory-swapping.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "team-confusion.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "decision-paralysis.md"
-    },
-    {
-      "source": "development-disruption.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "poor-documentation.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "difficult-to-test-code.md"
-    },
-    {
-      "source": "merge-conflicts.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "customer-dissatisfaction.md"
-    },
-    {
-      "source": "cognitive-overload.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "review-process-avoidance.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "data-migration-complexities.md",
-      "target": "tight-coupling-issues.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "invisible-nature-of-technical-debt.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "feature-creep-without-refactoring.md"
-    },
-    {
-      "source": "maintenance-cost-increase.md",
-      "target": "technical-architecture-limitations.md"
-    },
-    {
-      "source": "task-queues-backing-up.md",
-      "target": "slow-application-performance.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "individual-recognition-culture.md",
-      "target": "team-dysfunction.md"
-    },
-    {
-      "source": "slow-incident-resolution.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "excessive-disk-io.md",
-      "target": "memory-swapping.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "legal-disputes.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "perfectionist-review-culture.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "hidden-dependencies.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "poor-communication.md",
-      "target": "developer-frustration-and-burnout.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "poor-documentation.md",
-      "target": "rapid-system-changes.md"
-    },
-    {
-      "source": "legal-disputes.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "excessive-class-size.md",
-      "target": "feature-creep-without-refactoring.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "increased-cognitive-load.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "quality-compromises.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "merge-conflicts.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "poor-contract-design.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "unproductive-meetings.md",
-      "target": "bikeshedding.md"
-    },
-    {
-      "source": "suboptimal-solutions.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "information-decay.md",
-      "target": "unclear-documentation-ownership.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "poor-teamwork.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "conflicting-reviewer-opinions.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "poor-user-experience-ux-design.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "insufficient-testing.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "time-pressure.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "long-build-and-test-times.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "unclear-goals-and-priorities.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "information-decay.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "work-blocking.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "configuration-drift.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "api-versioning-conflicts.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "poorly-defined-responsibilities.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "delayed-issue-resolution.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "maintenance-cost-increase.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "integer-overflow-underflow.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "excessive-class-size.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "data-structure-cache-inefficiency.md",
-      "target": "alignment-and-padding-issues.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "complex-implementation-paths.md",
-      "target": "feature-factory.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "refactoring-avoidance.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "regression-bugs.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "inability-to-innovate.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "workaround-culture.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "new-hire-frustration.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "refactoring-avoidance.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "inconsistent-quality.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "inadequate-error-handling.md",
-      "target": "rapid-prototyping-becoming-production.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "network-latency.md",
-      "target": "endianness-conversion-overhead.md"
-    },
-    {
-      "source": "synchronization-problems.md",
-      "target": "incomplete-knowledge.md"
-    },
-    {
-      "source": "poor-caching-strategy.md",
-      "target": "unused-indexes.md"
-    },
-    {
-      "source": "scaling-inefficiencies.md",
-      "target": "load-balancing-problems.md"
-    },
-    {
-      "source": "procedural-programming-in-oop-languages.md",
-      "target": "procedural-background.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "slow-feature-development.md"
-    },
-    {
-      "source": "excessive-class-size.md",
-      "target": "refactoring-avoidance.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "difficult-code-reuse.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "history-of-failed-changes.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "staff-availability-issues.md"
-    },
-    {
-      "source": "thread-pool-exhaustion.md",
-      "target": "deadlock-conditions.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "extended-research-time.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "increased-cognitive-load.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "difficult-code-reuse.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "missing-end-to-end-tests.md"
-    },
-    {
-      "source": "power-struggles.md",
-      "target": "project-authority-vacuum.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "technical-architecture-limitations.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "god-object-anti-pattern.md",
-      "target": "feature-creep-without-refactoring.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "procrastination-on-complex-tasks.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "duplicated-research-effort.md"
-    },
-    {
-      "source": "high-resource-utilization-on-client.md",
-      "target": "slow-application-performance.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "delayed-bug-fixes.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "defensive-coding-practices.md",
-      "target": "author-frustration.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "communication-risk-outside-project.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "implementation-rework.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "gold-plating.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "bikeshedding.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "no-formal-change-control-process.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "team-members-not-engaged-in-review-process.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "legacy-code-without-tests.md"
-    },
-    {
-      "source": "deadline-pressure.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "team-dysfunction.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "conflicting-reviewer-opinions.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "high-maintenance-costs.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "priority-thrashing.md",
-      "target": "work-queue-buildup.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "inconsistent-quality.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "quality-compromises.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "limited-team-learning.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "unclear-sharing-expectations.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "increased-risk-of-bugs.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "poor-naming-conventions.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "project-resource-constraints.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "circular-references.md"
-    },
-    {
-      "source": "technology-lock-in.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "duplicated-work.md",
-      "target": "team-confusion.md"
-    },
-    {
-      "source": "feature-creep.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "memory-swapping.md",
-      "target": "virtual-memory-thrashing.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "feature-creep-without-refactoring.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "assumption-based-development.md",
-      "target": "requirements-ambiguity.md"
-    },
-    {
-      "source": "procedural-programming-in-oop-languages.md",
-      "target": "over-reliance-on-utility-classes.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "single-entry-point-design.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "excessive-class-size.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "feature-factory.md"
-    },
-    {
-      "source": "inefficient-code.md",
-      "target": "excessive-object-allocation.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "circular-dependency-problems.md"
-    },
-    {
-      "source": "inadequate-requirements-gathering.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "new-hire-frustration.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "circular-dependency-problems.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "inappropriate-skillset.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "poor-project-control.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "mentor-burnout.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "increased-risk-of-bugs.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "reduced-team-productivity.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "mixed-coding-styles.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "team-members-not-engaged-in-review-process.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "maintenance-bottlenecks.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "mentor-burnout.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "poor-naming-conventions.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "configuration-drift.md",
-      "target": "configuration-chaos.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "system-outages.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "uneven-work-flow.md",
-      "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "dependency-on-supplier.md",
-      "target": "technical-architecture-limitations.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "project-resource-constraints.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "cascade-delays.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "frequent-hotfixes-and-rollbacks.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "author-frustration.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "information-fragmentation.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "reduced-individual-productivity.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "user-frustration.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "inconsistent-onboarding-experience.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "reviewer-inexperience.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "team-silos.md",
-      "target": "overworked-teams.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "copy-paste-programming.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "implementation-starts-without-design.md"
     },
     {
       "source": "difficult-code-comprehension.md",
       "target": "complex-domain-model.md"
     },
     {
-      "source": "increased-manual-testing-effort.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "hidden-dependencies.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "shadow-systems.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "superficial-code-reviews.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "knowledge-gaps.md",
-      "target": "unclear-documentation-ownership.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "increased-bug-count.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "slow-incident-resolution.md",
-      "target": "debugging-difficulties.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "limited-team-learning.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "race-conditions.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "misaligned-deliverables.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "skill-development-gaps.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "difficulty-quantifying-benefits.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "quality-degradation.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
       "source": "wasted-development-effort.md",
-      "target": "team-confusion.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "team-silos.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "secret-management-problems.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "algorithmic-complexity-problems.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "assumption-based-development.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "style-arguments-in-code-reviews.md"
-    },
-    {
-      "source": "overworked-teams.md",
-      "target": "staff-availability-issues.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "shared-dependencies.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "reduced-predictability.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "user-confusion.md"
-    },
-    {
-      "source": "uneven-work-flow.md",
-      "target": "process-design-flaws.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "false-sharing.md",
-      "target": "atomic-operation-overhead.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "inconsistent-quality.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "scaling-inefficiencies.md",
-      "target": "shared-database.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "missed-deadlines.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "decision-avoidance.md"
-    },
-    {
-      "source": "deployment-risk.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "excessive-disk-io.md",
-      "target": "index-fragmentation.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "code-duplication.md"
-    },
-    {
-      "source": "high-resource-utilization-on-client.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "increased-technical-shortcuts.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "developer-frustration-and-burnout.md"
-    },
-    {
-      "source": "history-of-failed-changes.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "unreleased-resources.md",
-      "target": "circular-references.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "work-queue-buildup.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "team-members-not-engaged-in-review-process.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "long-lived-feature-branches.md",
-      "target": "large-feature-scope.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "delayed-decision-making.md",
-      "target": "power-struggles.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "unpredictable-system-behavior.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "high-maintenance-costs.md"
-    },
-    {
-      "source": "difficult-code-reuse.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "new-hire-frustration.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "poor-teamwork.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "changing-project-scope.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "overworked-teams.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "algorithmic-complexity-problems.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "vendor-dependency.md",
-      "target": "premature-technology-introduction.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "uneven-workload-distribution.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "development-disruption.md"
-    },
-    {
-      "source": "system-stagnation.md",
-      "target": "delayed-issue-resolution.md"
-    },
-    {
-      "source": "stakeholder-frustration.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "bloated-class.md"
-    },
-    {
-      "source": "deployment-coupling.md",
-      "target": "shared-database.md"
-    },
-    {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "operational-overhead.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "external-service-delays.md",
-      "target": "slow-database-queries.md"
-    },
-    {
-      "source": "workaround-culture.md",
-      "target": "suboptimal-solutions.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "buffer-overflow-vulnerabilities.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "delayed-decision-making.md",
-      "target": "team-confusion.md"
-    },
-    {
-      "source": "uneven-workload-distribution.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "high-bug-introduction-rate.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "invisible-nature-of-technical-debt.md"
-    },
-    {
-      "source": "excessive-object-allocation.md",
-      "target": "integer-overflow-underflow.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "deadline-pressure.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "convenience-driven-development.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "style-arguments-in-code-reviews.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "maintenance-cost-increase.md",
-      "target": "system-stagnation.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "unpredictable-system-behavior.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "knowledge-dependency.md"
-    },
-    {
-      "source": "team-churn-impact.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "inefficient-database-indexing.md"
-    },
-    {
-      "source": "slow-database-queries.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "configuration-drift.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "short-term-focus.md",
-      "target": "invisible-nature-of-technical-debt.md"
-    },
-    {
-      "source": "difficult-code-reuse.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "stakeholder-frustration.md",
-      "target": "missed-deadlines.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "insufficient-code-review.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "copy-paste-programming.md"
-    },
-    {
-      "source": "poor-encapsulation.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "immature-delivery-strategy.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "extended-review-cycles.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "inadequate-mentoring-structure.md"
-    },
-    {
-      "source": "defensive-coding-practices.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "deployment-risk.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "gradual-performance-degradation.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "poorly-defined-responsibilities.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "perfectionist-culture.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "stakeholder-dissatisfaction.md",
-      "target": "misaligned-deliverables.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "team-dysfunction.md"
-    },
-    {
-      "source": "new-hire-frustration.md",
-      "target": "inadequate-mentoring-structure.md"
-    },
-    {
-      "source": "increased-risk-of-bugs.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "insufficient-testing.md",
-      "target": "increased-manual-testing-effort.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "deployment-environment-inconsistencies.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "database-connection-leaks.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "defensive-coding-practices.md"
-    },
-    {
-      "source": "inadequate-initial-reviews.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "poor-encapsulation.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "quality-degradation.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "spaghetti-code.md",
-      "target": "insufficient-code-review.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "changing-project-scope.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "lazy-loading.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "communication-risk-within-project.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "capacity-mismatch.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "shared-database.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "inadequate-initial-reviews.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "increased-technical-shortcuts.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "inefficient-frontend-code.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "duplicated-effort.md",
-      "target": "team-confusion.md"
-    },
-    {
-      "source": "large-estimates-for-small-changes.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "deadline-pressure.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "spaghetti-code.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "eager-to-please-stakeholders.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "feature-gaps.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "authentication-bypass-vulnerabilities.md",
-      "target": "authorization-flaws.md"
-    },
-    {
-      "source": "slow-incident-resolution.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "mentor-burnout.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "inadequate-test-data-management.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "communication-breakdown.md",
-      "target": "unclear-sharing-expectations.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "high-api-latency.md"
-    },
-    {
-      "source": "architectural-mismatch.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "incorrect-max-connection-pool-size.md",
-      "target": "misconfigured-connection-pools.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "uncontrolled-codebase-growth.md",
-      "target": "feature-creep-without-refactoring.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "overworked-teams.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "service-timeouts.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "reduced-team-flexibility.md",
-      "target": "inconsistent-knowledge-acquisition.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "global-state-and-side-effects.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "limited-team-learning.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "team-churn-impact.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "hidden-side-effects.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "poor-communication.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "system-outages.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "deployment-coupling.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "increased-manual-work.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
-      "target": "review-bottlenecks.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "unclear-documentation-ownership.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "merge-conflicts.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "database-schema-design-problems.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "high-bug-introduction-rate.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "garbage-collection-pressure.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "budget-overruns.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "reduced-code-submission-frequency.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "gold-plating.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "inefficient-database-indexing.md",
-      "target": "index-fragmentation.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "feature-bloat.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "overworked-teams.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "delayed-decision-making.md",
-      "target": "communication-risk-within-project.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "spaghetti-code.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "unpredictable-system-behavior.md"
-    },
-    {
-      "source": "merge-conflicts.md",
-      "target": "team-coordination-issues.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "fear-of-breaking-changes.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "poor-planning.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "maintenance-bottlenecks.md",
-      "target": "inconsistent-quality.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "release-anxiety.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "lazy-loading.md"
-    },
-    {
-      "source": "legacy-code-without-tests.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "legacy-code-without-tests.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "single-points-of-failure.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "review-bottlenecks.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "automated-tooling-ineffectiveness.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "copy-paste-programming.md",
-      "target": "mixed-coding-styles.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "synchronization-problems.md",
-      "target": "code-duplication.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "architectural-mismatch.md",
-      "target": "scaling-inefficiencies.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "suboptimal-solutions.md",
-      "target": "quality-compromises.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "memory-swapping.md",
-      "target": "high-database-resource-utilization.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "increasing-brittleness.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "priority-thrashing.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "tangled-cross-cutting-concerns.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "reduced-feature-quality.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "misunderstanding-of-oop.md",
-      "target": "procedural-background.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "misaligned-deliverables.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "constantly-shifting-deadlines.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "competitive-disadvantage.md"
-    },
-    {
-      "source": "unclear-sharing-expectations.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "partial-bug-fixes.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "configuration-drift.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "communication-breakdown.md",
-      "target": "team-dysfunction.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "integer-overflow-underflow.md"
-    },
-    {
-      "source": "slow-response-times-for-lists.md",
-      "target": "unbounded-data-growth.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "user-confusion.md",
-      "target": "immature-delivery-strategy.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "market-pressure.md"
-    },
-    {
-      "source": "frequent-changes-to-requirements.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "system-stagnation.md",
-      "target": "maintenance-cost-increase.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "inconsistent-quality.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "skill-development-gaps.md",
-      "target": "procrastination-on-complex-tasks.md"
-    },
-    {
-      "source": "insufficient-worker-capacity.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "skill-development-gaps.md",
-      "target": "avoidance-behaviors.md"
-    },
-    {
-      "source": "unclear-goals-and-priorities.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "insufficient-testing.md",
-      "target": "poor-test-coverage.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "god-object-anti-pattern.md",
-      "target": "single-entry-point-design.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "rapid-system-changes.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "maintenance-overhead.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "reduced-review-participation.md",
-      "target": "reviewer-anxiety.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "information-decay.md",
-      "target": "rapid-system-changes.md"
+      "target": "scope-change-resistance.md"
     },
     {
       "source": "extended-research-time.md",
       "target": "knowledge-gaps.md"
     },
     {
-      "source": "slow-development-velocity.md",
-      "target": "fear-of-breaking-changes.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "external-service-delays.md",
-      "target": "poor-caching-strategy.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "extended-review-cycles.md"
-    },
-    {
-      "source": "high-number-of-database-queries.md",
-      "target": "imperative-data-fetching-logic.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "large-risky-releases.md"
-    },
-    {
-      "source": "time-pressure.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "architectural-mismatch.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "information-fragmentation.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "task-queues-backing-up.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "poor-project-control.md",
-      "target": "poor-planning.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "convenience-driven-development.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "work-queue-buildup.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "maintenance-bottlenecks.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "complex-implementation-paths.md"
-    },
-    {
-      "source": "frequent-changes-to-requirements.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "superficial-code-reviews.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "inconsistent-behavior.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "gradual-performance-degradation.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "technical-architecture-limitations.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "inadequate-integration-tests.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "bloated-class.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "resistance-to-change.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "maintenance-bottlenecks.md"
-    },
-    {
-      "source": "vendor-relationship-strain.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "feature-factory.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "unbounded-data-growth.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "inconsistent-knowledge-acquisition.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "uncontrolled-codebase-growth.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "changing-project-scope.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "insufficient-worker-capacity.md",
-      "target": "external-service-delays.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "automated-tooling-ineffectiveness.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "excessive-logging.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "incomplete-projects.md"
-    },
-    {
       "source": "brittle-codebase.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "high-api-latency.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "large-estimates-for-small-changes.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "overworked-teams.md",
-      "target": "project-resource-constraints.md"
-    },
-    {
-      "source": "poor-teamwork.md",
-      "target": "individual-recognition-culture.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "micromanagement-culture.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "short-term-focus.md",
-      "target": "difficulty-quantifying-benefits.md"
-    },
-    {
-      "source": "high-api-latency.md",
-      "target": "external-service-delays.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "bloated-class.md",
-      "target": "uncontrolled-codebase-growth.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "code-duplication.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "increasing-brittleness.md"
-    },
-    {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "team-churn-impact.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "fear-of-breaking-changes.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
-      "target": "missed-deadlines.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "increased-technical-shortcuts.md",
-      "target": "market-pressure.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "system-stagnation.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "immature-delivery-strategy.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "team-coordination-issues.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "incomplete-projects.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "inconsistent-quality.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "bikeshedding.md"
-    },
-    {
-      "source": "tangled-cross-cutting-concerns.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "memory-leaks.md",
-      "target": "circular-references.md"
-    },
-    {
-      "source": "inefficient-database-indexing.md",
-      "target": "queries-that-prevent-index-usage.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "database-schema-design-problems.md"
-    },
-    {
-      "source": "unused-indexes.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "dependency-on-supplier.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "reduced-team-flexibility.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "thread-pool-exhaustion.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "null-pointer-dereferences.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
       "target": "incomplete-knowledge.md"
     },
     {
-      "source": "slow-development-velocity.md",
-      "target": "code-review-inefficiency.md"
+      "source": "customer-dissatisfaction.md",
+      "target": "gradual-performance-degradation.md"
     },
     {
-      "source": "integration-difficulties.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "deadline-pressure.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "insufficient-code-review.md",
+      "source": "frequent-hotfixes-and-rollbacks.md",
       "target": "time-pressure.md"
     },
     {
-      "source": "high-technical-debt.md",
-      "target": "workaround-culture.md"
+      "source": "cv-driven-development.md",
+      "target": "poorly-defined-responsibilities.md"
     },
     {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "missed-deadlines.md"
+      "source": "data-migration-integrity-issues.md",
+      "target": "accumulation-of-workarounds.md"
     },
     {
-      "source": "increased-cost-of-development.md",
-      "target": "brittle-codebase.md"
+      "source": "cargo-culting.md",
+      "target": "knowledge-gaps.md"
     },
     {
-      "source": "difficult-developer-onboarding.md",
-      "target": "inadequate-onboarding.md"
+      "source": "duplicated-research-effort.md",
+      "target": "knowledge-sharing-breakdown.md"
     },
     {
-      "source": "maintenance-bottlenecks.md",
-      "target": "single-entry-point-design.md"
+      "source": "data-migration-integrity-issues.md",
+      "target": "time-pressure.md"
     },
     {
-      "source": "decision-paralysis.md",
-      "target": "cognitive-overload.md"
+      "source": "constantly-shifting-deadlines.md",
+      "target": "eager-to-please-stakeholders.md"
     },
     {
-      "source": "manual-deployment-processes.md",
-      "target": "short-term-focus.md"
+      "source": "poor-encapsulation.md",
+      "target": "time-pressure.md"
     },
     {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "inadequate-configuration-management.md"
+      "source": "second-system-effect.md",
+      "target": "fear-of-failure.md"
     },
     {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "vendor-dependency-entrapment.md"
+      "source": "user-trust-erosion.md",
+      "target": "frequent-hotfixes-and-rollbacks.md"
     },
     {
-      "source": "new-hire-frustration.md",
-      "target": "complex-domain-model.md"
+      "source": "inadequate-initial-reviews.md",
+      "target": "time-pressure.md"
     },
     {
-      "source": "mentor-burnout.md",
-      "target": "rapid-team-growth.md"
+      "source": "regulatory-compliance-drift.md",
+      "target": "data-protection-risk.md"
     },
     {
-      "source": "missed-deadlines.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
+      "source": "regulatory-compliance-drift.md",
       "target": "high-technical-debt.md"
+    },
+    {
+      "source": "unrealistic-deadlines.md",
+      "target": "planning-dysfunction.md"
     },
     {
       "source": "team-coordination-issues.md",
       "target": "duplicated-work.md"
     },
     {
-      "source": "complex-and-obscure-logic.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "slow-response-times-for-lists.md",
-      "target": "slow-database-queries.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
       "source": "unpredictable-system-behavior.md",
-      "target": "cache-invalidation-problems.md"
+      "target": "dma-coherency-issues.md"
     },
     {
-      "source": "team-confusion.md",
-      "target": "changing-project-scope.md"
+      "source": "planning-credibility-issues.md",
+      "target": "stakeholder-confidence-loss.md"
     },
     {
-      "source": "deployment-coupling.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "complex-implementation-paths.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "legacy-code-without-tests.md",
-      "target": "maintenance-paralysis.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "delayed-decision-making.md",
-      "target": "knowledge-dependency.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
+      "source": "suboptimal-solutions.md",
       "target": "time-pressure.md"
     },
     {
-      "source": "team-demoralization.md",
-      "target": "incomplete-projects.md"
-    },
-    {
-      "source": "authentication-bypass-vulnerabilities.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "feature-gaps.md"
-    },
-    {
-      "source": "procedural-programming-in-oop-languages.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "knowledge-dependency.md",
-      "target": "staff-availability-issues.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "poor-user-experience-ux-design.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "technology-isolation.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "delayed-value-delivery.md"
+      "source": "cascade-failures.md",
+      "target": "system-integration-blindness.md"
     },
     {
       "source": "reduced-innovation.md",
-      "target": "maintenance-paralysis.md"
+      "target": "team-demoralization.md"
     },
     {
-      "source": "debugging-difficulties.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "reviewer-anxiety.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "automated-tooling-ineffectiveness.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "difficult-code-comprehension.md"
-    },
-    {
-      "source": "workaround-culture.md",
-      "target": "project-resource-constraints.md"
-    },
-    {
-      "source": "mental-fatigue.md",
-      "target": "increased-cognitive-load.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "deadlock-conditions.md"
-    },
-    {
-      "source": "mental-fatigue.md",
-      "target": "avoidance-behaviors.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "maintenance-overhead.md"
-    },
-    {
-      "source": "unclear-sharing-expectations.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "poor-teamwork.md"
-    },
-    {
-      "source": "increased-technical-shortcuts.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "knowledge-gaps.md",
-      "target": "inconsistent-onboarding-experience.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "hidden-dependencies.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "constantly-shifting-deadlines.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "poor-user-experience-ux-design.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "partial-bug-fixes.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "customer-dissatisfaction.md"
-    },
-    {
-      "source": "session-management-issues.md",
-      "target": "authentication-bypass-vulnerabilities.md"
-    },
-    {
-      "source": "complex-implementation-paths.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "history-of-failed-changes.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "inappropriate-skillset.md",
-      "target": "skill-development-gaps.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "increased-technical-shortcuts.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
+      "source": "inefficient-processes.md",
       "target": "process-design-flaws.md"
     },
     {
-      "source": "slow-knowledge-transfer.md",
-      "target": "poor-documentation.md"
+      "source": "scope-creep.md",
+      "target": "gold-plating.md"
     },
     {
-      "source": "poor-domain-model.md",
-      "target": "copy-paste-programming.md"
+      "source": "perfectionist-culture.md",
+      "target": "fear-of-conflict.md"
     },
     {
-      "source": "gold-plating.md",
-      "target": "cv-driven-development.md"
+      "source": "high-maintenance-costs.md",
+      "target": "inadequate-configuration-management.md"
     },
     {
-      "source": "memory-swapping.md",
-      "target": "slow-database-queries.md"
+      "source": "tangled-cross-cutting-concerns.md",
+      "target": "monolithic-architecture-constraints.md"
     },
     {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "rushed-approvals.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "procrastination-on-complex-tasks.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "immature-delivery-strategy.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "approval-dependencies.md",
-      "target": "micromanagement-culture.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "style-arguments-in-code-reviews.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "large-estimates-for-small-changes.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
+      "source": "inadequate-configuration-management.md",
       "target": "tool-limitations.md"
     },
     {
-      "source": "constant-firefighting.md",
-      "target": "modernization-strategy-paralysis.md"
+      "source": "vendor-dependency-entrapment.md",
+      "target": "short-term-focus.md"
     },
     {
-      "source": "mentor-burnout.md",
-      "target": "inappropriate-skillset.md"
+      "source": "regression-bugs.md",
+      "target": "flaky-tests.md"
     },
     {
-      "source": "vendor-lock-in.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "frequent-changes-to-requirements.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "large-risky-releases.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "api-versioning-conflicts.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "delayed-issue-resolution.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "user-confusion.md",
-      "target": "inconsistent-quality.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "history-of-failed-changes.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "high-api-latency.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "user-trust-erosion.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "mental-fatigue.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "technology-lock-in.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "uncontrolled-codebase-growth.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "shadow-systems.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "legacy-code-without-tests.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "deadline-pressure.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "poor-test-coverage.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "development-disruption.md"
-    },
-    {
-      "source": "bloated-class.md",
-      "target": "feature-creep-without-refactoring.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "unclear-goals-and-priorities.md",
-      "target": "product-direction-chaos.md"
+      "source": "review-bottlenecks.md",
+      "target": "extended-review-cycles.md"
     },
     {
       "source": "memory-leaks.md",
       "target": "improper-event-listener-management.md"
     },
     {
-      "source": "rapid-system-changes.md",
-      "target": "market-pressure.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "duplicated-effort.md"
-    },
-    {
-      "source": "merge-conflicts.md",
-      "target": "long-lived-feature-branches.md"
-    },
-    {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "single-entry-point-design.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "increased-stress-and-burnout.md",
-      "target": "uneven-work-flow.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "large-risky-releases.md"
-    },
-    {
       "source": "slow-development-velocity.md",
-      "target": "feature-bloat.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "operational-overhead.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "hidden-dependencies.md",
-      "target": "shadow-systems.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "user-trust-erosion.md"
+      "target": "context-switching-overhead.md"
     },
     {
       "source": "high-defect-rate-in-production.md",
-      "target": "inadequate-code-reviews.md"
+      "target": "flaky-tests.md"
     },
     {
-      "source": "modernization-roi-justification-failure.md",
-      "target": "knowledge-gaps.md"
+      "source": "vendor-dependency-entrapment.md",
+      "target": "planning-dysfunction.md"
     },
     {
-      "source": "slow-database-queries.md",
-      "target": "inefficient-database-indexing.md"
+      "source": "competitive-disadvantage.md",
+      "target": "incomplete-projects.md"
     },
     {
-      "source": "unclear-sharing-expectations.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "database-query-performance-issues.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
+      "source": "difficult-code-comprehension.md",
       "target": "complex-and-obscure-logic.md"
     },
     {
       "source": "feature-creep.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "delayed-project-timelines.md"
-    },
-    {
-      "source": "delayed-decision-making.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "quality-degradation.md"
-    },
-    {
-      "source": "testing-environment-fragility.md",
-      "target": "test-debt.md"
-    },
-    {
-      "source": "high-resource-utilization-on-client.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "reviewer-anxiety.md",
-      "target": "reviewer-inexperience.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "high-maintenance-costs.md"
-    },
-    {
-      "source": "feedback-isolation.md",
-      "target": "testing-complexity.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "reduced-predictability.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "increased-stress-and-burnout.md",
-      "target": "delayed-project-timelines.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "increased-stress-and-burnout.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "team-dysfunction.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "perfectionist-culture.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "uneven-work-flow.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "team-dysfunction.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "automated-tooling-ineffectiveness.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "knowledge-sharing-breakdown.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "difficult-code-reuse.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "increased-cognitive-load.md"
+      "target": "scope-creep.md"
     },
     {
       "source": "legacy-configuration-management-chaos.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "insufficient-testing.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "deadlock-conditions.md",
-      "target": "thread-pool-exhaustion.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "inadequate-mentoring-structure.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "review-bottlenecks.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "frequent-changes-to-requirements.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "configuration-drift.md",
-      "target": "rapid-system-changes.md"
-    },
-    {
-      "source": "review-process-avoidance.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "difficult-to-understand-code.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "reviewer-inexperience.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "poor-system-environment.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "reduced-feature-quality.md",
-      "target": "increased-technical-shortcuts.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "frequent-hotfixes-and-rollbacks.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "large-risky-releases.md"
-    },
-    {
-      "source": "complex-implementation-paths.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "declining-business-metrics.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
       "target": "high-coupling-low-cohesion.md"
     },
     {
-      "source": "code-duplication.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "partial-bug-fixes.md"
-    },
-    {
-      "source": "reviewer-anxiety.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "budget-overruns.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "network-latency.md"
-    },
-    {
-      "source": "unrealistic-deadlines.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "poor-documentation.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "cascade-delays.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "excessive-class-size.md"
-    },
-    {
-      "source": "technology-lock-in.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "stakeholder-dissatisfaction.md",
-      "target": "delayed-project-timelines.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "difficult-to-test-code.md"
-    },
-    {
-      "source": "incorrect-max-connection-pool-size.md",
-      "target": "long-running-database-transactions.md"
-    },
-    {
-      "source": "fear-of-breaking-changes.md",
-      "target": "high-bug-introduction-rate.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "long-running-transactions.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "information-decay.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "past-negative-experiences.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "obsolete-technologies.md",
-      "target": "technology-lock-in.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "architectural-mismatch.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "poor-communication.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "tacit-knowledge.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "vendor-relationship-strain.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "team-demoralization.md"
-    },
-    {
-      "source": "decision-avoidance.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "author-frustration.md"
-    },
-    {
-      "source": "virtual-memory-thrashing.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "second-system-effect.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "large-risky-releases.md",
-      "target": "long-release-cycles.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "long-build-and-test-times.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "poorly-defined-responsibilities.md"
-    },
-    {
-      "source": "planning-credibility-issues.md",
-      "target": "reduced-team-productivity.md"
-    },
-    {
-      "source": "workaround-culture.md",
-      "target": "delayed-issue-resolution.md"
-    },
-    {
-      "source": "excessive-class-size.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "global-state-and-side-effects.md",
+      "source": "unpredictable-system-behavior.md",
       "target": "hidden-side-effects.md"
-    },
-    {
-      "source": "tacit-knowledge.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "insufficient-testing.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "unpredictable-system-behavior.md"
-    },
-    {
-      "source": "automated-tooling-ineffectiveness.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "environment-variable-issues.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "extended-research-time.md"
-    },
-    {
-      "source": "maintenance-bottlenecks.md",
-      "target": "excessive-class-size.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "author-frustration.md",
-      "target": "extended-review-cycles.md"
-    },
-    {
-      "source": "queries-that-prevent-index-usage.md",
-      "target": "incorrect-index-type.md"
-    },
-    {
-      "source": "reduced-predictability.md",
-      "target": "extended-cycle-times.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "outdated-tests.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "cache-invalidation-problems.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "tacit-knowledge.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "slow-response-times-for-lists.md",
-      "target": "poor-caching-strategy.md"
-    },
-    {
-      "source": "deployment-risk.md",
-      "target": "configuration-chaos.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "premature-technology-introduction.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "perfectionist-culture.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "technical-architecture-limitations.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "incomplete-knowledge.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "deployment-environment-inconsistencies.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "communication-risk-within-project.md"
-    },
-    {
-      "source": "bloated-class.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "difficult-to-understand-code.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "global-state-and-side-effects.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "insufficient-testing.md"
-    },
-    {
-      "source": "increased-manual-work.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "high-bug-introduction-rate.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "stagnant-architecture.md"
     },
     {
       "source": "extended-review-cycles.md",
       "target": "inadequate-initial-reviews.md"
     },
     {
-      "source": "unpredictable-system-behavior.md",
-      "target": "increasing-brittleness.md"
+      "source": "uncontrolled-codebase-growth.md",
+      "target": "inexperienced-developers.md"
     },
     {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "merge-conflicts.md"
+      "source": "flaky-tests.md",
+      "target": "difficult-to-test-code.md"
     },
     {
-      "source": "slow-database-queries.md",
-      "target": "n-plus-one-query-problem.md"
+      "source": "code-review-inefficiency.md",
+      "target": "poor-naming-conventions.md"
     },
     {
-      "source": "increased-risk-of-bugs.md",
-      "target": "poor-test-coverage.md"
+      "source": "negative-user-feedback.md",
+      "target": "budget-overruns.md"
     },
     {
-      "source": "mentor-burnout.md",
-      "target": "knowledge-dependency.md"
+      "source": "legacy-skill-shortage.md",
+      "target": "high-turnover.md"
     },
     {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "time-pressure.md"
+      "source": "missed-deadlines.md",
+      "target": "scope-creep.md"
     },
     {
-      "source": "slow-application-performance.md",
-      "target": "n-plus-one-query-problem.md"
+      "source": "inconsistent-naming-conventions.md",
+      "target": "team-silos.md"
     },
     {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "vendor-dependency-entrapment.md"
+      "source": "high-maintenance-costs.md",
+      "target": "shared-dependencies.md"
+    },
+    {
+      "source": "uneven-workload-distribution.md",
+      "target": "poor-planning.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "legacy-api-versioning-nightmare.md"
     },
     {
       "source": "communication-breakdown.md",
@@ -10634,1975 +7250,3231 @@ const graph = {
     },
     {
       "source": "developer-frustration-and-burnout.md",
-      "target": "organizational-structure-mismatch.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "declining-business-metrics.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "incomplete-projects.md"
-    },
-    {
-      "source": "high-number-of-database-queries.md",
-      "target": "lazy-loading.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "decision-avoidance.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "micromanagement-culture.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "declining-business-metrics.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "increased-manual-work.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "suboptimal-solutions.md",
-      "target": "scope-change-resistance.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "vendor-dependency.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "resource-waste.md",
-      "target": "process-design-flaws.md"
-    },
-    {
-      "source": "incomplete-projects.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "merge-conflicts.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
-      "target": "reduced-team-productivity.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "excessive-object-allocation.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "inadequate-initial-reviews.md",
-      "target": "reviewer-inexperience.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "poor-system-environment.md"
-    },
-    {
-      "source": "team-churn-impact.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "inadequate-error-handling.md",
-      "target": "silent-data-corruption.md"
-    },
-    {
-      "source": "frequent-changes-to-requirements.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "dma-coherency-issues.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "author-frustration.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "team-coordination-issues.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "unclear-goals-and-priorities.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "extended-research-time.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
       "target": "inadequate-test-infrastructure.md"
     },
     {
-      "source": "insufficient-design-skills.md",
-      "target": "procedural-background.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "team-coordination-issues.md"
-    },
-    {
-      "source": "test-debt.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "scaling-inefficiencies.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "high-client-side-resource-consumption.md",
-      "target": "inefficient-frontend-code.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "inadequate-test-data-management.md"
-    },
-    {
-      "source": "global-state-and-side-effects.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "superficial-code-reviews.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "suboptimal-solutions.md"
-    },
-    {
-      "source": "test-debt.md",
-      "target": "feature-factory.md"
-    },
-    {
-      "source": "increasing-brittleness.md",
-      "target": "inadequate-error-handling.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "reduced-team-productivity.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "knowledge-sharing-breakdown.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "rapid-system-changes.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "delayed-bug-fixes.md",
-      "target": "project-resource-constraints.md"
-    },
-    {
-      "source": "increased-manual-work.md",
-      "target": "unmotivated-employees.md"
-    },
-    {
-      "source": "breaking-changes.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "reviewer-inexperience.md"
+      "source": "knowledge-silos.md",
+      "target": "information-fragmentation.md"
     },
     {
       "source": "growing-task-queues.md",
       "target": "insufficient-worker-capacity.md"
     },
     {
-      "source": "wasted-development-effort.md",
-      "target": "scope-change-resistance.md"
-    },
-    {
-      "source": "architectural-mismatch.md",
-      "target": "accumulated-decision-debt.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "rapid-prototyping-becoming-production.md",
-      "target": "deadline-pressure.md"
-    },
-    {
-      "source": "maintenance-bottlenecks.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "duplicated-effort.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "large-estimates-for-small-changes.md"
-    },
-    {
-      "source": "team-demoralization.md",
-      "target": "organizational-structure-mismatch.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "tight-coupling-issues.md",
-      "target": "tangled-cross-cutting-concerns.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "quality-compromises.md",
-      "target": "procrastination-on-complex-tasks.md"
-    },
-    {
-      "source": "maintenance-cost-increase.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "duplicated-work.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "information-fragmentation.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "large-estimates-for-small-changes.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "bikeshedding.md"
-    },
-    {
-      "source": "deployment-coupling.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "gradual-performance-degradation.md"
-    },
-    {
-      "source": "defensive-coding-practices.md",
-      "target": "conflicting-reviewer-opinions.md"
-    },
-    {
-      "source": "inadequate-test-data-management.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "rapid-system-changes.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "feature-creep.md"
-    },
-    {
-      "source": "duplicated-effort.md",
-      "target": "team-coordination-issues.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "reduced-team-flexibility.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "overworked-teams.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "style-arguments-in-code-reviews.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "quality-blind-spots.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "database-schema-design-problems.md"
-    },
-    {
-      "source": "race-conditions.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "integer-overflow-underflow.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "scope-creep.md",
-      "target": "poor-project-control.md"
-    },
-    {
-      "source": "upstream-timeouts.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "cascade-failures.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "duplicated-work.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "insufficient-design-skills.md"
-    },
-    {
-      "source": "external-service-delays.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "partial-bug-fixes.md",
-      "target": "code-duplication.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "cognitive-overload.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "abi-compatibility-issues.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "mentor-burnout.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "authentication-bypass-vulnerabilities.md",
-      "target": "password-security-weaknesses.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "development-disruption.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "resource-allocation-failures.md",
-      "target": "project-authority-vacuum.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "quality-degradation.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "cv-driven-development.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "quality-compromises.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "slow-response-times-for-lists.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "lack-of-ownership-and-accountability.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "partial-bug-fixes.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "delayed-bug-fixes.md",
-      "target": "avoidance-behaviors.md"
-    },
-    {
-      "source": "unbounded-data-growth.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "reduced-review-participation.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "perfectionist-review-culture.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "maintenance-bottlenecks.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "vendor-relationship-strain.md",
-      "target": "legal-disputes.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "information-fragmentation.md"
-    },
-    {
-      "source": "poor-test-coverage.md",
-      "target": "poor-planning.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "maintenance-paralysis.md",
-      "target": "legacy-skill-shortage.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "fear-of-breaking-changes.md",
-      "target": "fear-of-conflict.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "knowledge-sharing-breakdown.md"
-    },
-    {
-      "source": "inconsistent-execution.md",
-      "target": "poor-teamwork.md"
-    },
-    {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "maintenance-cost-increase.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "duplicated-research-effort.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "perfectionist-review-culture.md"
-    },
-    {
-      "source": "wasted-development-effort.md",
-      "target": "changing-project-scope.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "slow-knowledge-transfer.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "synchronization-problems.md",
-      "target": "race-conditions.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "uneven-workload-distribution.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "incomplete-projects.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "review-bottlenecks.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "implicit-knowledge.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "development-disruption.md"
-    },
-    {
-      "source": "task-queues-backing-up.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "synchronization-problems.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "work-blocking.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "undefined-code-style-guidelines.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "slow-application-performance.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "test-debt.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "assumption-based-development.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "skill-development-gaps.md"
-    },
-    {
-      "source": "cascade-delays.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "convenience-driven-development.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "difficult-developer-onboarding.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "decision-paralysis.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "unbounded-data-structures.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "silent-data-corruption.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "technology-isolation.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "negative-brand-perception.md",
-      "target": "incomplete-projects.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "unmotivated-employees.md",
-      "target": "increased-manual-work.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "high-number-of-database-queries.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "extended-cycle-times.md"
-    },
-    {
-      "source": "development-disruption.md",
-      "target": "frequent-hotfixes-and-rollbacks.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "complex-domain-model.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "increased-stress-and-burnout.md"
-    },
-    {
       "source": "second-system-effect.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "immature-delivery-strategy.md",
-      "target": "deployment-coupling.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "delayed-project-timelines.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "constant-firefighting.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "quality-compromises.md"
-    },
-    {
-      "source": "stakeholder-frustration.md",
-      "target": "extended-cycle-times.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "decision-avoidance.md"
-    },
-    {
-      "source": "mixed-coding-styles.md",
-      "target": "team-churn-impact.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "deployment-risk.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "accumulated-decision-debt.md",
-      "target": "decision-avoidance.md"
-    },
-    {
-      "source": "delayed-decision-making.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "user-frustration.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "inconsistent-behavior.md"
-    },
-    {
-      "source": "missing-rollback-strategy.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "cargo-culting.md",
-      "target": "copy-paste-programming.md"
-    },
-    {
-      "source": "insufficient-testing.md",
-      "target": "outdated-tests.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "increased-bug-count.md"
-    },
-    {
-      "source": "knowledge-gaps.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "clever-code.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "increased-technical-shortcuts.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "inadequate-test-infrastructure.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "fear-of-breaking-changes.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "memory-fragmentation.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "clever-code.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "increased-bug-count.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "shared-database.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "poor-contract-design.md"
-    },
-    {
-      "source": "poor-domain-model.md",
       "target": "planning-dysfunction.md"
     },
     {
-      "source": "delayed-value-delivery.md",
-      "target": "feature-bloat.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "feature-factory.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "difficult-to-understand-code.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "mental-fatigue.md",
-      "target": "cognitive-overload.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "hidden-dependencies.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "dependency-version-conflicts.md",
-      "target": "shared-dependencies.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "automated-tooling-ineffectiveness.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "review-process-avoidance.md",
-      "target": "author-frustration.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "deployment-coupling.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "architectural-mismatch.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "long-running-transactions.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "skill-development-gaps.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "feature-gaps.md"
-    },
-    {
-      "source": "memory-fragmentation.md",
-      "target": "alignment-and-padding-issues.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "spaghetti-code.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "long-release-cycles.md"
-    },
-    {
-      "source": "release-anxiety.md",
-      "target": "poor-test-coverage.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "high-resource-utilization-on-client.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "premature-technology-introduction.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "conflicting-reviewer-opinions.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "stack-overflow-errors.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "slow-application-performance.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "increasing-brittleness.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "inadequate-initial-reviews.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "insufficient-code-review.md",
-      "target": "reviewer-inexperience.md"
-    },
-    {
-      "source": "feature-creep-without-refactoring.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "feature-creep.md"
-    },
-    {
-      "source": "procedural-background.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "inconsistent-onboarding-experience.md",
-      "target": "inadequate-mentoring-structure.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "perfectionist-culture.md"
-    },
-    {
-      "source": "team-confusion.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "code-duplication.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "implementation-rework.md",
-      "target": "inadequate-requirements-gathering.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "release-instability.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "shared-dependencies.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "long-build-and-test-times.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "workaround-culture.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "perfectionist-review-culture.md"
-    },
-    {
-      "source": "decision-avoidance.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "system-stagnation.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "procedural-background.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "difficult-code-reuse.md"
-    },
-    {
-      "source": "superficial-code-reviews.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "increased-bug-count.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "increased-risk-of-bugs.md",
-      "target": "merge-conflicts.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "limited-team-learning.md"
-    },
-    {
-      "source": "misconfigured-connection-pools.md",
-      "target": "incorrect-max-connection-pool-size.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "vendor-dependency-entrapment.md"
-    },
-    {
-      "source": "feature-creep.md",
-      "target": "market-pressure.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "communication-risk-outside-project.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "slow-development-velocity.md"
-    },
-    {
-      "source": "rapid-prototyping-becoming-production.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "superficial-code-reviews.md"
-    },
-    {
-      "source": "poor-documentation.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "fear-of-change.md",
-      "target": "brittle-codebase.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "tangled-cross-cutting-concerns.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "resource-allocation-failures.md",
-      "target": "cascade-delays.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "automated-tooling-ineffectiveness.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "memory-swapping.md",
-      "target": "high-connection-count.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "inconsistent-coding-standards.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "difficult-code-comprehension.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "delayed-value-delivery.md"
-    },
-    {
-      "source": "increased-manual-work.md",
-      "target": "tool-limitations.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "complex-and-obscure-logic.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "decision-paralysis.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "decision-paralysis.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "increased-error-rates.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "history-of-failed-changes.md",
-      "target": "complex-deployment-process.md"
-    },
-    {
-      "source": "data-protection-risk.md",
+      "source": "constant-firefighting.md",
       "target": "poorly-defined-responsibilities.md"
     },
     {
-      "source": "refactoring-avoidance.md",
-      "target": "test-debt.md"
+      "source": "knowledge-silos.md",
+      "target": "implicit-knowledge.md"
     },
     {
-      "source": "high-defect-rate-in-production.md",
-      "target": "system-integration-blindness.md"
+      "source": "delayed-project-timelines.md",
+      "target": "changing-project-scope.md"
     },
     {
-      "source": "user-confusion.md",
-      "target": "cache-invalidation-problems.md"
+      "source": "high-resource-utilization-on-client.md",
+      "target": "second-system-effect.md"
     },
     {
-      "source": "poor-test-coverage.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "legacy-system-documentation-archaeology.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "tacit-knowledge.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "competitive-disadvantage.md",
-      "target": "resource-waste.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "constantly-shifting-deadlines.md"
-    },
-    {
-      "source": "user-trust-erosion.md",
-      "target": "poor-user-experience-ux-design.md"
-    },
-    {
-      "source": "superficial-code-reviews.md",
+      "source": "quality-blind-spots.md",
       "target": "time-pressure.md"
     },
     {
-      "source": "fear-of-change.md",
-      "target": "deployment-risk.md"
+      "source": "difficult-to-test-code.md",
+      "target": "hidden-side-effects.md"
     },
     {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "schema-evolution-paralysis.md"
-    },
-    {
-      "source": "increased-technical-shortcuts.md",
-      "target": "deadline-pressure.md"
-    },
-    {
-      "source": "ripple-effect-of-changes.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "feature-creep.md"
+      "source": "communication-breakdown.md",
+      "target": "rapid-team-growth.md"
     },
     {
       "source": "reduced-innovation.md",
-      "target": "inefficient-processes.md"
+      "target": "blame-culture.md"
     },
     {
-      "source": "analysis-paralysis.md",
-      "target": "past-negative-experiences.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "style-arguments-in-code-reviews.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "stakeholder-developer-communication-gap.md"
-    },
-    {
-      "source": "release-instability.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "large-estimates-for-small-changes.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "partial-bug-fixes.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "reduced-innovation.md",
-      "target": "large-estimates-for-small-changes.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "gradual-performance-degradation.md",
-      "target": "defensive-coding-practices.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "delayed-project-timelines.md"
-    },
-    {
-      "source": "budget-overruns.md",
-      "target": "scope-creep.md"
-    },
-    {
-      "source": "mentor-burnout.md",
-      "target": "knowledge-sharing-breakdown.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "modernization-strategy-paralysis.md",
-      "target": "vendor-lock-in.md"
-    },
-    {
-      "source": "work-queue-buildup.md",
-      "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "copy-paste-programming.md"
-    },
-    {
-      "source": "tacit-knowledge.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "difficult-to-test-code.md"
-    },
-    {
-      "source": "knowledge-sharing-breakdown.md",
-      "target": "language-barriers.md"
+      "source": "slow-development-velocity.md",
+      "target": "increased-manual-work.md"
     },
     {
       "source": "integration-difficulties.md",
-      "target": "technology-stack-fragmentation.md"
+      "target": "cargo-culting.md"
     },
     {
-      "source": "high-technical-debt.md",
-      "target": "test-debt.md"
+      "source": "review-bottlenecks.md",
+      "target": "bottleneck-formation.md"
     },
     {
-      "source": "poor-project-control.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "rest-api-design-issues.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "ripple-effect-of-changes.md"
-    },
-    {
-      "source": "high-api-latency.md",
-      "target": "slow-database-queries.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "environment-variable-issues.md",
-      "target": "configuration-chaos.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "single-points-of-failure.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "mentor-burnout.md"
-    },
-    {
-      "source": "customer-dissatisfaction.md",
-      "target": "feature-gaps.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "communication-risk-outside-project.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "accumulation-of-workarounds.md"
-    },
-    {
-      "source": "slow-feature-development.md",
+      "source": "increased-cognitive-load.md",
       "target": "complex-and-obscure-logic.md"
     },
     {
-      "source": "slow-development-velocity.md",
-      "target": "extended-review-cycles.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "null-pointer-dereferences.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "data-migration-integrity-issues.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "vendor-lock-in.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "defensive-coding-practices.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "work-queue-buildup.md"
+      "source": "poor-domain-model.md",
+      "target": "high-technical-debt.md"
     },
     {
       "source": "difficult-to-test-code.md",
       "target": "over-reliance-on-utility-classes.md"
     },
     {
+      "source": "team-demoralization.md",
+      "target": "incomplete-projects.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "cache-invalidation-problems.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "large-estimates-for-small-changes.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "poor-user-experience-ux-design.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "team-demoralization.md"
+    },
+    {
+      "source": "large-risky-releases.md",
+      "target": "long-release-cycles.md"
+    },
+    {
+      "source": "inconsistent-quality.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
       "source": "developer-frustration-and-burnout.md",
-      "target": "mental-fatigue.md"
+      "target": "increased-manual-work.md"
     },
     {
-      "source": "thread-pool-exhaustion.md",
-      "target": "resource-contention.md"
+      "source": "slow-development-velocity.md",
+      "target": "organizational-structure-mismatch.md"
     },
     {
-      "source": "integration-difficulties.md",
-      "target": "schema-evolution-paralysis.md"
+      "source": "slow-database-queries.md",
+      "target": "inefficient-database-indexing.md"
     },
     {
-      "source": "planning-credibility-issues.md",
-      "target": "missed-deadlines.md"
+      "source": "work-blocking.md",
+      "target": "micromanagement-culture.md"
     },
     {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "inconsistent-coding-standards.md"
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "changing-project-scope.md",
+      "target": "market-pressure.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "increased-bug-count.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "ripple-effect-of-changes.md"
+    },
+    {
+      "source": "reviewer-anxiety.md",
+      "target": "blame-culture.md"
     },
     {
       "source": "high-technical-debt.md",
-      "target": "review-process-breakdown.md"
+      "target": "uncontrolled-codebase-growth.md"
     },
     {
-      "source": "increased-stress-and-burnout.md",
-      "target": "unrealistic-deadlines.md"
+      "source": "large-risky-releases.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "architectural-mismatch.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "bikeshedding.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "maintenance-overhead.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "perfectionist-review-culture.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "maintenance-cost-increase.md"
+    },
+    {
+      "source": "workaround-culture.md",
+      "target": "suboptimal-solutions.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "large-feature-scope.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "integer-overflow-underflow.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "priority-thrashing.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "extended-review-cycles.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "knowledge-sharing-breakdown.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "inappropriate-skillset.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "long-build-and-test-times.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "quality-degradation.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "feature-creep-without-refactoring.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "poorly-defined-responsibilities.md"
+    },
+    {
+      "source": "user-confusion.md",
+      "target": "cross-system-data-synchronization-problems.md"
     },
     {
       "source": "long-release-cycles.md",
       "target": "brittle-codebase.md"
     },
     {
-      "source": "authentication-bypass-vulnerabilities.md",
-      "target": "session-management-issues.md"
+      "source": "high-bug-introduction-rate.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "resource-allocation-failures.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "reduced-review-participation.md"
+    },
+    {
+      "source": "wasted-development-effort.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "large-risky-releases.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "bloated-class.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "team-confusion.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "bloated-class.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
+      "source": "user-confusion.md",
+      "target": "immature-delivery-strategy.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "inefficient-database-indexing.md",
+      "target": "index-fragmentation.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "overworked-teams.md"
+    },
+    {
+      "source": "incomplete-knowledge.md",
+      "target": "high-turnover.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "team-silos.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "bottleneck-formation.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "legacy-code-without-tests.md",
+      "target": "complex-implementation-paths.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "delayed-project-timelines.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "environment-variable-issues.md",
+      "target": "configuration-chaos.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "external-service-delays.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "style-arguments-in-code-reviews.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "team-churn-impact.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "excessive-class-size.md"
+    },
+    {
+      "source": "perfectionist-culture.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "past-negative-experiences.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "feature-gaps.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "budget-overruns.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "duplicated-work.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "gold-plating.md"
+    },
+    {
+      "source": "defensive-coding-practices.md",
+      "target": "author-frustration.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "work-blocking.md"
+    },
+    {
+      "source": "frequent-changes-to-requirements.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "copy-paste-programming.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "poor-documentation.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "knowledge-dependency.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "ripple-effect-of-changes.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "information-decay.md",
+      "target": "unclear-documentation-ownership.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "unclear-documentation-ownership.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "poor-test-coverage.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "high-number-of-database-queries.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "complex-implementation-paths.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "development-disruption.md",
+      "target": "frequent-hotfixes-and-rollbacks.md"
+    },
+    {
+      "source": "unclear-sharing-expectations.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "maintenance-cost-increase.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "mixed-coding-styles.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "extended-review-cycles.md",
+      "target": "bikeshedding.md"
+    },
+    {
+      "source": "wasted-development-effort.md",
+      "target": "changing-project-scope.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "team-demoralization.md"
+    },
+    {
+      "source": "technology-lock-in.md",
+      "target": "shared-dependencies.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "merge-conflicts.md",
+      "target": "long-lived-feature-branches.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "mental-fatigue.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "decision-paralysis.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "resource-waste.md",
+      "target": "capacity-mismatch.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "mentor-burnout.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "reduced-feature-quality.md"
+    },
+    {
+      "source": "communication-breakdown.md",
+      "target": "unclear-sharing-expectations.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "extended-cycle-times.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "high-maintenance-costs.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "slow-application-performance.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "team-members-not-engaged-in-review-process.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "merge-conflicts.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "assumption-based-development.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "high-bug-introduction-rate.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "changing-project-scope.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "feature-bloat.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "user-confusion.md"
+    },
+    {
+      "source": "incorrect-max-connection-pool-size.md",
+      "target": "misconfigured-connection-pools.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "cognitive-overload.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "difficult-to-understand-code.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "user-frustration.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "assumption-based-development.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "incomplete-projects.md"
+    },
+    {
+      "source": "insufficient-design-skills.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "delayed-value-delivery.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "architectural-mismatch.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "decision-avoidance.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "spaghetti-code.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "poor-system-environment.md",
+      "target": "configuration-drift.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "team-demoralization.md",
+      "target": "unmotivated-employees.md"
+    },
+    {
+      "source": "slow-incident-resolution.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "new-hire-frustration.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "uneven-workload-distribution.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "secret-management-problems.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "power-struggles.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "past-negative-experiences.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "review-bottlenecks.md"
+    },
+    {
+      "source": "team-confusion.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "history-of-failed-changes.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "skill-development-gaps.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "deployment-coupling.md",
+      "target": "shared-database.md"
+    },
+    {
+      "source": "stakeholder-dissatisfaction.md",
+      "target": "misaligned-deliverables.md"
+    },
+    {
+      "source": "resource-contention.md",
+      "target": "deadlock-conditions.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "maintenance-cost-increase.md",
+      "target": "quality-degradation.md"
+    },
+    {
+      "source": "poor-project-control.md",
+      "target": "poor-planning.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "implicit-knowledge.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "cascade-failures.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "quality-compromises.md"
+    },
+    {
+      "source": "premature-technology-introduction.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "system-stagnation.md",
+      "target": "maintenance-cost-increase.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "upstream-timeouts.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "lazy-loading.md"
+    },
+    {
+      "source": "memory-leaks.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "deployment-risk.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "maintenance-cost-increase.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "poor-project-control.md"
+    },
+    {
+      "source": "feature-gaps.md",
+      "target": "assumption-based-development.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "slow-feature-development.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "delayed-bug-fixes.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "rapid-system-changes.md",
+      "target": "market-pressure.md"
+    },
+    {
+      "source": "reduced-team-flexibility.md",
+      "target": "skill-development-gaps.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "past-negative-experiences.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "long-build-and-test-times.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "legal-disputes.md",
+      "target": "vendor-relationship-strain.md"
+    },
+    {
+      "source": "hidden-dependencies.md",
+      "target": "system-integration-blindness.md"
+    },
+    {
+      "source": "review-process-avoidance.md",
+      "target": "author-frustration.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "poorly-defined-responsibilities.md"
+    },
+    {
+      "source": "fear-of-breaking-changes.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "architectural-mismatch.md"
+    },
+    {
+      "source": "procedural-background.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
+      "source": "unrealistic-deadlines.md",
+      "target": "poor-planning.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "large-estimates-for-small-changes.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "quality-compromises.md"
+    },
+    {
+      "source": "author-frustration.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "procedural-background.md"
+    },
+    {
+      "source": "high-resource-utilization-on-client.md",
+      "target": "scaling-inefficiencies.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "wasted-development-effort.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "technology-lock-in.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "inconsistent-knowledge-acquisition.md",
+      "target": "information-fragmentation.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "delayed-issue-resolution.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "rapid-system-changes.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "unreleased-resources.md"
+    },
+    {
+      "source": "limited-team-learning.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "knowledge-gaps.md",
+      "target": "unclear-documentation-ownership.md"
+    },
+    {
+      "source": "superficial-code-reviews.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "difficult-code-comprehension.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "configuration-drift.md"
+    },
+    {
+      "source": "poor-documentation.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "requirements-ambiguity.md"
+    },
+    {
+      "source": "incomplete-projects.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "increased-technical-shortcuts.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "increased-technical-shortcuts.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "style-arguments-in-code-reviews.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "breaking-changes.md"
+    },
+    {
+      "source": "organizational-structure-mismatch.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "operational-overhead.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "spaghetti-code.md"
+    },
+    {
+      "source": "rushed-approvals.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "hidden-dependencies.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "priority-thrashing.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "difficult-code-reuse.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "tacit-knowledge.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "poor-user-experience-ux-design.md",
+      "target": "scaling-inefficiencies.md"
+    },
+    {
+      "source": "insufficient-code-review.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "synchronization-problems.md",
+      "target": "code-duplication.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "high-connection-count.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "high-number-of-database-queries.md"
+    },
+    {
+      "source": "team-churn-impact.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "skill-development-gaps.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "reduced-feature-quality.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "deadlock-conditions.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "procedural-programming-in-oop-languages.md",
+      "target": "over-reliance-on-utility-classes.md"
+    },
+    {
+      "source": "test-debt.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "negative-user-feedback.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "race-conditions.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "quality-compromises.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "delayed-bug-fixes.md",
+      "target": "avoidance-behaviors.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "feature-creep-without-refactoring.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "data-structure-cache-inefficiency.md",
+      "target": "alignment-and-padding-issues.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "long-build-and-test-times.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "unpredictable-system-behavior.md"
+    },
+    {
+      "source": "new-hire-frustration.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "implicit-knowledge.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "team-dysfunction.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "circular-references.md",
+      "target": "improper-event-listener-management.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "delayed-bug-fixes.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "immature-delivery-strategy.md"
+    },
+    {
+      "source": "increased-error-rates.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "deadline-pressure.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "vendor-dependency.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "partial-bug-fixes.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "release-anxiety.md"
+    },
+    {
+      "source": "global-state-and-side-effects.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "race-conditions.md"
+    },
+    {
+      "source": "slow-response-times-for-lists.md",
+      "target": "poor-caching-strategy.md"
+    },
+    {
+      "source": "style-arguments-in-code-reviews.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "changing-project-scope.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "automated-tooling-ineffectiveness.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "delayed-issue-resolution.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "workaround-culture.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "merge-conflicts.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "dependency-on-supplier.md",
+      "target": "technical-architecture-limitations.md"
+    },
+    {
+      "source": "overworked-teams.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "new-hire-frustration.md",
+      "target": "inadequate-mentoring-structure.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "uneven-workload-distribution.md",
+      "target": "inconsistent-knowledge-acquisition.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "hidden-dependencies.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "large-risky-releases.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "insufficient-testing.md"
+    },
+    {
+      "source": "micromanagement-culture.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "resistance-to-change.md",
+      "target": "team-demoralization.md"
+    },
+    {
+      "source": "constantly-shifting-deadlines.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "slow-incident-resolution.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "high-number-of-database-queries.md",
+      "target": "n-plus-one-query-problem.md"
+    },
+    {
+      "source": "cognitive-overload.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "increased-error-rates.md",
+      "target": "overworked-teams.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "delayed-value-delivery.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "inconsistent-behavior.md"
+    },
+    {
+      "source": "undefined-code-style-guidelines.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "refactoring-avoidance.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "feature-creep.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "frequent-changes-to-requirements.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "incorrect-max-connection-pool-size.md",
+      "target": "long-running-database-transactions.md"
+    },
+    {
+      "source": "unmotivated-employees.md",
+      "target": "project-authority-vacuum.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "database-connection-leaks.md"
+    },
+    {
+      "source": "fear-of-breaking-changes.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "long-release-cycles.md"
+    },
+    {
+      "source": "inconsistent-onboarding-experience.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "development-disruption.md",
+      "target": "premature-technology-introduction.md"
+    },
+    {
+      "source": "log-spam.md",
+      "target": "excessive-logging.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "deadline-pressure.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "partial-bug-fixes.md",
+      "target": "synchronization-problems.md"
+    },
+    {
+      "source": "unused-indexes.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "poor-encapsulation.md",
+      "target": "procedural-background.md"
+    },
+    {
+      "source": "assumption-based-development.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "bikeshedding.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "inadequate-onboarding.md",
+      "target": "tacit-knowledge.md"
+    },
+    {
+      "source": "vendor-relationship-strain.md",
+      "target": "legal-disputes.md"
+    },
+    {
+      "source": "perfectionist-culture.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "maintenance-bottlenecks.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "changing-project-scope.md"
+    },
+    {
+      "source": "large-estimates-for-small-changes.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "inefficient-code.md",
+      "target": "algorithmic-complexity-problems.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "clever-code.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "cache-invalidation-problems.md",
+      "target": "race-conditions.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "feature-gaps.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "development-disruption.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "difficult-code-reuse.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "suboptimal-solutions.md"
+    },
+    {
+      "source": "slow-database-queries.md",
+      "target": "n-plus-one-query-problem.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "system-integration-blindness.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "project-authority-vacuum.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "poor-communication.md",
+      "target": "developer-frustration-and-burnout.md"
+    },
+    {
+      "source": "increased-stress-and-burnout.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "mixed-coding-styles.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "difficult-code-comprehension.md"
+    },
+    {
+      "source": "memory-leaks.md",
+      "target": "circular-references.md"
+    },
+    {
+      "source": "large-estimates-for-small-changes.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "dependency-version-conflicts.md",
+      "target": "shared-dependencies.md"
+    },
+    {
+      "source": "excessive-disk-io.md",
+      "target": "unoptimized-file-access.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "bikeshedding.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "micromanagement-culture.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "slow-feature-development.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "mental-fatigue.md",
+      "target": "increased-cognitive-load.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "insufficient-testing.md"
+    },
+    {
+      "source": "deadline-pressure.md",
+      "target": "poor-planning.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "inconsistent-quality.md"
+    },
+    {
+      "source": "increased-technical-shortcuts.md",
+      "target": "market-pressure.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "inconsistent-quality.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "author-frustration.md",
+      "target": "conflicting-reviewer-opinions.md"
+    },
+    {
+      "source": "knowledge-dependency.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "cascade-delays.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "incomplete-projects.md",
+      "target": "constantly-shifting-deadlines.md"
+    },
+    {
+      "source": "shared-dependencies.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "test-debt.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "resistance-to-change.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "user-confusion.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "long-build-and-test-times.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "large-estimates-for-small-changes.md"
+    },
+    {
+      "source": "unreleased-resources.md",
+      "target": "circular-references.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "cascade-delays.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "schema-evolution-paralysis.md"
     },
     {
       "source": "fear-of-change.md",
       "target": "knowledge-gaps.md"
     },
     {
-      "source": "high-database-resource-utilization.md",
-      "target": "slow-database-queries.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "regression-bugs.md",
-      "target": "insufficient-testing.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "monolithic-functions-and-classes.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "gold-plating.md",
-      "target": "product-direction-chaos.md"
-    },
-    {
-      "source": "information-decay.md",
-      "target": "team-churn-impact.md"
+      "source": "bikeshedding.md",
+      "target": "inadequate-configuration-management.md"
     },
     {
       "source": "developer-frustration-and-burnout.md",
-      "target": "testing-complexity.md"
+      "target": "mentor-burnout.md"
     },
     {
-      "source": "strangler-fig-pattern-failures.md",
-      "target": "time-pressure.md"
+      "source": "test-debt.md",
+      "target": "feature-factory.md"
     },
     {
-      "source": "high-turnover.md",
+      "source": "developer-frustration-and-burnout.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "user-trust-erosion.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "complex-implementation-paths.md",
+      "target": "architectural-mismatch.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "mental-fatigue.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "development-disruption.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "feature-bloat.md"
+    },
+    {
+      "source": "spaghetti-code.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "stakeholder-dissatisfaction.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "algorithmic-complexity-problems.md"
+    },
+    {
+      "source": "duplicated-research-effort.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
       "target": "inefficient-development-environment.md"
     },
     {
-      "source": "blame-culture.md",
-      "target": "communication-breakdown.md"
+      "source": "inadequate-configuration-management.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "slow-incident-resolution.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "scaling-inefficiencies.md",
+      "target": "shared-dependencies.md"
+    },
+    {
+      "source": "delayed-issue-resolution.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "memory-leaks.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "poor-project-control.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "unpredictable-system-behavior.md"
+    },
+    {
+      "source": "insufficient-testing.md",
+      "target": "outdated-tests.md"
+    },
+    {
+      "source": "obsolete-technologies.md",
+      "target": "technology-lock-in.md"
+    },
+    {
+      "source": "inefficient-database-indexing.md",
+      "target": "unused-indexes.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "team-members-not-engaged-in-review-process.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "legacy-system-documentation-archaeology.md"
     },
     {
       "source": "modernization-strategy-paralysis.md",
       "target": "decision-avoidance.md"
     },
     {
+      "source": "difficult-developer-onboarding.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "api-versioning-conflicts.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "deployment-coupling.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "configuration-chaos.md"
+    },
+    {
+      "source": "deployment-risk.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "priority-thrashing.md",
+      "target": "work-queue-buildup.md"
+    },
+    {
+      "source": "poor-encapsulation.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
       "source": "operational-overhead.md",
-      "target": "frequent-hotfixes-and-rollbacks.md"
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "scaling-inefficiencies.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "poor-caching-strategy.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "stakeholder-dissatisfaction.md",
+      "target": "delayed-project-timelines.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "reduced-review-participation.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "market-pressure.md"
+    },
+    {
+      "source": "delayed-bug-fixes.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "abi-compatibility-issues.md",
+      "target": "dependency-version-conflicts.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "external-service-delays.md",
+      "target": "poor-caching-strategy.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "resource-allocation-failures.md",
+      "target": "database-connection-leaks.md"
+    },
+    {
+      "source": "poor-caching-strategy.md",
+      "target": "unused-indexes.md"
+    },
+    {
+      "source": "automated-tooling-ineffectiveness.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "insufficient-testing.md"
+    },
+    {
+      "source": "poor-planning.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "customer-dissatisfaction.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "extended-review-cycles.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "single-entry-point-design.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "insufficient-audit-logging.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "capacity-mismatch.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "architectural-mismatch.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "increased-error-rates.md",
+      "target": "slow-application-performance.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "accumulated-decision-debt.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "increased-stress-and-burnout.md"
+    },
+    {
+      "source": "global-state-and-side-effects.md",
+      "target": "poor-encapsulation.md"
+    },
+    {
+      "source": "flaky-tests.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "log-spam.md"
+    },
+    {
+      "source": "workaround-culture.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "unmotivated-employees.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "incomplete-knowledge.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "convenience-driven-development.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "tacit-knowledge.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "high-maintenance-costs.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "complex-implementation-paths.md"
+    },
+    {
+      "source": "deadlock-conditions.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "reduced-predictability.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "god-object-anti-pattern.md",
+      "target": "uncontrolled-codebase-growth.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "accumulated-decision-debt.md",
+      "target": "decision-avoidance.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "feedback-isolation.md",
+      "target": "testing-complexity.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "database-connection-leaks.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "log-spam.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "cascade-delays.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "authentication-bypass-vulnerabilities.md",
+      "target": "session-management-issues.md"
+    },
+    {
+      "source": "technology-lock-in.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "deadline-pressure.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "log-spam.md",
+      "target": "n-plus-one-query-problem.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "inefficient-database-indexing.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "partial-bug-fixes.md",
+      "target": "incomplete-knowledge.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "large-pull-requests.md",
+      "target": "reduced-code-submission-frequency.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "legal-disputes.md",
+      "target": "poor-contract-design.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "integer-overflow-underflow.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "rest-api-design-issues.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "configuration-drift.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "avoidance-behaviors.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "frequent-changes-to-requirements.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "information-fragmentation.md"
+    },
+    {
+      "source": "misunderstanding-of-oop.md",
+      "target": "procedural-background.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "feature-bloat.md",
+      "target": "decision-avoidance.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "resource-allocation-failures.md",
+      "target": "project-authority-vacuum.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "code-duplication.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "short-term-focus.md",
+      "target": "invisible-nature-of-technical-debt.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "bloated-class.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "inadequate-integration-tests.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "thread-pool-exhaustion.md"
+    },
+    {
+      "source": "inefficient-database-indexing.md",
+      "target": "incorrect-index-type.md"
+    },
+    {
+      "source": "insufficient-audit-logging.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "customer-dissatisfaction.md"
+    },
+    {
+      "source": "poor-teamwork.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "deployment-coupling.md",
+      "target": "system-integration-blindness.md"
+    },
+    {
+      "source": "insufficient-design-skills.md",
+      "target": "procedural-background.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "regression-bugs.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "tangled-cross-cutting-concerns.md"
+    },
+    {
+      "source": "poor-project-control.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "task-queues-backing-up.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "wasted-development-effort.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "insufficient-testing.md"
+    },
+    {
+      "source": "single-entry-point-design.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "inconsistent-behavior.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "excessive-class-size.md"
+    },
+    {
+      "source": "reduced-predictability.md",
+      "target": "extended-cycle-times.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "regression-bugs.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "fear-of-breaking-changes.md"
+    },
+    {
+      "source": "technology-lock-in.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "increased-manual-work.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "complex-implementation-paths.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "database-schema-design-problems.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "eager-to-please-stakeholders.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "slow-response-times-for-lists.md",
+      "target": "slow-database-queries.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "superficial-code-reviews.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "difficult-code-comprehension.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "language-barriers.md"
+    },
+    {
+      "source": "technical-architecture-limitations.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "poor-interfaces-between-applications.md"
     },
     {
       "source": "poor-communication.md",
       "target": "team-silos.md"
     },
     {
-      "source": "communication-risk-within-project.md",
-      "target": "assumption-based-development.md"
+      "source": "blame-culture.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "shared-database.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "new-hire-frustration.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "limited-team-learning.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "wasted-development-effort.md",
+      "target": "team-confusion.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "operational-overhead.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "difficult-to-understand-code.md"
+    },
+    {
+      "source": "uneven-work-flow.md",
+      "target": "process-design-flaws.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "high-connection-count.md",
+      "target": "long-running-transactions.md"
+    },
+    {
+      "source": "memory-swapping.md",
+      "target": "high-database-resource-utilization.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "team-demoralization.md",
+      "target": "organizational-structure-mismatch.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "slow-knowledge-transfer.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "monolithic-architecture-constraints.md"
     },
     {
       "source": "synchronization-problems.md",
@@ -12610,1042 +10482,1234 @@ const graph = {
     },
     {
       "source": "high-technical-debt.md",
-      "target": "large-feature-scope.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "cognitive-overload.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "team-coordination-issues.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "poor-naming-conventions.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "negative-user-feedback.md"
-    },
-    {
-      "source": "flaky-tests.md",
       "target": "time-pressure.md"
     },
     {
-      "source": "increased-manual-testing-effort.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "inefficient-development-environment.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "maintenance-bottlenecks.md"
-    },
-    {
-      "source": "uneven-workload-distribution.md",
-      "target": "inconsistent-knowledge-acquisition.md"
-    },
-    {
-      "source": "uncontrolled-codebase-growth.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "log-spam.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "log-spam.md"
+      "source": "inadequate-test-infrastructure.md",
+      "target": "lack-of-ownership-and-accountability.md"
     },
     {
       "source": "delayed-value-delivery.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "poor-operational-concept.md"
-    },
-    {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "high-turnover.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "memory-leaks.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "legacy-configuration-management-chaos.md",
-      "target": "information-decay.md"
-    },
-    {
-      "source": "shared-database.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "difficult-to-understand-code.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "legacy-code-without-tests.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "reduced-team-productivity.md",
-      "target": "team-demoralization.md"
-    },
-    {
-      "source": "legal-disputes.md",
-      "target": "poor-contract-design.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "regulatory-compliance-drift.md"
-    },
-    {
-      "source": "spaghetti-code.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "work-blocking.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "gold-plating.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "knowledge-gaps.md",
-      "target": "incomplete-knowledge.md"
-    },
-    {
-      "source": "code-review-inefficiency.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "inconsistent-naming-conventions.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "resistance-to-change.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "analysis-paralysis.md"
-    },
-    {
-      "source": "bikeshedding.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "uneven-workload-distribution.md",
-      "target": "poor-planning.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "data-protection-risk.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "increased-manual-testing-effort.md"
-    },
-    {
-      "source": "feature-creep.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "gold-plating.md"
-    },
-    {
-      "source": "difficult-code-comprehension.md",
-      "target": "insufficient-code-review.md"
-    },
-    {
-      "source": "legal-disputes.md",
-      "target": "vendor-relationship-strain.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "configuration-chaos.md"
-    },
-    {
-      "source": "limited-team-learning.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "monolithic-functions-and-classes.md",
-      "target": "debugging-difficulties.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "tangled-cross-cutting-concerns.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "communication-risk-outside-project.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "inadequate-configuration-management.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "time-pressure.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "communication-breakdown.md",
-      "target": "organizational-structure-mismatch.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "mental-fatigue.md"
-    },
-    {
-      "source": "frequent-changes-to-requirements.md",
-      "target": "change-management-chaos.md"
-    },
-    {
-      "source": "technology-stack-fragmentation.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "tight-coupling-issues.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "quality-blind-spots.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "resource-waste.md",
-      "target": "capacity-mismatch.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "uneven-workload-distribution.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "slow-feature-development.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "maintenance-bottlenecks.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "task-queues-backing-up.md",
-      "target": "insufficient-worker-capacity.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "spaghetti-code.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "unrealistic-deadlines.md"
-    },
-    {
-      "source": "schema-evolution-paralysis.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "budget-overruns.md"
-    },
-    {
-      "source": "increased-cognitive-load.md",
-      "target": "inconsistent-codebase.md"
-    },
-    {
-      "source": "insufficient-audit-logging.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "inadequate-requirements-gathering.md",
-      "target": "assumption-based-development.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "inefficient-development-environment.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "user-confusion.md"
-    },
-    {
-      "source": "high-client-side-resource-consumption.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "insufficient-code-review.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "unpredictable-system-behavior.md",
-      "target": "scaling-inefficiencies.md"
-    },
-    {
-      "source": "hidden-dependencies.md",
-      "target": "hidden-side-effects.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "large-pull-requests.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "maintenance-bottlenecks.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "past-negative-experiences.md"
-    },
-    {
-      "source": "resistance-to-change.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "external-service-delays.md"
-    },
-    {
-      "source": "avoidance-behaviors.md",
-      "target": "fear-of-change.md"
-    },
-    {
-      "source": "difficult-developer-onboarding.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "new-hire-frustration.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "long-lived-feature-branches.md",
-      "target": "inadequate-code-reviews.md"
-    },
-    {
-      "source": "high-client-side-resource-consumption.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "log-spam.md",
-      "target": "excessive-logging.md"
-    },
-    {
-      "source": "high-number-of-database-queries.md",
-      "target": "n-plus-one-query-problem.md"
-    },
-    {
-      "source": "wasted-development-effort.md",
-      "target": "duplicated-effort.md"
-    },
-    {
-      "source": "review-bottlenecks.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "poor-project-control.md"
-    },
-    {
-      "source": "development-disruption.md",
-      "target": "unproductive-meetings.md"
-    },
-    {
-      "source": "decision-paralysis.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "upstream-timeouts.md",
-      "target": "high-api-latency.md"
-    },
-    {
-      "source": "api-versioning-conflicts.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "legacy-code-without-tests.md",
-      "target": "complex-implementation-paths.md"
-    },
-    {
-      "source": "growing-task-queues.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "slow-feature-development.md",
-      "target": "long-lived-feature-branches.md"
-    },
-    {
-      "source": "system-outages.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "duplicated-research-effort.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "team-churn-impact.md",
-      "target": "undefined-code-style-guidelines.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "global-state-and-side-effects.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "uncontrolled-codebase-growth.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "resource-contention.md",
-      "target": "inefficient-code.md"
-    },
-    {
-      "source": "single-points-of-failure.md",
-      "target": "inconsistent-knowledge-acquisition.md"
-    },
-    {
-      "source": "brittle-codebase.md",
-      "target": "ripple-effect-of-changes.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
-    },
-    {
-      "source": "memory-swapping.md",
-      "target": "memory-leaks.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "modernization-strategy-paralysis.md"
-    },
-    {
-      "source": "unmotivated-employees.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "database-connection-leaks.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "constant-firefighting.md",
-      "target": "flaky-tests.md"
-    },
-    {
-      "source": "deployment-coupling.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "accumulation-of-workarounds.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "data-protection-risk.md",
-      "target": "buffer-overflow-vulnerabilities.md"
-    },
-    {
-      "source": "feature-bloat.md",
-      "target": "budget-overruns.md"
-    },
-    {
-      "source": "user-confusion.md",
-      "target": "synchronization-problems.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "limited-team-learning.md"
-    },
-    {
-      "source": "testing-complexity.md",
-      "target": "excessive-class-size.md"
-    },
-    {
-      "source": "vendor-relationship-strain.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "team-confusion.md",
-      "target": "unclear-goals-and-priorities.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "increased-technical-shortcuts.md",
-      "target": "unrealistic-schedule.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "procedural-programming-in-oop-languages.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "limited-team-learning.md",
-      "target": "blame-culture.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "legacy-system-documentation-archaeology.md"
-    },
-    {
-      "source": "staff-availability-issues.md",
-      "target": "single-points-of-failure.md"
-    },
-    {
-      "source": "increased-customer-support-load.md",
-      "target": "inconsistent-behavior.md"
-    },
-    {
-      "source": "user-confusion.md",
-      "target": "cross-system-data-synchronization-problems.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "testing-environment-fragility.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "stakeholder-developer-communication-gap.md",
-      "target": "requirements-ambiguity.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "extended-research-time.md",
-      "target": "poor-documentation.md"
-    },
-    {
-      "source": "stagnant-architecture.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "poor-interfaces-between-applications.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "architectural-mismatch.md"
-    },
-    {
-      "source": "high-bug-introduction-rate.md",
-      "target": "single-entry-point-design.md"
-    },
-    {
-      "source": "extended-cycle-times.md",
-      "target": "requirements-ambiguity.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "slow-incident-resolution.md"
-    },
-    {
-      "source": "poor-operational-concept.md",
       "target": "vendor-lock-in.md"
     },
     {
-      "source": "unpredictable-system-behavior.md",
-      "target": "cascade-failures.md"
+      "source": "author-frustration.md",
+      "target": "extended-review-cycles.md"
     },
     {
-      "source": "flaky-tests.md",
-      "target": "inadequate-test-data-management.md"
+      "source": "delayed-value-delivery.md",
+      "target": "blame-culture.md"
     },
     {
-      "source": "increased-technical-shortcuts.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "complex-deployment-process.md",
-      "target": "legacy-configuration-management-chaos.md"
-    },
-    {
-      "source": "tangled-cross-cutting-concerns.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "maintenance-overhead.md"
-    },
-    {
-      "source": "reduced-innovation.md",
+      "source": "cargo-culting.md",
       "target": "fear-of-failure.md"
     },
     {
-      "source": "increased-manual-testing-effort.md",
-      "target": "high-defect-rate-in-production.md"
+      "source": "cv-driven-development.md",
+      "target": "unclear-goals-and-priorities.md"
     },
     {
-      "source": "deployment-risk.md",
-      "target": "cross-system-data-synchronization-problems.md"
+      "source": "high-turnover.md",
+      "target": "increased-stress-and-burnout.md"
     },
     {
-      "source": "inconsistent-naming-conventions.md",
-      "target": "procedural-background.md"
-    },
-    {
-      "source": "growing-task-queues.md",
-      "target": "external-service-delays.md"
-    },
-    {
-      "source": "operational-overhead.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "poor-documentation.md"
+      "source": "developer-frustration-and-burnout.md",
+      "target": "eager-to-please-stakeholders.md"
     },
     {
       "source": "data-migration-integrity-issues.md",
-      "target": "obsolete-technologies.md"
-    },
-    {
-      "source": "unrealistic-deadlines.md",
-      "target": "poor-planning.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
-      "target": "approval-dependencies.md"
-    },
-    {
-      "source": "knowledge-gaps.md",
-      "target": "context-switching-overhead.md"
-    },
-    {
-      "source": "deadline-pressure.md",
-      "target": "poor-planning.md"
-    },
-    {
-      "source": "unbounded-data-growth.md",
-      "target": "unbounded-data-structures.md"
-    },
-    {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "high-maintenance-costs.md",
-      "target": "shared-dependencies.md"
-    },
-    {
-      "source": "misaligned-deliverables.md",
-      "target": "no-continuous-feedback-loop.md"
-    },
-    {
-      "source": "author-frustration.md",
-      "target": "nitpicking-culture.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "poor-domain-model.md"
-    },
-    {
-      "source": "increased-manual-testing-effort.md",
-      "target": "testing-complexity.md"
-    },
-    {
-      "source": "project-resource-constraints.md",
-      "target": "competing-priorities.md"
-    },
-    {
-      "source": "negative-user-feedback.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "legacy-skill-shortage.md",
-      "target": "modernization-roi-justification-failure.md"
-    },
-    {
-      "source": "inadequate-code-reviews.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "analysis-paralysis.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "large-risky-releases.md"
-    },
-    {
-      "source": "complex-and-obscure-logic.md",
-      "target": "feature-creep.md"
+      "target": "silent-data-corruption.md"
     },
     {
       "source": "competitive-disadvantage.md",
       "target": "vendor-lock-in.md"
     },
     {
-      "source": "legacy-api-versioning-nightmare.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
+      "source": "developer-frustration-and-burnout.md",
+      "target": "operational-overhead.md"
     },
     {
       "source": "increased-cost-of-development.md",
-      "target": "log-spam.md"
+      "target": "brittle-codebase.md"
     },
     {
-      "source": "debugging-difficulties.md",
-      "target": "missing-rollback-strategy.md"
-    },
-    {
-      "source": "vendor-dependency-entrapment.md",
-      "target": "accumulated-decision-debt.md"
-    },
-    {
-      "source": "increased-cost-of-development.md",
-      "target": "frequent-changes-to-requirements.md"
-    },
-    {
-      "source": "duplicated-work.md",
-      "target": "communication-breakdown.md"
-    },
-    {
-      "source": "increased-error-rates.md",
-      "target": "resource-contention.md"
-    },
-    {
-      "source": "regulatory-compliance-drift.md",
-      "target": "resource-allocation-failures.md"
-    },
-    {
-      "source": "cross-system-data-synchronization-problems.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "reduced-individual-productivity.md",
-      "target": "inefficient-processes.md"
-    },
-    {
-      "source": "database-connection-leaks.md",
-      "target": "long-running-transactions.md"
-    },
-    {
-      "source": "high-coupling-low-cohesion.md",
-      "target": "implementation-starts-without-design.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "copy-paste-programming.md"
-    },
-    {
-      "source": "lower-code-quality.md",
-      "target": "slow-knowledge-transfer.md"
-    },
-    {
-      "source": "hardcoded-values.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "mixed-coding-styles.md",
-      "target": "review-process-breakdown.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "integration-difficulties.md",
-      "target": "second-system-effect.md"
-    },
-    {
-      "source": "debugging-difficulties.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "high-technical-debt.md",
-      "target": "feature-creep-without-refactoring.md"
-    },
-    {
-      "source": "maintenance-overhead.md",
-      "target": "delayed-issue-resolution.md"
-    },
-    {
-      "source": "user-frustration.md",
-      "target": "feedback-isolation.md"
-    },
-    {
-      "source": "increased-technical-shortcuts.md",
+      "source": "developer-frustration-and-burnout.md",
       "target": "time-pressure.md"
     },
     {
-      "source": "regression-bugs.md",
-      "target": "high-defect-rate-in-production.md"
-    },
-    {
-      "source": "bottleneck-formation.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "strangler-fig-pattern-failures.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "complex-implementation-paths.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "time-pressure.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "short-term-focus.md"
-    },
-    {
-      "source": "hidden-dependencies.md",
-      "target": "system-integration-blindness.md"
-    },
-    {
-      "source": "stakeholder-confidence-loss.md",
-      "target": "cascade-delays.md"
-    },
-    {
-      "source": "missed-deadlines.md",
-      "target": "poor-project-control.md"
-    },
-    {
-      "source": "frequent-hotfixes-and-rollbacks.md",
-      "target": "regression-bugs.md"
+      "source": "style-arguments-in-code-reviews.md",
+      "target": "code-review-inefficiency.md"
     },
     {
       "source": "vendor-lock-in.md",
-      "target": "poor-encapsulation.md"
+      "target": "insufficient-design-skills.md"
     },
     {
-      "source": "decision-paralysis.md",
-      "target": "inadequate-configuration-management.md"
+      "source": "blame-culture.md",
+      "target": "planning-dysfunction.md"
     },
     {
-      "source": "knowledge-silos.md",
-      "target": "tacit-knowledge.md"
+      "source": "long-release-cycles.md",
+      "target": "deployment-risk.md"
     },
     {
-      "source": "changing-project-scope.md",
-      "target": "stakeholder-developer-communication-gap.md"
+      "source": "gradual-performance-degradation.md",
+      "target": "excessive-object-allocation.md"
     },
     {
-      "source": "difficult-to-test-code.md",
-      "target": "legacy-code-without-tests.md"
+      "source": "inability-to-innovate.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "feature-creep.md",
+      "target": "gold-plating.md"
+    },
+    {
+      "source": "extended-review-cycles.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "increased-error-rates.md",
+      "target": "cognitive-overload.md"
+    },
+    {
+      "source": "increased-bug-count.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "poor-test-coverage.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "review-bottlenecks.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "tangled-cross-cutting-concerns.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "team-churn-impact.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "inefficient-processes.md",
+      "target": "unproductive-meetings.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "gradual-performance-degradation.md"
+    },
+    {
+      "source": "poor-documentation.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "work-queue-buildup.md"
     },
     {
       "source": "release-anxiety.md",
+      "target": "deployment-coupling.md"
+    },
+    {
+      "source": "ripple-effect-of-changes.md",
+      "target": "hidden-dependencies.md"
+    },
+    {
+      "source": "inadequate-initial-reviews.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "reduced-review-participation.md",
+      "target": "reviewer-anxiety.md"
+    },
+    {
+      "source": "unclear-sharing-expectations.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "long-running-transactions.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "increased-time-to-market.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "uncontrolled-codebase-growth.md",
+      "target": "feature-creep-without-refactoring.md"
+    },
+    {
+      "source": "inconsistent-quality.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "algorithmic-complexity-problems.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "wasted-development-effort.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "no-continuous-feedback-loop.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "unpredictable-system-behavior.md"
+    },
+    {
+      "source": "growing-task-queues.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "integer-overflow-underflow.md",
+      "target": "inadequate-error-handling.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "technology-lock-in.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "technology-isolation.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "staff-availability-issues.md"
+    },
+    {
+      "source": "feature-bloat.md",
+      "target": "competitive-disadvantage.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "poor-documentation.md",
+      "target": "rapid-system-changes.md"
+    },
+    {
+      "source": "insufficient-design-skills.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "increased-cognitive-load.md"
+    },
+    {
+      "source": "excessive-class-size.md",
+      "target": "feature-creep-without-refactoring.md"
+    },
+    {
+      "source": "spaghetti-code.md",
+      "target": "rapid-prototyping-becoming-production.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "increased-time-to-market.md",
+      "target": "review-bottlenecks.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "null-pointer-dereferences.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "feature-creep.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "bikeshedding.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "feature-factory.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "quality-blind-spots.md",
+      "target": "outdated-tests.md"
+    },
+    {
+      "source": "increased-manual-work.md",
+      "target": "unmotivated-employees.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "reduced-team-productivity.md"
+    },
+    {
+      "source": "uneven-workload-distribution.md",
+      "target": "capacity-mismatch.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "perfectionist-review-culture.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "high-api-latency.md"
+    },
+    {
+      "source": "work-queue-buildup.md",
+      "target": "bottleneck-formation.md"
+    },
+    {
+      "source": "configuration-drift.md",
+      "target": "rapid-system-changes.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "mixed-coding-styles.md"
+    },
+    {
+      "source": "deployment-coupling.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "difficult-code-comprehension.md",
+      "target": "spaghetti-code.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "organizational-structure-mismatch.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "tangled-cross-cutting-concerns.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "increased-cognitive-load.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "technical-architecture-limitations.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "inconsistent-knowledge-acquisition.md"
+    },
+    {
+      "source": "legacy-code-without-tests.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "large-risky-releases.md",
+      "target": "deployment-coupling.md"
+    },
+    {
+      "source": "mental-fatigue.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "power-struggles.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "author-frustration.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "micromanagement-culture.md",
+      "target": "knowledge-dependency.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "constantly-shifting-deadlines.md"
+    },
+    {
+      "source": "partial-bug-fixes.md",
+      "target": "code-duplication.md"
+    },
+    {
+      "source": "customer-dissatisfaction.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "bloated-class.md",
+      "target": "feature-creep-without-refactoring.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "feature-creep.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "copy-paste-programming.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "inappropriate-skillset.md",
+      "target": "skill-development-gaps.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "duplicated-effort.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "language-barriers.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "maintenance-overhead.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "unbounded-data-structures.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "difficult-to-understand-code.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "complex-implementation-paths.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "slow-database-queries.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "architectural-mismatch.md",
+      "target": "scaling-inefficiencies.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "user-frustration.md"
+    },
+    {
+      "source": "team-demoralization.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "configuration-drift.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "communication-risk-outside-project.md"
+    },
+    {
+      "source": "external-service-delays.md",
+      "target": "slow-database-queries.md"
+    },
+    {
+      "source": "limited-team-learning.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "spaghetti-code.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "inadequate-initial-reviews.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "inefficient-processes.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "system-stagnation.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "team-confusion.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "poor-project-control.md"
+    },
+    {
+      "source": "merge-conflicts.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "deployment-coupling.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "development-disruption.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "configuration-drift.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "rapid-prototyping-becoming-production.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "slow-response-times-for-lists.md",
+      "target": "n-plus-one-query-problem.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "eager-to-please-stakeholders.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "technology-isolation.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "uncontrolled-codebase-growth.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "maintenance-overhead.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "implicit-knowledge.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "reduced-innovation.md",
       "target": "fear-of-failure.md"
     },
     {
       "source": "developer-frustration-and-burnout.md",
-      "target": "long-build-and-test-times.md"
+      "target": "feature-factory.md"
     },
     {
-      "source": "high-api-latency.md",
-      "target": "poor-caching-strategy.md"
+      "source": "feature-creep.md",
+      "target": "eager-to-please-stakeholders.md"
     },
     {
-      "source": "high-defect-rate-in-production.md",
-      "target": "large-risky-releases.md"
+      "source": "debugging-difficulties.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "extended-research-time.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "communication-risk-outside-project.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "inappropriate-skillset.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "insufficient-worker-capacity.md",
+      "target": "external-service-delays.md"
+    },
+    {
+      "source": "inadequate-requirements-gathering.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "data-protection-risk.md"
     },
     {
       "source": "excessive-disk-io.md",
-      "target": "excessive-logging.md"
+      "target": "inefficient-database-indexing.md"
     },
     {
-      "source": "declining-business-metrics.md",
-      "target": "high-defect-rate-in-production.md"
+      "source": "increased-time-to-market.md",
+      "target": "inefficient-processes.md"
     },
     {
-      "source": "misaligned-deliverables.md",
-      "target": "slow-feature-development.md"
+      "source": "maintenance-overhead.md",
+      "target": "obsolete-technologies.md"
     },
     {
-      "source": "tacit-knowledge.md",
+      "source": "single-points-of-failure.md",
+      "target": "maintenance-bottlenecks.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "decision-paralysis.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "system-integration-blindness.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "changing-project-scope.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "reduced-team-productivity.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "synchronization-problems.md",
+      "target": "lock-contention.md"
+    },
+    {
+      "source": "team-silos.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "constant-firefighting.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "work-blocking.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "garbage-collection-pressure.md"
+    },
+    {
+      "source": "testing-environment-fragility.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "partial-bug-fixes.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "implicit-knowledge.md"
+    },
+    {
+      "source": "approval-dependencies.md",
+      "target": "micromanagement-culture.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "gold-plating.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "past-negative-experiences.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "race-conditions.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "delayed-bug-fixes.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "legacy-business-logic-extraction-difficulty.md"
+    },
+    {
+      "source": "synchronization-problems.md",
+      "target": "incomplete-knowledge.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "slow-database-queries.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "system-integration-blindness.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "uneven-workload-distribution.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "fear-of-breaking-changes.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "team-churn-impact.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "extended-review-cycles.md",
+      "target": "conflicting-reviewer-opinions.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "stack-overflow-errors.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "work-blocking.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "overworked-teams.md",
+      "target": "staff-availability-issues.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "unrealistic-schedule.md"
+    },
+    {
+      "source": "test-debt.md",
+      "target": "assumption-based-development.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "communication-breakdown.md",
+      "target": "team-dysfunction.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "imperative-data-fetching-logic.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "legacy-code-without-tests.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "hidden-dependencies.md",
+      "target": "hidden-side-effects.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "inadequate-mentoring-structure.md"
+    },
+    {
+      "source": "complex-implementation-paths.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "slow-database-queries.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "immature-delivery-strategy.md",
+      "target": "deployment-coupling.md"
+    },
+    {
+      "source": "frequent-hotfixes-and-rollbacks.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "circular-references.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "knowledge-gaps.md",
+      "target": "inconsistent-onboarding-experience.md"
+    },
+    {
+      "source": "release-instability.md",
       "target": "time-pressure.md"
     },
     {
       "source": "debugging-difficulties.md",
-      "target": "inadequate-configuration-management.md"
-    },
-    {
-      "source": "time-pressure.md",
-      "target": "planning-dysfunction.md"
-    },
-    {
-      "source": "new-hire-frustration.md",
-      "target": "inconsistent-onboarding-experience.md"
-    },
-    {
-      "source": "knowledge-silos.md",
-      "target": "poor-communication.md"
-    },
-    {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "unclear-sharing-expectations.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
-      "target": "fear-of-failure.md"
-    },
-    {
-      "source": "inconsistent-behavior.md",
-      "target": "integer-overflow-underflow.md"
+      "target": "tool-limitations.md"
     },
     {
       "source": "legacy-skill-shortage.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "code-duplication.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "poor-test-coverage.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "reduced-review-participation.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "history-of-failed-changes.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "poor-planning.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "team-demoralization.md",
+      "target": "individual-recognition-culture.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "tangled-cross-cutting-concerns.md"
+    },
+    {
+      "source": "external-service-delays.md",
+      "target": "breaking-changes.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "reduced-code-submission-frequency.md",
+      "target": "author-frustration.md"
+    },
+    {
+      "source": "system-stagnation.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "synchronization-problems.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "avoidance-behaviors.md",
+      "target": "mental-fatigue.md"
+    },
+    {
+      "source": "increased-stress-and-burnout.md",
+      "target": "uneven-work-flow.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "mental-fatigue.md",
+      "target": "cognitive-overload.md"
+    },
+    {
+      "source": "unmotivated-employees.md",
+      "target": "inadequate-mentoring-structure.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "poor-user-experience-ux-design.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
       "target": "budget-overruns.md"
     },
     {
@@ -13653,368 +11717,2304 @@ const graph = {
       "target": "cv-driven-development.md"
     },
     {
-      "source": "maintenance-overhead.md",
-      "target": "high-coupling-low-cohesion.md"
+      "source": "inadequate-configuration-management.md",
+      "target": "information-decay.md"
     },
     {
-      "source": "implementation-rework.md",
-      "target": "cargo-culting.md"
+      "source": "second-system-effect.md",
+      "target": "product-direction-chaos.md"
     },
     {
-      "source": "god-object-anti-pattern.md",
-      "target": "uncontrolled-codebase-growth.md"
+      "source": "delayed-project-timelines.md",
+      "target": "difficult-developer-onboarding.md"
     },
     {
-      "source": "inconsistent-behavior.md",
-      "target": "data-migration-integrity-issues.md"
+      "source": "inefficient-development-environment.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "large-estimates-for-small-changes.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "poor-teamwork.md"
+    },
+    {
+      "source": "legal-disputes.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "feature-bloat.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "upstream-timeouts.md",
+      "target": "high-api-latency.md"
+    },
+    {
+      "source": "maintenance-cost-increase.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "clever-code.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "delayed-project-timelines.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "overworked-teams.md"
+    },
+    {
+      "source": "high-number-of-database-queries.md",
+      "target": "imperative-data-fetching-logic.md"
+    },
+    {
+      "source": "high-connection-count.md",
+      "target": "misconfigured-connection-pools.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "defensive-coding-practices.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "constant-firefighting.md"
     },
     {
       "source": "cross-system-data-synchronization-problems.md",
       "target": "complex-and-obscure-logic.md"
     },
     {
-      "source": "implementation-rework.md",
-      "target": "feedback-isolation.md"
+      "source": "no-continuous-feedback-loop.md",
+      "target": "stakeholder-developer-communication-gap.md"
     },
     {
-      "source": "high-technical-debt.md",
-      "target": "maintenance-paralysis.md"
-    },
-    {
-      "source": "slow-development-velocity.md",
-      "target": "operational-overhead.md"
-    },
-    {
-      "source": "configuration-drift.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "team-silos.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "insufficient-design-skills.md",
-      "target": "misunderstanding-of-oop.md"
-    },
-    {
-      "source": "manual-deployment-processes.md",
-      "target": "monolithic-architecture-constraints.md"
-    },
-    {
-      "source": "slow-application-performance.md",
-      "target": "high-api-latency.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "manual-deployment-processes.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "team-silos.md"
-    },
-    {
-      "source": "inability-to-innovate.md",
-      "target": "high-technical-debt.md"
-    },
-    {
-      "source": "high-defect-rate-in-production.md",
-      "target": "regression-bugs.md"
-    },
-    {
-      "source": "style-arguments-in-code-reviews.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "implementation-starts-without-design.md",
-      "target": "inexperienced-developers.md"
-    },
-    {
-      "source": "slow-incident-resolution.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "declining-business-metrics.md",
-      "target": "slow-application-performance.md"
-    },
-    {
-      "source": "flaky-tests.md",
-      "target": "external-service-delays.md"
-    },
-    {
-      "source": "poor-domain-model.md",
-      "target": "knowledge-gaps.md"
-    },
-    {
-      "source": "configuration-drift.md",
-      "target": "technology-stack-fragmentation.md"
-    },
-    {
-      "source": "cognitive-overload.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "cv-driven-development.md",
-      "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "high-database-resource-utilization.md",
-      "target": "poor-caching-strategy.md"
-    },
-    {
-      "source": "difficult-to-test-code.md",
-      "target": "inadequate-test-infrastructure.md"
-    },
-    {
-      "source": "micromanagement-culture.md",
-      "target": "work-blocking.md"
+      "source": "knowledge-silos.md",
+      "target": "poor-documentation.md"
     },
     {
       "source": "cross-system-data-synchronization-problems.md",
-      "target": "cache-invalidation-problems.md"
-    },
-    {
-      "source": "inefficient-database-indexing.md",
-      "target": "unused-indexes.md"
-    },
-    {
-      "source": "legacy-code-without-tests.md",
-      "target": "high-coupling-low-cohesion.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
       "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "service-timeouts.md",
+      "target": "task-queues-backing-up.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "complex-and-obscure-logic.md"
     },
     {
       "source": "developer-frustration-and-burnout.md",
-      "target": "testing-environment-fragility.md"
+      "target": "legacy-api-versioning-nightmare.md"
     },
     {
-      "source": "inadequate-configuration-management.md",
-      "target": "high-technical-debt.md"
+      "source": "integration-difficulties.md",
+      "target": "technology-isolation.md"
     },
     {
-      "source": "delayed-issue-resolution.md",
-      "target": "lack-of-ownership-and-accountability.md"
+      "source": "user-trust-erosion.md",
+      "target": "poor-user-experience-ux-design.md"
     },
     {
-      "source": "fear-of-change.md",
-      "target": "past-negative-experiences.md"
+      "source": "operational-overhead.md",
+      "target": "vendor-dependency-entrapment.md"
     },
     {
-      "source": "feature-creep.md",
-      "target": "scope-creep.md"
+      "source": "vendor-lock-in.md",
+      "target": "gold-plating.md"
     },
     {
-      "source": "tangled-cross-cutting-concerns.md",
-      "target": "stagnant-architecture.md"
-    },
-    {
-      "source": "memory-leaks.md",
-      "target": "unbounded-data-structures.md"
-    },
-    {
-      "source": "inconsistent-codebase.md",
-      "target": "code-review-inefficiency.md"
-    },
-    {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "hardcoded-values.md"
-    },
-    {
-      "source": "unmotivated-employees.md",
-      "target": "inadequate-mentoring-structure.md"
-    },
-    {
-      "source": "high-turnover.md",
-      "target": "overworked-teams.md"
-    },
-    {
-      "source": "reduced-predictability.md",
-      "target": "work-queue-buildup.md"
+      "source": "slow-development-velocity.md",
+      "target": "schema-evolution-paralysis.md"
     },
     {
       "source": "high-defect-rate-in-production.md",
-      "target": "cross-system-data-synchronization-problems.md"
+      "target": "brittle-codebase.md"
     },
     {
-      "source": "insufficient-design-skills.md",
+      "source": "long-release-cycles.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "context-switching-overhead.md"
+    },
+    {
+      "source": "duplicated-effort.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "declining-business-metrics.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "legacy-code-without-tests.md",
       "target": "time-pressure.md"
     },
     {
-      "source": "planning-credibility-issues.md",
-      "target": "wasted-development-effort.md"
+      "source": "knowledge-silos.md",
+      "target": "team-churn-impact.md"
     },
     {
-      "source": "analysis-paralysis.md",
-      "target": "modernization-strategy-paralysis.md"
+      "source": "slow-development-velocity.md",
+      "target": "difficult-code-comprehension.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "release-instability.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "n-plus-one-query-problem.md"
+    },
+    {
+      "source": "refactoring-avoidance.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "information-fragmentation.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "defensive-coding-practices.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "deployment-risk.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "scaling-inefficiencies.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "difficult-code-comprehension.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "over-reliance-on-utility-classes.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "increased-stress-and-burnout.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "delayed-bug-fixes.md"
+    },
+    {
+      "source": "hidden-dependencies.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "monolithic-functions-and-classes.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "synchronization-problems.md"
     },
     {
       "source": "high-technical-debt.md",
       "target": "refactoring-avoidance.md"
     },
     {
-      "source": "inadequate-configuration-management.md",
-      "target": "legacy-configuration-management-chaos.md"
+      "source": "cascade-failures.md",
+      "target": "inadequate-configuration-management.md"
     },
     {
-      "source": "cargo-culting.md",
-      "target": "implementation-starts-without-design.md"
+      "source": "modernization-roi-justification-failure.md",
+      "target": "fear-of-failure.md"
     },
     {
-      "source": "time-pressure.md",
-      "target": "product-direction-chaos.md"
+      "source": "testing-complexity.md",
+      "target": "hidden-dependencies.md"
     },
     {
-      "source": "high-bug-introduction-rate.md",
-      "target": "lower-code-quality.md"
+      "source": "increased-cost-of-development.md",
+      "target": "high-bug-introduction-rate.md"
     },
     {
-      "source": "vendor-lock-in.md",
-      "target": "time-pressure.md"
+      "source": "user-confusion.md",
+      "target": "synchronization-problems.md"
     },
     {
-      "source": "workaround-culture.md",
-      "target": "maintenance-paralysis.md"
+      "source": "high-technical-debt.md",
+      "target": "difficulty-quantifying-benefits.md"
     },
     {
-      "source": "delayed-decision-making.md",
-      "target": "analysis-paralysis.md"
+      "source": "god-object-anti-pattern.md",
+      "target": "convenience-driven-development.md"
     },
     {
-      "source": "long-release-cycles.md",
-      "target": "deployment-coupling.md"
+      "source": "increased-cognitive-load.md",
+      "target": "context-switching-overhead.md"
     },
     {
-      "source": "lower-code-quality.md",
-      "target": "overworked-teams.md"
+      "source": "increasing-brittleness.md",
+      "target": "tight-coupling-issues.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "deployment-environment-inconsistencies.md",
+      "target": "configuration-chaos.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "refactoring-avoidance.md"
+    },
+    {
+      "source": "high-resource-utilization-on-client.md",
+      "target": "high-api-latency.md"
+    },
+    {
+      "source": "god-object-anti-pattern.md",
+      "target": "single-entry-point-design.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "bikeshedding.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "resistance-to-change.md"
     },
     {
       "source": "team-demoralization.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "insufficient-code-review.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "poor-documentation.md",
+      "target": "unclear-documentation-ownership.md"
+    },
+    {
+      "source": "skill-development-gaps.md",
+      "target": "avoidance-behaviors.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "feature-bloat.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "skill-development-gaps.md",
+      "target": "reduced-review-participation.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "service-timeouts.md"
+    },
+    {
+      "source": "accumulation-of-workarounds.md",
+      "target": "refactoring-avoidance.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "stakeholder-frustration.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "staff-availability-issues.md"
+    },
+    {
+      "source": "team-churn-impact.md",
+      "target": "high-turnover.md"
+    },
+    {
+      "source": "unproductive-meetings.md",
+      "target": "bikeshedding.md"
+    },
+    {
+      "source": "reduced-code-submission-frequency.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "memory-swapping.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "partial-bug-fixes.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "limited-team-learning.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "poor-communication.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "increased-manual-work.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "poor-user-experience-ux-design.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "frequent-changes-to-requirements.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "unclear-sharing-expectations.md"
+    },
+    {
+      "source": "slow-feature-development.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "frequent-hotfixes-and-rollbacks.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "delayed-bug-fixes.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "excessive-class-size.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "long-build-and-test-times.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "inadequate-initial-reviews.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "procedural-programming-in-oop-languages.md",
+      "target": "procedural-background.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "rapid-system-changes.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "accumulated-decision-debt.md"
+    },
+    {
+      "source": "large-estimates-for-small-changes.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "communication-risk-outside-project.md"
+    },
+    {
+      "source": "tacit-knowledge.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "process-design-flaws.md"
+    },
+    {
+      "source": "global-state-and-side-effects.md",
+      "target": "hidden-side-effects.md"
+    },
+    {
+      "source": "increased-time-to-market.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "workaround-culture.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "missing-rollback-strategy.md"
+    },
+    {
+      "source": "increased-cost-of-development.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "external-service-delays.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "database-query-performance-issues.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "rapid-prototyping-becoming-production.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "excessive-object-allocation.md",
+      "target": "integer-overflow-underflow.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "poorly-defined-responsibilities.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "extended-research-time.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "unpredictable-system-behavior.md",
+      "target": "configuration-chaos.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "difficulty-quantifying-benefits.md"
+    },
+    {
+      "source": "operational-overhead.md",
+      "target": "data-protection-risk.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "reduced-team-flexibility.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "immature-delivery-strategy.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "lower-code-quality.md",
       "target": "unmotivated-employees.md"
     },
     {
-      "source": "single-entry-point-design.md",
-      "target": "convenience-driven-development.md"
+      "source": "technology-isolation.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "excessive-disk-io.md",
+      "target": "excessive-logging.md"
+    },
+    {
+      "source": "difficult-code-comprehension.md",
+      "target": "insufficient-code-review.md"
+    },
+    {
+      "source": "unclear-goals-and-priorities.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "context-switching-overhead.md",
+      "target": "work-queue-buildup.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "slow-knowledge-transfer.md"
     },
     {
       "source": "data-protection-risk.md",
       "target": "communication-breakdown.md"
     },
     {
-      "source": "uneven-workload-distribution.md",
-      "target": "capacity-mismatch.md"
+      "source": "merge-conflicts.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "single-points-of-failure.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "n-plus-one-query-problem.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "new-hire-frustration.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "quality-compromises.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "slow-response-times-for-lists.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "code-duplication.md",
+      "target": "incomplete-knowledge.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "procedural-background.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "feature-creep-without-refactoring.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "vendor-dependency.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "release-anxiety.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "increased-bug-count.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "global-state-and-side-effects.md"
+    },
+    {
+      "source": "hidden-dependencies.md",
+      "target": "shadow-systems.md"
     },
     {
       "source": "reduced-individual-productivity.md",
       "target": "unmotivated-employees.md"
     },
     {
-      "source": "inconsistent-codebase.md",
-      "target": "mixed-coding-styles.md"
-    },
-    {
-      "source": "duplicated-effort.md",
-      "target": "knowledge-silos.md"
-    },
-    {
-      "source": "synchronization-problems.md",
-      "target": "false-sharing.md"
-    },
-    {
-      "source": "blame-culture.md",
-      "target": "inadequate-onboarding.md"
-    },
-    {
-      "source": "delayed-value-delivery.md",
-      "target": "legacy-api-versioning-nightmare.md"
-    },
-    {
-      "source": "service-timeouts.md",
-      "target": "poor-interfaces-between-applications.md"
-    },
-    {
-      "source": "refactoring-avoidance.md",
+      "source": "technology-lock-in.md",
       "target": "short-term-focus.md"
     },
     {
-      "source": "legacy-business-logic-extraction-difficulty.md",
-      "target": "legacy-system-documentation-archaeology.md"
+      "source": "debugging-difficulties.md",
+      "target": "global-state-and-side-effects.md"
     },
     {
-      "source": "delayed-value-delivery.md",
-      "target": "second-system-effect.md"
+      "source": "regulatory-compliance-drift.md",
+      "target": "resource-allocation-failures.md"
     },
     {
-      "source": "implementation-rework.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
+      "source": "scope-creep.md",
+      "target": "frequent-changes-to-requirements.md"
     },
     {
-      "source": "developer-frustration-and-burnout.md",
-      "target": "legacy-business-logic-extraction-difficulty.md"
+      "source": "poor-domain-model.md",
+      "target": "knowledge-gaps.md"
     },
     {
-      "source": "difficult-to-test-code.md",
-      "target": "hardcoded-values.md"
+      "source": "poor-interfaces-between-applications.md",
+      "target": "monolithic-architecture-constraints.md"
     },
     {
-      "source": "organizational-structure-mismatch.md",
+      "source": "user-trust-erosion.md",
+      "target": "high-defect-rate-in-production.md"
+    },
+    {
+      "source": "cascade-delays.md",
+      "target": "resource-contention.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "database-schema-design-problems.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "duplicated-research-effort.md"
+    },
+    {
+      "source": "high-client-side-resource-consumption.md",
+      "target": "inefficient-frontend-code.md"
+    },
+    {
+      "source": "negative-brand-perception.md",
+      "target": "incomplete-projects.md"
+    },
+    {
+      "source": "increased-time-to-market.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "legal-disputes.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "copy-paste-programming.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "complex-deployment-process.md",
       "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "vendor-relationship-strain.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "process-design-flaws.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "reduced-review-participation.md"
     },
     {
       "source": "vendor-lock-in.md",
       "target": "eager-to-please-stakeholders.md"
     },
     {
-      "source": "inconsistent-codebase.md",
-      "target": "inconsistent-coding-standards.md"
+      "source": "manual-deployment-processes.md",
+      "target": "short-term-focus.md"
     },
     {
-      "source": "increased-technical-shortcuts.md",
-      "target": "premature-technology-introduction.md"
+      "source": "insufficient-testing.md",
+      "target": "system-integration-blindness.md"
     },
     {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "strangler-fig-pattern-failures.md"
+      "source": "vendor-lock-in.md",
+      "target": "time-pressure.md"
     },
     {
-      "source": "user-trust-erosion.md",
-      "target": "user-confusion.md"
+      "source": "flaky-tests.md",
+      "target": "race-conditions.md"
     },
     {
-      "source": "brittle-codebase.md",
-      "target": "global-state-and-side-effects.md"
+      "source": "hardcoded-values.md",
+      "target": "review-process-breakdown.md"
     },
     {
-      "source": "brittle-codebase.md",
-      "target": "cargo-culting.md"
-    },
-    {
-      "source": "increased-time-to-market.md",
+      "source": "difficult-developer-onboarding.md",
       "target": "high-technical-debt.md"
     },
     {
-      "source": "technology-lock-in.md",
-      "target": "shared-dependencies.md"
+      "source": "difficulty-quantifying-benefits.md",
+      "target": "invisible-nature-of-technical-debt.md"
     },
     {
-      "source": "poor-user-experience-ux-design.md",
-      "target": "high-number-of-database-queries.md"
+      "source": "author-frustration.md",
+      "target": "style-arguments-in-code-reviews.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "team-coordination-issues.md"
+    },
+    {
+      "source": "assumption-based-development.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "system-stagnation.md",
+      "target": "delayed-issue-resolution.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "deployment-coupling.md"
+    },
+    {
+      "source": "schema-evolution-paralysis.md",
+      "target": "fear-of-change.md"
+    },
+    {
+      "source": "bikeshedding.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "difficult-code-reuse.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "work-queue-buildup.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "memory-swapping.md",
+      "target": "high-connection-count.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "testing-complexity.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "monitoring-gaps.md"
+    },
+    {
+      "source": "modernization-roi-justification-failure.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "review-process-avoidance.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "feature-gaps.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "maintenance-bottlenecks.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "copy-paste-programming.md"
+    },
+    {
+      "source": "resource-contention.md",
+      "target": "inefficient-code.md"
+    },
+    {
+      "source": "poor-domain-model.md",
+      "target": "procedural-programming-in-oop-languages.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "negative-user-feedback.md",
+      "target": "increased-error-rates.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "workaround-culture.md"
+    },
+    {
+      "source": "complex-implementation-paths.md",
+      "target": "feature-factory.md"
+    },
+    {
+      "source": "decision-avoidance.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "extended-cycle-times.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "synchronization-problems.md",
+      "target": "false-sharing.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "maintenance-bottlenecks.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "eager-to-please-stakeholders.md"
+    },
+    {
+      "source": "gradual-performance-degradation.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "system-outages.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "inadequate-test-infrastructure.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "decision-paralysis.md"
+    },
+    {
+      "source": "increasing-brittleness.md",
+      "target": "inadequate-error-handling.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "increased-bug-count.md"
+    },
+    {
+      "source": "poor-interfaces-between-applications.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "knowledge-sharing-breakdown.md",
+      "target": "unmotivated-employees.md"
+    },
+    {
+      "source": "procedural-programming-in-oop-languages.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "unclear-sharing-expectations.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "mental-fatigue.md"
+    },
+    {
+      "source": "mental-fatigue.md",
+      "target": "avoidance-behaviors.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "system-integration-blindness.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "mixed-coding-styles.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "overworked-teams.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "implementation-rework.md",
+      "target": "requirements-ambiguity.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "fear-of-breaking-changes.md"
+    },
+    {
+      "source": "time-pressure.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "merge-conflicts.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "spaghetti-code.md",
+      "target": "insufficient-code-review.md"
+    },
+    {
+      "source": "bikeshedding.md",
+      "target": "undefined-code-style-guidelines.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "task-queues-backing-up.md",
+      "target": "slow-application-performance.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "team-coordination-issues.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "duplicated-work.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "unproductive-meetings.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "feedback-isolation.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "cargo-culting.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "stakeholder-frustration.md"
+    },
+    {
+      "source": "long-release-cycles.md",
+      "target": "increased-manual-testing-effort.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "long-running-transactions.md"
+    },
+    {
+      "source": "n-plus-one-query-problem.md",
+      "target": "imperative-data-fetching-logic.md"
+    },
+    {
+      "source": "poor-operational-concept.md",
+      "target": "resource-allocation-failures.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "slow-database-queries.md",
+      "target": "unbounded-data-growth.md"
+    },
+    {
+      "source": "rushed-approvals.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "conflicting-reviewer-opinions.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "micromanagement-culture.md"
+    },
+    {
+      "source": "team-silos.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "analysis-paralysis.md",
+      "target": "accumulated-decision-debt.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "rapid-prototyping-becoming-production.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "poor-user-experience-ux-design.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "task-queues-backing-up.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "mental-fatigue.md"
+    },
+    {
+      "source": "reviewer-anxiety.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "inefficient-development-environment.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "misunderstanding-of-oop.md"
+    },
+    {
+      "source": "frequent-changes-to-requirements.md",
+      "target": "unrealistic-deadlines.md"
+    },
+    {
+      "source": "difficult-to-understand-code.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "slow-knowledge-transfer.md",
+      "target": "complex-domain-model.md"
+    },
+    {
+      "source": "missed-deadlines.md",
+      "target": "poor-contract-design.md"
+    },
+    {
+      "source": "brittle-codebase.md",
+      "target": "increased-technical-shortcuts.md"
+    },
+    {
+      "source": "increased-stress-and-burnout.md",
+      "target": "priority-thrashing.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "decision-paralysis.md",
+      "target": "micromanagement-culture.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "spaghetti-code.md"
+    },
+    {
+      "source": "stakeholder-frustration.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "reduced-individual-productivity.md",
+      "target": "cognitive-overload.md"
+    },
+    {
+      "source": "insufficient-testing.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "hidden-dependencies.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "inefficient-development-environment.md"
+    },
+    {
+      "source": "upstream-timeouts.md",
+      "target": "network-latency.md"
     },
     {
       "source": "reduced-team-flexibility.md",
-      "target": "skill-development-gaps.md"
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "regression-bugs.md",
+      "target": "insufficient-testing.md"
+    },
+    {
+      "source": "legal-disputes.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "customer-dissatisfaction.md"
+    },
+    {
+      "source": "inadequate-code-reviews.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "inconsistent-codebase.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "deployment-environment-inconsistencies.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "regression-bugs.md"
+    },
+    {
+      "source": "high-database-resource-utilization.md",
+      "target": "high-number-of-database-queries.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "delayed-issue-resolution.md"
+    },
+    {
+      "source": "bloated-class.md",
+      "target": "uncontrolled-codebase-growth.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "resource-waste.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "unrealistic-deadlines.md",
+      "target": "planning-credibility-issues.md"
+    },
+    {
+      "source": "procrastination-on-complex-tasks.md",
+      "target": "mental-fatigue.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "high-turnover.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "development-disruption.md"
+    },
+    {
+      "source": "high-connection-count.md",
+      "target": "incorrect-max-connection-pool-size.md"
+    },
+    {
+      "source": "competitive-disadvantage.md",
+      "target": "regulatory-compliance-drift.md"
+    },
+    {
+      "source": "reduced-team-productivity.md",
+      "target": "team-coordination-issues.md"
+    },
+    {
+      "source": "legacy-code-without-tests.md",
+      "target": "maintenance-paralysis.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "shared-dependencies.md",
+      "target": "convenience-driven-development.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "insufficient-design-skills.md"
+    },
+    {
+      "source": "maintenance-paralysis.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "manual-deployment-processes.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "unclear-sharing-expectations.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "analysis-paralysis.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "feature-creep.md",
+      "target": "unclear-goals-and-priorities.md"
     },
     {
       "source": "misaligned-deliverables.md",
       "target": "constantly-shifting-deadlines.md"
     },
     {
-      "source": "legacy-api-versioning-nightmare.md",
+      "source": "developer-frustration-and-burnout.md",
+      "target": "market-pressure.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "delayed-issue-resolution.md"
+    },
+    {
+      "source": "legacy-configuration-management-chaos.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "single-points-of-failure.md"
+    },
+    {
+      "source": "automated-tooling-ineffectiveness.md",
+      "target": "team-churn-impact.md"
+    },
+    {
+      "source": "vendor-relationship-strain.md",
+      "target": "poor-contract-design.md"
+    },
+    {
+      "source": "unmotivated-employees.md",
+      "target": "increased-manual-work.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
+      "target": "nitpicking-culture.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "unpredictable-system-behavior.md"
+    },
+    {
+      "source": "incomplete-projects.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
       "target": "short-term-focus.md"
     },
     {
-      "source": "inadequate-test-data-management.md",
+      "source": "complex-and-obscure-logic.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "release-instability.md",
+      "target": "immature-delivery-strategy.md"
+    },
+    {
+      "source": "user-trust-erosion.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "duplicated-work.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "test-debt.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "modernization-strategy-paralysis.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "poor-teamwork.md"
+    },
+    {
+      "source": "procedural-background.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "inconsistent-knowledge-acquisition.md"
+    },
+    {
+      "source": "fear-of-breaking-changes.md",
+      "target": "history-of-failed-changes.md"
+    },
+    {
+      "source": "database-schema-design-problems.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "configuration-drift.md"
+    },
+    {
+      "source": "inconsistent-behavior.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "long-running-transactions.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "code-review-inefficiency.md",
       "target": "tool-limitations.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "null-pointer-dereferences.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "cross-system-data-synchronization-problems.md"
+    },
+    {
+      "source": "feature-bloat.md",
+      "target": "budget-overruns.md"
+    },
+    {
+      "source": "high-coupling-low-cohesion.md",
+      "target": "ripple-effect-of-changes.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "hidden-dependencies.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "god-object-anti-pattern.md"
+    },
+    {
+      "source": "constant-firefighting.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "excessive-disk-io.md",
+      "target": "memory-swapping.md"
+    },
+    {
+      "source": "increased-error-rates.md",
+      "target": "null-pointer-dereferences.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "team-silos.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "premature-technology-introduction.md"
+    },
+    {
+      "source": "inconsistent-execution.md",
+      "target": "poor-documentation.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "fear-of-failure.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "strangler-fig-pattern-failures.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "difficult-developer-onboarding.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "team-dysfunction.md"
+    },
+    {
+      "source": "poor-test-coverage.md",
+      "target": "flaky-tests.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "technology-stack-fragmentation.md"
+    },
+    {
+      "source": "cascade-failures.md",
+      "target": "service-timeouts.md"
+    },
+    {
+      "source": "work-queue-buildup.md",
+      "target": "capacity-mismatch.md"
+    },
+    {
+      "source": "maintenance-overhead.md",
+      "target": "quality-blind-spots.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "brittle-codebase.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "outdated-tests.md"
+    },
+    {
+      "source": "stakeholder-confidence-loss.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "bikeshedding.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "fear-of-change.md",
+      "target": "increasing-brittleness.md"
+    },
+    {
+      "source": "increased-cognitive-load.md",
+      "target": "mixed-coding-styles.md"
+    },
+    {
+      "source": "quality-compromises.md",
+      "target": "poor-contract-design.md"
+    },
+    {
+      "source": "technology-stack-fragmentation.md",
+      "target": "poor-interfaces-between-applications.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "project-resource-constraints.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "high-api-latency.md",
+      "target": "network-latency.md"
+    },
+    {
+      "source": "vendor-dependency-entrapment.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "stakeholder-developer-communication-gap.md"
+    },
+    {
+      "source": "reviewer-anxiety.md",
+      "target": "reviewer-inexperience.md"
+    },
+    {
+      "source": "cv-driven-development.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "increased-customer-support-load.md",
+      "target": "system-outages.md"
+    },
+    {
+      "source": "lower-code-quality.md",
+      "target": "developer-frustration-and-burnout.md"
+    },
+    {
+      "source": "high-maintenance-costs.md",
+      "target": "legacy-skill-shortage.md"
+    },
+    {
+      "source": "slow-application-performance.md",
+      "target": "high-number-of-database-queries.md"
+    },
+    {
+      "source": "unbounded-data-growth.md",
+      "target": "unbounded-data-structures.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "high-coupling-low-cohesion.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "legacy-api-versioning-nightmare.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "manual-deployment-processes.md"
+    },
+    {
+      "source": "conflicting-reviewer-opinions.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "knowledge-dependency.md"
+    },
+    {
+      "source": "high-turnover.md",
+      "target": "micromanagement-culture.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "reduced-team-productivity.md"
+    },
+    {
+      "source": "inability-to-innovate.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "single-entry-point-design.md",
+      "target": "inexperienced-developers.md"
+    },
+    {
+      "source": "modernization-strategy-paralysis.md",
+      "target": "unclear-goals-and-priorities.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "unclear-goals-and-priorities.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "frequent-hotfixes-and-rollbacks.md"
+    },
+    {
+      "source": "project-resource-constraints.md",
+      "target": "competing-priorities.md"
+    },
+    {
+      "source": "implementation-starts-without-design.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "legacy-api-versioning-nightmare.md",
+      "target": "obsolete-technologies.md"
+    },
+    {
+      "source": "communication-breakdown.md",
+      "target": "blame-culture.md"
+    },
+    {
+      "source": "misaligned-deliverables.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "external-service-delays.md",
+      "target": "upstream-timeouts.md"
+    },
+    {
+      "source": "review-bottlenecks.md",
+      "target": "review-process-breakdown.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "poor-operational-concept.md"
+    },
+    {
+      "source": "difficult-to-test-code.md",
+      "target": "legacy-code-without-tests.md"
+    },
+    {
+      "source": "reduced-feature-quality.md",
+      "target": "staff-availability-issues.md"
+    },
+    {
+      "source": "new-hire-frustration.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "missed-deadlines.md"
+    },
+    {
+      "source": "mentor-burnout.md",
+      "target": "knowledge-sharing-breakdown.md"
+    },
+    {
+      "source": "integration-difficulties.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "high-defect-rate-in-production.md",
+      "target": "data-migration-integrity-issues.md"
+    },
+    {
+      "source": "hardcoded-values.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "data-migration-complexities.md",
+      "target": "tight-coupling-issues.md"
+    },
+    {
+      "source": "missing-rollback-strategy.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "budget-overruns.md",
+      "target": "vendor-lock-in.md"
+    },
+    {
+      "source": "tight-coupling-issues.md",
+      "target": "tangled-cross-cutting-concerns.md"
+    },
+    {
+      "source": "bottleneck-formation.md",
+      "target": "process-design-flaws.md"
+    },
+    {
+      "source": "blame-culture.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "complex-and-obscure-logic.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "technology-isolation.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "hardcoded-values.md"
+    },
+    {
+      "source": "high-technical-debt.md",
+      "target": "cv-driven-development.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "second-system-effect.md"
+    },
+    {
+      "source": "delayed-decision-making.md",
+      "target": "team-confusion.md"
+    },
+    {
+      "source": "delayed-project-timelines.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "poor-domain-model.md"
+    },
+    {
+      "source": "decision-avoidance.md",
+      "target": "perfectionist-culture.md"
+    },
+    {
+      "source": "data-protection-risk.md",
+      "target": "poorly-defined-responsibilities.md"
+    },
+    {
+      "source": "legacy-system-documentation-archaeology.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "user-frustration.md",
+      "target": "system-outages.md"
+    },
+    {
+      "source": "increased-manual-testing-effort.md",
+      "target": "inadequate-test-infrastructure.md"
+    },
+    {
+      "source": "information-decay.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "product-direction-chaos.md"
+    },
+    {
+      "source": "thread-pool-exhaustion.md",
+      "target": "service-timeouts.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "spaghetti-code.md"
+    },
+    {
+      "source": "scaling-inefficiencies.md",
+      "target": "shared-database.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "inadequate-code-reviews.md"
+    },
+    {
+      "source": "gold-plating.md",
+      "target": "scope-creep.md"
+    },
+    {
+      "source": "cargo-culting.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "insufficient-code-review.md",
+      "target": "code-review-inefficiency.md"
+    },
+    {
+      "source": "high-bug-introduction-rate.md",
+      "target": "automated-tooling-ineffectiveness.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "difficult-to-understand-code.md"
+    },
+    {
+      "source": "strangler-fig-pattern-failures.md",
+      "target": "schema-evolution-paralysis.md"
+    },
+    {
+      "source": "global-state-and-side-effects.md",
+      "target": "time-pressure.md"
+    },
+    {
+      "source": "release-anxiety.md",
+      "target": "fear-of-conflict.md"
+    },
+    {
+      "source": "debugging-difficulties.md",
+      "target": "inadequate-configuration-management.md"
+    },
+    {
+      "source": "stakeholder-developer-communication-gap.md",
+      "target": "invisible-nature-of-technical-debt.md"
+    },
+    {
+      "source": "delayed-value-delivery.md",
+      "target": "team-silos.md"
+    },
+    {
+      "source": "team-coordination-issues.md",
+      "target": "rapid-system-changes.md"
+    },
+    {
+      "source": "changing-project-scope.md",
+      "target": "inadequate-requirements-gathering.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "increased-manual-testing-effort.md"
+    },
+    {
+      "source": "work-queue-buildup.md",
+      "target": "approval-dependencies.md"
+    },
+    {
+      "source": "single-points-of-failure.md",
+      "target": "implicit-knowledge.md"
+    },
+    {
+      "source": "legacy-skill-shortage.md",
+      "target": "knowledge-silos.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "past-negative-experiences.md"
+    },
+    {
+      "source": "reduced-innovation.md",
+      "target": "review-bottlenecks.md"
+    },
+    {
+      "source": "architectural-mismatch.md",
+      "target": "technology-lock-in.md"
+    },
+    {
+      "source": "high-resource-utilization-on-client.md",
+      "target": "memory-leaks.md"
+    },
+    {
+      "source": "legacy-business-logic-extraction-difficulty.md",
+      "target": "legacy-system-documentation-archaeology.md"
+    },
+    {
+      "source": "planning-credibility-issues.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "scope-creep.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "knowledge-gaps.md"
+    },
+    {
+      "source": "difficult-developer-onboarding.md",
+      "target": "implicit-knowledge.md"
+    },
+    {
+      "source": "developer-frustration-and-burnout.md",
+      "target": "high-bug-introduction-rate.md"
+    },
+    {
+      "source": "increasing-brittleness.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "bottleneck-formation.md"
+    },
+    {
+      "source": "quality-degradation.md",
+      "target": "high-technical-debt.md"
+    },
+    {
+      "source": "unbounded-data-structures.md",
+      "target": "session-management-issues.md"
+    },
+    {
+      "source": "increased-time-to-market.md",
+      "target": "complex-deployment-process.md"
+    },
+    {
+      "source": "technology-lock-in.md",
+      "target": "stagnant-architecture.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "slow-development-velocity.md"
+    },
+    {
+      "source": "declining-business-metrics.md",
+      "target": "modernization-roi-justification-failure.md"
+    },
+    {
+      "source": "cross-system-data-synchronization-problems.md",
+      "target": "tool-limitations.md"
+    },
+    {
+      "source": "inconsistent-codebase.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "accumulation-of-workarounds.md"
+    },
+    {
+      "source": "unclear-goals-and-priorities.md",
+      "target": "short-term-focus.md"
+    },
+    {
+      "source": "team-confusion.md",
+      "target": "communication-breakdown.md"
+    },
+    {
+      "source": "unclear-goals-and-priorities.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "second-system-effect.md",
+      "target": "implementation-starts-without-design.md"
+    },
+    {
+      "source": "inconsistent-naming-conventions.md",
+      "target": "lack-of-ownership-and-accountability.md"
+    },
+    {
+      "source": "configuration-drift.md",
+      "target": "legacy-configuration-management-chaos.md"
+    },
+    {
+      "source": "review-process-breakdown.md",
+      "target": "team-members-not-engaged-in-review-process.md"
+    },
+    {
+      "source": "inadequate-requirements-gathering.md",
+      "target": "assumption-based-development.md"
+    },
+    {
+      "source": "shared-database.md",
+      "target": "monolithic-architecture-constraints.md"
+    },
+    {
+      "source": "knowledge-silos.md",
+      "target": "inconsistent-naming-conventions.md"
+    },
+    {
+      "source": "increased-risk-of-bugs.md",
+      "target": "large-pull-requests.md"
+    },
+    {
+      "source": "monolithic-functions-and-classes.md",
+      "target": "merge-conflicts.md"
+    },
+    {
+      "source": "growing-task-queues.md",
+      "target": "external-service-delays.md"
+    },
+    {
+      "source": "deployment-risk.md",
+      "target": "change-management-chaos.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "vendor-dependency-entrapment.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "complex-and-obscure-logic.md"
+    },
+    {
+      "source": "stagnant-architecture.md",
+      "target": "resistance-to-change.md"
+    },
+    {
+      "source": "vendor-lock-in.md",
+      "target": "planning-dysfunction.md"
+    },
+    {
+      "source": "maintenance-cost-increase.md",
+      "target": "information-decay.md"
+    },
+    {
+      "source": "development-disruption.md",
+      "target": "unproductive-meetings.md"
+    },
+    {
+      "source": "inadequate-configuration-management.md",
+      "target": "inadequate-onboarding.md"
+    },
+    {
+      "source": "data-migration-integrity-issues.md",
+      "target": "testing-environment-fragility.md"
+    },
+    {
+      "source": "knowledge-gaps.md",
+      "target": "incomplete-knowledge.md"
+    },
+    {
+      "source": "feature-creep.md",
+      "target": "market-pressure.md"
+    },
+    {
+      "source": "testing-complexity.md",
+      "target": "tight-coupling-issues.md"
+    },
+    {
+      "source": "regulatory-compliance-drift.md",
+      "target": "legacy-configuration-management-chaos.md"
     }
   ]
 };
@@ -14101,6 +14101,10 @@ const node = container.append('g')
         .on('drag', dragged)
         .on('end', dragended));
 
+// Variables to handle selection and opacity
+let selectedNode = null;
+const nonActiveOpacity = 0.2;
+
 node.append('circle')
     .attr('r', function(d) { return d.size || 10; })
     .attr('fill', function(d) { return color(d.category); });
@@ -14111,22 +14115,40 @@ node.append('text')
     
 const tooltip = d3.select(".tooltip");
 
+// Update event handlers and add 'click' handler.
 node.on("mouseover", (event, d) => {
     tooltip.transition().style("opacity", 1);
     tooltip.html(`<strong>${d.title}</strong><br/><em>${d.category}</em><br/>${d.description}`)
         .style("left", (event.pageX + 15) + "px")
         .style("top", (event.pageY - 28) + "px");
-    link.style('stroke-opacity', l => (l.source === d || l.target === d) ? 1 : 0.2);
-    link.style('stroke', l => (l.source === d || l.target === d) ? '#6c757d' : '#adb5bd');
+    
+    // Only apply hover effect if no node is selected
+    if (!selectedNode) {
+        node.style('opacity', otherNode => (otherNode.id === d.id ? 1 : nonActiveOpacity));
+        link.style('stroke-opacity', l => (l.source === d || l.target === d) ? 1 : nonActiveOpacity);
+        link.style('stroke', l => (l.source === d || l.target === d) ? '#6c757d' : '#adb5bd');
+    }
 })
 .on("mouseout", () => {
     tooltip.transition().style("opacity", 0);
-    link.style('stroke-opacity', 0.6);
-    link.style('stroke', '#adb5bd');
+    // On mouse out, apply style according to selection (or reset if none)
+    updateStyles();
+})
+.on("click", (event, d) => {
+    event.stopPropagation(); // Prevent click from propagating to background (SVG)
+    // If clicking the already selected node, deselect. Otherwise, select.
+    selectedNode = (selectedNode && selectedNode.id === d.id) ? null : d;
+    updateStyles();
 })
 .on("dblclick", (event, d) => {
     event.stopPropagation();
     openModal(d);
+});
+
+// Click on background to deselect all
+svg.on('click', function() {
+    selectedNode = null;
+    updateStyles();
 });
 
 const categories = [...new Set(graph.nodes.map(d => d.category))].sort();
@@ -14151,6 +14173,21 @@ simulation
         node
             .attr("transform", d => `translate(${d.x}, ${d.y})`);
     });
+
+// Central function to update node and link opacity
+function updateStyles() {
+    if (selectedNode) {
+        // If a node is selected
+        node.style('opacity', d => (d.id === selectedNode.id ? 1 : nonActiveOpacity));
+        link.style('stroke-opacity', l => (l.source.id === selectedNode.id || l.target.id === selectedNode.id) ? 1 : nonActiveOpacity);
+        link.style('stroke', l => (l.source.id === selectedNode.id || l.target.id === selectedNode.id) ? '#6c757d' : '#adb5bd');
+    } else {
+        // If no node is selected, everything returns to normal
+        node.style('opacity', 1);
+        link.style('stroke-opacity', 0.6);
+        link.style('stroke', '#adb5bd');
+    }
+}
 
 function dragstarted(event, d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();

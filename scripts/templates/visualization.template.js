@@ -82,6 +82,10 @@ const node = container.append('g')
         .on('drag', dragged)
         .on('end', dragended));
 
+// Variables to handle selection and opacity
+let selectedNode = null;
+const nonActiveOpacity = 0.2;
+
 node.append('circle')
     .attr('r', function(d) { return d.size || 10; })
     .attr('fill', function(d) { return color(d.category); });
@@ -92,22 +96,40 @@ node.append('text')
     
 const tooltip = d3.select(".tooltip");
 
+// Update event handlers and add 'click' handler.
 node.on("mouseover", (event, d) => {
     tooltip.transition().style("opacity", 1);
     tooltip.html(`<strong>${d.title}</strong><br/><em>${d.category}</em><br/>${d.description}`)
         .style("left", (event.pageX + 15) + "px")
         .style("top", (event.pageY - 28) + "px");
-    link.style('stroke-opacity', l => (l.source === d || l.target === d) ? 1 : 0.2);
-    link.style('stroke', l => (l.source === d || l.target === d) ? '#6c757d' : '#adb5bd');
+    
+    // Only apply hover effect if no node is selected
+    if (!selectedNode) {
+        node.style('opacity', otherNode => (otherNode.id === d.id ? 1 : nonActiveOpacity));
+        link.style('stroke-opacity', l => (l.source === d || l.target === d) ? 1 : nonActiveOpacity);
+        link.style('stroke', l => (l.source === d || l.target === d) ? '#6c757d' : '#adb5bd');
+    }
 })
 .on("mouseout", () => {
     tooltip.transition().style("opacity", 0);
-    link.style('stroke-opacity', 0.6);
-    link.style('stroke', '#adb5bd');
+    // On mouse out, apply style according to selection (or reset if none)
+    updateStyles();
+})
+.on("click", (event, d) => {
+    event.stopPropagation(); // Prevent click from propagating to background (SVG)
+    // If clicking the already selected node, deselect. Otherwise, select.
+    selectedNode = (selectedNode && selectedNode.id === d.id) ? null : d;
+    updateStyles();
 })
 .on("dblclick", (event, d) => {
     event.stopPropagation();
     openModal(d);
+});
+
+// Click on background to deselect all
+svg.on('click', function() {
+    selectedNode = null;
+    updateStyles();
 });
 
 const categories = [...new Set(graph.nodes.map(d => d.category))].sort();
@@ -132,6 +154,21 @@ simulation
         node
             .attr("transform", d => `translate(${d.x}, ${d.y})`);
     });
+
+// Central function to update node and link opacity
+function updateStyles() {
+    if (selectedNode) {
+        // If a node is selected
+        node.style('opacity', d => (d.id === selectedNode.id ? 1 : nonActiveOpacity));
+        link.style('stroke-opacity', l => (l.source.id === selectedNode.id || l.target.id === selectedNode.id) ? 1 : nonActiveOpacity);
+        link.style('stroke', l => (l.source.id === selectedNode.id || l.target.id === selectedNode.id) ? '#6c757d' : '#adb5bd');
+    } else {
+        // If no node is selected, everything returns to normal
+        node.style('opacity', 1);
+        link.style('stroke-opacity', 0.6);
+        link.style('stroke', '#adb5bd');
+    }
+}
 
 function dragstarted(event, d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();

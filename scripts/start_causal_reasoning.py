@@ -268,6 +268,68 @@ def get_prioritized_batches(similarities, completed_pairs, batch_size=10):
     
     return batches
 
+def analyze_problem_pair(prob_a, prob_b, model_config, similarity=0.0):
+    """Analyze a single problem pair and return the result"""
+    score_ab, score_ba = causal_score_pair(prob_a, prob_b, model_config)
+    
+    # Determine stronger causal direction
+    if score_ab > score_ba:
+        stronger_direction = f"{prob_a['title']} → {prob_b['title']}"
+        confidence = score_ab - score_ba
+        stronger_score = score_ab
+    elif score_ba > score_ab:
+        stronger_direction = f"{prob_b['title']} → {prob_a['title']}"
+        confidence = score_ba - score_ab
+        stronger_score = score_ba
+    else:
+        stronger_direction = "Ambiguous"
+        confidence = 0
+        stronger_score = score_ab
+    
+    return {
+        'pair': f"{prob_a['title']} ↔ {prob_b['title']}",
+        'title_a': prob_a['title'],
+        'title_b': prob_b['title'],
+        'score_ab': score_ab,
+        'score_ba': score_ba,
+        'stronger_direction': stronger_direction,
+        'confidence': confidence,
+        'stronger_score': stronger_score,
+        'similarity': similarity,
+        'timestamp': datetime.now().isoformat()
+    }
+
+def process_pairs(pairs_to_analyze, model_config, cache_data, cache_file, progress_desc="Processing"):
+    """Process a list of pairs and update cache"""
+    with tqdm(total=len(pairs_to_analyze), desc=progress_desc, position=0) as pbar:
+        for pair_info in pairs_to_analyze:
+            if isinstance(pair_info, dict) and 'prob_a' in pair_info:
+                # Batch processing format
+                prob_a = pair_info['prob_a']
+                prob_b = pair_info['prob_b']
+                similarity = pair_info.get('similarity', 0.0)
+                pair_key = pair_info['pair_key']
+                pbar.set_description(f"Analyzing (sim:{similarity:.3f}): {prob_a['title'][:12]}...↔{prob_b['title'][:12]}...")
+            else:
+                # Non-batch processing format (tuple)
+                prob_a, prob_b = pair_info
+                similarity = 0.0
+                pair_key = get_pair_key(prob_a['title'], prob_b['title'])
+                pbar.set_description(f"Analyzing: {prob_a['title'][:15]}... ↔ {prob_b['title'][:15]}...")
+            
+            result = analyze_problem_pair(prob_a, prob_b, model_config, similarity)
+            
+            # Save to cache immediately
+            pair_key_str = f"{pair_key[0]}|{pair_key[1]}"
+            cache_data['results'][pair_key_str] = result
+            cache_data['completed_pairs'].append(list(pair_key))
+            
+            # Save cache periodically
+            if len(cache_data['completed_pairs']) % 3 == 0:
+                save_cache(cache_file, cache_data)
+            
+            pbar.update(1)
+
 def main():
     # Parse command line arguments
     args = parse_args()
@@ -378,54 +440,8 @@ def main():
             print(f"   Similarity range: {min(s['similarity'] for s in current_batch):.4f} - {max(s['similarity'] for s in current_batch):.4f}")
             print()
             
-            # Analyze current batch
-            with tqdm(total=len(current_batch), desc=f"Batch {batch_num}", position=0) as batch_pbar:
-                for sim_data in current_batch:
-                    a, b = sim_data['prob_a'], sim_data['prob_b']
-                    pair_key = sim_data['pair_key']
-                    similarity = sim_data['similarity']
-                    
-                    batch_pbar.set_description(f"Analyzing (sim:{similarity:.3f}): {a['title'][:12]}...↔{b['title'][:12]}...")
-                    
-                    score_ab, score_ba = causal_score_pair(a, b, model_config)
-                    
-                    # Determine stronger causal direction
-                    if score_ab > score_ba:
-                        stronger_direction = f"{a['title']} → {b['title']}"
-                        confidence = score_ab - score_ba
-                        stronger_score = score_ab
-                    elif score_ba > score_ab:
-                        stronger_direction = f"{b['title']} → {a['title']}"
-                        confidence = score_ba - score_ab
-                        stronger_score = score_ba
-                    else:
-                        stronger_direction = "Ambiguous"
-                        confidence = 0
-                        stronger_score = score_ab
-                    
-                    result = {
-                        'pair': f"{a['title']} ↔ {b['title']}",
-                        'title_a': a['title'],
-                        'title_b': b['title'],
-                        'score_ab': score_ab,
-                        'score_ba': score_ba,
-                        'stronger_direction': stronger_direction,
-                        'confidence': confidence,
-                        'stronger_score': stronger_score,
-                        'similarity': similarity,
-                        'timestamp': datetime.now().isoformat()
-                    }
-                    
-                    # Save to cache immediately
-                    pair_key_str = f"{pair_key[0]}|{pair_key[1]}"
-                    cache_data['results'][pair_key_str] = result
-                    cache_data['completed_pairs'].append(list(pair_key))
-                    
-                    # Save cache periodically (every 3 pairs for batched processing)
-                    if len(cache_data['completed_pairs']) % 3 == 0:
-                        save_cache(cache_file, cache_data)
-                    
-                    batch_pbar.update(1)
+            # Process the current batch
+            process_pairs(current_batch, model_config, cache_data, cache_file, f"Batch {batch_num}")
             
             print(f"\n✨ Batch {batch_num} complete! Processed {len(current_batch)} pairs")
             if batch_num < total_batches:
@@ -433,63 +449,31 @@ def main():
         else:
             # Fallback to random order if no embeddings
             print("⚠️  No embeddings available - processing first 10 pairs randomly")
-            pairs_processed = 0
             target_pairs = min(10, remaining_pairs)
             
-            with tqdm(total=target_pairs, desc="Random Order", position=0) as pbar:
-                for i in range(len(probs)):
-                    for j in range(i + 1, len(probs)):
-                        if pairs_processed >= target_pairs:
-                            break
-                        
-                        a, b = probs[i], probs[j]
-                        pair_key = get_pair_key(a['title'], b['title'])
-                        
-                        # Skip if already cached
-                        if pair_key in completed_pairs:
-                            continue
-                        
-                        pbar.set_description(f"Analyzing: {a['title'][:15]}... ↔ {b['title'][:15]}...")
-                        
-                        score_ab, score_ba = causal_score_pair(a, b, model_config)
-                        
-                        # Determine stronger causal direction
-                        if score_ab > score_ba:
-                            stronger_direction = f"{a['title']} → {b['title']}"
-                            confidence = score_ab - score_ba
-                            stronger_score = score_ab
-                        elif score_ba > score_ab:
-                            stronger_direction = f"{b['title']} → {a['title']}"
-                            confidence = score_ba - score_ab
-                            stronger_score = score_ba
-                        else:
-                            stronger_direction = "Ambiguous"
-                            confidence = 0
-                            stronger_score = score_ab
-                        
-                        result = {
-                            'pair': f"{a['title']} ↔ {b['title']}",
-                            'title_a': a['title'],
-                            'title_b': b['title'],
-                            'score_ab': score_ab,
-                            'score_ba': score_ba,
-                            'stronger_direction': stronger_direction,
-                            'confidence': confidence,
-                            'stronger_score': stronger_score,
-                            'similarity': 0.0,  # No similarity data available
-                            'timestamp': datetime.now().isoformat()
-                        }
-                        
-                        # Save to cache immediately
-                        pair_key_str = f"{pair_key[0]}|{pair_key[1]}"
-                        cache_data['results'][pair_key_str] = result
-                        cache_data['completed_pairs'].append(list(pair_key))
-                        
-                        pairs_processed += 1
-                        pbar.update(1)
-                    
-                    if pairs_processed >= target_pairs:
+            # Collect pairs for random processing
+            random_pairs = []
+            pairs_collected = 0
+            
+            for i in range(len(probs)):
+                for j in range(i + 1, len(probs)):
+                    if pairs_collected >= target_pairs:
                         break
+                    
+                    pair_key = get_pair_key(probs[i]['title'], probs[j]['title'])
+                    
+                    # Skip if already cached
+                    if pair_key in completed_pairs:
+                        continue
+                    
+                    random_pairs.append((probs[i], probs[j]))
+                    pairs_collected += 1
+                
+                if pairs_collected >= target_pairs:
+                    break
+            
+            # Process random pairs
+            process_pairs(random_pairs, model_config, cache_data, cache_file, "Random Order")
         
         # Final cache save
         save_cache(cache_file, cache_data)

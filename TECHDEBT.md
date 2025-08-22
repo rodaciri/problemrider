@@ -1,5 +1,33 @@
 # Technical Debt
 
+## Causal Analysis Script Uses Problem Titles Instead of Filenames
+
+**Problem**: The causal reasoning script (`scripts/start_causal_reasoning.py`) uses problem titles from YAML frontmatter instead of markdown filenames as identifiers, creating an additional layer of complexity in title-to-filename mapping.
+
+**Impact**: 
+- Complex title-to-slug conversion required for file operations
+- Potential mismatches between cache keys and actual filenames  
+- Additional complexity in the `update_causal_relationships.py` script to map titles back to files
+- Risk of errors when titles don't convert cleanly to expected slugs
+- Maintenance burden when problem titles change but filenames remain consistent
+
+**Root Cause**: The script processes problems by extracting titles from YAML frontmatter (line 39: `title = front.get('title')`) and uses these titles throughout the causal analysis cache instead of using the more stable filename-based slugs. Cache keys are generated using `get_pair_key(title_a, title_b)` rather than slug-based keys.
+
+**Suggested Resolution**:
+1. Modify `start_causal_reasoning.py` to use problem slugs (filenames) as primary identifiers
+2. Update cache structure to use slug-based keys instead of title-based keys  
+3. Ensure the `update_causal_relationships.py` script can work directly with slug-based mappings
+4. Add validation to ensure slug-title mapping consistency
+5. Consider using slugs as the source of truth with titles as display-only metadata
+
+**Priority**: Medium - creates complexity but current workarounds are functional
+
+**Created by**: Markus  
+**Date**: 2025-08-22
+
+---
+
+
 ## Visualization Script Often Forgotten and Not Executed
 
 **Problem**: The graph visualization script (`scripts/create_visualization.py`) is a separate manual process that is often forgotten and not executed, leading to outdated or missing visualization content.

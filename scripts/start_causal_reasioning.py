@@ -6,8 +6,6 @@ from causalstrength import evaluate
 from tqdm import tqdm
 import time
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
-import threading
 
 def extract_description_section(markdown_content):
     """Extract only the ## Description section from markdown content"""
@@ -59,8 +57,6 @@ def parse_args():
                        help='Specific cache ID to use (e.g., "20241122_143022"). If not specified, uses latest cache or creates new one.')
     parser.add_argument('--model', type=str, choices=['CESAR', 'CEQ'], default='CESAR',
                        help='Causal model to use (default: CESAR)')
-    parser.add_argument('--threads', type=int, default=1,
-                       help='Number of threads for parallel processing (default: 1)')
     return parser.parse_args()
 
 def get_model_config(model_name):
@@ -115,37 +111,6 @@ def causal_score_pair(problem_a, problem_b, model_config):
     
     print(f"   ✅ Evaluation complete!")
     return score_ab, score_ba
-
-def evaluate_pair_parallel(pair_data):
-    """Evaluate a single pair for parallel processing"""
-    problem_a, problem_b, model_config = pair_data
-    
-    # Combine both YAML description and markdown content for richer analysis
-    def format_problem_text(problem):
-        text_parts = [problem['title']]
-        if problem['yaml_description']:
-            text_parts.append(f"Summary: {problem['yaml_description']}")
-        if problem['markdown_content']:
-            text_parts.append(f"Details: {problem['markdown_content']}")
-        return " | ".join(text_parts)
-    
-    s1 = format_problem_text(problem_a)
-    s2 = format_problem_text(problem_b)
-    
-    # A → B
-    if 'model_path' in model_config:
-        score_ab = evaluate(s1, s2, model_name=model_config['model_name'], model_path=model_config['model_path'])
-        score_ba = evaluate(s2, s1, model_name=model_config['model_name'], model_path=model_config['model_path'])
-    else:
-        score_ab = evaluate(s1, s2, model_name=model_config['model_name'])
-        score_ba = evaluate(s2, s1, model_name=model_config['model_name'])
-    
-    return {
-        'problem_a': problem_a,
-        'problem_b': problem_b,
-        'score_ab': score_ab,
-        'score_ba': score_ba
-    }
 
 def get_cache_filepath(cache_id=None, model_name='CESAR'):
     """Generate cache file path with timestamp and model"""
@@ -207,7 +172,6 @@ def main():
     print("🚀 Starting Causal Reasoning Analysis")
     print("=" * 50)
     print(f"🤖 Using model: {args.model}")
-    print(f"🧵 Threads: {args.threads}")
     if args.cache_id:
         print(f"🆔 Cache ID: {args.cache_id}")
     print()
@@ -286,98 +250,60 @@ def main():
     else:
         start_time = time.time()
         
-        # Prepare pairs to analyze
-        pairs_to_analyze = []
-        for i in range(len(probs)):
-            for j in range(i + 1, len(probs)):
-                a, b = probs[i], probs[j]
-                pair_key = get_pair_key(a['title'], b['title'])
-                
-                # Skip if already cached
-                if pair_key not in completed_pairs:
-                    pairs_to_analyze.append((a, b, model_config))
-        
-        # Thread-safe cache operations
-        cache_lock = threading.Lock()
-        completed_count = 0
-        
-        def process_result(eval_result):
-            nonlocal completed_count
-            
-            a, b = eval_result['problem_a'], eval_result['problem_b']
-            score_ab, score_ba = eval_result['score_ab'], eval_result['score_ba']
-            
-            # Determine stronger causal direction
-            if score_ab > score_ba:
-                stronger_direction = f"{a['title']} → {b['title']}"
-                confidence = score_ab - score_ba
-                stronger_score = score_ab
-            elif score_ba > score_ab:
-                stronger_direction = f"{b['title']} → {a['title']}"
-                confidence = score_ba - score_ab
-                stronger_score = score_ba
-            else:
-                stronger_direction = "Ambiguous"
-                confidence = 0
-                stronger_score = score_ab
-            
-            result = {
-                'pair': f"{a['title']} ↔ {b['title']}",
-                'title_a': a['title'],
-                'title_b': b['title'],
-                'score_ab': score_ab,
-                'score_ba': score_ba,
-                'stronger_direction': stronger_direction,
-                'confidence': confidence,
-                'stronger_score': stronger_score,
-                'timestamp': datetime.now().isoformat()
-            }
-            
-            # Thread-safe cache update
-            with cache_lock:
-                pair_key = get_pair_key(a['title'], b['title'])
-                pair_key_str = f"{pair_key[0]}|{pair_key[1]}"
-                cache_data['results'][pair_key_str] = result
-                cache_data['completed_pairs'].append(list(pair_key))
-                completed_count += 1
-                
-                # Save cache periodically (every 5 pairs)
-                if completed_count % 5 == 0:
-                    save_cache(cache_file, cache_data)
-        
-        if args.threads == 1:
-            # Sequential processing with progress bar
-            with tqdm(total=len(pairs_to_analyze), desc="Analyzing Pairs") as pbar:
-                for pair_data in pairs_to_analyze:
-                    a, b, _ = pair_data
-                    pbar.set_description(f"Analyzing: {a['title'][:15]}... ↔ {b['title'][:15]}...")
-                    result = evaluate_pair_parallel(pair_data)
-                    process_result(result)
-                    pbar.update(1)
-        else:
-            # Parallel processing
-            with ThreadPoolExecutor(max_workers=args.threads) as executor:
-                # Submit all tasks
-                future_to_pair = {executor.submit(evaluate_pair_parallel, pair_data): pair_data 
-                                for pair_data in pairs_to_analyze}
-                
-                # Process results as they complete
-                with tqdm(total=len(pairs_to_analyze), desc="Analyzing Pairs") as pbar:
-                    for future in as_completed(future_to_pair):
-                        pair_data = future_to_pair[future]
-                        try:
-                            result = future.result()
-                            process_result(result)
-                            a, b, _ = pair_data
-                            pbar.set_description(f"Completed: {a['title'][:15]}... ↔ {b['title'][:15]}...")
-                        except Exception as exc:
-                            a, b, _ = pair_data
-                            print(f'Pair {a["title"]} ↔ {b["title"]} generated an exception: {exc}')
-                        pbar.update(1)
+        # Analyze remaining pairs with overall progress bar
+        with tqdm(total=remaining_pairs, desc="Overall Progress", position=0) as overall_pbar:
+            for i in range(len(probs)):
+                for j in range(i + 1, len(probs)):
+                    a, b = probs[i], probs[j]
+                    pair_key = get_pair_key(a['title'], b['title'])
+                    
+                    # Skip if already cached
+                    if pair_key in completed_pairs:
+                        continue
+                    
+                    overall_pbar.set_description(f"Analyzing: {a['title'][:15]}... ↔ {b['title'][:15]}...")
+                    
+                    score_ab, score_ba = causal_score_pair(a, b, model_config)
+                    
+                    # Determine stronger causal direction
+                    if score_ab > score_ba:
+                        stronger_direction = f"{a['title']} → {b['title']}"
+                        confidence = score_ab - score_ba
+                        stronger_score = score_ab
+                    elif score_ba > score_ab:
+                        stronger_direction = f"{b['title']} → {a['title']}"
+                        confidence = score_ba - score_ab
+                        stronger_score = score_ba
+                    else:
+                        stronger_direction = "Ambiguous"
+                        confidence = 0
+                        stronger_score = score_ab
+                    
+                    result = {
+                        'pair': f"{a['title']} ↔ {b['title']}",
+                        'title_a': a['title'],
+                        'title_b': b['title'],
+                        'score_ab': score_ab,
+                        'score_ba': score_ba,
+                        'stronger_direction': stronger_direction,
+                        'confidence': confidence,
+                        'stronger_score': stronger_score,
+                        'timestamp': datetime.now().isoformat()
+                    }
+                    
+                    # Save to cache immediately
+                    pair_key_str = f"{pair_key[0]}|{pair_key[1]}"
+                    cache_data['results'][pair_key_str] = result
+                    cache_data['completed_pairs'].append(list(pair_key))
+                    
+                    # Save cache periodically (every 5 pairs)
+                    if len(cache_data['completed_pairs']) % 5 == 0:
+                        save_cache(cache_file, cache_data)
+                    
+                    overall_pbar.update(1)
         
         # Final cache save
-        with cache_lock:
-            save_cache(cache_file, cache_data)
+        save_cache(cache_file, cache_data)
         print(f"💾 Cache saved to: {cache_file}")
         
         results = list(cache_data['results'].values())

@@ -4,6 +4,8 @@ _Hint: AI generated; needs to be reviewed; but pretty good so far._
 
 ## 1. Introduction and Goals
 
+Legacy system modernization is notoriously difficult because many problems are interconnected in complex ways that are hard to understand. Traditional approaches rely on subjective expert judgment to identify root causes and symptoms, leading to inconsistent analysis, missed dependencies and biases. Problem Rider addresses this by providing the first systematic, AI-validated catalog of legacy system problems with quantified causal relationships. The project consists of a comprehensive catalog of legacy system problems including trustworthy cause-effect relationships between problems. It provides software maintainers and architects with evidence-based insights for legacy system modernization endeavours. This enables data-driven modernization planning where teams can prioritize high-impact root causes and anticipate cascading effects with measurable confidence rather than pure guesswork.
+
 ### 1.1 Requirements Overview
 
 The Problem Rider system is a knowledge catalog for documenting and organizing typical problems found in legacy systems. The catalog serves software maintainers, architects, and developers who need to:
@@ -74,7 +76,7 @@ The Problem Rider system is a knowledge catalog for documenting and organizing t
 - **Markdown**: Human-readable format for content creation
 - **YAML Front Matter**: Structured metadata for categorization and linking
 - **GitHub Pages**: Hosting solution with CI/CD integration
-- **Python Scripts**: Automation for maintenance tasks
+- **Python Scripts**: Automation for maintenance tasks and causal analysis
 
 ### 4.2 Content Organization
 
@@ -179,9 +181,10 @@ Each problem file contains:
 
 ### 8.2 Problem Relationships
 
-- **Related Problems**: YAML-based linking with similarity scores
+- **Related Problems**: YAML-based linking with semantic similarity scores  
 - **Cross-References**: Markdown links within content
 - **Bidirectional**: Scripts maintain link consistency
+- **Causal Analysis**: CESAR-based symptoms/root causes with confidence scores
 
 
 ## 9. Architecture Decisions
@@ -216,6 +219,21 @@ Each problem file contains:
 - Learning curve for non-technical contributors
 - Processing required for advanced features
 - Template consistency important
+
+### 9.3 AI-Driven Causal Analysis
+
+**Decision**: Integrate CESAR model for automated symptoms/root causes generation
+
+**Rationale**:
+- Eliminates subjective bias in causal relationship identification
+- Provides quantified confidence scores for relationship validation
+- Scales to analyze hundreds of problem pairs efficiently
+- Maintains consistency across the entire catalog
+
+**Consequences**:
+- Dependency on external AI model and Python environment
+- Cache management required for incremental processing
+- Human oversight needed to validate AI-generated relationships
 
 
 ## 10. Quality Requirements

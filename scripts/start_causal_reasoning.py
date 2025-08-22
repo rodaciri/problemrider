@@ -2,10 +2,12 @@ import os
 import yaml
 import json
 import argparse
+import numpy as np
 from causalstrength import evaluate
 from tqdm import tqdm
 import time
 from datetime import datetime
+from sklearn.metrics.pairwise import cosine_similarity
 
 def extract_description_section(markdown_content):
     """Extract only the ## Description section from markdown content"""
@@ -52,11 +54,35 @@ def load_problem(filepath):
 
 def parse_args():
     """Parse command line arguments"""
-    parser = argparse.ArgumentParser(description='Causal Reasoning Analysis for Legacy System Problems')
-    parser.add_argument('--cache-id', type=str, default=None,
-                       help='Specific cache ID to use (e.g., "20241122_143022"). If not specified, uses latest cache or creates new one.')
+    parser = argparse.ArgumentParser(
+        description='Causal Reasoning Analysis for Legacy System Problems',
+        epilog='''
+Examples:
+  %(prog)s                              # Analyze top 10 most similar pairs with CESAR model
+  %(prog)s --model CEQ                  # Use CEQ model instead of CESAR
+  %(prog)s --batch-size 5               # Process 5 pairs per batch
+  %(prog)s --cache-id 20241122_143022   # Resume from specific cache
+  %(prog)s --model CEQ --batch-size 15  # CEQ model with 15 pairs per batch
+
+The script uses embeddings from _embeddings/ directory to prioritize analysis of 
+the most semantically similar problem pairs first, making causal discovery more efficient.
+Run multiple times to process all pairs in similarity-ordered batches.
+        ''',
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    
+    parser.add_argument('--cache-id', type=str, default=None, metavar='ID',
+                       help='Specific cache ID to use (e.g., "20241122_143022"). '
+                            'If not specified, uses latest cache for the model or creates new one.')
+    
     parser.add_argument('--model', type=str, choices=['CESAR', 'CEQ'], default='CESAR',
-                       help='Causal model to use (default: CESAR)')
+                       help='Causal strength model to use. CESAR uses shaobocui/cesar-bert-large, '
+                            'CEQ uses built-in model. (default: %(default)s)')
+    
+    parser.add_argument('--batch-size', type=int, default=10, metavar='N',
+                       help='Number of most similar problem pairs to analyze in each batch. '
+                            'Larger batches process more pairs per run but take longer. (default: %(default)d)')
+    
     return parser.parse_args()
 
 def get_model_config(model_name):
@@ -164,6 +190,84 @@ def get_pair_key(title_a, title_b):
     """Generate consistent key for problem pair regardless of order"""
     return tuple(sorted([title_a, title_b]))
 
+def load_embedding(problem_slug):
+    """Load embedding vector for a problem from _embeddings directory"""
+    embedding_path = os.path.join(os.path.dirname(__file__), '..', '_embeddings', f'{problem_slug}.yaml')
+    try:
+        with open(embedding_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+            return np.array(data['embedding'])
+    except (FileNotFoundError, KeyError, TypeError):
+        return None
+
+def get_problem_slug(filepath):
+    """Extract problem slug from file path (filename without extension)"""
+    return os.path.splitext(os.path.basename(filepath))[0]
+
+def calculate_similarity_scores(probs):
+    """Calculate cosine similarity scores for all problem pairs"""
+    print("📊 Loading embeddings and calculating similarities...")
+    
+    # Load embeddings for all problems
+    embeddings = {}
+    embedding_vectors = []
+    problem_indices = {}
+    
+    for i, prob in enumerate(probs):
+        slug = prob['slug']
+        embedding = load_embedding(slug)
+        if embedding is not None:
+            embeddings[slug] = embedding
+            embedding_vectors.append(embedding)
+            problem_indices[slug] = i
+    
+    print(f"   ✅ Loaded embeddings for {len(embeddings)} out of {len(probs)} problems")
+    
+    if len(embeddings) < 2:
+        print("   ⚠️  Insufficient embeddings for similarity calculation")
+        return []
+    
+    # Calculate pairwise cosine similarities
+    embedding_matrix = np.array(embedding_vectors)
+    similarity_matrix = cosine_similarity(embedding_matrix)
+    
+    # Extract pair similarities
+    similarities = []
+    slug_to_idx = {slug: idx for idx, slug in enumerate(embeddings.keys())}
+    
+    for i, slug_a in enumerate(embeddings.keys()):
+        for j, slug_b in enumerate(list(embeddings.keys())[i+1:], i+1):
+            similarity = similarity_matrix[i][j]
+            prob_idx_a = problem_indices[slug_a]
+            prob_idx_b = problem_indices[slug_b]
+            
+            similarities.append({
+                'prob_a': probs[prob_idx_a],
+                'prob_b': probs[prob_idx_b],
+                'similarity': similarity,
+                'pair_key': get_pair_key(probs[prob_idx_a]['title'], probs[prob_idx_b]['title'])
+            })
+    
+    # Sort by similarity (highest first)
+    similarities.sort(key=lambda x: x['similarity'], reverse=True)
+    
+    print(f"   📈 Calculated {len(similarities)} similarity scores")
+    return similarities
+
+def get_prioritized_batches(similarities, completed_pairs, batch_size=10):
+    """Get batches of problem pairs prioritized by similarity, excluding completed ones"""
+    available_similarities = [
+        sim for sim in similarities 
+        if sim['pair_key'] not in completed_pairs
+    ]
+    
+    batches = []
+    for i in range(0, len(available_similarities), batch_size):
+        batch = available_similarities[i:i + batch_size]
+        batches.append(batch)
+    
+    return batches
+
 def main():
     # Parse command line arguments
     args = parse_args()
@@ -226,12 +330,16 @@ def main():
         probs.append({
             'title': title, 
             'yaml_description': yaml_desc, 
-            'markdown_content': markdown_content
+            'markdown_content': markdown_content,
+            'slug': get_problem_slug(path)
         })
     print()
 
     print("🔍 Analysis Setup Complete")
     print(f"   Will analyze {len(probs)} problems in all possible pairs")
+    
+    # Calculate embeddings-based similarities for prioritization
+    similarities = calculate_similarity_scores(probs)
     
     # Calculate all pairwise combinations
     total_pairs = len(probs) * (len(probs) - 1) // 2
@@ -241,6 +349,16 @@ def main():
     print(f"📊 Total pairs: {total_pairs}")
     print(f"✅ Cached pairs: {len(completed_pairs)}")
     print(f"🔄 Remaining pairs: {remaining_pairs}")
+    
+    if similarities:
+        batches = get_prioritized_batches(similarities, completed_pairs, args.batch_size)
+        print(f"🎯 Prioritized batches: {len(batches)} (batch size: {args.batch_size})")
+        if batches:
+            avg_similarity = sum(sim['similarity'] for sim in batches[0]) / len(batches[0])
+            print(f"   Next batch avg similarity: {avg_similarity:.4f}")
+    else:
+        print("⚠️  No embeddings available - using random order")
+        batches = []
     print()
 
     if remaining_pairs == 0:
@@ -250,18 +368,24 @@ def main():
     else:
         start_time = time.time()
         
-        # Analyze remaining pairs with overall progress bar
-        with tqdm(total=remaining_pairs, desc="Overall Progress", position=0) as overall_pbar:
-            for i in range(len(probs)):
-                for j in range(i + 1, len(probs)):
-                    a, b = probs[i], probs[j]
-                    pair_key = get_pair_key(a['title'], b['title'])
+        if batches:
+            # Process first prioritized batch only
+            current_batch = batches[0]
+            batch_num = 1
+            total_batches = len(batches)
+            
+            print(f"🚀 Processing batch {batch_num}/{total_batches} ({len(current_batch)} pairs)")
+            print(f"   Similarity range: {min(s['similarity'] for s in current_batch):.4f} - {max(s['similarity'] for s in current_batch):.4f}")
+            print()
+            
+            # Analyze current batch
+            with tqdm(total=len(current_batch), desc=f"Batch {batch_num}", position=0) as batch_pbar:
+                for sim_data in current_batch:
+                    a, b = sim_data['prob_a'], sim_data['prob_b']
+                    pair_key = sim_data['pair_key']
+                    similarity = sim_data['similarity']
                     
-                    # Skip if already cached
-                    if pair_key in completed_pairs:
-                        continue
-                    
-                    overall_pbar.set_description(f"Analyzing: {a['title'][:15]}... ↔ {b['title'][:15]}...")
+                    batch_pbar.set_description(f"Analyzing (sim:{similarity:.3f}): {a['title'][:12]}...↔{b['title'][:12]}...")
                     
                     score_ab, score_ba = causal_score_pair(a, b, model_config)
                     
@@ -288,6 +412,7 @@ def main():
                         'stronger_direction': stronger_direction,
                         'confidence': confidence,
                         'stronger_score': stronger_score,
+                        'similarity': similarity,
                         'timestamp': datetime.now().isoformat()
                     }
                     
@@ -296,11 +421,75 @@ def main():
                     cache_data['results'][pair_key_str] = result
                     cache_data['completed_pairs'].append(list(pair_key))
                     
-                    # Save cache periodically (every 5 pairs)
-                    if len(cache_data['completed_pairs']) % 5 == 0:
+                    # Save cache periodically (every 3 pairs for batched processing)
+                    if len(cache_data['completed_pairs']) % 3 == 0:
                         save_cache(cache_file, cache_data)
                     
-                    overall_pbar.update(1)
+                    batch_pbar.update(1)
+            
+            print(f"\n✨ Batch {batch_num} complete! Processed {len(current_batch)} pairs")
+            if batch_num < total_batches:
+                print(f"🔄 Run script again to process next batch ({total_batches - batch_num} batches remaining)")
+        else:
+            # Fallback to random order if no embeddings
+            print("⚠️  No embeddings available - processing first 10 pairs randomly")
+            pairs_processed = 0
+            target_pairs = min(10, remaining_pairs)
+            
+            with tqdm(total=target_pairs, desc="Random Order", position=0) as pbar:
+                for i in range(len(probs)):
+                    for j in range(i + 1, len(probs)):
+                        if pairs_processed >= target_pairs:
+                            break
+                        
+                        a, b = probs[i], probs[j]
+                        pair_key = get_pair_key(a['title'], b['title'])
+                        
+                        # Skip if already cached
+                        if pair_key in completed_pairs:
+                            continue
+                        
+                        pbar.set_description(f"Analyzing: {a['title'][:15]}... ↔ {b['title'][:15]}...")
+                        
+                        score_ab, score_ba = causal_score_pair(a, b, model_config)
+                        
+                        # Determine stronger causal direction
+                        if score_ab > score_ba:
+                            stronger_direction = f"{a['title']} → {b['title']}"
+                            confidence = score_ab - score_ba
+                            stronger_score = score_ab
+                        elif score_ba > score_ab:
+                            stronger_direction = f"{b['title']} → {a['title']}"
+                            confidence = score_ba - score_ab
+                            stronger_score = score_ba
+                        else:
+                            stronger_direction = "Ambiguous"
+                            confidence = 0
+                            stronger_score = score_ab
+                        
+                        result = {
+                            'pair': f"{a['title']} ↔ {b['title']}",
+                            'title_a': a['title'],
+                            'title_b': b['title'],
+                            'score_ab': score_ab,
+                            'score_ba': score_ba,
+                            'stronger_direction': stronger_direction,
+                            'confidence': confidence,
+                            'stronger_score': stronger_score,
+                            'similarity': 0.0,  # No similarity data available
+                            'timestamp': datetime.now().isoformat()
+                        }
+                        
+                        # Save to cache immediately
+                        pair_key_str = f"{pair_key[0]}|{pair_key[1]}"
+                        cache_data['results'][pair_key_str] = result
+                        cache_data['completed_pairs'].append(list(pair_key))
+                        
+                        pairs_processed += 1
+                        pbar.update(1)
+                    
+                    if pairs_processed >= target_pairs:
+                        break
         
         # Final cache save
         save_cache(cache_file, cache_data)

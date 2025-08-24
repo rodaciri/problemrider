@@ -8,6 +8,7 @@ from tqdm import tqdm
 import time
 from datetime import datetime
 from sklearn.metrics.pairwise import cosine_similarity
+import logging
 
 def extract_description_section(markdown_content):
     """Extract only the ## Description section from markdown content"""
@@ -331,6 +332,12 @@ def process_pairs(pairs_to_analyze, model_config, cache_data, cache_file, progre
             pbar.update(1)
 
 def main():
+
+    loggers = [logging.getLogger(name) for name in logging.root.manager.loggerDict]
+    for logger in loggers:
+        if "transformers" in logger.name.lower():
+            logger.setLevel(logging.ERROR)
+
     # Parse command line arguments
     args = parse_args()
     model_config = get_model_config(args.model)

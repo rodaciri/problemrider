@@ -26,6 +26,7 @@ layout: problem
 
 Implementation starts without design occurs when development teams begin coding immediately without first establishing a clear architectural vision, system structure, or detailed design. This rush to code often stems from time pressure, excitement to start building, or misconceptions about agile development practices. The result is systems that evolve organically without coherent structure, leading to code that is difficult to understand, maintain, and extend. This problem is particularly damaging in legacy modernization projects where the opportunity to establish better architecture is lost.
 
+
 ## Indicators ⟡
 
 - Development work begins immediately after requirements gathering without design phases
@@ -36,40 +37,23 @@ Implementation starts without design occurs when development teams begin coding 
 - Team members unsure about overall system architecture or design patterns
 - Technology choices made individually by developers during implementation
 
+
 ## Symptoms ▲
 
-- **[Inconsistent Codebase](inconsistent-codebase.md):** Code structure that doesn't follow consistent patterns or principles
-- **[Stagnant Architecture](stagnant-architecture.md):** Frequent architectural refactoring needed to accommodate new features
-- **[Difficult Developer Onboarding](difficult-developer-onboarding.md):** Difficulty onboarding new developers due to unclear system organization
-- **[Integration Difficulties](integration-difficulties.md):** Integration challenges between different parts of the system
-- **[Slow Application Performance](slow-application-performance.md):** Performance issues that require fundamental structural changes
-- **[Database Schema Design Problems](database-schema-design-problems.md):** Database designs that don't support efficient queries or data integrity
-- **[Review Process Breakdown](review-process-breakdown.md):** Code reviews that focus on architectural decisions rather than implementation details
-- **[High Technical Debt](high-technical-debt.md):** Accumulation of architectural debt from unplanned implementation decisions
-- **[Poor Domain Model](poor-domain-model.md):** Domain concepts that are poorly represented in the code structure
-- **[High Coupling and Low Cohesion](high-coupling-low-cohesion.md):** System components that are tightly coupled due to lack of design
-- **[Difficult to Test Code](difficult-to-test-code.md):** Code that is hard to test due to poor architectural boundaries
-- **[Debugging Difficulties](debugging-difficulties.md):** Complex debugging due to unclear system structure and data flow
-- **[Maintenance Overhead](maintenance-overhead.md):** High maintenance costs due to architectural complexity
-- **[Slow Feature Development](slow-feature-development.md):** Development velocity degradation as system complexity increases
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.759">ⓘ</span>
+<br/>  When development begins without a clear design, it leads to poorly defined data structures that exacerbate schema mismatches and format incompatibilities during migration, resulting in integrity issues as the legacy data fails to align with the new system's expectations.
+- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.765">ⓘ</span>
+<br/>  The lack of a clear design framework during development leads to chaotic code that stifles creativity and discourages teams from exploring innovative solutions, as they become preoccupied with maintaining functionality over improvement.
+- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.688">ⓘ</span>
+<br/>  When development begins without a clear design, it results in haphazard coding practices that fail to adhere to architectural principles, ultimately revealing limitations in the system's architecture that hinder performance and maintainability.
+- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.745">ⓘ</span>
+<br/>  The lack of a coherent design leads to inconsistent coding practices and undocumented changes, which directly results in poor tracking and management of code versions, making configuration management failures more likely to occur as a symptom of the initial disorganization.
+- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.719">ⓘ</span>
+<br/>  The lack of a clear design before development leads to poor code organization and architectural drift, which in turn complicates feature implementation and bug fixes, resulting in a noticeable decline in development velocity.
 
 ## Root Causes ▼
 
-- **[Time Pressure](time-pressure.md):** Time pressure and unrealistic deadlines that discourage upfront design work
-- **[Misunderstanding of OOP](misunderstanding-of-oop.md):** Misunderstanding of agile principles, believing that "working software" means skipping design
-- **[Insufficient Design Skills](insufficient-design-skills.md):** Lack of experienced architects or senior developers to guide design decisions
-- **[Short-Term Focus](short-term-focus.md):** Organizational culture that values visible progress (code) over planning activities
-- **[Fear of Failure](fear-of-failure.md):** Previous negative experiences with over-designed systems leading to design avoidance
-- **[Knowledge Gaps](knowledge-gaps.md):** Insufficient understanding of system complexity and long-term maintenance costs
-- **[Resource Allocation Failures](resource-allocation-failures.md):** Budget constraints that don't account for design and architecture activities
-- **[Unrealistic Deadlines](unrealistic-deadlines.md):** Schedules that don't allow time for proper design phases
-- **[Planning Dysfunction](planning-dysfunction.md):** Lack of planning for architectural and design activities in project timelines
-- **[Inexperienced Developers](inexperienced-developers.md):** Development teams without experience in architectural design
-- **[Slow Knowledge Transfer](slow-knowledge-transfer.md):** No senior guidance for architectural decision-making
-- **[Eager to Please Stakeholders](eager-to-please-stakeholders.md):** Pressure to show immediate coding progress to stakeholders
-- **[Analysis Paralysis](analysis-paralysis.md):** Overreaction to previous analysis paralysis leading to insufficient design
-- **[Cargo Culting](cargo-culting.md):** Copying implementation patterns without understanding underlying design principles
-- **[CV Driven Development](cv-driven-development.md):** Individual preferences overriding systematic design approaches
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -80,6 +64,7 @@ Implementation starts without design occurs when development teams begin coding 
 - Assess team understanding of system structure through interviews or documentation reviews
 - Review database schema evolution for signs of organic, unplanned growth
 - Analyze code metrics for consistency in design patterns and structural organization
+
 
 ## Examples
 

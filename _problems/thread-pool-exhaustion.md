@@ -25,6 +25,7 @@ layout: problem
 
 Thread pool exhaustion occurs when all available threads in an application's thread pool are consumed by long-running, blocked, or stuck operations, leaving no threads available to process new incoming requests or tasks. This creates a situation where the application appears to hang or become unresponsive, even though the underlying system has available CPU and memory resources. Thread pool exhaustion is common in server applications and can cause complete service outages.
 
+
 ## Indicators ⟡
 
 - Application stops responding to new requests while appearing to run normally
@@ -33,22 +34,37 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 - CPU usage may be low despite the application appearing busy
 - Response times increase dramatically or operations timeout
 
+
 ## Symptoms ▲
 
-- **Application Unresponsiveness:** Server stops processing new requests or tasks
-- **[Service Timeouts](service-timeouts.md):** Operations timeout because no threads are available to process them
-- **Request Queue Buildup:** Incoming requests accumulate in queues without being processed
-- **[Deadlock Conditions](deadlock-conditions.md):** All threads may be blocked waiting for resources held by other threads
-- **Cascading System Failures:** Thread exhaustion in one component affects dependent components
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.688, Strength: 0.869">ⓘ</span>
+<br/>  When all threads in the pool are occupied by long-running tasks, new requests cannot be processed in a timely manner, leading to failures in upstream services that are unable to receive responses within their timeout thresholds.
+- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.637, Strength: 0.906">ⓘ</span>
+<br/>  When long-running or blocked operations consume all available threads, it can lead to unbounded data structures accumulating excessive data without processing, as the lack of available threads prevents timely cleanup or management of resources, ultimately resulting in memory exhaustion and degraded system performance.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.451, Strength: 0.769">ⓘ</span>
+<br/>  Long-running or blocked operations that deplete the thread pool often fail to release allocated resources, leading to a buildup of unreleased resources that further exacerbates thread exhaustion in legacy systems.
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.905">ⓘ</span>
+<br/>  When all available threads are occupied by lengthy operations, teams may resort to excessive analysis as they lack the capacity to implement solutions, leading to stalled development progress that reflects the underlying resource bottleneck.
+- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.852">ⓘ</span>
+<br/>  When all available threads are tied up by long-running operations, it leads to an inability to process new tasks, which in turn reveals a capacity mismatch where the demand for immediate processing exceeds the system's ability to handle it efficiently, resulting in bottlenecks and underutilization.
+- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.859">ⓘ</span>
+<br/>  Long-running or blocked operations stemming from inefficient code consume all available threads in the thread pool, leading to a backlog of unprocessed tasks and manifesting as thread pool exhaustion in legacy systems.
+- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.919">ⓘ</span>
+<br/>  When all threads in the pool are tied up with long-running tasks, it creates bottlenecks that hinder the team's ability to allocate resources for strategic improvements, resulting in a focus solely on urgent maintenance and a lack of capacity for innovation.
+- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.387, Strength: 0.866">ⓘ</span>
+<br/>  When all available threads are consumed by long-running or blocked operations, excessive hardware interrupts lead to frequent context switches as the CPU struggles to handle the backlog of pending tasks, ultimately indicating thread pool exhaustion and degrading overall application performance.
+- [Unoptimized File Access](unoptimized-file-access.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.859">ⓘ</span>
+<br/>  Inefficient file access leads to prolonged disk I/O operations, which can block threads in the pool, ultimately consuming all available threads and preventing new tasks from being processed in legacy systems.
+- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.847">ⓘ</span>
+<br/>  When long-running or blocked operations consume all available threads, they can also lead to memory leaks as resources are not properly released, resulting in increasing memory consumption that further exacerbates thread pool exhaustion.
+- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.901">ⓘ</span>
+<br/>  When all threads are occupied due to long-running tasks, the inability to efficiently manage database connections can result in an incorrectly configured connection pool size, as tasks waiting for connections further exacerbate thread resource contention, serving as a clear indicator of underlying thread pool exhaustion.
+- [Team Coordination Issues](team-coordination-issues.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.853">ⓘ</span>
+<br/>  In legacy systems, when all available threads are occupied by long-running or blocked operations, developers may struggle with coordination as they cannot effectively test or deploy their changes due to the unavailability of processing resources, signaling potential thread pool exhaustion.
 
 ## Root Causes ▼
 
-- **Long-Running Operations:** Threads are consumed by operations that take much longer than expected
-- **Blocking I/O Operations:** Threads block on synchronous I/O operations without proper timeout handling
-- **[Deadlock Conditions](deadlock-conditions.md):** Threads become permanently blocked in circular wait conditions
-- **Inadequate Thread Pool Sizing:** Thread pool is configured with too few threads for the expected workload
-- **[Resource Contention](resource-contention.md):** Threads block waiting for limited external resources like database connections
-- **Infinite Loops or Hangs:** Individual threads become stuck in infinite loops or unresponsive states
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -58,6 +74,7 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 - **Resource Usage Monitoring:** Monitor CPU, memory, and I/O usage during thread pool exhaustion
 - **Load Testing:** Test application under various load conditions to identify thread pool limits
 - **Timeout Configuration Analysis:** Review timeout settings for operations that consume thread pool threads
+
 
 ## Examples
 

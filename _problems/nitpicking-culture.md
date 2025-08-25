@@ -26,6 +26,7 @@ layout: problem
 
 Nitpicking culture occurs when code reviews become dominated by excessive focus on minor, inconsequential details such as single-character formatting differences, subjective naming preferences, or theoretical micro-optimizations, while important issues like design flaws, security vulnerabilities, or logical errors receive insufficient attention. This culture creates reviews that consume significant time and energy on trivial matters while failing to improve code quality meaningfully.
 
+
 ## Indicators ⟡
 
 - Review comments focus on single spaces, comma placement, or minor formatting differences
@@ -34,21 +35,22 @@ Nitpicking culture occurs when code reviews become dominated by excessive focus 
 - Review cycles are extended by arguments over inconsequential details
 - Team members express frustration with excessive focus on trivial issues
 
+
 ## Symptoms ▲
 
-- **[Author Frustration](author-frustration.md):** Developers become annoyed with excessive focus on minor details
-- **[Code Review Inefficiency](code-review-inefficiency.md):** Time is wasted on insignificant issues instead of meaningful improvements
-- **[Superficial Code Reviews](superficial-code-reviews.md):** Important problems are missed while minor details receive excessive attention
-- **[Extended Review Cycles](extended-review-cycles.md):** Trivial concerns extend review duration unnecessarily
-- **[Reduced Innovation](reduced-innovation.md):** Developers avoid making changes to prevent nitpicking feedback
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.569">ⓘ</span>
+<br/>  Excessive focus on trivial code details during reviews diverts attention and resources away from identifying and addressing critical functionality and design issues, resulting in inadequate test coverage for important code paths.
 
 ## Root Causes ▼
 
-- **Perfectionist Mindset:** Belief that every detail must be perfect regardless of impact
-- **Lack of Priority Guidelines:** No clear criteria for distinguishing important issues from trivial ones
-- **Reviewer Insecurity:** Focusing on obvious minor issues feels safer than addressing complex problems
-- **Absence of Automated Style Enforcement:** Manual detection of style issues creates nitpicking opportunities
-- **Competitive Review Environment:** Reviewers try to demonstrate thoroughness by finding any possible issue
+- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.861">ⓘ</span>
+<br/>  The development team's inadequate design skills lead to a lack of confidence in addressing complex functionality, resulting in a focus on trivial details during code reviews as a misguided attempt to exert quality control over the software.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.822">ⓘ</span>
+<br/>  A lack of understanding of object-oriented programming principles leads developers to focus on trivial code aspects, as they may not recognize the significance of design and functionality flaws, perpetuating a culture that prioritizes nitpicking over meaningful code quality improvements in legacy systems.
+- [Reviewer Anxiety](reviewer-anxiety.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.816">ⓘ</span>
+<br/>  The fear of making incorrect judgments during code reviews leads team members to focus on trivial issues, thereby neglecting critical design and functionality flaws, which perpetuates a cycle of superficial assessments in legacy systems.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.850">ⓘ</span>
+<br/>  The tendency to fixate on trivial details during code reviews stems from a lack of clarity about essential information to prioritize, leading teams to compensate by scrutinizing minor issues while neglecting critical design and functionality concerns.
 
 ## Detection Methods ○
 
@@ -57,6 +59,7 @@ Nitpicking culture occurs when code reviews become dominated by excessive focus 
 - **Author Revision Time:** Measure effort required to address different types of feedback
 - **Issue Discovery Value:** Assess the practical benefit of various types of review feedback
 - **Team Satisfaction Assessment:** Survey team members about review focus and priorities
+
 
 ## Examples
 

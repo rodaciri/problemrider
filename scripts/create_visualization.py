@@ -96,6 +96,9 @@ def create_visualization():
     # Remove duplicate edges
     unique_edges = [dict(t) for t in {tuple(d.items()) for d in edges}]
     
+    # Sort edges alphabetically by source then target for stable generation
+    unique_edges.sort(key=lambda x: (x['source'], x['target']))
+    
     # Adjust node sizes based on incoming connections (max 20, default 10)
     for node in nodes:
         node['size'] = min(20, 10 + incoming_connections.get(node['id'], 0))

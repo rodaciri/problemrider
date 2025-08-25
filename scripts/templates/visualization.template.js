@@ -253,7 +253,6 @@ function displayHtmlContent(content, nodeData) {
     }
     
     modalBody.innerHTML = `
-        <div class="modal-description">${nodeData.description}</div>
         ${html}
     `;
     

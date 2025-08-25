@@ -24,6 +24,7 @@ layout: problem
 
 Planning dysfunction occurs when project planning processes systematically produce unrealistic timelines, fail to account for project complexity and risk, or don't effectively coordinate resources and dependencies. This dysfunction manifests as plans that are consistently wrong, overly optimistic, or based on incomplete information about what the project actually requires. The resulting plans create false expectations, resource conflicts, and pressure that ultimately damages both project outcomes and team morale.
 
+
 ## Indicators ⟡
 
 - Project timelines are consistently missed by significant margins
@@ -32,25 +33,27 @@ Planning dysfunction occurs when project planning processes systematically produ
 - Risk assessment is superficial or ignored entirely during planning
 - Resource conflicts are discovered during execution rather than planning
 
+
 ## Symptoms ▲
 
-- **[Unrealistic Deadlines](unrealistic-deadlines.md):** Project timelines are impossible to meet given available resources and complexity
-- **[Resource Allocation Failures](resource-allocation-failures.md):** Required resources aren't available when needed
-- **[Scope Creep](scope-creep.md):** Project scope expands because original planning didn't account for full requirements
-- **[Competing Priorities](competing-priorities.md):** Multiple projects compete for the same resources due to poor coordination
-- **[Time Pressure](time-pressure.md):** Teams work under excessive pressure due to unrealistic plans
-- **[Team Demoralization](team-demoralization.md):** Repeated planning failures damage team confidence
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.772">ⓘ</span>
+<br/>  Frequent changes to requirements indicate planning dysfunction because inadequate initial assessments fail to capture project complexities, leading to an unstable foundation that necessitates ongoing adjustments as development progresses.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.831">ⓘ</span>
+<br/>  Inaccurate project timelines and ineffective resource allocation lead to insufficient test environments and inadequate handling of dependencies, resulting in unreliable tests that fail intermittently and erode confidence in the testing process.
+- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.804">ⓘ</span>
+<br/>  Ineffective project planning leads to unclear expectations, misallocated resources, and unaddressed complexities, which in turn create systemic inefficiencies that diminish the development team's overall productivity.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.679">ⓘ</span>
+<br/>  Ineffective project planning often leads to inadequate resource management, resulting in system resources being allocated without a clear strategy for their release, which manifests as unreleased resources within the software.
+- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.757">ⓘ</span>
+<br/>  The failure to create realistic project plans results in inadequate resource allocation and risk assessment, which in turn generates intense deadline pressure as teams rush to compensate for mismanaged timelines, ultimately compromising software quality in legacy systems.
+- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.737">ⓘ</span>
+<br/>  Ineffective project planning leads to inadequate time allocation for development and testing phases, causing rushed implementations that compromise the quality and usability of features in legacy systems.
+- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.719">ⓘ</span>
+<br/>  When project planning fails to establish clear goals, timelines, and resource allocations, it creates a sense of chaos and uncertainty that demotivates team members, leading to disengagement and reduced contributions to project outcomes.
 
 ## Root Causes ▼
 
-- **Estimation Skill Gaps:** Team lacks experience or techniques for accurate effort estimation
-- **Optimism Bias:** Plans consistently underestimate complexity and overestimate team capacity
-- **Political Pressure:** Plans are driven by desired dates rather than realistic assessment
-- **Incomplete Information:** Planning occurs without sufficient understanding of requirements or constraints
-- **Risk Blindness:** Planning process doesn't adequately assess and account for project risks
-- **Resource Visibility Problems:** Planners don't have accurate information about resource availability
-- **Dependency Complexity:** Interdependencies between tasks and teams aren't properly mapped
-- **Historical Data Absence:** No data from previous projects to inform current planning
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -60,6 +63,7 @@ Planning dysfunction occurs when project planning processes systematically produ
 - **Risk Materialization Analysis:** Track how often identified risks actually impact projects
 - **Planning Process Effectiveness:** Assess quality and completeness of planning activities
 - **Team Confidence Surveys:** Ask team members about their confidence in project plans
+
 
 ## Examples
 

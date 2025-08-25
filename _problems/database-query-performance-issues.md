@@ -26,6 +26,7 @@ layout: problem
 
 Database query performance issues occur when SQL queries are inefficiently written, poorly optimized, or execute against inadequately structured databases, resulting in slow response times, high CPU and memory usage, and scalability bottlenecks. These issues often become more pronounced as data volumes grow and user loads increase.
 
+
 ## Indicators ⟡
 
 - Database queries taking significantly longer than expected to execute
@@ -34,22 +35,21 @@ Database query performance issues occur when SQL queries are inefficiently writt
 - Database connection pools exhausted due to slow queries
 - Query execution plans showing full table scans or inefficient operations
 
+
 ## Symptoms ▲
 
-- **Slow Query Execution:** Queries taking seconds or minutes instead of milliseconds
-- **High Database CPU Usage:** Database servers experiencing high CPU utilization
-- **Application Timeouts:** Applications timing out while waiting for database responses
-- **Connection Pool Exhaustion:** Database connection pools depleted by slow-running queries
-- **Memory Consumption Issues:** Queries consuming excessive database memory resources
+- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.560, Strength: 0.809">ⓘ</span>
+<br/>  Slow database query performance leads to delays in task completion for users, resulting in increased frustration and a higher volume of support requests as they seek assistance for issues stemming from unresponsive or inefficient system interactions.
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.497, Strength: 0.702">ⓘ</span>
+<br/>  Slow response times from poorly optimized database queries lead to upstream services exceeding their timeout thresholds, resulting in failed API calls.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.801">ⓘ</span>
+<br/>  The slow and cumbersome development environment results from the team's inability to efficiently test and iterate on queries, as performance issues in the database hinder rapid feedback and debugging, effectively indicating underlying query optimization problems.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.602">ⓘ</span>
+<br/>  Poorly optimized queries can lead to excessive resource allocation that isn't released, as prolonged processing times prevent timely deallocation of objects and connections, thereby indicating underlying performance issues in the system.
 
 ## Root Causes ▼
 
-- **Missing Database Indexes:** Queries requiring table scans due to lack of appropriate indexes
-- **Inefficient Query Structure:** Poorly written SQL with unnecessary joins or subqueries
-- **Large Result Set Processing:** Queries returning more data than necessary
-- **[Database Schema Design Problems](database-schema-design-problems.md):** Poor table structure or normalization affecting query performance
-- **Outdated Query Statistics:** Database optimizer using stale statistics for query planning
-- **Lack of Query Optimization:** Queries not reviewed or optimized for performance
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -58,6 +58,7 @@ Database query performance issues occur when SQL queries are inefficiently writt
 - **Database Performance Profiling:** Profile database performance under different load conditions
 - **Slow Query Log Analysis:** Review database slow query logs for problematic queries
 - **Index Usage Analysis:** Analyze which indexes are used and which queries lack proper indexing
+
 
 ## Examples
 

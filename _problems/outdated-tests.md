@@ -25,6 +25,7 @@ layout: problem
 
 Outdated tests occur when test code is not maintained alongside production code changes, resulting in tests that no longer accurately verify the intended behavior. These tests may pass when they should fail (false positives) or fail when the code is actually correct (false negatives). Outdated tests are worse than no tests because they provide false confidence in code quality while consuming maintenance effort and slowing down development with spurious failures.
 
+
 ## Indicators ⟡
 - Tests pass but the functionality they're supposed to verify is broken
 - Tests fail consistently for reasons unrelated to actual code defects
@@ -32,20 +33,39 @@ Outdated tests occur when test code is not maintained alongside production code 
 - Tests verify outdated business rules or deprecated functionality
 - Significant effort is spent maintaining and debugging tests rather than improving them
 
+
 ## Symptoms ▲
-- **False Security:** Teams believe functionality is tested when it actually isn't
-- **Test Maintenance Burden:** Disproportionate time spent fixing broken tests rather than improving code
-- **Reduced Test Confidence:** Developers stop trusting test results due to frequent false positives and negatives
-- **[Quality Blind Spots](quality-blind-spots.md):** Outdated tests fail to provide meaningful quality assurance
-- **Development Friction:** Unreliable tests slow down development and deployment processes
+
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.575, Strength: 0.814">ⓘ</span>
+<br/>  When tests are not updated in line with code changes, it often results in critical areas of the codebase lacking adequate test coverage, thereby exposing blind spots in quality assurance that further exacerbate the reliability issues of the system.
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.684">ⓘ</span>
+<br/>  The failure to update tests after code changes can lead to unverified or incorrectly functioning API endpoints, causing services that depend on those APIs to experience timeouts due to unexpected behavior or responses.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.485, Strength: 0.768">ⓘ</span>
+<br/>  The inability to update tests in response to code changes indicates a reliance on outdated knowledge and practices, highlighting the lack of skilled developers familiar with legacy technologies, which exacerbates maintenance challenges and leads to further deterioration of test reliability.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.714">ⓘ</span>
+<br/>  Constantly changing requirements exacerbate the issue of outdated tests, as the lack of updated test cases fails to validate new or modified functionality, ultimately resulting in increased rework and uncertainty in the software’s reliability.
+- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.806">ⓘ</span>
+<br/>  When tests are not updated to reflect code changes, team members may become disengaged in the review process due to a lack of trust in the testing framework's reliability, resulting in fewer reviewers participating or providing inadequate feedback, which in turn perpetuates the cycle of outdated tests and further diminishes code quality.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.750">ⓘ</span>
+<br/>  The failure to update tests alongside code changes can lead to scenarios where outdated assertions create inconsistent test results, manifesting as random failures that obscure the reliability of the entire test suite in legacy systems.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.779">ⓘ</span>
+<br/>  The failure to update tests when code changes leads to the continued use of unrealistic or outdated test data, resulting in a mismatch between the tests and current functionality, which serves as a clear indicator of the lack of maintenance in the testing framework.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.659">ⓘ</span>
+<br/>  The failure to update tests when code changes can lead to untracked modifications that inadvertently leave resources allocated, as the outdated tests may not detect improper resource management, allowing these unreleased resources to accumulate unnoticed.
+- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.795">ⓘ</span>
+<br/>  The lack of updated tests can lead to team members working with outdated or unreliable feedback, resulting in frustration and misaligned priorities that foster dysfunction and hinder effective collaboration.
+- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.755">ⓘ</span>
+<br/>  When tests are not updated to reflect code changes, performance bottlenecks may go undetected, as outdated tests fail to adequately verify the efficiency of the code, allowing inefficient operations to persist unnoticed.
+- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.803">ⓘ</span>
+<br/>  The lack of updated tests results in unreliable feedback on code changes, which forces developers to spend more time troubleshooting issues instead of refining features, ultimately degrading the overall quality of the user experience.
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.797">ⓘ</span>
+<br/>  The failure to update tests when code changes leads to undetected discrepancies in the data migration process, as outdated tests can overlook critical schema mismatches and format incompatibilities, resulting in integrity issues during the transition from legacy to modern systems.
+- [Undefined Code Style Guidelines](undefined-code-style-guidelines.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.610">ⓘ</span>
+<br/>  The lack of clear coding standards leads to inconsistent code, which complicates the process of updating tests, ultimately resulting in outdated and unreliable test cases that undermine confidence in the software's functionality.
 
 ## Root Causes ▼
-- **Poor Test Maintenance Practices:** Tests are not updated when corresponding production code changes
-- **Lack of Test Ownership:** No clear responsibility for maintaining test code quality
-- **Copy-Paste Test Development:** Tests are duplicated without understanding, making maintenance difficult
-- **External Dependency Changes:** Tests break when external services or data formats change
-- **Business Rule Evolution:** Tests continue to verify old business logic after requirements change
-- **Technical Debt in Tests:** Test code itself accumulates technical debt making it difficult to maintain
+
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 - **Test Reliability Metrics:** Track the frequency of test failures and their correlation with actual bugs
@@ -53,6 +73,7 @@ Outdated tests occur when test code is not maintained alongside production code 
 - **False Positive/Negative Analysis:** Identify tests that provide incorrect results about code quality
 - **Test Age Analysis:** Examine how long tests have gone without updates relative to code changes
 - **Developer Feedback:** Survey team members about their confidence in test reliability
+
 
 ## Examples
 

@@ -26,6 +26,7 @@ layout: problem
 
 Inadequate test infrastructure refers to the lack of proper tools, environments, automation, and supporting systems needed to conduct effective testing throughout the development lifecycle. This goes beyond simply having few tests to encompass the foundational capabilities required for testing, including test environments, data management, test automation frameworks, and integration with development workflows. Without adequate infrastructure, even well-intentioned testing efforts become inefficient, unreliable, or abandoned entirely.
 
+
 ## Indicators ⟡
 
 - Test environments that are frequently unavailable, slow, or inconsistent with production
@@ -36,40 +37,19 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 - Difficulty reproducing production issues in test environments
 - Test results that are hard to analyze or lack clear reporting and visualization
 
+
 ## Symptoms ▲
 
-- **[Slow Development Velocity](slow-development-velocity.md):** Testing activities that take disproportionately long compared to development work
-- **[Difficult to Test Code](difficult-to-test-code.md):** High barrier to entry for writing and maintaining automated tests
-- **[Quality Blind Spots](quality-blind-spots.md):** Tests that are frequently skipped due to infrastructure limitations or unreliability
-- **[Flaky Tests](flaky-tests.md):** Inconsistent test results due to environmental differences or configuration issues
-- **[Increased Manual Testing Effort](increased-manual-testing-effort.md):** Manual testing that dominates the quality assurance process
-- **[Slow Development Velocity](slow-development-velocity.md):** Delayed feedback on code quality and functionality due to slow test execution
-- **[Long Release Cycles](long-release-cycles.md):** Testing bottlenecks that slow down release cycles and deployment frequency
-- **[High Defect Rate in Production](high-defect-rate-in-production.md):** Quality issues that reach production because testing infrastructure couldn't catch them
-- **[Poor Test Coverage](poor-test-coverage.md):** Reduced testing scope due to infrastructure limitations
-- **[Developer Frustration and Burnout](developer-frustration-and-burnout.md):** Team stress from dealing with unreliable testing infrastructure
-- **[Testing Complexity](testing-complexity.md):** Overly complex testing scenarios due to inadequate infrastructure support
-- **[Release Anxiety](release-anxiety.md):** Fear of releases due to inadequate testing confidence
-- **[Debugging Difficulties](debugging-difficulties.md):** Challenges identifying issues due to poor test infrastructure visibility
-- **[High Maintenance Costs](high-maintenance-costs.md):** Expensive manual testing processes compensating for infrastructure gaps
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.717">ⓘ</span>
+<br/>  The lack of necessary tools and automation hinders the ability to implement comprehensive testing, resulting in critical areas of the codebase remaining untested and creating significant gaps in quality assurance.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.711">ⓘ</span>
+<br/>  The lack of effective testing tools and automation hampers developers' ability to efficiently work with outdated systems, leading to a reliance on a diminishing pool of specialists who understand the legacy technologies, thereby creating maintenance bottlenecks and increasing the risk of system failure.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.770">ⓘ</span>
+<br/>  The lack of essential testing tools and automation leads to a slow and cumbersome development environment, as developers are forced to work around inadequate infrastructure, ultimately hindering productivity and efficiency.
 
 ## Root Causes ▼
 
-- **[Resource Allocation Failures](resource-allocation-failures.md):** Insufficient investment in testing tools and infrastructure during project setup
-- **[Short-Term Focus](short-term-focus.md):** Treating test infrastructure as secondary to production infrastructure priorities
-- **[Knowledge Gaps](knowledge-gaps.md):** Lack of expertise in test automation and infrastructure design
-- **[Monolithic Architecture Constraints](monolithic-architecture-constraints.md):** Legacy systems that weren't designed with testability in mind
-- **[Short-Term Focus](short-term-focus.md):** Budget constraints that prioritize feature development over testing capabilities  
-- **[Quality Blind Spots](quality-blind-spots.md):** Organizational culture that undervalues testing and quality assurance activities
-- **[High Technical Debt](high-technical-debt.md):** Technical debt in testing systems that has accumulated over time without maintenance
-- **[Time Pressure](time-pressure.md):** Rapid development pace that outgrows the existing test infrastructure capabilities
-- **[Tool Limitations](tool-limitations.md):** Outdated or inappropriate testing tools that don't meet current needs
-- **[Planning Dysfunction](planning-dysfunction.md):** Lack of planning for testing infrastructure as part of system architecture
-- **[Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md):** No clear ownership of test infrastructure quality and maintenance
-- **[Team Silos](team-silos.md):** Separation between development and testing teams preventing infrastructure collaboration
-- **[Inexperienced Developers](inexperienced-developers.md):** Teams without experience in test infrastructure best practices
-- **[Poor Operational Concept](poor-operational-concept.md):** Lack of operational planning for test environment management
-- **[Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md):** Data synchronization challenges that complicate test data management
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -81,6 +61,7 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 - Assess test data management processes and availability of realistic test datasets
 - Monitor test automation success rates and failure patterns
 - Compare testing capabilities against industry standards and best practices
+
 
 ## Examples
 

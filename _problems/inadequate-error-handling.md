@@ -25,6 +25,7 @@ layout: problem
 
 Inadequate error handling occurs when applications fail to properly anticipate, catch, and manage error conditions, leading to unhandled exceptions, application crashes, and poor user experiences. This includes missing error handling code, generic error responses that don't help users or developers, and error handling that doesn't maintain application stability.
 
+
 ## Indicators ⟡
 
 - Frequent application crashes due to unhandled exceptions
@@ -33,22 +34,24 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 - Users encountering technical error messages instead of user-friendly explanations
 - Error handling code missing from critical application paths
 
+
 ## Symptoms ▲
 
-- **Unhandled Exceptions:** Exceptions causing application crashes or unexpected termination
-- **Generic Error Messages:** Non-specific error messages that don't help users understand issues
-- **Cascading Failures:** Single errors causing multiple system components to fail
-- **Poor Error Recovery:** Applications unable to recover gracefully from error conditions
-- **Information Disclosure:** Error messages revealing sensitive system information
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.525, Strength: 0.717">ⓘ</span>
+<br/>  When error handling is inadequate, failed API requests can lead to prolonged response times without appropriate fallback mechanisms, resulting in upstream services timing out as they await responses that never come.
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.738">ⓘ</span>
+<br/>  The lack of thorough testing in critical code sections often results in unhandled exceptions being overlooked, which directly contributes to the inadequate management of errors and ultimately leads to application instability.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.740">ⓘ</span>
+<br/>  Flaky tests often arise from inadequate error handling, as unhandled exceptions during test execution can lead to inconsistent test outcomes, obscuring the reliability of the test suite in legacy systems.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.668">ⓘ</span>
+<br/>  The lack of robust error handling in legacy systems often leads to frequent application failures, which in turn increases the demand for skilled developers to troubleshoot and maintain these systems, thus highlighting the critical shortage of personnel familiar with outdated technologies.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.792">ⓘ</span>
+<br/>  The lack of robust error handling often leads to insufficiently tested scenarios, where unrealistic or outdated test data is used, resulting in a failure to uncover critical exceptions and vulnerabilities that would otherwise be addressed during testing.
 
 ## Root Causes ▼
 
-- **Missing Exception Handling:** Critical code paths lacking try-catch blocks or error checking
-- **Insufficient Error Categorization:** Not distinguishing between different types of errors
-- **Poor Error Propagation:** Errors not properly passed up through application layers
-- **Inadequate Error Recovery Logic:** No mechanisms to gracefully handle and recover from errors
-- **Generic Error Responses:** Using catch-all error handling that obscures specific issues
-- **Lack of Error Handling Standards:** No consistent approach to error handling across the application
+- [Scaling Inefficiencies](scaling-inefficiencies.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.889">ⓘ</span>
+<br/>  Inefficient scaling prevents the independent enhancement of error handling capabilities across system components, resulting in inadequate mechanisms to manage exceptions effectively, which ultimately leads to application crashes and poor user experiences.
 
 ## Detection Methods ○
 
@@ -57,6 +60,7 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 - **User Experience Testing:** Test how users experience and recover from error conditions
 - **Error Message Review:** Review error messages for clarity and appropriateness
 - **Code Review for Error Handling:** Review code for proper exception handling patterns
+
 
 ## Examples
 

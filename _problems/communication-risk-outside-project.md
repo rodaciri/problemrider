@@ -25,6 +25,7 @@ layout: problem
 
 Communication risk outside the project occurs when there is inadequate information flow between the project team and external stakeholders, including customers, executives, other departments, and vendors. This creates situations where stakeholders have unrealistic expectations, are surprised by project outcomes, or make decisions based on outdated or incomplete information. Poor external communication can damage relationships, reduce support for the project, and lead to misaligned business decisions.
 
+
 ## Indicators ⟡
 
 - Stakeholders express surprise about project status, delays, or changes
@@ -33,21 +34,27 @@ Communication risk outside the project occurs when there is inadequate informati
 - Important project information is not shared beyond the immediate team
 - Stakeholder feedback is not incorporated into project planning and execution
 
+
 ## Symptoms ▲
 
-- **[Stakeholder Confidence Loss](stakeholder-confidence-loss.md):** External stakeholders lose trust in project team's ability to deliver
-- **[Misaligned Deliverables](misaligned-deliverables.md):** Project outputs don't match stakeholder expectations
-- **[Scope Creep](scope-creep.md):** Stakeholders add requirements without understanding impact on timeline or budget
-- **Resource Allocation Conflicts:** External decisions affect project resources unexpectedly
-- **Business Impact Misunderstanding:** Stakeholders don't understand project's business value or risks
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.747">ⓘ</span>
+<br/>  Frequent updates to project requirements often stem from external stakeholders' lack of awareness about the current project status, leading to miscommunication and the need for adjustments that create rework and delays.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.689">ⓘ</span>
+<br/>  A slow and cumbersome development environment can lead to incomplete or delayed updates being communicated to external stakeholders, resulting in misaligned expectations and surprises about project progress.
+- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.698">ⓘ</span>
+<br/>  The lack of clear communication with external stakeholders creates an authority vacuum, as insufficiently informed executives are less likely to advocate for the project, resulting in inadequate support and resources necessary for overcoming resistance.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.671">ⓘ</span>
+<br/>  The lack of effective communication with external stakeholders exacerbates the legacy skill shortage by preventing the identification of critical knowledge gaps and the allocation of resources needed to bridge them, leading to increased project risks and system maintenance challenges.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.623">ⓘ</span>
+<br/>  Poor communication with external stakeholders can lead to a lack of clarity regarding resource allocation and usage, resulting in unreleased resources as teams may not be aware of dependencies or changes needed to properly deallocate system components, ultimately indicating a breakdown in project oversight and coordination.
+- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.795">ⓘ</span>
+<br/>  Ineffective monitoring of project progress due to inadequate communication with external stakeholders results in a lack of timely updates, ultimately allowing issues to escalate unnoticed and jeopardizing project alignment and recovery efforts.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.782">ⓘ</span>
+<br/>  Poor communication with external stakeholders often results in outdated or insufficient test data being utilized, as stakeholders may not provide relevant real-world scenarios or requirements, leading to misaligned expectations in project outcomes.
 
 ## Root Causes ▼
 
-- **Inadequate Communication Plan:** No systematic approach to external stakeholder communication
-- **[Time Pressure](time-pressure.md):** Team focuses on execution without allocating time for stakeholder communication
-- **Unclear Stakeholder Mapping:** Team doesn't identify all relevant external parties
-- **Communication Skills Gap:** Team lacks skills to communicate effectively with non-technical stakeholders
-- **Organizational Silos:** Departmental boundaries prevent effective information sharing
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -56,6 +63,7 @@ Communication risk outside the project occurs when there is inadequate informati
 - **Communication Frequency Analysis:** Track how often external stakeholders receive project updates
 - **Surprise Event Tracking:** Document instances where stakeholders are caught off-guard by project developments
 - **Stakeholder Engagement Measurement:** Assess level of stakeholder involvement and input in project decisions
+
 
 ## Examples
 

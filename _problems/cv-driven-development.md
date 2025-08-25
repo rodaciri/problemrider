@@ -26,6 +26,7 @@ layout: problem
 
 CV Driven Development occurs when technical decisions are made primarily to add impressive technologies, frameworks, or methodologies to developers' resumes rather than to address actual business needs or technical requirements. This leads to the adoption of trendy, complex, or cutting-edge solutions that may be inappropriate for the project's scale, team expertise, or long-term maintenance needs. The practice prioritizes individual career advancement over project success and sustainable software development.
 
+
 ## Indicators ⟡
 
 - Technology proposals focus heavily on novelty or trendiness rather than business value
@@ -37,40 +38,21 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 - Disproportionate interest in conference-worthy or blog-worthy technical solutions
 - Preference for complex architectures when simpler solutions would suffice
 
+
 ## Symptoms ▲
 
-- **[Complex Implementation Paths](complex-implementation-paths.md):** Technology stack becomes unnecessarily complex for the project's requirements
-- **[Slow Development Velocity](slow-development-velocity.md):** Increased development time due to learning curves for new technologies
-- **[High Maintenance Costs](high-maintenance-costs.md):** Higher maintenance burden from adopting immature or bleeding-edge tools
-- **[Knowledge Silos](knowledge-silos.md):** Knowledge gaps when original implementers leave the team
-- **Difficulty Onboarding New Hires:** Difficulty finding developers familiar with the chosen technology stack
-- **[Gold Plating](gold-plating.md):** Projects become showcases for multiple unproven technologies simultaneously
-- **[High Technical Debt](high-technical-debt.md):** Technical debt accumulates from experimental implementations
-- **[Slow Application Performance](slow-application-performance.md):** Performance or reliability issues from using inappropriate tools
-- **[Budget Overruns](budget-overruns.md):** Budget overruns due to extended development and maintenance cycles
-- **[Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md):** Business stakeholders struggle to understand technical complexity relative to delivered value
-- **[Developer Frustration and Burnout](developer-frustration-and-burnout.md):** Team stress from working with unfamiliar or inappropriate technologies
-- **[Delayed Value Delivery](delayed-value-delivery.md):** Project delays while team learns new technologies
-- **[High Defect Rate in Production](high-defect-rate-in-production.md):** Bugs from inexperience with chosen technologies
-- **[Competitive Disadvantage](competitive-disadvantage.md):** Lost market opportunities due to overengineered solutions
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
 
-- **[Misaligned Deliverables](misaligned-deliverables.md):** Individual career incentives misaligned with project success metrics
-- **[Planning Dysfunction](planning-dysfunction.md):** Lack of clear technical decision-making processes or governance
-- **[Unclear Goals and Priorities](unclear-goals-and-priorities.md):** Absence of business value assessment in technology adoption decisions
-- **[Poorly Defined Responsibilities](poorly-defined-responsibilities.md):** Developer performance evaluations that reward technology adoption over project outcomes
-- **[Slow Knowledge Transfer](slow-knowledge-transfer.md):** Insufficient senior technical leadership to guide appropriate technology choices
-- **[Fear of Failure](fear-of-failure.md):** Market pressure on developers to stay current with trending technologies
-- **[Fear of Failure](fear-of-failure.md):** Fear of skill obsolescence driving premature adoption of new tools
-- **[Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md):** Weak project ownership or accountability for long-term maintenance
-- **[Gold Plating](gold-plating.md):** Organizational culture that celebrates technical complexity over simplicity
-- **[Knowledge Gaps](knowledge-gaps.md):** Inadequate consideration of team skill levels and project constraints
-- **[Eager to Please Stakeholders](eager-to-please-stakeholders.md):** Developers trying to impress with cutting-edge technology choices
-- **[Perfectionist Culture](perfectionist-culture.md):** Cultural preference for impressive over practical solutions
-- **[Bikeshedding](bikeshedding.md):** Excessive focus on technology choices rather than business problems
-- **[Analysis Paralysis](analysis-paralysis.md):** Over-analysis of technology options leading to complex choices
-- **[Cargo Culting](cargo-culting.md):** Adopting practices from other contexts without understanding appropriateness
+- [Decision Paralysis](decision-paralysis.md) <span class="info-tooltip" title="Confidence: 0.435, Strength: 0.758">ⓘ</span>
+<br/>  When developers face indecision due to a lack of clear guidelines, they may resort to selecting technologies that enhance their resumes instead of addressing actual business needs, thereby prioritizing personal advancement over practical solutions in legacy systems.
+- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.775">ⓘ</span>
+<br/>  The development team's lack of design skills leads them to prioritize trendy technologies over effective solutions, resulting in a focus on enhancing personal resumes rather than addressing the actual needs of the legacy systems.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.705">ⓘ</span>
+<br/>  The pressure of repeatedly pushed back deadlines prompts developers to prioritize trendy technologies that enhance their resumes over pragmatic solutions, diverting focus from addressing the core business problems inherent in legacy systems.
+- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.721">ⓘ</span>
+<br/>  Developers' lack of awareness of existing similar logic across the system leads them to prioritize trendy technologies for resume enhancement, rather than addressing the actual business needs, resulting in fragmented solutions that exacerbate synchronization issues in legacy systems.
 
 ## Detection Methods ○
 
@@ -84,6 +66,7 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 - Monitor recruitment difficulty for roles requiring the chosen technology stack
 - Analyze whether technology adoption follows industry hype cycles rather than project needs
 - Review retrospectives for mentions of technology-related challenges or regrets
+
 
 ## Examples
 

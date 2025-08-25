@@ -26,6 +26,7 @@ layout: problem
 
 Strangler fig pattern failures occur when attempts to gradually replace legacy system components with modern alternatives stall or fail due to underestimated complexity in system boundaries, data consistency requirements, and interdependencies. The strangler fig pattern, intended to enable low-risk incremental modernization, becomes a source of increased complexity and technical debt when the "strangling" process cannot be completed, leaving organizations with hybrid systems that are more complex than either the original legacy system or a complete replacement would have been.
 
+
 ## Indicators ⟡
 
 - Strangler fig implementation projects that consistently miss deadlines and milestones
@@ -36,37 +37,28 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 - Team estimates for completing the "strangling" process that keep extending
 - Growing operational complexity from managing both legacy and new system components simultaneously
 
+
 ## Symptoms ▲
 
-- **[Operational Overhead](operational-overhead.md):** Increased system complexity and operational overhead compared to the original legacy system
-- **[Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md):** Data consistency issues between legacy and new components that require constant monitoring
-- **[Slow Application Performance](slow-application-performance.md):** Performance bottlenecks at the integration points between old and new system components
-- **[Slow Development Velocity](slow-development-velocity.md):** Development velocity that decreases as more legacy components are replaced
-- **[High Technical Debt](high-technical-debt.md):** Technical debt accumulation in integration layers and data synchronization mechanisms
-- **[Poor User Experience (UX) Design](poor-user-experience-ux-design.md):** User experience degradation due to inconsistencies between legacy and new system behaviors
-- **[Incomplete Projects](incomplete-projects.md):** Modernization projects that appear successful initially but stall at 30-70% completion
-- **[Stagnant Architecture](stagnant-architecture.md):** Abandoned modernization efforts that leave hybrid systems in production indefinitely
-- **[Data Migration Integrity Issues](data-migration-integrity-issues.md):** Data corruption or inconsistency problems during the migration process
-- **[Integration Difficulties](integration-difficulties.md):** Complex integration challenges between legacy and new system components
-- **[Debugging Difficulties](debugging-difficulties.md):** Increased difficulty troubleshooting issues across hybrid system boundaries
-- **[High Maintenance Costs](high-maintenance-costs.md):** Higher maintenance costs due to supporting both legacy and new system components
-- **[Budget Overruns](budget-overruns.md):** Project costs that exceed estimates due to unexpected integration complexity
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.668">ⓘ</span>
+<br/>  The failure to modernize incrementally leads to increased complexity and delays in service responses, resulting in upstream timeouts as dependent services are unable to receive timely data from the legacy components.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.641">ⓘ</span>
+<br/>  The stalling of incremental modernization due to complex interdependencies and data consistency issues leads to a lack of clarity and stability in project goals, prompting constant changes to requirements as stakeholders attempt to adapt to the evolving challenges.
+- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.645">ⓘ</span>
+<br/>  The inherent complexity of the business domain leads to intricate interdependencies in the legacy system, making it difficult to implement incremental modernization effectively, thereby manifesting as stalled progress in the modernization efforts.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.653">ⓘ</span>
+<br/>  The stalling of incremental modernization due to complex interdependencies leads to situations where resources are allocated for new components but not properly deallocated, resulting in unreleased resources that indicate underlying issues in the modernization process.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.643">ⓘ</span>
+<br/>  The stalling of incremental modernization due to complex interdependencies and data consistency issues highlights a reliance on legacy technologies, which in turn exacerbates the shortage of skilled developers capable of maintaining these systems, creating a cycle of technical debt and increasing risk of failure.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.688">ⓘ</span>
+<br/>  Random test failures arise from the intricate dependencies and inconsistent data states inherent in the legacy system, indicating that the incremental modernization efforts are struggling to maintain reliability and coherence amidst complex integration challenges.
 
 ## Root Causes ▼
 
-- **[Planning Dysfunction](planning-dysfunction.md):** Insufficient analysis of legacy system boundaries and internal dependencies before starting
-- **[Knowledge Gaps](knowledge-gaps.md):** Lack of experience with strangler fig pattern implementation and common failure modes
-- **[High Coupling and Low Cohesion](high-coupling-low-cohesion.md):** Legacy systems with deeply interconnected components that resist clean separation
-- **[Time Pressure](time-pressure.md):** Time pressure that leads to shortcuts in boundary analysis and integration design
-- **[Frequent Changes to Requirements](frequent-changes-to-requirements.md):** Business requirements that change during the modernization process, affecting system boundaries
-- **[High Technical Debt](high-technical-debt.md):** Technical debt in legacy systems that makes clean component extraction extremely difficult
-- **[Complex and Obscure Logic](complex-and-obscure-logic.md):** Underestimation of data consistency and synchronization complexity in hybrid system states
-- **[Inadequate Configuration Management](inadequate-configuration-management.md):** Inadequate tooling and infrastructure for managing complex data synchronization scenarios
-- **[Implementation Starts Without Design](implementation-starts-without-design.md):** Beginning strangler fig implementation without proper architectural analysis
-- **[Insufficient Design Skills](insufficient-design-skills.md):** Lack of expertise in designing clean system boundaries and migration strategies
-- **[Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md):** Poor understanding of legacy system internals making boundary identification difficult
-- **[Schema Evolution Paralysis](schema-evolution-paralysis.md):** Database schema constraints that prevent clean component separation
-- **[Poor Interfaces Between Applications](poor-interfaces-between-applications.md):** Existing poor integration patterns that complicate the strangler fig approach
+- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.902">ⓘ</span>
+<br/>  The difficulty in modifying the existing code without introducing new bugs leads to hesitance in implementing incremental changes, which stalls the modernization effort due to the complex interdependencies and data consistency challenges inherent in legacy systems.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.846">ⓘ</span>
+<br/>  The tendency to provide large time estimates for small changes reflects the underlying code complexity and interdependencies in legacy systems, which in turn creates uncertainty and stalls incremental modernization efforts due to fears of unintended consequences and data integrity issues.
 
 ## Detection Methods ○
 
@@ -78,6 +70,7 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 - Review technical debt accumulation in integration and synchronization code
 - Survey development teams about challenges and blockers in continuing the modernization
 - Evaluate whether the current hybrid system provides better value than the original legacy system
+
 
 ## Examples
 

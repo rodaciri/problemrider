@@ -26,6 +26,7 @@ layout: problem
 
 Superficial code reviews occur when the review process consistently focuses on surface-level issues such as code formatting, variable naming, and minor style preferences while failing to identify important problems related to logic, design, security, performance, or maintainability. This creates a false sense of quality assurance where code passes review despite containing significant issues that could impact functionality or long-term maintainability.
 
+
 ## Indicators ⟡
 
 - Most review comments are about formatting, spacing, or naming conventions
@@ -34,21 +35,21 @@ Superficial code reviews occur when the review process consistently focuses on s
 - Security vulnerabilities are discovered after deployment rather than during review
 - Performance issues are not identified until they impact users
 
+
 ## Symptoms ▲
 
-- **False Quality Confidence:** Team believes code quality is high due to thorough-seeming reviews
-- **[Increased Bug Count](increased-bug-count.md):** Important issues reach production because reviews didn't catch them
-- **Security Vulnerability Exposure:** Security issues are missed during review process
-- **[High Technical Debt](high-technical-debt.md):** Design problems accumulate because reviews don't address architectural issues
-- **[Code Review Inefficiency](code-review-inefficiency.md):** Time is spent on trivial issues while important problems go unnoticed
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
 
-- **[Reviewer Anxiety](reviewer-anxiety.md):** Reviewers feel safer commenting on obvious style issues than complex logic
-- **[Code Review Inefficiency](code-review-inefficiency.md):** No clear expectations about what constitutes thorough review
-- **[Reviewer Inexperience](reviewer-inexperience.md):** Reviewers lack skills to identify deeper issues
-- **Automated Style Checking Absence:** Manual style review distracts from more important issues
-- **[Time Pressure](time-pressure.md):** Reviewers take shortcuts and focus on quick, easy-to-spot issues
+- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.835">ⓘ</span>
+<br/>  Developers accustomed to procedural programming may prioritize superficial aspects of code during reviews due to their limited understanding of object-oriented principles, resulting in overlooked design and security flaws in legacy systems.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.806">ⓘ</span>
+<br/>  A lack of understanding of object-oriented programming principles leads reviewers to prioritize superficial aspects of code, resulting in missed critical design and logic flaws that contribute to the long-term maintainability issues in legacy systems.
+- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.788">ⓘ</span>
+<br/>  The lack of proper data encapsulation leads to tightly coupled components that obscure the underlying logic and design flaws during code reviews, causing reviewers to overlook critical issues in favor of superficial style corrections.
+- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.815">ⓘ</span>
+<br/>  The development team's lack of design skills leads to superficial code reviews, as they are unable to identify and address deeper structural and logical flaws, resulting in a failure to improve the maintainability and security of legacy systems.
 
 ## Detection Methods ○
 
@@ -57,6 +58,7 @@ Superficial code reviews occur when the review process consistently focuses on s
 - **Review Depth Assessment:** Evaluate whether reviews address design and logic issues
 - **Security Issue Discovery Timeline:** Determine if security problems are found in review or production
 - **Code Quality Trend Analysis:** Monitor whether superficial reviews correlate with quality degradation
+
 
 ## Examples
 

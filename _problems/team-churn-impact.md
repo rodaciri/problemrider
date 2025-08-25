@@ -26,6 +26,7 @@ layout: problem
 
 Team churn impact refers to the negative effects on code quality, consistency, and system knowledge that result from frequent changes in team composition. As developers leave, they take valuable system knowledge with them, while new team members bring different coding styles, practices, and assumptions. Without strong processes to manage this transition, the codebase gradually becomes inconsistent, undocumented decisions are forgotten, and the overall system becomes harder to maintain.
 
+
 ## Indicators ⟡
 - Significant differences in code style and approach between different parts of the system
 - Critical system knowledge exists only in the minds of specific individuals
@@ -33,20 +34,22 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 - Code review discussions frequently involve debates about historical design decisions
 - Documentation gaps in areas where key contributors have left
 
+
 ## Symptoms ▲
-- **[Inconsistent Codebase](inconsistent-codebase.md):** Different coding styles and patterns emerge as new developers contribute
-- **[Knowledge Silos](knowledge-silos.md):** Understanding of design decisions, business rules, or technical limitations disappears when developers leave
-- **[Information Decay](information-decay.md):** Important information isn't written down and is lost during personnel changes
-- **[Slow Development Velocity](slow-development-velocity.md):** New team members need extensive time to understand systems and processes
-- **Repeated Mistakes:** The team makes mistakes that were previously resolved but not documented
+
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.740">ⓘ</span>
+<br/>  The constant turnover of developers leads to inconsistent understanding and interpretation of project requirements, resulting in frequent updates and adjustments that disrupt the development process and indicate underlying issues with team stability and knowledge continuity.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.656">ⓘ</span>
+<br/>  Frequent changes in team composition lead to inconsistent coding practices and knowledge gaps, which create a chaotic work environment that frustrates developers and contributes to their burnout.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.722">ⓘ</span>
+<br/>  As developers frequently leave and join the team, their varying levels of familiarity with legacy systems result in knowledge gaps that hinder effective maintenance, ultimately leading to a critical shortage of skilled personnel who can manage and update the outdated technologies.
+- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.745">ⓘ</span>
+<br/>  Frequent changes in team composition lead to inconsistent coding practices and knowledge gaps, causing developers to spend less time on refining features, which directly results in diminished quality of the delivered user experience.
 
 ## Root Causes ▼
-- **[High Turnover](high-turnover.md):** Frequent departures of developers due to market conditions, company culture, or career progression
-- **[Knowledge Silos](knowledge-silos.md):** No systematic process for departing employees to transfer knowledge
-- **[Inadequate Onboarding](inadequate-onboarding.md):** New team members aren't effectively integrated into existing practices and standards
-- **Lack of Documentation Culture:** Critical knowledge isn't captured in written form
-- **[Undefined Code Style Guidelines](undefined-code-style-guidelines.md):** No established guidelines for maintaining consistency across different contributors
-- **[Communication Breakdown](communication-breakdown.md):** Important decisions and context are shared verbally rather than documented
+
+- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.863">ⓘ</span>
+<br/>  The increasing fragility of the software system leads to a higher likelihood of errors during modifications, which, when compounded by the varying practices and knowledge of new team members, results in inconsistent implementations that further degrade code quality.
 
 ## Detection Methods ○
 - **Turnover Rate Analysis:** Track the frequency of team member departures and their impact duration
@@ -54,6 +57,7 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 - **Code Consistency Analysis:** Use tools to measure style and pattern consistency across the codebase
 - **Onboarding Time Metrics:** Track how long new team members take to become productive
 - **Documentation Coverage:** Assess what critical system knowledge is properly documented
+
 
 ## Examples
 

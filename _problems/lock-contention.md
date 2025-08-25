@@ -25,6 +25,7 @@ layout: problem
 
 Lock contention occurs when multiple threads frequently compete for the same synchronization primitives (mutexes, locks, semaphores), causing threads to block while waiting for locks to become available. This reduces the effectiveness of parallel execution as threads spend time waiting rather than doing useful work, and can lead to performance degradation that's worse than single-threaded execution in severe cases.
 
+
 ## Indicators ⟡
 
 - Multi-threaded applications perform worse than single-threaded equivalents
@@ -33,22 +34,17 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 - System monitoring shows threads in blocked or waiting states
 - CPU utilization is low despite high thread activity
 
+
 ## Symptoms ▲
 
-- **Thread Blocking:** Threads spend excessive time waiting for lock acquisition
-- **Reduced Parallelism:** Multi-threaded code performs poorly due to serialization
-- **[Synchronization Problems](synchronization-problems.md):** Excessive synchronization overhead reduces overall system efficiency
-- **Performance Degradation:** Adding more threads decreases rather than increases performance
-- **CPU Underutilization:** Low CPU usage despite high thread count due to blocking
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.802">ⓘ</span>
+<br/>  When multiple threads experience blocking due to competing for the same locks, it can lead to a slowdown in the decision-making process as teams become hesitant to proceed without clear direction, ultimately stalling progress in development efforts.
+- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.773">ⓘ</span>
+<br/>  When multiple threads are blocked due to competing for the same locks, it can lead to increased frustration and misalignment among team members, as they struggle to collaborate effectively in a system that is hindered by these technical bottlenecks.
 
 ## Root Causes ▼
 
-- **Coarse-Grained Locking:** Single locks protect large critical sections or multiple unrelated resources
-- **Hot Lock Patterns:** Multiple threads frequently access the same shared resource
-- **Lock Hierarchy Issues:** Poor lock ordering creates unnecessary contention points
-- **Read-Write Lock Misuse:** Using exclusive locks where read-shared locks would be appropriate
-- **Global State Protection:** Global variables requiring synchronization create system-wide bottlenecks
-- **Lock Granularity Problems:** Inappropriate balance between too few and too many locks
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -58,6 +54,7 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 - **Lock Instrumentation:** Add instrumentation to measure lock hold times and wait times
 - **Concurrency Profilers:** Use specialized tools designed to detect synchronization bottlenecks
 - **CPU Utilization Monitoring:** Analyze CPU usage patterns during high-contention scenarios
+
 
 ## Examples
 

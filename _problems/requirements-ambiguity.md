@@ -26,6 +26,7 @@ layout: problem
 
 Requirements ambiguity occurs when system requirements are expressed in ways that allow for multiple interpretations, lack sufficient detail for implementation, or fail to address critical edge cases and constraints. This ambiguity forces developers to make assumptions about intended functionality, often leading to implementations that don't match stakeholder expectations. The problem is compounded when ambiguous requirements aren't clarified early in the development process, resulting in costly rework when the misalignment is discovered.
 
+
 ## Indicators ⟡
 
 - Developers frequently ask for clarification about requirements during implementation
@@ -34,24 +35,37 @@ Requirements ambiguity occurs when system requirements are expressed in ways tha
 - Edge cases and error conditions are not addressed in requirements
 - Stakeholders express surprise or dissatisfaction with implemented functionality that technically meets written requirements
 
+
 ## Symptoms ▲
 
-- **[Misaligned Deliverables](misaligned-deliverables.md):** Implemented features don't match stakeholder expectations
-- **[Implementation Rework](implementation-rework.md):** Code must be significantly modified after requirements clarification
-- **[Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md):** Persistent misunderstandings between business and technical teams
-- **[Assumption-Based Development](assumption-based-development.md):** Developers make incorrect assumptions about intended functionality
-- **[Extended Cycle Times](extended-cycle-times.md):** Development is slowed by need for constant requirement clarification
-- **[User Frustration](user-frustration.md):** End users find that system doesn't support their actual workflows
+- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.512, Strength: 0.720">ⓘ</span>
+<br/>  Unclear or incomplete requirements lead to an architecture that is designed based on incorrect assumptions, resulting in performance and scalability limitations that manifest as technical constraints in the system.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.756">ⓘ</span>
+<br/>  The lack of clear and precise requirements leads to confusion and misinterpretation during development, resulting in an increased reliance on a limited number of developers who are familiar with the legacy system, thereby exacerbating the skill shortage as they become the sole resources capable of addressing the resulting complexities.
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.469, Strength: 0.686">ⓘ</span>
+<br/>  Unclear and ambiguous requirements lead to a lack of comprehensive test cases, as developers may struggle to identify critical functionalities, resulting in inadequate test coverage that exposes the system to undetected issues.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.465, Strength: 0.679">ⓘ</span>
+<br/>  Unclear and incomplete system requirements lead to misunderstandings and differing interpretations among stakeholders, prompting frequent updates and changes during development to clarify expectations, which ultimately results in rework and project delays.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.671">ⓘ</span>
+<br/>  Ambiguities in system requirements can lead to incomplete or incorrect implementations of compliance features, causing legacy systems to diverge from current regulatory standards and creating costly gaps in compliance.
+- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.629">ⓘ</span>
+<br/>  The lack of clear and precise requirements often leads to an overly intricate and convoluted representation of the business domain in the software, making it challenging for developers to accurately implement features, thereby highlighting the underlying ambiguity in the requirements.
+- [Assumption-Based Development](assumption-based-development.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.806">ⓘ</span>
+<br/>  Unclear and incomplete system requirements lead developers to rely on their assumptions about user needs, resulting in misaligned implementations that highlight the underlying ambiguity in the requirements.
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.733">ⓘ</span>
+<br/>  Unclear and ambiguous requirements lead teams to extensively analyze and debate potential solutions without reaching consensus, causing delays and stagnation in the development process.
+- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.364, Strength: 0.781">ⓘ</span>
+<br/>  Unclear and ambiguous requirements often lead to inconsistent implementations, resulting in multiple versions of code and data that are poorly tracked, thus manifesting as configuration management issues when teams struggle to align their work with the original intent.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.702">ⓘ</span>
+<br/>  Unclear or ambiguous requirements often lead to inconsistent test implementations, where tests are not aligned with the intended functionality, resulting in flaky tests that fail due to misinterpretations and dependencies that are improperly managed.
+- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.670">ⓘ</span>
+<br/>  When system requirements are ambiguous and poorly defined, it leads to a lack of clarity and direction, making it difficult for project leaders to secure the necessary organizational support and resources, ultimately creating a void in project authority.
+- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.543">ⓘ</span>
+<br/>  The failure to establish clear and complete requirements leads to code that does not align with intended functionality, resulting in ineffective review processes that cannot address issues stemming from misinterpretations or incomplete specifications.
 
 ## Root Causes ▼
 
-- **Incomplete Requirements Gathering:** Requirements collection doesn't explore edge cases or detailed scenarios
-- **Communication Skill Gaps:** Stakeholders struggle to articulate their needs clearly
-- **Domain Knowledge Limitations:** Requirements writers don't fully understand the business domain
-- **Assumption-Heavy Documentation:** Requirements assume shared context that doesn't exist
-- **Review Process Weaknesses:** Requirements aren't reviewed thoroughly by both business and technical stakeholders
-- **Template Limitations:** Requirements templates don't prompt for necessary detail
-- **Time Pressure:** Requirements gathering is rushed due to project timeline pressure
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -61,6 +75,7 @@ Requirements ambiguity occurs when system requirements are expressed in ways tha
 - **Requirements Review Effectiveness:** Assess quality of requirements review processes
 - **Rework Metrics:** Track how much development work is redone due to requirement issues
 - **User Acceptance Testing Results:** Analyze whether implementations pass user acceptance criteria
+
 
 ## Examples
 

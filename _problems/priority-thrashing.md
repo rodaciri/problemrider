@@ -25,6 +25,7 @@ layout: problem
 
 Priority thrashing occurs when work priorities change so frequently that team members cannot complete tasks before being redirected to different priorities. This creates a chaotic work environment where everything seems urgent, nothing gets completed efficiently, and team members constantly switch between tasks. The result is reduced productivity, increased stress, and difficulty completing any work to a high standard.
 
+
 ## Indicators ⟡
 
 - Team members frequently abandon partially completed work to address new priorities
@@ -33,21 +34,27 @@ Priority thrashing occurs when work priorities change so frequently that team me
 - Team struggles to complete any work items fully before being redirected
 - Emergency requests regularly disrupt planned work
 
+
 ## Symptoms ▲
 
-- **[Context Switching Overhead](context-switching-overhead.md):** Constant task switching reduces overall productivity
-- **Incomplete Work Items:** Tasks remain partially completed as priorities shift
-- **[Increased Stress and Burnout](increased-stress-and-burnout.md):** Constant priority changes create stress and frustration
-- **[Quality Degradation](quality-degradation.md):** Work quality suffers due to rushed task switching
-- **Planning Breakdown:** Planning becomes meaningless when priorities constantly change
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.764">ⓘ</span>
+<br/>  Frequent updates to project requirements indicate priority thrashing as they reflect the instability in work priorities, forcing teams to constantly adjust their focus and resulting in a cycle of rework and delays in legacy systems.
+- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.699">ⓘ</span>
+<br/>  Frequent changes in work priorities lead to task switching that disrupts users' ability to complete their work, resulting in increased frustration and a higher volume of support inquiries as users seek assistance with unresolved issues.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.651">ⓘ</span>
+<br/>  Frequent and unexpected changes in work priorities lead to constant context switching, which creates a chaotic work environment that overwhelms developers, resulting in frustration and burnout as they struggle to manage an ever-shifting workload while dealing with the inherent complexities of a legacy codebase.
+- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.709">ⓘ</span>
+<br/>  Frequent and unexpected changes in work priorities lead to constant task switching, which disrupts focus and continuity, ultimately resulting in decreased output and effectiveness of the development team as they struggle to adapt to shifting demands.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.609">ⓘ</span>
+<br/>  Frequent changes in work priorities lead to interrupted workflows, causing developers to struggle with a slow and cumbersome environment as they constantly adapt to shifting tasks, thereby amplifying the inefficiencies inherent in legacy systems.
+- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.750">ⓘ</span>
+<br/>  Frequent changes in work priorities lead to increased context switching, which manifests as excessive hardware interrupts that disrupt CPU execution flow and degrade application performance in legacy systems.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.727">ⓘ</span>
+<br/>  Frequent and unexpected changes in work priorities lead to misaligned expectations between stakeholders and developers, as the constant task switching hampers clear communication and understanding of project goals, ultimately resulting in rework and dissatisfaction.
 
 ## Root Causes ▼
 
-- **[Unclear Goals and Priorities](unclear-goals-and-priorities.md):** No clear hierarchy or criteria for determining actual priorities
-- **Reactive Management:** Management responds to every request as if it's urgent
-- **Poor Stakeholder Management:** Multiple stakeholders make competing priority demands
-- **Lack of Priority Framework:** No systematic approach to evaluating and ranking priorities
-- **Crisis-Driven Culture:** Organization operates in constant crisis mode
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -56,6 +63,7 @@ Priority thrashing occurs when work priorities change so frequently that team me
 - **Context Switch Tracking:** Measure how often team members switch between different types of work
 - **Emergency Request Analysis:** Track frequency and impact of urgent requests that disrupt planned work
 - **Team Satisfaction Surveys:** Assess team stress levels and satisfaction with work prioritization
+
 
 ## Examples
 

@@ -26,6 +26,7 @@ layout: problem
 
 Duplicated work occurs when multiple team members independently work on the same tasks, solve the same problems, or implement similar solutions without being aware of each other's efforts. This duplication wastes development resources, can create conflicting implementations, and indicates problems with team coordination and communication. The problem is particularly costly in large teams or distributed development environments.
 
+
 ## Indicators ⟡
 
 - Multiple team members independently implement similar functionality
@@ -34,21 +35,28 @@ Duplicated work occurs when multiple team members independently work on the same
 - Team members discover others were working on their assigned tasks
 - Code reviews reveal multiple implementations of the same logic
 
+
 ## Symptoms ▲
 
-- **[Wasted Development Effort](wasted-development-effort.md):** Resources are spent on redundant work that doesn't add value
-- **Conflicting Implementations:** Multiple solutions for the same problem must be reconciled
-- **[Integration Difficulties](integration-difficulties.md):** Duplicate implementations create integration challenges
-- **[Team Coordination Issues](team-coordination-issues.md):** Poor coordination allows duplicate work to occur
-- **[Reduced Team Productivity](reduced-team-productivity.md):** Overall team productivity decreases due to redundant efforts
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.530, Strength: 0.744">ⓘ</span>
+<br/>  Constantly evolving requirements can lead to unclear task ownership and priorities, causing multiple team members to inadvertently address the same issues simultaneously, resulting in duplicated efforts and wasted resources.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.645">ⓘ</span>
+<br/>  The occurrence of duplicated work leads to frustration and burnout among developers as they face the stress of redundant tasks and conflicting solutions, which erode their motivation and engagement in an already challenging legacy code environment.
+- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.740">ⓘ</span>
+<br/>  When multiple team members unknowingly duplicate efforts on the same tasks in legacy systems, it leads to wasted resources and time, ultimately resulting in a measurable decline in overall team productivity due to fragmented focus and inefficient use of skills.
+- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.724">ⓘ</span>
+<br/>  The tendency for team members to unknowingly duplicate tasks in legacy systems fosters a culture of minimalism, as they become more focused on merely completing existing assignments rather than exploring innovative solutions, resulting in stagnation and resistance to new ideas.
+- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.709">ⓘ</span>
+<br/>  The presence of duplicated work among team members leads to inefficiencies and resource misallocation, which in turn hampers the overall development velocity by diverting time and effort away from progressing on distinct tasks and features.
+- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.725">ⓘ</span>
+<br/>  The urgency to meet deadlines often results from the inefficiencies of team members duplicating efforts, which creates a false sense of progress and compels rushed decisions that further compromise the quality of the legacy software.
 
 ## Root Causes ▼
 
-- **[Team Confusion](team-confusion.md):** Team members are unclear about who is responsible for what work
-- **[Communication Breakdown](communication-breakdown.md):** Team members don't effectively communicate about their work assignments
-- **Inadequate Work Tracking:** No system to track who is working on what tasks
-- **Task Assignment Overlap:** Multiple people are assigned to overlapping or identical tasks
-- **Siloed Development:** Team members work in isolation without awareness of others' work
+- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.897">ⓘ</span>
+<br/>  The use of a single database by multiple services leads to a lack of visibility and coordination among team members, resulting in overlapping efforts on the same tasks without awareness of each other's actions.
+- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.910">ⓘ</span>
+<br/>  The reliance on shared libraries and frameworks in legacy systems often leads to multiple team members unknowingly addressing the same issues or tasks, as they may be unaware of others' efforts due to the lack of clear visibility into the shared dependencies and associated work.
 
 ## Detection Methods ○
 
@@ -57,6 +65,7 @@ Duplicated work occurs when multiple team members independently work on the same
 - **Retrospective Discussions:** Regular team discussions to identify instances of duplicated effort
 - **Communication Pattern Analysis:** Assess whether team members effectively share information about their work
 - **Task Completion Review:** Review completed work to identify instances where multiple people solved the same problems
+
 
 ## Examples
 

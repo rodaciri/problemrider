@@ -25,6 +25,7 @@ layout: problem
 
 Inadequate initial reviews occur when the first round of code review fails to identify important issues, design problems, or potential improvements that should have been caught early. This results in multiple review cycles where new issues are discovered in each round, extending the review process unnecessarily and creating frustration for both authors and reviewers. The problem indicates that reviewers are not conducting thorough analysis during their initial examination of the code.
 
+
 ## Indicators ⟡
 
 - Issues that should have been obvious are only identified in later review rounds
@@ -33,21 +34,22 @@ Inadequate initial reviews occur when the first round of code review fails to id
 - Important design or architectural issues are missed until after implementation details are reviewed
 - Review quality improves significantly in later rounds compared to initial reviews
 
+
 ## Symptoms ▲
 
-- **[Extended Review Cycles](extended-review-cycles.md):** Multiple rounds are needed because initial reviews don't catch all issues
-- **[Implementation Rework](implementation-rework.md):** Authors must make significant changes late in the review process
-- **Team loses confidence that reviews will catch issues early**
-- **[Slow Development Velocity](slow-development-velocity.md):** Poor initial reviews create delays and inefficiencies
-- **Reviewers' effectiveness is questioned when they miss obvious problems**
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.668">ⓘ</span>
+<br/>  Inadequate initial reviews lead to overlooked code issues, resulting in critical areas of the codebase lacking test coverage, which ultimately exposes the system to undetected defects and compromises quality assurance.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.737">ⓘ</span>
+<br/>  The slow and cumbersome development environment exacerbates incomplete code reviews by discouraging thorough analysis, as developers rush to meet performance demands, leading to critical issues being overlooked until later stages.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.686">ⓘ</span>
+<br/>  Incomplete or superficial first-round code reviews fail to catch critical issues in the code, leading to unstable test environments and unreliable tests that reflect underlying quality problems in the software.
 
 ## Root Causes ▼
 
-- **[Reviewer Inexperience](reviewer-inexperience.md):** Reviewers lack skills to conduct comprehensive analysis in first pass
-- **[Time Pressure](time-pressure.md):** Reviewers rush through initial reviews due to competing priorities
-- **No systematic approach to ensure comprehensive coverage**
-- **Large or complex changes exceed reviewers' ability to analyze thoroughly**
-- **[Time Pressure](time-pressure.md):** Reviewers don't allocate adequate time for thorough initial analysis
+- [Duplicated Effort](duplicated-effort.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.857">ⓘ</span>
+<br/>  The superficiality of first-round code reviews arises from team members duplicating efforts on similar issues, leading to a lack of thorough examination as reviewers may focus on their own contributions rather than collaboratively identifying critical problems.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.813">ⓘ</span>
+<br/>  The tendency to provide large time estimates for seemingly small changes highlights the underlying complexity of the legacy code, which leads reviewers to overlook critical issues during initial reviews due to a lack of clarity and understanding of potential risks.
 
 ## Detection Methods ○
 
@@ -56,6 +58,7 @@ Inadequate initial reviews occur when the first round of code review fails to id
 - **Review Quality Progression:** Analyze whether review feedback gets significantly deeper in later rounds
 - **Reviewer Performance Assessment:** Compare different reviewers' ability to identify issues early
 - **Time Investment Correlation:** Examine relationship between time spent on initial review and issue discovery
+
 
 ## Examples
 

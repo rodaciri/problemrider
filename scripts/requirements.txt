@@ -20,3 +20,4 @@ tqdm>=4.64.0                  # Progress bars with timing information
 # For causal relationship validation
 networkx>=2.8.0               # Graph structure for causal modeling
 openai>=1.0.0                 # LLM-based causal reasoning
+causal-strength               # For causal strength analysis

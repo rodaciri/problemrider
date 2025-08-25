@@ -26,6 +26,7 @@ layout: problem
 
 Architectural mismatch occurs when the current system architecture is fundamentally incompatible with new business requirements, user patterns, or technical needs. This mismatch forces developers to create complex workarounds, implement suboptimal solutions, or make significant compromises that undermine the effectiveness of new features. The root cause is typically that the original architecture was designed for different assumptions about scale, usage patterns, or business models that no longer apply.
 
+
 ## Indicators ⟡
 
 - New features require extensive workarounds that don't align with the existing architecture
@@ -34,22 +35,30 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 - New requirements force violation of established architectural principles
 - Features that should be simple become multi-month projects due to architectural constraints
 
+
 ## Symptoms ▲
 
-- **[Complex Implementation Paths](complex-implementation-paths.md):** Simple business requirements require complex technical solutions
-- **[Accumulation of Workarounds](accumulation-of-workarounds.md):** New features are implemented as patches rather than natural extensions
-- **[Slow Application Performance](slow-application-performance.md):** Architecture can't efficiently support new usage patterns or scale requirements
-- **[Integration Difficulties](integration-difficulties.md):** New systems or services can't integrate cleanly with existing architecture
-- **[Slow Feature Development](slow-feature-development.md):** Development velocity decreases as architectural friction increases
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.720">ⓘ</span>
+<br/>  Constant updates to project requirements indicate an architectural mismatch, as the inability of the existing system to accommodate new needs forces stakeholders to frequently revise expectations, leading to rework and delays.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.676">ⓘ</span>
+<br/>  The inability to adapt legacy systems to new business requirements exacerbates the reliance on a dwindling pool of developers skilled in outdated technologies, highlighting critical gaps in maintenance capability and increasing the risk of system failures.
+- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.698">ⓘ</span>
+<br/>  The constraints imposed by the system's design lead to difficulties in meeting new business requirements, manifesting as limitations in performance, scalability, maintainability, and development velocity, thereby indicating an underlying architectural mismatch.
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.745">ⓘ</span>
+<br/>  When new business requirements clash with existing architectural constraints, teams often become mired in prolonged research and analysis to find feasible solutions, which hinders progress and indicates the extent of the architectural mismatch.
+- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.542">ⓘ</span>
+<br/>  The need for extensive workarounds due to architectural constraints leads to an overly intricate domain model, as developers attempt to fit complex business requirements into a rigid structure, resulting in confusion and implementation challenges within the legacy system.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.617">ⓘ</span>
+<br/>  The inability of legacy systems to adapt to new architectural requirements often leads to outdated compliance measures, as the inflexibility in the system architecture hinders timely updates to meet evolving regulatory standards, resulting in gaps that become increasingly costly and risky to rectify.
+- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.727">ⓘ</span>
+<br/>  The difficulty new hires face in effectively contributing to the team highlights the architectural mismatch, as their inability to navigate outdated frameworks and convoluted workarounds serves as a clear indicator of the constraints imposed by legacy systems on meeting evolving business needs.
 
 ## Root Causes ▼
 
-- **[Stagnant Architecture](stagnant-architecture.md):** System design hasn't evolved to meet changing business needs
-- **Changed Business Model:** Original architecture was designed for different business assumptions
-- **[Scaling Inefficiencies](scaling-inefficiencies.md):** System has grown beyond the scale the architecture was designed to handle
-- **[Technology Lock-In](technology-lock-in.md):** Business needs require technologies incompatible with current architecture
-- **User Pattern Evolution:** Users interact with the system in ways not anticipated by the original design
-- **[Obsolete Technologies](obsolete-technologies.md):** Legacy technology choices constrain architectural options
+- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.946">ⓘ</span>
+<br/>  The reliance on a common set of libraries and frameworks leads to tightly coupled components, restricting flexibility in adapting to new business requirements and resulting in significant architectural constraints.
+- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.911">ⓘ</span>
+<br/>  Complex data migration processes hinder the ability to adapt the existing architectural framework to new business requirements, resulting in compromises and extensive workarounds due to the risks of data loss and system instability during updates.
 
 ## Detection Methods ○
 
@@ -58,6 +67,7 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 - **Developer Feedback:** Survey team about architectural pain points and implementation challenges
 - **Requirements vs. Architecture Mapping:** Analyze how well new requirements align with architectural capabilities
 - **Implementation Time Tracking:** Monitor whether similar features take increasing amounts of time to implement
+
 
 ## Examples
 

@@ -23,6 +23,7 @@ layout: problem
 
 Virtual memory thrashing occurs when the system's working set of active pages exceeds available physical memory, causing the operating system to constantly swap pages between RAM and disk storage. This creates a destructive cycle where the system spends more time managing virtual memory than executing application code, leading to severe performance degradation and system unresponsiveness.
 
+
 ## Indicators ⟡
 
 - Extremely high disk I/O activity with minimal actual data processing
@@ -31,22 +32,17 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 - Available physical memory is consistently near zero
 - Swap file usage grows rapidly and remains high
 
+
 ## Symptoms ▲
 
-- **System Unresponsiveness:** Entire system becomes sluggish due to constant disk I/O for paging
-- **[Memory Swapping](memory-swapping.md):** Operating system aggressively moves memory pages to disk storage
-- **Disk I/O Saturation:** Storage subsystem becomes overwhelmed with paging requests
-- **Application Timeout Failures:** Applications timeout due to extreme slowdown from memory access delays
-- **Interactive Session Freezing:** User interfaces become unresponsive during memory pressure
+- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.744">ⓘ</span>
+<br/>  Excessive paging activity leads to frequent data retrieval from the original source instead of utilizing cached data, resulting in increased latency and further exacerbating performance issues in systems with limited memory resources.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.671">ⓘ</span>
+<br/>  Excessive allocation of unreleased resources increases memory pressure, leading to frequent page swaps between physical memory and disk, thereby exacerbating performance issues characteristic of thrashing in legacy systems.
 
 ## Root Causes ▼
 
-- **Working Set Exceeds Physical Memory:** Applications collectively require more memory than physically available
-- **[Memory Leaks](memory-leaks.md):** Memory leaks consume physical memory, forcing legitimate data to swap
-- **Poor Memory Locality:** Applications access memory in patterns that maximize page faults
-- **Inadequate Physical Memory:** System lacks sufficient RAM for current workload requirements
-- **Memory Overcommitment:** Virtual memory system allows more memory allocation than can be supported
-- **Simultaneous Memory-Intensive Applications:** Multiple applications compete for limited physical memory
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -56,6 +52,7 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 - **Working Set Analysis:** Measure application working set sizes relative to available memory
 - **Performance Profiling:** Profile applications during memory pressure to identify thrashing patterns
 - **Virtual Memory Statistics:** Monitor virtual memory system statistics and swap file activity
+
 
 ## Examples
 

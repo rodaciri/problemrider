@@ -25,6 +25,7 @@ layout: problem
 
 Reduced review participation occurs when many team members avoid or minimize their involvement in the code review process, leaving most reviews to be handled by a small subset of the team. This creates an uneven distribution of review workload, reduces the diversity of perspectives on code changes, and can lead to review bottlenecks when the active reviewers become overwhelmed or unavailable.
 
+
 ## Indicators ⟡
 
 - Only 2-3 team members out of 8-10 regularly participate in code reviews
@@ -33,21 +34,26 @@ Reduced review participation occurs when many team members avoid or minimize the
 - Some team members go weeks without conducting any reviews
 - Review assignments are declined or ignored by certain team members
 
+
 ## Symptoms ▲
 
-- **[Review Bottlenecks](review-bottlenecks.md):** Limited reviewers create delays when active reviewers are busy or unavailable
-- **[Mentor Burnout](mentor-burnout.md):** Active reviewers become overwhelmed with disproportionate review workload
-- **Limited Review Perspectives:** Lack of diverse viewpoints reduces review effectiveness and learning opportunities
-- **[Skill Development Gaps](skill-development-gaps.md):** Non-participating members miss opportunities to learn from reviewing others' code
-- **[Knowledge Silos](knowledge-silos.md):** Knowledge becomes concentrated in the few active reviewers
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.694">ⓘ</span>
+<br/>  The lack of diverse input during code reviews leads to critical areas of the codebase being overlooked, resulting in insufficient test coverage and leaving quality assurance vulnerable in legacy systems.
+- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.683">ⓘ</span>
+<br/>  The lack of diverse input during code reviews leads to lower quality code and undetected issues, which in turn creates additional rework and delays, ultimately reducing the overall productivity of the development team.
+- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.833">ⓘ</span>
+<br/>  The lack of participation in code reviews leads to inconsistent knowledge transfer among team members, resulting in new hires not receiving uniform guidance and support, which ultimately hampers their ability to effectively contribute to the codebase.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.730">ⓘ</span>
+<br/>  The lack of diverse input in code reviews results in a narrow perspective on the code's functionality, leading to inadequate test data management as fewer reviewers fail to identify the need for realistic and comprehensive test scenarios that align with real-world usage.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.630">ⓘ</span>
+<br/>  The lack of diverse input in code reviews leads to increased pressure and workload on a few individuals, fostering frustration and burnout as they struggle to address persistent issues in the legacy codebase without adequate collaboration or support.
 
 ## Root Causes ▼
 
-- **[Reviewer Anxiety](reviewer-anxiety.md):** Team members feel uncomfortable or intimidated about reviewing code
-- **Lack of Review Training:** Team members don't know how to conduct effective reviews
-- **[Time Pressure](time-pressure.md):** Individual priorities make review participation seem optional or secondary
-- **Hierarchy Intimidation:** Junior members feel they shouldn't review senior members' code
-- **Poor Review Culture:** Reviews are seen as criticism rather than collaborative improvement
+- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.933">ⓘ</span>
+<br/>  The tightly coupled nature of cross-cutting concerns within legacy systems complicates the review process, leading to increased cognitive load for reviewers and discouraging broader participation as team members feel overwhelmed by the intricacies of both business logic and ancillary functionalities.
+- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.940">ⓘ</span>
+<br/>  The struggle of developers with a procedural background to effectively contribute to object-oriented code reviews leads to frustration and disengagement, resulting in reduced participation and an increased burden on a few experienced reviewers.
 
 ## Detection Methods ○
 
@@ -56,6 +62,7 @@ Reduced review participation occurs when many team members avoid or minimize the
 - **Participation Barrier Surveys:** Collect feedback on why team members avoid reviewing code
 - **Review Assignment Acceptance Rates:** Track how often review requests are accepted versus declined
 - **Skill Development Impact Assessment:** Evaluate learning outcomes for participating versus non-participating members
+
 
 ## Examples
 

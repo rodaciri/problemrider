@@ -6,6 +6,9 @@ _site/
 vendor/
 Gemfile.lock
 
+# Python
+.ipynb_checkpoints/
+
 # User output files
 neo4j_simple/
 scripts/backlog/

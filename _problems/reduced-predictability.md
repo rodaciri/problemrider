@@ -25,6 +25,7 @@ layout: problem
 
 Reduced predictability occurs when development work becomes difficult to estimate accurately, completion times vary widely for similar tasks, and system behavior becomes less consistent. This unpredictability makes it challenging to plan projects, set stakeholder expectations, and make reliable commitments. The result is increased uncertainty and reduced confidence in the development process.
 
+
 ## Indicators ⟡
 
 - Actual completion times vary significantly from estimates for similar work
@@ -33,21 +34,33 @@ Reduced predictability occurs when development work becomes difficult to estimat
 - Resource planning becomes ineffective due to unpredictable capacity needs
 - Stakeholders express uncertainty about when deliverables will be ready
 
+
 ## Symptoms ▲
 
-- **[Planning Credibility Issues](planning-credibility-issues.md):** Estimates and plans lose credibility due to frequent inaccuracies
-- **Stakeholder Uncertainty:** Business stakeholders cannot rely on development commitments
-- **Resource Planning Difficulties:** Cannot effectively plan resource allocation due to unpredictable needs
-- **Risk Management Challenges:** Difficulty assessing and mitigating risks due to unpredictable outcomes
-- **[Decision Paralysis](decision-paralysis.md):** Stakeholders hesitate to make decisions due to uncertain outcomes
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.671">ⓘ</span>
+<br/>  Persistent unpredictability in development timelines and system behavior leads to repeated setbacks and unclear expectations, causing developers to feel overwhelmed and disengaged as they struggle to navigate a chaotic work environment and a complicated codebase.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.707">ⓘ</span>
+<br/>  Flaky tests indicate reduced predictability because their inconsistent failures reveal underlying issues in legacy systems, such as outdated dependencies or unpredictable interactions, which hinder reliable outcomes and complicate development timelines.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.625">ⓘ</span>
+<br/>  The ongoing difficulty in accurately predicting development timelines and outcomes often leads stakeholders to continually adjust project requirements in response to perceived risks and uncertainties, making frequent changes a clear indicator of underlying unpredictability in legacy systems.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.643">ⓘ</span>
+<br/>  The difficulty in predicting development timelines and system behavior often leads to inadequate resource management practices, resulting in allocated resources that remain unreleased and contribute to system instability and performance issues.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.731">ⓘ</span>
+<br/>  A slow and cumbersome development environment leads to unpredictable development timelines and outcomes, as inefficiencies in tooling and processes hinder the team's ability to deliver consistent results, thereby contributing to the overall unpredictability of the system.
+- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.581">ⓘ</span>
+<br/>  The inherent complexity of the business domain leads to ambiguous requirements and intricate system behavior, resulting in unpredictable development timelines and outcomes as the implementation struggles to align with the multifaceted nature of the model.
+- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.716">ⓘ</span>
+<br/>  The difficulty in accurately predicting development timelines and outcomes in legacy systems leads to prolonged unresolved issues, as the uncertainty hampers prioritization and resource allocation for timely bug fixes, thereby manifesting as ongoing user frustration.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.776">ⓘ</span>
+<br/>  The challenges in accurately predicting development timelines and system behavior stem from relying on insufficient or outdated test data, which fails to simulate real-world conditions, thus amplifying uncertainty and making it difficult to establish reliable timelines and outcomes.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.620">ⓘ</span>
+<br/>  The difficulty in accurately predicting development timelines and system behavior leads to a reliance on a shrinking pool of skilled developers familiar with outdated technologies, resulting in critical bottlenecks that further exacerbate the unpredictability of system maintenance and enhancements.
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.697">ⓘ</span>
+<br/>  When development timelines and outcomes are unpredictable, teams may become overwhelmed by uncertainty, leading to prolonged analysis phases without transitioning to implementation, thereby stalling progress in legacy systems.
 
 ## Root Causes ▼
 
-- **[Extended Cycle Times](extended-cycle-times.md):** Long, variable cycle times make completion timing unpredictable
-- **[Work Queue Buildup](work-queue-buildup.md):** Variable queue lengths make processing times unpredictable
-- **Process Variability:** Inconsistent processes lead to unpredictable outcomes
-- **Technical Complexity:** Complex systems create unpredictable interactions and side effects
-- **External Dependencies:** Reliance on external factors introduces unpredictability
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -56,6 +69,7 @@ Reduced predictability occurs when development work becomes difficult to estimat
 - **Predictive Model Validation:** Test whether predictive models accurately forecast outcomes
 - **Stakeholder Confidence Assessment:** Survey stakeholders about their confidence in development predictions
 - **Planning Accuracy Review:** Analyze how often project plans need to be revised due to unpredictable factors
+
 
 ## Examples
 

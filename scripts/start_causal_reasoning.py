@@ -332,6 +332,18 @@ def process_pairs(pairs_to_analyze, model_config, cache_data, cache_file, progre
             pbar.update(1)
 
 def main():
+    
+    # Set offline mode for transformers (use only cached models)
+    os.environ['TRANSFORMERS_OFFLINE'] = '1'
+    os.environ['HF_DATASETS_OFFLINE'] = '1'
+    os.environ['HF_HUB_OFFLINE'] = '1'
+    os.environ['DISABLE_TELEMETRY'] = '1'
+    
+    # Set local cache directory
+    cache_dir = os.path.join(os.path.dirname(__file__), 'tmp')
+    os.makedirs(cache_dir, exist_ok=True)
+    os.environ['TRANSFORMERS_CACHE'] = os.path.join(cache_dir, 'transformers_cache')
+    os.environ['HF_HOME'] = os.path.join(cache_dir, 'huggingface_cache')
 
     loggers = [logging.getLogger(name) for name in logging.root.manager.loggerDict]
     for logger in loggers:

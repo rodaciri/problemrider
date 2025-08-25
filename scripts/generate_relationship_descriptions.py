@@ -11,6 +11,7 @@ import re
 import json
 import os
 import csv
+import time
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Tuple
@@ -44,19 +45,19 @@ class RelationshipDescriptionGenerator:
         self.problems: Dict[str, Dict] = {}
         
         
-        # Initialize OpenRouter client
+        # Initialize OpenAI client for Batch API
         try:
             self.client = openai.OpenAI(
-                base_url="https://openrouter.ai/api/v1",
-                api_key=os.getenv("OPENROUTER_API_KEY")
+                api_key=os.getenv("OPENAI_API_KEY")
             )
-            if not os.getenv("OPENROUTER_API_KEY"):
-                print("❌ OPENROUTER_API_KEY environment variable not set")
-                print("Set it with: export OPENROUTER_API_KEY='your-key-here'")
-                print("Get your key from: https://openrouter.ai/")
+            if not os.getenv("OPENAI_API_KEY"):
+                print("❌ OPENAI_API_KEY environment variable not set")
+                print("Set it with: export OPENAI_API_KEY='your-key-here'")
+                print("Get your key from: https://platform.openai.com/api-keys")
+                print("Note: Batch API requires direct OpenAI API (not OpenRouter)")
                 exit(1)
         except Exception as e:
-            print(f"❌ Failed to initialize OpenRouter client: {e}")
+            print(f"❌ Failed to initialize OpenAI client: {e}")
             exit(1)
     
     def load_problems(self) -> None:
@@ -132,8 +133,8 @@ class RelationshipDescriptionGenerator:
         
         return list(set(linked_problems))  # Remove duplicates
     
-    def generate_relationship_description(self, problem_key: str, related_problem: str, relationship_type: str) -> str:
-        """Generate a description of how a related problem connects to the main problem."""
+    def create_batch_request(self, problem_key: str, related_problem: str, relationship_type: str, request_id: str) -> Dict:
+        """Create a batch request for relationship description generation."""
         
         main_problem = self.problems.get(problem_key, {})
         related_problem_data = self.problems.get(related_problem, {})
@@ -169,24 +170,172 @@ Don't mention the titles of the problens in the description. Just explain the re
 Respond with just the description text, no additional formatting or preamble.
 """
         
-        try:
-            response = self.client.chat.completions.create(
-                model="openai/gpt-4o-mini",
-                messages=[
+        return {
+            "custom_id": request_id,
+            "method": "POST",
+            "url": "/v1/chat/completions",
+            "body": {
+                "model": "gpt-4o-mini",
+                "messages": [
                     {"role": "system", "content": "You are an expert in legacy software systems and technical problem analysis."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.7,
-                max_tokens=150
+                "temperature": 0.7,
+                "max_tokens": 150
+            }
+        }
+    
+    def create_batch_file(self, relationships: List[Tuple[str, str, str]]) -> str:
+        """Create a batch file with all relationship requests."""
+        batch_requests = []
+        
+        for i, (problem_key, related_problem, relationship_type) in enumerate(relationships):
+            request_id = f"rel_{i}_{problem_key}_{related_problem}_{relationship_type}"
+            batch_request = self.create_batch_request(problem_key, related_problem, relationship_type, request_id)
+            batch_requests.append(batch_request)
+        
+        # Create temporary batch file
+        batch_file_path = os.path.join(os.path.dirname(__file__), 'tmp', f'batch_requests_{datetime.now().strftime("%Y%m%d_%H%M%S")}.jsonl')
+        os.makedirs(os.path.dirname(batch_file_path), exist_ok=True)
+        
+        with open(batch_file_path, 'w', encoding='utf-8') as f:
+            for request in batch_requests:
+                f.write(json.dumps(request) + '\n')
+        
+        return batch_file_path
+    
+    def submit_batch(self, batch_file_path: str) -> str:
+        """Submit batch file to OpenAI and return batch ID."""
+        print(f"📤 Uploading batch file: {os.path.basename(batch_file_path)}")
+        
+        # Upload the batch file
+        with open(batch_file_path, 'rb') as f:
+            batch_input_file = self.client.files.create(
+                file=f,
+                purpose="batch"
+            )
+        
+        print(f"✅ File uploaded: {batch_input_file.id}")
+        
+        # Create the batch
+        batch = self.client.batches.create(
+            input_file_id=batch_input_file.id,
+            endpoint="/v1/chat/completions",
+            completion_window="24h",
+            metadata={
+                "description": "Relationship descriptions generation"
+            }
+        )
+        
+        print(f"🚀 Batch submitted: {batch.id}")
+        print(f"📊 Status: {batch.status}")
+        print(f"⏱️  Completion window: 24 hours")
+        
+        return batch.id
+    
+    def wait_for_batch_completion(self, batch_id: str, max_wait_minutes: int = 60) -> bool:
+        """Wait for batch to complete with timeout."""
+        print(f"⏳ Waiting for batch completion: {batch_id}")
+        print(f"⏰ Maximum wait time: {max_wait_minutes} minutes")
+        
+        start_time = time.time()
+        max_wait_seconds = max_wait_minutes * 60
+        
+        while True:
+            batch = self.client.batches.retrieve(batch_id)
+            
+            print(f"📊 Status: {batch.status}")
+            if hasattr(batch, 'request_counts') and batch.request_counts:
+                counts = batch.request_counts
+                total = counts.total if hasattr(counts, 'total') else 0
+                completed = counts.completed if hasattr(counts, 'completed') else 0
+                failed = counts.failed if hasattr(counts, 'failed') else 0
+                print(f"   Progress: {completed}/{total} completed, {failed} failed")
+            
+            if batch.status == "completed":
+                print("✅ Batch completed successfully!")
+                return True
+            elif batch.status == "failed":
+                print("❌ Batch failed!")
+                return False
+            elif batch.status in ["cancelled", "expired"]:
+                print(f"⚠️  Batch {batch.status}!")
+                return False
+            
+            # Check timeout
+            elapsed = time.time() - start_time
+            if elapsed > max_wait_seconds:
+                print(f"⏰ Timeout reached ({max_wait_minutes} minutes)")
+                print("   Batch is still processing. Check back later with:")
+                print(f"   batch_id = '{batch_id}'")
+                return False
+            
+            # Wait before next check
+            time.sleep(30)  # Check every 30 seconds
+    
+    def download_batch_results(self, batch_id: str) -> Dict[str, str]:
+        """Download and parse batch results."""
+        print(f"📥 Downloading batch results: {batch_id}")
+        
+        batch = self.client.batches.retrieve(batch_id)
+        
+        if not batch.output_file_id:
+            print("❌ No output file available")
+            return {}
+        
+        # Download the results file
+        result_file_response = self.client.files.content(batch.output_file_id)
+        
+        # Parse results
+        results = {}
+        for line in result_file_response.text.strip().split('\n'):
+            if not line:
+                continue
+            
+            try:
+                result = json.loads(line)
+                custom_id = result['custom_id']
+                
+                if result.get('response') and result['response'].get('body') and result['response']['body'].get('choices'):
+                    description = result['response']['body']['choices'][0]['message']['content'].strip()
+                    results[custom_id] = description
+                else:
+                    error_msg = result.get('error', {}).get('message', 'Unknown error')
+                    print(f"❌ Error for {custom_id}: {error_msg}")
+                    results[custom_id] = f"ERROR: {error_msg}"
+                    
+            except json.JSONDecodeError as e:
+                print(f"❌ Failed to parse result line: {e}")
+                continue
+        
+        print(f"✅ Downloaded {len(results)} results")
+        return results
+    
+    def process_batch_results(self, relationships: List[Tuple[str, str, str]], results: Dict[str, str], cache_file: str) -> List[Dict]:
+        """Process batch results and save to cache."""
+        processed_results = []
+        
+        for i, (problem_key, related_problem, relationship_type) in enumerate(relationships):
+            request_id = f"rel_{i}_{problem_key}_{related_problem}_{relationship_type}"
+            description = results.get(request_id, f"ERROR: No result for {request_id}")
+            
+            # Save to CSV immediately
+            problem_data = self.problems[problem_key]
+            self.append_relationship_to_csv(
+                cache_file, problem_key, problem_data['title'],
+                related_problem, self.problems[related_problem]['title'],
+                relationship_type, description
             )
             
-            description = response.choices[0].message.content.strip()
-            return description
-            
-        except Exception as e:
-            error_msg = f"ERROR: Failed to generate description for {problem_key} -> {related_problem}: {str(e)}"
-            print(f"❌ {error_msg}")
-            return error_msg
+            # Add to results for reporting
+            processed_results.append({
+                'problem_key': problem_key,
+                'related_problem': related_problem,
+                'relationship_type': relationship_type,
+                'description': description
+            })
+        
+        return processed_results
     
     def process_problem_file(self, problem_key: str) -> Dict:
         """Process a single problem file and generate relationship descriptions."""
@@ -241,82 +390,78 @@ Respond with just the description text, no additional formatting or preamble.
         
         return results
     
-    def process_problem_file_cached(self, problem_key: str, completed_relationships: set, cache_file: str) -> Dict:
-        """Process a single problem file, skipping relationships that already exist in cache."""
-        if problem_key not in self.problems:
-            print(f"❌ Problem '{problem_key}' not found")
-            return {}
+    def collect_pending_relationships(self, problem_keys: List[str], completed_relationships: set) -> List[Tuple[str, str, str]]:
+        """Collect all pending relationships from given problems."""
+        pending_relationships = []
         
-        problem_data = self.problems[problem_key]
-        print(f"Processing {problem_key}: {problem_data['title']}")
+        for problem_key in problem_keys:
+            if problem_key not in self.problems:
+                continue
+                
+            problem_data = self.problems[problem_key]
+            
+            # Extract symptom relationships
+            indicators_raw = problem_data.get('indicators_raw', '')
+            symptoms_raw = problem_data.get('symptoms_raw', '')
+            combined_symptoms_raw = indicators_raw + ' ' + symptoms_raw
+            symptom_links = self._extract_linked_problems(combined_symptoms_raw)
+            
+            for linked_problem in symptom_links:
+                if (problem_key, linked_problem, 'symptom') not in completed_relationships:
+                    pending_relationships.append((problem_key, linked_problem, 'symptom'))
+            
+            # Extract root cause relationships
+            root_causes_raw = problem_data.get('root_causes_raw', '')
+            root_cause_links = self._extract_linked_problems(root_causes_raw)
+            
+            for linked_problem in root_cause_links:
+                if (problem_key, linked_problem, 'root_cause') not in completed_relationships:
+                    pending_relationships.append((problem_key, linked_problem, 'root_cause'))
         
-        results = {
-            'problem_key': problem_key,
-            'title': problem_data['title'],
-            'symptom_descriptions': [],
-            'root_cause_descriptions': []
-        }
+        return pending_relationships
+    
+    def process_relationships_batch(self, relationships: List[Tuple[str, str, str]], cache_file: str, max_wait_minutes: int = 60) -> bool:
+        """Process relationships using OpenAI Batch API."""
+        if not relationships:
+            print("No relationships to process")
+            return True
         
-        # Extract linked problems from symptoms/indicators sections (use raw markdown)
-        indicators_raw = problem_data.get('indicators_raw', '')
-        symptoms_raw = problem_data.get('symptoms_raw', '')
-        combined_symptoms_raw = indicators_raw + ' ' + symptoms_raw
+        print(f"🔄 Processing {len(relationships)} relationships using Batch API")
+        print(f"💰 Estimated cost savings: 50% compared to individual requests")
         
-        symptom_links = self._extract_linked_problems(combined_symptoms_raw)
-        # Filter out already completed relationships
-        new_symptom_links = [link for link in symptom_links 
-                           if (problem_key, link, 'symptom') not in completed_relationships]
+        try:
+            # Create batch file
+            batch_file_path = self.create_batch_file(relationships)
+            
+            # Submit batch
+            batch_id = self.submit_batch(batch_file_path)
+            
+            # Wait for completion
+            if self.wait_for_batch_completion(batch_id, max_wait_minutes):
+                # Download results
+                results = self.download_batch_results(batch_id)
+                
+                # Process and save results
+                processed_results = self.process_batch_results(relationships, results, cache_file)
+                
+                print(f"✅ Successfully processed {len(processed_results)} relationships")
+                return True
+            else:
+                print(f"⏰ Batch processing timed out or failed")
+                print(f"   You can check batch status later with batch ID: {batch_id}")
+                return False
+                
+        except Exception as e:
+            print(f"❌ Batch processing failed: {e}")
+            return False
         
-        print(f"  Found {len(symptom_links)} symptom links, {len(new_symptom_links)} new")
-        
-        if new_symptom_links:
-            with tqdm(new_symptom_links, desc="  Generating symptom descriptions", unit="desc") as pbar:
-                for linked_problem in pbar:
-                    pbar.set_postfix_str(f"Processing {linked_problem}")
-                    description = self.generate_relationship_description(problem_key, linked_problem, "symptom")
-                    
-                    # Immediately append to CSV file
-                    self.append_relationship_to_csv(
-                        cache_file, problem_key, problem_data['title'],
-                        linked_problem, self.problems[linked_problem]['title'],
-                        'symptom', description
-                    )
-                    
-                    results['symptom_descriptions'].append({
-                        'problem': linked_problem,
-                        'title': self.problems[linked_problem]['title'],
-                        'description': description
-                    })
-        
-        # Extract linked problems from root causes section (use raw markdown)
-        root_causes_raw = problem_data.get('root_causes_raw', '')
-        root_cause_links = self._extract_linked_problems(root_causes_raw)
-        # Filter out already completed relationships
-        new_root_cause_links = [link for link in root_cause_links 
-                              if (problem_key, link, 'root_cause') not in completed_relationships]
-        
-        print(f"  Found {len(root_cause_links)} root cause links, {len(new_root_cause_links)} new")
-        
-        if new_root_cause_links:
-            with tqdm(new_root_cause_links, desc="  Generating root cause descriptions", unit="desc") as pbar:
-                for linked_problem in pbar:
-                    pbar.set_postfix_str(f"Processing {linked_problem}")
-                    description = self.generate_relationship_description(problem_key, linked_problem, "root_cause")
-                    
-                    # Immediately append to CSV file
-                    self.append_relationship_to_csv(
-                        cache_file, problem_key, problem_data['title'],
-                        linked_problem, self.problems[linked_problem]['title'],
-                        'root_cause', description
-                    )
-                    
-                    results['root_cause_descriptions'].append({
-                        'problem': linked_problem,
-                        'title': self.problems[linked_problem]['title'],
-                        'description': description
-                    })
-        
-        return results
+        finally:
+            # Cleanup batch file
+            if 'batch_file_path' in locals():
+                try:
+                    os.remove(batch_file_path)
+                except:
+                    pass
     
     def process_all_problems(self, limit: int = None) -> List[Dict]:
         """Process all problem files or a limited subset."""
@@ -516,7 +661,9 @@ Run multiple times to process all relationships in batches.""",
     )
     parser.add_argument("--file", type=str, help="Process specific problem file (e.g., 'feature-factory' or 'feature-factory.md')")
     parser.add_argument("--limit", type=int, help="Limit number of problems to process")
-    parser.add_argument("--batch-size", type=int, default=5, help="Number of problems to process in each batch (default: %(default)d)")
+    parser.add_argument("--batch-size", type=int, default=50, help="Number of problems to process in each batch (default: %(default)d)")
+    parser.add_argument("--max-wait", type=int, default=60, help="Maximum wait time in minutes for batch completion (default: %(default)d)")
+    parser.add_argument("--check-batch", type=str, help="Check status of existing batch by ID and download results if complete")
     parser.add_argument("--cache-id", type=str, help="Specific cache ID to use (e.g., '20241126_143022'). If not specified, uses latest cache or creates new one.")
     parser.add_argument("--output", default="scripts/tmp/relationship_descriptions_report.md", help="Output report file (default: %(default)s)")
     parser.add_argument("--csv-output", help="CSV output file for use by other scripts (overrides cache-based naming)")
@@ -532,6 +679,80 @@ Run multiple times to process all relationships in batches.""",
 
     generator = RelationshipDescriptionGenerator()
     generator.load_problems()
+    
+    # Handle batch checking
+    if args.check_batch:
+        print(f"🔍 Checking batch status: {args.check_batch}")
+        try:
+            batch = generator.client.batches.retrieve(args.check_batch)
+            print(f"📊 Status: {batch.status}")
+            
+            if hasattr(batch, 'request_counts') and batch.request_counts:
+                counts = batch.request_counts
+                total = counts.total if hasattr(counts, 'total') else 0
+                completed = counts.completed if hasattr(counts, 'completed') else 0
+                failed = counts.failed if hasattr(counts, 'failed') else 0
+                print(f"   Progress: {completed}/{total} completed, {failed} failed")
+            
+            if batch.status == "completed":
+                print("✅ Batch completed! Downloading results...")
+                results = generator.download_batch_results(args.check_batch)
+                print(f"📥 Downloaded {len(results)} results")
+                
+                # Save results to CSV
+                # We need to reconstruct the relationships list from the custom_ids
+                relationships = []
+                saved_count = 0
+                
+                # Determine cache file (same logic as main processing)
+                if args.csv_output:
+                    cache_file = args.csv_output
+                else:
+                    cache_file = generator.find_cache_file(args.cache_id)
+                    if not cache_file:
+                        cache_file = generator.get_cache_filepath(args.cache_id)
+                
+                print(f"💾 Saving results to: {os.path.basename(cache_file)}")
+                
+                # Load existing relationships to avoid duplicates
+                existing_relationships = generator.get_completed_relationships(cache_file)
+                duplicate_count = 0
+                
+                for custom_id, description in results.items():
+                    # Parse custom_id: rel_0_problem_key_related_problem_relationship_type
+                    try:
+                        parts = custom_id.split('_')
+                        if len(parts) >= 5:
+                            problem_key = parts[2]
+                            related_problem = parts[3]  
+                            relationship_type = '_'.join(parts[4:])  # Handle multi-word types
+                            
+                            # Check if relationship already exists
+                            relationship_key = (problem_key, related_problem, relationship_type)
+                            if relationship_key in existing_relationships:
+                                duplicate_count += 1
+                                continue
+                            
+                            # Save to CSV only if not duplicate
+                            if problem_key in generator.problems and related_problem in generator.problems:
+                                generator.append_relationship_to_csv(
+                                    cache_file, problem_key, generator.problems[problem_key]['title'],
+                                    related_problem, generator.problems[related_problem]['title'],
+                                    relationship_type, description
+                                )
+                                saved_count += 1
+                    except Exception as e:
+                        print(f"⚠️  Error parsing {custom_id}: {e}")
+                
+                print(f"✅ Saved {saved_count} new relationships to CSV")
+                if duplicate_count > 0:
+                    print(f"⚠️  Skipped {duplicate_count} duplicate relationships")
+                print(f"💡 Run update_causal_relationships.py to apply descriptions to markdown files")
+            else:
+                print(f"⏳ Batch is still {batch.status}")
+        except Exception as e:
+            print(f"❌ Error checking batch: {e}")
+        return
     
     # Determine cache file
     if args.csv_output:
@@ -569,10 +790,27 @@ Run multiple times to process all relationships in batches.""",
                 print(f"  ... and {len(generator.problems) - 10} more")
             return
         
-        # Process single file (skip relationships that already exist)
+        # Process single file using batch API
         print(f"🎯 Processing single file: {file_slug}")
-        result = generator.process_problem_file_cached(file_slug, completed_relationships, cache_file)
-        results = [result] if result else []
+        pending_relationships = generator.collect_pending_relationships([file_slug], completed_relationships)
+        
+        if not pending_relationships:
+            print("✅ No new relationships to process for this file")
+            results = []
+        else:
+            print(f"📊 Found {len(pending_relationships)} relationships to process")
+            if generator.process_relationships_batch(pending_relationships, cache_file, args.max_wait):
+                # Create summary results for reporting
+                results = [{
+                    'problem_key': file_slug,
+                    'title': generator.problems[file_slug]['title'],
+                    'symptom_descriptions': [{'problem': rel[1], 'title': generator.problems[rel[1]]['title'], 'description': 'Generated via batch'} 
+                                           for rel in pending_relationships if rel[2] == 'symptom'],
+                    'root_cause_descriptions': [{'problem': rel[1], 'title': generator.problems[rel[1]]['title'], 'description': 'Generated via batch'} 
+                                              for rel in pending_relationships if rel[2] == 'root_cause']
+                }]
+            else:
+                results = []
     else:
         # Process problems in batches, skipping completed ones
         all_problems = list(generator.problems.keys())
@@ -613,7 +851,7 @@ Run multiple times to process all relationships in batches.""",
             print("🎉 All relationships already completed!")
             results = []
         else:
-            # Process in batches
+            # Process in batches using Batch API
             if args.limit:
                 target_problems = remaining_problems[:args.limit]
             else:
@@ -624,31 +862,43 @@ Run multiple times to process all relationships in batches.""",
                 print(f"   ({len(remaining_problems) - len(target_problems)} problems remaining for future runs)")
             print()
             
-            results = []
-            try:
-                with tqdm(target_problems, desc="Processing problems", unit="problem") as pbar:
-                    for problem_key in pbar:
-                        pbar.set_postfix_str(f"Processing {problem_key}")
-                        result = generator.process_problem_file_cached(problem_key, completed_relationships, cache_file)
-                        if result:
-                            results.append(result)
-                            # Update completed relationships for next iteration
-                            for desc in result['symptom_descriptions']:
-                                completed_relationships.add((problem_key, desc['problem'], 'symptom'))
-                            for desc in result['root_cause_descriptions']:
-                                completed_relationships.add((problem_key, desc['problem'], 'root_cause'))
-            except KeyboardInterrupt:
-                print(f"\n⚠️  Processing interrupted by user")
-                print(f"   💾 Progress saved to {cache_file}")
-                print(f"   📊 {len(results)} problems processed before interruption")
-                print(f"   🔄 Run script again to continue from where you left off")
-                if results:
-                    # Generate partial report
-                    report = generator.generate_report(results)
-                    with open(args.output, 'w') as f:
-                        f.write(report)
-                    print(f"   📄 Partial report saved to {args.output}")
-                return
+            # Collect all pending relationships from target problems
+            pending_relationships = generator.collect_pending_relationships(target_problems, completed_relationships)
+            
+            if not pending_relationships:
+                print("✅ No new relationships to process")
+                results = []
+            else:
+                print(f"📊 Found {len(pending_relationships)} total relationships to process")
+                
+                if generator.process_relationships_batch(pending_relationships, cache_file, args.max_wait):
+                    # Create summary results for reporting (grouped by problem)
+                    results = {}
+                    for problem_key, related_problem, relationship_type in pending_relationships:
+                        if problem_key not in results:
+                            results[problem_key] = {
+                                'problem_key': problem_key,
+                                'title': generator.problems[problem_key]['title'],
+                                'symptom_descriptions': [],
+                                'root_cause_descriptions': []
+                            }
+                        
+                        desc_entry = {
+                            'problem': related_problem,
+                            'title': generator.problems[related_problem]['title'],
+                            'description': 'Generated via batch'
+                        }
+                        
+                        if relationship_type == 'symptom':
+                            results[problem_key]['symptom_descriptions'].append(desc_entry)
+                        else:
+                            results[problem_key]['root_cause_descriptions'].append(desc_entry)
+                    
+                    results = list(results.values())
+                    print(f"✅ Successfully processed relationships for {len(results)} problems")
+                else:
+                    print("❌ Batch processing failed or timed out")
+                    results = []
     
     # Generate report and save results
     if results:

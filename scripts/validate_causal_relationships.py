@@ -574,26 +574,26 @@ Be rigorous: correlation and co-occurrence are NOT causation. Require clear mech
         return content[:section_start.end()] + updated_section + content[section_end:]
     
     def _update_links_with_confidence(self, section_content: str, relationships: List[Dict]) -> str:
-        """Update markdown links with confidence scores."""
-        # Pattern to match markdown links: [title](problem.md) or [title](problem.md) (0.85)
-        link_pattern = r'\[([^\]]+)\]\(([^)]+)\.md\)(?:\s*\([0-9.]+\))?'
+        """Update markdown links to use hover tooltips for confidence/strength."""
+        # Pattern to match any markdown link: [title](problem.md) with any optional trailing content
+        link_pattern = r'\[([^\]]+)\]\(([^)]+)\.md\)(?:[^\n\r\-]*)?'
         
         def replace_link(match):
             title = match.group(1)
             problem_slug = match.group(2)
             
-            # Find confidence for this relationship
-            confidence = None
+            # Find confidence and strength for this relationship
             for rel in relationships:
                 if rel['cause'] == problem_slug:
-                    confidence = rel['confidence']
-                    break
+                    confidence = rel.get('confidence', 0.0)
+                    strength = rel.get('strength', confidence)  # fallback to confidence if strength not available
+                    
+                    # Format: [Title](link.md) <span class="info-tooltip" title="Confidence: 0.85, Strength: 0.92">ⓘ</span>
+                    tooltip_text = f"Confidence: {confidence:.3f}, Strength: {strength:.3f}"
+                    return f'[{title}]({problem_slug}.md) <span class="info-tooltip" title="{tooltip_text}">ⓘ</span>'
             
-            if confidence is not None:
-                rounded_confidence = round(confidence * 20) / 20
-                return f"[{title}]({problem_slug}.md) ({rounded_confidence:.2f})"
-            else:
-                return match.group(0)  # Return original if no confidence found
+            # If no relationship data found, return just the clean link
+            return f'[{title}]({problem_slug}.md)'
         
         return re.sub(link_pattern, replace_link, section_content)
 

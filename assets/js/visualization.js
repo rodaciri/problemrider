@@ -33,7 +33,7 @@ const graph = {
       "title": "Alignment and Padding Issues",
       "description": "Data structures have inefficient memory layout due to poor alignment and excessive padding, wasting memory and reducing cache efficiency.",
       "category": "Architecture",
-      "size": 13
+      "size": 12
     },
     {
       "id": "analysis-paralysis.md",
@@ -96,7 +96,7 @@ const graph = {
       "title": "Authorization Flaws",
       "description": "Inadequate access control mechanisms allow users to perform actions or access resources beyond their intended permissions.",
       "category": "Code",
-      "size": 13
+      "size": 12
     },
     {
       "id": "automated-tooling-ineffectiveness.md",
@@ -383,7 +383,7 @@ const graph = {
       "title": "Cross-Site Scripting Vulnerabilities",
       "description": "Inadequate input validation and output encoding allows attackers to inject malicious scripts that execute in users' browsers.",
       "category": "Code",
-      "size": 11
+      "size": 10
     },
     {
       "id": "cross-system-data-synchronization-problems.md",
@@ -670,7 +670,7 @@ const graph = {
       "title": "Endianness Conversion Overhead",
       "description": "Frequent byte order conversions between different endianness formats create performance overhead in data processing and network communication.",
       "category": "Code",
-      "size": 15
+      "size": 11
     },
     {
       "id": "environment-variable-issues.md",
@@ -684,7 +684,7 @@ const graph = {
       "title": "Error Message Information Disclosure",
       "description": "Error messages reveal sensitive system information that can be exploited by attackers to understand system architecture and vulnerabilities.",
       "category": "Code",
-      "size": 15
+      "size": 10
     },
     {
       "id": "excessive-class-size.md",
@@ -733,7 +733,7 @@ const graph = {
       "title": "Extended Review Cycles",
       "description": "Code reviews require multiple rounds of feedback and revision, significantly extending the time from code submission to approval.",
       "category": "Process",
-      "size": 18
+      "size": 14
     },
     {
       "id": "external-service-delays.md",
@@ -1076,7 +1076,7 @@ const graph = {
       "title": "Inadequate Initial Reviews",
       "description": "First-round code reviews are incomplete or superficial, failing to identify important issues that are discovered in later review rounds.",
       "category": "Code",
-      "size": 16
+      "size": 17
     },
     {
       "id": "inadequate-integration-tests.md",
@@ -1314,7 +1314,7 @@ const graph = {
       "title": "Inefficient Code",
       "description": "The code responsible for handling a request is computationally expensive or contains performance bottlenecks.",
       "category": "Performance",
-      "size": 13
+      "size": 12
     },
     {
       "id": "inefficient-database-indexing.md",
@@ -1370,7 +1370,7 @@ const graph = {
       "title": "Insecure Data Transmission",
       "description": "Sensitive data transmitted without proper encryption or security controls, exposing it to interception and unauthorized access.",
       "category": "Performance",
-      "size": 12
+      "size": 10
     },
     {
       "id": "insufficient-audit-logging.md",
@@ -1496,7 +1496,7 @@ const graph = {
       "title": "Large Pull Requests",
       "description": "Pull requests are too large to review effectively, leading to superficial reviews and missed issues.",
       "category": "Code",
-      "size": 10
+      "size": 11
     },
     {
       "id": "large-risky-releases.md",
@@ -1587,7 +1587,7 @@ const graph = {
       "title": "Log Injection Vulnerabilities",
       "description": "Unsanitized user input in log messages allows attackers to inject malicious content that can compromise log integrity or exploit log processing systems.",
       "category": "Code",
-      "size": 12
+      "size": 10
     },
     {
       "id": "log-spam.md",
@@ -2602,7 +2602,7 @@ const graph = {
       "title": "SQL Injection Vulnerabilities",
       "description": "Inadequate input sanitization allows attackers to inject malicious SQL code, potentially compromising database security and data integrity.",
       "category": "Data",
-      "size": 13
+      "size": 10
     },
     {
       "id": "stack-overflow-errors.md",
@@ -3717,14 +3717,6 @@ const graph = {
       "target": "user-confusion.md"
     },
     {
-      "source": "atomic-operation-overhead.md",
-      "target": "endianness-conversion-overhead.md"
-    },
-    {
-      "source": "authentication-bypass-vulnerabilities.md",
-      "target": "sql-injection-vulnerabilities.md"
-    },
-    {
       "source": "author-frustration.md",
       "target": "accumulation-of-workarounds.md"
     },
@@ -4814,10 +4806,6 @@ const graph = {
     },
     {
       "source": "context-switching-overhead.md",
-      "target": "endianness-conversion-overhead.md"
-    },
-    {
-      "source": "context-switching-overhead.md",
       "target": "external-service-delays.md"
     },
     {
@@ -4867,10 +4855,6 @@ const graph = {
     {
       "source": "copy-paste-programming.md",
       "target": "tangled-cross-cutting-concerns.md"
-    },
-    {
-      "source": "cross-site-scripting-vulnerabilities.md",
-      "target": "buffer-overflow-vulnerabilities.md"
     },
     {
       "source": "cross-system-data-synchronization-problems.md",
@@ -5123,10 +5107,6 @@ const graph = {
     {
       "source": "data-migration-integrity-issues.md",
       "target": "information-decay.md"
-    },
-    {
-      "source": "data-migration-integrity-issues.md",
-      "target": "insecure-data-transmission.md"
     },
     {
       "source": "data-migration-integrity-issues.md",
@@ -5562,10 +5542,6 @@ const graph = {
     },
     {
       "source": "defensive-coding-practices.md",
-      "target": "extended-review-cycles.md"
-    },
-    {
-      "source": "defensive-coding-practices.md",
       "target": "procedural-background.md"
     },
     {
@@ -5639,10 +5615,6 @@ const graph = {
     {
       "source": "delayed-bug-fixes.md",
       "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "delayed-bug-fixes.md",
-      "target": "extended-review-cycles.md"
     },
     {
       "source": "delayed-bug-fixes.md",
@@ -6637,52 +6609,12 @@ const graph = {
       "target": "shared-dependencies.md"
     },
     {
-      "source": "endianness-conversion-overhead.md",
-      "target": "algorithmic-complexity-problems.md"
-    },
-    {
-      "source": "endianness-conversion-overhead.md",
-      "target": "alignment-and-padding-issues.md"
-    },
-    {
-      "source": "endianness-conversion-overhead.md",
-      "target": "data-migration-complexities.md"
-    },
-    {
-      "source": "endianness-conversion-overhead.md",
-      "target": "operational-overhead.md"
-    },
-    {
-      "source": "endianness-conversion-overhead.md",
-      "target": "serialization-deserialization-bottlenecks.md"
-    },
-    {
       "source": "environment-variable-issues.md",
       "target": "deployment-coupling.md"
     },
     {
       "source": "environment-variable-issues.md",
       "target": "large-risky-releases.md"
-    },
-    {
-      "source": "error-message-information-disclosure.md",
-      "target": "breaking-changes.md"
-    },
-    {
-      "source": "error-message-information-disclosure.md",
-      "target": "buffer-overflow-vulnerabilities.md"
-    },
-    {
-      "source": "error-message-information-disclosure.md",
-      "target": "monitoring-gaps.md"
-    },
-    {
-      "source": "error-message-information-disclosure.md",
-      "target": "silent-data-corruption.md"
-    },
-    {
-      "source": "error-message-information-disclosure.md",
-      "target": "unclear-sharing-expectations.md"
     },
     {
       "source": "excessive-class-size.md",
@@ -6702,35 +6634,23 @@ const graph = {
     },
     {
       "source": "extended-review-cycles.md",
-      "target": "brittle-codebase.md"
+      "target": "communication-breakdown.md"
     },
     {
       "source": "extended-review-cycles.md",
-      "target": "constantly-shifting-deadlines.md"
+      "target": "conflicting-reviewer-opinions.md"
     },
     {
       "source": "extended-review-cycles.md",
-      "target": "inefficient-code.md"
+      "target": "inadequate-initial-reviews.md"
     },
     {
       "source": "extended-review-cycles.md",
-      "target": "large-estimates-for-small-changes.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "perfectionist-culture.md"
+      "target": "large-pull-requests.md"
     },
     {
       "source": "extended-review-cycles.md",
       "target": "perfectionist-review-culture.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "rapid-system-changes.md"
-    },
-    {
-      "source": "extended-review-cycles.md",
-      "target": "style-arguments-in-code-reviews.md"
     },
     {
       "source": "false-sharing.md",
@@ -6739,10 +6659,6 @@ const graph = {
     {
       "source": "false-sharing.md",
       "target": "shared-dependencies.md"
-    },
-    {
-      "source": "fear-of-conflict.md",
-      "target": "extended-review-cycles.md"
     },
     {
       "source": "fear-of-conflict.md",
@@ -8451,10 +8367,6 @@ const graph = {
     {
       "source": "high-client-side-resource-consumption.md",
       "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "high-client-side-resource-consumption.md",
-      "target": "endianness-conversion-overhead.md"
     },
     {
       "source": "high-client-side-resource-consumption.md",
@@ -12334,10 +12246,6 @@ const graph = {
     },
     {
       "source": "inefficient-frontend-code.md",
-      "target": "endianness-conversion-overhead.md"
-    },
-    {
-      "source": "inefficient-frontend-code.md",
       "target": "procedural-background.md"
     },
     {
@@ -12433,14 +12341,6 @@ const graph = {
       "target": "user-confusion.md"
     },
     {
-      "source": "insecure-data-transmission.md",
-      "target": "poor-encapsulation.md"
-    },
-    {
-      "source": "insecure-data-transmission.md",
-      "target": "silent-data-corruption.md"
-    },
-    {
       "source": "insufficient-audit-logging.md",
       "target": "authentication-bypass-vulnerabilities.md"
     },
@@ -12474,10 +12374,6 @@ const graph = {
     },
     {
       "source": "insufficient-audit-logging.md",
-      "target": "error-message-information-disclosure.md"
-    },
-    {
-      "source": "insufficient-audit-logging.md",
       "target": "imperative-data-fetching-logic.md"
     },
     {
@@ -12498,15 +12394,7 @@ const graph = {
     },
     {
       "source": "insufficient-audit-logging.md",
-      "target": "insecure-data-transmission.md"
-    },
-    {
-      "source": "insufficient-audit-logging.md",
       "target": "insufficient-testing.md"
-    },
-    {
-      "source": "insufficient-audit-logging.md",
-      "target": "log-injection-vulnerabilities.md"
     },
     {
       "source": "insufficient-audit-logging.md",
@@ -13014,10 +12902,6 @@ const graph = {
     },
     {
       "source": "interrupt-overhead.md",
-      "target": "endianness-conversion-overhead.md"
-    },
-    {
-      "source": "interrupt-overhead.md",
       "target": "excessive-disk-io.md"
     },
     {
@@ -13358,10 +13242,6 @@ const graph = {
     },
     {
       "source": "knowledge-silos.md",
-      "target": "error-message-information-disclosure.md"
-    },
-    {
-      "source": "knowledge-silos.md",
       "target": "incomplete-knowledge.md"
     },
     {
@@ -13467,10 +13347,6 @@ const graph = {
     {
       "source": "large-pull-requests.md",
       "target": "eager-to-please-stakeholders.md"
-    },
-    {
-      "source": "large-pull-requests.md",
-      "target": "extended-review-cycles.md"
     },
     {
       "source": "large-pull-requests.md",
@@ -14589,36 +14465,12 @@ const graph = {
       "target": "technology-lock-in.md"
     },
     {
-      "source": "log-injection-vulnerabilities.md",
-      "target": "authorization-flaws.md"
-    },
-    {
-      "source": "log-injection-vulnerabilities.md",
-      "target": "buffer-overflow-vulnerabilities.md"
-    },
-    {
-      "source": "log-injection-vulnerabilities.md",
-      "target": "log-spam.md"
-    },
-    {
-      "source": "log-injection-vulnerabilities.md",
-      "target": "sql-injection-vulnerabilities.md"
-    },
-    {
       "source": "logging-configuration-issues.md",
       "target": "buffer-overflow-vulnerabilities.md"
-    },
-    {
-      "source": "logging-configuration-issues.md",
-      "target": "error-message-information-disclosure.md"
     },
     {
       "source": "logging-configuration-issues.md",
       "target": "excessive-logging.md"
-    },
-    {
-      "source": "logging-configuration-issues.md",
-      "target": "log-injection-vulnerabilities.md"
     },
     {
       "source": "logging-configuration-issues.md",
@@ -14643,10 +14495,6 @@ const graph = {
     {
       "source": "long-release-cycles.md",
       "target": "bottleneck-formation.md"
-    },
-    {
-      "source": "long-release-cycles.md",
-      "target": "extended-review-cycles.md"
     },
     {
       "source": "long-release-cycles.md",
@@ -16194,6 +16042,10 @@ const graph = {
     },
     {
       "source": "network-latency.md",
+      "target": "endianness-conversion-overhead.md"
+    },
+    {
+      "source": "network-latency.md",
       "target": "external-service-delays.md"
     },
     {
@@ -16359,10 +16211,6 @@ const graph = {
     {
       "source": "new-hire-frustration.md",
       "target": "work-queue-buildup.md"
-    },
-    {
-      "source": "nitpicking-culture.md",
-      "target": "extended-review-cycles.md"
     },
     {
       "source": "nitpicking-culture.md",
@@ -19134,6 +18982,10 @@ const graph = {
     },
     {
       "source": "reduced-innovation.md",
+      "target": "extended-review-cycles.md"
+    },
+    {
+      "source": "reduced-innovation.md",
       "target": "feature-bloat.md"
     },
     {
@@ -20289,6 +20141,10 @@ const graph = {
       "target": "shared-dependencies.md"
     },
     {
+      "source": "review-bottlenecks.md",
+      "target": "extended-review-cycles.md"
+    },
+    {
       "source": "review-process-breakdown.md",
       "target": "approval-dependencies.md"
     },
@@ -20351,10 +20207,6 @@ const graph = {
     {
       "source": "review-process-breakdown.md",
       "target": "excessive-object-allocation.md"
-    },
-    {
-      "source": "review-process-breakdown.md",
-      "target": "extended-review-cycles.md"
     },
     {
       "source": "review-process-breakdown.md",
@@ -20642,10 +20494,6 @@ const graph = {
     },
     {
       "source": "secret-management-problems.md",
-      "target": "error-message-information-disclosure.md"
-    },
-    {
-      "source": "secret-management-problems.md",
       "target": "hidden-side-effects.md"
     },
     {
@@ -20659,10 +20507,6 @@ const graph = {
     {
       "source": "secret-management-problems.md",
       "target": "tangled-cross-cutting-concerns.md"
-    },
-    {
-      "source": "session-management-issues.md",
-      "target": "cross-site-scripting-vulnerabilities.md"
     },
     {
       "source": "single-entry-point-design.md",
@@ -20783,6 +20627,10 @@ const graph = {
     {
       "source": "slow-development-velocity.md",
       "target": "extended-cycle-times.md"
+    },
+    {
+      "source": "slow-development-velocity.md",
+      "target": "extended-review-cycles.md"
     },
     {
       "source": "slow-development-velocity.md",
@@ -21039,10 +20887,6 @@ const graph = {
     {
       "source": "slow-feature-development.md",
       "target": "tacit-knowledge.md"
-    },
-    {
-      "source": "sql-injection-vulnerabilities.md",
-      "target": "buffer-overflow-vulnerabilities.md"
     },
     {
       "source": "stagnant-architecture.md",
@@ -24263,10 +24107,6 @@ const graph = {
     {
       "source": "unreleased-resources.md",
       "target": "environment-variable-issues.md"
-    },
-    {
-      "source": "unreleased-resources.md",
-      "target": "error-message-information-disclosure.md"
     },
     {
       "source": "unreleased-resources.md",

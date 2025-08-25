@@ -26,6 +26,7 @@ layout: problem
 
 Blame culture exists when organizations respond to mistakes, failures, or problems by focusing on identifying and punishing the individuals responsible rather than understanding systemic causes and implementing improvements. This creates an environment where team members become risk-averse, hide problems, and avoid taking ownership of issues. The culture undermines learning, innovation, and effective problem-solving by making people defensive rather than collaborative when addressing challenges.
 
+
 ## Indicators ⟡
 
 - Post-incident discussions that focus primarily on "who" rather than "what" and "why"
@@ -36,35 +37,19 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 - Team members avoiding challenging tasks or innovative approaches due to failure risk
 - Lack of psychological safety in meetings where problems are discussed
 
+
 ## Symptoms ▲
 
-- **[Delayed Value Delivery](delayed-value-delivery.md):** Problems discovered late because people delay reporting issues they might be blamed for
-- **[Reduced Innovation](reduced-innovation.md):** Reduced innovation and experimentation as team members avoid risk-taking
-- **[Increased Stress and Burnout](increased-stress-and-burnout.md):** High stress levels and decreased morale among team members
-- **[Team Silos](team-silos.md):** Decreased collaboration as team members become protective of their own work
-- **[High Turnover](high-turnover.md):** Talent retention issues as skilled team members leave to escape the negative environment
-- **[Partial Bug Fixes](partial-bug-fixes.md):** Repeat incidents because underlying systemic issues aren't addressed
-- **[Communication Breakdown](communication-breakdown.md):** Finger-pointing and interpersonal conflicts when problems arise
-- **[Avoidance Behaviors](avoidance-behaviors.md):** Cover-up behaviors where people try to hide or minimize their mistakes
-- **[Fear of Change](fear-of-change.md):** Reluctance to make improvements that might introduce new risks
-- **[Knowledge Silos](knowledge-silos.md):** Information hoarding as people protect themselves from blame
-- **[Refactoring Avoidance](refactoring-avoidance.md):** Avoiding code improvements due to fear of introducing bugs
-- **[Decision Paralysis](decision-paralysis.md):** Difficulty making decisions due to fear of being blamed for negative outcomes
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
 
-- **[Time Pressure](time-pressure.md):** Organizational pressure to find quick answers and accountability for problems
-- **[Knowledge Gaps](knowledge-gaps.md):** Lack of understanding about systems thinking and how complex failures occur
-- **[Perfectionist Culture](perfectionist-culture.md):** Cultural emphasis on perfection rather than learning and continuous improvement
-- **[Team Silos](team-silos.md):** Competitive internal environment that discourages vulnerability and mutual support
-- **[Inadequate Onboarding](inadequate-onboarding.md):** Insufficient training on constructive problem-solving and post-incident analysis
-- **[Planning Dysfunction](planning-dysfunction.md):** Performance management systems that penalize mistakes without considering context
-- **[Communication Breakdown](communication-breakdown.md):** Leadership that models blame-focused responses to problems and failures
-- **[Fear of Failure](fear-of-failure.md):** Historical incidents where individuals were severely punished for mistakes
-- **[Unrealistic Deadlines](unrealistic-deadlines.md):** Pressure to deliver impossible timelines leading to scapegoating when failures occur
-- **[Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md):** Unclear responsibility structures that encourage blame-shifting
-- **[Unclear Goals and Priorities](unclear-goals-and-priorities.md):** Ambiguous success criteria that make it easy to assign blame when outcomes are poor
-- **[High Technical Debt](high-technical-debt.md):** Technical problems that are blamed on individuals rather than systemic issues
+- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.904">ⓘ</span>
+<br/>  Focusing on trivial issues during code reviews creates an environment where team members feel their contributions are undervalued, leading to fear of punishment for mistakes instead of fostering a culture of learning and improvement.
+- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.874">ⓘ</span>
+<br/>  The difficulty in modifying a fragile codebase without introducing errors fosters a fear of making changes, leading to a culture where mistakes are met with blame rather than constructive feedback, thereby stifling innovation and learning.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.867">ⓘ</span>
+<br/>  The lack of clarity around information sharing leads to misunderstandings and mistakes being hidden rather than discussed openly, fostering a punitive environment that stifles innovation and learning in legacy systems.
 
 ## Detection Methods ○
 
@@ -76,6 +61,7 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 - Assess whether systemic improvements result from incident analysis or just individual actions
 - Monitor team morale, stress levels, and turnover rates
 - Evaluate whether people volunteer information about problems or need to be asked directly
+
 
 ## Examples
 

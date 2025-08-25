@@ -26,6 +26,7 @@ layout: problem
 
 Reduced team flexibility occurs when a development team loses its ability to adapt quickly to changing requirements, reassign work effectively among team members, or respond to unexpected challenges such as changing priorities or team member unavailability. This inflexibility makes the team fragile and unable to maintain consistent productivity when circumstances change, limiting the organization's ability to respond to business needs.
 
+
 ## Indicators ⟡
 
 - Work cannot be easily reassigned when team members are unavailable
@@ -34,21 +35,26 @@ Reduced team flexibility occurs when a development team loses its ability to ada
 - Team productivity drops significantly when key members are absent
 - New priorities cannot be accommodated without major planning disruptions
 
+
 ## Symptoms ▲
 
-- **[Single Points of Failure](single-points-of-failure.md):** Critical capabilities depend on specific individuals
-- **[Bottleneck Formation](bottleneck-formation.md):** Work flow is constrained by the availability of specific team members
-- **Slow Response to Change:** Team takes excessive time to adapt to new requirements or priorities
-- **Capacity Underutilization:** Available team members cannot contribute effectively due to skill limitations
-- **Planning Rigidity:** Project plans become inflexible and difficult to adjust
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.657">ⓘ</span>
+<br/>  The team's limited adaptability to changing circumstances results in an inability to effectively manage evolving project requirements, leading to frequent updates that disrupt workflow and cause delays.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.628">ⓘ</span>
+<br/>  The inability to quickly adapt to changing requirements and address unexpected challenges leads to an overwhelming workload and persistent obstacles, causing developers to feel demotivated and burned out as they struggle to manage frustration from a rigid and unresponsive system.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.673">ⓘ</span>
+<br/>  A slow and cumbersome development environment hampers the team's ability to rapidly adapt and reallocate resources, thereby serving as a clear indicator of their overall reduced flexibility in responding to changing project demands.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.646">ⓘ</span>
+<br/>  The presence of flaky tests signals reduced team flexibility as it reflects the team's struggle to allocate resources effectively and manage dependencies within a rigid legacy system, ultimately hindering their ability to adapt and respond to evolving project needs.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.643">ⓘ</span>
+<br/>  The critical shortage of developers skilled in outdated technologies limits the team's ability to quickly adapt and reassign tasks, resulting in decreased flexibility to address evolving project needs and unexpected issues.
 
 ## Root Causes ▼
 
-- **[Knowledge Silos](knowledge-silos.md):** Critical knowledge is concentrated in specific team members
-- **Skill Specialization:** Team members have very narrow, non-overlapping skill sets
-- **[Knowledge Silos](knowledge-silos.md):** No effort to develop overlapping capabilities across team members
-- **Complex System Architecture:** System complexity makes it difficult for team members to work across different areas
-- **Process Rigidity:** Inflexible processes that cannot accommodate changing circumstances
+- [Increased Manual Testing Effort](increased-manual-testing-effort.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.944">ⓘ</span>
+<br/>  The excessive time dedicated to manual testing in legacy systems consumes valuable resources and limits the team's capacity to pivot quickly, thus hindering their ability to adapt to changing requirements or address unexpected challenges.
+- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.939">ⓘ</span>
+<br/>  The presence of constraints within specific team members or processes in legacy systems creates dependencies that hinder the team's ability to quickly reallocate resources or adapt to changes, ultimately reducing their overall flexibility in responding to new requirements or challenges.
 
 ## Detection Methods ○
 
@@ -57,6 +63,7 @@ Reduced team flexibility occurs when a development team loses its ability to ada
 - **Change Response Time:** Measure how long it takes the team to adapt to new requirements or priorities
 - **Cross-functional Capability Assessment:** Evaluate how many team members can work on different types of tasks
 - **Absence Impact Analysis:** Monitor how team productivity changes when specific members are unavailable
+
 
 ## Examples
 

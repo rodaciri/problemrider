@@ -26,6 +26,7 @@ layout: problem
 
 Cross-system data synchronization problems occur when organizations attempt to maintain data consistency between legacy systems and modern replacements during migration or modernization efforts. This challenge involves keeping multiple systems in sync while they operate simultaneously, often with different data models, update frequencies, and consistency requirements. Unlike simple integration challenges, these problems involve bidirectional data flow, conflict resolution, and maintaining referential integrity across system boundaries during transition periods.
 
+
 ## Indicators ⟡
 
 - Modernization plans that require running legacy and new systems in parallel for extended periods
@@ -36,40 +37,81 @@ Cross-system data synchronization problems occur when organizations attempt to m
 - User workflows that involve data from both legacy and modern systems
 - Integration points that require bidirectional data flow and conflict resolution
 
+
 ## Symptoms ▲
 
-- **[Data Migration Integrity Issues](data-migration-integrity-issues.md):** Data inconsistencies between systems that require manual reconciliation
-- **[Slow Application Performance](slow-application-performance.md):** Performance degradation due to complex synchronization overhead
-- **[Data Protection Risk](data-protection-risk.md):** Data corruption or loss during synchronization failures
-- **[User Confusion](user-confusion.md):** User confusion due to seeing different data in different systems
-- **[Cascade Failures](cascade-failures.md):** Business process failures when systems are out of sync
-- **[Operational Overhead](operational-overhead.md):** Increased operational overhead from monitoring and maintaining synchronization
-- **[Deployment Risk](deployment-risk.md):** Rollback difficulties when synchronization issues affect multiple systems
-- **[High Technical Debt](high-technical-debt.md):** Escalating technical debt in data synchronization and transformation code
-- **[Inconsistent Behavior](inconsistent-behavior.md):** Different behavior between legacy and modern systems due to sync delays
-- **[Debugging Difficulties](debugging-difficulties.md):** Complex troubleshooting when data issues span multiple systems
-- **[Increased Customer Support Load](increased-customer-support-load.md):** Support requests from users experiencing data inconsistencies
-- **[High Defect Rate in Production](high-defect-rate-in-production.md):** Bugs introduced by synchronization complexity and edge cases
-- **[Unpredictable System Behavior](unpredictable-system-behavior.md):** Non-deterministic system behavior due to synchronization timing
-- **[Developer Frustration and Burnout](developer-frustration-and-burnout.md):** Team stress from managing complex synchronization scenarios
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
 
-- **[Planning Dysfunction](planning-dysfunction.md):** Underestimation of data synchronization complexity during modernization planning
-- **[Poor Domain Model](poor-domain-model.md):** Legacy and modern systems designed with incompatible data models and consistency assumptions
-- **[Testing Environment Fragility](testing-environment-fragility.md):** Lack of robust synchronization infrastructure and conflict resolution mechanisms
-- **[Unrealistic Deadlines](unrealistic-deadlines.md):** Business requirements for zero-downtime migration without proper architectural planning
-- **[Time Pressure](time-pressure.md):** Time pressure that leads to shortcuts in synchronization design and testing
-- **[Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md):** Insufficient understanding of data dependencies and business rule interactions
-- **[Network Latency](network-latency.md):** Network reliability and performance limitations affecting synchronization effectiveness
-- **[Monitoring Gaps](monitoring-gaps.md):** Missing or adequate monitoring and alerting for synchronization failures
-- **[High Coupling and Low Cohesion](high-coupling-low-cohesion.md):** Tightly coupled data models that resist synchronization
-- **[Complex and Obscure Logic](complex-and-obscure-logic.md):** Complex business rules that are difficult to synchronize consistently
-- **[Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md):** Failed attempts to gradually replace legacy systems
-- **[Database Schema Design Problems](database-schema-design-problems.md):** Schema mismatches that complicate synchronization
-- **[Race Conditions](race-conditions.md):** Timing issues in concurrent data updates across systems
-- **[Knowledge Gaps](knowledge-gaps.md):** Insufficient expertise in distributed systems and data consistency patterns
-- **[Tool Limitations](tool-limitations.md):** Inadequate synchronization tools and technologies for the complexity required
+- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.524, Strength: 0.915">ⓘ</span>
+<br/>  Shared dependencies among legacy and modern systems can lead to inconsistent data handling and interpretation, causing synchronization issues as changes in one system may not propagate correctly to the other, ultimately resulting in data corruption during migration.
+- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.514, Strength: 0.849">ⓘ</span>
+<br/>  User confusion arises from inconsistent system behavior, leading to incorrect data inputs or interpretations that exacerbate synchronization challenges and increase the risk of data corruption during the migration process.
+- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.877">ⓘ</span>
+<br/>  Complex data migration processes introduce inconsistencies and errors that disrupt the synchronization of data between legacy and modern systems, leading to challenges in maintaining data integrity during the transition.
+- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.501, Strength: 0.860">ⓘ</span>
+<br/>  Insufficient production monitoring hinders the timely detection of discrepancies during data migration, exacerbating synchronization challenges and increasing the risk of data corruption between legacy and modern systems.
+- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.888">ⓘ</span>
+<br/>  The development team's lack of design skills leads to poorly structured data handling mechanisms, which in turn complicate the integration and synchronization processes between legacy and modern systems, increasing the risk of data inconsistencies and corruption during migration.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.854">ⓘ</span>
+<br/>  The continuous extension of project deadlines prevents adequate time for thorough testing and validation of data synchronization processes, resulting in increased complexity and a higher likelihood of inconsistencies and corruption during the migration of data between legacy and modern systems.
+- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.472, Strength: 0.840">ⓘ</span>
+<br/>  Developers' lack of awareness about all the locations where similar logic exists results in inconsistent data handling across systems, leading to synchronization challenges and the risk of data corruption during migration.
+- [Inconsistent Behavior](inconsistent-behavior.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.801">ⓘ</span>
+<br/>  The varying outcomes of the same business process across different systems lead to discrepancies in data interpretation and handling, which complicates synchronization efforts and increases the risk of data corruption during migration.
+- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.468, Strength: 0.841">ⓘ</span>
+<br/>  The lack of encapsulation in legacy systems results in tightly coupled data and behavior, making it difficult to track changes and synchronize information across different platforms, ultimately leading to inconsistencies and data corruption during migration.
+- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.797">ⓘ</span>
+<br/>  API updates that introduce breaking changes disrupt existing data mappings and workflows in legacy systems, leading to inconsistencies and synchronization issues during the migration process.
+- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.868">ⓘ</span>
+<br/>  Tightly coupled cross-cutting concerns complicate the separation of business logic from data handling, leading to inconsistencies and errors during synchronization processes between legacy and modern systems.
+- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.814">ⓘ</span>
+<br/>  The fragility of aging software systems leads to unforeseen interactions and failures during data synchronization efforts, making it increasingly difficult to maintain consistency between legacy and modern systems amid ongoing changes.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.441, Strength: 0.835">ⓘ</span>
+<br/>  Unclear expectations about data sharing lead to inconsistent definitions and formats across systems, resulting in synchronization challenges and increasing the risk of data corruption during migration.
+- [Customer Dissatisfaction](customer-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.786">ⓘ</span>
+<br/>  Frustration stemming from inconsistent data across systems leads users to report reliability issues, which exposes flaws in the synchronization process and exacerbates data corruption during migration.
+- [System Outages](system-outages.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.798">ⓘ</span>
+<br/>  Frequent service interruptions and system failures disrupt the data flow between legacy and modern systems, leading to incomplete or inconsistent updates that compromise data synchronization efforts during migration.
+- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.860">ⓘ</span>
+<br/>  The use of a shared database complicates data synchronization during migration because multiple systems may attempt to read from or write to the same data simultaneously, leading to conflicts and potential corruption of data consistency.
+- [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.790">ⓘ</span>
+<br/>  The manual and error-prone nature of the deployment process leads to inconsistent data states between legacy and modern systems, causing synchronization issues as changes fail to propagate accurately during migration.
+- [Schema Evolution Paralysis](schema-evolution-paralysis.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.767">ⓘ</span>
+<br/>  The inability to modify the database schema due to extensive dependencies prevents necessary updates to data structures, leading to mismatches and inconsistencies during synchronization between legacy and modern systems.
+- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.836">ⓘ</span>
+<br/>  Long-running transactions can lead to resource contention and prolonged lock durations, causing delays in data updates across systems, which ultimately results in inconsistencies and synchronization failures during the migration process.
+- [Approval Dependencies](approval-dependencies.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.757">ⓘ</span>
+<br/>  Delays in obtaining necessary approvals hinder timely updates and synchronization between legacy and modern systems, leading to data inconsistencies and potential corruption during migration.
+- [Slow Knowledge Transfer](slow-knowledge-transfer.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.811">ⓘ</span>
+<br/>  The prolonged time it takes for new team members to understand the intricacies of legacy systems leads to misconfigurations and errors during data migration, ultimately causing inconsistencies and synchronization issues between the old and new systems.
+- [Testing Complexity](testing-complexity.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.800">ⓘ</span>
+<br/>  The increased testing effort required to verify consistent functionality across both legacy and modern systems often leads to overlooked bugs, which in turn exacerbates data synchronization issues and heightens the risk of data corruption during migration.
+- [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.739">ⓘ</span>
+<br/>  The inability to transition away from outdated technology due to high costs and complexity results in reliance on incompatible systems, leading to significant challenges in maintaining data consistency during synchronization efforts.
+- [Service Discovery Failures](service-discovery-failures.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.720">ⓘ</span>
+<br/>  Failures in service discovery hinder the ability of legacy systems to accurately identify and connect with modern systems, leading to inconsistent data exchanges and synchronization issues during migration.
+- [High Turnover](high-turnover.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.721">ⓘ</span>
+<br/>  Frequent turnover leads to a lack of experienced developers who can effectively manage the complexities of data synchronization between legacy and modern systems, resulting in inconsistent data handling and increased potential for corruption during migration.
+- [Resistance to Change](resistance-to-change.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.732">ⓘ</span>
+<br/>  The reluctance to update and improve outdated components results in fragmented data management practices, which exacerbates synchronization issues between legacy and modern systems during migration.
+- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.712">ⓘ</span>
+<br/>  Inconsistent application of bug fixes across duplicated code in legacy systems leads to unresolved issues resurfacing during data synchronization with modern systems, resulting in data inconsistencies and corruption.
+- [Organizational Structure Mismatch](organizational-structure-mismatch.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.722">ⓘ</span>
+<br/>  A mismatch between organizational structure and system architecture leads to unclear data ownership and inconsistent data definitions, which complicates synchronization efforts during migration and increases the risk of data corruption.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.676">ⓘ</span>
+<br/>  The convoluted and poorly documented code in legacy systems makes it difficult to accurately map and transform data during synchronization with modern systems, leading to inconsistencies and corruption.
+- [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.766">ⓘ</span>
+<br/>  Deployment Coupling exacerbates data synchronization issues in legacy systems because any update to a component necessitates simultaneous changes across interconnected systems, increasing the risk of inconsistencies and data corruption during migration.
+- [Environment Variable Issues](environment-variable-issues.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.667">ⓘ</span>
+<br/>  Improper management of environment variables leads to incorrect configurations in legacy systems, which disrupts data mapping and synchronization processes during migration efforts, ultimately resulting in data inconsistencies and potential corruption.
+- [Cascade Failures](cascade-failures.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.722">ⓘ</span>
+<br/>  The failure of a single component to properly synchronize data can trigger a cascade of errors throughout interconnected legacy systems, leading to widespread data inconsistencies and corruption during the migration process.
+- [Mixed Coding Styles](mixed-coding-styles.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.693">ⓘ</span>
+<br/>  Inconsistent coding styles across the codebase lead to varying data handling methods, which complicate the integration and synchronization processes between legacy and modern systems, increasing the risk of data inconsistencies and corruption during migration.
+- [Poor System Environment](poor-system-environment.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.613">ⓘ</span>
+<br/>  An unstable and misconfigured system environment leads to frequent outages and performance issues, which disrupt the data flow and synchronization processes between legacy and modern systems, ultimately resulting in data inconsistencies and corruption during migration.
 
 ## Detection Methods ○
 
@@ -81,6 +123,7 @@ Cross-system data synchronization problems occur when organizations attempt to m
 - Review business process failure rates that correlate with synchronization issues
 - Test synchronization recovery procedures and disaster scenarios
 - Monitor technical debt accumulation in synchronization and integration code
+
 
 ## Examples
 

@@ -25,6 +25,7 @@ layout: problem
 
 Hidden dependencies occur when system components become interdependent in ways that are not obvious from their interfaces, documentation, or apparent structure. These dependencies often emerge from workarounds, shared global state, implicit timing assumptions, or side effects that were not part of the original design. Developers making changes to one component may unknowingly break functionality in seemingly unrelated parts of the system because the true dependencies are not visible or documented.
 
+
 ## Indicators ⟡
 
 - Changes in one module unexpectedly break functionality in unrelated modules
@@ -33,22 +34,36 @@ Hidden dependencies occur when system components become interdependent in ways t
 - Debugging reveals connections between components that weren't apparent from the code
 - System failures cascade through components that shouldn't be related
 
+
 ## Symptoms ▲
 
-- **[Ripple Effect of Changes](ripple-effect-of-changes.md):** Small modifications cause unexpected failures in distant parts of the system
-- **[Debugging Difficulties](debugging-difficulties.md):** Problems are hard to diagnose because the true cause is in an unexpected location
-- **[Unpredictable System Behavior](unpredictable-system-behavior.md):** System behavior varies based on hidden state or timing conditions
-- **[Integration Difficulties](integration-difficulties.md):** Components that work independently fail when combined
-- **[Testing Complexity](testing-complexity.md):** Comprehensive testing requires understanding non-obvious component relationships
+- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.572">ⓘ</span>
+<br/>  The unexpected dependencies created by workarounds and patches complicate the system architecture, leading to constraints that hinder performance and maintainability, thereby revealing the limitations imposed by the original design.
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.539">ⓘ</span>
+<br/>  The presence of unexpected dependencies due to workarounds and patches often leads to critical code paths being overlooked, resulting in insufficient test coverage that fails to capture the intricacies of these hidden relationships.
 
 ## Root Causes ▼
 
-- **[Accumulation of Workarounds](accumulation-of-workarounds.md):** Patches and fixes create new interdependencies between components
-- **[Global State and Side Effects](global-state-and-side-effects.md):** Components implicitly depend on shared global variables or singletons
-- **[Hidden Side Effects](hidden-side-effects.md):** Functions or methods have hidden side effects that other components rely on
-- **Timing Dependencies:** Components depend on specific execution order or timing that isn't documented
-- **Shared Resource Assumptions:** Components make implicit assumptions about shared resources like databases or files
-- **[Poor Encapsulation](poor-encapsulation.md):** Component interfaces don't clearly define their dependencies
+- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.871">ⓘ</span>
+<br/>  Slow responses from dependent services lead to the need for workarounds in the API, which in turn create unforeseen dependencies in the system's architecture, complicating maintenance and stability.
+- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.875">ⓘ</span>
+<br/>  The lack of necessary design skills in the development team leads to poorly structured software, resulting in unintentional and undocumented dependencies when implementing workarounds and patches, which ultimately creates hidden complexities in the system.
+- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.882">ⓘ</span>
+<br/>  The struggle of developers to fully embrace object-oriented principles often results in procedural-style code that obscures the underlying relationships between components, leading to unintended dependencies when workarounds and patches are implemented.
+- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.818">ⓘ</span>
+<br/>  Insufficient production monitoring obscures the visibility of workarounds and patches, allowing hidden dependencies between system components to form undetected, which complicates issue diagnosis and resolution in legacy systems.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.843">ⓘ</span>
+<br/>  Repeatedly extending project deadlines to accommodate new features forces developers to implement quick fixes and workarounds, which inadvertently create unrecognized dependencies between system components, complicating the codebase and leading to hidden issues.
+- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.895">ⓘ</span>
+<br/>  The presence of common libraries and frameworks across multiple components leads to tightly coupled interactions that obscure the impact of workarounds and patches, resulting in unforeseen dependencies that complicate system maintenance and stability.
+- [Release Instability](release-instability.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.757">ⓘ</span>
+<br/>  Frequent instability in production releases forces developers to implement quick workarounds and patches, which inadvertently create hidden dependencies among system components that complicate maintenance and increase the risk of further failures.
+- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.775">ⓘ</span>
+<br/>  The accumulation of design shortcuts leads to a lack of clear documentation and understanding of system interactions, resulting in unintended dependencies when workarounds or patches are implemented, which complicates maintenance and increases system fragility.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.754">ⓘ</span>
+<br/>  The tendency to provide inflated time estimates for minor modifications highlights the intricate and often convoluted interdependencies within legacy code, which in turn obscures hidden dependencies that arise from workarounds and patches, making them difficult to identify and manage effectively.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.876">ⓘ</span>
+<br/>  A lack of understanding of object-oriented programming principles leads to tightly coupled components and inadequate encapsulation, resulting in workarounds that create hidden dependencies, making the system more fragile and harder to maintain.
 
 ## Detection Methods ○
 
@@ -57,6 +72,7 @@ Hidden dependencies occur when system components become interdependent in ways t
 - **Integration Testing:** Test component combinations to reveal hidden interdependencies
 - **Change Impact Assessment:** Monitor which components require modification when others change
 - **Code Analysis Tools:** Use static analysis to identify potential hidden connections
+
 
 ## Examples
 

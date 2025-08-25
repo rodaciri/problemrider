@@ -25,6 +25,7 @@ layout: problem
 
 Poor naming conventions occur when code elements such as variables, functions, classes, modules, and files are given names that fail to clearly communicate their purpose, behavior, or content. This includes names that are too short, too generic, misleading, inconsistent, or use unclear abbreviations. Poor naming forces developers to spend additional mental effort understanding code, increases the likelihood of mistakes, and makes maintenance more difficult.
 
+
 ## Indicators ⟡
 
 - Variable and function names require additional comments to explain their purpose
@@ -33,21 +34,27 @@ Poor naming conventions occur when code elements such as variables, functions, c
 - Class names are too generic or don't represent clear concepts
 - Team members frequently ask about the meaning of specific names during code reviews
 
+
 ## Symptoms ▲
 
-- **[Difficult Code Comprehension](difficult-code-comprehension.md):** Developers struggle to understand code due to unclear naming
-- **[Increased Cognitive Load](increased-cognitive-load.md):** Mental effort is wasted deciphering poorly named elements
-- **[Debugging Difficulties](debugging-difficulties.md):** Poor names make it harder to trace program execution and identify issues
-- **[Code Review Inefficiency](code-review-inefficiency.md):** Reviews take longer as reviewers need to understand unclear names
-- **[High Bug Introduction Rate](high-bug-introduction-rate.md):** Misleading names lead to incorrect assumptions and bugs
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.696">ⓘ</span>
+<br/>  When code elements are poorly named, it becomes difficult for developers to understand their functionality, leading to overlooked areas in testing and resulting in inadequate test coverage.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.754">ⓘ</span>
+<br/>  The use of unclear naming conventions leads to increased time spent deciphering code, thus hindering efficiency and slowing down the development process in legacy systems.
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.446, Strength: 0.705">ⓘ</span>
+<br/>  Poor naming conventions obscure the purpose and functionality of code elements, making it challenging for developers unfamiliar with the system to understand and maintain it, thereby exacerbating the shortage of skilled developers who can effectively navigate and manage legacy technologies.
+- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.784">ⓘ</span>
+<br/>  Poor naming conventions obscure the intent of code elements, which complicates understanding and collaboration, ultimately leading to a tangled monolithic structure that hinders maintainability and scalability as the codebase evolves.
+- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.641">ⓘ</span>
+<br/>  The lack of clear naming conventions hinders reviewers' ability to understand the code's intent, leading to ineffective feedback and a breakdown in the review process that fails to address underlying quality issues.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.751">ⓘ</span>
+<br/>  Poor naming conventions lead to confusion about the purpose and behavior of code elements, making it difficult to set up tests correctly and understand their dependencies, which in turn results in unreliable test outcomes that undermine confidence in the codebase.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.754">ⓘ</span>
+<br/>  When code elements are poorly named, it becomes challenging to identify the appropriate context and requirements for creating realistic test data, resulting in inadequate data that fails to simulate genuine scenarios effectively.
 
 ## Root Causes ▼
 
-- **Lack of Naming Standards:** No established conventions for naming different types of code elements
-- **Time Pressure:** Developers choose quick, non-descriptive names to save time
-- **Inconsistent Team Practices:** Different team members follow different naming approaches
-- **Legacy Code Evolution:** Names become outdated as code functionality changes over time
-- **Domain Knowledge Gaps:** Developers lack sufficient understanding of the business domain to choose meaningful names
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -56,6 +63,7 @@ Poor naming conventions occur when code elements such as variables, functions, c
 - **Developer Surveys:** Ask team members about areas where naming makes code difficult to understand
 - **Code Comprehension Testing:** Measure how quickly developers can understand code with different naming patterns
 - **Name Length and Clarity Analysis:** Analyze the distribution of name lengths and use of abbreviations
+
 
 ## Examples
 

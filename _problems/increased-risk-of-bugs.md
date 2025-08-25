@@ -24,6 +24,7 @@ layout: problem
 
 Increased risk of bugs occurs when the structure, complexity, or clarity of code makes it more likely that developers will introduce defects during development or maintenance activities. This heightened risk stems from code that is difficult to understand, test, or modify safely. Unlike direct bug introduction, this problem focuses on the systematic factors that make bug introduction more probable, creating an environment where even careful developers are likely to make mistakes.
 
+
 ## Indicators ⟡
 - Bug rates increase when certain modules or developers are involved
 - Similar types of bugs are repeatedly introduced in the same areas of code
@@ -31,20 +32,23 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 - Developers express uncertainty about the correctness of their changes
 - Testing reveals bugs that should have been obvious during development
 
+
 ## Symptoms ▲
-- **[High Bug Introduction Rate](high-bug-introduction-rate.md):** Overall defect rates increase due to systematic risk factors
-- **[Regression Bugs](regression-bugs.md):** Changes frequently break existing functionality due to lack of understanding
-- **Repeated Defect Patterns:** Similar bugs appear multiple times because root causes aren't addressed
-- **Extended Testing Cycles:** More testing is required because code is more likely to contain defects
-- **Developer Anxiety:** Team members lose confidence in their ability to make changes safely
+
+- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.459, Strength: 0.684">ⓘ</span>
+<br/>  The inherent complexity of the business domain leads to convoluted code structures and logic, which increases the likelihood of misunderstandings and mistakes by developers, thereby heightening the risk of introducing bugs during modifications.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.634">ⓘ</span>
+<br/>  Constantly updating requirements in a project often leads to increased code modifications, which, in the context of legacy systems characterized by code complexity and lack of clarity, heightens the likelihood of introducing defects during development.
+- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.644">ⓘ</span>
+<br/>  The complexity and ambiguity of the legacy code lead to more bugs during updates, resulting in users facing issues that prompt them to seek support, thereby indicating the underlying risk of defects in the system.
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.629">ⓘ</span>
+<br/>  The lack of thorough tests in critical areas of the codebase exacerbates the likelihood of defects, as developers are unaware of potential issues when modifying complex and unclear code, thereby increasing the overall risk of introducing bugs.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.643">ⓘ</span>
+<br/>  The increased code complexity and ambiguity often lead to unreliable test scenarios, which in turn produce flaky tests that obscure the actual reliability of the system and increase the likelihood of undetected bugs.
 
 ## Root Causes ▼
-- **[Complex and Obscure Logic](complex-and-obscure-logic.md):** Convoluted code is difficult to understand and modify correctly
-- **[Inexperienced Developers](inexperienced-developers.md):** Lack of experience increases likelihood of making mistakes
-- **Poor Code Structure:** Badly organized code makes it difficult to understand relationships and dependencies
-- **Quality Blind Spots:** Lack of tests means bugs aren't caught before they reach production
-- **Hidden Dependencies:** Unclear relationships between components make it easy to break things inadvertently
-- **Time Pressure:** Rushed development increases the likelihood of mistakes and shortcuts
+
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 - **Bug Pattern Analysis:** Track which areas of code or types of changes are most likely to introduce bugs
@@ -52,6 +56,7 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 - **Code Complexity Correlation:** Analyze relationship between code complexity metrics and bug density
 - **Change Impact Analysis:** Track which types of changes are most likely to cause problems
 - **Testing Effectiveness:** Measure how many bugs are caught during development vs. production
+
 
 ## Examples
 

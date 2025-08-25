@@ -18,6 +18,7 @@ layout: problem
 
 Session management issues occur when applications improperly handle user sessions, creating security vulnerabilities that allow attackers to hijack legitimate user sessions, perform session fixation attacks, or exploit weak session lifecycle management. Poor session management can lead to unauthorized access, data theft, and compromise of user accounts.
 
+
 ## Indicators ⟡
 
 - Users can be logged in from multiple locations simultaneously without restriction
@@ -26,22 +27,17 @@ Session management issues occur when applications improperly handle user session
 - Sessions don't expire appropriately or have excessive timeouts
 - Session data stored insecurely or transmitted without encryption
 
+
 ## Symptoms ▲
 
-- **Session Hijacking Vulnerabilities:** Attackers can steal and reuse legitimate session tokens
-- **Session Fixation Attacks:** Attackers can force users to use predetermined session identifiers
-- **Persistent Sessions:** Sessions remain active longer than intended or after logout
-- **Concurrent Session Issues:** Multiple active sessions for single user creating security risks
-- **Session Data Exposure:** Sensitive information stored in easily accessible session data
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.687">ⓘ</span>
+<br/>  Improper session management often leads to the failure to release associated resources, as lingering sessions can prevent timely deallocation of objects and connections, creating opportunities for security vulnerabilities and resource exhaustion in legacy systems.
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.820">ⓘ</span>
+<br/>  The presence of unrealistic, outdated, or insufficient test data can lead to overlooked vulnerabilities in session management, as inadequate testing fails to simulate real-world scenarios where session hijacking and fixation risks manifest, thus serving as an indicator of broader security weaknesses in legacy systems.
 
 ## Root Causes ▼
 
-- **Weak Session Token Generation:** Using predictable or insufficiently random session identifiers
-- **Improper Session Lifecycle Management:** Sessions not properly invalidated on logout or timeout
-- **Insecure Session Storage:** Session data stored in client-side cookies or other insecure locations
-- **Missing Session Security Attributes:** Cookies without Secure, HttpOnly, or SameSite attributes
-- **Inadequate Session Validation:** Not properly validating session tokens on each request
-- **Session Regeneration Issues:** Not regenerating session IDs after authentication or privilege changes
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -50,6 +46,7 @@ Session management issues occur when applications improperly handle user session
 - **Session Storage Analysis:** Review how and where session data is stored and transmitted
 - **Concurrent Session Testing:** Test behavior with multiple simultaneous sessions
 - **Session Timeout and Invalidation Testing:** Verify proper session expiration and cleanup
+
 
 ## Examples
 

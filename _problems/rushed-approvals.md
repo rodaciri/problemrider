@@ -26,6 +26,7 @@ layout: problem
 
 Rushed approvals occur when code reviews are completed hastily without adequate examination of the changes, often due to time pressure, process dysfunction, or cultural issues that prioritize speed over quality. These superficial reviews fail to catch bugs, miss opportunities for knowledge sharing, and allow poor design decisions to accumulate in the codebase. Rushed approvals defeat the primary purposes of code review and can be more harmful than no review at all because they create false confidence in code quality.
 
+
 ## Indicators ⟡
 - Pull requests are approved within minutes of submission regardless of size or complexity
 - Review comments are minimal or generic ("LGTM", "Ship it") without specific feedback
@@ -33,20 +34,25 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 - Reviewers approve changes in areas of code they're not familiar with
 - Review approval times are consistently short across all types of changes
 
+
 ## Symptoms ▲
-- **[Review Process Breakdown](review-process-breakdown.md):** Reviews lack depth and miss important issues
-- **[Review Process Breakdown](review-process-breakdown.md):** Code review process fails to maintain quality standards
-- **Reduced Code Quality:** Poor design decisions and bugs slip through due to insufficient review
-- **Missed Learning Opportunities:** Knowledge sharing doesn't occur because reviews are too brief
-- **False Quality Confidence:** Teams believe code is thoroughly reviewed when it actually isn't
+
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.644">ⓘ</span>
+<br/>  The lack of thorough examination during rapid approvals leads to overlooked nuances in the requirements, resulting in frequent updates and changes that necessitate rework and trigger delays in legacy systems.
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.619">ⓘ</span>
+<br/>  The lack of thorough examination in code reviews can lead to the introduction of inefficient or faulty code, which, when deployed, may cause services to time out while waiting for responses from APIs that are not handling requests effectively.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.635">ⓘ</span>
+<br/>  The slow and cumbersome development environment hinders the team's ability to effectively review code changes, leading to rushed approvals as developers prioritize speed over thoroughness to mitigate delays.
+- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.603">ⓘ</span>
+<br/>  The tendency to quickly approve pull requests without thorough review leads to inadequate coordination among developers, resulting in overlapping changes to the same code areas and subsequently causing frequent version control conflicts.
+- [Lower Code Quality](lower-code-quality.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.644">ⓘ</span>
+<br/>  Quick approvals driven by time constraints lead to insufficient code reviews, resulting in developers overlooking issues and increasing the likelihood of defects in the software.
+- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.610">ⓘ</span>
+<br/>  The hurried approval of pull requests leads to a superficial review process that neglects critical assessments and constructive feedback, ultimately resulting in unresolved quality issues within the legacy codebase.
 
 ## Root Causes ▼
-- **[Time Pressure](time-pressure.md):** Aggressive deadlines force reviewers to prioritize speed over thoroughness
-- **Review Process Bottlenecks:** Too few reviewers for the volume of code changes creates pressure to approve quickly
-- **Lack of Review Standards:** No clear expectations about what constitutes an adequate review
-- **Cultural Issues:** Team culture that rewards fast approval over thoughtful feedback
-- **Reviewer Fatigue:** Reviewers become overwhelmed by volume and stop providing thorough feedback
-- **Inadequate Review Tools:** Poor tooling makes thorough reviews difficult or time-consuming
+
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 - **Review Time Analysis:** Track how long reviewers spend examining code relative to change complexity
@@ -54,6 +60,7 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 - **Bug Correlation:** Compare bug rates in rushed reviews versus thorough reviews
 - **Review Coverage:** Assess whether reviewers examine all changed files and understand the changes
 - **Developer Feedback:** Survey team members about review thoroughness and quality
+
 
 ## Examples
 

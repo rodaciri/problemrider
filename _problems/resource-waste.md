@@ -25,6 +25,7 @@ layout: problem
 
 Resource waste occurs when available capacity, skills, or tools are not utilized effectively while other parts of the organization remain constrained or overloaded. This inefficiency can manifest as idle team members while others work overtime, underutilized expensive tools while teams lack basic resources, or available expertise going unused while problems persist in related areas.
 
+
 ## Indicators ⟡
 
 - Some resources remain idle while others are overutilized
@@ -33,21 +34,25 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 - Resources are allocated based on historical patterns rather than current needs
 - Investment in resources doesn't translate to proportional productivity gains
 
+
 ## Symptoms ▲
 
-- **Capacity Underutilization:** Available capacity goes unused while work queues build up elsewhere
-- **Cost Inefficiency:** High resource costs without corresponding productivity benefits
-- **Bottleneck Persistence:** Constraints remain despite available resources that could help
-- **Team Frustration:** Team members frustrated by inefficient resource allocation
-- **[Competitive Disadvantage](competitive-disadvantage.md):** Inefficient resource use reduces organizational competitiveness
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.714">ⓘ</span>
+<br/>  The ineffective utilization of resources in legacy systems leads to a reliance on a diminishing pool of skilled developers, resulting in bottlenecks that highlight the overall inefficiency and resource waste within system maintenance processes.
+- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.745">ⓘ</span>
+<br/>  Inefficient resource allocation leads to a reliance on fetching data from the source for every request, which not only heightens latency but also indicates an inability to leverage existing resources effectively, thus showcasing the underlying issue of wasted capacity.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.643">ⓘ</span>
+<br/>  Inefficient management of allocated resources leads to unreleased resources, which signals a failure to optimize utilization and contributes to overall resource waste in legacy systems.
+- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.763">ⓘ</span>
+<br/>  Ineffective utilization of available resources leads to a lack of oversight on project progress, as teams become unaware of resource allocation discrepancies, resulting in undetected issues that escalate over time.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.718">ⓘ</span>
+<br/>  The underutilization of resources results in a slow and cumbersome development environment, as inadequate allocation of tools and support hinders the team's efficiency and productivity in legacy systems.
+- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.749">ⓘ</span>
+<br/>  Inefficient resource allocation often stems from architectural constraints that prevent optimal performance and scalability, resulting in underutilized resources while other components of the system struggle to meet demand.
 
 ## Root Causes ▼
 
-- **[Capacity Mismatch](capacity-mismatch.md):** Resource allocation doesn't match actual demand patterns
-- **Poor Resource Planning:** Inadequate analysis of resource needs and allocation
-- **Organizational Silos:** Resources aren't shared across organizational boundaries
-- **[Process Design Flaws](process-design-flaws.md):** Processes don't effectively utilize available resources
-- **[Knowledge Gaps](knowledge-gaps.md):** Management doesn't understand how to effectively allocate resources
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -56,6 +61,7 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 - **Capacity vs. Demand Analysis:** Compare available capacity with actual demand patterns
 - **Cross-Team Resource Sharing:** Identify opportunities for better resource utilization across teams
 - **Workflow Efficiency Review:** Assess whether processes make good use of available resources
+
 
 ## Examples
 

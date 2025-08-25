@@ -26,6 +26,7 @@ layout: problem
 
 Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxious about conducting code reviews, often due to lack of confidence in their abilities, fear of missing important issues, or concern about providing incorrect feedback. This anxiety leads to review avoidance, superficial reviews that focus only on obvious issues, or excessive time spent on reviews due to over-analysis and self-doubt.
 
+
 ## Indicators ⟡
 
 - Team members volunteer to write code but avoid reviewing others' code
@@ -34,21 +35,23 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 - Reviewers spend excessive time on simple changes due to uncertainty
 - Team members express discomfort or stress about their reviewing responsibilities
 
+
 ## Symptoms ▲
 
-- **[Review Bottlenecks](review-bottlenecks.md):** Only a few confident reviewers handle most reviews, creating delays
-- **[Superficial Code Reviews](superficial-code-reviews.md):** Reviews focus on trivial issues while missing important design or logic problems
-- **[Reduced Review Participation](reduced-review-participation.md):** Many team members avoid reviewing code, reducing review coverage
-- **Delayed Feedback:** Anxious reviewers take much longer to provide feedback due to over-analysis
-- **Lower Review Quality:** Anxiety prevents reviewers from providing thorough, valuable feedback
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.681">ⓘ</span>
+<br/>  The anxiety surrounding code reviews leads to insufficient feedback and unresolved issues in the codebase, creating a frustrating environment for developers who feel their work is not adequately evaluated or improved, ultimately resulting in demotivation and burnout.
+- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.756">ⓘ</span>
+<br/>  The lack of a systematic approach to mentoring new developers results in inconsistent guidance, exacerbating feelings of uncertainty and anxiety during code reviews, which in turn leads to avoidance and superficial review practices.
+- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.778">ⓘ</span>
+<br/>  The uncertainty and anxiety surrounding code reviews can lead team members to prioritize meeting tight deadlines over thorough evaluations, resulting in rushed decisions and shortcuts that compromise software quality in legacy systems.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.578">ⓘ</span>
+<br/>  The anxiety surrounding code reviews leads to team members rushing through their assessments in a slow and cumbersome development environment, which exacerbates their uncertainty and reinforces avoidance behavior, creating a cycle of inefficiency and superficial engagement with the code.
+- [Nitpicking Culture](nitpicking-culture.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.816">ⓘ</span>
+<br/>  The anxiety experienced by team members during code reviews leads them to focus on minor details as a defensive mechanism to avoid addressing more complex and critical design and functionality issues, resulting in a superficial review process that fails to enhance code quality in legacy systems.
 
 ## Root Causes ▼
 
-- **[Code Review Inefficiency](code-review-inefficiency.md):** No clear criteria for what constitutes a good review creates uncertainty
-- **[Reviewer Inexperience](reviewer-inexperience.md):** Team members lack experience and confidence in reviewing code effectively
-- **[Fear of Conflict](fear-of-conflict.md):** Concern about criticizing colleagues' work creates anxiety about providing feedback
-- **Imposter Syndrome:** Reviewers doubt their own abilities and fear being wrong about issues they identify
-- **[Blame Culture](blame-culture.md):** Environment where mistakes are criticized harshly makes reviewers afraid of missing issues
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -57,6 +60,7 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 - **Review Time Patterns:** Monitor unusually long review times that might indicate anxiety-driven over-analysis
 - **Team Surveys:** Collect feedback about comfort levels and confidence in reviewing code
 - **Review Feedback Quality:** Assess whether reviews catch important issues or focus only on surface problems
+
 
 ## Examples
 

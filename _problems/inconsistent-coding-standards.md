@@ -25,6 +25,7 @@ layout: problem
 
 Inconsistent coding standards occur when different parts of a codebase follow different formatting, naming, and structural conventions, making the code difficult to read, understand, and maintain. This inconsistency can arise from multiple developers working without agreed-upon standards, legacy code written with different conventions, or lack of automated enforcement of coding standards.
 
+
 ## Indicators ⟡
 
 - Different naming conventions used throughout the codebase
@@ -33,22 +34,30 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 - Different error handling approaches across components
 - Varying levels of documentation and commenting
 
+
 ## Symptoms ▲
 
-- **Mixed Naming Conventions:** camelCase, snake_case, and PascalCase used inconsistently
-- **Formatting Inconsistencies:** Different indentation, bracket placement, and spacing styles
-- **Pattern Variability:** Different architectural patterns used for similar functionality
-- **Documentation Gaps:** Some components well-documented while others have no documentation
-- **Code Review Friction:** Significant time spent on style issues rather than logic
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.430, Strength: 0.666">ⓘ</span>
+<br/>  Inconsistent coding practices lead to fragmented logic and unclear structures, making it challenging to identify and implement comprehensive tests, which in turn results in inadequate coverage of critical code areas.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.686">ⓘ</span>
+<br/>  The lack of uniform coding standards leads to fragmented code structures and varying practices, which complicate the development environment, resulting in slower build times and increased debugging efforts that hinder overall team productivity.
+- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.756">ⓘ</span>
+<br/>  The lack of uniform coding standards leads to varied interpretations and practices among team members, resulting in inconsistent guidance during onboarding, which manifests as a disparity in the new members' experiences and understanding of the codebase.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.576">ⓘ</span>
+<br/>  Inconsistent coding practices hinder clear communication among developers, leading to misunderstandings about requirements and resulting in frequent changes as teams struggle to align on the evolving project goals.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.654">ⓘ</span>
+<br/>  The lack of uniform coding standards leads to unpredictable code behavior and improper test setups, resulting in flaky tests that compromise the reliability of the overall test suite.
 
 ## Root Causes ▼
 
-- **Lack of Established Standards:** No defined coding standards or style guides for the project
-- **Multiple Developer Backgrounds:** Developers from different backgrounds bringing different conventions
-- **Legacy Code Integration:** Older code written with different standards mixed with new code
-- **Missing Automated Enforcement:** No linters, formatters, or automated tools to enforce standards
-- **Inadequate Code Review Process:** Code reviews not focusing on consistency and standards
-- **Time Pressure Compromises:** Rushing development without attention to coding standards
+- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.904">ⓘ</span>
+<br/>  The presence of shared dependencies often leads to varying interpretations and implementations of coding standards among developers, resulting in inconsistencies that degrade code quality and complicate maintenance in legacy systems.
+- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.800">ⓘ</span>
+<br/>  The accumulation of design and implementation shortcuts leads to a fragmented approach to coding practices, resulting in varied and inconsistent standards that hinder maintenance and degrade code quality.
+- [Mixed Coding Styles](mixed-coding-styles.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.898">ⓘ</span>
+<br/>  The presence of varying formatting, naming conventions, and design patterns throughout the codebase leads to a lack of uniformity in coding standards, making it difficult for developers to maintain and improve the system effectively.
+- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.862">ⓘ</span>
+<br/>  The difficulty in modifying the existing code without introducing new bugs leads developers to avoid making necessary updates to coding standards, resulting in a lack of uniformity that hinders maintenance and reduces overall code quality.
 
 ## Detection Methods ○
 
@@ -57,6 +66,7 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 - **Code Review Quality Metrics:** Track time spent on style vs logic issues in code reviews
 - **Developer Feedback Analysis:** Gather feedback on code readability and consistency issues
 - **Codebase Health Metrics:** Measure code quality metrics across different parts of codebase
+
 
 ## Examples
 

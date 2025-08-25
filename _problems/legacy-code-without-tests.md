@@ -26,6 +26,7 @@ layout: problem
 
 Legacy code without tests refers to existing production systems that were built before comprehensive testing practices were adopted or where testing was deprioritized during development. This code is particularly challenging because it's often tightly coupled, has hidden dependencies, and lacks the design characteristics that make testing straightforward. Adding tests to legacy code requires significant effort and expertise, creating a barrier that prevents teams from improving code quality and reducing technical debt.
 
+
 ## Indicators ⟡
 - Large portions of critical production code have no associated automated tests
 - Code was written before the team adopted test-driven development or testing best practices
@@ -33,20 +34,22 @@ Legacy code without tests refers to existing production systems that were built 
 - Developers avoid modifying certain areas due to lack of test coverage
 - Production systems have been running for years without comprehensive test suites
 
+
 ## Symptoms ▲
-- **[Fear of Change](fear-of-change.md):** Developers are reluctant to modify untested legacy code due to risk of breaking functionality
-- **[Difficult to Test Code](difficult-to-test-code.md):** Legacy code architecture makes it challenging to write effective tests
-- **[Poor Test Coverage](poor-test-coverage.md):** Critical system functionality lacks test coverage
-- **[Maintenance Paralysis](maintenance-paralysis.md):** Teams avoid necessary improvements because they cannot verify that changes don't break existing functionality
-- **[High Technical Debt](high-technical-debt.md):** Untested code becomes increasingly difficult to maintain and improve over time
+
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.578">ⓘ</span>
+<br/>  The absence of automated tests in legacy systems leads to insufficient test coverage, as critical code paths remain untested due to the difficulty of safely modifying and incrementally adding tests to a fragile codebase.
 
 ## Root Causes ▼
-- **Historical Development Practices:** Code was written when testing practices were less mature or prioritized
-- **[High Coupling and Low Cohesion](high-coupling-low-cohesion.md):** Legacy code often has high coupling that makes unit testing extremely difficult
-- **[Hidden Dependencies](hidden-dependencies.md):** Code directly depends on databases, file systems, or external services without abstraction layers
-- **[Global State and Side Effects](global-state-and-side-effects.md):** Heavy reliance on static methods and global state that cannot be easily mocked
-- **[Complex Implementation Paths](complex-implementation-paths.md):** Legacy objects require complex initialization that's difficult to replicate in tests
-- **[Time Pressure](time-pressure.md):** Pressure to maintain existing functionality leaves little time for adding retrospective tests
+
+- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.881">ⓘ</span>
+<br/>  The lack of sufficient design skills leads to poorly structured legacy systems, making it difficult to implement automated tests, as the code is not modular or understandable enough for safe modifications.
+- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.897">ⓘ</span>
+<br/>  Developers' difficulty in adopting object-oriented principles results in procedural-style code that is harder to test, ultimately contributing to the absence of automated tests in legacy systems.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.859">ⓘ</span>
+<br/>  A lack of understanding of object-oriented programming leads to poorly structured legacy code that is difficult to test, creating a cycle where the absence of tests further complicates maintenance and modifications.
+- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.825">ⓘ</span>
+<br/>  The lack of complete knowledge about existing code logic prevents developers from identifying areas that require testing, resulting in a failure to implement automated tests in legacy systems and increasing the risk of introducing errors during modifications.
 
 ## Detection Methods ○
 - **Code Coverage Analysis:** Measure test coverage for different parts of the system to identify untested legacy areas
@@ -54,6 +57,7 @@ Legacy code without tests refers to existing production systems that were built 
 - **Dependency Analysis:** Map code dependencies to identify areas that would be difficult to test
 - **Change Frequency vs. Test Coverage:** Correlate how often code is modified with its test coverage
 - **Developer Surveys:** Ask team members which areas of code they're most afraid to modify due to lack of tests
+
 
 ## Examples
 

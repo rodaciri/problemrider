@@ -25,6 +25,7 @@ layout: problem
 
 Obsolete technologies refer to the use of outdated programming languages, frameworks, libraries, or development tools that are no longer actively maintained, have been superseded by better alternatives, or lack support for modern development practices. These technologies create barriers to implementing current best practices, make it difficult to find qualified developers, and often introduce security vulnerabilities. Legacy systems commonly suffer from this problem as they age and their technology stack becomes increasingly outdated.
 
+
 ## Indicators ⟡
 - Key dependencies have not been updated in several years
 - Official support for the technology stack has ended or is ending soon
@@ -32,20 +33,25 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 - It's difficult to hire developers with expertise in the current technology stack
 - Modern development tools and practices cannot be applied to the existing system
 
+
 ## Symptoms ▲
-- **Security Vulnerabilities:** Outdated components have known security issues without available patches
-- **[Difficult Developer Onboarding](difficult-developer-onboarding.md):** New developers struggle to learn deprecated or obsolete technologies
-- **Limited Tool Support:** Modern IDEs, debugging tools, and development utilities don't support the legacy technology stack
-- **[Slow Development Velocity](slow-development-velocity.md):** Development is hindered by lack of modern tooling and frameworks
-- **Integration Challenges:** Difficulty connecting with modern systems and APIs due to outdated protocols or data formats
+
+- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.888">ⓘ</span>
+<br/>  The reliance on outdated tools and languages not only hampers the ability to attract new talent but also limits the existing workforce's proficiency, leading to a critical shortage of developers skilled in maintaining these systems, which ultimately results in operational bottlenecks.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.561, Strength: 0.867">ⓘ</span>
+<br/>  Outdated tools and frameworks hinder the ability to adapt to new regulatory requirements, resulting in compliance gaps that expose the system to legal risks and costly remediation efforts.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.727">ⓘ</span>
+<br/>  The reliance on outdated tools and frameworks hampers the ability to quickly adapt to new requirements, resulting in frequent changes as stakeholders seek to compensate for the limitations of the legacy system, which in turn leads to increased rework and delays.
+- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.685">ⓘ</span>
+<br/>  The reliance on outdated tools and frameworks often leads to inadequate resource management practices, resulting in allocated resources that are not properly deallocated or closed, thus indicating underlying inefficiencies in the system's architecture and maintenance capabilities.
+- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.874">ⓘ</span>
+<br/>  Outdated tools and frameworks hinder the development and maintenance of APIs, leading to poorly designed interfaces that struggle with versioning and backward compatibility, which exacerbate overall system complexity and technical debt.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.702">ⓘ</span>
+<br/>  The reliance on outdated tools and frameworks hinders the development team's ability to effectively implement modern features and communicate their capabilities, resulting in mismatched expectations from stakeholders and leading to increased rework and dissatisfaction.
 
 ## Root Causes ▼
-- **Long System Lifespan:** Systems that have been in production for many years naturally encounter technology obsolescence
-- **Delayed Modernization:** Postponing technology updates due to cost, risk, or resource constraints
-- **Lack of Technology Roadmap:** No strategic planning for technology evolution and updates
-- **Risk Aversion:** Fear that updating technologies will introduce instability or require extensive changes
-- **Budget Constraints:** Limited resources allocated for technology modernization efforts
-- **Knowledge Dependency:** Heavy reliance on developers with expertise in legacy technologies
+
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 - **Technology Audit:** Regular assessment of all components in the technology stack for currency and support status
@@ -53,6 +59,7 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 - **Vendor Communication:** Monitor announcements about end-of-life dates for critical technologies
 - **Developer Recruitment Metrics:** Track difficulty in finding qualified candidates for current technology stack
 - **Performance Benchmarking:** Compare system performance with modern alternatives
+
 
 ## Examples
 

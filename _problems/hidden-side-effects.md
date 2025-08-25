@@ -21,6 +21,7 @@ layout: problem
 
 Hidden side effects occur when functions or methods perform actions beyond their apparent primary purpose without clearly documenting or indicating these additional behaviors. These side effects might include modifying global state, triggering events, writing to logs, sending notifications, or updating caches. Hidden side effects make code difficult to understand, test, and maintain because developers cannot predict all the consequences of calling a function based on its name and parameters alone.
 
+
 ## Indicators ⟡
 - Functions with innocent-sounding names that perform multiple unrelated actions
 - Debugging reveals that functions modify state or trigger actions not obvious from their signatures
@@ -28,20 +29,31 @@ Hidden side effects occur when functions or methods perform actions beyond their
 - Code reviews frequently involve questions about unexpected function behaviors
 - System behavior changes unexpectedly when functions are called in different contexts
 
+
 ## Symptoms ▲
-- **[Unpredictable System Behavior](unpredictable-system-behavior.md):** Functions cause unexpected changes in seemingly unrelated parts of the system
-- **[Difficult to Test Code](difficult-to-test-code.md):** Functions cannot be easily tested in isolation due to their hidden dependencies and effects
-- **[Global State and Side Effects](global-state-and-side-effects.md):** Functions modify shared state without making this behavior explicit
-- **Debugging Difficulties:** Issues are hard to trace because functions have effects beyond their apparent purpose
-- **Code Comprehension Problems:** Developers struggle to understand what functions actually do versus what they appear to do
+
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.615, Strength: 0.831">ⓘ</span>
+<br/>  In legacy systems, undocumented side effects in functions lead to unexpected behavior, which results in critical code paths being overlooked in testing, thus revealing poor test coverage as an indicator of these hidden complexities.
+- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.781">ⓘ</span>
+<br/>  Undocumented side effects in functions can lead to unpredictable changes in state, causing tests to fail intermittently as they rely on specific conditions that may be altered unexpectedly, thus undermining the reliability of the test suite.
+- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.830">ⓘ</span>
+<br/>  Undocumented side effects create unpredictable behavior in the software, leading to misunderstandings and misalignment among team members, as they struggle to coordinate their efforts without a clear understanding of the system's true functionality.
+- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.737">ⓘ</span>
+<br/>  Undocumented side effects in functions obscure the true behavior of the code, complicating the identification and extraction of critical business rules that are intertwined with these hidden modifications.
+- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.794">ⓘ</span>
+<br/>  Unstructured or conflicting names in legacy code can obscure the true purpose of functions, making it difficult to identify and understand their hidden side effects, thus serving as a symptom of deeper issues within the system's design and documentation.
+- [Poor Operational Concept](poor-operational-concept.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.876">ⓘ</span>
+<br/>  Undocumented side effects in functions can lead to unexpected behaviors that complicate system monitoring and maintenance, resulting in instability that reveals a lack of foresight in operational planning.
+- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.769">ⓘ</span>
+<br/>  Undocumented side effects complicate debugging efforts, leading to unresolved issues that persist over time and contribute to user frustration.
+- [Secret Management Problems](secret-management-problems.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.813">ⓘ</span>
+<br/>  Undocumented side effects in functions can inadvertently alter the management of sensitive credentials, leading to security vulnerabilities and operational challenges as these unintended modifications may compromise the integrity and proper handling of secrets.
+- [System Integration Blindness](system-integration-blindness.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.838">ⓘ</span>
+<br/>  Undocumented side effects in functions can lead to unexpected behaviors when components are integrated, as the lack of visibility into these effects prevents developers from understanding how changes in one part of the system can unintentionally influence others, thus exposing integration failures.
 
 ## Root Causes ▼
-- **Poor Function Design:** Functions are designed to do multiple things instead of having a single, clear responsibility
-- **Convenience Shortcuts:** Developers add extra functionality to existing functions instead of creating separate, focused functions
-- **Implicit Requirements:** Business requirements include side effects that aren't clearly documented in the code
-- **Legacy Evolution:** Functions accumulate additional responsibilities over time without proper refactoring
-- **Lack of Separation of Concerns:** No clear separation between core functionality and supporting actions like logging or notifications
-- **Global State Dependencies:** Functions rely on and modify global variables without making these dependencies explicit
+
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 - **Code Analysis:** Review function implementations to identify actions beyond their apparent purpose
@@ -49,6 +61,7 @@ Hidden side effects occur when functions or methods perform actions beyond their
 - **Testing Complexity:** Identify functions that require extensive mocking or setup for testing
 - **Developer Interviews:** Ask team members about functions that behave differently than expected
 - **Static Analysis Tools:** Use tools that can identify functions with multiple responsibilities or external dependencies
+
 
 ## Examples
 

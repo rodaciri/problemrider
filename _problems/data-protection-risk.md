@@ -23,6 +23,7 @@ layout: problem
 
 Data protection risk occurs when systems inadequately safeguard personal, sensitive, or regulated data, creating exposure to legal penalties, regulatory sanctions, and reputational damage. This problem extends beyond technical security measures to include proper data governance, consent management, retention policies, and compliance with regulations like GDPR, HIPAA, or industry-specific standards. The risk is particularly acute in legacy system modernization where data handling practices may not have kept pace with evolving regulatory requirements.
 
+
 ## Indicators ⟡
 
 - Development teams unsure about which regulations apply to their data
@@ -33,35 +34,19 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 - Cross-border data transfer mechanisms that haven't been legally validated
 - Audit trails for data access and modifications that are incomplete or missing
 
+
 ## Symptoms ▲
 
-- **[Regulatory Compliance Drift](regulatory-compliance-drift.md):** Compliance audit failures or warnings
-- **[User Trust Erosion](user-trust-erosion.md):** Customer trust erosion due to data privacy concerns
-- **[Negative Brand Perception](negative-brand-perception.md):** Data breach notifications required due to unauthorized access or exposure
-- **[Increased Customer Support Load](increased-customer-support-load.md):** User complaints about inability to exercise data rights (access, deletion, portability)
-- **[Budget Overruns](budget-overruns.md):** Increased legal and compliance costs
-- **[Stakeholder Confidence Loss](stakeholder-confidence-loss.md):** Legal team raising concerns about data handling practices
-- **[Operational Overhead](operational-overhead.md):** Difficulty providing data for regulatory requests or investigations
-- **[Inconsistent Behavior](inconsistent-behavior.md):** Inconsistent data handling across different parts of the system
-- **[High Maintenance Costs](high-maintenance-costs.md):** Costly remediation efforts to achieve compliance
-- **[Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md):** Data protection failures due to inconsistent data handling across systems
-- **[Insufficient Audit Logging](insufficient-audit-logging.md):** Inability to track data access and modifications for compliance purposes
-- **[Debugging Difficulties](debugging-difficulties.md):** Challenges investigating data protection incidents due to poor logging
+- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.815">ⓘ</span>
+<br/>  The lack of proper safeguards for personal or sensitive data often results in the use of inadequate test data, as legacy systems fail to prioritize realistic data scenarios, thereby masking vulnerabilities and increasing exposure to legal and ethical issues during testing processes.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.647">ⓘ</span>
+<br/>  The failure of legacy systems to adapt to new regulatory requirements results in compliance gaps that directly expose the handling of personal or sensitive data to legal and ethical risks.
+- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.802">ⓘ</span>
+<br/>  Insufficient logging of security-relevant events in legacy systems hinders the ability to track access and changes to sensitive data, thereby masking potential breaches and exacerbating the risk of legal and ethical violations.
 
 ## Root Causes ▼
 
-- **[Knowledge Gaps](knowledge-gaps.md):** Insufficient understanding of applicable regulations and their requirements
-- **[Team Silos](team-silos.md):** Poor integration between legal, security, and development teams
-- **[Obsolete Technologies](obsolete-technologies.md):** Legacy systems built before current data protection standards existed
-- **[Short-Term Focus](short-term-focus.md):** Treating data protection as an afterthought rather than a design principle
-- **[Time Pressure](time-pressure.md):** Pressure to deliver features quickly without considering compliance implications
-- **[Poorly Defined Responsibilities](poorly-defined-responsibilities.md):** Unclear ownership and accountability for data protection responsibilities
-- **[Insufficient Design Skills](insufficient-design-skills.md):** Lack of data protection expertise during system design phase
-- **[Planning Dysfunction](planning-dysfunction.md):** Inadequate budget allocation for proper data governance infrastructure
-- **[Implementation Starts Without Design](implementation-starts-without-design.md):** Beginning development without data protection impact assessment
-- **[Communication Breakdown](communication-breakdown.md):** Lack of communication between technical and legal teams about data handling requirements
-- **[Inadequate Onboarding](inadequate-onboarding.md):** Insufficient training on data protection requirements for development teams
-- **[High Technical Debt](high-technical-debt.md):** Technical debt preventing implementation of proper data protection controls
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -73,6 +58,7 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 - Monitor regulatory compliance dashboards and metrics
 - Review data processing agreements with third-party vendors
 - Conduct penetration testing focused on data exposure scenarios
+
 
 ## Examples
 

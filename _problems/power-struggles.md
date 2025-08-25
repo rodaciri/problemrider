@@ -24,6 +24,7 @@ layout: problem
 
 Power struggles occur when different individuals, teams, or departments compete for control, influence, or resources rather than collaborating toward shared organizational goals. These conflicts manifest as territorial disputes, competing visions for project direction, decisions being overruled or undermined, and resources being withheld or redirected based on political considerations rather than project needs. Power struggles waste time and energy while preventing effective decision-making and execution.
 
+
 ## Indicators ⟡
 
 - Decisions are frequently overruled or changed by competing authorities
@@ -32,21 +33,26 @@ Power struggles occur when different individuals, teams, or departments compete 
 - Team members receive mixed messages about priorities and objectives
 - Important decisions are delayed while different parties vie for control
 
+
 ## Symptoms ▲
 
-- **[Delayed Decision Making](delayed-decision-making.md):** Decisions are postponed while power conflicts are resolved
-- **[Team Coordination Issues](team-coordination-issues.md):** Teams receive conflicting directions from different authorities
-- **Resource Allocation Conflicts:** Resources are distributed based on politics rather than project needs
-- **[Unclear Goals and Priorities](unclear-goals-and-priorities.md):** Competing authorities establish different objectives
-- **Reduced Team Morale:** Team becomes frustrated with political conflicts interfering with work
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.594, Strength: 0.798">ⓘ</span>
+<br/>  Internal conflicts lead to unclear priorities and misaligned objectives, causing stakeholders to frequently alter requirements as they attempt to assert their influence, resulting in constant revisions that disrupt development and hinder project progress.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.649">ⓘ</span>
+<br/>  Internal conflicts hinder effective communication and resource allocation, leading to unresolved technical issues and increasing pressure on developers, which ultimately results in their frustration and burnout.
+- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.790">ⓘ</span>
+<br/>  Internal conflicts lead to fragmented decision-making, resulting in stakeholders issuing conflicting priorities that create confusion and inefficiency within the project teams.
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.738">ⓘ</span>
+<br/>  Internal conflicts lead to a lack of consensus on priorities, causing teams to excessively deliberate and analyze options instead of progressing to implementation, which stalls development efforts in legacy systems.
+- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.713">ⓘ</span>
+<br/>  Internal conflicts lead to indecision and fragmented priorities, causing delays in resource allocation and tools necessary for an efficient development environment, which ultimately hampers productivity and project momentum.
+- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.740">ⓘ</span>
+<br/>  Internal conflicts lead to a lack of cohesive oversight and communication, resulting in ineffective monitoring of project progress and the inability to address issues promptly within legacy systems.
 
 ## Root Causes ▼
 
-- **Unclear Authority Structure:** Overlapping or ambiguous decision-making authority
-- **Competing Departmental Goals:** Different departments have conflicting objectives
-- **Resource Scarcity:** Limited resources create competition between departments
-- **Individual Ambition:** Personal career goals override organizational needs
-- **Organizational Culture Issues:** Culture rewards political maneuvering over collaboration
+- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.952">ⓘ</span>
+<br/>  Conflicting priorities arise when teams rely on shared libraries and frameworks, leading to power struggles as departments compete to influence decisions that impact their dependencies and project outcomes.
 
 ## Detection Methods ○
 
@@ -55,6 +61,7 @@ Power struggles occur when different individuals, teams, or departments compete 
 - **Resource Allocation Review:** Assess whether resources are distributed based on objective criteria
 - **Team Feedback Collection:** Anonymous surveys about political interference in work
 - **Communication Pattern Analysis:** Identify competing messages from different authorities
+
 
 ## Examples
 

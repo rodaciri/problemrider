@@ -23,6 +23,7 @@ layout: problem
 
 REST API design issues occur when APIs violate REST architectural principles, use inconsistent conventions, or create poor developer experiences through unclear resource modeling, inappropriate HTTP method usage, or inconsistent response formats. Poor REST design makes APIs difficult to understand, integrate with, and maintain, leading to increased development time and integration errors.
 
+
 ## Indicators ⟡
 
 - API endpoints don't follow consistent naming conventions
@@ -31,22 +32,19 @@ REST API design issues occur when APIs violate REST architectural principles, us
 - Resource relationships poorly modeled or unclear
 - API documentation doesn't match actual implementation
 
+
 ## Symptoms ▲
 
-- **Inconsistent Resource Naming:** API endpoints use mixed naming conventions and patterns
-- **Inappropriate HTTP Method Usage:** GET requests that modify data, POST requests for data retrieval
-- **Poor Resource Modeling:** Resources don't map logically to business entities
-- **Inconsistent Response Formats:** Different endpoints return data in different structures
-- **Non-Idempotent Operations:** Operations that should be idempotent produce different results on repeated calls
+- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.532, Strength: 0.722">ⓘ</span>
+<br/>  Inefficient client-server interactions due to poor API design can lead to prolonged response times, causing consuming services to exceed their timeout thresholds and fail to receive the necessary data.
+- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.836">ⓘ</span>
+<br/>  Inefficient code often arises from poorly designed APIs that lead to excessive data processing or unnecessary resource usage, as clients may need to handle more data than required or make multiple round trips due to lack of clear endpoints, thus indicating flaws in the API's structure and efficiency.
+- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.717">ⓘ</span>
+<br/>  Inefficient client-server interactions in poorly designed APIs often lead to the failure to implement effective caching strategies, resulting in redundant data retrieval for each request and subsequently increasing response times and server load.
 
 ## Root Causes ▼
 
-- **Lack of REST Understanding:** Developers not familiar with REST architectural principles
-- **Inconsistent Design Guidelines:** No established API design standards or guidelines
-- **Legacy Integration Constraints:** Existing systems forcing non-RESTful design decisions
-- **Business Logic Leakage:** Business operations exposed directly as API endpoints without proper abstraction
-- **Rapid Development Pressure:** API design shortcuts taken to meet tight deadlines
-- **Multiple Development Teams:** Different teams creating APIs without coordination
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -55,6 +53,7 @@ REST API design issues occur when APIs violate REST architectural principles, us
 - **API Documentation Analysis:** Compare documentation with actual API behavior
 - **HTTP Method Audit:** Audit appropriate usage of HTTP methods across all endpoints
 - **Response Format Consistency Check:** Verify consistent response structures and error handling
+
 
 ## Examples
 

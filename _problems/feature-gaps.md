@@ -25,6 +25,7 @@ layout: problem
 
 Feature gaps occur when software is delivered without functionality that users consider essential, typically because developers or product teams made incorrect assumptions about user needs without proper validation. These gaps often emerge when development teams work in isolation from actual users, rely on incomplete requirements, or make decisions based on their own technical perspective rather than user workflows and business needs.
 
+
 ## Indicators ⟡
 
 - Users frequently request functionality that seems basic or obvious in hindsight
@@ -33,24 +34,20 @@ Feature gaps occur when software is delivered without functionality that users c
 - Customer support receives repeated requests for the same missing features
 - User adoption is slower than expected due to incomplete functionality
 
+
 ## Symptoms ▲
 
-- **[User Frustration](user-frustration.md):** Users become frustrated when they cannot complete their intended tasks
-- **[Competitive Disadvantage](competitive-disadvantage.md):** Competitors offer functionality that your product lacks
-- **[Customer Dissatisfaction](customer-dissatisfaction.md):** Users don't adopt the software because it doesn't meet their needs
-- **[Increased Customer Support Load](increased-customer-support-load.md):** Support team handles requests for missing functionality
-- **[Implementation Rework](implementation-rework.md):** Major development effort required to add missing core functionality
-- **Market Share Loss:** Users choose alternative solutions that provide complete functionality
+- [Assumption-Based Development](assumption-based-development.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.843">ⓘ</span>
+<br/>  The presence of important missing functionality indicates that developers failed to validate user requirements, leading to decisions based on unverified assumptions that ultimately result in incomplete solutions.
+- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.806">ⓘ</span>
+<br/>  The presence of missing functionality leads teams to overanalyze user requirements in an attempt to compensate for the gaps, causing a paralysis that halts progress on development work within legacy systems.
+- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.594">ⓘ</span>
+<br/>  The absence of essential functionality often leads developers to overlook testing scenarios for critical code segments, resulting in poor test coverage that highlights gaps in user requirements and system capabilities.
 
 ## Root Causes ▼
 
-- **[Assumption-Based Development](assumption-based-development.md):** Developers build based on assumptions rather than validated user requirements
-- **[Inadequate Requirements Gathering](inadequate-requirements-gathering.md):** Insufficient research into actual user needs and workflows
-- **Stakeholder Unavailability:** Key stakeholders aren't available to clarify requirements and user needs
-- **Developer Overconfidence:** Development team believes they understand user needs without validation
-- **Limited User Research:** No systematic process for understanding user workflows and pain points
-- **Technical Bias:** Focusing on technically interesting problems rather than user-valuable features
-- **MVP Misinterpretation:** Confusing "minimum viable" with "incomplete" or "basic"
+- [Rapid System Changes](rapid-system-changes.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.808">ⓘ</span>
+<br/>  Frequent modifications to the system's architecture and APIs lead to insufficient documentation and team familiarity, resulting in developers overlooking critical user needs and creating incomplete functionality that fails to address essential requirements.
 
 ## Detection Methods ○
 
@@ -60,6 +57,7 @@ Feature gaps occur when software is delivered without functionality that users c
 - **Usage Analytics:** Monitor where users drop off or struggle in their workflows
 - **Customer Interview Programs:** Regular interviews with users about their needs and pain points
 - **Feature Request Tracking:** Monitor volume and patterns of feature requests
+
 
 ## Examples
 

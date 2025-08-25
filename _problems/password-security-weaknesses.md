@@ -18,6 +18,7 @@ layout: problem
 
 Password security weaknesses occur when systems implement inadequate password policies, use insecure storage methods, or have poor password management practices. These vulnerabilities make user accounts susceptible to brute force attacks, dictionary attacks, credential stuffing, and unauthorized access through compromised or weak passwords.
 
+
 ## Indicators ⟡
 
 - Systems allow weak or easily guessable passwords
@@ -26,22 +27,15 @@ Password security weaknesses occur when systems implement inadequate password po
 - Password reset processes that are easily exploitable
 - Default or shared passwords used across systems or accounts
 
+
 ## Symptoms ▲
 
-- **Weak Password Acceptance:** System accepts passwords that are easily guessable or commonly used
-- **Insecure Password Storage:** Passwords stored without proper hashing or using weak encryption
-- **Brute Force Vulnerability:** No protection against automated password guessing attacks
-- **Password Reset Exploitation:** Password reset mechanisms that can be easily abused
-- **Credential Reuse Issues:** Users able to reuse old passwords or use same password across systems
+- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.850">ⓘ</span>
+<br/>  In legacy systems, weak password policies and poor authentication practices often lead to a lack of comprehensive audit logging, as inadequate security measures fail to capture and record relevant security events, hindering breach detection and incident investigation.
 
 ## Root Causes ▼
 
-- **Inadequate Password Policies:** No minimum complexity requirements or insufficient password strength validation
-- **Weak Hashing Algorithms:** Using MD5, SHA1, or other cryptographically weak hashing methods
-- **Missing Salt Usage:** Password hashes not salted, making them vulnerable to rainbow table attacks
-- **Insufficient Rate Limiting:** No protection against brute force or credential stuffing attacks
-- **Poor Password Reset Implementation:** Insecure password reset tokens or processes
-- **Default Credential Usage:** Systems shipped with default passwords that are never changed
+*No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Detection Methods ○
 
@@ -50,6 +44,7 @@ Password security weaknesses occur when systems implement inadequate password po
 - **Brute Force Testing:** Test system resistance to automated password attacks
 - **Password Reset Security Testing:** Analyze password reset process for vulnerabilities
 - **Default Credential Scanning:** Check for systems using default or common passwords
+
 
 ## Examples
 

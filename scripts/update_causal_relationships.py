@@ -256,8 +256,9 @@ def update_problem_file(filepath: str, cache_data: Dict, confidence_threshold: f
         if not has_root_causes and root_causes:
             new_body_parts.append(new_root_causes_section)
         
-        # Reconstruct the full file content
-        new_content = "---\n" + yaml.dump(frontmatter, default_flow_style=False) + "---\n\n"
+        # Reconstruct the full file content - preserve original frontmatter format
+        original_frontmatter = original_content.split('---')[1]
+        new_content = "---" + original_frontmatter + "---\n\n"
         new_content += '\n'.join(new_body_parts).strip() + '\n'
         
         if dry_run:

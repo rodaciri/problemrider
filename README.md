@@ -67,8 +67,18 @@ In the repository, you'll find a mix of files that the Jekyll blog system needs 
 - `GEMINI.md` - Additional AI assistant instructions
 - `git-tail.sh` - a helper shell script for continuously monitoring change operations of AI agents
 - `.claude/commands/pr` - custom commands for AI Agents for generating, categorizing, merging and linking problems within ProblemRider (pr)
-- `scripts/` - Python utilities for maintenance (link checking, title conversion, backlog management, Neo4j export) and visualization
-   generation
+- `scripts/` - Python utilities for maintenance, analysis, and visualization:
+  - `calculate_related_problems.py` - Generates semantic similarity scores for related_problems sections
+  - `backlog_refinement.py` - Sorts backlog ideas into different categories based on existing problems
+  - `check_links.py` - Checks for broken markdown links and optionally fixes them
+  - `convert_titles.py` - Converts titles to proper title case using New York Times style rules
+  - `consolidate_categories.py` - Consolidates problem categories to core set of 15 categories
+  - `create_visualization.py` - Generates D3-based network visualization of problem relationships
+  - `find_unlinked_content.py` - Identifies root causes and symptoms without markdown links
+  - `update_causal_relationships.py` - Updates problem files with CESAR causal analysis results
+  - `update_descriptions.py` - Adds relationship descriptions to existing linked relationships in problem files
+  - `generate_neo4j_csv_import_scripts.py` - Exports data for Neo4j graph database import
+  - `generate_relationship_descriptions.py` - Creates relationship descriptions for problem connections
 
 ## Main Contributors
 

@@ -11,7 +11,6 @@ import os
 import json
 import yaml
 import argparse
-import csv
 from typing import Dict, List, Tuple, Set
 import re
 
@@ -100,44 +99,6 @@ def title_to_slug(title: str) -> str:
     """Convert a problem title to its expected markdown filename slug."""
     return title.lower().replace(' ', '-').replace('(', '').replace(')', '').replace('/', '-')
 
-def load_relationship_descriptions(descriptions_file: str) -> Dict:
-    """Load relationship descriptions from CSV file."""
-    problems_data = {}
-    total_relationships = 0
-    
-    try:
-        with open(descriptions_file, 'r', encoding='utf-8', newline='') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                problem_key = row['problem_key']
-                related_key = row['related_key']
-                relationship_type = row['relationship_type']
-                
-                # Initialize problem entry if it doesn't exist
-                if problem_key not in problems_data:
-                    problems_data[problem_key] = {
-                        "title": row['problem_title'],
-                        "symptoms": {},
-                        "root_causes": {}
-                    }
-                
-                # Add relationship
-                section = "symptoms" if relationship_type == "symptom" else "root_causes"
-                problems_data[problem_key][section][related_key] = {
-                    "title": row['related_title'],
-                    "description": row['description']
-                }
-                total_relationships += 1
-        
-        return {
-            "problems": problems_data,
-            "metadata": {
-                "total_relationships": total_relationships,
-                "total_problems": len(problems_data)
-            }
-        }
-    except (FileNotFoundError, csv.Error):
-        return {"problems": {}, "metadata": {"total_relationships": 0, "total_problems": 0}}
 
 def clean_existing_links_from_section(section_content: str) -> str:
     """Remove existing markdown links from a section while preserving unlinked content."""
@@ -215,7 +176,6 @@ def clean_existing_links_from_section(section_content: str) -> str:
 
 def build_markdown_section(section_title: str, relationships: List[Tuple], 
                          section_symbol: str, existing_problems: Set[str], 
-                         descriptions: Dict = None, problem_key: str = None,
                          preserve_unlinked: str = None) -> str:
     """Build a markdown section from causal relationships."""
     lines = [f"## {section_title} {section_symbol}"]
@@ -240,18 +200,6 @@ def build_markdown_section(section_title: str, relationships: List[Tuple],
                 link_text = f"[{title}]({slug}.md)"
                 tooltip_text = f"Confidence: {confidence:.3f}, Strength: {score:.3f}"
                 lines.append(f"- {link_text} <span class=\"info-tooltip\" title=\"{tooltip_text}\">ⓘ</span>")
-                
-                # Add description if available
-                if descriptions and problem_key:
-                    problems_data = descriptions.get("problems", {})
-                    problem_data = problems_data.get(problem_key, {})
-                    section_type = "symptoms" if "Symptoms" in section_title else "root_causes"
-                    relationships_dict = problem_data.get(section_type, {})
-                    
-                    if slug in relationships_dict:
-                        description = relationships_dict[slug].get("description", "")
-                        if description:
-                            lines.append(f"<br/>  {description}")
             else:
                 link_text = f"**{title}**"
                 lines.append(f"- {link_text}")
@@ -272,8 +220,7 @@ def get_existing_problems(problems_dir: str) -> Set[str]:
     return existing
 
 def update_problem_file(filepath: str, cache_data: Dict, confidence_threshold: float = 0.30,
-                       existing_problems: Set[str] = None, descriptions: Dict = None, 
-                       dry_run: bool = False) -> bool:
+                       existing_problems: Set[str] = None, dry_run: bool = False) -> bool:
     """Update a single problem file with CESAR-based causal relationships."""
     if existing_problems is None:
         existing_problems = set()
@@ -322,8 +269,8 @@ def update_problem_file(filepath: str, cache_data: Dict, confidence_threshold: f
                 existing_root_causes_unlinked = section_content
         
         # Build new sections, preserving unlinked content
-        new_symptoms_section = build_markdown_section("Symptoms", symptoms, "▲", existing_problems, descriptions, problem_key, existing_symptoms_unlinked)
-        new_root_causes_section = build_markdown_section("Root Causes", root_causes, "▼", existing_problems, descriptions, problem_key, existing_root_causes_unlinked)
+        new_symptoms_section = build_markdown_section("Symptoms", symptoms, "▲", existing_problems, existing_symptoms_unlinked)
+        new_root_causes_section = build_markdown_section("Root Causes", root_causes, "▼", existing_problems, existing_root_causes_unlinked)
         
         # Rebuild the body, replacing Symptoms and Root Causes sections
         new_body_parts = []
@@ -399,8 +346,6 @@ def main():
                        help='Show what would be updated without making changes')
     parser.add_argument('--problem-filter', 
                        help='Only update problems matching this title substring (case insensitive)')
-    parser.add_argument('--descriptions-file', default='scripts/tmp/relationship_descriptions.csv',
-                       help='CSV file containing relationship descriptions (default: %(default)s)')
     
     args = parser.parse_args()
     
@@ -421,15 +366,6 @@ def main():
         print(f"❌ {e}")
         return 1
     
-    # Load relationship descriptions
-    descriptions = load_relationship_descriptions(args.descriptions_file)
-    if descriptions and descriptions.get("problems"):
-        metadata = descriptions.get("metadata", {})
-        total_relationships = metadata.get("total_relationships", 0)
-        total_problems = metadata.get("total_problems", 0)
-        print(f"✅ Loaded {total_relationships} relationship descriptions for {total_problems} problems from {args.descriptions_file}")
-    else:
-        print(f"⚠️  No relationship descriptions found at {args.descriptions_file}")
     
     # Get existing problems for link validation
     if not os.path.exists(args.problems_dir):
@@ -461,7 +397,7 @@ def main():
                 continue  # Skip files we can't parse
         
         if update_problem_file(filepath, cache_data, args.confidence_threshold, 
-                             existing_problems, descriptions, args.dry_run):
+                             existing_problems, args.dry_run):
             updated_count += 1
         else:
             skipped_count += 1

@@ -25,7 +25,6 @@ layout: problem
 
 Poor operational concept refers to inadequate planning and preparation for how a system will be monitored, maintained, supported, and operated after it goes live. This problem occurs when development teams focus primarily on building features without sufficient consideration for ongoing operational needs such as logging, monitoring, troubleshooting, backup and recovery, performance tuning, and user support. The result is systems that are difficult to operate reliably and efficiently in production environments.
 
-
 ## Indicators ⟡
 
 - Development planning that focuses exclusively on functional requirements without operational considerations
@@ -36,9 +35,7 @@ Poor operational concept refers to inadequate planning and preparation for how a
 - Unclear escalation paths or support processes for production issues
 - Operations teams not involved in the development and design process
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.659">ⓘ</span>
 <br/>  The absence of a comprehensive operational strategy often results in inadequate planning for testing, leading to critical areas of the codebase lacking coverage and ultimately exposing the system to undetected issues during post-launch operations.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.605">ⓘ</span>
@@ -53,7 +50,6 @@ Poor operational concept refers to inadequate planning and preparation for how a
 <br/>  The failure to establish a robust operational framework leads to inadequate review processes that overlook critical issues, resulting in a decline in code quality and increased instability in legacy systems.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.958">ⓘ</span>
 <br/>  The lack of planning for monitoring and maintenance is exacerbated by shared dependencies, as issues in one component can cascade through the interconnected libraries and frameworks, leading to widespread instability that is difficult to diagnose and support in legacy systems.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.953">ⓘ</span>
@@ -145,7 +141,6 @@ Poor operational concept refers to inadequate planning and preparation for how a
 - Review backup, recovery, and disaster recovery procedures and testing
 - Assess operational automation and tooling availability
 - Examine operational cost trends and resource utilization patterns
-
 
 ## Examples
 

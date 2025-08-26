@@ -26,7 +26,6 @@ layout: problem
 
 Breaking changes occur when modifications to APIs, interfaces, or system behaviors cause existing client integrations to fail or behave incorrectly. These changes violate backward compatibility expectations and force clients to update their code, often unexpectedly and on short notice. Breaking changes can severely damage relationships with integration partners, cause production outages, and create emergency support situations.
 
-
 ## Indicators ⟡
 
 - Client applications stop working after API updates
@@ -35,9 +34,7 @@ Breaking changes occur when modifications to APIs, interfaces, or system behavio
 - Client developers express frustration about unexpected changes
 - Emergency rollbacks are needed to restore client functionality
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.617, Strength: 0.826">ⓘ</span>
 <br/>  Constantly updated requirements often arise from the need to accommodate breaking changes in APIs, which disrupt established client integrations and compel ongoing adjustments, highlighting the fragility of legacy systems in adapting to new specifications.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.596, Strength: 0.850">ⓘ</span>
@@ -111,7 +108,6 @@ Breaking changes occur when modifications to APIs, interfaces, or system behavio
 - **Client Feedback Channels:** Establish communication channels for clients to report compatibility issues
 - **Change Impact Assessment:** Systematic evaluation of how proposed changes affect existing integrations
 - **Breaking Change Alerts:** Automated detection of changes that could break existing client code
-
 
 ## Examples
 

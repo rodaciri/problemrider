@@ -25,7 +25,6 @@ layout: problem
 
 The God Object anti-pattern occurs when single classes or components accumulate too many responsibilities and become overly complex, often handling multiple unrelated concerns within a single unit. These objects become difficult to understand, maintain, test, and modify because they violate the single responsibility principle and create bottlenecks for development and maintenance.
 
-
 ## Indicators ⟡
 
 - Classes with hundreds or thousands of lines of code
@@ -34,9 +33,7 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 - Classes that are difficult to name because they do too many things
 - Components that multiple teams need to modify for different reasons
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.783">ⓘ</span>
 <br/>  The complexity and interdependency created by overly centralized classes make it difficult for developers unfamiliar with legacy technologies to navigate the codebase, resulting in a reliance on a limited number of skilled individuals who can manage the system, thus highlighting the critical shortage of expertise as a symptom of the underlying architectural issues.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.751">ⓘ</span>
@@ -53,7 +50,6 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 <br/>  When a single class or component takes on excessive responsibilities, it leads to a bloated codebase that hinders modularization, ultimately resulting in a monolithic structure that is challenging to maintain, scale, and deploy.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.954">ⓘ</span>
 <br/>  Shared dependencies lead to tightly coupled components that force a single class to manage multiple responsibilities, resulting in increased complexity and making it difficult to isolate and test individual functionalities.
 
@@ -64,7 +60,6 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 - **Change Impact Analysis:** Track how often and why large objects are modified
 - **Testing Coverage Analysis:** Identify objects that are difficult to test comprehensively
 - **Team Collaboration Metrics:** Monitor how often multiple developers modify same objects
-
 
 ## Examples
 

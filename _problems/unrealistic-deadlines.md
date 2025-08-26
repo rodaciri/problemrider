@@ -25,7 +25,6 @@ layout: problem
 
 Unrealistic deadlines occur when project timelines are set without proper consideration of the actual effort required, system complexity, available resources, or potential risks. These deadlines often stem from business pressures, competitive concerns, or misunderstanding of development complexity. Unrealistic deadlines create a cascade of problems including quality compromises, developer stress, and ultimately missed delivery targets.
 
-
 ## Indicators ⟡
 
 - Deadlines are set before development estimates are provided
@@ -34,9 +33,7 @@ Unrealistic deadlines occur when project timelines are set without proper consid
 - Teams consistently work overtime to meet deadlines
 - Quality standards are compromised to meet timeline constraints
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.681, Strength: 0.879">ⓘ</span>
 <br/>  Aggressive deadlines force development teams to rush API implementations and optimizations, leading to insufficient response handling and ultimately resulting in timeouts for services that depend on those APIs.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.601, Strength: 0.811">ⓘ</span>
@@ -107,7 +104,6 @@ Unrealistic deadlines occur when project timelines are set without proper consid
 - **Team Capacity Assessment:** Measure actual team capacity against planned work
 - **Overtime Tracking:** Monitor work hours required to meet deadlines
 - **Quality Impact Analysis:** Assess correlation between tight deadlines and defect rates
-
 
 ## Examples
 

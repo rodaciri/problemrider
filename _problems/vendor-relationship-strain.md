@@ -25,7 +25,6 @@ layout: problem
 
 Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction develop between an organization and its external suppliers or service providers. This strain can result from unrealistic expectations, poor communication, contract disputes, quality issues, or misaligned incentives. Strained vendor relationships can jeopardize project success and create risks for ongoing operations.
 
-
 ## Indicators ⟡
 
 - Frequent disagreements about deliverables, timelines, or quality standards
@@ -34,9 +33,7 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 - Vendor threatens to terminate relationship or significantly raise prices
 - Communication becomes formal and adversarial rather than collaborative
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.596, Strength: 0.819">ⓘ</span>
 <br/>  Persistent misalignment and conflicts with external vendors can lead to unclear requirements and inadequate support, causing developers to struggle with outdated technologies and inefficient processes, ultimately resulting in frustration and burnout.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.847">ⓘ</span>
@@ -75,7 +72,6 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 - **Contract Performance Analysis:** Monitor whether both parties are meeting contractual obligations
 - **Dispute Frequency Tracking:** Count and categorize conflicts or disagreements with vendors
 - **Vendor Retention Analysis:** Track vendor turnover and reasons for relationship terminations
-
 
 ## Examples
 

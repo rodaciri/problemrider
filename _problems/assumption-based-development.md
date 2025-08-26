@@ -26,7 +26,6 @@ layout: problem
 
 Assumption-based development occurs when developers make decisions about functionality, user interface design, business logic, or technical approach based on their assumptions about what users need or what stakeholders want, rather than validating these assumptions through direct communication or research. While some assumptions are inevitable in development, excessive reliance on assumptions leads to solutions that don't match actual needs and require costly rework.
 
-
 ## Indicators ⟡
 
 - Developers proceed with implementation without asking clarifying questions
@@ -35,13 +34,11 @@ Assumption-based development occurs when developers make decisions about functio
 - Edge cases and error conditions are handled based on developer assumptions
 - User interface designs are created without user input or testing
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.908">ⓘ</span>
 <br/>  A lack of understanding of object-oriented programming principles leads to incorrect assumptions about system requirements and user needs, resulting in decisions that are not based on validated insights, thereby compromising the integrity and maintainability of legacy systems.
 - [Feature Gaps](feature-gaps.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.843">ⓘ</span>
@@ -80,7 +77,6 @@ Assumption-based development occurs when developers make decisions about functio
 - **Rework Analysis:** Analyze how much rework is caused by incorrect assumptions
 - **User Feedback Correlation:** Compare user feedback with original developer assumptions
 - **Requirements Clarity Assessment:** Evaluate how clear and specific requirements are before development begins
-
 
 ## Examples
 

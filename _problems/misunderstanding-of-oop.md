@@ -25,16 +25,13 @@ layout: problem
 ## Description
 A misunderstanding of object-oriented programming (OOP) is a common problem in the software industry. It can lead to the creation of poorly designed and difficult-to-maintain code. A misunderstanding of OOP can be caused by a number of factors, such as a lack of training, a lack of experience, or a procedural background. It is a difficult problem to address, but it is important to do so in order to create high-quality software.
 
-
 ## Indicators ⟡
 - The codebase is not using inheritance or polymorphism.
 - The codebase is full of static methods.
 - The codebase is full of utility classes.
 - The codebase is difficult to understand and maintain.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.723, Strength: 0.936">ⓘ</span>
 <br/>  A lack of understanding of object-oriented programming principles often results in tightly coupled and poorly encapsulated code, making it difficult to isolate components for testing, which in turn leads to inadequate test coverage and undetected defects in the legacy system.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.681, Strength: 0.951">ⓘ</span>
@@ -158,7 +155,6 @@ A misunderstanding of object-oriented programming (OOP) is a common problem in t
 - **Static Analysis:** Use static analysis tools to identify code that is not following object-oriented design principles.
 - **Developer Surveys:** Ask developers about their confidence in their object-oriented design skills.
 - **Architectural Assessments:** Conduct an assessment of the system's architecture to identify design flaws.
-
 
 ## Examples
 A company has a team of developers who have a misunderstanding of OOP. The team is tasked with building a new web application in an object-oriented language. The team creates a system that is poorly designed and difficult to maintain. The company eventually has to hire a team of experienced object-oriented developers to rewrite the entire system.

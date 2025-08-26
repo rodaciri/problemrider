@@ -23,7 +23,6 @@ layout: problem
 
 REST API design issues occur when APIs violate REST architectural principles, use inconsistent conventions, or create poor developer experiences through unclear resource modeling, inappropriate HTTP method usage, or inconsistent response formats. Poor REST design makes APIs difficult to understand, integrate with, and maintain, leading to increased development time and integration errors.
 
-
 ## Indicators ⟡
 
 - API endpoints don't follow consistent naming conventions
@@ -32,9 +31,7 @@ REST API design issues occur when APIs violate REST architectural principles, us
 - Resource relationships poorly modeled or unclear
 - API documentation doesn't match actual implementation
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.532, Strength: 0.722">ⓘ</span>
 <br/>  Inefficient client-server interactions due to poor API design can lead to prolonged response times, causing consuming services to exceed their timeout thresholds and fail to receive the necessary data.
 - [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.836">ⓘ</span>
@@ -53,7 +50,6 @@ REST API design issues occur when APIs violate REST architectural principles, us
 - **API Documentation Analysis:** Compare documentation with actual API behavior
 - **HTTP Method Audit:** Audit appropriate usage of HTTP methods across all endpoints
 - **Response Format Consistency Check:** Verify consistent response structures and error handling
-
 
 ## Examples
 

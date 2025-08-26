@@ -25,7 +25,6 @@ layout: problem
 
 Inconsistent quality occurs when different parts of a software system exhibit dramatically different levels of quality, maintenance, and reliability. This creates a patchwork effect where some components are robust and well-designed while others are fragile, poorly documented, or difficult to maintain. This inconsistency often emerges when there's no systematic approach to quality standards or when different teams or individuals take varying levels of care with their work.
 
-
 ## Indicators ⟡
 
 - Some system modules are reliable while others frequently break
@@ -34,9 +33,7 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 - Some areas have comprehensive tests while others have none
 - Documentation quality varies widely across different components
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.682">ⓘ</span>
 <br/>  The lack of comprehensive test coverage highlights the uneven maintenance of the codebase, as critical areas that are neglected or poorly understood often remain untested, directly contributing to the overall inconsistency in system quality.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.640">ⓘ</span>
@@ -71,7 +68,6 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Inconsistent maintenance across the system leads to inadequate audit logging, as outdated components may lack proper logging capabilities, making it difficult to capture critical security events and thereby indicating a broader issue of quality degradation.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.906">ⓘ</span>
 <br/>  The presence of shared dependencies causes varying levels of maintenance and updates across components, leading to some parts functioning optimally while others lag behind, ultimately resulting in inconsistent quality across the system.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.910">ⓘ</span>
@@ -90,7 +86,6 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 - **Developer Surveys:** Ask team members about their experience working with different parts of the system
 - **Code Review Patterns:** Analyze the types and frequency of issues found in reviews for different areas
 - **Maintenance Effort Tracking:** Monitor how much time is spent maintaining different system components
-
 
 ## Examples
 

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 An over-reliance on utility classes is a common design problem in object-oriented programming. It occurs when a team creates a large number of utility classes with static methods. This can lead to a procedural style of programming and a lack of proper object-oriented design. An over-reliance on utility classes is often a sign of a misunderstanding of the principles of object-oriented programming.
 
-
 ## Indicators ⟡
 - The codebase is full of utility classes.
 - The codebase is full of static methods.
 - The codebase is not using inheritance or polymorphism.
 - The codebase is difficult to understand and maintain.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.637, Strength: 0.875">ⓘ</span>
 <br/>  The excessive reliance on utility classes leads to a procedural programming approach that discourages best practices in object-oriented design, resulting in a codebase that is difficult to maintain and understand, thereby contributing to a shortage of developers skilled in legacy technologies who are capable of effectively managing and evolving such systems.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.552, Strength: 0.786">ⓘ</span>
@@ -82,7 +79,6 @@ An over-reliance on utility classes is a common design problem in object-oriente
 - **Static Analysis:** Use static analysis tools to identify classes with a large number of static methods.
 - **Dependency Analysis:** Analyze the dependencies between the components of the system to identify areas of high coupling.
 - **Code Coverage:** Measure the code coverage of your tests. A low code coverage may be a sign of an over-reliance on utility classes.
-
 
 ## Examples
 A company has a codebase that is full of utility classes. The classes have names like `StringUtils`, `DateUtils`, and `FileUtils`. The classes contain a large number of static methods. The codebase is difficult to understand and maintain. The company eventually has to hire a team of experienced object-oriented developers to rewrite the entire system.

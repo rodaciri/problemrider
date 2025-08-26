@@ -25,16 +25,13 @@ layout: problem
 ## Description
 A maintenance bottleneck occurs when a small number of developers, or even a single developer, are the only ones who have the knowledge and expertise to maintain a critical part of the system. This creates a single point of failure and can significantly slow down the pace of development. It also puts a great deal of stress on the developers who are the bottlenecks.
 
-
 ## Indicators ⟡
 - A small number of developers are consistently assigned to work on a specific part of the system.
 - Other developers are hesitant to make changes to that part of the system.
 - The developers who are the bottlenecks are often overloaded with work.
 - There is a lack of documentation for that part of the system.
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.600, Strength: 0.814">ⓘ</span>
 <br/>  The reliance on a limited number of developers to manage a critical part of the system often stems from the inherent complexity of the business domain being modeled, which creates a knowledge barrier that prevents broader team engagement and contributes to maintenance bottlenecks.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.595, Strength: 0.797">ⓘ</span>
@@ -120,7 +117,6 @@ A maintenance bottleneck occurs when a small number of developers, or even a sin
 - **Bus Factor Analysis:** Identify the key developers who are the only ones who know how to work on a critical part of the system.
 - **Code Ownership Analysis:** Use tools to identify the developers who have made the most changes to a specific part of the system.
 - **Developer Surveys:** Ask developers if they feel like there are any parts of the system that they are afraid to change.
-
 
 ## Examples
 A company has a legacy billing system that was written by a single developer who has since left the company. Now, only one other developer on the team understands how the system works. This developer is constantly being pulled away from their other work to fix bugs and make changes to the billing system. The other developers on the team are afraid to touch the billing system because they don't understand it and they are afraid of breaking it. As a result, the billing system has become a major bottleneck for the company.

@@ -23,20 +23,17 @@ layout: problem
 ## Description
 Negative user feedback is a clear signal that an application is not meeting the needs or expectations of its users. This feedback can come in many forms, from bad reviews and support tickets to social media complaints and declining usage. While it can be difficult to hear, negative feedback is also a valuable source of information that can be used to improve the product. Ignoring or dismissing negative feedback is a sure way to lose users and damage a brand's reputation.
 
-
 ## Indicators ⟡
 - A decline in new user sign-ups.
 - An increase in negative reviews on social media or app stores.
 - A drop in the number of active users.
 - A decrease in the average time users spend in the application.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.538, Strength: 0.901">ⓘ</span>
 <br/>  The prolonged development cycles inherent in legacy systems hinder timely feature releases and improvements, leading to unresolved performance issues that ultimately frustrate users and generate negative feedback.
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.925">ⓘ</span>
@@ -127,7 +124,6 @@ Negative user feedback is a clear signal that an application is not meeting the 
 - **Net Promoter Score (NPS):** Measure user loyalty and satisfaction through NPS surveys.
 - **Session Replay Tools:** Record and replay user sessions to understand their interactions and frustrations.
 - **A/B Testing:** Test different UI/UX designs or features to see which performs better in terms of user satisfaction.
-
 
 ## Examples
 An update to a popular mobile game introduces a new, complex inventory management system. Players flood the app store with 1-star reviews, complaining about the difficulty of managing items, leading to a significant drop in daily active users. In another case, a banking application receives numerous support calls from elderly users who are unable to find the bill payment option due to a recent UI redesign that moved the feature to a less intuitive location. Negative user feedback is a direct indicator of problems that impact the end-user. Addressing these issues is crucial for user retention, brand reputation, and ultimately, business success.

@@ -24,21 +24,17 @@ layout: problem
 ## Description
 Unused indexes are database indexes that are not being utilized by any queries. While indexes are crucial for speeding up data retrieval, unused ones still consume disk space and, more importantly, add overhead to write operations (INSERT, UPDATE, DELETE) because the database must update the index every time the underlying data changes. Regularly identifying and removing unused indexes is a key part of database maintenance and performance tuning, as it reclaims storage and reduces unnecessary processing.
 
-
 ## Indicators ⟡
 - The database is using a lot of disk space, even though the data set is small.
 - Write operations are slow, even though the database is not under heavy load.
 - Backups and restores are taking a long time.
 - The database is using a lot of memory, even when it is not under heavy load.
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.581">ⓘ</span>
 <br/>  The presence of unused database indexes can lead to unreleased resources, as the overhead from maintaining these indexes can cause connections and other resources to remain open longer than necessary, preventing proper deallocation and resulting in resource leakage within legacy systems.
 
 ## Root Causes ▼
-
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.870">ⓘ</span>
 <br/>  A lack of understanding of object-oriented programming principles often leads to inefficient database schema design, resulting in unnecessary indexes that are never utilized by queries, thereby causing wasted storage and increased write operation overhead.
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.887">ⓘ</span>
@@ -60,7 +56,6 @@ Unused indexes are database indexes that are not being utilized by any queries. 
 - **Query Execution Plan Analysis:** Regularly analyze `EXPLAIN` plans for common queries to ensure they are using the most efficient indexes.
 - **Automated Index Advisors:** Some database management systems or third-party tools offer automated index recommendations and usage analysis.
 - **Periodic Database Audits:** Schedule regular reviews of database schema and index usage.
-
 
 ## Examples
 A legacy e-commerce application has an `orders` table with an index on `customer_id` that was created years ago for a specific reporting query. That report has since been deprecated, but the index remains, adding overhead to every new order placed without providing any query performance benefit. In another case, a developer creates an index on `(column_A, column_B)` but later creates another index on `(column_A)`. The database's query optimizer might prefer the smaller `(column_A)` index for queries only involving `column_A`, rendering the composite index partially unused for those queries. Unused indexes are a form of technical debt in database management. While they don't directly cause application errors, they silently degrade write performance, waste resources, and complicate database maintenance, especially in large-scale systems.

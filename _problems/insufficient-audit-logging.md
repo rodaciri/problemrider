@@ -25,7 +25,6 @@ layout: problem
 
 Insufficient audit logging occurs when applications fail to properly log security-relevant events such as authentication attempts, authorization failures, data access, configuration changes, or administrative actions. This lack of comprehensive audit trails makes it difficult to detect security breaches, investigate incidents, maintain regulatory compliance, or establish accountability for system actions.
 
-
 ## Indicators ⟡
 
 - Security incidents cannot be traced through log analysis
@@ -34,14 +33,11 @@ Insufficient audit logging occurs when applications fail to properly log securit
 - Authentication and authorization events not logged
 - Data access and modification events not tracked
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.551">ⓘ</span>
 <br/>  In legacy systems, the lack of comprehensive audit logging often results in inadequate test coverage because developers cannot effectively validate the security and integrity of critical code paths without visibility into security events and potential vulnerabilities, leading to undetected issues in the software.
 
 ## Root Causes ▼
-
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.960">ⓘ</span>
 <br/>  The lack of effective data encapsulation leads to scattered logging mechanisms across various system components, resulting in inconsistent and incomplete capture of security-relevant events, which hinders the ability to perform comprehensive audits and investigations.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.466, Strength: 0.900">ⓘ</span>
@@ -106,7 +102,6 @@ Insufficient audit logging occurs when applications fail to properly log securit
 - **Incident Investigation Testing:** Test ability to investigate security incidents using available logs
 - **Audit Trail Completeness Review:** Verify that complete audit trails exist for critical operations
 - **User Activity Tracking Assessment:** Assess coverage of user activity logging
-
 
 ## Examples
 

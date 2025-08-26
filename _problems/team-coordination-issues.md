@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Team coordination issues arise when multiple developers or teams have to work on the same codebase and have difficulty coordinating their work. This can lead to merge conflicts, duplicated effort, and a general slowdown in the pace of development. Team coordination issues are often a sign of a monolithic architecture, where everything is tightly coupled and it is difficult to work on different parts of the system in isolation.
 
-
 ## Indicators ⟡
 - Frequent merge conflicts.
 - Developers are often blocked waiting for other developers to finish their work.
 - There is a lot of duplicated effort.
 - It is difficult to get a clear picture of the overall status of the project.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.591">ⓘ</span>
 <br/>  The lack of effective communication and collaboration among developers leads to inconsistent understanding of responsibilities, resulting in critical code sections being overlooked for testing and ultimately creating gaps in quality assurance.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.549">ⓘ</span>
@@ -42,7 +39,6 @@ Team coordination issues arise when multiple developers or teams have to work on
 <br/>  As teams struggle to coordinate on a growing and complex codebase, the resulting lack of modularity and clarity in the architecture manifests as maintenance challenges, indicating deeper collaboration issues among developers.
 
 ## Root Causes ▼
-
 - [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.909">ⓘ</span>
 <br/>  Complex data migration processes lead to inconsistent code versions and unclear integration points, causing developers to struggle with coordination and collaboration on the shared codebase.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.931">ⓘ</span>
@@ -146,7 +142,6 @@ Team coordination issues arise when multiple developers or teams have to work on
 - **Version Control Metrics:** Use tools to measure the number of merge conflicts and the amount of time that developers spend resolving them.
 - **Developer Surveys:** Ask developers if they feel like they are able to work effectively with other developers on the team.
 - **Project Management Metrics:** Track the amount of time that developers spend waiting for other developers to finish their work.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application. The front-end team and the back-end team are constantly stepping on each other's toes. The front-end team wants to make changes to the UI, but they have to wait for the back-end team to make changes to the API. The back-end team is busy working on other features, so the front-end team is often blocked. This leads to a lot of frustration and a slowdown in the pace of development.

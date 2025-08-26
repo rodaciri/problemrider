@@ -23,16 +23,13 @@ layout: problem
 ## Description
 User confusion is a common problem in software systems. It occurs when end users encounter different behavior for what should be identical operations. This can lead to a number of problems, including frustration, a loss of trust in the system, and a great deal of frustration for the development team. User confusion is often a sign of a poorly designed system with a high degree of inconsistent behavior.
 
-
 ## Indicators ⟡
 - The support team is constantly getting questions from users about how to use the system.
 - The users are not using the system in the way that it was intended to be used.
 - The users are making a lot of mistakes when they are using the system.
 - The users are not happy with the system.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.709, Strength: 0.926">ⓘ</span>
 <br/>  The inconsistency in user operations leads to increased support demands and complex bug fixes, causing developers to feel overwhelmed and disengaged, which in turn reflects their frustration and burnout as they struggle to address the root causes of user confusion in the legacy system.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.701, Strength: 0.924">ⓘ</span>
@@ -171,7 +168,6 @@ User confusion is a common problem in software systems. It occurs when end users
 - **User Feedback:** Listen to user feedback to identify areas of the system that are causing confusion.
 - **Support Ticket Analysis:** Analyze support tickets to identify common questions and problems.
 - **A/B Testing:** Use A/B testing to compare different versions of the UI to see which one is less confusing to users.
-
 
 ## Examples
 An e-commerce website has a very confusing checkout flow. The users are not sure what they are supposed to do, and they are making a lot of mistakes. As a result, the company is losing a lot of sales. The problem could be solved by redesigning the checkout flow to be more intuitive and easy to use.

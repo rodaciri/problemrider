@@ -24,20 +24,17 @@ layout: problem
 ## Description
 When a project lacks clearly defined and documented code style guidelines, developers are left to their own devices, resulting in a chaotic and inconsistent codebase. This problem goes beyond mere aesthetics; it impacts readability, maintainability, and the ease with which new developers can onboard. Without a standard to follow, code reviews become subjective and time-consuming, focusing on trivial style issues instead of substantive logic. Establishing and enforcing a consistent style is a foundational practice for any healthy software project.
 
-
 ## Indicators ⟡
 - There is no style guide for the project.
 - The team has a style guide, but it is not enforced.
 - There are frequent arguments about style in code reviews.
 - The codebase is a mixture of different styles.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Inconsistent Behavior](inconsistent-behavior.md) <span class="info-tooltip" title="Confidence: 0.587, Strength: 0.877">ⓘ</span>
 <br/>  The lack of consistent behavior in legacy systems leads to varied interpretations of coding requirements among team members, resulting in ambiguous stylistic practices and a failure to establish unified code standards.
 - [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.581, Strength: 0.874">ⓘ</span>
@@ -117,7 +114,6 @@ When a project lacks clearly defined and documented code style guidelines, devel
 - **Codebase Audit:** Manually inspect different parts of the codebase to identify stylistic variations.
 - **Developer Surveys/Interviews:** Ask developers about their understanding of coding standards and any confusion they experience.
 - **Attempt to Run a Linter/Formatter:** Running a linter or formatter without a configuration file will highlight the absence of defined rules.
-
 
 ## Examples
 A new feature is developed by two different developers. One uses tabs for indentation, the other uses spaces. One prefers `camelCase` for all variables, the other `snake_case`. When their code is merged, the resulting file is a mess of conflicting styles, making it hard to read and maintain. In another case, during a code review, a debate erupts over whether a function should be named `getUserData` or `get_user_data`. Without a clear guideline, the discussion is subjective and unproductive, wasting valuable review time. Clear and consistently applied coding style guidelines are fundamental for a healthy codebase. They reduce cognitive load, improve readability, facilitate collaboration, and enable effective use of automated tooling, which is crucial for maintaining quality in legacy system modernization efforts.

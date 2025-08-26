@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Index fragmentation is a problem that occurs in database indexes over time as data is inserted, updated, and deleted. This can lead to a degradation in performance, as the database has to do more work to read the index. There are two types of fragmentation: internal fragmentation, where there is wasted space within the index pages, and external fragmentation, where the logical order of the index pages does not match the physical order on disk. Regularly rebuilding or reorganizing indexes can help to reduce fragmentation and improve performance.
 
-
 ## Indicators ⟡
 - Queries that used to be fast are now slow.
 - The database is using more disk space than you expect.
 - The database is performing a lot of I/O operations.
 - The database is using a lot of CPU.
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.741">ⓘ</span>
 <br/>  As index fragmentation increases, inefficient data retrieval leads to prolonged transactions and unclosed connections, resulting in unreleased system resources that signal underlying database performance issues.
 - [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.472, Strength: 0.852">ⓘ</span>
@@ -50,7 +47,6 @@ Index fragmentation is a problem that occurs in database indexes over time as da
 <br/>  Inefficient database indexes due to disorganization lead to slower query performance, causing services that rely on timely API responses to exceed their configured timeout thresholds.
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.914">ⓘ</span>
 <br/>  The tendency to prioritize trivial code reviews over crucial design and logic considerations leads to inefficient data handling practices, ultimately causing increased index fragmentation as the underlying data structures become misaligned and poorly optimized.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.923">ⓘ</span>
@@ -109,7 +105,6 @@ Index fragmentation is a problem that occurs in database indexes over time as da
 - **Database Management System (DBMS) Tools:** Most DBMS provide tools or views to check index fragmentation levels (e.g., `sys.dm_db_index_physical_stats` in SQL Server, `pg_stat_user_tables` and `pg_stat_user_indexes` in PostgreSQL, `ANALYZE TABLE` in MySQL).
 - **Performance Monitoring:** Monitor disk I/O, query execution times, and cache hit ratios for signs of degradation.
 - **Regular Audits:** Periodically review index health and performance metrics.
-
 
 ## Examples
 An online forum's `posts` table uses a clustered index on `post_id` (an auto-incrementing integer). However, users can edit their posts, and these updates cause the data rows to expand. Over time, the index becomes fragmented, leading to slower retrieval of posts, especially when browsing older threads. In another case, a financial application frequently inserts new transactions with a `transaction_id` that is a UUID. Because UUIDs are not sequential, new inserts cause random page splits in the primary key index, leading to high fragmentation and degraded insert performance over time. Index fragmentation is a common issue in databases with high write workloads. While modern database systems are better at managing fragmentation, regular maintenance (rebuilding or reorganizing indexes) is often necessary to maintain optimal performance.

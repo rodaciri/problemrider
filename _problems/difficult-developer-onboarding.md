@@ -27,7 +27,6 @@ layout: problem
 
 Difficult developer onboarding is a significant problem that can have a major impact on a team's productivity and morale. It occurs when new developers, regardless of their experience level, take much longer than expected to understand the system, learn development workflows, and begin contributing effectively. This problem is characterized by a long and frustrating process for new developers to get up to speed with the codebase and the development environment. When a new developer cannot make meaningful contributions within a reasonable timeframe, it signals that the system is overly complex, poorly documented, or that the team's knowledge-sharing practices are inadequate.
 
-
 ## Indicators ⟡
 
 - New developers take months rather than weeks to make meaningful contributions
@@ -55,9 +54,7 @@ Difficult developer onboarding is a significant problem that can have a major im
 - First meaningful code contributions are delayed far beyond typical expectations
 - New team members remain heavily dependent on mentors for extended periods
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.696">ⓘ</span>
 <br/>  The prolonged time for new developers to become productive leads to incomplete features and unresolved bugs in the software, resulting in increased user frustration and a higher frequency of support requests.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.614">ⓘ</span>
@@ -68,7 +65,6 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  The lengthy onboarding process for new developers, exacerbated by complex systems and insufficient documentation, leads to a slower ramp-up to productivity, which in turn causes a decline in the team's overall development velocity as they struggle to effectively contribute to ongoing projects.
 
 ## Root Causes ▼
-
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.927">ⓘ</span>
 <br/>  A lack of understanding of object-oriented programming principles leads to poorly structured legacy code, making it challenging for new developers to navigate and understand the system, thereby prolonging their onboarding and productivity ramp-up.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.919">ⓘ</span>
@@ -127,7 +123,6 @@ Difficult developer onboarding is a significant problem that can have a major im
 - **Interview Feedback:** Conduct exit interviews to understand challenges faced by departing employees, including onboarding
 - **Code Contribution Analysis:** Monitor the quantity and quality of code contributions from new team members over time
 - **Comparative Analysis:** Compare onboarding times across different teams or similar companies
-
 
 ## Examples
 

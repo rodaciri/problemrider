@@ -25,7 +25,6 @@ layout: problem
 
 Team dysfunction occurs when structural, cultural, or interpersonal problems prevent team members from working together effectively toward common goals. This manifests as conflicts, lack of trust, competing priorities, or systemic issues that make collaboration difficult or counterproductive. Unlike simple communication problems, team dysfunction represents deeper issues in how the team operates, makes decisions, and supports its members in achieving shared objectives.
 
-
 ## Indicators ⟡
 
 - Team members frequently work in isolation rather than collaborating
@@ -34,16 +33,13 @@ Team dysfunction occurs when structural, cultural, or interpersonal problems pre
 - Individual goals conflict with team objectives
 - Trust between team members is low or deteriorating
 
-
 ## Symptoms ▲
-
 - [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.716">ⓘ</span>
 <br/>  Poor collaboration among team members leads to incomplete communication about system requirements and testing priorities, resulting in critical behaviors and failure modes being overlooked during verification processes.
 - [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.695">ⓘ</span>
 <br/>  Ineffective collaboration among team members leads to miscommunication and misalignment on project goals, resulting in insufficient testing and oversight, which in turn manifests as a high defect rate in production as legacy systems often require cohesive efforts to manage complexity and ensure quality.
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.896">ⓘ</span>
 <br/>  Focusing on trivial issues diverts attention from critical system challenges, leading to unresolved conflicts and misunderstandings among team members, which undermines collaboration and exacerbates dysfunction in legacy software projects.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.909">ⓘ</span>
@@ -153,7 +149,6 @@ Team dysfunction occurs when structural, cultural, or interpersonal problems pre
 - **Decision-Making Effectiveness:** Evaluate how well the team makes and executes collective decisions
 - **Goal Alignment Assessment:** Determine whether team members are working toward compatible objectives
 - **Retention Analysis:** Track team member satisfaction and turnover rates
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Data migration integrity issues occur when transferring data from legacy systems to modern platforms results in data corruption, loss of relationships, semantic meaning changes, or consistency violations. These problems arise from fundamental differences between legacy and modern data models, encoding formats, constraint systems, and business rule implementations. Unlike simple data transfer challenges, these issues threaten the fundamental trustworthiness and usability of the migrated data in the new system.
 
-
 ## Indicators ⟡
 
 - Legacy data models that don't map cleanly to modern database schemas or data structures
@@ -37,16 +36,13 @@ Data migration integrity issues occur when transferring data from legacy systems
 - Legacy systems using proprietary data formats or custom serialization methods
 - Missing or incomplete data dictionaries for legacy system fields and their meanings
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.551, Strength: 0.840">ⓘ</span>
 <br/>  Inadequate system architecture often fails to accommodate the necessary data transformations and validations during migration, leading to integrity issues that manifest as performance bottlenecks and hindered scalability in the new environment.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.462, Strength: 0.758">ⓘ</span>
 <br/>  The critical shortage of developers skilled in legacy technologies exacerbates data migration integrity issues by limiting the available expertise to identify and resolve schema mismatches and format incompatibilities, leading to increased risks of data loss during the transition to modern systems.
 
 ## Root Causes ▼
-
 - [Complex Implementation Paths](complex-implementation-paths.md) <span class="info-tooltip" title="Confidence: 0.661, Strength: 0.874">ⓘ</span>
 <br/>  Complex technical solutions arising from architectural constraints lead to schema mismatches and format incompatibilities during data migration, ultimately compromising data integrity and consistency.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.609, Strength: 0.919">ⓘ</span>
@@ -142,7 +138,6 @@ Data migration integrity issues occur when transferring data from legacy systems
 - Compare business report outputs between legacy and new systems for consistency
 - Monitor application error logs for data-related validation failures after migration
 - Conduct regular audits of critical business data for accuracy and completeness
-
 
 ## Examples
 

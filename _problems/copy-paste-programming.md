@@ -25,7 +25,6 @@ layout: problem
 
 Copy-paste programming is a development practice where developers duplicate existing code instead of creating reusable, well-designed components or abstractions. While copying code might seem like a quick solution, it creates long-term maintenance problems, introduces inconsistencies, and makes the codebase fragile. This practice is often driven by time pressure, lack of understanding of existing code, or insufficient experience with proper abstraction techniques.
 
-
 ## Indicators ⟡
 - Similar code blocks appear throughout the codebase with minor variations
 - Git history shows frequent copying of large code sections between files
@@ -33,9 +32,7 @@ Copy-paste programming is a development practice where developers duplicate exis
 - Bug fixes require hunting down multiple locations where similar code exists
 - Code reviews frequently involve discussions about existing similar implementations
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.416, Strength: 0.646">ⓘ</span>
 <br/>  The frequent copying and pasting of code leads to fragmented implementations that lack comprehensive testing, resulting in critical areas of the codebase remaining untested and vulnerable to defects.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.405, Strength: 0.631">ⓘ</span>
@@ -52,7 +49,6 @@ Copy-paste programming is a development practice where developers duplicate exis
 <br/>  The reliance on repetitive code snippets due to a lack of reusable components increases complexity and hinders the effectiveness of the development environment, resulting in slower performance and inefficiencies that signal deeper issues in code management practices.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.931">ⓘ</span>
 <br/>  Developers trained in procedural programming may lack the mindset to create modular, reusable components in an object-oriented environment, leading them to resort to copying and pasting existing code, which exacerbates maintenance challenges and introduces subtle bugs in legacy systems.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.908">ⓘ</span>
@@ -68,7 +64,6 @@ Copy-paste programming is a development practice where developers duplicate exis
 - **Static Analysis Tools:** Tools that can detect structural similarities between code segments
 - **Code Review Checklists:** Include checks for similar existing functionality during reviews
 - **Refactoring Opportunities:** Areas with high duplication are prime candidates for refactoring
-
 
 ## Examples
 

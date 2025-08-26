@@ -24,7 +24,6 @@ layout: problem
 
 Poor system environment occurs when software systems are deployed to infrastructure that is inadequately configured, unstable, under-resourced, or mismatched to the system's requirements. This can include hardware limitations, network issues, incorrect software configurations, security vulnerabilities, or missing operational tools. A poor environment undermines even well-designed applications and creates ongoing operational challenges.
 
-
 ## Indicators ⟡
 
 - System experiences frequent unexpected outages or crashes
@@ -33,9 +32,7 @@ Poor system environment occurs when software systems are deployed to infrastruct
 - Infrastructure resources are consistently over or under-utilized
 - Operational tasks are more complex and error-prone than necessary
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.749">ⓘ</span>
 <br/>  Unstable or misconfigured environments can lead to increased latency and unreliability in response times, causing services that rely on APIs to exceed their timeout thresholds and fail to receive timely responses.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.545, Strength: 0.761">ⓘ</span>
@@ -94,7 +91,6 @@ Poor system environment occurs when software systems are deployed to infrastruct
 - **Resource Utilization Analysis:** Monitor CPU, memory, disk, and network usage patterns
 - **Error Rate Tracking:** Measure application errors that can be attributed to environmental issues
 - **Deployment Success Rate:** Track the success rate of deployments and correlate with environment factors
-
 
 ## Examples
 

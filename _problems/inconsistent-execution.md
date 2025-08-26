@@ -26,7 +26,6 @@ layout: problem
 
 Inconsistent execution occurs when the same tasks or processes are performed differently by different team members or at different times, leading to unpredictable results and varying quality levels. This inconsistency often stems from reliance on manual processes, lack of standardized procedures, or insufficient communication about how tasks should be performed. The result is unpredictable system behavior, quality variations, and difficulty in troubleshooting issues because the same process might produce different outcomes.
 
-
 ## Indicators ⟡
 
 - Same tasks produce different results when performed by different team members
@@ -35,9 +34,7 @@ Inconsistent execution occurs when the same tasks or processes are performed dif
 - Quality levels fluctuate without clear reasons
 - Troubleshooting is difficult because process execution isn't standardized
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.458, Strength: 0.661">ⓘ</span>
 <br/>  Inconsistent execution of manual processes leads to misunderstandings and miscommunications about project goals, resulting in frequent changes to requirements as teams attempt to align their efforts with evolving expectations.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.893">ⓘ</span>
@@ -84,7 +81,6 @@ Inconsistent execution occurs when the same tasks or processes are performed dif
 - **Result Variation Tracking:** Monitor consistency of outcomes for similar processes
 - **Team Surveys:** Ask about process understanding and execution approaches
 - **Documentation Review:** Evaluate clarity and completeness of process documentation
-
 
 ## Examples
 

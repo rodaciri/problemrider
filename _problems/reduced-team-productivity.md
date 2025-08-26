@@ -26,7 +26,6 @@ layout: problem
 
 Reduced team productivity occurs when a development team's collective output, efficiency, and effectiveness decline below expected or previous levels. This problem manifests as slower feature delivery, reduced code quality, missed deadlines, and an overall sense that the team is not performing at its potential. Unlike individual productivity issues, this represents a systemic problem affecting the entire team's ability to deliver value consistently.
 
-
 ## Indicators ⟡
 
 - Story points or features completed per sprint consistently decrease over time
@@ -35,13 +34,11 @@ Reduced team productivity occurs when a development team's collective output, ef
 - Team members frequently wait for others to complete dependencies
 - Work-in-progress increases while completed work decreases
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Approval Dependencies](approval-dependencies.md) <span class="info-tooltip" title="Confidence: 0.671, Strength: 0.881">ⓘ</span>
 <br/>  Frequent bottlenecks caused by the need for specific approvals hinder workflow continuity and increase idle time, ultimately leading to a significant decrease in overall team productivity within legacy systems.
 - [Overworked Teams](overworked-teams.md) <span class="info-tooltip" title="Confidence: 0.656, Strength: 0.909">ⓘ</span>
@@ -327,7 +324,6 @@ Reduced team productivity occurs when a development team's collective output, ef
 - **Time Allocation Analysis:** Track how team members spend their time between productive work and overhead
 - **Blocked Time Tracking:** Measure how much time team members spend waiting for dependencies
 - **Team Retrospective Themes:** Identify recurring productivity issues raised in retrospectives
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Algorithmic complexity problems occur when code uses algorithms or data structures with poor time or space complexity for the given use case, resulting in unnecessary performance bottlenecks and resource consumption. These problems often manifest as operations that perform acceptably with small data sets but become prohibitively slow as data volume grows. Poor algorithmic choices can make systems unusable at scale and waste significant computational resources.
 
-
 ## Indicators ⟡
 - Operations that work fine in development become slow with production-sized data
 - Performance degrades dramatically as data volume increases
@@ -34,9 +33,7 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 - Database queries return reasonable amounts of data but processing takes excessive time
 - Users report that certain features become unusably slow over time
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.576, Strength: 0.797">ⓘ</span>
 <br/>  Inefficient algorithms and data structures often lead to complex and convoluted code paths, making it difficult to effectively cover critical areas with tests, thus indicating potential performance issues that remain unaddressed.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.557, Strength: 0.775">ⓘ</span>
@@ -96,7 +93,6 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 - **Load Testing:** Test with production-sized data to reveal algorithmic scalability issues
 - **Resource Monitoring:** Track CPU, memory, and I/O usage to identify inefficient operations
 - **Benchmark Comparisons:** Compare current algorithm performance against more efficient alternatives
-
 
 ## Examples
 

@@ -25,16 +25,13 @@ layout: problem
 ## Description
 The N+1 query problem is a common performance issue that occurs when an application makes a query to retrieve a list of items, and then makes an additional query for each of those items to retrieve related data. This results in a large number of small, inefficient queries, which can significantly slow down the application. This problem is often introduced by object-relational mapping (ORM) frameworks if they are not used carefully. Solving the N+1 problem typically involves fetching all the required data in a single, more efficient query.
 
-
 ## Indicators ⟡
 - A page that displays a list of items is slow to load.
 - The database is under heavy load, even though the application is not doing much work.
 - You see a large number of similar-looking queries in your database logs.
 - Your application is making a lot of small, fast queries instead of a few larger, slower queries.
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.654">ⓘ</span>
 <br/>  Excessive database calls due to inefficient querying can lead to the accumulation of unbounded data structures in memory, as each call generates more data without proper management, ultimately exhausting resources and degrading performance in legacy systems.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.582">ⓘ</span>
@@ -58,7 +55,6 @@ The N+1 query problem is a common performance issue that occurs when an applicat
 - **SQL Logging:** Enable SQL logging in your application or database and inspect the logs for a large number of identical queries being executed in a short period of time.
 - **Code Review:** During code reviews, specifically look for loops that contain database queries or calls to data-fetching functions.
 - **Specialized Libraries:** Some libraries and tools (like `bullet` for Ruby on Rails) are designed specifically to detect the N+1 query anti-pattern during development.
-
 
 ## Examples
 A blog application displays a list of the 10 most recent posts on its homepage. For each post, it also displays the author's name. The code first executes one query to get the 10 posts (`SELECT * FROM posts ORDER BY created_at DESC LIMIT 10`). Then, it loops through these 10 posts and, for each one, executes a new query to get the author's name (`SELECT name FROM authors WHERE id = ?`). This results in 1 (for the posts) + 10 (for the authors) = 11 total queries.

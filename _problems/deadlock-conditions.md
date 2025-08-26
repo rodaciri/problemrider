@@ -25,7 +25,6 @@ layout: problem
 
 Deadlock conditions occur when two or more threads or processes are blocked indefinitely, each waiting for the other to release a resource that it needs to continue execution. This creates a circular dependency where no thread can proceed, effectively freezing part or all of the application. Deadlocks are a classic concurrency problem that can cause applications to hang, become unresponsive, or require forceful termination.
 
-
 ## Indicators ⟡
 
 - Application suddenly becomes unresponsive or appears to freeze
@@ -34,9 +33,7 @@ Deadlock conditions occur when two or more threads or processes are blocked inde
 - User interface becomes non-responsive during certain operations
 - System monitoring shows threads in waiting states that never progress
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.758">ⓘ</span>
 <br/>  When system resources are not properly released, they can become contended, leading to multiple threads or processes waiting indefinitely for access, which ultimately results in a freeze and unresponsiveness of the application.
 - [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.510, Strength: 0.940">ⓘ</span>
@@ -74,7 +71,6 @@ Deadlock conditions occur when two or more threads or processes are blocked inde
 - **Application Logging:** Log lock acquisition and release to trace deadlock patterns
 - **Timeout Implementation:** Use timeouts on lock acquisition to detect potential deadlock situations
 - **Static Analysis:** Analyze code for potential deadlock patterns and lock ordering issues
-
 
 ## Examples
 

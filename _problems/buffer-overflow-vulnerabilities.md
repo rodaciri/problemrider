@@ -23,7 +23,6 @@ layout: problem
 
 Buffer overflow vulnerabilities occur when a program writes more data to a buffer than it can hold, causing the excess data to overwrite adjacent memory locations. This can corrupt data, crash the application, or be exploited by attackers to execute malicious code. Buffer overflows are particularly dangerous because they can be used to compromise system security by overwriting return addresses, function pointers, or other critical program data.
 
-
 ## Indicators ⟡
 
 - Application crashes with segmentation faults or access violations
@@ -32,9 +31,7 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 - Crashes occur when processing specific input patterns or sizes
 - Stack traces show corruption or unexpected function call sequences
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.481, Strength: 0.770">ⓘ</span>
 <br/>  When data is written beyond allocated memory boundaries, it can corrupt the management of system resources, leading to objects or connections remaining allocated without proper deallocation, which serves as an indicator of underlying memory handling issues.
 - [Logging Configuration Issues](logging-configuration-issues.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.884">ⓘ</span>
@@ -58,7 +55,6 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 - **Code Review:** Manual review focusing on memory management and bounds checking
 - **Penetration Testing:** Security testing specifically targeting buffer overflow exploitation
 - **Memory Protection Tools:** Use tools like Valgrind to detect memory errors during development
-
 
 ## Examples
 

@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Lazy loading is a design pattern that is used to defer the initialization of an object until it is actually needed. This can be a useful pattern in some cases, but it can also lead to performance problems. In the context of an object-relational mapping (ORM) framework, lazy loading can lead to the N+1 query problem. This is because the ORM will execute a separate query for each object that is lazily loaded. This can result in a large number of unnecessary database queries, which can significantly degrade application performance.
 
-
 ## Indicators ⟡
 - The application is making a large number of small, fast queries instead of a few larger, slower queries.
 - The application is slow, even though the database server is not under heavy load.
 - The database logs are full of similar-looking queries.
 - The application is using an ORM framework, and you are not sure if it is configured correctly.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.676, Strength: 0.864">ⓘ</span>
 <br/>  Excessive database queries caused by inefficient data retrieval practices lead to increased response times, resulting in upstream services timing out due to their inability to receive timely API responses.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.602, Strength: 0.900">ⓘ</span>
@@ -87,7 +84,6 @@ Lazy loading is a design pattern that is used to defer the initialization of an 
 - **SQL Logging:** Enable SQL logging in your application or database and inspect the logs for a large number of similar-looking queries.
 - **Code Review:** During code reviews, specifically look for code that is using lazy loading.
 - **ORM Profiling:** Some ORM frameworks provide tools for profiling the performance of your queries.
-
 
 ## Examples
 A web application is using an ORM framework to fetch data from the database. The application has a page that displays a list of users and their posts. The application is using lazy loading to fetch the posts for each user. This means that the application first executes a query to get the list of users. Then, for each user, it executes another query to get their posts. This results in a large number of unnecessary database queries, which makes the page slow to load. The problem could be solved by using eager loading to fetch the users and their posts in a single query.

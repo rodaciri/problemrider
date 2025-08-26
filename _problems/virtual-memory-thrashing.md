@@ -23,7 +23,6 @@ layout: problem
 
 Virtual memory thrashing occurs when the system's working set of active pages exceeds available physical memory, causing the operating system to constantly swap pages between RAM and disk storage. This creates a destructive cycle where the system spends more time managing virtual memory than executing application code, leading to severe performance degradation and system unresponsiveness.
 
-
 ## Indicators ⟡
 
 - Extremely high disk I/O activity with minimal actual data processing
@@ -32,9 +31,7 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 - Available physical memory is consistently near zero
 - Swap file usage grows rapidly and remains high
 
-
 ## Symptoms ▲
-
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.744">ⓘ</span>
 <br/>  Excessive paging activity leads to frequent data retrieval from the original source instead of utilizing cached data, resulting in increased latency and further exacerbating performance issues in systems with limited memory resources.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.671">ⓘ</span>
@@ -52,7 +49,6 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 - **Working Set Analysis:** Measure application working set sizes relative to available memory
 - **Performance Profiling:** Profile applications during memory pressure to identify thrashing patterns
 - **Virtual Memory Statistics:** Monitor virtual memory system statistics and swap file activity
-
 
 ## Examples
 

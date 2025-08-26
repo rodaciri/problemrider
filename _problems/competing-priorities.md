@@ -25,7 +25,6 @@ layout: problem
 
 Competing priorities occur when multiple projects, initiatives, or tasks are all labeled as urgent or critical, forcing teams to divide their attention and resources between conflicting demands. This creates a situation where no single priority receives adequate focus, leading to suboptimal outcomes across all initiatives. Teams become stretched thin, context switching increases, and the organization fails to make meaningful progress on any priority.
 
-
 ## Indicators ⟡
 
 - Multiple projects are simultaneously labeled as "top priority" or "critical"
@@ -34,9 +33,7 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 - Deadlines for different priorities conflict with each other
 - Management cannot clearly articulate which priority should take precedence
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.666">ⓘ</span>
 <br/>  When multiple urgent projects vie for the same limited resources, the resulting context-switching and lack of focus lead to systemic inefficiencies that diminish the overall output and effectiveness of the development team.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.648">ⓘ</span>
@@ -45,7 +42,6 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 <br/>  The pressure of managing multiple urgent projects often leads to oversight in resource management, resulting in system resources being allocated without proper deallocation, which serves as a clear indicator of the underlying prioritization conflicts and resource allocation inefficiencies.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.880">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks creates bottlenecks in resource allocation, as multiple projects must wait for the same foundational components to be updated or maintained, leading to conflicts and inefficiencies in prioritizing urgent initiatives.
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.834">ⓘ</span>
@@ -64,7 +60,6 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 - **Team Assignment Overlap:** Measure how many high-priority projects team members are assigned to
 - **Context Switch Frequency:** Monitor how often team members switch between different priorities
 - **Stakeholder Priority Surveys:** Compare different stakeholders' understanding of organizational priorities
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Stakeholder confidence loss occurs when business partners, customers, or management lose faith in the development team's ability to deliver projects on time, meet quality standards, or fulfill commitments. This erosion of trust creates a negative cycle where relationships become adversarial, communication decreases, and collaboration suffers, ultimately making successful project delivery even more difficult.
 
-
 ## Indicators ⟡
 
 - Stakeholders express skepticism about development team capabilities or commitments
@@ -35,9 +34,7 @@ Stakeholder confidence loss occurs when business partners, customers, or managem
 - Fewer collaborative planning sessions and more directive communications from stakeholders
 - Stakeholders seek alternative solutions or vendors for future projects
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.726">ⓘ</span>
 <br/>  The erosion of stakeholder trust leads to increased pressure on developers to meet unrealistic expectations, resulting in frustration and burnout as they struggle to navigate the complexities and limitations of a legacy codebase.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.713">ⓘ</span>
@@ -66,7 +63,6 @@ Stakeholder confidence loss occurs when business partners, customers, or managem
 - **Project Approval Rates:** Track how often new projects are approved for the development team
 - **Resource Allocation Trends:** Analyze whether development team resources are increasing or decreasing
 - **Communication Pattern Analysis:** Evaluate changes in how stakeholders interact with development teams
-
 
 ## Examples
 

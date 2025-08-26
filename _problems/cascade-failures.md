@@ -26,7 +26,6 @@ layout: problem
 
 Cascade failures occur when a single change, bug, or failure in one component causes a domino effect of failures throughout interconnected system components. These failures spread rapidly through the system because components are tightly coupled or share critical resources, making it difficult to contain problems to their source. Cascade failures are particularly dangerous because they can transform minor issues into system-wide outages and make recovery extremely difficult.
 
-
 ## Indicators ⟡
 - Single component failures result in multiple system areas becoming unavailable
 - Small changes frequently cause widespread test failures
@@ -34,9 +33,7 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 - Recovery from failures requires restarting multiple components or the entire system
 - Error messages from one component trigger errors in many other components
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.566, Strength: 0.796">ⓘ</span>
 <br/>  Insufficient test coverage allows undetected vulnerabilities within the codebase to propagate unchecked, leading to a single change causing widespread failures across interconnected system components.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.555, Strength: 0.796">ⓘ</span>
@@ -98,7 +95,6 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 - **Monitoring Correlation:** Track how often failures in one component coincide with failures in others
 - **Recovery Time Analysis:** Measure how long different types of failures take to recover from
 - **Error Pattern Analysis:** Identify patterns where single root causes generate multiple error types
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Monolithic architecture constraints occur when applications are built as single, large codebases that become increasingly difficult to maintain, scale, and deploy as they grow. While monoliths can be appropriate for smaller applications, they create constraints around team autonomy, technology choices, scaling, and deployment flexibility as systems and organizations grow larger.
 
-
 ## Indicators ⟡
 
 - Single codebase contains multiple distinct business domains
@@ -35,13 +34,11 @@ Monolithic architecture constraints occur when applications are built as single,
 - Multiple teams working on same codebase with frequent conflicts
 - Technology stack decisions affect entire application
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.585, Strength: 0.953">ⓘ</span>
 <br/>  As the complexity of a large, monolithic codebase increases, specific team members or components often become overwhelmed, creating bottlenecks that hinder efficient development and maintenance, thereby exacerbating the challenges of scaling and deploying the entire system.
 - [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.574, Strength: 0.926">ⓘ</span>
@@ -231,7 +228,6 @@ Monolithic architecture constraints occur when applications are built as single,
 - **Team Collaboration Metrics:** Monitor merge conflicts and coordination overhead
 - **Build and Test Time Monitoring:** Track build and test execution times over time
 - **Scaling Pattern Analysis:** Analyze whether different components have different scaling needs
-
 
 ## Examples
 

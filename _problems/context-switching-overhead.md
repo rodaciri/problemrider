@@ -24,7 +24,6 @@ layout: problem
 
 Context switching overhead occurs when developers are forced to frequently switch between different tasks, tools, technologies, or problem domains, resulting in significant productivity loss and increased mental fatigue. Each context switch requires time to mentally disengage from one task and fully engage with another, often involving loading different mental models, remembering different conventions, and adapting to different workflows. This problem is particularly pronounced in complex development environments where multiple tools, systems, and codebases must be managed simultaneously.
 
-
 ## Indicators ⟡
 
 - Developers work on multiple unrelated tasks within the same day or week
@@ -33,9 +32,7 @@ Context switching overhead occurs when developers are forced to frequently switc
 - Team members struggle to maintain focus on long-term projects
 - Productivity varies significantly based on the number of concurrent responsibilities
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.645">ⓘ</span>
 <br/>  Constantly switching between outdated tools and fragmented systems leads to increased cognitive load and diminished focus, resulting in developers feeling overwhelmed and ultimately contributing to their frustration and burnout.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.581">ⓘ</span>
@@ -50,7 +47,6 @@ Context switching overhead occurs when developers are forced to frequently switc
 <br/>  Frequent context switching among developers leads to overlapping modifications of the same code segments, resulting in merge conflicts that highlight the inefficiencies and cognitive strain caused by the need to navigate multiple systems and tools.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.918">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks necessitates frequent context switching as developers must adapt to varying interfaces and dependencies across different components, leading to increased cognitive overload and diminished productivity.
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.921">ⓘ</span>
@@ -81,7 +77,6 @@ Context switching overhead occurs when developers are forced to frequently switc
 - **Calendar Analysis:** Review meeting schedules and interrupt patterns that disrupt development work
 - **Interruption Logging:** Measure frequency and source of work interruptions
 - **Task Completion Analysis:** Compare estimated vs. actual time for tasks, looking for patterns of underestimation
-
 
 ## Examples
 

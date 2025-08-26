@@ -26,7 +26,6 @@ layout: problem
 
 The second-system effect occurs when architects and developers, having learned from the limitations and problems of a previous system, overcompensate by designing an overly complex, feature-rich replacement that attempts to solve every conceivable problem. This often results in systems that are harder to build, maintain, and understand than necessary. The effect is particularly common during legacy system modernization projects where teams try to address all past pain points simultaneously rather than building incrementally.
 
-
 ## Indicators ⟡
 
 - Design documents that are significantly more complex than the business requirements justify
@@ -36,9 +35,7 @@ The second-system effect occurs when architects and developers, having learned f
 - Stakeholders expressing concerns that the new system seems "over-engineered"
 - Development estimates that are 3-5x larger than expected for seemingly straightforward replacements
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.578">ⓘ</span>
 <br/>  Overcompensation in design often leads to excessive features and complexity, resulting in unclear requirements that change frequently as stakeholders struggle to align with an evolving system, thus indicating the underlying issue of design bloat.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.578">ⓘ</span>
@@ -53,7 +50,6 @@ The second-system effect occurs when architects and developers, having learned f
 <br/>  The overcomplicated designs resulting from past lessons lead to systems that are difficult to maintain and understand, ultimately resulting in a lack of developers skilled in those complex legacy technologies, which creates maintenance bottlenecks and increases the risk of failure.
 
 ## Root Causes ▼
-
 - [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.856">ⓘ</span>
 <br/>  A culture that prioritizes flawless execution can lead to excessive feature additions and complexity in system design, as teams may hesitate to release a simpler, functional version, ultimately resulting in bloated systems that struggle to meet user needs.
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.843">ⓘ</span>
@@ -74,7 +70,6 @@ The second-system effect occurs when architects and developers, having learned f
 - Monitor stakeholder feedback on system complexity and usability
 - Use prototyping to validate whether complex features are actually needed
 - Measure time-to-market for basic functionality compared to competitors
-
 
 ## Examples
 

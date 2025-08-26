@@ -25,7 +25,6 @@ layout: problem
 
 Garbage collection pressure occurs when applications create and discard objects at such a high rate that the garbage collector must run frequently to reclaim memory, causing noticeable performance pauses and reduced overall throughput. This problem is particularly severe in applications with high allocation rates, large object graphs, or inappropriate object lifetime patterns that stress the garbage collection system.
 
-
 ## Indicators ⟡
 
 - Frequent garbage collection cycles interrupt application execution
@@ -34,14 +33,11 @@ Garbage collection pressure occurs when applications create and discard objects 
 - Application throughput decreases due to GC overhead
 - Memory usage patterns show rapid allocation and collection cycles
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.566">ⓘ</span>
 <br/>  Frequent performance pauses caused by excessive garbage collection lead to user frustration and task completion issues, resulting in an increased volume of customer support inquiries.
 
 ## Root Causes ▼
-
 - [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.862">ⓘ</span>
 <br/>  When multiple threads become deadlocked and cannot release resources, it leads to an accumulation of uncollectible objects in memory, which increases allocation rates and triggers more frequent garbage collection cycles, ultimately degrading performance and throughput in legacy systems.
 - [High Number of Database Queries](high-number-of-database-queries.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.865">ⓘ</span>
@@ -61,7 +57,6 @@ Garbage collection pressure occurs when applications create and discard objects 
 - **Heap Analysis:** Analyze heap dumps to identify object allocation patterns and lifetimes
 - **GC Tuning Metrics:** Monitor GC-specific metrics like collection time percentage and pause duration
 - **Allocation Profiling:** Profile object allocation hot paths and patterns
-
 
 ## Examples
 

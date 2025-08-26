@@ -26,7 +26,6 @@ layout: problem
 
 Manual deployment processes require human intervention to release software changes to production or other environments, involving step-by-step procedures that must be executed by hand rather than through automated systems. This creates opportunities for human error, inconsistencies between deployments, and bottlenecks in the release process. Unlike simply having complex deployment processes, this problem specifically focuses on the manual nature of the work and the risks that manual execution introduces to software delivery.
 
-
 ## Indicators ⟡
 
 - Deployment procedures documented as step-by-step checklists rather than automated scripts
@@ -37,9 +36,7 @@ Manual deployment processes require human intervention to release software chang
 - Different results from deployments performed by different people following the same process
 - Reluctance to deploy frequently due to the overhead of manual coordination
 
-
 ## Symptoms ▲
-
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.519, Strength: 0.791">ⓘ</span>
 <br/>  The reliance on manual deployment processes leads to inconsistent application of updates and patches, which in turn causes legacy systems to lag in meeting evolving regulatory requirements, resulting in compliance gaps.
 - [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.817">ⓘ</span>
@@ -56,7 +53,6 @@ Manual deployment processes require human intervention to release software chang
 <br/>  The reliance on human intervention during releases can lead to errors in the deployment process, resulting in new code that inadvertently disrupts previously functional features, thereby manifesting as regression bugs.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.420, Strength: 0.920">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks creates complex interdependencies that complicate the deployment process, necessitating manual oversight to ensure compatibility and mitigate the risk of errors across shared components.
 - [Rapid System Changes](rapid-system-changes.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.737">ⓘ</span>
@@ -78,7 +74,6 @@ Manual deployment processes require human intervention to release software chang
 - Assess deployment frequency limitations caused by manual process overhead
 - Monitor post-deployment issue rates that correlate with manual deployment steps
 - Compare deployment practices against industry automation standards
-
 
 ## Examples
 

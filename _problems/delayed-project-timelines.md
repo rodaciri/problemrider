@@ -24,7 +24,6 @@ layout: problem
 
 Delayed project timelines occur when software projects consistently take longer than originally planned, resulting in missed deadlines and extended delivery schedules. This pattern of delays can become chronic, where teams regularly deliver weeks or months later than promised, eroding stakeholder confidence and creating cascading effects on dependent projects and business initiatives.
 
-
 ## Indicators ⟡
 
 - Projects consistently exceed their original time estimates by 50% or more
@@ -33,9 +32,7 @@ Delayed project timelines occur when software projects consistently take longer 
 - Project status reports show declining confidence in delivery dates
 - Dependencies on other projects are impacted by delays
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.573, Strength: 0.767">ⓘ</span>
 <br/>  The consistent delays in project timelines often lead to inadequate performance optimization and testing of APIs, causing increased response times that trigger timeouts for services relying on those APIs, thus indicating systemic inefficiencies in legacy systems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.561, Strength: 0.787">ⓘ</span>
@@ -64,7 +61,6 @@ Delayed project timelines occur when software projects consistently take longer 
 - **Velocity Trends:** Measure development team velocity over time to identify declining productivity patterns
 - **Risk Materialization Rate:** Assess how frequently identified risks actually impact project timelines
 - **Estimation Accuracy Metrics:** Compare initial estimates with actual effort for completed features
-
 
 ## Examples
 

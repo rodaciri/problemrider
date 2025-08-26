@@ -25,7 +25,6 @@ layout: problem
 
 Poorly defined responsibilities occur when software components lack clear, single purposes and instead handle multiple unrelated concerns. This violates the Single Responsibility Principle and creates confusion about what each component does, making the system harder to understand, test, and maintain. When responsibilities are unclear or overlapping, developers struggle to know where to make changes, and modifications in one area can have unexpected effects on seemingly unrelated functionality.
 
-
 ## Indicators ⟡
 - Developers struggle to explain what a class or module does in a single sentence
 - Components handle multiple unrelated business concerns or technical responsibilities
@@ -33,9 +32,7 @@ Poorly defined responsibilities occur when software components lack clear, singl
 - Similar functionality is implemented in multiple places because responsibility boundaries are unclear
 - New features are difficult to implement because it's unclear where they belong
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.694">ⓘ</span>
 <br/>  When modules lack clear responsibilities, it leads to a tangled architecture that exacerbates the inherent complexity of the business domain, making it harder to implement and understand the system correctly.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.659">ⓘ</span>
@@ -62,7 +59,6 @@ Poorly defined responsibilities occur when software components lack clear, singl
 <br/>  When responsibilities are unclear, developers rely on assumptions about user needs and requirements, leading to decisions that may not align with actual system behavior, thereby indicating a deeper issue of poor design clarity.
 
 ## Root Causes ▼
-
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.812">ⓘ</span>
 <br/>  The tendency to provide large time estimates for small changes reveals the complexity and interdependencies within the codebase, which stem from modules lacking clear responsibilities, thereby making even minor modifications risky and time-consuming.
 
@@ -72,7 +68,6 @@ Poorly defined responsibilities occur when software components lack clear, singl
 - **Coupling Metrics:** Measure how many other components each component interacts with
 - **Code Review Focus:** Specifically examine component responsibilities during reviews
 - **Developer Surveys:** Ask team members which components are hardest to understand or modify
-
 
 ## Examples
 

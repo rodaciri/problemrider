@@ -25,7 +25,6 @@ layout: problem
 
 Test Debt is the accumulated risk resulting from inadequate or neglected quality assurance activities. It extends far beyond missing unit tests to include insufficient integration tests, superficial end-to-end tests, ignored non-functional tests (performance, security), and the absence of structured manual or exploratory testing. This debt is often taken on to release features faster by cutting corners on quality, creating a fragile product where changes are risky and true quality is unknown.
 
-
 ## Indicators ⟡
 
 - The team has no clear, shared understanding of the current test strategy.
@@ -34,9 +33,7 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 - Bugs that should have been caught in-house are frequently reported by users.
 - The phrase "The testers will catch it" is used to justify moving forward with unverified code.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.736">ⓘ</span>
 <br/>  The accumulation of inadequate quality assurance leads to an unstable codebase that requires specialized knowledge of outdated technologies, resulting in a shortage of qualified developers who can effectively maintain the system, thereby highlighting the underlying risk associated with insufficient testing practices.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.694">ⓘ</span>
@@ -49,7 +46,6 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 <br/>  Inadequate quality assurance leads to insufficient testing of resource management, resulting in unreleased resources as a symptom of the overall fragility and technical debt within the system.
 
 ## Root Causes ▼
-
 - [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.893">ⓘ</span>
 <br/>  A culture that prioritizes perfection over timely releases fosters an environment where quality assurance efforts are delayed or bypassed, ultimately leading to an accumulation of unresolved issues and increased fragility in the product.
 - [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.906">ⓘ</span>
@@ -95,7 +91,6 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 - **Cycle Time Measurement:** Track the time from code commit to production deployment. Long, unpredictable testing phases indicate problems.
 - **Team Confidence Surveys:** Anonymously poll the team on their confidence level for the upcoming release.
 - **Exploratory Testing Sessions:** Dedicate time for structured, unscripted testing to uncover unexpected issues.
-
 
 ## Examples
 

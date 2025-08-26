@@ -26,7 +26,6 @@ layout: problem
 
 Deployment risk occurs when releasing software changes carries a high probability of causing system failure, data loss, or extended downtime with limited ability to quickly recover. This risk manifests when deployment processes make irreversible changes, lack tested recovery mechanisms, or require complex manual interventions that can fail. High deployment risk creates a cycle where teams deploy infrequently to minimize risk, but infrequent deployments make each release larger and riskier.
 
-
 ## Indicators ⟡
 
 - Deployments require extensive planning and multiple team members
@@ -35,9 +34,7 @@ Deployment risk occurs when releasing software changes carries a high probabilit
 - Recovery from deployment problems requires hours or manual intervention
 - Deployments are postponed or avoided due to risk concerns
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.488, Strength: 0.708">ⓘ</span>
 <br/>  The inherent complexity of the business domain leads to misunderstandings and implementation errors in the software, which increases the likelihood of deployment failures and signifies inadequate preparation for risk mitigation.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.686">ⓘ</span>
@@ -77,7 +74,6 @@ Deployment risk occurs when releasing software changes carries a high probabilit
 - **Rollback Capability Assessment:** Evaluate ability to quickly revert problematic deployments
 - **Deployment Process Complexity:** Track number of manual steps and potential failure points
 - **Team Stress Indicators:** Monitor team anxiety and overtime associated with deployments
-
 
 ## Examples
 

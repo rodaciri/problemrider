@@ -24,7 +24,6 @@ layout: problem
 
 Extended cycle times occur when the total time from work initiation to completion is significantly longer than the actual time spent working on the task. This indicates that work spends more time waiting in queues, blocked by dependencies, or stalled in processes than being actively worked on. Extended cycle times reduce responsiveness to business needs and indicate inefficiencies in the development process.
 
-
 ## Indicators ⟡
 
 - Total time from task start to completion is many times longer than actual work time
@@ -33,9 +32,7 @@ Extended cycle times occur when the total time from work initiation to completio
 - Small changes take weeks or months to complete despite requiring hours of work
 - Team can identify significant waiting periods in their work process
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.599, Strength: 0.881">ⓘ</span>
 <br/>  Extended cycle times lead to reduced team productivity as prolonged delivery timelines create frustration and burnout among developers, hindering their efficiency and focus on tasks.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.773">ⓘ</span>
@@ -74,7 +71,6 @@ Extended cycle times occur when the total time from work initiation to completio
 - **Wait Time Tracking:** Identify how much time tasks spend waiting versus being worked on
 - **Process Step Analysis:** Measure time spent at each stage of the development process
 - **Comparative Analysis:** Compare cycle times for similar work items to identify patterns
-
 
 ## Examples
 

@@ -15,7 +15,6 @@ layout: problem
 
 Null pointer dereferences occur when a program attempts to access memory through a pointer that is null (points to memory address 0) or contains an invalid memory address. This is one of the most common runtime errors in systems programming and can cause immediate application crashes, data corruption, or security vulnerabilities. The error typically manifests as segmentation faults, access violations, or null pointer exceptions depending on the programming language and runtime environment.
 
-
 ## Indicators ⟡
 
 - Application crashes with segmentation faults, access violations, or null pointer exceptions
@@ -24,9 +23,7 @@ Null pointer dereferences occur when a program attempts to access memory through
 - Crashes happen inconsistently depending on program state or input conditions
 - Stack traces point to memory access operations on null pointers
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.694">ⓘ</span>
 <br/>  In legacy systems, the failure to deallocate resources often leads to null pointer dereferences, as unhandled resource management can leave pointers pointing to freed memory, resulting in attempts to access invalid memory locations.
 
@@ -42,7 +39,6 @@ Null pointer dereferences occur when a program attempts to access memory through
 - **Exception Handling Review:** Analyze exception handling to ensure pointers are validated
 - **Unit Testing:** Create tests that specifically exercise null pointer conditions
 - **Code Review:** Manual review focusing on pointer initialization and validation patterns
-
 
 ## Examples
 

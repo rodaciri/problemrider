@@ -25,7 +25,6 @@ layout: problem
 
 Tight coupling issues occur when system components are overly dependent on each other's internal implementations, making it difficult to modify, test, or replace individual components without affecting others. Tightly coupled systems are fragile, difficult to maintain, and resist change because modifications in one area often require changes throughout the system.
 
-
 ## Indicators ⟡
 
 - Changes to one component frequently require changes to many other components
@@ -34,9 +33,7 @@ Tight coupling issues occur when system components are overly dependent on each 
 - Components accessing each other's internal data structures directly
 - Difficulty replacing or upgrading individual components
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.703">ⓘ</span>
 <br/>  The excessive interdependence of components in legacy systems complicates updates and maintenance, leading to a reliance on a shrinking pool of skilled developers, who become bottlenecks, thereby highlighting the challenges of managing such tightly coupled architectures.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.678">ⓘ</span>
@@ -59,7 +56,6 @@ Tight coupling issues occur when system components are overly dependent on each 
 <br/>  Overly dependent components create uncertainty and fear of unintended consequences when making changes, leading teams to overanalyze rather than implement solutions, thereby stalling progress in development.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.970">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks among multiple components creates interdependencies that hinder individual component modifications, leading to inflexible and tightly coupled system architecture.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.958">ⓘ</span>
@@ -74,7 +70,6 @@ Tight coupling issues occur when system components are overly dependent on each 
 - **Cyclic Dependency Detection:** Identify circular dependencies between components
 - **Interface vs Implementation Analysis:** Review how components interact with each other
 - **Component Isolation Testing:** Test ability to run and test components independently
-
 
 ## Examples
 

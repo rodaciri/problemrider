@@ -26,7 +26,6 @@ layout: problem
 
 Unbounded data structures are collections, caches, logs, or other data containers that can grow without limit, eventually consuming all available memory or causing severe performance degradation. Unlike controlled data growth, unbounded structures lack mechanisms to limit their size, prune old data, or manage their resource consumption, making them a significant source of system instability in long-running applications.
 
-
 ## Indicators ⟡
 
 - Data structures continuously grow in size without any size limits or cleanup mechanisms
@@ -35,13 +34,11 @@ Unbounded data structures are collections, caches, logs, or other data container
 - System runs out of memory after processing large amounts of data over time
 - Cache hit rates decrease as cache size grows beyond optimal limits
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bloated Class](bloated-class.md) <span class="info-tooltip" title="Confidence: 0.659, Strength: 0.896">ⓘ</span>
 <br/>  The excessive complexity and lack of modularity in a large class lead to inadequate management of data structures, resulting in unbounded growth due to failure to implement necessary size limits and pruning mechanisms.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.655, Strength: 0.931">ⓘ</span>
@@ -132,7 +129,6 @@ Unbounded data structures are collections, caches, logs, or other data container
 - **Memory Heap Analysis:** Use heap dumps to identify large objects and data structures consuming significant memory
 - **Cache Statistics:** Monitor cache sizes, hit rates, and eviction patterns
 - **Resource Usage Trends:** Track long-term trends in memory, disk, and CPU usage
-
 
 ## Examples
 

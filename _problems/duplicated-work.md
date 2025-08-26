@@ -26,7 +26,6 @@ layout: problem
 
 Duplicated work occurs when multiple team members independently work on the same tasks, solve the same problems, or implement similar solutions without being aware of each other's efforts. This duplication wastes development resources, can create conflicting implementations, and indicates problems with team coordination and communication. The problem is particularly costly in large teams or distributed development environments.
 
-
 ## Indicators ⟡
 
 - Multiple team members independently implement similar functionality
@@ -35,9 +34,7 @@ Duplicated work occurs when multiple team members independently work on the same
 - Team members discover others were working on their assigned tasks
 - Code reviews reveal multiple implementations of the same logic
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.530, Strength: 0.744">ⓘ</span>
 <br/>  Constantly evolving requirements can lead to unclear task ownership and priorities, causing multiple team members to inadvertently address the same issues simultaneously, resulting in duplicated efforts and wasted resources.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.645">ⓘ</span>
@@ -52,7 +49,6 @@ Duplicated work occurs when multiple team members independently work on the same
 <br/>  The urgency to meet deadlines often results from the inefficiencies of team members duplicating efforts, which creates a false sense of progress and compels rushed decisions that further compromise the quality of the legacy software.
 
 ## Root Causes ▼
-
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.897">ⓘ</span>
 <br/>  The use of a single database by multiple services leads to a lack of visibility and coordination among team members, resulting in overlapping efforts on the same tasks without awareness of each other's actions.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.910">ⓘ</span>
@@ -65,7 +61,6 @@ Duplicated work occurs when multiple team members independently work on the same
 - **Retrospective Discussions:** Regular team discussions to identify instances of duplicated effort
 - **Communication Pattern Analysis:** Assess whether team members effectively share information about their work
 - **Task Completion Review:** Review completed work to identify instances where multiple people solved the same problems
-
 
 ## Examples
 

@@ -23,16 +23,13 @@ layout: problem
 ## Description
 Uncontrolled codebase growth is a situation where a codebase grows in size and complexity without any control or planning. This is a common problem in long-lived projects, where new features are constantly being added without any thought to the overall design of the system. Uncontrolled codebase growth can lead to a number of problems, including high technical debt, bloated classes, and a general slowdown in development velocity.
 
-
 ## Indicators ⟡
 - The codebase is becoming increasingly large and complex.
 - It is taking longer and longer to add new features.
 - The number of bugs is increasing.
 - Developers are becoming more and more frustrated with the codebase.
 
-
 ## Symptoms ▲
-
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.706, Strength: 0.911">ⓘ</span>
 <br/>  As the codebase expands uncontrollably, it becomes increasingly difficult to manage, leading to a cumbersome development environment that hinders productivity and slows down development processes.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.647, Strength: 0.866">ⓘ</span>
@@ -108,7 +105,6 @@ Uncontrolled codebase growth is a situation where a codebase grows in size and c
 - **Code Metrics Tools:** Use tools to measure code complexity, class size, and other metrics.
 - **Code Reviews:** Look for code that is difficult to understand and review.
 - **Static Analysis Tools:** Use tools to identify code smells, such as large classes and long methods.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application that has been in development for over 10 years. The codebase has grown to over a million lines of code, and it is becoming increasingly difficult to maintain and extend. The development team is spending more and more time fixing bugs and less and less time adding new features. The company is starting to lose market share to its competitors, who are able to innovate more quickly.

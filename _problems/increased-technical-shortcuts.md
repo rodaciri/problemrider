@@ -25,7 +25,6 @@ layout: problem
 
 Increased technical shortcuts occurs when development teams consistently choose quick, expedient solutions over proper, well-designed implementations due to delivery pressure or time constraints. These shortcuts may solve immediate problems but create technical debt, reduce code quality, and make future development more difficult. The pattern represents a shift from sustainable development practices toward unsustainable quick fixes.
 
-
 ## Indicators ⟡
 
 - Developers frequently mention "doing it the quick way" or "just to get it working"
@@ -34,9 +33,7 @@ Increased technical shortcuts occurs when development teams consistently choose 
 - Solutions are implemented without proper design consideration
 - Team discussions focus on "getting it done" rather than "getting it right"
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.482, Strength: 0.698">ⓘ</span>
 <br/>  The reliance on quick fixes often leads developers to prioritize immediate delivery over comprehensive testing, resulting in critical parts of the codebase being left untested and creating significant blind spots in quality assurance.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.671">ⓘ</span>
@@ -69,7 +66,6 @@ Increased technical shortcuts occurs when development teams consistently choose 
 <br/>  The reliance on quick fixes and workarounds to meet delivery pressures directly reduces the time and resources allocated for thorough testing and refinement, leading to features that are inadequately polished and ultimately degrade user experience.
 
 ## Root Causes ▼
-
 - [Release Instability](release-instability.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.837">ⓘ</span>
 <br/>  Frequent instability in production releases forces developers to implement quick fixes and workarounds to address urgent issues, leading to an accumulation of technical shortcuts that compromise long-term maintainability.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.875">ⓘ</span>
@@ -84,7 +80,6 @@ Increased technical shortcuts occurs when development teams consistently choose 
 - **Code Quality Metrics:** Monitor complexity and maintainability metrics over time
 - **Developer Surveys:** Ask team members about pressure to take shortcuts
 - **Sprint Planning Analysis:** Track ratio of "quick fixes" vs. "proper solutions" in sprint planning
-
 
 ## Examples
 

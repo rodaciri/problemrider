@@ -21,7 +21,6 @@ layout: problem
 
 Secret management problems occur when applications improperly handle sensitive information like passwords, API keys, certificates, and tokens. Poor secret management practices can lead to credential exposure, security breaches, and operational difficulties when secrets need to be rotated or updated across multiple systems and environments.
 
-
 ## Indicators ⟡
 
 - Secrets hardcoded in source code or configuration files
@@ -30,9 +29,7 @@ Secret management problems occur when applications improperly handle sensitive i
 - No process for regularly rotating or updating secrets
 - Secrets transmitted or logged in plain text
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.692">ⓘ</span>
 <br/>  The inadequate handling of sensitive credentials in legacy systems increases the complexity and risk of maintenance tasks, leading to a reliance on a diminishing pool of specialized developers, which in turn heightens the operational bottlenecks and risks associated with system upkeep.
 - [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.866">ⓘ</span>
@@ -43,7 +40,6 @@ Secret management problems occur when applications improperly handle sensitive i
 <br/>  Inadequate handling of sensitive credentials often leads to insufficient logging of security-relevant events, as legacy systems may lack the integration or capability to track access and changes to secrets, making it challenging to identify and respond to security incidents effectively.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.889">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks in legacy systems can lead to inconsistent secret management practices across components, making it difficult to enforce proper security measures and increasing the risk of credential exposure.
 - **Large, Risky Releases**
@@ -61,7 +57,6 @@ Secret management problems occur when applications improperly handle sensitive i
 - **Secret Usage Tracking:** Monitor where and how secrets are used across systems
 - **Access Control Analysis:** Review who has access to secrets and secret management systems
 - **Secret Rotation Testing:** Test secret rotation processes and impact on dependent systems
-
 
 ## Examples
 

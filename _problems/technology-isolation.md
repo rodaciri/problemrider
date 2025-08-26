@@ -25,7 +25,6 @@ layout: problem
 
 Technology isolation occurs when a system's technology stack becomes so outdated or specialized that it exists in isolation from current industry practices and modern development ecosystems. This isolation makes it difficult to find developers with relevant skills, integrate with current tools and services, or benefit from modern development practices and community innovations. The system becomes a "technology island" that requires specialized knowledge and custom solutions for problems that have standard solutions in modern environments.
 
-
 ## Indicators ⟡
 
 - Difficulty recruiting developers with experience in the technology stack
@@ -34,14 +33,11 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 - Development practices differ significantly from current industry norms
 - Technology vendors provide limited or discontinued support
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.541">ⓘ</span>
 <br/>  The increasing disconnect from modern technology stacks leads to outdated tools and practices, creating a frustrating work environment that demotivates developers and contributes to their burnout as they struggle with persistent inefficiencies and lack of support.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.405, Strength: 0.934">ⓘ</span>
 <br/>  The reliance on outdated shared libraries across multiple components hinders the adoption of modern technologies, creating a feedback loop that exacerbates isolation from current tech stacks and limits innovation.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.936">ⓘ</span>
@@ -104,7 +100,6 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 - **Developer Satisfaction Surveys:** Assess team satisfaction with current technology choices
 - **Community Activity Assessment:** Evaluate activity level and support for current technologies
 - **Integration Capability Review:** Test ability to integrate with modern services and tools
-
 
 ## Examples
 

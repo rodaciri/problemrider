@@ -26,7 +26,6 @@ layout: problem
 
 Increased time to market occurs when the duration from concept to customer delivery consistently grows longer, reducing the organization's ability to respond quickly to market opportunities, customer needs, or competitive pressures. This problem affects business competitiveness and can result in lost revenue, reduced market share, and missed opportunities to capitalize on trends or customer demands.
 
-
 ## Indicators ⟡
 
 - Feature development cycles are taking longer than historical averages
@@ -35,9 +34,7 @@ Increased time to market occurs when the duration from concept to customer deliv
 - Revenue projections are consistently delayed due to development timeline extensions
 - Market feedback indicates products feel dated or behind industry standards
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.649, Strength: 0.878">ⓘ</span>
 <br/>  The constant updates to project requirements often arise from an inability to rapidly adapt to market demands due to outdated technologies and processes in legacy systems, resulting in rework and delays that further extend the time needed to deliver new features.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.856">ⓘ</span>
@@ -104,7 +101,6 @@ Increased time to market occurs when the duration from concept to customer deliv
 - **Business Impact Assessment:** Analyze revenue or market share effects of delayed releases
 - **Customer Feedback Analysis:** Monitor customer requests for features available in competing products
 - **Development Cycle Analysis:** Track how development cycle times change over time
-
 
 ## Examples
 

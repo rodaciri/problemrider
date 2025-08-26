@@ -24,7 +24,6 @@ layout: problem
 ## Description
 A high defect rate in production is a clear sign that there are serious problems with the quality of a product. This can be caused by a variety of factors, from insufficient testing and inadequate code reviews to a lack of a proper release process. When a product is not thoroughly tested, it is likely to have a high number of bugs, which can lead to a poor user experience, a loss of trust, and a significant amount of rework. A comprehensive testing strategy should include a mix of automated and manual testing, and it should be integrated into the development process from the very beginning. Investing in testing is an investment in the quality and stability of the product.
 
-
 ## Indicators ⟡
 - The number of bug reports from users is increasing.
 - The team is spending more time fixing bugs than building new features.
@@ -32,13 +31,11 @@ A high defect rate in production is a clear sign that there are serious problems
 - The team is constantly in a state of firefighting.
 - The team has a low level of test coverage.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.831">ⓘ</span>
 <br/>  Slow application performance leads to rushed or incomplete testing by developers and quality assurance teams, resulting in critical bugs being overlooked and ultimately contributing to a higher defect rate in production.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.889">ⓘ</span>
@@ -149,7 +146,6 @@ A high defect rate in production is a clear sign that there are serious problems
 - **User Feedback Analysis:** Systematically collect and analyze user feedback to identify common pain points and recurring issues.
 - **Test Automation Reports:** Analyze reports from automated test runs to identify gaps or failures.
 - **Manual Test Case Review:** Review manual test cases to identify areas where automation could be introduced or coverage improved.
-
 
 ## Examples
 A software company releases a new version of its flagship product. Within hours, the support desk is flooded with calls from users who are experiencing crashes and data loss. The development team is forced to work around the clock to release a patch, and the company's reputation is damaged. In another case, a team relies heavily on manual testing. A key tester is on vacation during a release cycle, and a critical bug in a new feature is missed. The bug makes it to production and causes a major outage. This problem is often a sign that a development team has accumulated significant "technical debt." The team is so focused on short-term deadlines that they are not investing in the long-term health of their codebase and development processes.

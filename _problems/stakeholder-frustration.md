@@ -26,7 +26,6 @@ layout: problem
 
 Stakeholder frustration occurs when business stakeholders become dissatisfied with the development team's performance, communication, or deliverables. This frustration typically builds over time due to unmet expectations, poor communication, missed deadlines, or quality issues. Frustrated stakeholders may reduce their support for projects, bypass development teams, or escalate concerns to higher management.
 
-
 ## Indicators ⟡
 
 - Stakeholders express dissatisfaction with development progress or quality
@@ -35,9 +34,7 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 - Escalation of concerns to higher levels of management
 - Reduced cooperation or responsiveness from business stakeholders
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.392, Strength: 0.612">ⓘ</span>
 <br/>  Constant updates to project requirements often arise from stakeholders' dissatisfaction with perceived development shortcomings, reflecting their frustration and resulting in increased rework and delays that hinder overall progress.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.633">ⓘ</span>
@@ -50,7 +47,6 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Frustration from stakeholders often leads to a lack of trust and support for development teams, causing those teams to prioritize immediate, minimal requirements over innovative solutions, which stifles creativity and adaptability in legacy systems.
 
 ## Root Causes ▼
-
 - [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.402, Strength: 0.930">ⓘ</span>
 <br/>  The frequent initiation of features that remain unfinished due to shifting priorities in legacy systems leads to a backlog of unfulfilled stakeholder expectations, resulting in frustration over perceived stagnation and poor communication from the development team.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.884">ⓘ</span>
@@ -99,7 +95,6 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 - **Escalation Tracking:** Track frequency and nature of issues escalated to management
 - **Project Support Assessment:** Evaluate level of stakeholder support and cooperation with projects
 - **Feedback Session Analysis:** Analyze themes and concerns raised in stakeholder feedback sessions
-
 
 ## Examples
 

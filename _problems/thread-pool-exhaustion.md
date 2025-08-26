@@ -25,7 +25,6 @@ layout: problem
 
 Thread pool exhaustion occurs when all available threads in an application's thread pool are consumed by long-running, blocked, or stuck operations, leaving no threads available to process new incoming requests or tasks. This creates a situation where the application appears to hang or become unresponsive, even though the underlying system has available CPU and memory resources. Thread pool exhaustion is common in server applications and can cause complete service outages.
 
-
 ## Indicators ⟡
 
 - Application stops responding to new requests while appearing to run normally
@@ -34,9 +33,7 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 - CPU usage may be low despite the application appearing busy
 - Response times increase dramatically or operations timeout
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.688, Strength: 0.869">ⓘ</span>
 <br/>  When all threads in the pool are occupied by long-running tasks, new requests cannot be processed in a timely manner, leading to failures in upstream services that are unable to receive responses within their timeout thresholds.
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.637, Strength: 0.906">ⓘ</span>
@@ -74,7 +71,6 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 - **Resource Usage Monitoring:** Monitor CPU, memory, and I/O usage during thread pool exhaustion
 - **Load Testing:** Test application under various load conditions to identify thread pool limits
 - **Timeout Configuration Analysis:** Review timeout settings for operations that consume thread pool threads
-
 
 ## Examples
 

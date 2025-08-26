@@ -26,7 +26,6 @@ layout: problem
 
 Knowledge gaps occur when team members lack sufficient understanding of the systems they work with, the business domain they serve, or the technical approaches required for their tasks. These gaps force developers to spend significant time researching, experimenting, and learning instead of implementing solutions efficiently. Knowledge gaps can exist at multiple levels, from understanding specific APIs or frameworks to comprehending complex business rules or system architectures, and they compound over time as systems evolve and institutional knowledge is lost. This problem leads to knowledge silos, single points of failure, and reduced team resilience. When severe, it can result in a "bus factor" of one, where the loss of a single team member would be catastrophic to the project.
 
-
 ## Indicators ⟡
 - Developers frequently ask basic questions about systems they work with regularly
 - Implementation tasks take much longer than expected due to learning requirements
@@ -36,9 +35,7 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 - There is no documentation for the project.
 - The documentation is outdated and unreliable.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.574, Strength: 0.788">ⓘ</span>
 <br/>  Frequent updates to project requirements often arise from insufficient understanding of existing systems and business needs, resulting in unclear expectations that lead to ongoing changes and subsequent rework in legacy software development.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.765">ⓘ</span>
@@ -101,7 +98,6 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 - **Post-Mortems/Retrospectives:** Analyze if recurring issues could have been prevented by better knowledge sharing.
 - **Developer Surveys:** Ask team members about their access to necessary information and opportunities for learning, and their challenges in finding information.
 - **Communication Pattern Analysis:** Notice if questions are always directed to the same few people, or if information is only shared in private channels.
-
 
 ## Examples
 

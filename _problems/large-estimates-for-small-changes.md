@@ -24,16 +24,13 @@ layout: problem
 ## Description
 When small, seemingly simple changes are consistently estimated to take a long time to implement, it is a strong indicator of underlying problems in the codebase. This phenomenon, often referred to as "high-cost-of-change," suggests that the system has become rigid and fragile. The development team is likely navigating a minefield of technical debt, where every modification carries the risk of unforeseen side effects. This problem can cripple a team's ability to respond to changing business needs and can be a major source of frustration for both developers and stakeholders.
 
-
 ## Indicators ⟡
 - A simple bug fix is estimated to take days or weeks.
 - Stakeholders are surprised by the high cost of minor feature requests.
 - The team spends more time in meetings discussing the risks of a change than actually implementing it.
 - There is a noticeable reluctance from the team to take on tasks that involve modifying existing code.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.650, Strength: 0.873">ⓘ</span>
 <br/>  The tendency to provide large time estimates for minor changes often stems from the intricate and brittle nature of legacy code, which in turn leads to frequent updates in requirements as stakeholders adjust their expectations based on the realized complexity and risks during development.
 - [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.546, Strength: 0.898">ⓘ</span>
@@ -132,7 +129,6 @@ When small, seemingly simple changes are consistently estimated to take a long t
 - **Compare Estimated vs. Actual Time:** If the actual time taken to complete tasks is consistently much higher than the estimates, it indicates that the team is struggling with unforeseen complexity.
 - **Developer Feedback:** Ask developers why their estimates are so high. Their answers will often point to the root causes.
 - **Code Complexity Metrics:** Use static analysis tools to measure code complexity. High complexity scores often correlate with high-cost-of-change.
-
 
 ## Examples
 A product manager requests a small change to the user interface: adding a new field to a form. The development team estimates that this will take two weeks to implement. The product manager is shocked, as they expected it to be a simple, one-day task. The developers explain that the form is used in multiple places throughout the application, and the underlying data model is tightly coupled to other parts of the system. Any change to the form requires extensive testing to ensure that it doesn't break anything else. This is a classic example of how a brittle codebase can lead to large estimates for small changes.

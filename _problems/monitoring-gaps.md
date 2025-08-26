@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Monitoring gaps are blind spots in a system's observability. They are areas of the system that are not being monitored, or are not being monitored effectively. Monitoring gaps can make it difficult to detect and diagnose problems in production, which can lead to longer outages and more severe consequences. They are a common problem in complex, distributed systems, where it can be difficult to get a complete picture of the system's health.
 
-
 ## Indicators ⟡
 - The first sign of a problem is often a customer complaint.
 - It takes a long time to diagnose the root cause of a problem.
 - The team is often surprised by the system's behavior.
 - There is a lack of visibility into the system's key performance indicators (KPIs).
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.712, Strength: 0.905">ⓘ</span>
 <br/>  Insufficient observability prevents timely detection of production issues, leading to prolonged response times that exceed configured timeouts for services relying on the affected API, thus indicating the presence of monitoring gaps.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.698, Strength: 0.924">ⓘ</span>
@@ -155,7 +152,6 @@ Monitoring gaps are blind spots in a system's observability. They are areas of t
 - **Incident Post-Mortems:** Review your incident post-mortems to identify cases where a lack of monitoring made it difficult to diagnose a problem.
 - **Developer Interviews:** Ask developers about their experience with monitoring. Their feedback can be a valuable source of information.
 - **Chaos Engineering:** Intentionally inject failures into your system to see how it behaves and to identify gaps in your monitoring.
-
 
 ## Examples
 A company is running a microservices-based application. The application is complex, and it is difficult to get a complete picture of its health. The team does not have a good monitoring strategy, and they are not using the right tools. As a result, they are often surprised by production issues, and it takes them a long time to diagnose the root cause of problems. This has led to a number of long outages, which have had a significant impact on the business.

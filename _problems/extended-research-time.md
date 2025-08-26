@@ -26,7 +26,6 @@ layout: problem
 
 Extended research time occurs when developers must spend disproportionate amounts of their work time researching, investigating, and understanding systems, requirements, or technical approaches rather than actively implementing solutions. This research overhead significantly reduces productive development time and often indicates underlying issues with system complexity, documentation quality, or team knowledge distribution. While some research is normal and valuable, extended research time becomes problematic when it consistently dominates development work.
 
-
 ## Indicators ⟡
 
 - Developers spend more than 30% of their time researching rather than coding
@@ -35,9 +34,7 @@ Extended research time occurs when developers must spend disproportionate amount
 - Research phases of projects consistently take longer than estimated
 - Similar research questions are repeatedly asked by different team members
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.710">ⓘ</span>
 <br/>  The prolonged time spent on research due to knowledge gaps and the complexities of outdated systems leads to frustration and burnout among developers, as constant struggles to navigate and understand the codebase diminish their motivation and well-being.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.619">ⓘ</span>
@@ -68,7 +65,6 @@ Extended research time occurs when developers must spend disproportionate amount
 - **Knowledge Audit:** Identify recurring research topics that suggest systematic knowledge gaps
 - **Question Pattern Analysis:** Track repeated questions that indicate missing documentation or knowledge
 - **Developer Surveys:** Ask team members about barriers to efficient implementation
-
 
 ## Examples
 

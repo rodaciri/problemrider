@@ -26,7 +26,6 @@ layout: problem
 
 Implementation starts without design occurs when development teams begin coding immediately without first establishing a clear architectural vision, system structure, or detailed design. This rush to code often stems from time pressure, excitement to start building, or misconceptions about agile development practices. The result is systems that evolve organically without coherent structure, leading to code that is difficult to understand, maintain, and extend. This problem is particularly damaging in legacy modernization projects where the opportunity to establish better architecture is lost.
 
-
 ## Indicators ⟡
 
 - Development work begins immediately after requirements gathering without design phases
@@ -37,9 +36,7 @@ Implementation starts without design occurs when development teams begin coding 
 - Team members unsure about overall system architecture or design patterns
 - Technology choices made individually by developers during implementation
 
-
 ## Symptoms ▲
-
 - [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.759">ⓘ</span>
 <br/>  When development begins without a clear design, it leads to poorly defined data structures that exacerbate schema mismatches and format incompatibilities during migration, resulting in integrity issues as the legacy data fails to align with the new system's expectations.
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.765">ⓘ</span>
@@ -64,7 +61,6 @@ Implementation starts without design occurs when development teams begin coding 
 - Assess team understanding of system structure through interviews or documentation reviews
 - Review database schema evolution for signs of organic, unplanned growth
 - Analyze code metrics for consistency in design patterns and structural organization
-
 
 ## Examples
 

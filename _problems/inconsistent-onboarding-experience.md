@@ -26,7 +26,6 @@ layout: problem
 
 Inconsistent onboarding experience occurs when new team members receive dramatically different quality and depth of support during their initial period with the team. Some new hires may receive comprehensive guidance, structured learning paths, and regular check-ins, while others in the same team might struggle with minimal support and ad-hoc help. This inconsistency creates unequal outcomes where some team members become productive quickly while others struggle for months.
 
-
 ## Indicators ⟡
 
 - New hires starting at the same time have vastly different productivity levels after a few months
@@ -35,13 +34,11 @@ Inconsistent onboarding experience occurs when new team members receive dramatic
 - New hires express different levels of satisfaction with their initial experience
 - Time to productivity varies dramatically between new team members with similar backgrounds
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.508, Strength: 0.871">ⓘ</span>
 <br/>  The fragility of legacy software systems leads to unpredictable functionality changes, making it difficult for onboarding facilitators to provide consistent guidance and resources, ultimately resulting in varied experiences for new team members.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.944">ⓘ</span>
@@ -165,7 +162,6 @@ Inconsistent onboarding experience occurs when new team members receive dramatic
 - **Mentor Approach Analysis:** Document and compare different mentoring approaches used across the team
 - **Time to Competency Measurement:** Track how long different new hires take to reach similar productivity levels
 - **Knowledge Acquisition Assessment:** Test what critical information new hires have learned during onboarding
-
 
 ## Examples
 

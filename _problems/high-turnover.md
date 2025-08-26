@@ -26,7 +26,6 @@ layout: problem
 
 High turnover occurs when developers frequently leave the team, often shortly after joining, due to frustration with system complexity, poor onboarding experiences, or challenging working conditions. This creates a vicious cycle where the remaining team members must constantly train new people instead of focusing on development work, while institutional knowledge is continuously lost. High turnover is particularly damaging to legacy systems where domain knowledge and understanding of complex codebases takes significant time to develop.
 
-
 ## Indicators ⟡
 - New hires leave within their first 6-12 months
 - Exit interviews frequently mention frustration with codebase complexity or lack of support
@@ -34,9 +33,7 @@ High turnover occurs when developers frequently leave the team, often shortly af
 - Significant time is spent on recruitment and interviewing rather than development
 - Projects are delayed because new team members need extensive training
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.547, Strength: 0.770">ⓘ</span>
 <br/>  The high turnover of developers, driven by poor onboarding and system complexity, results in a legacy skill shortage as fewer knowledgeable individuals remain to maintain and support outdated technologies, creating significant operational risks.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.740">ⓘ</span>
@@ -88,7 +85,6 @@ High turnover occurs when developers frequently leave the team, often shortly af
 - **Time-to-Productivity Metrics:** Track how long it takes new hires to become effective contributors
 - **Onboarding Satisfaction Surveys:** Regular feedback from new team members about their experience
 - **Recruitment Cost Analysis:** Track the total cost of constantly replacing team members
-
 
 ## Examples
 

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Limited team learning is a situation where a team does not learn from its mistakes and does not improve over time. This is a common problem in teams that do not have a culture of continuous improvement. Limited team learning can lead to a number of problems, including a decrease in productivity, an increase in the number of bugs, and a general sense of stagnation.
 
-
 ## Indicators ⟡
 - The team is making the same mistakes over and over again.
 - The team is not getting any better at what they do.
 - There is a lack of innovation on the team.
 - The team is not able to adapt to change.
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.601, Strength: 0.939">ⓘ</span>
 <br/>  When a team fails to learn from past mistakes, they continue to repeat inefficiencies and errors, leading to decreased output and effectiveness as the same problems hinder progress in legacy systems.
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.591, Strength: 0.904">ⓘ</span>
@@ -79,7 +76,6 @@ Limited team learning is a situation where a team does not learn from its mistak
 - **Retrospectives:** Use retrospectives to identify what went well and what went wrong.
 - **Developer Surveys:** Ask developers if they feel like they are learning and growing on the team.
 - **Code Reviews:** Look for code that is not up to the team's standards.
-
 
 ## Examples
 A team is working on a new project. The team is making a lot of mistakes, but they are not learning from them. The team is not holding regular retrospectives, and they do not have a feedback loop in place. As a result, the team is not getting any better at what they do. The project is behind schedule, and the code quality is poor.

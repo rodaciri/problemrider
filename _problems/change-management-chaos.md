@@ -26,7 +26,6 @@ layout: problem
 
 Change management chaos occurs when modifications to systems, code, configurations, or processes happen without adequate coordination, impact assessment, or oversight mechanisms. This creates an environment where changes conflict with each other, break existing functionality, or have unintended cascading effects throughout the system. Without systematic change control, teams operate in a reactive mode, constantly dealing with problems created by uncoordinated modifications.
 
-
 ## Indicators ⟡
 
 - Changes frequently break existing functionality in unexpected ways
@@ -35,9 +34,7 @@ Change management chaos occurs when modifications to systems, code, configuratio
 - Rollbacks are complex because multiple interrelated changes have occurred
 - Teams discover conflicts only after changes are deployed
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.692">ⓘ</span>
 <br/>  Constantly updated requirements reflect a lack of coordinated change management, as unassessed modifications lead to confusion and misalignment, resulting in a chaotic environment where ongoing changes disrupt established development processes.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.671">ⓘ</span>
@@ -66,7 +63,6 @@ Change management chaos occurs when modifications to systems, code, configuratio
 <br/>  The lack of coordinated changes leads to unforeseen conflicts and system instability, causing developers to spend excessive time troubleshooting and addressing issues instead of progressing on new features or bug fixes, thereby slowing overall development velocity.
 
 ## Root Causes ▼
-
 - [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.871">ⓘ</span>
 <br/>  The need to deploy multiple tightly-coupled components simultaneously, regardless of whether all have been adequately assessed for impact, leads to uncoordinated changes that exacerbate conflicts and unintended consequences in legacy systems.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.836">ⓘ</span>
@@ -80,7 +76,6 @@ Change management chaos occurs when modifications to systems, code, configuratio
 - **Cross-Team Change Conflicts:** Track conflicts between changes made by different teams
 - **Change Velocity vs. Stability:** Analyze correlation between change frequency and system stability
 - **Change Approval Process Effectiveness:** Evaluate whether approval processes prevent problematic changes
-
 
 ## Examples
 

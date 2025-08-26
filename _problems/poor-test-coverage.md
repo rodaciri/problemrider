@@ -26,7 +26,6 @@ layout: problem
 
 Poor test coverage occurs when significant portions of the codebase, particularly critical functionality, lack adequate automated testing. This creates gaps in quality assurance where bugs can hide undetected until they reach production. Poor coverage doesn't just mean low percentage numbers—it specifically refers to the absence of tests for important business logic, error handling paths, edge cases, and integration points that are crucial for system reliability.
 
-
 ## Indicators ⟡
 - Code coverage reports show low percentages, especially in critical business logic areas
 - Production bugs frequently occur in areas with little or no test coverage
@@ -34,13 +33,11 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 - Critical system components have no automated tests
 - Error handling and edge cases are rarely tested
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.723, Strength: 0.936">ⓘ</span>
 <br/>  A lack of understanding of object-oriented programming principles often results in tightly coupled and poorly structured code, making it challenging to isolate components for testing, which ultimately leads to critical areas being left untested and vulnerable.
 - [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.721, Strength: 0.938">ⓘ</span>
@@ -250,7 +247,6 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 - **Bug Source Analysis:** Track whether production bugs occur in tested vs. untested code areas
 - **Coverage Trend Monitoring:** Track whether test coverage is improving, declining, or stagnating over time
 - **Manual Testing Dependency:** Identify areas that rely heavily on manual testing due to lack of automation
-
 
 ## Examples
 

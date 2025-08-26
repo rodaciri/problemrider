@@ -24,20 +24,17 @@ layout: problem
 ## Description
 Setting the maximum size of a connection pool is a delicate balancing act. If the size is too small, the application may be starved for connections, leading to timeouts and poor performance. If the size is too large, it can overwhelm the database with too many connections, leading to a degradation in performance and stability. The optimal size for a connection pool depends on a variety of factors, including the number of application instances, the number of threads in each instance, and the capacity of the database.
 
-
 ## Indicators ⟡
 - You are seeing a high number of connection errors in your logs.
 - Your application is slow, and you suspect that it is due to a high number of database connections.
 - You are getting complaints from users about slow performance.
 - You are seeing a high number of timeout errors in your logs.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.899">ⓘ</span>
 <br/>  Long-running transactions can occupy database connections for extended periods, preventing other requests from being processed, which can lead to an incorrect configuration of the maximum connection pool size as the system struggles to manage the limited available connections effectively.
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.884">ⓘ</span>
@@ -61,7 +58,6 @@ Setting the maximum size of a connection pool is a delicate balancing act. If th
 - **Database Monitoring Tools:** Observe the number of active and idle connections on the database server and compare it to the `max_connections` setting.
 - **Log Analysis:** Look for connection-related errors in application and database logs.
 - **Load Testing:** Systematically increase load while monitoring connection pool and database metrics to find the optimal `max_pool_size`.
-
 
 ## Examples
 A web application is deployed with a default connection pool size of 10. During a marketing campaign, the number of concurrent users spikes to 100. The application starts throwing "Connection pool exhausted" errors because it cannot acquire enough database connections to serve all requests. In another case, a microservice is configured with a `max_pool_size` of 200, but the database it connects to only allows a maximum of 100 connections. This leads to intermittent connection failures and wasted application resources trying to open connections that the database will reject. Proper configuration of database connection pools is crucial for the performance and stability of any application that interacts with a relational database. It requires understanding both the application's concurrency needs and the database's capacity.

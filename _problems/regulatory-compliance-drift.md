@@ -26,7 +26,6 @@ layout: problem
 
 Regulatory compliance drift occurs when legacy systems gradually fall behind evolving regulatory requirements due to their inability to adapt to new compliance standards, reporting formats, or legal obligations. This problem develops over time as regulations change but legacy systems lack the flexibility to implement required updates, creating increasing compliance risk and potential legal exposure. Unlike initial compliance failures, this involves systems that were once compliant but have become non-compliant due to regulatory evolution and system inflexibility.
 
-
 ## Indicators ⟡
 
 - New regulatory requirements that cannot be easily implemented in existing legacy systems
@@ -37,13 +36,11 @@ Regulatory compliance drift occurs when legacy systems gradually fall behind evo
 - System architecture that was designed for older regulatory frameworks and cannot adapt to new ones
 - Vendor notifications that legacy system compliance features will no longer be supported or updated
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.614, Strength: 0.832">ⓘ</span>
 <br/>  The inability to adopt new technologies due to high switching costs prevents legacy systems from integrating updates that align with evolving regulatory requirements, resulting in compliance gaps.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md) <span class="info-tooltip" title="Confidence: 0.600, Strength: 0.809">ⓘ</span>
@@ -163,7 +160,6 @@ Regulatory compliance drift occurs when legacy systems gradually fall behind evo
 - Monitor legal and compliance team workload increases related to system limitations
 - Evaluate business opportunity losses due to compliance-related system constraints
 - Track costs associated with maintaining compliance through manual processes or system workarounds
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Quality degradation occurs when software systems experience a steady decline in reliability, maintainability, performance, or usability over time. This degradation typically results from accumulated technical debt, rushed development practices, insufficient testing, and a lack of systematic quality maintenance. Unlike isolated quality issues, this represents a systemic decline that affects multiple aspects of the system.
 
-
 ## Indicators ⟡
 
 - Bug reports increase over time despite ongoing development effort
@@ -34,9 +33,7 @@ Quality degradation occurs when software systems experience a steady decline in 
 - User satisfaction with system reliability and usability decreases
 - More time is spent on maintenance and bug fixes relative to new features
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.693">ⓘ</span>
 <br/>  As system quality deteriorates due to accumulated technical debt and inadequate practices, the resulting inefficiencies and increased latency in processing requests often lead to services failing to respond within their timeout limits, thereby indicating a decline in overall system performance.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.704">ⓘ</span>
@@ -67,7 +64,6 @@ Quality degradation occurs when software systems experience a steady decline in 
 <br/>  The accumulation of technical debt and insufficient quality practices lead to inadequate testing and oversight, resulting in a high frequency of bugs in the live environment, which directly reflects the declining quality of the system.
 
 ## Root Causes ▼
-
 - [Feedback Isolation](feedback-isolation.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.691">ⓘ</span>
 <br/>  The lack of regular input from stakeholders and users prevents development teams from addressing evolving requirements and quality expectations, leading to shortcuts and technical debt that ultimately degrade the system's overall quality.
 - [Clever Code](clever-code.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.819">ⓘ</span>
@@ -90,7 +86,6 @@ Quality degradation occurs when software systems experience a steady decline in 
 - **Performance Baseline Comparison:** Compare current performance against historical baselines
 - **Code Quality Metrics:** Track code complexity, maintainability, and test coverage trends
 - **User Satisfaction Surveys:** Regular assessment of user experience and satisfaction
-
 
 ## Examples
 

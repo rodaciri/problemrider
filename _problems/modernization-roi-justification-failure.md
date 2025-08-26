@@ -25,7 +25,6 @@ layout: problem
 
 Modernization ROI justification failure occurs when organizations cannot build compelling business cases for legacy system modernization despite clear operational pain points and technical limitations. This problem stems from the difficulty of quantifying intangible benefits, accurately estimating modernization costs, and measuring the true cost of maintaining legacy systems. The result is continued operation of problematic legacy systems because decision-makers cannot justify the investment in modernization, even when the current state creates significant business risk and inefficiency.
 
-
 ## Indicators ⟡
 
 - Modernization proposals that are repeatedly delayed or rejected due to unclear business value
@@ -36,9 +35,7 @@ Modernization ROI justification failure occurs when organizations cannot build c
 - Technical teams frustrated by inability to get approval for necessary modernization projects
 - Risk assessments that highlight problems but cannot translate them into financial business cases
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.663">ⓘ</span>
 <br/>  Constantly evolving requirements often stem from a lack of clarity around the existing system’s limitations and potential improvements, reflecting the inability to justify modernization investments and leading to increased rework and delays.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.430, Strength: 0.684">ⓘ</span>
@@ -47,7 +44,6 @@ Modernization ROI justification failure occurs when organizations cannot build c
 <br/>  The inherent complexity of the business domain in legacy systems obscures the understanding of technical debt and benefits, making it difficult to quantify modernization ROI and ultimately hindering the ability to present a compelling business case for investment.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.916">ⓘ</span>
 <br/>  The inability of developers to transition from procedural to object-oriented programming results in suboptimal code structures that obscure the true technical debt and potential benefits of modernization, thus undermining the ability to create strong business cases for legacy system upgrades.
 
@@ -61,7 +57,6 @@ Modernization ROI justification failure occurs when organizations cannot build c
 - Analyze financial planning horizons and investment decision frameworks
 - Review post-implementation analyses of approved modernization projects for lessons learned
 - Track technical debt accumulation costs and their impact on business agility
-
 
 ## Examples
 

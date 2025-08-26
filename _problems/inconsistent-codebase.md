@@ -24,7 +24,6 @@ layout: problem
 ## Description
 An inconsistent codebase lacks coherent and unified design, style, and standards. This manifests in multiple ways: different naming conventions and coding styles, varying formatting and structural patterns, mixed indentation styles, inconsistent brace styles, and the presence of multiple competing implementations of the same functionality. When every developer follows their own conventions, the result is a chaotic and unpredictable codebase that becomes difficult to understand, maintain, and extend. An inconsistent codebase is a major source of technical debt and a barrier to effective collaboration. Establishing and enforcing consistent coding standards is essential for creating a maintainable system.
 
-
 ## Indicators ⟡
 - It is difficult to find your way around the codebase.
 - You often have to ask other developers for help to understand the code.
@@ -33,9 +32,7 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 - There is no style guide for the project, or it exists but is not enforced.
 - There are frequent arguments about style in code reviews.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.595">ⓘ</span>
 <br/>  The lack of a uniform style, coding standards, and design patterns leads to increased complexity and confusion for developers, resulting in frustration and burnout as they struggle to navigate and maintain an inconsistent codebase.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.542">ⓘ</span>
@@ -48,7 +45,6 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  The lack of uniform style and standards in the codebase exacerbates the challenges of navigating and implementing the inherently complex business domain, leading to misunderstandings and errors in the system's functionality.
 
 ## Root Causes ▼
-
 - [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.946">ⓘ</span>
 <br/>  User confusion arises from the inconsistent implementation of similar features across the codebase, leading to varied behavior that developers struggle to standardize, ultimately perpetuating the lack of cohesion and clarity in the overall system design.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.928">ⓘ</span>
@@ -78,7 +74,6 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 - **Run a Linter or Formatter:** Run a tool like ESLint, Prettier, RuboCop, or Black on the codebase and observe the large number of reported violations.
 - **Team Surveys:** Ask developers if they find the codebase easy to read and understand, and about their experience with code readability and consistency.
 - **Analyze Code Review Comments:** Look for a high frequency of comments related to style and formatting. Observe recurring comments related to style during code reviews.
-
 
 ## Examples
 A developer is trying to fix a bug in a legacy module. They find that the module uses a completely different naming convention for variables and functions than the rest of the application. This makes it difficult to understand the code and to be confident that their fix will not have unintended side effects. In another case, a project has two different modules that both need to connect to a database. One module uses a connection pool library, while the other opens and closes a new connection for every query. This inconsistency makes the application harder to configure and debug.

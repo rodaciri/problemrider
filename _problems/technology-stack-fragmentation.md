@@ -26,7 +26,6 @@ layout: problem
 
 Technology stack fragmentation occurs when an organization accumulates multiple incompatible technology stacks across different legacy systems, creating isolated technology islands that cannot share tools, practices, or expertise. This problem develops over time as different systems are built with different technologies, often reflecting the technological preferences or constraints of their respective development periods. The result is increased operational complexity, duplicated effort, and inability to leverage economies of scale in technology management and staff expertise.
 
-
 ## Indicators ⟡
 
 - Multiple programming languages, frameworks, and platforms in use across different legacy systems
@@ -37,9 +36,7 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 - Procurement processes that must account for numerous different technology licensing and support needs
 - Integration projects that require extensive translation layers between incompatible technology stacks
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.646">ⓘ</span>
 <br/>  The isolation of technology islands leads to inconsistent implementations and fragmented understanding of the business domain, resulting in a convoluted domain model that is challenging to navigate and maintain.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.742">ⓘ</span>
@@ -52,7 +49,6 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 <br/>  The presence of isolated technology islands leads to uncertainty and confusion among teams regarding the best tools and practices to adopt, causing them to overanalyze options and delaying implementation, which manifests as a lack of progress in development work.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.937">ⓘ</span>
 <br/>  Shared dependencies among legacy systems lead to technology stack fragmentation by forcing isolated components to rely on different versions of the same libraries, resulting in inconsistencies and operational complexity that hinder standardization efforts across the organization.
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.927">ⓘ</span>
@@ -70,7 +66,6 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 - Monitor development productivity and knowledge sharing limitations due to technology diversity
 - Assess procurement costs and vendor management overhead for diverse technology portfolios
 - Compare operational efficiency against organizations with more standardized technology stacks
-
 
 ## Examples
 

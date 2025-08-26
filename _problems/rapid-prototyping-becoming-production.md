@@ -26,7 +26,6 @@ layout: problem
 
 Rapid prototyping becoming production occurs when code initially written as a quick prototype, proof-of-concept, or experimental implementation gets deployed to production without being properly engineered for production use. Prototype code typically lacks proper error handling, testing, documentation, security considerations, and scalable architecture because it was designed to demonstrate feasibility rather than serve real users. When this code becomes production software, it creates significant technical debt and reliability issues.
 
-
 ## Indicators ⟡
 
 - Production systems contain code with minimal error handling or validation
@@ -35,9 +34,7 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 - Code comments reference "TODO" items that were never addressed
 - Performance and scalability were not considered in system design
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.499, Strength: 0.719">ⓘ</span>
 <br/>  The lack of proper engineering practices in quickly developed prototypes leads to insufficient test coverage, as the urgency to deliver functionality often results in overlooking comprehensive quality assurance measures, thereby exposing critical areas of the legacy codebase to undetected issues.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.769">ⓘ</span>
@@ -82,7 +79,6 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 - **Error Handling Assessment:** Evaluate robustness of error handling and edge case management
 - **Security Audit:** Review security practices and vulnerability exposure
 - **Performance Testing:** Test system behavior under production-level loads
-
 
 ## Examples
 

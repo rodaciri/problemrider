@@ -26,7 +26,6 @@ layout: problem
 
 Increased cost of development occurs when the total expense of building and maintaining software becomes significantly higher than necessary due to quality issues, technical debt, or inefficient processes. This follows the principle that fixing problems becomes exponentially more expensive the later they're discovered in the development lifecycle. When systems accumulate technical debt and quality issues, every subsequent change becomes more expensive, creating a compounding effect on development costs.
 
-
 ## Indicators ⟡
 - Development estimates consistently increase for similar types of work
 - Bug fixing consumes a disproportionate amount of development resources
@@ -34,9 +33,7 @@ Increased cost of development occurs when the total expense of building and main
 - Emergency fixes and production support require significant overtime
 - Development velocity decreases while team size and costs increase
 
-
 ## Symptoms ▲
-
 - [Complex Implementation Paths](complex-implementation-paths.md) <span class="info-tooltip" title="Confidence: 0.540, Strength: 0.870">ⓘ</span>
 <br/>  Complex technical solutions arising from architectural constraints often lead to increased bug rates and maintenance challenges, which in turn escalate development costs as teams struggle to navigate the convoluted implementation paths.
 - [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.764">ⓘ</span>
@@ -80,7 +77,6 @@ Increased cost of development occurs when the total expense of building and main
 - **Bug Fix Cost Analysis:** Calculate the total cost of fixing bugs compared to feature development
 - **Velocity vs. Team Size:** Compare development output to team size and costs over time
 - **Technical Debt Impact Assessment:** Quantify how technical debt affects development estimates
-
 
 ## Examples
 

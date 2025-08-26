@@ -26,7 +26,6 @@ layout: problem
 
 Cargo culting represents a pervasive anti-pattern in software development where teams blindly adopt practices, technologies, or architectural patterns without critical evaluation. This phenomenon stems from a superficial understanding that prioritizes mimicry over comprehension, leading to solutions that appear sophisticated but fundamentally misalign with the organization's unique context and requirements. The term originates from Pacific Island cultures that mimicked Western practices after World War II, serving as a powerful metaphor for uncritical technological imitation.
 
-
 ## Indicators ⟡
 - Team members frequently reference "best practices" without explaining the reasoning behind them
 - Adoption of new technologies or patterns immediately after they gain popularity without evaluation
@@ -36,9 +35,7 @@ Cargo culting represents a pervasive anti-pattern in software development where 
 - Team cannot explain why certain practices or tools were chosen beyond "it's recommended"
 - Resistance to questioning or modifying adopted practices even when they don't fit the context
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.506, Strength: 0.771">ⓘ</span>
 <br/>  The uncritical adoption of technical solutions leads to a disconnect between developers and the tools they use, resulting in persistent environmental and codebase issues that foster frustration and burnout as they struggle to navigate and maintain systems that lack a foundational understanding.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.784">ⓘ</span>
@@ -80,7 +77,6 @@ Cargo culting represents a pervasive anti-pattern in software development where 
 - **Modification Difficulty:** Note areas where the team struggles to modify existing solutions
 - **Trend Analysis:** Compare technology adoption against broader industry trends
 - **Troubleshooting Assessment:** Evaluate the team's ability to independently resolve issues in adopted solutions
-
 
 ## Examples
 

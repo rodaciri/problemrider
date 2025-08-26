@@ -25,7 +25,6 @@ layout: problem
 
 A complex domain model occurs when the business domain that the software system needs to represent contains intricate rules, relationships, and concepts that are difficult to understand and implement correctly. This complexity can arise from regulatory requirements, legacy business processes, or naturally complex problem domains such as financial trading, healthcare, or scientific computing. The challenge is not just technical but also involves understanding and accurately representing complex business logic in code.
 
-
 ## Indicators ⟡
 
 - Business experts struggle to explain domain rules clearly to developers
@@ -34,13 +33,11 @@ A complex domain model occurs when the business domain that the software system 
 - Multiple stakeholders have different interpretations of the same business rules
 - Domain concepts require extensive background knowledge to understand
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.701, Strength: 0.934">ⓘ</span>
 <br/>  The lack of design skills leads to poorly structured representations of the complex business domain, resulting in a convoluted system that is difficult to understand and implement correctly.
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.677, Strength: 0.916">ⓘ</span>
@@ -239,7 +236,6 @@ A complex domain model occurs when the business domain that the software system 
 - **Implementation Time Tracking:** Monitor how long it takes to implement features relative to their apparent simplicity
 - **Bug Pattern Analysis:** Analyze whether bugs are typically related to business logic misunderstanding
 - **Documentation Volume:** Assess the amount of documentation required to explain domain concepts
-
 
 ## Examples
 

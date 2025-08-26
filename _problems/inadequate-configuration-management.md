@@ -25,7 +25,6 @@ layout: problem
 
 Inadequate configuration management occurs when organizations lack proper systems and processes to track, control, and manage changes to code, configuration files, infrastructure, and other system components throughout their lifecycle. This problem extends beyond simple version control to encompass the broader challenge of maintaining consistency and traceability across all elements that make up a software system, including deployment configurations, infrastructure definitions, and environmental settings.
 
-
 ## Indicators ⟡
 
 - Configuration changes made directly in production environments without tracking
@@ -36,16 +35,13 @@ Inadequate configuration management occurs when organizations lack proper system
 - No clear process for reviewing and approving configuration changes
 - Lack of audit trail for who made what changes and when
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.512, Strength: 0.755">ⓘ</span>
 <br/>  Inadequate tracking of code versions and configurations often results in poor test coverage, as developers may work with outdated or incorrect environments, leading to critical areas of the codebase being untested and vulnerable to errors.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.622">ⓘ</span>
 <br/>  The inability to track versions of code and infrastructure effectively leads to increased complexity and errors, making it difficult for developers unfamiliar with legacy systems to maintain or troubleshoot them, thereby highlighting the critical shortage of skilled personnel capable of managing these outdated technologies.
 
 ## Root Causes ▼
-
 - [Difficult Code Reuse](difficult-code-reuse.md) <span class="info-tooltip" title="Confidence: 0.527, Strength: 0.923">ⓘ</span>
 <br/>  The lack of modular and reusable code makes it challenging to implement proper versioning and tracking for configurations, resulting in errors and difficulties in managing changes across the software system.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.924">ⓘ</span>
@@ -192,7 +188,6 @@ Inadequate configuration management occurs when organizations lack proper system
 - Survey teams about configuration-related challenges and pain points
 - Analyze deployment failure rates related to configuration issues
 - Review configuration backup and recovery procedures and testing
-
 
 ## Examples
 

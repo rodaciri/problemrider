@@ -26,7 +26,6 @@ layout: problem
 
 Inefficient processes occur when the workflows, procedures, and organizational practices surrounding software development create unnecessary overhead and waste valuable development time. This includes excessive approvals, redundant meetings, unclear handoff procedures, manual processes that could be automated, and bureaucratic requirements that don't add meaningful value. These inefficiencies accumulate to significantly reduce the time available for actual software development and problem-solving.
 
-
 ## Indicators ⟡
 
 - Developers spend significant time on administrative tasks rather than coding
@@ -35,9 +34,7 @@ Inefficient processes occur when the workflows, procedures, and organizational p
 - Handoffs between team members or departments are slow and error-prone
 - Developers express frustration with "process overhead" or bureaucracy
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.797">ⓘ</span>
 <br/>  Constantly updated requirements stem from poorly defined workflows and excessive bureaucratic procedures, which hinder effective communication and consensus, ultimately leading to rework and delays in development.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.744">ⓘ</span>
@@ -78,7 +75,6 @@ Inefficient processes occur when the workflows, procedures, and organizational p
 - **Developer Surveys:** Ask team members about process pain points and suggestions for improvement
 - **Approval Time Tracking:** Measure how long decisions and approvals take to complete
 - **Meeting Audit:** Analyze meeting frequency, duration, and participant feedback on value
-
 
 ## Examples
 

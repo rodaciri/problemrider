@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Resource contention occurs when multiple processes or threads compete for the same limited resources, such as CPU, memory, or I/O. This competition can lead to performance degradation, as processes are forced to wait for resources to become available. In severe cases, it can lead to deadlocks or other forms of system instability. Understanding and managing resource contention is a key aspect of building scalable and performant systems.
 
-
 ## Indicators ⟡
 - The server is slow, even when there are no obvious signs of high CPU usage.
 - The server is using a lot of disk I/O, even when there is no heavy database load.
 - The server is unresponsive or sluggish.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.565, Strength: 0.805">ⓘ</span>
 <br/>  Unbounded data structures exacerbate resource contention by continuously consuming memory without release, ultimately leading to increased server load and diminished performance as the application struggles to manage limited resources.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.553, Strength: 0.825">ⓘ</span>
@@ -50,7 +47,6 @@ Resource contention occurs when multiple processes or threads compete for the sa
 <br/>  As the server struggles to allocate sufficient resources due to overload, users experience slow performance and task failures, leading to an increase in support inquiries as they seek assistance for issues arising from the system's inefficiency.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.911">ⓘ</span>
 <br/>  Insufficient funding due to escalating project costs limits investment in necessary infrastructure upgrades, leading to an overloaded server as the application struggles to operate effectively within constrained resources.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.883">ⓘ</span>
@@ -74,7 +70,6 @@ Resource contention occurs when multiple processes or threads compete for the sa
 - **Application Performance Monitoring (APM):** APM tools can often show resource utilization at the application level and help pinpoint which parts of the application are resource-intensive.
 - **Load Testing:** Simulate high load to identify resource bottlenecks and contention points.
 - **Profiling:** Use profiling tools to identify code sections that are consuming excessive CPU or memory.
-
 
 ## Examples
 A web server experiences slow response times during peak hours. Monitoring reveals that the CPU utilization is consistently at 100%. This indicates that the server does not have enough CPU capacity to handle the incoming requests. In another case, a database server is experiencing high I/O wait times. Investigation reveals that multiple applications are performing large, unindexed queries simultaneously, leading to disk contention. This problem is common in systems that are not properly scaled or where resource usage patterns have changed over time. It often requires a combination of capacity planning, code optimization, and infrastructure tuning to resolve.

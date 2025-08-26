@@ -25,7 +25,6 @@ layout: problem
 
 Priority thrashing occurs when work priorities change so frequently that team members cannot complete tasks before being redirected to different priorities. This creates a chaotic work environment where everything seems urgent, nothing gets completed efficiently, and team members constantly switch between tasks. The result is reduced productivity, increased stress, and difficulty completing any work to a high standard.
 
-
 ## Indicators ⟡
 
 - Team members frequently abandon partially completed work to address new priorities
@@ -34,9 +33,7 @@ Priority thrashing occurs when work priorities change so frequently that team me
 - Team struggles to complete any work items fully before being redirected
 - Emergency requests regularly disrupt planned work
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.764">ⓘ</span>
 <br/>  Frequent updates to project requirements indicate priority thrashing as they reflect the instability in work priorities, forcing teams to constantly adjust their focus and resulting in a cycle of rework and delays in legacy systems.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.699">ⓘ</span>
@@ -63,7 +60,6 @@ Priority thrashing occurs when work priorities change so frequently that team me
 - **Context Switch Tracking:** Measure how often team members switch between different types of work
 - **Emergency Request Analysis:** Track frequency and impact of urgent requests that disrupt planned work
 - **Team Satisfaction Surveys:** Assess team stress levels and satisfaction with work prioritization
-
 
 ## Examples
 

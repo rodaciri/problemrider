@@ -25,7 +25,6 @@ layout: problem
 
 Resource waste occurs when available capacity, skills, or tools are not utilized effectively while other parts of the organization remain constrained or overloaded. This inefficiency can manifest as idle team members while others work overtime, underutilized expensive tools while teams lack basic resources, or available expertise going unused while problems persist in related areas.
 
-
 ## Indicators ⟡
 
 - Some resources remain idle while others are overutilized
@@ -34,9 +33,7 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 - Resources are allocated based on historical patterns rather than current needs
 - Investment in resources doesn't translate to proportional productivity gains
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.714">ⓘ</span>
 <br/>  The ineffective utilization of resources in legacy systems leads to a reliance on a diminishing pool of skilled developers, resulting in bottlenecks that highlight the overall inefficiency and resource waste within system maintenance processes.
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.745">ⓘ</span>
@@ -61,7 +58,6 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 - **Capacity vs. Demand Analysis:** Compare available capacity with actual demand patterns
 - **Cross-Team Resource Sharing:** Identify opportunities for better resource utilization across teams
 - **Workflow Efficiency Review:** Assess whether processes make good use of available resources
-
 
 ## Examples
 

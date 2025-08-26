@@ -26,7 +26,6 @@ layout: problem
 
 Unclear goals and priorities occur when development teams lack clear, consistent direction about what they should be working on and why it matters. This manifests as frequently changing priorities, vague requirements, conflicting objectives from different stakeholders, or absence of clear success criteria. When developers don't understand the bigger picture or can't rely on priorities remaining stable, they lose motivation and struggle to make effective decisions about their work.
 
-
 ## Indicators ⟡
 - Priorities change frequently without clear explanation
 - Team members ask "what should I work on next?" regularly
@@ -34,16 +33,13 @@ Unclear goals and priorities occur when development teams lack clear, consistent
 - Work is started and then abandoned when priorities shift
 - Success criteria for projects are vague or undefined
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.571">ⓘ</span>
 <br/>  Constantly shifting priorities create a lack of consensus on project objectives, resulting in frequent updates to requirements that cause rework and delays, thereby highlighting the underlying confusion and lack of direction in the development process.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.625">ⓘ</span>
 <br/>  Constantly shifting priorities create confusion and misalignment within the team, leading to inefficiencies and diminished output as developers struggle to focus on tasks that lack clear direction and alignment with overarching goals.
 
 ## Root Causes ▼
-
 - [Changing Project Scope](changing-project-scope.md) <span class="info-tooltip" title="Confidence: 0.392, Strength: 0.873">ⓘ</span>
 <br/>  Frequent shifts in project direction disrupt the established workflow and alter team expectations, leading to confusion and a lack of focus, which ultimately results in unclear goals and priorities.
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.377, Strength: 0.937">ⓘ</span>
@@ -81,7 +77,6 @@ Unclear goals and priorities occur when development teams lack clear, consistent
 - **Developer Surveys:** Ask team members about clarity of goals and consistency of direction
 - **Stakeholder Alignment Assessment:** Evaluate whether different stakeholders are aligned on priorities
 - **Project Success Rate:** Track completion rates and success criteria achievement
-
 
 ## Examples
 

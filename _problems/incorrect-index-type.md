@@ -23,23 +23,19 @@ layout: problem
 ## Description
 Choosing the correct type of index is crucial for database performance. Different types of indexes are optimized for different types of data and queries. For example, a B-tree index is well-suited for range queries, while a hash index is better for equality lookups. Using the wrong type of index can lead to a significant degradation in performance, as the database will not be able to use the index effectively. A deep understanding of the different types of indexes and their use cases is essential for any developer who works with databases.
 
-
 ## Indicators ⟡
 - Queries are slow, even though they are using an index.
 - The database is not using an index that you expect it to use.
 - The database is using a full table scan, even though an index is available.
 - The database is using a less efficient index than you expect it to use.
 
-
 ## Symptoms ▲
-
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.570">ⓘ</span>
 <br/>  The use of an inappropriate index type can lead to slower query performance, which in turn makes the development environment feel sluggish and cumbersome, as developers spend excessive time waiting for data retrieval during coding and testing.
 - [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.671">ⓘ</span>
 <br/>  Inefficient data retrieval caused by the use of an inappropriate index type can lead to undetected performance issues during testing, revealing quality blind spots in the system's behavior and failure modes.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.886">ⓘ</span>
 <br/>  Long-running transactions can prevent timely analysis of query performance, leading developers to mistakenly choose inappropriate index types due to a lack of real-time feedback on retrieval efficiency.
 - [Lazy Loading](lazy-loading.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.866">ⓘ</span>
@@ -55,7 +51,6 @@ Choosing the correct type of index is crucial for database performance. Differen
 - **Database Indexing Advisors:** Some database systems provide tools that suggest optimal index types based on query workload.
 - **Performance Benchmarking:** Test queries with different index types to compare their performance.
 - **Schema Review:** Periodically review the database schema and index definitions in conjunction with application query patterns.
-
 
 ## Examples
 A database has a `users` table with a `status` column that can only be 'active' or 'inactive'. An index is created on this `status` column using a standard B-tree index. Queries filtering by `status` are still slow because the B-tree index is inefficient for low-cardinality columns where a full table scan might be faster or a bitmap index would be more appropriate. In another case, a search feature uses `LIKE '%keyword%'` queries on a `product_description` column. A standard B-tree index on this column is ineffective for leading wildcard searches. A full-text index would be the correct type for this use case. Choosing the correct index type is as important as having an index. A poorly chosen index can be worse than no index at all, as it adds overhead to write operations without providing significant query performance benefits. This is a common issue in legacy systems where indexing strategies may not have evolved with changing data access patterns.

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Style arguments in code reviews is a situation where a significant amount of time in code reviews is spent debating trivial style issues instead of focusing on logic and design. This is a common problem in teams that do not have a clear set of coding standards. Style arguments in code reviews can lead to a number of problems, including a decrease in productivity, an increase in frustration, and a general slowdown in the code review process.
 
-
 ## Indicators ⟡
 - Code reviews are often contentious.
 - There are a lot of comments about style in code reviews.
 - Code reviews take a long time to complete.
 - Developers are not happy with the code review process.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.626, Strength: 0.858">ⓘ</span>
 <br/>  The time wasted on trivial style debates during code reviews diverts focus from essential quality assurance practices, leading to critical areas of the codebase remaining untested and increasing vulnerability in legacy systems.
 - [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.788">ⓘ</span>
@@ -69,7 +66,6 @@ Style arguments in code reviews is a situation where a significant amount of tim
 - **Analyze Code Review Comments:** Look for a high frequency of comments related to style and formatting.
 - **Team Surveys:** Ask developers if they are happy with the code review process.
 - **Retrospectives:** Use retrospectives to identify problems with the code review process.
-
 
 ## Examples
 A developer submits a pull request for a new feature. The pull request is immediately met with a flurry of comments about style. One developer wants the developer to use tabs instead of spaces. Another developer wants the developer to use a different naming convention for variables. The developer spends the next few hours arguing with the other developers about style. The pull request is eventually merged, but not before a lot of time and energy has been wasted.

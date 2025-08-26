@@ -25,7 +25,6 @@ layout: problem
 
 Ripple effect of changes occurs when modifying one component necessitates changes in numerous other components throughout the system, even when those components should logically be independent. This indicates excessive coupling between system parts and poor separation of concerns. The ripple effect makes simple changes expensive and risky, as developers must modify and test multiple areas of the codebase for what should be isolated changes.
 
-
 ## Indicators ⟡
 - Simple feature changes require modifications across multiple modules or layers
 - Bug fixes in one area break functionality in unrelated areas
@@ -33,9 +32,7 @@ Ripple effect of changes occurs when modifying one component necessitates change
 - Developers regularly say "if we change this, we also need to change X, Y, and Z"
 - Impact analysis for changes consistently reveals more affected components than expected
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.608">ⓘ</span>
 <br/>  The interdependence of tightly coupled components leads to changes in one area often affecting others, resulting in critical code sections being overlooked during testing, which in turn manifests as insufficient test coverage and increases the risk of undetected issues in the system.
 - [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.778">ⓘ</span>
@@ -48,7 +45,6 @@ Ripple effect of changes occurs when modifying one component necessitates change
 <br/>  The need for extensive modifications across multiple system components due to high coupling can lead to overlooked regulatory updates, resulting in compliance gaps that indicate the system's inability to adapt efficiently to new requirements.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.906">ⓘ</span>
 <br/>  The requirement for modifications across multiple parts of the system arises because shared libraries and frameworks create tight coupling, where a change in one module can inadvertently affect others that rely on the same dependencies, complicating maintenance and increasing the risk of unintended consequences.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.920">ⓘ</span>
@@ -64,7 +60,6 @@ Ripple effect of changes occurs when modifying one component necessitates change
 - **Change Frequency Correlation:** Identify components that frequently change together, indicating coupling
 - **Developer Feedback:** Ask developers about the typical scope of changes they need to make
 - **Code Review Patterns:** Monitor how often reviews involve discussions about widespread changes
-
 
 ## Examples
 

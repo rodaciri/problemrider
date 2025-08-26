@@ -26,7 +26,6 @@ layout: problem
 
 Reduced innovation occurs when development teams lose their drive to explore new solutions, adopt better technologies, or improve existing processes. Instead of seeking creative solutions and embracing new approaches, teams become conservative and risk-averse, focusing only on maintaining the status quo and delivering the minimum viable work. This stagnation prevents organizations from evolving their technology stack, improving their processes, or finding better ways to solve business problems.
 
-
 ## Indicators ⟡
 - Team consistently chooses familiar solutions over potentially better alternatives
 - New technologies or methodologies are dismissed without proper evaluation
@@ -34,13 +33,11 @@ Reduced innovation occurs when development teams lose their drive to explore new
 - Architecture and design patterns remain unchanged despite known limitations
 - Team avoids experimenting with new tools, frameworks, or approaches
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Past Negative Experiences](past-negative-experiences.md) <span class="info-tooltip" title="Confidence: 0.700, Strength: 0.940">ⓘ</span>
 <br/>  Hesitance to modify the codebase due to previous failures leads to a culture of risk aversion, stifling creativity and resulting in a narrow focus on essential tasks rather than fostering innovative solutions.
 - [Limited Team Learning](limited-team-learning.md) <span class="info-tooltip" title="Confidence: 0.591, Strength: 0.904">ⓘ</span>
@@ -232,7 +229,6 @@ Reduced innovation occurs when development teams lose their drive to explore new
 - **Training and Conference Participation:** Measure team engagement with learning opportunities
 - **Process Evolution Analysis:** Assess whether development processes improve over time
 - **Innovation Surveys:** Ask team members about their willingness and ability to try new approaches
-
 
 ## Examples
 

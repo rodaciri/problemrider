@@ -24,7 +24,6 @@ layout: problem
 
 A poor domain model occurs when the software system fails to accurately represent the real-world business concepts, relationships, and rules it is meant to support. This leads to a fundamental disconnect between how the business operates and how the software models that operation. The resulting system becomes fragile, difficult to modify, and prone to bugs because the code structure doesn't align with business reality. This problem is especially critical in legacy modernization where existing poor models often get replicated rather than improved.
 
-
 ## Indicators ⟡
 
 - Business stakeholders and developers frequently talk past each other using different terminology
@@ -34,9 +33,7 @@ A poor domain model occurs when the software system fails to accurately represen
 - Domain experts expressing confusion about how the system represents their work
 - New team members struggling to understand the connection between code and business processes
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.650">ⓘ</span>
 <br/>  The lack of a clear and well-defined business domain model results in complex, unintuitive code, making it difficult for developers unfamiliar with the system's intricacies to maintain it, thereby highlighting the critical shortage of skilled personnel capable of navigating such convoluted legacy architectures.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.594">ⓘ</span>
@@ -45,7 +42,6 @@ A poor domain model occurs when the software system fails to accurately represen
 <br/>  The lack of a clear understanding and representation of core business concepts leads to an overcomplicated system structure, where the inherent complexity of the domain becomes exacerbated, making it harder to maintain and implement correctly.
 
 ## Root Causes ▼
-
 - [Scaling Inefficiencies](scaling-inefficiencies.md) <span class="info-tooltip" title="Confidence: 0.402, Strength: 0.904">ⓘ</span>
 <br/>  The inability to scale different parts of the system independently often leads to a convoluted and over-complicated architecture, which obscures core business concepts and hinders their proper reflection in the domain model, ultimately resulting in fragile logic and miscommunication.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.392, Strength: 0.925">ⓘ</span>
@@ -108,7 +104,6 @@ A poor domain model occurs when the software system fails to accurately represen
 - Interview domain experts about how well the system reflects their mental models
 - Review database schemas for tables and relationships that don't map to business concepts
 - Examine integration points where domain model mismatches cause translation complexity
-
 
 ## Examples
 

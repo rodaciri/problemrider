@@ -26,7 +26,6 @@ layout: problem
 
 Duplicated effort occurs when multiple team members work on the same problems, implement similar functionality, or research the same topics independently without realizing others are doing similar work. This represents wasted productivity and missed opportunities for collaboration, knowledge sharing, and more efficient resource utilization. Duplicated effort often indicates communication problems or inadequate coordination mechanisms within the team.
 
-
 ## Indicators ⟡
 
 - Multiple team members discover they've been working on similar problems
@@ -35,9 +34,7 @@ Duplicated effort occurs when multiple team members work on the same problems, i
 - Work assignments overlap without clear coordination
 - Different team members reach different conclusions about the same technical questions
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.704">ⓘ</span>
 <br/>  The constant overlap in tasks leads to wasted time and resources, causing frustration and exhaustion among developers who feel their efforts are redundant and unrecognized, ultimately contributing to a toxic work environment in legacy systems.
 - [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.462, Strength: 0.855">ⓘ</span>
@@ -102,7 +99,6 @@ Duplicated effort occurs when multiple team members work on the same problems, i
 - **Research Topic Tracking:** Monitor what team members are researching and investigating
 - **Sprint Planning Review:** Evaluate sprint plans for duplicated or overlapping work
 - **Retrospective Feedback:** Ask team members about instances of duplicated effort they've encountered
-
 
 ## Examples
 

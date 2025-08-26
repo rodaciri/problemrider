@@ -26,7 +26,6 @@ layout: problem
 
 Legacy business logic extraction difficulty occurs when critical business rules and processes are so deeply embedded within legacy system code that they become nearly impossible to identify, understand, and extract for modernization efforts. Unlike simple poorly documented code, this problem involves business logic that is intermingled with technical implementation details, scattered across multiple modules, expressed through implicit behaviors, or embedded in data structures and stored procedures. This makes modernization extremely risky as teams cannot confidently reproduce essential business behaviors in new systems.
 
-
 ## Indicators ⟡
 
 - Business rules that cannot be explained by current business stakeholders or documentation
@@ -37,14 +36,11 @@ Legacy business logic extraction difficulty occurs when critical business rules 
 - Business rules that are implemented through data values, configuration tables, or file-based settings
 - System behaviors that cannot be reproduced in test environments due to missing business context
 
-
 ## Symptoms ▲
-
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.569">ⓘ</span>
 <br/>  The difficulty in extracting critical business rules from deeply embedded legacy code leads to outdated compliance practices, as organizations struggle to adapt to new regulatory requirements without a clear understanding of the underlying logic.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.932">ⓘ</span>
 <br/>  The difficulty in extracting critical business rules arises because developers accustomed to procedural programming often write convoluted, procedural-style code within object-oriented frameworks, obscuring the logic and making it challenging to isolate essential business rules.
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.880">ⓘ</span>
@@ -94,7 +90,6 @@ Legacy business logic extraction difficulty occurs when critical business rules 
 - Compare business process documentation with actual system behavior through testing
 - Use code complexity metrics to identify areas where business and technical logic are intermingled
 - Conduct business impact analysis to identify critical behaviors that must be preserved
-
 
 ## Examples
 

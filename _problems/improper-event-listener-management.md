@@ -18,7 +18,6 @@ layout: problem
 
 Improper event listener management occurs when applications register event handlers or observers but fail to properly unregister them when the associated objects or components are destroyed. This creates lingering references that prevent garbage collection and can lead to memory leaks, unexpected behavior, and resource exhaustion. The problem is particularly common in GUI applications, web applications, and event-driven architectures.
 
-
 ## Indicators ⟡
 
 - Memory usage increases with user interface interactions or component creation/destruction cycles
@@ -27,16 +26,13 @@ Improper event listener management occurs when applications register event handl
 - Memory profiling shows objects that should be garbage collected remaining in memory
 - Unexpected side effects occur from event handlers that should no longer be active
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.631">ⓘ</span>
 <br/>  The failure to remove event listeners when associated objects are destroyed leads to persistent references that prevent garbage collection, resulting in memory retention that contributes to unbounded growth of data structures and caches as they accumulate unnecessary objects and information over time.
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.694">ⓘ</span>
 <br/>  The failure to remove event listeners when objects are destroyed leads to persistent references that prevent garbage collection, causing data structures to accumulate unchecked and grow indefinitely, ultimately resulting in memory exhaustion and performance issues.
 
 ## Root Causes ▼
-
 - [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.887">ⓘ</span>
 <br/>  Insufficient monitoring and observability in legacy systems hinder the early detection of event listener mismanagement, allowing memory leaks to accumulate unchecked and exacerbating performance issues over time.
 
@@ -48,7 +44,6 @@ Improper event listener management occurs when applications register event handl
 - **Reference Graph Analysis:** Examine object reference graphs to identify event-related circular references
 - **Performance Monitoring:** Monitor event dispatch performance to identify overhead from inactive listeners
 - **Static Code Analysis:** Identify patterns where event listeners are registered without corresponding cleanup
-
 
 ## Examples
 

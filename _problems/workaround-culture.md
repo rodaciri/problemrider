@@ -26,7 +26,6 @@ layout: problem
 
 Workaround culture develops when teams consistently choose to implement temporary solutions or circumvent problems rather than addressing their root causes. This creates an environment where layers of patches, hacks, and workarounds accumulate over time, making the system increasingly complex and unpredictable. While individual workarounds might seem like pragmatic short-term solutions, they collectively create a maintenance nightmare that makes future development more difficult and error-prone.
 
-
 ## Indicators ⟡
 - Solutions frequently involve "working around" existing system limitations
 - Code comments contain phrases like "temporary fix," "hack," or "TODO: fix properly later"
@@ -34,9 +33,7 @@ Workaround culture develops when teams consistently choose to implement temporar
 - New features require extensive workarounds to integrate with existing systems
 - Developers routinely discuss "the proper way" versus "the way that works"
 
-
 ## Symptoms ▲
-
 - [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.802">ⓘ</span>
 <br/>  The reliance on increasingly complex workarounds to avoid addressing underlying issues leads to confusion, inefficiencies, and miscommunication within the team, ultimately resulting in a slowdown of development velocity as more time is spent navigating these temporary solutions rather than delivering new features or fixes.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.497, Strength: 0.703">ⓘ</span>
@@ -76,7 +73,6 @@ Workaround culture develops when teams consistently choose to implement temporar
 - **Change Impact Analysis:** Identify areas where simple changes require complex workarounds
 - **Developer Surveys:** Ask team members about their experience with workarounds versus proper solutions
 - **Documentation Review:** Look for excessive complexity in setup or deployment procedures due to workarounds
-
 
 ## Examples
 

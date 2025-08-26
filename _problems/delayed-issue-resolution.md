@@ -26,7 +26,6 @@ layout: problem
 
 Delayed issue resolution occurs when identified problems remain unfixed for extended periods because no one takes clear responsibility for addressing them. This creates a situation where issues are recognized, documented, and discussed, but never actually resolved, leading to accumulated technical debt, user frustration, and system degradation over time. The delay often stems from unclear ownership, competing priorities, or the assumption that someone else will handle the problem.
 
-
 ## Indicators ⟡
 
 - Issue tracking systems show problems that remain open for months without progress
@@ -35,9 +34,7 @@ Delayed issue resolution occurs when identified problems remain unfixed for exte
 - Problems are escalated through multiple people without clear resolution ownership
 - Known issues are worked around rather than fixed
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.677">ⓘ</span>
 <br/>  The failure to address underlying issues in the system leads to prolonged response times, causing services that rely on timely API interactions to exceed their timeout thresholds, thereby highlighting the consequences of unresolved problems.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.679">ⓘ</span>
@@ -62,7 +59,6 @@ Delayed issue resolution occurs when identified problems remain unfixed for exte
 <br/>  The lack of accountability in addressing issues leads to unresolved bugs, such as memory leaks, which accumulate over time and signify systemic neglect, ultimately resulting in performance degradation and user dissatisfaction.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.907">ⓘ</span>
 <br/>  The presence of shared dependencies creates a complex interdependency among components, making it difficult for teams to identify ownership and accountability for issues, which ultimately leads to prolonged resolution times and increased technical debt.
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.867">ⓘ</span>
@@ -80,7 +76,6 @@ Delayed issue resolution occurs when identified problems remain unfixed for exte
 - **User Complaint Tracking:** Monitor recurring complaints about the same unresolved problems
 - **Workaround Documentation:** Identify areas where teams document workarounds instead of fixes
 - **Meeting Minutes Analysis:** Look for repeated discussions of the same unresolved issues
-
 
 ## Examples
 

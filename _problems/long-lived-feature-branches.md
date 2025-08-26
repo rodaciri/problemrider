@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Long-lived feature branches are a common problem in teams that use a branching model for development. When a feature branch is kept separate from the main branch for an extended period of time, it can become difficult and risky to merge back in. The longer a branch lives, the more it diverges from the main branch, increasing the likelihood of merge conflicts and making it harder to integrate the changes. This can lead to a "merge hell" scenario, where a significant amount of time is spent resolving conflicts instead of delivering value.
 
-
 ## Indicators ⟡
 - Feature branches are often days or weeks old.
 - Merging a feature branch is a major event that requires a lot of coordination.
 - The team is constantly dealing with merge conflicts.
 - The team is afraid to merge feature branches for fear of breaking something.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.677">ⓘ</span>
 <br/>  The prolonged existence of unmerged code leads to mounting technical debt and integration challenges, which frustrate developers as they grapple with an increasingly complex and unstable codebase, ultimately contributing to their disengagement and burnout.
 - [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.794">ⓘ</span>
@@ -58,7 +55,6 @@ Long-lived feature branches are a common problem in teams that use a branching m
 <br/>  The accumulation of unmerged code leads to a backlog that stifles collaboration and experimentation, causing teams to prioritize immediate fixes over innovative solutions, ultimately hindering progress and adaptation in the system.
 
 ## Root Causes ▼
-
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.934">ⓘ</span>
 <br/>  Excessive API response times lead to delays in development and testing cycles, causing code changes to accumulate in feature branches without timely reviews or merges, ultimately resulting in integration challenges and increased risk.
 
@@ -68,7 +64,6 @@ Long-lived feature branches are a common problem in teams that use a branching m
 - **Code Review Metrics:** Track the time it takes for pull requests to be reviewed and merged.
 - **Build/Deployment Frequency:** Observe how often the main branch is built and deployed.
 - **Developer Feedback:** Ask developers about their experiences with merge conflicts and integration challenges.
-
 
 ## Examples
 A team is developing a major new module for an application. The development takes three months on a single feature branch. When it's time to merge, there are hundreds of conflicts with the main branch, and the team spends weeks resolving them, delaying the release. In another case, a developer works on a new feature for several weeks without pushing their changes or creating a pull request. Meanwhile, another developer makes a related change on the main branch. When the first developer finally tries to merge, their changes are incompatible, requiring significant rework. This problem is often a symptom of a team that has not fully embraced continuous integration or agile development practices. It can lead to significant technical debt and slow down the overall development process.

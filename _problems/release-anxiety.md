@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Release anxiety is the feeling of stress and fear that developers experience when they are about to deploy a new version of their software. This is a common problem in organizations with a poor release process and a culture of blame. When releases are risky and failures are common, it is natural for developers to be anxious about them. This anxiety can have a negative impact on the team's morale and productivity. It can also lead to a reluctance to release new features, which can have a negative impact on the business.
 
-
 ## Indicators ⟡
 - The team is visibly stressed and anxious on release day.
 - There is a lot of finger-pointing and blame when things go wrong.
 - The team is hesitant to take on risky tasks.
 - There is a general lack of confidence in the release process.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.560, Strength: 0.767">ⓘ</span>
 <br/>  Constant updates to project requirements stem from the development team's fear of deployment failures, prompting them to seek changes that might mitigate risks, thereby indicating underlying release anxiety.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.545, Strength: 0.764">ⓘ</span>
@@ -83,7 +80,6 @@ Release anxiety is the feeling of stress and fear that developers experience whe
 - **Team Retrospectives:** Discuss the team's feelings about releases in your retrospectives.
 - **Release Day Behavior:** Observe the team's behavior on release day. Are they stressed and anxious?
 - **Willingness to Release:** Is the team eager to release new features, or are they hesitant?
-
 
 ## Examples
 A company has a culture of blame. When a release fails, the first question that is asked is, "Whose fault is it?" As a result, developers are afraid to take risks, and they are very anxious about releases. The company's release process is also very manual and error-prone, which only adds to the anxiety. The team has a long list of features that they would like to release, but they are afraid to do so for fear of failure.

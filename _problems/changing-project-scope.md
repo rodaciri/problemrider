@@ -25,7 +25,6 @@ layout: problem
 
 Changing project scope occurs when project requirements, goals, or deliverables are frequently modified during development, often without proper assessment of the impact on timeline, resources, or team morale. This creates uncertainty about what the team is building, disrupts established development momentum, and forces constant re-planning and rework. Teams lose focus and struggle to make meaningful progress when direction changes frequently.
 
-
 ## Indicators ⟡
 
 - Project requirements change multiple times within short periods
@@ -34,9 +33,7 @@ Changing project scope occurs when project requirements, goals, or deliverables 
 - Stakeholders provide conflicting or evolving requirements
 - Development estimates become unreliable due to shifting targets
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.777">ⓘ</span>
 <br/>  Frequent shifts in project direction lead to confusion and rework among team members, resulting in diminished productivity as they struggle to adapt to changing requirements and prioritize tasks effectively.
 - [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.777">ⓘ</span>
@@ -51,7 +48,6 @@ Changing project scope occurs when project requirements, goals, or deliverables 
 <br/>  Frequent shifts in project direction lead to teams becoming overwhelmed by the need to reassess requirements and conduct additional research, which hinders their ability to move forward with implementation and results in stagnation in development efforts.
 
 ## Root Causes ▼
-
 - [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.888">ⓘ</span>
 <br/>  The tendency to introduce unnecessary features leads to shifts in project direction as developers prioritize unrequested enhancements over established requirements, causing confusion and hindering progress in legacy systems.
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.843">ⓘ</span>
@@ -70,7 +66,6 @@ Changing project scope occurs when project requirements, goals, or deliverables 
 - **Stakeholder Alignment Surveys:** Assess whether different stakeholders have consistent understanding of goals
 - **Requirements Traceability Analysis:** Map how requirements evolve over time
 - **Team Morale Monitoring:** Regular check-ins on team satisfaction and clarity
-
 
 ## Examples
 

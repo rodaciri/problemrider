@@ -24,15 +24,12 @@ layout: problem
 ## Description
 Large feature scope is a problem that occurs when a feature is too large and complex to be developed and delivered in a single, short iteration. This can lead to a number of problems, including long-lived feature branches, a lack of visibility into the progress of the feature, and a high risk of integration problems. Breaking down large features into smaller, more manageable chunks is a key principle of agile development, and it is essential for reducing risk and delivering value to users more quickly.
 
-
 ## Indicators ⟡
 - Features are consistently taking longer to develop than expected.
 - The team is frequently dealing with merge conflicts and integration problems.
 - There is a lack of visibility into the progress of a feature.
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.722">ⓘ</span>
 <br/>  The inability to break down features into smaller increments leads to prolonged development cycles and complex integration challenges, which in turn consume team resources and time, ultimately diminishing overall productivity and effectiveness.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.593">ⓘ</span>
@@ -51,7 +48,6 @@ Large feature scope is a problem that occurs when a feature is too large and com
 <br/>  The inability to decompose large features into manageable increments often leads to complex, unwieldy codebases that strain the development environment, resulting in inefficiencies and delays as teams struggle with slow builds and cumbersome integration processes.
 
 ## Root Causes ▼
-
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.903">ⓘ</span>
 <br/>  Slow response times from dependent services hinder the ability to iteratively test and integrate smaller features, resulting in an accumulation of large, complex changes that are difficult to manage and merge effectively.
 - [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.843">ⓘ</span>
@@ -67,7 +63,6 @@ Large feature scope is a problem that occurs when a feature is too large and com
 - **Track Feature Lead Time:** Monitor the time it takes to develop and deliver a feature, from the initial idea to the final release.
 - **Analyze Branching Strategy:** Look for long-lived feature branches in the version control system.
 - **Team Retrospectives:** Discuss the challenges the team is facing with large features and identify ways to break them down into smaller pieces.
-
 
 ## Examples
 A team is tasked with building a new reporting module for an application. The module is very complex and has a large number of features. The team decides to build the entire module on a single feature branch. The development takes several months, and when the team is finally ready to merge the branch, they are faced with a massive number of merge conflicts and integration problems. It takes them several more weeks to resolve the issues and release the feature. This is a classic example of how a large feature scope can lead to significant delays and a high level of risk.

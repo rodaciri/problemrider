@@ -26,7 +26,6 @@ layout: problem
 
 New hire frustration occurs when recently hired developers, regardless of their experience level, experience significant stress and dissatisfaction due to their inability to contribute meaningfully to the team within a reasonable timeframe. This frustration stems from various barriers such as complex systems, poor documentation, knowledge silos, or inadequate support structures that prevent new team members from reaching productivity quickly and feeling valued.
 
-
 ## Indicators ⟡
 
 - New hires express dissatisfaction during check-ins or surveys
@@ -35,16 +34,13 @@ New hire frustration occurs when recently hired developers, regardless of their 
 - High turnover rate among recently hired developers
 - New hires spend most of their time waiting for help or guidance rather than working independently
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.672">ⓘ</span>
 <br/>  Constant updates to project requirements often stem from new hires' lack of familiarity with legacy systems, leading to confusion and misalignment, which in turn fosters frustration and hampers their ability to contribute effectively.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.730">ⓘ</span>
 <br/>  The barriers faced by new developers hinder their ability to integrate and contribute, leading to inefficiencies and a decline in overall team productivity as the legacy systems struggle to accommodate fresh perspectives and adapt to modern practices.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.586, Strength: 0.952">ⓘ</span>
 <br/>  The presence of specific team members or processes that act as constraints hinders the flow of work, leading to delays and obstructions that frustrate newly hired developers who are eager to contribute effectively.
 - [Approval Dependencies](approval-dependencies.md) <span class="info-tooltip" title="Confidence: 0.509, Strength: 0.875">ⓘ</span>
@@ -129,7 +125,6 @@ New hire frustration occurs when recently hired developers, regardless of their 
 - **Time to First Contribution:** Measure how long new hires take to make meaningful contributions and correlate with satisfaction
 - **Mentor Feedback:** Collect input from mentors about new hire engagement and progress
 - **Productivity Tracking:** Monitor new hire output and engagement levels over their first few months
-
 
 ## Examples
 

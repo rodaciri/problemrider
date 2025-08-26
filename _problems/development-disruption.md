@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Development disruption is a state where the development team is unable to focus on planned work due to a constant stream of interruptions. These interruptions can come from a variety of sources, such as production issues, urgent requests from stakeholders, or poorly defined requirements. When development is constantly disrupted, it is difficult for the team to make progress on its goals, and it can lead to a decline in both productivity and morale. This is a common problem in organizations that have a reactive, rather than a proactive, approach to software development.
 
-
 ## Indicators ⟡
 - The team is constantly context-switching between different tasks.
 - It is difficult for the team to get into a state of flow.
 - The team is frequently missing its deadlines for planned work.
 - There is a sense of frustration and chaos in the team's daily work.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.598, Strength: 0.829">ⓘ</span>
 <br/>  Constant interruptions from urgent production issues lead to incomplete understanding or alignment on project requirements, causing them to change frequently and resulting in rework and delays.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.552, Strength: 0.804">ⓘ</span>
@@ -78,7 +75,6 @@ Development disruption is a state where the development team is unable to focus 
 - **Time in Flow:** Survey the team to find out how much time they are able to spend in a state of deep focus.
 - **Task Switching Frequency:** Track how often developers have to switch between different tasks.
 - **Planned vs. Unplanned Work:** Track the percentage of the team's time that is spent on planned versus unplanned work.
-
 
 ## Examples
 A development team is working on a new feature for a web application. However, they are constantly being interrupted by requests from the marketing team to make small changes to the website. The team is also frequently pulled off of their work to fix production issues. As a result, the team is making very little progress on the new feature, and they are becoming increasingly frustrated. The constant interruptions are also leading to a decline in the quality of their work, and they are making more mistakes than usual.

@@ -25,7 +25,6 @@ layout: problem
 
 Poor naming conventions occur when code elements such as variables, functions, classes, modules, and files are given names that fail to clearly communicate their purpose, behavior, or content. This includes names that are too short, too generic, misleading, inconsistent, or use unclear abbreviations. Poor naming forces developers to spend additional mental effort understanding code, increases the likelihood of mistakes, and makes maintenance more difficult.
 
-
 ## Indicators ⟡
 
 - Variable and function names require additional comments to explain their purpose
@@ -34,9 +33,7 @@ Poor naming conventions occur when code elements such as variables, functions, c
 - Class names are too generic or don't represent clear concepts
 - Team members frequently ask about the meaning of specific names during code reviews
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.696">ⓘ</span>
 <br/>  When code elements are poorly named, it becomes difficult for developers to understand their functionality, leading to overlooked areas in testing and resulting in inadequate test coverage.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.754">ⓘ</span>
@@ -63,7 +60,6 @@ Poor naming conventions occur when code elements such as variables, functions, c
 - **Developer Surveys:** Ask team members about areas where naming makes code difficult to understand
 - **Code Comprehension Testing:** Measure how quickly developers can understand code with different naming patterns
 - **Name Length and Clarity Analysis:** Analyze the distribution of name lengths and use of abbreviations
-
 
 ## Examples
 

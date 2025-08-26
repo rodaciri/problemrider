@@ -23,15 +23,12 @@ layout: problem
 ## Description
 Complex and obscure logic is code that is difficult to read, understand, and reason about. This can be due to a variety of factors, including convoluted control flow, unclear naming, a lack of comments, or the use of overly clever or esoteric language features. This type of code is a significant contributor to technical debt, as it is difficult and risky to maintain or modify.
 
-
 ## Indicators ⟡
 - Developers avoid working on certain parts of the codebase.
 - It takes a long time for new developers to become productive in a particular area of the code.
 - There are frequent discussions and debates about how a particular piece of code works.
 
-
 ## Symptoms ▲
-
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.600, Strength: 0.809">ⓘ</span>
 <br/>  The convoluted logic and lack of clarity in the code hinder the ability to accurately interpret and implement evolving regulatory requirements, leading to compliance gaps that manifest as increased risk and costs.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.540, Strength: 0.796">ⓘ</span>
@@ -79,7 +76,6 @@ Complex and obscure logic is code that is difficult to read, understand, and rea
 - **Code Complexity Metrics:** Use static analysis tools to measure metrics like cyclomatic complexity, which can help to identify overly complex code.
 - **Code Reviews:** Pay close attention to code that is difficult to understand during code reviews.
 - **Developer Feedback:** Solicit feedback from developers about which parts of the codebase are the most difficult to work with.
-
 
 ## Examples
 A function that is supposed to perform a simple calculation is written as a single, massive block of nested `if-else` statements with no comments and cryptic variable names. It takes a new developer days to understand what the function is doing, and even then, they are not confident enough to make changes to it for fear of breaking something. This is a classic example of how complex and obscure logic can create a significant maintenance burden.

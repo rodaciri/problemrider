@@ -25,7 +25,6 @@ layout: problem
 
 Resource allocation failures occur when applications acquire system resources such as file handles, database connections, network sockets, or memory allocations but fail to properly release them when they are no longer needed. This leads to resource exhaustion where the system runs out of available resources, causing application failures, performance degradation, or system instability. The problem is particularly severe in long-running applications and servers.
 
-
 ## Indicators ⟡
 
 - Application fails to open files or establish connections after running for a period
@@ -34,9 +33,7 @@ Resource allocation failures occur when applications acquire system resources su
 - Network socket operations fail with resource unavailable errors
 - System monitoring shows steadily increasing resource usage without corresponding deallocation
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.630, Strength: 0.819">ⓘ</span>
 <br/>  When system resources are not properly deallocated, it leads to exhaustion, causing delays in processing requests that result in timeouts for services relying on those resources.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.575, Strength: 0.827">ⓘ</span>
@@ -84,7 +81,6 @@ Resource allocation failures occur when applications acquire system resources su
 - **Load Testing:** Run sustained load tests to identify resource leaks under operational conditions
 - **System Resource Limits:** Monitor system-level resource consumption and limits
 - **Connection Pool Monitoring:** Track database and network connection pool utilization
-
 
 ## Examples
 

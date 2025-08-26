@@ -26,7 +26,6 @@ layout: problem
 
 Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxious about conducting code reviews, often due to lack of confidence in their abilities, fear of missing important issues, or concern about providing incorrect feedback. This anxiety leads to review avoidance, superficial reviews that focus only on obvious issues, or excessive time spent on reviews due to over-analysis and self-doubt.
 
-
 ## Indicators ⟡
 
 - Team members volunteer to write code but avoid reviewing others' code
@@ -35,9 +34,7 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 - Reviewers spend excessive time on simple changes due to uncertainty
 - Team members express discomfort or stress about their reviewing responsibilities
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.681">ⓘ</span>
 <br/>  The anxiety surrounding code reviews leads to insufficient feedback and unresolved issues in the codebase, creating a frustrating environment for developers who feel their work is not adequately evaluated or improved, ultimately resulting in demotivation and burnout.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.756">ⓘ</span>
@@ -60,7 +57,6 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 - **Review Time Patterns:** Monitor unusually long review times that might indicate anxiety-driven over-analysis
 - **Team Surveys:** Collect feedback about comfort levels and confidence in reviewing code
 - **Review Feedback Quality:** Assess whether reviews catch important issues or focus only on surface problems
-
 
 ## Examples
 

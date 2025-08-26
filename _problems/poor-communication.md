@@ -26,7 +26,6 @@ layout: problem
 
 Poor communication occurs when team members fail to effectively share information, coordinate work, or collaborate on problem-solving. This breakdown in communication can result from various factors including burnout, remote work challenges, personality conflicts, or systemic issues that discourage open dialogue. In software development, poor communication leads to duplicated effort, misaligned solutions, and missed opportunities for knowledge sharing and collective problem-solving.
 
-
 ## Indicators ⟡
 - Team members work in isolation rather than collaborating on solutions
 - Important decisions are made without consulting relevant stakeholders
@@ -34,9 +33,7 @@ Poor communication occurs when team members fail to effectively share informatio
 - Meetings are unproductive with little meaningful discussion
 - Team members frequently discover they've been working on overlapping or conflicting tasks
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.573, Strength: 0.796">ⓘ</span>
 <br/>  The lack of effective communication among developers leads to misunderstandings and misalignment on project goals, causing requirements to change frequently as teams fail to collaborate on a unified vision, resulting in rework and delays.
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.786">ⓘ</span>
@@ -69,7 +66,6 @@ Poor communication occurs when team members fail to effectively share informatio
 <br/>  Ineffective communication among developers leads to a lack of shared awareness regarding project status, resulting in poor monitoring and control of progress, which allows issues to escalate unnoticed.
 
 ## Root Causes ▼
-
 - [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.913">ⓘ</span>
 <br/>  The need to deploy multiple interdependent components simultaneously creates barriers to communication, as developers focus on coordinating their efforts around deployment schedules instead of collaborating on code quality and problem-solving, leading to isolation and disengagement.
 
@@ -79,7 +75,6 @@ Poor communication occurs when team members fail to effectively share informatio
 - **Team Surveys:** Regular feedback about communication effectiveness and collaboration quality
 - **Meeting Effectiveness:** Assess whether team meetings result in meaningful information exchange
 - **Issue Resolution Patterns:** Analyze whether problems could have been solved faster with better communication
-
 
 ## Examples
 

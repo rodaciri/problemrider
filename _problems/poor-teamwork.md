@@ -26,7 +26,6 @@ layout: problem
 
 Poor teamwork manifests when team members fail to collaborate effectively, work in isolation, or actively resist working together toward common goals. This can include lack of communication, unwillingness to share knowledge, competition instead of collaboration, or personality conflicts that interfere with professional relationships. Poor teamwork reduces the collective capability of the team and prevents the synergistic benefits that come from effective collaboration.
 
-
 ## Indicators ⟡
 
 - Team members consistently work on tasks independently without seeking input
@@ -35,16 +34,13 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 - Decisions are made in isolation without consulting affected colleagues
 - Little or no cross-training or knowledge sharing between team members
 
-
 ## Symptoms ▲
-
 - [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.716">ⓘ</span>
 <br/>  Poor collaboration and mutual respect among team members lead to fragmented knowledge sharing and insufficient communication, resulting in critical system behaviors and failure modes being overlooked during testing and verification processes.
 - [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.695">ⓘ</span>
 <br/>  The high defect rate in production arises from poor collaboration and communication among team members, leading to incomplete requirements, insufficient testing coverage, and unresolved issues that culminate in increased bugs being released into the live environment.
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.896">ⓘ</span>
 <br/>  Focusing on trivial issues fosters frustration and disengagement among team members, leading to isolation and a lack of collaboration as they feel their contributions are undervalued, ultimately diminishing the team's overall effectiveness in managing legacy systems.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.909">ⓘ</span>
@@ -153,7 +149,6 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 - **Conflict Resolution Tracking:** Monitor frequency and resolution of team conflicts
 - **Team Performance Metrics:** Compare individual productivity with team collective output
 - **Team Health Surveys:** Anonymous feedback about team dynamics and collaboration
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Conflicting reviewer opinions occur when multiple team members reviewing the same code change provide contradictory or incompatible feedback and suggestions. This creates confusion for the author who must navigate between opposing viewpoints, often leading to multiple revision cycles as changes made to address one reviewer's concerns are criticized by another reviewer. The problem is particularly acute when reviewers have different philosophies about code design, testing, or implementation approaches.
 
-
 ## Indicators ⟡
 
 - The same code change receives opposite recommendations from different reviewers
@@ -35,9 +34,7 @@ Conflicting reviewer opinions occur when multiple team members reviewing the sam
 - Multiple revision rounds result from conflicting suggestions rather than iterative improvement
 - Authors express confusion about which feedback to prioritize
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.486, Strength: 0.726">ⓘ</span>
 <br/>  Conflicting guidance from multiple reviewers leads to confusion and delays in code changes, causing developers to feel overwhelmed and frustrated, ultimately contributing to their disengagement and burnout in the challenging environment of legacy systems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.652">ⓘ</span>
@@ -76,7 +73,6 @@ Conflicting reviewer opinions occur when multiple team members reviewing the sam
 - **Author Revision Patterns:** Analyze whether code changes flip back and forth between different approaches
 - **Reviewer Agreement Assessment:** Evaluate how often reviewers agree on significant design decisions
 - **Team Survey on Review Conflicts:** Collect feedback on frequency and impact of conflicting review opinions
-
 
 ## Examples
 

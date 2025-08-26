@@ -26,7 +26,6 @@ layout: problem
 
 Team confusion occurs when team members lack clear understanding of what they should be working on, how they should approach their work, or how their work fits into broader project goals. This confusion leads to misaligned efforts, duplicated work, and wasted resources as team members work based on different assumptions or interpretations of requirements and priorities.
 
-
 ## Indicators ⟡
 
 - Team members frequently ask for clarification about basic project goals or priorities
@@ -35,9 +34,7 @@ Team confusion occurs when team members lack clear understanding of what they sh
 - Team meetings spend excessive time on clarification rather than decision-making
 - Multiple team members work on the same problems without coordination
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.721">ⓘ</span>
 <br/>  Constantly changing requirements indicate a lack of clarity and consensus among team members about project goals and processes, resulting in ongoing confusion that disrupts alignment and leads to frequent adjustments in development efforts.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.590">ⓘ</span>
@@ -48,7 +45,6 @@ Team confusion occurs when team members lack clear understanding of what they sh
 <br/>  The lack of clarity in project goals and responsibilities can create a sense of urgency that pushes team members to prioritize quick fixes over thorough solutions, resulting in rushed decisions and a decline in software quality as they scramble to meet unclear expectations.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.959">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks creates ambiguous expectations and interactions among team members, leading to confusion about project goals, priorities, and responsibilities as they struggle to navigate interdependencies without clear guidance.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.924">ⓘ</span>
@@ -71,7 +67,6 @@ Team confusion occurs when team members lack clear understanding of what they sh
 - **Clarification Request Tracking:** Monitor frequency of requests for clarification or direction
 - **Work Output Analysis:** Assess whether completed work aligns with intended outcomes
 - **Meeting Content Analysis:** Evaluate how much meeting time is spent on clarification versus progress
-
 
 ## Examples
 

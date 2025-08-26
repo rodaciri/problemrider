@@ -25,7 +25,6 @@ layout: problem
 
 Procedural programming in OOP languages occurs when developers write code using procedural paradigms within object-oriented programming languages, failing to leverage the benefits of object-oriented design principles. This results in code that resembles procedural programs with long sequences of statements, minimal use of classes and objects, and poor encapsulation. While procedural programming has its place, using it inappropriately in object-oriented contexts leads to code that's difficult to maintain, test, and extend.
 
-
 ## Indicators ⟡
 - Classes contain primarily static methods with little or no instance state
 - Long methods that perform multiple sequential operations without meaningful object interactions
@@ -33,13 +32,11 @@ Procedural programming in OOP languages occurs when developers write code using 
 - Minimal use of inheritance, polymorphism, or other object-oriented features
 - Code resembles a series of utility functions rather than interacting objects
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.947">ⓘ</span>
 <br/>  The lack of bundling data with its associated behavior results in developers resorting to procedural coding practices, as they struggle to effectively manage and encapsulate functionality within the constraints of an object-oriented framework, leading to large, monolithic functions that undermine the principles of encapsulation.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.937">ⓘ</span>
@@ -65,7 +62,6 @@ Procedural programming in OOP languages occurs when developers write code using 
 - **Method Length Analysis:** Look for unusually long methods that perform sequential operations
 - **Object Interaction Analysis:** Examine whether objects interact meaningfully or just serve as data containers
 - **Design Pattern Usage:** Assess whether code leverages object-oriented design patterns appropriately
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Poor documentation occurs when the written information about a system, its architecture, business rules, APIs, deployment procedures, and operational requirements is inadequate for developers to understand and work with the system effectively. This includes documentation that is outdated, incomplete, inaccurate, poorly organized, or simply non-existent. Poor documentation forces developers to rely on tribal knowledge and experimentation, slowing development and increasing the risk of errors.
 
-
 ## Indicators ⟡
 
 - Documentation hasn't been updated in months or years despite system changes
@@ -34,9 +33,7 @@ Poor documentation occurs when the written information about a system, its archi
 - API documentation doesn't match actual API behavior
 - Deployment and operational procedures exist only as tribal knowledge
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.618, Strength: 0.828">ⓘ</span>
 <br/>  Outdated and incomplete system documentation leads to misunderstandings and miscommunications about project requirements, causing them to be frequently revised even after development begins, which ultimately results in increased rework and project delays.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.611, Strength: 0.792">ⓘ</span>
@@ -99,7 +96,6 @@ Poor documentation occurs when the written information about a system, its archi
 - **Documentation Gap Assessment:** Identify areas where documentation is missing or inadequate
 - **New Hire Documentation Feedback:** Collect feedback from new team members about documentation effectiveness
 - **Documentation Accuracy Audit:** Verify that existing documentation matches actual system behavior
-
 
 ## Examples
 

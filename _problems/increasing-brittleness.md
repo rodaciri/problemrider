@@ -26,7 +26,6 @@ layout: problem
 
 Increasing brittleness occurs when software systems become progressively more fragile and unstable over time, where seemingly minor changes can cause unexpected failures or break unrelated functionality. This brittleness develops as technical debt accumulates, dependencies become more complex, and the system architecture degrades without proper maintenance. Brittle systems are difficult to modify safely and often exhibit unpredictable behavior.
 
-
 ## Indicators ⟡
 
 - Small changes frequently cause unexpected failures in unrelated system areas
@@ -35,9 +34,7 @@ Increasing brittleness occurs when software systems become progressively more fr
 - More time is spent debugging than developing new functionality
 - Changes that worked in development fail in production for unclear reasons
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.662, Strength: 0.886">ⓘ</span>
 <br/>  As software systems become increasingly fragile due to their complexity and interdependencies, the diminishing number of developers familiar with outdated technologies exacerbates maintenance challenges, leading to a reliance on a few individuals whose expertise is critical, thus indicating the heightened brittleness of the system.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.644, Strength: 0.844">ⓘ</span>
@@ -168,7 +165,6 @@ Increasing brittleness occurs when software systems become progressively more fr
 - **Bug Trend Analysis:** Track bug reports over time, particularly regression bugs
 - **System Stability Metrics:** Measure system uptime, error rates, and performance consistency
 - **Change Risk Assessment:** Evaluate the perceived risk associated with making system modifications
-
 
 ## Examples
 

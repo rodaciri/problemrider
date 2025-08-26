@@ -24,16 +24,13 @@ layout: problem
 ## Description
 User trust erosion is the gradual loss of confidence that users have in a software system. This is a serious problem that can have a significant impact on the success of a product. When users don't trust a system, they are less likely to use it, and they are more likely to switch to a competitor. User trust is a fragile thing that is easy to lose and difficult to regain. It is often the result of a series of small failures, such as bugs, performance issues, and security vulnerabilities.
 
-
 ## Indicators ⟡
 - A decline in user engagement and retention.
 - An increase in negative reviews and social media mentions.
 - A decrease in the number of new users.
 - A decline in the company's brand reputation.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.601">ⓘ</span>
 <br/>  Persistent reliability issues and emergency fixes create a high-pressure environment for developers, leading to frustration and burnout, which in turn reflects the declining user trust and engagement in the system.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.642">ⓘ</span>
@@ -52,7 +49,6 @@ User trust erosion is the gradual loss of confidence that users have in a softwa
 - **Net Promoter Score (NPS):** Use the NPS to measure user loyalty.
 - **Social Media Monitoring:** Monitor social media for mentions of your product.
 - **Churn Rate:** Track the rate at which users are leaving your product.
-
 
 ## Examples
 A social media company releases a new version of its mobile app. The new version is full of bugs, and it is constantly crashing. Users are frustrated, and they are starting to leave the platform. The company is slow to respond to the issues, and they are not transparent with their users about what is going on. As a result, the company's reputation is damaged, and they lose a significant number of users to their competitors.

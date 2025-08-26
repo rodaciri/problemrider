@@ -26,7 +26,6 @@ layout: problem
 
 Strangler fig pattern failures occur when attempts to gradually replace legacy system components with modern alternatives stall or fail due to underestimated complexity in system boundaries, data consistency requirements, and interdependencies. The strangler fig pattern, intended to enable low-risk incremental modernization, becomes a source of increased complexity and technical debt when the "strangling" process cannot be completed, leaving organizations with hybrid systems that are more complex than either the original legacy system or a complete replacement would have been.
 
-
 ## Indicators ⟡
 
 - Strangler fig implementation projects that consistently miss deadlines and milestones
@@ -37,9 +36,7 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 - Team estimates for completing the "strangling" process that keep extending
 - Growing operational complexity from managing both legacy and new system components simultaneously
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.668">ⓘ</span>
 <br/>  The failure to modernize incrementally leads to increased complexity and delays in service responses, resulting in upstream timeouts as dependent services are unable to receive timely data from the legacy components.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.641">ⓘ</span>
@@ -54,7 +51,6 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 <br/>  Random test failures arise from the intricate dependencies and inconsistent data states inherent in the legacy system, indicating that the incremental modernization efforts are struggling to maintain reliability and coherence amidst complex integration challenges.
 
 ## Root Causes ▼
-
 - [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.902">ⓘ</span>
 <br/>  The difficulty in modifying the existing code without introducing new bugs leads to hesitance in implementing incremental changes, which stalls the modernization effort due to the complex interdependencies and data consistency challenges inherent in legacy systems.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.846">ⓘ</span>
@@ -70,7 +66,6 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 - Review technical debt accumulation in integration and synchronization code
 - Survey development teams about challenges and blockers in continuing the modernization
 - Evaluate whether the current hybrid system provides better value than the original legacy system
-
 
 ## Examples
 

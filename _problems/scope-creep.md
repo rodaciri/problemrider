@@ -25,7 +25,6 @@ layout: problem
 
 Scope creep is the insidious expansion of a project's goals and deliverables beyond what was originally planned, without a corresponding adjustment in time, budget, or resources. It often happens gradually, through a series of seemingly small additions or changes that, over time, significantly bloat the project. This uncontrolled growth can derail timelines, exhaust budgets, and lead to a product that is unfocused and overly complex. The expansion can result from evolving business needs, stakeholder requests, discovered complexity, or poor initial requirement definition. Unlike controlled scope changes, scope creep happens gradually and often without formal recognition or planning adjustments. Effective project management requires vigilance against scope creep and a formal process for managing any proposed changes.
 
-
 ## Indicators ⟡
 
 - The project's scope is constantly expanding
@@ -38,9 +37,7 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 - Feature sets grow organically throughout development without impact assessment
 - There is a lot of rework
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.603">ⓘ</span>
 <br/>  Constant updates to project requirements during development indicate a lack of proper control and impact analysis, revealing an underlying issue of unaddressed scope expansion that disrupts timelines and budgets.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.590">ⓘ</span>
@@ -55,7 +52,6 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 <br/>  The continuous expansion of project requirements without adequate control often leads to legacy systems being unable to adapt to new regulatory standards, resulting in compliance gaps that highlight the underlying issues of uncontrolled scope changes.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.959">ⓘ</span>
 <br/>  The continuous increase in project costs due to unplanned additional work leads to inadequate funding and pressure to expedite deliverables, causing teams to accept more requirements without proper assessment, thereby exacerbating the initial scope issues.
 - [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.851">ⓘ</span>
@@ -74,7 +70,6 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 - **Effort Variance Tracking:** Monitor actual effort compared to original estimates
 - **Stakeholder Request Patterns:** Analyze frequency and nature of additional requests from stakeholders
 - **Stakeholder Feedback:** If stakeholders are constantly asking "Is it done yet?", it may be a sign that their expectations are not aligned with the project's reality
-
 
 ## Examples
 

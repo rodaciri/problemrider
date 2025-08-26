@@ -24,7 +24,6 @@ layout: problem
 
 Alignment and padding issues occur when data structures are organized in ways that create excessive memory waste due to compiler-inserted padding bytes and poor field ordering. Modern processors require data to be aligned on specific byte boundaries for optimal performance, and compilers insert padding to ensure this alignment. Poor structure design can lead to significant memory waste, reduced cache efficiency, and increased memory bandwidth usage.
 
-
 ## Indicators ⟡
 
 - Data structures consume more memory than the sum of their individual field sizes
@@ -33,9 +32,7 @@ Alignment and padding issues occur when data structures are organized in ways th
 - Sizeof operations return values much larger than expected
 - Performance varies significantly with minor structure field rearrangements
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.606">ⓘ</span>
 <br/>  Inefficient memory layouts can lead to increased complexity in resource management, often resulting in failure to properly deallocate or close system resources, thereby causing unreleased resources as a symptom of poor data structure alignment and excessive padding.
 
@@ -51,7 +48,6 @@ Alignment and padding issues occur when data structures are organized in ways th
 - **Cache Performance Profiling:** Monitor cache utilization efficiency for data structures
 - **Memory Usage Profiling:** Profile actual memory consumption vs expected consumption
 - **Cross-Platform Testing:** Test structure sizes across different platforms and compilers
-
 
 ## Examples
 

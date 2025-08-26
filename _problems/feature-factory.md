@@ -26,7 +26,6 @@ layout: problem
 
 A Feature Factory is an anti-pattern where organizations become obsessed with output metrics (story points, features shipped, velocity) rather than outcome metrics (business value, user satisfaction, problem-solving). Teams operate as feature assembly lines, continuously churning out functionality without validating whether these features solve real problems or deliver meaningful business value. This approach disconnects development teams from business context and user needs, resulting in high-volume but low-impact delivery that accumulates technical debt while failing to achieve strategic objectives.
 
-
 ## Indicators ⟡
 
 - Management primarily tracks and celebrates delivery velocity metrics rather than business outcomes
@@ -36,7 +35,6 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 - Strategic product vision is unclear or frequently changing without clear rationale
 - Retrospectives focus on process efficiency rather than value delivered to users
 - Feature requests come from stakeholders without validation or user research backing
-
 
 ## Symptoms ▲
 
@@ -52,7 +50,6 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 - **Risk Aversion Culture:** Organizations avoid the uncertainty of experimentation and validation, preferring the perceived safety of continuous feature delivery.
 - **Legacy IT Mindset:** Traditional project-based thinking treats development as order fulfillment rather than problem-solving partnerships.
 
-
 ## Detection Methods ○
 
 - **Outcome vs Output Analysis:** Compare feature release frequency against business metrics like user engagement, revenue growth, or customer satisfaction scores.
@@ -63,12 +60,11 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 - **Time Allocation Analysis:** Measure how much time teams spend on feature development versus customer research, experimentation, and validation activities.
 - **Decision Audit Trails:** Review how feature decisions are made and whether they include user validation, business case analysis, or success criteria definition.
 
-
 ## Examples
 
 A large enterprise software company operates multiple development teams delivering new features every sprint across their suite of products. Management proudly reports that teams are hitting 95% of their story point commitments and shipping an average of 8 new features per quarter. However, customer churn has been steadily increasing, support ticket volume is growing, and user surveys indicate frustration with product complexity. When the product team analyzes feature usage data, they discover that 60% of features released in the past year have less than 15% user adoption. Development teams report feeling disconnected from the impact of their work, with many developers unable to explain how their recent features solve customer problems. The organization has fallen into a feature factory pattern, optimizing for delivery speed while losing sight of customer value and business outcomes.
-## Root Causes ▼
 
+## Root Causes ▼
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.740">ⓘ</span>
 <br/>  The accumulation of design and implementation shortcuts creates a fragile codebase that prioritizes quick feature delivery over thorough analysis, ultimately leading to a lack of understanding of business impact and user value.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.850">ⓘ</span>

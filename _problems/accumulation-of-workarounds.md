@@ -25,7 +25,6 @@ layout: problem
 
 Accumulation of workarounds occurs when developers consistently choose temporary fixes and elaborate bypasses instead of addressing underlying problems directly. These workarounds are often created under time pressure or when the root cause seems too risky or complex to fix properly. Over time, these workarounds layer upon each other, creating a complex web of dependencies and alternative logic paths that make the system increasingly difficult to understand and maintain.
 
-
 ## Indicators ⟡
 
 - Multiple code paths exist to accomplish the same basic functionality
@@ -34,9 +33,7 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 - Developers express confusion about why certain code patterns exist
 - Simple changes require modifications in multiple, seemingly unrelated places
 
-
 ## Symptoms ▲
-
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.598, Strength: 0.814">ⓘ</span>
 <br/>  The reliance on complex workarounds to address immediate issues in legacy systems often leads to a neglect of necessary updates, resulting in compliance gaps as regulatory requirements evolve and are not properly integrated into the system.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.578, Strength: 0.807">ⓘ</span>
@@ -117,7 +114,6 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 - **Complexity Metrics:** Monitor cyclomatic complexity increases that aren't tied to business logic growth
 - **Developer Interviews:** Ask team members about code areas they find confusing or overly complex
 - **Change Impact Analysis:** Track how many files need modification for simple changes
-
 
 ## Examples
 

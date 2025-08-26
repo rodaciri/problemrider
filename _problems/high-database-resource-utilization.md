@@ -24,16 +24,13 @@ layout: problem
 ## Description
 High database resource utilization can be a major cause of poor application performance and stability. This can be caused by a variety of factors, from inefficient queries and a lack of proper indexing to a high number of connections and long-running transactions. When the database is under stress, it can lead to a degradation in performance, timeouts, and even a complete failure of the system. A robust monitoring and alerting system is essential for detecting and responding to high database resource utilization in a timely manner.
 
-
 ## Indicators ⟡
 - Your database server is constantly running at high CPU or memory usage.
 - You are seeing a high number of slow queries in your database logs.
 - Your application is slow, and you suspect that it is due to a high number of database connections.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.621, Strength: 0.842">ⓘ</span>
 <br/>  Unreleased resources lead to increased memory and CPU consumption as the database server struggles to manage the growing number of allocated but unused objects, ultimately exacerbating performance issues and risking system stability in legacy environments.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.605, Strength: 0.751">ⓘ</span>
@@ -63,7 +60,6 @@ High database resource utilization can be a major cause of poor application perf
 - **Cloud Provider Metrics:** If using a managed database service (like AWS RDS or Google Cloud SQL), use the cloud provider's monitoring dashboards to track CPU, memory, and I/O metrics.
 - **Query Analysis:** Use the database's `EXPLAIN` or `EXPLAIN ANALYZE` commands to inspect the execution plans of slow or frequent queries and identify inefficiencies.
 - **System Performance Utilities:** Use standard Linux/Windows command-line tools (`top`, `htop`, `iostat`, `vmstat`) on the database server to get a real-time view of resource consumption.
-
 
 ## Examples
 A company's main application becomes slow every day at noon. An investigation reveals that a daily report, which runs a series of complex, unoptimized queries, is kicking off at this time and consuming all available database CPU. In another case, a web application using a connection pool is misconfigured to open far more connections than the database is tuned for. Over time, the database's memory usage climbs until it becomes unstable, even though the query workload itself is not particularly high. This is a critical issue in legacy systems where the database has been in use for many years. Over time, data volume grows, query patterns change, and indexes that were once effective may no longer be optimal, leading to a gradual increase in resource utilization.

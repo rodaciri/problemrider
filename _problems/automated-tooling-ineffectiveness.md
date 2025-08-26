@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Automated tooling ineffectiveness is a situation where automated tooling, such as linters and formatters, is not effective because of the inconsistency of the codebase. This is a common problem in teams that do not have a clear set of coding standards. Automated tooling ineffectiveness can lead to a number of problems, including a decrease in code quality, an increase in the number of bugs, and a general slowdown in the development process.
 
-
 ## Indicators ⟡
 - The automated tooling is constantly reporting a large number of violations.
 - Developers are ignoring the violations reported by the automated tooling.
 - The automated tooling is not able to fix all the violations automatically.
 - The automated tooling is not being used consistently by all developers.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.615, Strength: 0.833">ⓘ</span>
 <br/>  The ineffectiveness of automated tooling in a codebase leads to increased reliance on developers with specialized knowledge, resulting in a talent shortage that exacerbates maintenance challenges in legacy systems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.609, Strength: 0.838">ⓘ</span>
@@ -75,7 +72,6 @@ Automated tooling ineffectiveness is a situation where automated tooling, such a
 - **Analyze the output of the automated tooling:** Look for a large number of violations.
 - **Team Surveys:** Ask developers if they are using the automated tooling consistently.
 - **Retrospectives:** Use retrospectives to identify problems with the automated tooling.
-
 
 ## Examples
 A team has a linter configured for their project. However, the linter is constantly reporting a large number of violations. The developers are ignoring the violations because there are so many of them. As a result, the linter is not effective, and the codebase is inconsistent. This leads to a number of problems, including a decrease in code quality and an increase in the number of bugs.

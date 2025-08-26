@@ -23,16 +23,13 @@ layout: problem
 ## Description
 High client-side resource consumption can lead to a poor user experience. This can manifest as a sluggish user interface, a high level of battery consumption on mobile devices, or a general feeling of unresponsiveness. Common causes of high resource consumption include inefficient JavaScript, large, unoptimized assets, and excessive DOM manipulation. A focus on client-side performance is essential for creating a fast and responsive user experience.
 
-
 ## Indicators ⟡
 - Your application is slow, even on a powerful device.
 - Your application is draining the battery on your mobile device.
 - Your computer's fan is running at high speed when you use your application.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.652">ⓘ</span>
 <br/>  Excessive resource consumption in client applications leads to performance bottlenecks that frustrate developers, as they struggle to troubleshoot and optimize a codebase burdened by inefficiencies, ultimately contributing to their disengagement and burnout.
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.659">ⓘ</span>
@@ -45,7 +42,6 @@ High client-side resource consumption can lead to a poor user experience. This c
 <br/>  Excessive resource consumption on the client side can lead to delayed processing of API requests, causing the services to exceed their timeout thresholds and fail to respond in a timely manner.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.912">ⓘ</span>
 <br/>  Inefficient resource allocation and processing delays caused by bottlenecks in the development workflow lead to poorly optimized client applications, resulting in excessive CPU and memory consumption during execution.
 - [Atomic Operation Overhead](atomic-operation-overhead.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.903">ⓘ</span>
@@ -69,7 +65,6 @@ High client-side resource consumption can lead to a poor user experience. This c
 - **Real User Monitoring (RUM):** RUM tools can collect performance metrics from actual user sessions, including CPU and memory usage.
 - **Device-Specific Monitoring:** Use tools provided by operating systems (e.g., Activity Monitor on macOS, Task Manager on Windows, Android Studio Profiler, Xcode Instruments) to monitor resource usage.
 - **Code Review:** Look for common anti-patterns like large loops, excessive event listeners, or unoptimized rendering logic.
-
 
 ## Examples
 A single-page application (SPA) becomes very slow after a user has been interacting with it for a long time. Profiling reveals a memory leak where old DOM elements are not being garbage collected, leading to continuous memory growth. In another case, a website uses a large, unoptimized background video on its homepage. On mobile devices, this causes the browser to consume a significant amount of CPU and battery, making the phone hot and draining the battery quickly. This problem is increasingly common with the rise of complex web applications and mobile apps that run directly on user devices. Optimizing client-side performance is crucial for delivering a smooth and enjoyable user experience.

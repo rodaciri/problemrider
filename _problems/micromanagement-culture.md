@@ -26,7 +26,6 @@ layout: problem
 
 Micromanagement culture occurs when organizational leadership requires detailed oversight and approval for decisions that could reasonably be made by individual contributors or teams. This culture prioritizes control and risk avoidance over productivity and employee empowerment, often stemming from distrust, previous negative experiences, or managers who believe they must personally oversee all aspects of work to ensure quality outcomes.
 
-
 ## Indicators ⟡
 
 - Routine decisions require multiple levels of approval
@@ -35,13 +34,11 @@ Micromanagement culture occurs when organizational leadership requires detailed 
 - Decision-making processes involve more oversight than the risk level warrants
 - Employees express frustration about lack of decision-making authority
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Limited Team Learning](limited-team-learning.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.774">ⓘ</span>
 <br/>  The inability of a team to learn from past mistakes fosters a dependency on management for decision-making, leading to a culture of micromanagement that stifles autonomy and innovation within legacy systems.
 - [Difficult Code Comprehension](difficult-code-comprehension.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.790">ⓘ</span>
@@ -91,7 +88,6 @@ Micromanagement culture occurs when organizational leadership requires detailed 
 - **Manager Span of Control:** Analyze how many approval decisions managers handle and their impact on other work
 - **Exit Interview Analysis:** Track whether departing employees cite autonomy issues as reasons for leaving
 - **Process Efficiency Assessment:** Compare approval overhead costs with the risk of delegated decision-making
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Increased manual testing effort occurs when teams spend excessive time on manual verification activities because automated testing is inadequate or missing. While some manual testing is valuable, particularly for user experience and exploratory testing, over-reliance on manual processes creates bottlenecks, inconsistency, and scalability problems. Manual testing becomes a limiting factor in release frequency and team productivity when it's used to compensate for insufficient automation.
 
-
 ## Indicators ⟡
 - Significant portions of each release cycle are dedicated to manual testing activities
 - Testing team or developers spend most of their time executing repetitive manual test cases
@@ -33,9 +32,7 @@ Increased manual testing effort occurs when teams spend excessive time on manual
 - The same manual tests are executed repeatedly for every release or change
 - Manual testing discovers bugs that should have been caught by automated tests
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.855">ⓘ</span>
 <br/>  The excessive reliance on manual testing reveals inadequate test coverage in the legacy codebase, as the absence of automated tests hinders the ability to efficiently verify critical functionalities, leading to increased time spent on manual efforts to identify defects.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.595, Strength: 0.924">ⓘ</span>
@@ -95,7 +92,6 @@ Increased manual testing effort occurs when teams spend excessive time on manual
 - **Resource Allocation:** Measure human resources dedicated to manual testing activities
 - **Release Bottleneck Analysis:** Identify whether manual testing delays releases more than development work
 - **Test Coverage Assessment:** Compare manual test coverage with automated test coverage
-
 
 ## Examples
 

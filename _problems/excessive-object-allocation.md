@@ -25,7 +25,6 @@ layout: problem
 
 Excessive object allocation occurs when code creates an unnecessarily large number of temporary objects, particularly in frequently executed code paths. This puts pressure on the garbage collector, increases memory usage, and can significantly degrade application performance. While object creation is normal in object-oriented programming, excessive allocation in hot paths can cause performance problems that worsen as the application scales or processes more data.
 
-
 ## Indicators ⟡
 - Garbage collection occurs frequently and consumes significant CPU time
 - Memory usage spikes during normal operation even without memory leaks
@@ -33,9 +32,7 @@ Excessive object allocation occurs when code creates an unnecessarily large numb
 - Profiling shows high object allocation rates in specific code areas
 - Performance improves significantly when object pooling or reuse is implemented
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.488, Strength: 0.732">ⓘ</span>
 <br/>  The creation of numerous temporary objects leads to unbounded data structures that accumulate without proper management, causing increased memory usage and exacerbating the performance issues associated with frequent garbage collection in legacy systems.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.662">ⓘ</span>
@@ -46,7 +43,6 @@ Excessive object allocation occurs when code creates an unnecessarily large numb
 <br/>  The failure of code review practices to identify and rectify excessive temporary object creation indicates a lack of thorough analysis and attention to performance implications, allowing inefficient coding patterns to persist and degrade system performance over time.
 
 ## Root Causes ▼
-
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.864">ⓘ</span>
 <br/>  Design and implementation shortcuts result in inefficient code that frequently generates temporary objects, leading to excessive allocations and increased pressure on the garbage collector, ultimately degrading system performance.
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.891">ⓘ</span>
@@ -58,7 +54,6 @@ Excessive object allocation occurs when code creates an unnecessarily large numb
 - **Allocation Rate Analysis:** Measure object creation rates in different parts of the application
 - **Performance Testing:** Load testing that reveals allocation-related performance issues
 - **Code Review Focus:** Specifically examine code for unnecessary object creation patterns
-
 
 ## Examples
 

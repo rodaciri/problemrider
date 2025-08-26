@@ -25,7 +25,6 @@ layout: problem
 
 Vendor dependency occurs when organizations become excessively reliant on external suppliers, technology vendors, or service providers for critical business functions. This creates significant risk when vendors change their terms, discontinue services, experience outages, or fail to meet performance expectations. High vendor dependency reduces organizational flexibility and can lead to disrupted operations when vendor relationships encounter problems.
 
-
 ## Indicators ⟡
 
 - Critical business functions depend entirely on external vendors
@@ -34,9 +33,7 @@ Vendor dependency occurs when organizations become excessively reliant on extern
 - Organization has little control over vendor roadmaps or priorities
 - Vendor performance issues directly impact business operations
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.503, Strength: 0.797">ⓘ</span>
 <br/>  Excessive reliance on external vendors often leads to a rigid technical architecture that is tailored to specific third-party solutions, resulting in limitations that hinder performance and adaptability as changes in vendor availability or terms occur.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.501, Strength: 0.711">ⓘ</span>
@@ -65,7 +62,6 @@ Vendor dependency occurs when organizations become excessively reliant on extern
 - **Contract Analysis:** Review vendor agreements for flexibility and exit provisions
 - **Alternative Evaluation:** Assess availability and viability of alternative vendors or solutions
 - **Business Continuity Testing:** Test organization's ability to function when vendors are unavailable
-
 
 ## Examples
 

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Incomplete knowledge is a common problem in software development. It occurs when developers are unaware of all the locations where similar logic exists. This can lead to a number of problems, including synchronization problems, code duplication, and a great deal of frustration for the development team. Incomplete knowledge is often a sign of a poorly documented system with a high degree of code duplication.
 
-
 ## Indicators ⟡
 - The team is constantly reinventing the wheel.
 - The team is not aware of all of the features in the system.
 - The team is not sure how the system is supposed to behave.
 - The team is not able to answer questions about the system.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.721, Strength: 0.938">ⓘ</span>
 <br/>  The lack of awareness about all locations where similar logic exists leads to critical areas of the codebase being overlooked during testing, resulting in inadequate test coverage and increased risk of undetected defects.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.687, Strength: 0.883">ⓘ</span>
@@ -166,7 +163,6 @@ Incomplete knowledge is a common problem in software development. It occurs when
 - **Code Reviews:** Code reviews are a great way to identify knowledge gaps.
 - **Pair Programming:** Pair programming is a great way to share knowledge between developers.
 - **Knowledge Mapping:** Create a knowledge map of the system to identify areas where there are knowledge gaps.
-
 
 ## Examples
 A company has a large, complex system. The system is not well-documented, and there is a high rate of turnover in the team. As a result, the team has a very incomplete knowledge of the system. The team is constantly reinventing the wheel, and they are not able to answer questions about the system. The company eventually has to hire a team of consultants to document the system and train the team.

@@ -23,16 +23,13 @@ layout: problem
 ## Description
 Excessive disk I/O can be a major cause of poor application performance. This can be caused by a variety of factors, from inefficient file access patterns and a lack of proper caching to a high volume of logging. When an application is I/O-bound, it can lead to a degradation in performance, timeouts, and even a complete failure of the system. A systematic approach to performance analysis is required to identify and address the root causes of excessive disk I/O.
 
-
 ## Indicators ⟡
 - The disk activity light on your server is constantly blinking.
 - The server's cooling fans are running at high speed, even when the CPU load is low.
 - You see a high number of I/O operations in your system monitoring tools.
 - Your application is slow, even though the CPU and memory usage are low.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.625, Strength: 0.803">ⓘ</span>
 <br/>  High disk read/write operations can lead to increased response times for API calls, causing services to exceed their timeout thresholds and fail to receive timely responses.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.594, Strength: 0.868">ⓘ</span>
@@ -70,7 +67,6 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 - **Database Monitoring Tools:** Database-specific tools often provide metrics on disk I/O related to database operations.
 - **Application Profiling:** Profile the application to identify code sections that are performing excessive disk operations.
 - **Log Analysis:** Analyze log volumes and patterns to see if excessive logging is occurring.
-
 
 ## Examples
 A data processing service is designed to read large CSV files, process them, and write the results to another file. During execution, the server's disk I/O goes to 100%, and the process takes hours. Investigation reveals that the service is reading and writing data one line at a time, causing thousands of small, inefficient disk operations. Similarly, a web server experiencing slow page loads might have high disk I/O, even with a separate database server, if it's constantly writing session data to local disk files for every request instead of using an in-memory cache.

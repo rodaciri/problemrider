@@ -24,16 +24,13 @@ layout: problem
 ## Description
 External service delays are a common problem in distributed systems, where services often depend on third-party APIs to fulfill requests. When an external service is slow to respond, it can have a cascading effect, causing delays in downstream services and a poor user experience. External service delays can be caused by a variety of factors, from network issues and a lack of proper caching to a problem with the third-party service itself. A robust monitoring and alerting system is essential for detecting and responding to external service delays in a timely manner.
 
-
 ## Indicators ⟡
 - Your application is slow, but your servers are not under heavy load.
 - You see a high number of timeout errors in your logs.
 - Your application's performance is inconsistent.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.735, Strength: 0.928">ⓘ</span>
 <br/>  Slow response times from dependent services lead to prolonged processing within the API, causing clients to exceed their timeout thresholds and resulting in upstream failures.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.653, Strength: 0.918">ⓘ</span>
@@ -123,7 +120,6 @@ External service delays are a common problem in distributed systems, where servi
 - **Metrics and Alerting:** Monitor the latency of calls to the external service. Set up alerts for when the latency exceeds a certain threshold.
 - **Status Pages:** Check the status page of the external service to see if they are reporting any issues.
 - **Service Level Agreements (SLAs):** If there is an SLA in place for the external service, monitor the service's performance against the SLA.
-
 
 ## Examples
 An e-commerce application uses a third-party service to process payments. The payment service is slow, which causes the checkout process to be slow. In a microservice architecture, a single slow service can cause a cascading failure that affects the entire application. This is a common problem in modern applications, which are often built by composing together a variety of different services. While this approach has many benefits, it also introduces new challenges, such as the need to deal with external service delays.

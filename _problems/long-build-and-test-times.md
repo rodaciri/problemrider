@@ -22,16 +22,13 @@ layout: problem
 ## Description
 Long build and test times are a situation where it takes a long time to build and test a system. This is a common problem in large, monolithic architectures, where the entire system must be built and tested at once. Long build and test times can lead to a slowdown in development velocity, and they can also be a major source of frustration for developers.
 
-
 ## Indicators ⟡
 - It takes a long time to get feedback on a change.
 - Developers are often blocked waiting for the build to finish.
 - The build is often broken.
 - Developers are not able to run the tests on their local machines.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.837">ⓘ</span>
 <br/>  The prolonged build and test times in legacy systems exacerbate the scarcity of skilled developers, as the complexity and outdated technologies deter new talent and overwhelm existing experts, leading to maintenance bottlenecks and increased dependency on a limited workforce.
 - [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.583, Strength: 0.907">ⓘ</span>
@@ -89,7 +86,6 @@ Long build and test times are a situation where it takes a long time to build an
 - **Build and Test Time Monitoring:** Monitor the build and test times to identify which parts of the build are the slowest.
 - **Developer Surveys:** Ask developers if they feel like they are able to get fast feedback on their changes.
 - **Build and Test Log Analysis:** Analyze the build and test logs to identify errors and warnings.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application. It takes over an hour to build and test the application. The developers are often blocked waiting for the build to finish. The build is often broken, and it can take hours to fix it. The developers are not able to run all the tests on their local machines, so they are not able to get a complete picture of the quality of their code. As a result, the development velocity is slow, and the code quality is poor.

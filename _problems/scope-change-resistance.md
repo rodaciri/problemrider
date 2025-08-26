@@ -25,7 +25,6 @@ layout: problem
 
 Scope change resistance occurs when organizations or teams avoid making necessary modifications to project scope, requirements, or deliverables due to procedural barriers, contract constraints, or cultural resistance to change. This resistance can prevent projects from adapting to new information, changing business needs, or discovered requirements, potentially leading to delivery of solutions that don't meet actual needs.
 
-
 ## Indicators ⟡
 
 - Necessary changes are identified but not implemented due to process barriers
@@ -34,9 +33,7 @@ Scope change resistance occurs when organizations or teams avoid making necessar
 - Contract terms prevent adaptation to new requirements or insights
 - Stakeholders express concern about scope but changes aren't pursued
 
-
 ## Symptoms ▲
-
 - [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.762">ⓘ</span>
 <br/>  Resistance to necessary changes in project scope leads to excessive deliberation and hesitance in decision-making, causing teams to remain stuck in analysis phases without translating insights into actionable development steps.
 - [Language Barriers](language-barriers.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.738">ⓘ</span>
@@ -45,7 +42,6 @@ Scope change resistance occurs when organizations or teams avoid making necessar
 <br/>  Resistance to necessary changes in project scope often leads to frustration and conflict among team members, as their inability to adapt to evolving requirements fosters dysfunction and hinders effective collaboration.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.878">ⓘ</span>
 <br/>  Budget overruns create a fear of additional costs associated with changes, leading stakeholders to resist necessary modifications to project scope in legacy systems due to the perceived financial risks and constraints on available resources.
 - [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.907">ⓘ</span>
@@ -60,7 +56,6 @@ Scope change resistance occurs when organizations or teams avoid making necessar
 - **Stakeholder Alignment Assessment:** Measure alignment between delivered scope and actual needs
 - **Change Approval Rate:** Calculate percentage of proposed changes that are actually implemented
 - **Post-Project Reviews:** Assess whether delivered solutions met evolving business needs
-
 
 ## Examples
 

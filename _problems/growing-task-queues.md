@@ -24,16 +24,13 @@ layout: problem
 ## Description
 A growing task queue is a clear sign that a system is not able to keep up with its workload. When tasks are produced faster than they are consumed, the queue will grow, leading to delays in processing and a potential for data loss. This can be caused by a variety of factors, from a sudden spike in traffic to a gradual increase in the workload over time. A robust monitoring and alerting system is essential for detecting and responding to a growing task queue in a timely manner.
 
-
 ## Indicators ⟡
 - The time it takes to process a task is gradually increasing.
 - The number of worker processes is not sufficient to handle the load.
 - You are seeing an increase in the number of tasks that are being retried.
 - You are getting alerts from your monitoring system about the queue size.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.641">ⓘ</span>
 <br/>  The accumulation of unprocessed tasks in the asynchronous processing queues leads to longer response times for API calls, causing services to exceed their timeout configurations and fail to receive timely responses.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.680">ⓘ</span>
@@ -63,7 +60,6 @@ A growing task queue is a clear sign that a system is not able to keep up with i
 - **Worker Process Monitoring:** Monitor the CPU, memory, and I/O usage of worker processes.
 - **Distributed Tracing:** Trace asynchronous operations to identify bottlenecks within the worker processing logic or external dependencies.
 - **Log Analysis:** Look for errors or warnings in worker logs that indicate processing failures or retries.
-
 
 ## Examples
 An e-commerce site uses a message queue to process order confirmations and send emails. During a flash sale, the number of orders spikes, and the email queue grows rapidly. Customers complain about not receiving their order confirmations for hours, because the email sending workers cannot keep up. In another case, a data processing pipeline uses a queue to handle image resizing tasks. A new, very large image format is introduced, and the image resizing workers, which were previously efficient, now take much longer per image, causing the queue to back up. This problem is common in event-driven architectures and microservices where asynchronous processing is heavily utilized. It highlights the importance of proper capacity planning and robust error handling for background tasks.

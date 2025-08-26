@@ -25,7 +25,6 @@ layout: problem
 
 Modernization strategy paralysis occurs when organizations become overwhelmed by the complexity of choosing between different modernization approaches for legacy systems. Faced with options like complete rewrite, incremental refactoring, commercial replacement, cloud migration, or system retirement, teams spend excessive time analyzing alternatives without making decisions. This paralysis leaves legacy systems in deteriorating states while analysis continues indefinitely, often resulting in worse outcomes than any of the original modernization options would have provided.
 
-
 ## Indicators ⟡
 
 - Modernization planning activities that extend for months without resulting in actionable decisions
@@ -36,9 +35,7 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 - Perfectionist tendencies that seek the "optimal" solution rather than acceptable progress
 - Fear of making the "wrong" modernization choice leading to avoidance of any choice
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.721">ⓘ</span>
 <br/>  The inability to choose a clear modernization path leads to uncertainty and indecision, causing stakeholders to frequently revise requirements in an attempt to adapt to evolving expectations, which ultimately results in chaos and project delays.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.459, Strength: 0.709">ⓘ</span>
@@ -74,7 +71,6 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 - Review decision-making processes and authority structures for modernization choices
 - Analyze cost accumulation from delayed decisions versus modernization investment costs
 - Compare modernization progress against organizational capacity for extended analysis
-
 
 ## Examples
 

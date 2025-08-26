@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Slow knowledge transfer is a situation where it takes a long time for new team members to become productive. This is a common problem in teams that have a lot of knowledge silos and a lack of documentation. Slow knowledge transfer can be a major drag on productivity, and it can also be a major source of frustration for new team members.
 
-
 ## Indicators ⟡
 - New team members are not able to contribute to the team for a long time.
 - New team members are constantly asking the same questions.
 - There is a lot of duplicated effort as new team members have to rediscover the same information.
 - New team members are not able to work independently.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.603, Strength: 0.868">ⓘ</span>
 <br/>  The prolonged onboarding process for new team members hampers their acquisition of essential skills in outdated technologies, resulting in a shortage of knowledgeable developers and creating critical vulnerabilities in system maintenance.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.587, Strength: 0.887">ⓘ</span>
@@ -100,7 +97,6 @@ Slow knowledge transfer is a situation where it takes a long time for new team m
 - **Onboarding Time:** Measure the time it takes for new team members to become productive.
 - **Developer Surveys:** Ask new team members about their onboarding experience.
 - **Code Reviews:** Look for code that is written by new team members that does not follow the team's coding standards.
-
 
 ## Examples
 A company hires a new developer to work on a legacy system. The developer is given a laptop and a link to the codebase, but they are not given any documentation or training. The developer spends the first few weeks trying to figure out how the system works. They are constantly asking the other developers for help, but the other developers are busy with their own work. The new developer gets frustrated and eventually quits. This is a common problem in companies that do not have a formal onboarding process.

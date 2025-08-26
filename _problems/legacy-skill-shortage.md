@@ -25,7 +25,6 @@ layout: problem
 
 Legacy skill shortage occurs when organizations face a critical scarcity of developers and technical staff who understand obsolete programming languages, platforms, and technologies that their legacy systems depend on. This problem creates severe operational risk as the remaining skilled practitioners retire, change careers, or become unavailable, leaving organizations unable to maintain, modify, or troubleshoot critical systems. Unlike general knowledge gaps, this involves skills that are no longer taught in schools and are increasingly rare in the job market.
 
-
 ## Indicators ⟡
 
 - Difficulty finding contractors or employees with experience in the organization's legacy technologies
@@ -36,13 +35,11 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 - University computer science programs that no longer teach the required legacy languages or platforms
 - Legacy technology vendor support that is being discontinued or has already ended
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.710, Strength: 0.948">ⓘ</span>
 <br/>  The lack of design skills hinders the creation of maintainable software, leading to a reliance on outdated technologies that require specialized knowledge, thus exacerbating the shortage of developers proficient in legacy systems.
 - [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.710, Strength: 0.942">ⓘ</span>
@@ -406,7 +403,6 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 - Evaluate training availability and costs for bringing new staff up to speed on legacy technologies
 - Monitor vendor support lifecycles for legacy platforms and technologies
 - Assess business risk exposure from loss of key legacy system expertise
-
 
 ## Examples
 

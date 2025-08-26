@@ -25,7 +25,6 @@ layout: problem
 
 Interrupt overhead occurs when hardware devices generate interrupts at such a high frequency that the CPU spends excessive time handling interrupt service routines instead of executing application code. Each interrupt requires saving the current execution context, running the interrupt handler, and restoring context, which can become a significant performance bottleneck in interrupt-heavy environments.
 
-
 ## Indicators ⟡
 
 - CPU performance counters show high interrupt rates
@@ -34,13 +33,11 @@ Interrupt overhead occurs when hardware devices generate interrupts at such a hi
 - CPU utilization is high in interrupt context rather than user applications
 - Performance problems correlate with specific hardware device activity
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.526, Strength: 0.926">ⓘ</span>
 <br/>  Excessive API latency leads to prolonged waiting periods for requests, causing the system to generate more interrupts to handle additional incoming requests, which in turn increases context switching and disrupts CPU execution flow, ultimately degrading application performance.
 - [High Number of Database Queries](high-number-of-database-queries.md) <span class="info-tooltip" title="Confidence: 0.508, Strength: 0.879">ⓘ</span>
@@ -155,7 +152,6 @@ Interrupt overhead occurs when hardware devices generate interrupts at such a hi
 - **Interrupt Distribution Analysis:** Check how interrupts are distributed across CPU cores
 - **Application Performance Correlation:** Correlate application performance with interrupt activity
 - **Hardware Performance Counters:** Use hardware counters to monitor interrupt-related metrics
-
 
 ## Examples
 

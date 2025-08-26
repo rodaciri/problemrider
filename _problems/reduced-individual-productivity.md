@@ -26,7 +26,6 @@ layout: problem
 
 Reduced individual productivity occurs when developers find themselves completing fewer tasks, taking longer to solve problems, or accomplishing less work despite maintaining the same level of effort and work hours. This reduction in individual output often stems from environmental factors, tool limitations, process inefficiencies, or cognitive overhead that prevents developers from focusing effectively on core development tasks. Unlike team-wide velocity issues, this problem manifests at the individual level but can accumulate to significantly impact overall team performance.
 
-
 ## Indicators ⟡
 
 - Developers report feeling busy but accomplishing less than before
@@ -35,14 +34,11 @@ Reduced individual productivity occurs when developers find themselves completin
 - Developers express frustration about not having enough time for deep work
 - Simple tasks take much longer than they should
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.761">ⓘ</span>
 <br/>  The decrease in individual productivity leads to slower task completion and problem resolution, which aggregates to a decline in team productivity as dependencies and collaboration suffer, highlighting systemic inefficiencies within the legacy systems.
 
 ## Root Causes ▼
-
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md) <span class="info-tooltip" title="Confidence: 0.589, Strength: 0.875">ⓘ</span>
 <br/>  The excessive time developers spend on manual testing, due to the absence of automated processes in legacy systems, diverts their focus from coding and problem-solving, leading to decreased task completion and extended resolution times.
 - [Extended Cycle Times](extended-cycle-times.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.828">ⓘ</span>
@@ -77,7 +73,6 @@ Reduced individual productivity occurs when developers find themselves completin
 - **Task Completion Metrics:** Compare time to complete similar tasks across different periods
 - **Focus Time Analysis:** Track periods of uninterrupted development work
 - **Developer Self-Assessment:** Regular surveys about productivity barriers and energy levels
-
 
 ## Examples
 

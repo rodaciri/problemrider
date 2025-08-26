@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Past negative experiences is a situation where developers are hesitant to make changes to the codebase because of negative experiences in the past. This is a common problem in teams that have a brittle codebase and a lack of automated tests. Past negative experiences can lead to a number of problems, including a fear of change, a slowdown in development velocity, and a general sense of stagnation.
 
-
 ## Indicators ⟡
 - Developers are hesitant to make changes to the codebase.
 - The team is not willing to take risks.
 - The team is not innovating.
 - The team is not learning from its mistakes.
 
-
 ## Symptoms ▲
-
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.700, Strength: 0.940">ⓘ</span>
 <br/>  Developers' reluctance to modify a codebase due to prior negative outcomes causes a risk-averse mindset that stifles creativity and leads teams to prioritize minimal compliance over innovative solutions.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.663, Strength: 0.885">ⓘ</span>
@@ -122,7 +119,6 @@ Past negative experiences is a situation where developers are hesitant to make c
 - **Change Frequency Analysis:** Monitor how often different modules are modified; consistently avoided areas may indicate fear.
 - **Estimation Patterns:** Look for patterns where similar changes have wildly different estimates based on the code area involved.
 - **Code Review Comments:** Watch for excessive caution or lengthy discussions about potential risks during code reviews.
-
 
 ## Examples
 A developer makes a change to the codebase that causes a major production outage. The developer is blamed for the outage, and they are hesitant to make changes to the codebase in the future. This is a common problem in companies that have a blame culture. It is important to create a culture where it is safe to fail. This will encourage developers to take risks and innovate.

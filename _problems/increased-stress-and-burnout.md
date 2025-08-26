@@ -26,7 +26,6 @@ layout: problem
 
 Increased stress and burnout occurs when team members experience sustained high levels of work-related stress that leads to physical, emotional, and mental exhaustion. This problem goes beyond normal work pressure and represents a chronic condition that affects individual performance, team dynamics, and overall system quality. The stress often stems from unrealistic expectations, poor work conditions, or systemic organizational problems.
 
-
 ## Indicators ⟡
 
 - Team members frequently mention feeling overwhelmed or stressed
@@ -35,9 +34,7 @@ Increased stress and burnout occurs when team members experience sustained high 
 - Team members work excessive hours regularly to meet expectations
 - Productivity and code quality decline despite increased effort
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.616, Strength: 0.838">ⓘ</span>
 <br/>  In legacy systems, the overwhelming pressure to meet unrealistic deadlines often leads to team members feeling overworked and stressed, which in turn causes a decline in overall productivity as a result of diminished focus, increased errors, and reduced collaboration among the team.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.588, Strength: 0.858">ⓘ</span>
@@ -104,7 +101,6 @@ Increased stress and burnout occurs when team members experience sustained high 
 - **Health and Wellness Metrics:** Track sick days, stress-related absences, and wellness program usage
 - **Performance Correlation Analysis:** Analyze correlation between stress indicators and work quality
 - **Exit Interview Analysis:** Understand stress-related factors in team member departures
-
 
 ## Examples
 

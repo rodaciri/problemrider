@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Difficult code reuse is a common problem in software development. It occurs when it is difficult to reuse code in different contexts because it is not designed in a modular and reusable way. This can lead to a number of problems, including code duplication, a high degree of coupling, and a system that is difficult to maintain and evolve. Difficult code reuse is often a sign of a lack of experience with software design principles and patterns.
 
-
 ## Indicators ⟡
 - The codebase is full of duplicated code.
 - The components of the system are tightly coupled.
 - It is difficult to extract a component from the system and reuse it in another context.
 - The team is constantly reinventing the wheel.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.665, Strength: 0.897">ⓘ</span>
 <br/>  The difficulty in reusing code due to its non-modular design leads to increased reliance on a limited pool of developers familiar with these legacy systems, creating a skill shortage that hinders effective maintenance and exacerbates the issue of code reuse.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.664, Strength: 0.881">ⓘ</span>
@@ -96,7 +93,6 @@ Difficult code reuse is a common problem in software development. It occurs when
 <br/>  Conflicting naming conventions hinder readability and clarity, making it challenging to identify reusable components in the codebase, thereby exacerbating the difficulty of achieving modularity and reuse in legacy systems.
 
 ## Root Causes ▼
-
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.853">ⓘ</span>
 <br/>  The consistent delivery of large time estimates for minor changes highlights the inherent complexity and interdependencies within the codebase, which stems from a lack of modular design, ultimately hindering the ability to reuse code effectively across different contexts.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.915">ⓘ</span>
@@ -115,7 +111,6 @@ Difficult code reuse is a common problem in software development. It occurs when
 - **Dependency Analysis:** Analyze the dependencies between the components of the system to identify areas of high coupling.
 - **Code Reviews:** Code reviews are a great way to identify opportunities for code reuse.
 - **Component Library Audit:** Audit the team's component library to see if it is being used effectively.
-
 
 ## Examples
 A company has a number of different web applications. Each application has its own implementation of a user authentication system. This is an example of difficult code reuse. The problem could be solved by creating a single, reusable user authentication component that can be used by all of the company's web applications. This would reduce code duplication, improve maintainability, and make it easier to add new features to the user authentication system.

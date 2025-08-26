@@ -25,7 +25,6 @@ layout: problem
 
 Difficult to test code refers to software components that cannot be easily or effectively unit tested due to architectural issues, dependencies, or design choices. This code typically requires complex setup procedures, depends on external systems, or has so many interdependencies that isolating it for testing becomes impractical. When code is difficult to test, developers often skip writing tests altogether, leading to reduced confidence in code changes and higher likelihood of bugs.
 
-
 ## Indicators ⟡
 - Unit tests require extensive setup or mock configurations
 - Tests need access to databases, file systems, or external services to run
@@ -33,9 +32,7 @@ Difficult to test code refers to software components that cannot be easily or ef
 - Developers frequently skip writing tests because they're too complicated
 - Test execution is slow due to complex dependencies
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.665">ⓘ</span>
 <br/>  The inability to test components in isolation due to tight coupling and complex dependencies leads to gaps in test coverage, as developers are hindered from effectively writing tests for critical parts of the codebase, thereby exposing blind spots in quality assurance.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.684">ⓘ</span>
@@ -44,7 +41,6 @@ Difficult to test code refers to software components that cannot be easily or ef
 <br/>  The difficulty in testing code in isolation leads to a reliance on a slow and cumbersome development environment, as developers spend excessive time managing complex setups and debugging intertwined components rather than efficiently validating individual modules.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.914">ⓘ</span>
 <br/>  The difficulty in testing code arises because developers accustomed to procedural programming often create tightly coupled, interdependent components, which complicates isolation for testing and undermines the advantages of object-oriented design principles.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.926">ⓘ</span>
@@ -74,7 +70,6 @@ Difficult to test code refers to software components that cannot be easily or ef
 - **Developer Feedback:** Ask developers which parts of the codebase are hardest to test
 - **Test Execution Time:** Monitor which tests take the longest to run due to setup complexity
 - **Dependency Analysis:** Use tools to identify components with the most external dependencies
-
 
 ## Examples
 

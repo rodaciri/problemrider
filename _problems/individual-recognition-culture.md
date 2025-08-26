@@ -22,16 +22,13 @@ layout: problem
 ## Description
 An individual recognition culture is a culture where individual accomplishments are valued more than team accomplishments. This is a common problem in companies that have a traditional, hierarchical management structure. An individual recognition culture can lead to a number of problems, including knowledge silos, poor communication, and team coordination issues.
 
-
 ## Indicators ⟡
 - Individual performance is rewarded more than team performance.
 - There is a lot of competition between team members.
 - Team members are not willing to help each other.
 - There is a lack of trust on the team.
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.631, Strength: 0.900">ⓘ</span>
 <br/>  A culture that prioritizes individual accomplishments over team efforts fosters competition rather than collaboration, leading to communication breakdowns and inefficiencies that directly diminish the overall productivity and effectiveness of the development team in legacy software systems.
 - [Knowledge Silos](knowledge-silos.md) <span class="info-tooltip" title="Confidence: 0.469, Strength: 0.892">ⓘ</span>
@@ -55,7 +52,6 @@ An individual recognition culture is a culture where individual accomplishments 
 - **Developer Surveys:** Ask developers if they feel like they are part of a team.
 - **Performance Review Analysis:** Analyze the performance review process to see if it is focused on individual accomplishments or team accomplishments.
 - **Compensation Analysis:** Analyze the compensation system to see if it is focused on individual accomplishments or team accomplishments.
-
 
 ## Examples
 A company has a traditional, hierarchical management structure. The company has a performance review process that is focused on individual accomplishments. The company also has a compensation system that is focused on individual accomplishments. As a result, the company has an individual recognition culture. The team members are not willing to help each other, and there is a lot of competition between them. This leads to a number of problems, including knowledge silos, poor communication, and team coordination issues.

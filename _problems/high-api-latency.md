@@ -23,16 +23,13 @@ layout: problem
 ## Description
 High API latency is a common problem in distributed systems, where services often depend on each other to fulfill requests. When an API takes a long time to respond, it can have a cascading effect, causing delays in downstream services and a poor user experience. High API latency can be caused by a variety of factors, from inefficient code and slow database queries to network issues and a lack of proper caching. A systematic approach to performance analysis is required to identify and address the root causes of high API latency.
 
-
 ## Indicators ⟡
 - Your application is slow, but your servers are not under heavy load.
 - You see a high number of timeout errors in your logs.
 - Your application's performance is inconsistent.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.742, Strength: 0.935">ⓘ</span>
 <br/>  Excessive response times from the API lead to upstream services exceeding their configured timeout limits, resulting in failures to receive timely responses and indicating underlying latency issues in the system.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.675, Strength: 0.888">ⓘ</span>
@@ -110,7 +107,6 @@ High API latency is a common problem in distributed systems, where services ofte
 - **Logging:** Add detailed logging to track the time taken at different stages of the request lifecycle.
 - **Metrics and Alerting:** Monitor key metrics like p95/p99 response times and set up alerts to be notified of performance degradations.
 - **Load Testing:** Use load testing tools to simulate traffic and identify how latency is affected by concurrent users.
-
 
 ## Examples
 An e-commerce site's "product details" API endpoint becomes progressively slower as the number of products grows. Investigation with an APM tool reveals that the endpoint is making a slow, unindexed query to fetch product reviews. In another case, a mobile application's startup time is poor because it makes multiple blocking API calls to fetch initial configuration data. The latency of these calls, especially on slower mobile networks, adds up significantly. This is a common problem in distributed systems and microservices architectures where a single user action can trigger a chain of API calls across multiple services.

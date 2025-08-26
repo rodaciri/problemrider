@@ -25,7 +25,6 @@ layout: problem
 
 Vendor dependency entrapment occurs when legacy systems become critically dependent on vendor products, platforms, or services that have been discontinued, are no longer supported, or are in end-of-life status. This creates a more severe situation than typical vendor lock-in because the vendor has already made strategic decisions that limit or eliminate future support options. Organizations face impossible choices between paying escalating costs for custom support, accepting increasing security and operational risks, or undertaking expensive emergency system replacements.
 
-
 ## Indicators ⟡
 
 - Vendor announcements about product discontinuation or end-of-life timelines for critical system components
@@ -36,14 +35,11 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 - Third-party maintenance providers as the only option for continued system support
 - Hardware or software components that are no longer manufactured or developed by the original vendor
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.563">ⓘ</span>
 <br/>  The reliance on discontinued vendor products limits the pool of available developers to those with specific legacy knowledge, creating a skill shortage that exacerbates maintenance challenges and increases the risk of system failure.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.864">ⓘ</span>
 <br/>  Long-running transactions in legacy systems can lead to resource bottlenecks and performance degradation, causing reliance on outdated vendor products for support, which ultimately traps organizations in costly maintenance contracts or necessitates complete system overhauls.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.912">ⓘ</span>
@@ -73,7 +69,6 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 - Conduct regular vendor risk assessments including support continuation scenarios
 - Monitor industry trends and vendor consolidation that might affect support availability
 - Assess technical feasibility and cost of migrating away from current vendor dependencies
-
 
 ## Examples
 

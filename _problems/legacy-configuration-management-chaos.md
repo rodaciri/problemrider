@@ -26,7 +26,6 @@ layout: problem
 
 Legacy configuration management chaos occurs when legacy systems store configuration settings in ways that are incompatible with modern deployment and operations practices. This includes hardcoded values, proprietary configuration formats, undocumented settings scattered across multiple locations, and configuration approaches that prevent automated deployment, environment consistency, or infrastructure as code practices. The problem goes beyond general configuration management issues to focus specifically on legacy system constraints that resist modernization.
 
-
 ## Indicators ⟡
 
 - Configuration settings embedded directly in application code or compiled binaries
@@ -37,9 +36,7 @@ Legacy configuration management chaos occurs when legacy systems store configura
 - Configuration changes that require application recompilation or system rebuilding
 - Environment-specific configuration that cannot be easily externalized or parameterized
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.753">ⓘ</span>
 <br/>  The difficulty in managing and deploying configuration settings due to hardcoded and undocumented elements leads to a reliance on a diminishing pool of developers familiar with outdated technologies, thereby creating maintenance bottlenecks and increasing the risk of system failures.
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.539, Strength: 0.765">ⓘ</span>
@@ -69,7 +66,6 @@ Legacy configuration management chaos occurs when legacy systems store configura
 - Survey operations teams about configuration management challenges with legacy systems
 - Test configuration portability and automated deployment capabilities
 - Examine configuration security and audit trail capabilities
-
 
 ## Examples
 

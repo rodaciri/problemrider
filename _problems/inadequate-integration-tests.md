@@ -26,7 +26,6 @@ layout: problem
 
 Inadequate integration tests occur when the testing strategy focuses primarily on individual components while failing to verify that different parts of the system work correctly together. Integration issues often arise at the boundaries between modules, services, or external systems, where assumptions about data formats, timing, error handling, or communication protocols may be incorrect. Without proper integration testing, systems may work well in isolation but fail when components interact in production environments.
 
-
 ## Indicators ⟡
 - Unit tests pass but the application fails when modules are combined
 - Bugs frequently occur at the boundaries between different system components
@@ -34,9 +33,7 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 - Production problems often involve data format mismatches or communication failures
 - Deployment to integrated environments reveals issues not caught in isolated testing
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.494, Strength: 0.730">ⓘ</span>
 <br/>  In legacy systems, insufficient integration tests often lead to poor test coverage because critical interactions between modules go unverified, resulting in untested code paths that contribute to undetected integration failures.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.669">ⓘ</span>
@@ -45,7 +42,6 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 <br/>  Inadequate integration tests lead to frequent integration failures, causing developers to spend excessive time troubleshooting and resolving issues instead of focusing on new feature development, which ultimately results in reduced team productivity.
 
 ## Root Causes ▼
-
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.941">ⓘ</span>
 <br/>  The reliance on a shared database leads to inadequate integration tests because changes in one service can inadvertently affect others without thorough testing of their interactions, resulting in undetected integration failures.
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.929">ⓘ</span>
@@ -69,7 +65,6 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 - **Interface Documentation Review:** Assess whether component interfaces are well-defined and tested
 - **Cross-Component Bug Analysis:** Identify bugs that span multiple system components
 - **Deployment Environment Testing:** Compare issue rates between isolated and integrated testing environments
-
 
 ## Examples
 

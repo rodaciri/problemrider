@@ -25,7 +25,6 @@ layout: problem
 
 Unpredictable system behavior occurs when modifications to one component cause unexpected changes or failures in other, seemingly unrelated parts of the system. This phenomenon is a hallmark of systems with poor separation of concerns, hidden dependencies, and implicit coupling. It makes software development extremely challenging because developers cannot reason about the impact of their changes, leading to defensive programming practices and reluctance to make necessary improvements.
 
-
 ## Indicators ⟡
 - Developers frequently discover that their changes have affected unrelated functionality
 - Bug reports mention symptoms that seem disconnected from recent changes
@@ -33,16 +32,13 @@ Unpredictable system behavior occurs when modifications to one component cause u
 - The team spends significant time investigating why changes broke seemingly unrelated features
 - Code reviews focus heavily on trying to predict all possible side effects
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.410, Strength: 0.639">ⓘ</span>
 <br/>  The lack of adequate test coverage in critical areas of the codebase fails to identify and isolate hidden dependencies, allowing changes to propagate unpredictably and leading to unforeseen side effects throughout the system.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.523">ⓘ</span>
 <br/>  Frequent updates to requirements arise as teams react to unexpected side effects from changes, highlighting the underlying hidden dependencies in the legacy system that complicate predictability and stability.
 
 ## Root Causes ▼
-
 - [Global State and Side Effects](global-state-and-side-effects.md) <span class="info-tooltip" title="Confidence: 0.510, Strength: 0.899">ⓘ</span>
 <br/>  Excessive reliance on global variables and functions with hidden side effects creates a tangled web of interdependencies, making it impossible to predict how changes in one part of the system will impact other areas, thereby leading to unpredictable behavior.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.500, Strength: 0.931">ⓘ</span>
@@ -101,7 +97,6 @@ Unpredictable system behavior occurs when modifications to one component cause u
 - **Side Effect Monitoring:** Track system state changes during operations to identify unexpected mutations
 - **Code Coupling Metrics:** Measure coupling between modules to identify areas with high interconnectedness
 - **Change Impact Tracking:** Maintain logs of which areas are affected by changes to identify patterns of unexpected impact
-
 
 ## Examples
 

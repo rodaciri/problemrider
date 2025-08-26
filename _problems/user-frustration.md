@@ -26,7 +26,6 @@ layout: problem
 
 User frustration occurs when software systems consistently fail to meet user expectations for reliability, performance, or usability. This manifests as user complaints, negative feedback, reduced system adoption, or users seeking alternative solutions. User frustration is often a symptom of underlying technical problems but can have serious business consequences including customer churn, reduced productivity, and damage to organizational reputation.
 
-
 ## Indicators ⟡
 
 - Users frequently complain about system behavior or reliability
@@ -35,9 +34,7 @@ User frustration occurs when software systems consistently fail to meet user exp
 - System adoption rates are lower than expected
 - User satisfaction surveys show declining scores
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.596, Strength: 0.817">ⓘ</span>
 <br/>  Frequent updates to project requirements often arise from user dissatisfaction with the existing system, prompting stakeholders to seek changes in an attempt to address usability and performance issues, which in turn creates a cycle of rework and further frustration.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.550, Strength: 0.803">ⓘ</span>
@@ -74,7 +71,6 @@ User frustration occurs when software systems consistently fail to meet user exp
 - **Usage Analytics:** Monitor system usage patterns to identify avoidance behaviors
 - **User Feedback Channels:** Establish ways for users to report problems and suggestions
 - **Net Promoter Score (NPS):** Track user willingness to recommend the system
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Feedback isolation occurs when development teams work for extended periods without receiving input from stakeholders, users, or business representatives about whether their work is meeting requirements and expectations. This isolation creates a dangerous gap between what developers build and what is actually needed, leading to significant rework, missed requirements, and products that fail to solve real problems. The longer the isolation persists, the more expensive and disruptive the eventual corrections become.
 
-
 ## Indicators ⟡
 
 - Stakeholder feedback is only gathered at major milestones or project completion
@@ -35,9 +34,7 @@ Feedback isolation occurs when development teams work for extended periods witho
 - Development team makes assumptions about user needs without verification
 - Feedback, when received, results in significant changes or rework
 
-
 ## Symptoms ▲
-
 - [Quality Degradation](quality-degradation.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.691">ⓘ</span>
 <br/>  The lack of regular input from stakeholders and users leads to insufficient understanding of requirements, resulting in rushed development decisions that accumulate technical debt and degrade system quality over time.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.606">ⓘ</span>
@@ -48,7 +45,6 @@ Feedback isolation occurs when development teams work for extended periods witho
 <br/>  The lack of regular input from stakeholders and users leads to misaligned product features, resulting in users struggling to complete tasks and subsequently increasing their reliance on customer support for assistance.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.409, Strength: 0.842">ⓘ</span>
 <br/>  The lack of funding due to increased project costs restricts the ability to facilitate regular stakeholder and user engagement, ultimately resulting in development teams being isolated from critical feedback that informs requirements and user needs.
 - [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.816">ⓘ</span>
@@ -78,7 +74,6 @@ Feedback isolation occurs when development teams work for extended periods witho
 - **User Validation Tracking:** Monitor how often user assumptions are validated during development
 - **Demo Effectiveness Assessment:** Evaluate whether demonstrations lead to meaningful feedback
 - **Requirement Change Analysis:** Track how requirements evolve based on feedback
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Inconsistent coding standards occur when different parts of a codebase follow different formatting, naming, and structural conventions, making the code difficult to read, understand, and maintain. This inconsistency can arise from multiple developers working without agreed-upon standards, legacy code written with different conventions, or lack of automated enforcement of coding standards.
 
-
 ## Indicators ⟡
 
 - Different naming conventions used throughout the codebase
@@ -34,9 +33,7 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 - Different error handling approaches across components
 - Varying levels of documentation and commenting
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.430, Strength: 0.666">ⓘ</span>
 <br/>  Inconsistent coding practices lead to fragmented logic and unclear structures, making it challenging to identify and implement comprehensive tests, which in turn results in inadequate coverage of critical code areas.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.686">ⓘ</span>
@@ -49,7 +46,6 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 <br/>  The lack of uniform coding standards leads to unpredictable code behavior and improper test setups, resulting in flaky tests that compromise the reliability of the overall test suite.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.904">ⓘ</span>
 <br/>  The presence of shared dependencies often leads to varying interpretations and implementations of coding standards among developers, resulting in inconsistencies that degrade code quality and complicate maintenance in legacy systems.
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.800">ⓘ</span>
@@ -66,7 +62,6 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 - **Code Review Quality Metrics:** Track time spent on style vs logic issues in code reviews
 - **Developer Feedback Analysis:** Gather feedback on code readability and consistency issues
 - **Codebase Health Metrics:** Measure code quality metrics across different parts of codebase
-
 
 ## Examples
 

@@ -25,16 +25,13 @@ layout: problem
 ## Description
 A knowledge sharing breakdown occurs when the mechanisms for distributing information and expertise within a team are ineffective. This can manifest as a lack of documentation, poor communication, or a culture that does not value or reward knowledge sharing. When knowledge sharing breaks down, it can lead to a number of problems, including knowledge silos, duplicated effort, and a decline in the overall quality of the team's work.
 
-
 ## Indicators ⟡
 - Team members are not aware of what other team members are working on.
 - The same questions are asked and answered repeatedly.
 - There is no easy way to find information about the system or its history.
 - New team members have a difficult time getting up to speed.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.843">ⓘ</span>
 <br/>  Ineffective knowledge sharing among team members leads to a lack of documentation and mentorship for legacy technologies, resulting in a critical shortage of skilled developers and increasing reliance on a few individuals, which creates maintenance bottlenecks and potential failures.
 - [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.852">ⓘ</span>
@@ -78,7 +75,6 @@ A knowledge sharing breakdown occurs when the mechanisms for distributing inform
 - **Knowledge Mapping:** Identify the key knowledge areas in the team and who the experts are.
 - **Information Flow Analysis:** Analyze how information moves through the team and identify any bottlenecks.
 - **Developer Surveys:** Ask developers about their experience with knowledge sharing and whether they feel that they have access to the information they need.
-
 
 ## Examples
 A team has a number of senior developers who have been with the company for a long time. They have a wealth of knowledge about the system, but they are not very good at sharing it with the junior developers. As a result, the junior developers are struggling to learn the system and are not able to be as productive as they could be. In another example, a team has a wiki, but it is not well-maintained. The information is out-of-date and difficult to find. As a result, team members are not using the wiki, and they are not sharing their knowledge with each other.

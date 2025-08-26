@@ -18,7 +18,6 @@ layout: problem
 
 Silent data corruption occurs when data becomes altered, damaged, or lost without the system detecting or reporting the corruption. Unlike explicit errors that trigger exceptions or alerts, silent corruption allows corrupted data to persist in the system, potentially propagating through other processes and creating compounding problems. This corruption can happen at various levels including storage, transmission, processing, or during data transformations.
 
-
 ## Indicators ⟡
 
 - Calculated results or reports show unexpected variations without clear cause
@@ -28,9 +27,7 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 - Data transformations occur without proper validation of input and output
 - Historical data shows inconsistencies when compared across time periods
 
-
 ## Symptoms ▲
-
 - [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.475, Strength: 0.853">ⓘ</span>
 <br/>  The use of inadequate or outdated test data fails to expose silent data corruption during testing, as it does not accurately simulate the conditions under which real data may become corrupted, thus allowing underlying integrity issues to go undetected.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.816">ⓘ</span>
@@ -61,7 +58,6 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 - **Concurrent Access Issues:** Race conditions or improper locking during data modifications
 - **Legacy System Integration:** Data format mismatches during system integration causing silent transformation errors
 
-
 ## Detection Methods ○
 
 - **Data Integrity Checksums:** Implement and regularly verify checksums for critical data
@@ -71,7 +67,6 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 - **Cross-System Validation:** Compare data across redundant systems or backups
 - **Statistical Analysis:** Monitor data distributions and patterns to detect anomalies
 - **Regular Data Audits:** Systematic review of critical data sets for corruption indicators
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Accumulated decision debt occurs when important architectural, design, or technical decisions are consistently deferred, creating a compound effect where each postponed decision makes future decisions more complex and constrained. This debt accumulates similarly to technical debt, where avoiding difficult choices in the short term creates increasingly expensive problems in the long term. Eventually, the weight of accumulated decisions can paralyze a project or force suboptimal choices that could have been avoided with earlier decision-making.
 
-
 ## Indicators ⟡
 
 - Current decisions are constrained by multiple previous non-decisions
@@ -35,9 +34,7 @@ Accumulated decision debt occurs when important architectural, design, or techni
 - Multiple interdependent decisions must be made simultaneously
 - Team expresses feeling "trapped" by previous avoidance of choices
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.586, Strength: 0.793">ⓘ</span>
 <br/>  Deferred decisions lead to unclear project direction and priorities, resulting in frequent updates to requirements as stakeholders grapple with unaddressed complexities, which in turn causes rework and delays.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.770">ⓘ</span>
@@ -84,7 +81,6 @@ Accumulated decision debt occurs when important architectural, design, or techni
 - **Choice Constraint Assessment:** Evaluate how previous indecision limits current options
 - **Decision Cascade Tracking:** Monitor when resolving one decision triggers multiple others
 - **Team Retrospectives:** Discuss how past decision avoidance affects current work
-
 
 ## Examples
 

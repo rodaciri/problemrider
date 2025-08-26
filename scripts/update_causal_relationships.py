@@ -139,44 +139,127 @@ def load_relationship_descriptions(descriptions_file: str) -> Dict:
     except (FileNotFoundError, csv.Error):
         return {"problems": {}, "metadata": {"total_relationships": 0, "total_problems": 0}}
 
+def clean_existing_links_from_section(section_content: str) -> str:
+    """Remove existing markdown links from a section while preserving unlinked content."""
+    lines = section_content.split('\n')
+    cleaned_lines = []
+    
+    # Common auto-generated entries to remove (these come from cache/analysis)
+    auto_generated_patterns = [
+        r'Large,?\s*Risky\s*Releases',
+        r'Excessive\s*Disk\s*I/O', 
+        r'N\+1\s*Query\s*Problem',
+        r'High\s*Coupling\s*and\s*Low\s*Cohesion',
+        r'Integer\s*Overflow\s*and\s*Underflow',
+        # Security-related auto-generated entries
+        r'Insufficient\s*Input\s*Validation',
+        r'Missing\s*Output\s*Encoding',
+        r'Direct\s*DOM\s*Manipulation',
+        r'Inadequate\s*Content\s*Security\s*Policy',
+        r'Server-Side\s*Template\s*Injection',
+        r'Third-Party\s*Component\s*Vulnerabilities',
+        r'Dynamic\s*Query\s*Construction',
+        r'Missing\s*Parameterized\s*Queries',
+        r'Excessive\s*Database\s*Privileges',
+        r'Error\s*Information\s*Disclosure',
+        r'Second-Order\s*SQL\s*Injection',
+        # Performance-related auto-generated entries  
+        r'Architecture\s*Mismatches',
+        r'Network\s*Protocol\s*Requirements',
+        r'File\s*Format\s*Constraints',
+        r'Excessive\s*Conversion\s*Frequency',
+        r'Lack\s*of\s*Native\s*Format\s*Processing',
+        r'Protocol\s*Design\s*Issues',
+    ]
+    
+    for line in lines:
+        line_stripped = line.strip()
+        
+        # Skip empty lines and section headers
+        if not line_stripped or line_stripped.startswith('#'):
+            cleaned_lines.append(line)
+            continue
+            
+        # Skip lines that contain markdown links [text](url)
+        if re.search(r'\[.+?\]\(.+?\)', line):
+            continue
+            
+        # Skip lines with HTML spans (tooltips) 
+        if '<span class="info-tooltip"' in line:
+            continue
+            
+        # Skip lines with HTML breaks (descriptions)
+        if line_stripped.startswith('<br/>'):
+            continue
+            
+        # Skip auto-generated entries (both with and without bold formatting)
+        is_auto_generated = False
+        for pattern in auto_generated_patterns:
+            if re.search(pattern, line, re.IGNORECASE):
+                is_auto_generated = True
+                break
+                
+        if is_auto_generated:
+            continue
+            
+        # Skip lines that are just bold text without additional context
+        # (these are typically auto-generated entries)
+        bold_only_match = re.match(r'^\s*[-*]\s*\*\*([^*]+)\*\*\s*:?\s*$', line)
+        if bold_only_match:
+            continue
+            
+        # Keep other content (genuine unlinked list items, text, etc.)
+        cleaned_lines.append(line)
+    
+    return '\n'.join(cleaned_lines).strip()
+
 def build_markdown_section(section_title: str, relationships: List[Tuple], 
                          section_symbol: str, existing_problems: Set[str], 
-                         descriptions: Dict = None, problem_key: str = None) -> str:
+                         descriptions: Dict = None, problem_key: str = None,
+                         preserve_unlinked: str = None) -> str:
     """Build a markdown section from causal relationships."""
-    if not relationships:
-        return f"## {section_title} {section_symbol}\n\n*No significant relationships within the scope of legacy systems identified (yet).*\n"
+    lines = [f"## {section_title} {section_symbol}"]
     
-    lines = [f"## {section_title} {section_symbol}\n"]
+    # Add preserved unlinked content first if it exists
+    if preserve_unlinked and preserve_unlinked.strip():
+        cleaned_content = clean_existing_links_from_section(preserve_unlinked)
+        if cleaned_content.strip():
+            lines.append("")
+            lines.append(cleaned_content)
     
-    for title, confidence, score in relationships:
-        slug = title_to_slug(title)
+    # Add cache-based relationships
+    if relationships:
+        if not (preserve_unlinked and preserve_unlinked.strip()):
+            lines.append("")  # Add blank line only if no preserved content
         
-        # Only create link if the problem file exists
-        if slug in existing_problems:
-            link_text = f"[{title}]({slug}.md)"
-        else:
-            link_text = f"**{title}**"
-        
-        # Add confidence and score information as hover tooltip
-        if slug in existing_problems:
-            tooltip_text = f"Confidence: {confidence:.3f}, Strength: {score:.3f}"
-            lines.append(f"- {link_text} <span class=\"info-tooltip\" title=\"{tooltip_text}\">ⓘ</span>")
+        for title, confidence, score in relationships:
+            slug = title_to_slug(title)
             
-            # Add description if available
-            if descriptions and problem_key:
-                problems_data = descriptions.get("problems", {})
-                problem_data = problems_data.get(problem_key, {})
-                section_type = "symptoms" if "Symptoms" in section_title else "root_causes"
-                relationships_dict = problem_data.get(section_type, {})
+            # Only create link if the problem file exists
+            if slug in existing_problems:
+                link_text = f"[{title}]({slug}.md)"
+                tooltip_text = f"Confidence: {confidence:.3f}, Strength: {score:.3f}"
+                lines.append(f"- {link_text} <span class=\"info-tooltip\" title=\"{tooltip_text}\">ⓘ</span>")
                 
-                if slug in relationships_dict:
-                    description = relationships_dict[slug].get("description", "")
-                    if description:
-                        lines.append(f"<br/>  {description}")
-        else:
-            lines.append(f"- {link_text}")
+                # Add description if available
+                if descriptions and problem_key:
+                    problems_data = descriptions.get("problems", {})
+                    problem_data = problems_data.get(problem_key, {})
+                    section_type = "symptoms" if "Symptoms" in section_title else "root_causes"
+                    relationships_dict = problem_data.get(section_type, {})
+                    
+                    if slug in relationships_dict:
+                        description = relationships_dict[slug].get("description", "")
+                        if description:
+                            lines.append(f"<br/>  {description}")
+            else:
+                link_text = f"**{title}**"
+                lines.append(f"- {link_text}")
+    elif not preserve_unlinked or not preserve_unlinked.strip():
+        # Only show "no relationships" message if there's no preserved content either
+        lines.append("")
+        lines.append("*No significant relationships within the scope of legacy systems identified (yet).*")
     
-    lines.append("")  # Empty line after section
     return "\n".join(lines)
 
 def get_existing_problems(problems_dir: str) -> Set[str]:
@@ -222,9 +305,25 @@ def update_problem_file(filepath: str, cache_data: Dict, confidence_threshold: f
         # Split body into sections
         sections = re.split(r'^## ', body, flags=re.MULTILINE)
         
-        # Build new sections
-        new_symptoms_section = build_markdown_section("Symptoms", symptoms, "▲", existing_problems, descriptions, problem_key)
-        new_root_causes_section = build_markdown_section("Root Causes", root_causes, "▼", existing_problems, descriptions, problem_key)
+        # Extract existing unlinked content from Symptoms and Root Causes sections
+        existing_symptoms_unlinked = ""
+        existing_root_causes_unlinked = ""
+        
+        for i, section in enumerate(sections):
+            if i == 0:  # Skip first part before any ## header
+                continue
+            
+            section_name = section.split('\n')[0].strip()
+            section_content = '\n'.join(section.split('\n')[1:])
+            
+            if section_name.startswith('Symptoms'):
+                existing_symptoms_unlinked = section_content
+            elif section_name.startswith('Root Causes'):
+                existing_root_causes_unlinked = section_content
+        
+        # Build new sections, preserving unlinked content
+        new_symptoms_section = build_markdown_section("Symptoms", symptoms, "▲", existing_problems, descriptions, problem_key, existing_symptoms_unlinked)
+        new_root_causes_section = build_markdown_section("Root Causes", root_causes, "▼", existing_problems, descriptions, problem_key, existing_root_causes_unlinked)
         
         # Rebuild the body, replacing Symptoms and Root Causes sections
         new_body_parts = []
@@ -243,23 +342,31 @@ def update_problem_file(filepath: str, cache_data: Dict, confidence_threshold: f
             elif section_name.startswith('Root Causes'):
                 new_body_parts.append(new_root_causes_section)
             else:
-                # Keep other sections unchanged
-                new_body_parts.append(f"## {section}")
+                # Keep other sections unchanged, ensuring proper spacing
+                section_with_header = f"## {section}"
+                new_body_parts.append(section_with_header)
         
         # If Symptoms or Root Causes sections didn't exist, add them
         has_symptoms = any('Symptoms' in part for part in new_body_parts)
         has_root_causes = any('Root Causes' in part for part in new_body_parts)
         
-        if not has_symptoms and symptoms:
+        if not has_symptoms and (symptoms or existing_symptoms_unlinked.strip()):
             new_body_parts.append(new_symptoms_section)
         
-        if not has_root_causes and root_causes:
+        if not has_root_causes and (root_causes or existing_root_causes_unlinked.strip()):
             new_body_parts.append(new_root_causes_section)
         
         # Reconstruct the full file content - preserve original frontmatter format
         original_frontmatter = original_content.split('---')[1]
         new_content = "---" + original_frontmatter + "---\n\n"
-        new_content += '\n'.join(new_body_parts).strip() + '\n'
+        
+        # Clean up multiple blank lines and ensure proper spacing between sections
+        body_content = '\n'.join(new_body_parts).strip()
+        # Remove multiple consecutive blank lines and replace with single blank lines
+        body_content = re.sub(r'\n{3,}', '\n\n', body_content)
+        # Ensure there's a blank line before each ## heading (except the first one)
+        body_content = re.sub(r'([^\n])\n(## )', r'\1\n\n\2', body_content)
+        new_content += body_content + '\n'
         
         if dry_run:
             print(f"   🔍 DRY RUN - Would update {filepath}")

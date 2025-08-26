@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Unclear sharing expectations is a situation where it is not clear what information should be shared with the rest of the team. This is a common problem in teams that do not have a culture of knowledge sharing. Unclear sharing expectations can lead to a number of problems, including knowledge silos, poor communication, and team coordination issues.
 
-
 ## Indicators ⟡
 - Team members are not sure what information they should share with the rest of the team.
 - There is a lot of information that is not shared with the rest of the team.
 - Team members are often surprised by information that they should have known about.
 - There is a lot of duplicated effort as team members have to rediscover the same information.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.632, Strength: 0.916">ⓘ</span>
 <br/>  The lack of clear information-sharing expectations leads to insufficient documentation and knowledge transfer among team members, resulting in a critical shortage of developers skilled in legacy technologies, which hinders effective system maintenance and exacerbates bottlenecks.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.624, Strength: 0.858">ⓘ</span>
@@ -135,7 +132,6 @@ Unclear sharing expectations is a situation where it is not clear what informati
 - **Developer Surveys:** Ask developers if they feel like they have the information they need to do their jobs.
 - **Communication Audits:** Audit the communication channels to see what information is being shared.
 - **Retrospectives:** Use retrospectives to identify what information is not being shared.
-
 
 ## Examples
 A team is working on a new project. The team does not have a culture of knowledge sharing. There are no clear expectations about what information should be shared. As a result, the team members are not sure what information they should share with the rest of the team. This leads to a number of problems, including knowledge silos, poor communication, and team coordination issues.

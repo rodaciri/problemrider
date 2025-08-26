@@ -26,7 +26,6 @@ layout: problem
 
 The invisible nature of technical debt occurs when the costs and impacts of accumulated technical shortcuts, poor design decisions, and maintenance overhead are not apparent to non-technical stakeholders who make resource allocation decisions. This invisibility makes it difficult to justify spending time and resources on technical improvements, leading to continued accumulation of technical debt and eventual system degradation.
 
-
 ## Indicators ⟡
 
 - Management questions the value of refactoring or technical improvement work
@@ -35,16 +34,13 @@ The invisible nature of technical debt occurs when the costs and impacts of accu
 - Development teams struggle to explain why maintenance tasks are important
 - Business decisions prioritize visible features over invisible infrastructure improvements
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.618">ⓘ</span>
 <br/>  The lack of visibility into the impact of accumulated technical debt often leads to insufficient prioritization of testing resources, resulting in critical code areas remaining untested and exposing the system to undetected defects.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.364, Strength: 0.618">ⓘ</span>
 <br/>  The lack of visibility into the consequences of unaddressed technical debt leads to inadequate investment in training and resources for legacy technologies, resulting in a critical shortage of skilled developers necessary for maintaining and improving those systems.
 
 ## Root Causes ▼
-
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.836">ⓘ</span>
 <br/>  The team's tendency to provide disproportionately large time estimates for minor changes highlights the hidden complexities and risks in the legacy code, making the invisible accumulation of technical debt difficult to quantify and communicate to non-technical stakeholders, thereby hindering resource allocation for necessary improvements.
 - [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.800">ⓘ</span>
@@ -112,7 +108,6 @@ The invisible nature of technical debt occurs when the costs and impacts of accu
 - **Communication Effectiveness Analysis:** Monitor whether technical concerns are successfully communicated to business stakeholders
 - **Resource Allocation Review:** Analyze what percentage of resources are dedicated to technical improvements
 - **Impact Correlation Analysis:** Measure correlation between technical debt and business metrics over time
-
 
 ## Examples
 

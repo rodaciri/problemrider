@@ -26,7 +26,6 @@ layout: problem
 
 Dependency on supplier occurs when an organization becomes overly reliant on external vendors for critical system components, services, or expertise, creating strategic vulnerabilities and reducing autonomy. This dependency can manifest as technical lock-in, knowledge dependency, or operational reliance that makes it difficult or expensive to change suppliers or bring capabilities in-house.
 
-
 ## Indicators ⟡
 
 - Critical system functionality depends on vendor-specific technologies or services
@@ -35,9 +34,7 @@ Dependency on supplier occurs when an organization becomes overly reliant on ext
 - Vendor has significant control over roadmap, pricing, or service levels
 - Organization cannot operate effectively if vendor relationship ends
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.617, Strength: 0.881">ⓘ</span>
 <br/>  The reliance on external vendors for critical system components limits the development of in-house expertise, resulting in a shortage of skilled developers familiar with legacy technologies, which in turn creates maintenance bottlenecks and increases the risk of system failures.
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.829">ⓘ</span>
@@ -50,7 +47,6 @@ Dependency on supplier occurs when an organization becomes overly reliant on ext
 <br/>  The reliance on external vendors for critical components leads to an over-dependence on their specific tools or APIs, which restricts the organization's ability to adapt or switch to alternative solutions, thus highlighting the risks of reduced flexibility and increased lock-in.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.945">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks among multiple components leads to an increased dependency on external vendors, as changes or updates to these shared resources can necessitate vendor involvement, thereby reducing flexibility and increasing lock-in risk.
 
@@ -61,7 +57,6 @@ Dependency on supplier occurs when an organization becomes overly reliant on ext
 - **Vendor Performance Monitoring:** Track vendor performance and relationship health over time
 - **Alternative Supplier Assessment:** Evaluate availability and viability of alternative suppliers
 - **Internal Capability Gap Analysis:** Assess organization's ability to reduce vendor dependencies
-
 
 ## Examples
 

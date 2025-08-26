@@ -24,16 +24,13 @@ layout: problem
 ## Description
 A perfectionist culture is one in which there is an excessive focus on quality and a reluctance to release anything that is not 100% perfect. This can lead to a number of problems, including analysis paralysis, long release cycles, and a lack of innovation. While a focus on quality is important, it is also important to be able to deliver value to users in a timely manner. A perfectionist culture can make it difficult to strike the right balance between quality and speed.
 
-
 ## Indicators ⟡
 - The team is constantly debating minor details.
 - The team is hesitant to release new features for fear of them not being perfect.
 - There is a lot of rework and churn in the development process.
 - The team is not learning from its mistakes.
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.656, Strength: 0.907">ⓘ</span>
 <br/>  The insistence on achieving flawless implementation in a system with an inherently intricate business domain leads to over-engineering and excessive complexity, which in turn manifests as a symptom of a culture that prioritizes perfection over timely delivery.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.630, Strength: 0.854">ⓘ</span>
@@ -151,7 +148,6 @@ A perfectionist culture is one in which there is an excessive focus on quality a
 - **Time to Market:** Measure the time it takes for a new feature to go from idea to production.
 - **Number of Experiments:** Track the number of experiments that the team is running.
 - **Willingness to Fail:** Is the team willing to fail and learn from its mistakes?
-
 
 ## Examples
 A company has a culture of perfectionism. The team is constantly debating minor details, and they are hesitant to release new features for fear of them not being perfect. As a result, it takes a long time to release new features, and the company is falling behind its competitors. The team is also not learning from its mistakes, and they are making the same mistakes over and over again.

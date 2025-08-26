@@ -17,7 +17,6 @@ layout: problem
 
 Stack overflow errors occur when a program's call stack exceeds the allocated stack space, typically due to unbounded recursion, excessively deep function call chains, or allocation of very large local variables. The stack is a limited memory region used for function calls, local variables, and return addresses. When this space is exhausted, the program crashes with a stack overflow error, which can be difficult to debug and may indicate fundamental algorithmic or architectural problems.
 
-
 ## Indicators ⟡
 
 - Application crashes with stack overflow or stack space exceeded errors
@@ -26,9 +25,7 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 - Stack traces show very deep call hierarchies or infinite recursion patterns
 - Memory profiling shows rapid stack growth during specific operations
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.613, Strength: 0.898">ⓘ</span>
 <br/>  Excessive growth of data structures without constraints can lead to increased memory usage, which exacerbates stack overflow errors by consuming available stack space more rapidly during recursive function calls or when allocating large local variables.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.755">ⓘ</span>
@@ -50,7 +47,6 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 - **Stress Testing:** Test with inputs that may cause deep recursion or large stack usage
 - **Stack Trace Analysis:** Examine crash stack traces to identify recursion patterns
 - **Profiling Tools:** Use memory profilers to monitor stack usage during operation
-
 
 ## Examples
 

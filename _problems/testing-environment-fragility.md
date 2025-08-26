@@ -25,7 +25,6 @@ layout: problem
 
 Testing environment fragility occurs when the infrastructure supporting automated testing is unreliable, difficult to maintain, or significantly different from production environments. This fragility manifests as tests that fail intermittently due to infrastructure issues rather than actual code problems, environments that are difficult to set up or reproduce, and testing conditions that don't accurately reflect real-world usage. Fragile testing infrastructure undermines confidence in test results and creates obstacles to effective quality assurance.
 
-
 ## Indicators ⟡
 
 - Tests fail frequently due to infrastructure problems rather than code issues
@@ -34,9 +33,7 @@ Testing environment fragility occurs when the infrastructure supporting automate
 - Production issues occur that weren't caught by testing due to environment differences
 - Maintaining testing infrastructure consumes significant developer time
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.496, Strength: 0.720">ⓘ</span>
 <br/>  The unreliability of the testing infrastructure discourages experienced developers from engaging with legacy technologies, leading to a shortage of skilled personnel and creating critical maintenance bottlenecks.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.707">ⓘ</span>
@@ -51,7 +48,6 @@ Testing environment fragility occurs when the infrastructure supporting automate
 <br/>  Unreliable testing infrastructure leads to inconsistent test setups and unpredictable timing, causing tests to fail sporadically and eroding confidence in the overall testing process.
 
 ## Root Causes ▼
-
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.915">ⓘ</span>
 <br/>  The tightly coupled nature of cross-cutting concerns with business logic complicates the testing environment, leading to unreliable simulations of production conditions and making maintenance difficult, which ultimately undermines the effectiveness of tests.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.935">ⓘ</span>
@@ -65,7 +61,6 @@ Testing environment fragility occurs when the infrastructure supporting automate
 - **Production vs. Test Environment Comparison:** Assess how closely testing conditions match production
 - **Infrastructure Maintenance Effort:** Track time spent on testing infrastructure maintenance
 - **Developer Experience Surveys:** Ask team about testing infrastructure pain points
-
 
 ## Examples
 

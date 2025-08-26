@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Operational overhead is the indirect cost of running a software system. This includes the cost of things like monitoring, logging, alerting, and on-call support. When operational overhead is high, it can be a major drain on the resources of a company. It can also be a major source of stress and frustration for the development team. High operational overhead is often a symptom of a complex and unstable system. It is a sign that the team is spending too much time on reactive work and not enough time on proactive work.
 
-
 ## Indicators ⟡
 - The on-call team is constantly being paged.
 - The development team is spending a lot of time on operational tasks.
 - The cost of monitoring and logging is high.
 - There is a general sense of chaos and urgency in the team's daily work.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.624, Strength: 0.832">ⓘ</span>
 <br/>  Frequent emergency responses to legacy system issues consume developers' time and energy, leading to frustration and burnout as they struggle to maintain a fragile codebase instead of engaging in productive and innovative work.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.613, Strength: 0.835">ⓘ</span>
@@ -132,7 +129,6 @@ Operational overhead is the indirect cost of running a software system. This inc
 - **Time Spent on Operational Tasks:** Track the amount of time that the development team spends on operational tasks.
 - **Cost of Monitoring and Logging:** Track the cost of your monitoring and logging tools.
 - **Mean Time to Resolution (MTTR):** Measure the average time it takes to resolve a production issue.
-
 
 ## Examples
 A company is running a large, distributed system. The system is complex and difficult to understand. The on-call team is constantly being paged to deal with production issues. The development team is spending a lot of time on operational tasks, such as debugging production issues and adding more logging. As a result, the team is making very little progress on new features, and the cost of running the system is high.

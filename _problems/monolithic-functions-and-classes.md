@@ -25,7 +25,6 @@ layout: problem
 
 Monolithic functions and classes are code components that have grown to handle multiple, often unrelated responsibilities within a single unit. These "god functions" or "god classes" violate the Single Responsibility Principle and become central points of complexity that are difficult to understand, modify, test, or reuse. They often emerge organically as features are added over time, with developers continuously extending existing functions rather than creating new, focused components.
 
-
 ## Indicators ⟡
 - Functions that are hundreds or thousands of lines long
 - Classes with dozens of methods and instance variables
@@ -33,13 +32,11 @@ Monolithic functions and classes are code components that have grown to handle m
 - Code that handles multiple distinct business concepts or technical concerns
 - Difficulty summarizing what a function or class does in a single sentence
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.489, Strength: 0.919">ⓘ</span>
 <br/>  The tendency to create monolithic functions and classes arises from developers' procedural programming background, as they replicate familiar patterns that prioritize grouped logic over modular design, resulting in tightly coupled and complex code structures in an object-oriented environment.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.912">ⓘ</span>
@@ -89,7 +86,6 @@ Monolithic functions and classes are code components that have grown to handle m
 - **Code Review Patterns:** Look for reviews that mention difficulty understanding or testing specific components
 - **Change Frequency Analysis:** Components that are modified frequently may be handling too many responsibilities
 - **Testing Complexity:** Identify components that require extensive setup or multiple test scenarios
-
 
 ## Examples
 

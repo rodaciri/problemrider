@@ -22,7 +22,6 @@ layout: problem
 
 ABI (Application Binary Interface) compatibility issues arise when applications compiled against one version of a library or system component are used with a different version that has incompatible binary interfaces. This can cause crashes, memory corruption, incorrect behavior, or failure to load, as the application expects different function signatures, data layouts, or calling conventions than what the runtime library provides.
 
-
 ## Indicators ⟡
 
 - Applications crash immediately upon startup or when calling specific library functions
@@ -31,16 +30,13 @@ ABI (Application Binary Interface) compatibility issues arise when applications 
 - Dynamic linking fails with symbol resolution errors
 - Applications work in development but fail in production with different library versions
 
-
 ## Symptoms ▲
-
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.629">ⓘ</span>
 <br/>  In legacy systems, ABI compatibility issues can lead to outdated libraries that fail to support new regulatory requirements, resulting in compliance gaps that signal deeper technical deficiencies in the software architecture.
 - [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.762">ⓘ</span>
 <br/>  Teams facing compatibility issues often become overwhelmed by the need to thoroughly investigate and validate the correct library versions and dependencies, leading to prolonged analysis phases that hinder progress on actual implementation.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.949">ⓘ</span>
 <br/>  The presence of shared libraries across multiple components in legacy systems often leads to ABI compatibility issues when updates are made, as differing versions of a library can introduce changes that break the expected binary interface, ultimately resulting in runtime failures or undefined behavior.
 - [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.812">ⓘ</span>
@@ -56,7 +52,6 @@ ABI (Application Binary Interface) compatibility issues arise when applications 
 - **Linking Analysis:** Analyze linking behavior and symbol resolution during application startup
 - **Memory Layout Verification:** Verify data structure layouts match between compile and runtime versions
 - **Compatibility Testing Suites:** Use automated testing to verify ABI compatibility across versions
-
 
 ## Examples
 

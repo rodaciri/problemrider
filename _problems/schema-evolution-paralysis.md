@@ -25,7 +25,6 @@ layout: problem
 
 Schema evolution paralysis occurs when database schemas become so entrenched with dependencies, constraints, and legacy design decisions that they cannot be safely modified to support new business requirements or technical improvements. This creates a situation where the database structure becomes a bottleneck for system evolution, forcing teams to work around schema limitations rather than addressing them directly. The problem is particularly acute in legacy systems where years of accumulated changes have created complex interdependencies.
 
-
 ## Indicators ⟡
 
 - New feature requirements that are consistently rejected due to database schema constraints
@@ -36,9 +35,7 @@ Schema evolution paralysis occurs when database schemas become so entrenched wit
 - Schema documentation that is outdated, incomplete, or focuses on warnings about what not to change
 - Feature requests that require denormalization or data duplication to implement
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.607, Strength: 0.810">ⓘ</span>
 <br/>  The inability to modify the database schema due to extensive dependencies leads to an overly complex domain model, as developers must implement workarounds and convoluted logic to accommodate new requirements without proper structural changes.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.773">ⓘ</span>
@@ -68,7 +65,6 @@ Schema evolution paralysis occurs when database schemas become so entrenched wit
 - Assess database migration and rollback capabilities in current development processes
 - Examine database performance issues that could be resolved with schema changes
 - Evaluate business requirement feasibility analysis patterns for database-dependent features
-
 
 ## Examples
 

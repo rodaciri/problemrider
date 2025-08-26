@@ -25,7 +25,6 @@ layout: problem
 
 Information fragmentation occurs when critical system knowledge, decisions, and documentation are scattered across multiple disconnected locations, formats, and systems. This creates a situation where team members cannot efficiently locate the information they need, leading to duplicated research efforts, inconsistent decision-making, and knowledge loss. Unlike having no documentation at all, fragmented information exists but is effectively inaccessible due to poor organization and discoverability.
 
-
 ## Indicators ⟡
 
 - Team members frequently ask "where can I find information about..." 
@@ -34,9 +33,7 @@ Information fragmentation occurs when critical system knowledge, decisions, and 
 - Search functionality across information sources is poor or non-existent
 - Critical decisions and their rationale are buried in meeting notes or chat conversations
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.633">ⓘ</span>
 <br/>  The scattering of critical system knowledge across various locations and formats leads to inadequate understanding of the codebase, resulting in essential components being overlooked during testing, which manifests as poor test coverage.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.530">ⓘ</span>
@@ -47,7 +44,6 @@ Information fragmentation occurs when critical system knowledge, decisions, and 
 <br/>  Scattered critical system knowledge leads to inconsistent interpretations and implementations within the inherently complex business domain, resulting in a convoluted model that is challenging to navigate and understand.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.953">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks across multiple components leads to inconsistent documentation and varying implementation practices, resulting in critical system knowledge becoming fragmented and difficult to access.
 - [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.878">ⓘ</span>
@@ -96,7 +92,6 @@ Information fragmentation occurs when critical system knowledge, decisions, and 
 - **Question Pattern Analysis:** Track frequently repeated questions that indicate information discovery problems
 - **Tool Usage Analysis:** Map which information systems are used and how they're connected
 - **New Team Member Experience:** Monitor how effectively new hires can locate necessary information
-
 
 ## Examples
 

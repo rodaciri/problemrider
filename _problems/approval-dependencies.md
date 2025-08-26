@@ -26,7 +26,6 @@ layout: problem
 
 Approval dependencies occur when work cannot proceed without explicit approval from specific individuals, creating bottlenecks and delays in the development process. This problem is particularly acute when approvals are required for routine decisions, when approval authorities are frequently unavailable, or when approval processes are unnecessarily complex. These dependencies can bring entire teams to a standstill while waiting for authorization.
 
-
 ## Indicators ⟡
 
 - Work frequently stops while waiting for approvals from specific people
@@ -35,9 +34,7 @@ Approval dependencies occur when work cannot proceed without explicit approval f
 - Team members spend significant time seeking approvals rather than doing productive work
 - Approval processes vary inconsistently based on who is available
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.671, Strength: 0.881">ⓘ</span>
 <br/>  Frequent delays in obtaining necessary approvals hinder the team's ability to progress on tasks, leading to decreased output and overall effectiveness as developers become idle while waiting for critical decisions.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.647, Strength: 0.838">ⓘ</span>
@@ -130,7 +127,6 @@ Approval dependencies occur when work cannot proceed without explicit approval f
 - **Approval Response Time:** Measure how long it takes to get approvals for different types of decisions
 - **Decision Type Analysis:** Categorize what types of decisions require approval versus those that don't
 - **Team Productivity Impact:** Assess how approval dependencies affect overall team productivity
-
 
 ## Examples
 

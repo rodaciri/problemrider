@@ -25,7 +25,6 @@ layout: problem
 
 Maintenance paralysis occurs when development teams become unable to perform necessary maintenance, improvements, or refactoring on their codebase because they lack confidence in their ability to make changes safely. This creates a self-reinforcing downward spiral where the codebase becomes increasingly difficult to maintain, leading to even greater hesitation to make changes. Teams find themselves trapped between the need to improve the system and the inability to do so without risking catastrophic failures.
 
-
 ## Indicators ⟡
 - Developers express reluctance to refactor or improve working code
 - Maintenance tasks are repeatedly postponed or avoided
@@ -33,9 +32,7 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 - Bug fixes are applied as minimal patches rather than proper solutions
 - Technical debt accumulates while improvement efforts stagnate
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.403, Strength: 0.625">ⓘ</span>
 <br/>  The inability to confidently implement improvements due to fear of unintended consequences leads to a stagnant codebase, causing developers to feel increasingly frustrated and burned out as they grapple with unresolved issues and a lack of progress.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.395, Strength: 0.633">ⓘ</span>
@@ -52,7 +49,6 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 <br/>  The slow and cumbersome development environment hampers the ability to run tests and validate changes quickly, thereby exacerbating the fear of breaking existing functionality and leading to avoidance of necessary improvements.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.958">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks creates a fragile environment where any modification risks unpredictable side effects across components, leading teams to hesitate in implementing necessary improvements for fear of inadvertently breaking existing functionality.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.941">ⓘ</span>
@@ -93,7 +89,6 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 - **Developer Surveys:** Ask team members about their comfort level making system changes
 - **Code Age Analysis:** Identify critical code that hasn't been updated despite known issues
 - **Risk Assessment Reviews:** Track discussions about needed changes that are deemed "too risky"
-
 
 ## Examples
 

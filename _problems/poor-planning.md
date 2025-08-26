@@ -25,7 +25,6 @@ layout: problem
 
 Poor planning occurs when development projects lack adequate forethought, realistic estimation, risk assessment, or clear execution strategies. This manifests as projects that consistently exceed timeframes, encounter unexpected obstacles, require significant scope changes, or fail to achieve their intended outcomes. Poor planning often stems from inadequate requirements gathering, unrealistic assumptions, or insufficient consideration of technical complexity and dependencies.
 
-
 ## Indicators ⟡
 
 - Projects consistently exceed their original timeline and budget estimates
@@ -34,9 +33,7 @@ Poor planning occurs when development projects lack adequate forethought, realis
 - Resource allocation doesn't match actual project needs
 - Dependencies and integration points are identified late in the process
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.692">ⓘ</span>
 <br/>  The lack of clear plans and realistic estimates leads to inadequate scoping of project requirements, resulting in ongoing adjustments and changes as teams struggle to align their work with evolving expectations, thus indicating poor planning practices.
 - [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.779">ⓘ</span>
@@ -63,7 +60,6 @@ Poor planning occurs when development projects lack adequate forethought, realis
 - **Change Request Analysis:** Track frequency and magnitude of scope changes during projects
 - **Risk Realization Tracking:** Monitor how often unplanned risks materialize during projects
 - **Planning Process Review:** Assess the thoroughness and effectiveness of project planning activities
-
 
 ## Examples
 

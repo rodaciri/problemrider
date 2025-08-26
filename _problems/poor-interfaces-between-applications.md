@@ -26,7 +26,6 @@ layout: problem
 
 Poor interfaces between applications occur when systems communicate through poorly designed, inconsistent, or inadequately documented integration points. This creates fragile connections that are prone to failures, data inconsistencies, and maintenance challenges. The problem is particularly acute in enterprise environments with multiple legacy systems that evolved independently, requiring complex integration patterns that become increasingly difficult to maintain and extend over time.
 
-
 ## Indicators ⟡
 
 - Integration projects that consistently take longer than estimated
@@ -37,9 +36,7 @@ Poor interfaces between applications occur when systems communicate through poor
 - Teams avoiding integration work due to complexity and unreliability
 - New system integrations requiring custom, one-off solutions
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.546, Strength: 0.798">ⓘ</span>
 <br/>  The lack of clear and stable interfaces in legacy systems complicates maintenance and integration tasks, leading to a reliance on a diminishing pool of specialized developers, which in turn creates critical bottlenecks in addressing system issues.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.522, Strength: 0.710">ⓘ</span>
@@ -74,7 +71,6 @@ Poor interfaces between applications occur when systems communicate through poor
 <br/>  Disconnected or poorly defined interfaces often result in incomplete or inconsistent data being logged, leading to inadequate documentation of security events, which impairs the ability to detect breaches and maintain compliance in legacy systems.
 
 ## Root Causes ▼
-
 - [Scaling Inefficiencies](scaling-inefficiencies.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.880">ⓘ</span>
 <br/>  Scaling inefficiencies create rigid dependencies between system components, making it challenging to adapt or redefine interfaces, which in turn leads to fragile integrations and inconsistent data across applications.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.942">ⓘ</span>
@@ -100,7 +96,6 @@ Poor interfaces between applications occur when systems communicate through poor
 - Examine data quality issues that stem from integration problems
 - Review system dependency maps for overly complex or fragile connections
 - Assess integration testing coverage and reliability
-
 
 ## Examples
 

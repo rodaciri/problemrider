@@ -26,7 +26,6 @@ layout: problem
 
 Customer dissatisfaction occurs when users experience frustration, disappointment, or anger with software systems due to reliability problems, poor performance, confusing interfaces, or unmet expectations. This dissatisfaction can manifest as complaints, support requests, reduced usage, or customer churn. In legacy systems, dissatisfaction often accumulates over time as technical debt impacts user experience.
 
-
 ## Indicators ⟡
 
 - Increasing customer complaints about system issues
@@ -35,9 +34,7 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 - Customer churn or cancellation requests citing system issues
 - Negative feedback about system reliability or usability
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.640, Strength: 0.877">ⓘ</span>
 <br/>  A shortage of developers skilled in outdated technologies leads to inadequate system updates and maintenance, exacerbating reliability and usability issues that ultimately frustrate users and drive customer dissatisfaction.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.764">ⓘ</span>
@@ -96,7 +93,6 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 - **Usage Analytics:** Track user engagement and behavior patterns over time
 - **Customer Retention Metrics:** Monitor churn rates and reasons for leaving
 - **Net Promoter Score:** Measure customer likelihood to recommend the system
-
 
 ## Examples
 

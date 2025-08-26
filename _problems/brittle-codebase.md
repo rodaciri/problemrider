@@ -24,16 +24,13 @@ layout: problem
 ## Description
 A brittle codebase is one that is difficult and risky to change. When a small change in one part of the codebase leads to unexpected failures in other parts, it is a sign of a brittle codebase. This is often caused by a lack of automated tests, a high degree of coupling between components, and a general lack of good design principles. A brittle codebase is a major source of technical debt, and it can significantly slow down the pace of development.
 
-
 ## Indicators ⟡
 - Developers express fear or hesitation when asked to modify certain parts of the system.
 - Estimates for small changes are consistently much larger than expected.
 - The team avoids refactoring, even when they know it is needed.
 - Onboarding new developers takes an unusually long time because the codebase is so hard to understand.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.697, Strength: 0.884">ⓘ</span>
 <br/>  The difficulty in modifying the code without introducing bugs results in a reliance on a dwindling pool of experienced developers familiar with outdated technologies, thereby creating maintenance bottlenecks and increasing the risk of system failure when those few experts are unavailable.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.653, Strength: 0.860">ⓘ</span>
@@ -140,7 +137,6 @@ A brittle codebase is one that is difficult and risky to change. When a small ch
 - **Bug Tracking Metrics:** Monitor the rate of regression bugs introduced after new features or changes.
 - **Developer Surveys/Interviews:** Ask developers about their experience working with the codebase and their confidence in making changes.
 - **Code Review Feedback:** Look for recurring comments about code being hard to understand or risky to change.
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Database query performance issues occur when SQL queries are inefficiently written, poorly optimized, or execute against inadequately structured databases, resulting in slow response times, high CPU and memory usage, and scalability bottlenecks. These issues often become more pronounced as data volumes grow and user loads increase.
 
-
 ## Indicators ⟡
 
 - Database queries taking significantly longer than expected to execute
@@ -35,9 +34,7 @@ Database query performance issues occur when SQL queries are inefficiently writt
 - Database connection pools exhausted due to slow queries
 - Query execution plans showing full table scans or inefficient operations
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.560, Strength: 0.809">ⓘ</span>
 <br/>  Slow database query performance leads to delays in task completion for users, resulting in increased frustration and a higher volume of support requests as they seek assistance for issues stemming from unresponsive or inefficient system interactions.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.497, Strength: 0.702">ⓘ</span>
@@ -58,7 +55,6 @@ Database query performance issues occur when SQL queries are inefficiently writt
 - **Database Performance Profiling:** Profile database performance under different load conditions
 - **Slow Query Log Analysis:** Review database slow query logs for problematic queries
 - **Index Usage Analysis:** Analyze which indexes are used and which queries lack proper indexing
-
 
 ## Examples
 

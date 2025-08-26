@@ -26,7 +26,6 @@ layout: problem
 
 Review process breakdown occurs when code review practices systematically fail to achieve their intended goals of improving code quality, knowledge sharing, and defect prevention. This manifests as reviews that are rushed, superficial, inconsistent, or avoided entirely, creating a false sense of security while allowing quality issues to accumulate in the codebase. The breakdown often stems from misaligned incentives, process friction, or cultural issues that make effective review difficult or unrewarding.
 
-
 ## Indicators ⟡
 
 - Code reviews consistently miss obvious bugs or design flaws that later appear in production
@@ -35,16 +34,13 @@ Review process breakdown occurs when code review practices systematically fail t
 - Review turnaround time is either too slow (blocking development) or too fast (indicating superficial review)
 - The same types of issues are repeatedly identified in production despite code review processes
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.662">ⓘ</span>
 <br/>  The failure to effectively identify and address critical issues during code reviews leads to insufficient test coverage, as the lack of meaningful feedback prevents developers from recognizing and testing essential components of the codebase, ultimately resulting in blind spots in quality assurance.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.536">ⓘ</span>
 <br/>  The inability of the review process to effectively address critical issues leads to ongoing misunderstandings and misalignments regarding project requirements, causing frequent changes that result in rework and delays.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.590, Strength: 0.833">ⓘ</span>
 <br/>  Insufficient funding due to budget overruns restricts the allocation of necessary resources and time for thorough code reviews, leading to a breakdown in identifying critical issues and improving code quality in legacy systems.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.572, Strength: 0.846">ⓘ</span>
@@ -181,7 +177,6 @@ Review process breakdown occurs when code review practices systematically fail t
 - **Post-Review Bug Tracking:** Analyze whether review process effectively prevents defects
 - **Knowledge Transfer Assessment:** Evaluate whether reviews successfully share knowledge across team
 - **Review Process Surveys:** Ask team members about review effectiveness and pain points
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Short-term focus occurs when organizational decision-making consistently prioritizes immediate deliverables and quick wins over long-term sustainability, code quality, and architectural health. This management approach leads to accumulating technical debt, declining system maintainability, and eventual productivity degradation as the cost of maintaining poorly designed systems increases over time.
 
-
 ## Indicators ⟡
 
 - All development time is allocated to feature delivery with no time for improvement work
@@ -34,9 +33,7 @@ Short-term focus occurs when organizational decision-making consistently priorit
 - Long-term architectural planning is minimal or non-existent
 - Quality improvement initiatives are seen as non-essential overhead
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.744">ⓘ</span>
 <br/>  The prioritization of immediate feature delivery leads to technical debt and code rot, which in turn creates systemic inefficiencies that reduce the overall productivity and effectiveness of the development team.
 - [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.747">ⓘ</span>
@@ -63,7 +60,6 @@ Short-term focus occurs when organizational decision-making consistently priorit
 - **Development Cost Tracking:** Measure whether development velocity and costs are trending in sustainable directions
 - **Management Decision Analysis:** Review how improvement proposals are prioritized vs. feature requests
 - **Developer Satisfaction Surveys:** Assess team satisfaction with ability to maintain code quality
-
 
 ## Examples
 

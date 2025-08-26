@@ -25,7 +25,6 @@ layout: problem
 
 Poor project control occurs when project management lacks effective mechanisms to track progress, identify risks, and make necessary adjustments. This includes inadequate monitoring of milestones, poor visibility into actual versus planned progress, insufficient risk management, and delayed recognition of problems. Without proper control mechanisms, projects drift away from their intended course, and corrective action is taken too late to be effective.
 
-
 ## Indicators ⟡
 
 - Project status reports are infrequent, superficial, or consistently optimistic
@@ -34,13 +33,11 @@ Poor project control occurs when project management lacks effective mechanisms t
 - Project metrics focus on activity rather than outcomes
 - Team members have different understanding of project status and priorities
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.927">ⓘ</span>
 <br/>  Ineffective data management stemming from inadequate encapsulation prevents clear visibility into project metrics and dependencies, making it difficult to monitor progress and identify issues early.
 - [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.451, Strength: 0.947">ⓘ</span>
@@ -151,7 +148,6 @@ Poor project control occurs when project management lacks effective mechanisms t
 - **Communication Effectiveness Assessment:** Evaluate quality and frequency of project communication
 - **Stakeholder Satisfaction Surveys:** Gather feedback on project communication and progress visibility
 - **Project Health Audits:** Regular independent assessment of project status and control mechanisms
-
 
 ## Examples
 

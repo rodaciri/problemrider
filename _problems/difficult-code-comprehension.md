@@ -22,16 +22,13 @@ layout: problem
 ## Description
 Difficult code comprehension is a situation where developers have a hard time understanding the codebase. This is a common problem in long-running projects, especially those that have been worked on by many different people over the years. Difficult code comprehension can lead to a number of problems, including a decrease in productivity, an increase in the number of bugs, and a general slowdown in development velocity.
 
-
 ## Indicators ⟡
 - Developers are constantly asking for help to understand the codebase.
 - It takes a long time for new developers to become productive.
 - There is a lot of duplicated code.
 - The codebase is a mixture of different styles and conventions.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.614, Strength: 0.810">ⓘ</span>
 <br/>  Difficult code comprehension can lead to inefficient or incorrect implementations of API calls, resulting in services not effectively handling responses, which manifests as upstream timeouts.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.598, Strength: 0.828">ⓘ</span>
@@ -115,7 +112,6 @@ Difficult code comprehension is a situation where developers have a hard time un
 - **Developer Surveys:** Ask developers if they find the codebase easy to read and understand.
 - **Code Reviews:** Look for code that is difficult to understand and review.
 - **Static Analysis Tools:** Use tools to identify code smells, such as complex code and long methods.
-
 
 ## Examples
 A developer is trying to fix a bug in a legacy module. The developer finds that the module is very difficult to understand. The code is a mixture of different styles and conventions, and there is no documentation. The developer spends a lot of time trying to understand the code, and they are not able to fix the bug. This is a common problem in companies that do not have a culture of writing clean, readable code.

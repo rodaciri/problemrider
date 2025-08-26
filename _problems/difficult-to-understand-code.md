@@ -24,7 +24,6 @@ layout: problem
 
 Difficult to understand code occurs when software components are implemented in ways that make their purpose, behavior, or interactions unclear to developers who need to work with them. This problem manifests as code that requires extensive context, has unclear naming, follows non-obvious logic patterns, or lacks sufficient documentation to understand its intended function. Difficult code significantly slows development and increases the likelihood of introducing bugs.
 
-
 ## Indicators ⟡
 
 - Developers spend excessive time trying to understand what code does before modifying it
@@ -33,9 +32,7 @@ Difficult to understand code occurs when software components are implemented in 
 - Documentation or comments are needed to explain basic code operations
 - Similar functionality is implemented differently across the codebase
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.574, Strength: 0.801">ⓘ</span>
 <br/>  The intricate nature of the business domain leads to convoluted code structures and interdependencies, making it challenging to decipher individual modules or functions and highlighting the difficulties in comprehensively understanding the overall system.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.520, Strength: 0.805">ⓘ</span>
@@ -98,7 +95,6 @@ Difficult to understand code occurs when software components are implemented in 
 - **Code Complexity Metrics:** Use static analysis tools to identify overly complex or hard-to-understand code
 - **Onboarding Feedback:** Ask new team members about code comprehension challenges
 - **Documentation Gap Analysis:** Identify code areas that lack sufficient explanation
-
 
 ## Examples
 

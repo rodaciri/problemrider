@@ -25,7 +25,6 @@ layout: problem
 
 Gradual performance degradation is the slow deterioration of application performance over time, often so subtle that it goes unnoticed until it becomes severe. Unlike sudden performance problems caused by specific changes, this degradation accumulates gradually due to resource leaks, inefficient algorithms that scale poorly with data growth, or the accumulation of technical debt that makes the system increasingly inefficient. This problem is particularly insidious because it develops slowly and may not be detected until user experience is significantly impacted.
 
-
 ## Indicators ⟡
 - Application response times increase gradually over weeks or months
 - Performance metrics show steady downward trends rather than sudden drops
@@ -33,9 +32,7 @@ Gradual performance degradation is the slow deterioration of application perform
 - System resource usage (memory, CPU, disk) gradually increases over time
 - Performance problems appear to correlate with system uptime or data volume
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.574, Strength: 0.760">ⓘ</span>
 <br/>  As application performance deteriorates due to resource leaks or inefficient algorithms, the increased response times lead to services exceeding their timeout thresholds, resulting in upstream failures.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.488, Strength: 0.717">ⓘ</span>
@@ -79,7 +76,6 @@ Gradual performance degradation is the slow deterioration of application perform
 - **Resource Usage Tracking:** Monitor memory, CPU, and disk usage patterns over extended periods
 - **Load Testing Over Time:** Regular performance tests to establish baseline and detect degradation
 - **Application Profiling:** Periodic profiling to identify resource usage patterns and potential leaks
-
 
 ## Examples
 

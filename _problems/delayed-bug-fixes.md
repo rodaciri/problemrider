@@ -25,7 +25,6 @@ layout: problem
 
 Delayed bug fixes occur when known issues, defects, or problems remain unresolved for extended periods despite being identified and documented. This can happen due to prioritization decisions, resource constraints, technical complexity, or avoidance behaviors. Prolonged delays in addressing bugs can lead to user frustration, workarounds that create additional complexity, and compound problems as delayed fixes become more difficult to implement.
 
-
 ## Indicators ⟡
 
 - Bug reports remain open for weeks or months without resolution
@@ -34,13 +33,11 @@ Delayed bug fixes occur when known issues, defects, or problems remain unresolve
 - Critical bugs are downgraded to lower priorities without clear justification
 - Workarounds become permanent solutions instead of addressing root causes
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.491, Strength: 0.942">ⓘ</span>
 <br/>  The lack of necessary design skills leads to poorly structured code, making it difficult for developers to identify and fix bugs efficiently, resulting in prolonged delays in addressing known issues.
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.939">ⓘ</span>
@@ -190,7 +187,6 @@ Delayed bug fixes occur when known issues, defects, or problems remain unresolve
 - **Priority vs Resolution Time:** Compare bug priority ratings with actual resolution timelines
 - **User Complaint Correlation:** Connect delayed bug fixes to customer support issues
 - **Technical Debt Impact Assessment:** Measure how delayed fixes contribute to system complexity
-
 
 ## Examples
 

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 A complex deployment process is a major obstacle to the continuous delivery of value. When the process of deploying software is manual, time-consuming, and error-prone, it is difficult to release new features quickly and safely. This can lead to long release cycles, large and risky releases, and a great deal of anxiety for the development team. A complex deployment process is often a sign of a legacy system that has not been designed for continuous delivery. It can also be a sign of a lack of investment in automation and tooling.
 
-
 ## Indicators ⟡
 - The deployment process is not documented.
 - The deployment process requires a lot of manual steps.
 - The deployment process is different for different environments.
 - The deployment process is not automated.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.661, Strength: 0.876">ⓘ</span>
 <br/>  The manual and error-prone nature of the deployment process increases reliance on experienced developers familiar with outdated technologies, leading to a critical shortage of skilled personnel who can effectively manage and maintain the system.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.628, Strength: 0.808">ⓘ</span>
@@ -138,7 +135,6 @@ A complex deployment process is a major obstacle to the continuous delivery of v
 - **Deployment Frequency:** Measure how often the team deploys to production.
 - **Deployment Failure Rate:** Track the percentage of deployments that fail.
 - **Deployment Process Mapping:** Map out the steps in the deployment process to identify bottlenecks and areas for improvement.
-
 
 ## Examples
 A company has a very complex and manual deployment process. It takes two days to deploy a new version of the software. The process is not documented, and it is different for every environment. The team is very anxious about deployments, and they often fail. When a deployment fails, it can take hours to roll it back. As a result, the company is only able to release new software once a month. This is a major competitive disadvantage, and it is a major source of frustration for the development team.

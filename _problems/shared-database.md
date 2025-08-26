@@ -15,16 +15,13 @@ layout: problem
 ## Description
 A shared database is a situation where multiple services or components share a single database. This is a common problem in monolithic architectures, where all the components are tightly coupled and deployed as a single unit. A shared database can lead to a number of problems, including deployment coupling, scaling inefficiencies, and tight coupling issues.
 
-
 ## Indicators ⟡
 - Multiple services or components are reading from and writing to the same database.
 - It is not possible to change the database schema without affecting multiple services or components.
 - It is not possible to scale the database for one service or component without affecting the others.
 - The database is a single point of failure for the entire system.
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.666, Strength: 0.916">ⓘ</span>
 <br/>  The sharing of a single database among multiple services leads to a tightly coupled architecture, where the inherent complexity of the business domain manifests as a convoluted domain model, complicating system understanding and implementation.
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.655, Strength: 0.931">ⓘ</span>
@@ -110,7 +107,6 @@ A shared database is a situation where multiple services or components share a s
 - **Architectural Diagrams:** Create a diagram of the system architecture to identify which services or components are sharing a single database.
 - **Database Schema Analysis:** Analyze the database schema to identify which tables are being used by multiple services or components.
 - **Developer Surveys:** Ask developers if they feel like they are able to change the database schema without affecting other services or components.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application. The application is composed of a number of different services, including a product catalog, a shopping cart, and a payment gateway. All of the services share a single database. When the development team wants to make a change to the database schema for the product catalog, they have to be careful not to break the shopping cart or the payment gateway. This makes it difficult to make changes to the database, and it often leads to problems.

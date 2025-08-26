@@ -25,7 +25,6 @@ layout: problem
 
 Clever code refers to implementations that prioritize demonstrating the author's technical sophistication over clarity, maintainability, and readability. This type of code often uses advanced language features, obscure algorithms, or overly condensed logic that may be technically impressive but creates significant barriers for other developers who need to understand, modify, or debug it. While the original author may feel proud of their technical prowess, clever code becomes a maintenance burden that slows down the entire team.
 
-
 ## Indicators ⟡
 - Code that requires extensive study to understand basic functionality
 - Heavy use of advanced language features when simpler alternatives would suffice
@@ -33,9 +32,7 @@ Clever code refers to implementations that prioritize demonstrating the author's
 - Other developers avoid modifying certain sections of code
 - Code reviews focus more on deciphering logic than evaluating correctness
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.532, Strength: 0.754">ⓘ</span>
 <br/>  Code that prioritizes cleverness over clarity often leads to a lack of understanding among developers, resulting in critical sections being overlooked during test creation, which in turn manifests as insufficient test coverage.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.501, Strength: 0.800">ⓘ</span>
@@ -97,7 +94,6 @@ Clever code refers to implementations that prioritize demonstrating the author's
 - **Developer Interviews:** Ask team members about code areas they find difficult to understand or modify
 - **Documentation Requirements:** Areas requiring extensive documentation may indicate overly clever implementations
 - **Modification Frequency:** Code that is rarely modified may be avoided due to complexity
-
 
 ## Examples
 

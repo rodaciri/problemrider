@@ -26,7 +26,6 @@ layout: problem
 
 Lack of ownership and accountability occurs when no individual or team takes clear responsibility for maintaining specific aspects of the system, such as code quality, documentation, architecture decisions, or component maintenance. This leads to a "tragedy of the commons" situation where everyone assumes someone else will handle important but non-urgent tasks. Without clear ownership, critical maintenance activities are deferred, quality standards erode, and technical debt accumulates until problems become critical.
 
-
 ## Indicators ⟡
 - Important maintenance tasks are consistently delayed or forgotten
 - No one can definitively answer who is responsible for specific system components
@@ -34,9 +33,7 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 - Quality standards vary dramatically across different parts of the system
 - Technical debt issues are identified but never prioritized or addressed
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.481, Strength: 0.767">ⓘ</span>
 <br/>  The absence of clear responsibility for code quality and maintenance leads to unaddressed technical debt and miscommunication within the team, resulting in inefficiencies and a decline in overall productivity as developers struggle to navigate poorly maintained systems.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.707">ⓘ</span>
@@ -72,7 +69,6 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 - **Code Review Patterns:** Observe whether certain areas of code consistently lack thorough reviews
 - **Documentation Currency:** Track when different documentation sections were last updated
 - **Post-Incident Analysis:** Examine whether delays in issue resolution stem from unclear ownership
-
 
 ## Examples
 

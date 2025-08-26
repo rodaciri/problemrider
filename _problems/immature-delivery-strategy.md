@@ -25,7 +25,6 @@ layout: problem
 
 An immature delivery strategy reflects the absence of well-defined, tested, and reliable processes for deploying software to production environments. This includes ad-hoc deployment procedures, inconsistent rollout approaches, inadequate testing in production-like environments, and poor coordination between development and operations teams. The result is unpredictable deployments that frequently cause outages, performance problems, or user confusion.
 
-
 ## Indicators ⟡
 
 - Deployment procedures vary significantly between releases
@@ -34,9 +33,7 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 - Different team members follow different procedures for similar deployments
 - Production deployments often result in unexpected behavior or outages
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.505, Strength: 0.739">ⓘ</span>
 <br/>  Inconsistent and improvised software rollout processes lead to insufficient testing practices, resulting in critical code areas being left untested and creating vulnerabilities that manifest as increased downtime and user confusion.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.678">ⓘ</span>
@@ -69,7 +66,6 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 - **Rollback Frequency Measurement:** Track how often deployments require rollbacks or hotfixes
 - **Post-Deployment Incident Correlation:** Analyze incidents that occur shortly after deployments
 - **Team Stress Level Assessment:** Survey team members about deployment-related stress and confidence
-
 
 ## Examples
 

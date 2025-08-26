@@ -26,7 +26,6 @@ layout: problem
 
 Technical architecture limitations occur when the fundamental design and structure of a software system creates constraints that impede performance, scalability, maintainability, or development velocity. These limitations often arise from architectural decisions made early in development that become problematic as the system grows or requirements change. Unlike bugs or implementation issues, architectural limitations require fundamental design changes to resolve.
 
-
 ## Indicators ⟡
 
 - System performance doesn't improve despite hardware upgrades
@@ -35,14 +34,11 @@ Technical architecture limitations occur when the fundamental design and structu
 - Development velocity decreases as the system grows in complexity
 - Workarounds are needed to implement functionality that should be straightforward
 
-
 ## Symptoms ▲
-
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.809">ⓘ</span>
 <br/>  The constraints imposed by the system's architecture hinder teams from experimenting with new technologies or methodologies, leading to a culture that prioritizes minimal compliance over innovation, which ultimately stifles progress and adaptability in legacy systems.
 
 ## Root Causes ▼
-
 - [Serialization/Deserialization Bottlenecks](serialization-deserialization-bottlenecks.md) <span class="info-tooltip" title="Confidence: 0.620, Strength: 0.842">ⓘ</span>
 <br/>  Inefficient serialization and deserialization processes in legacy systems lead to increased latency and reduced throughput, which exacerbate architectural constraints by limiting the system's ability to handle concurrent requests and scale effectively.
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.590, Strength: 0.934">ⓘ</span>
@@ -211,7 +207,6 @@ Technical architecture limitations occur when the fundamental design and structu
 - **Development Velocity Tracking:** Monitor whether feature development becomes slower over time
 - **Architectural Complexity Analysis:** Assess whether system complexity is justified by functionality
 - **Technology Fitness Assessment:** Evaluate whether current architecture matches system requirements
-
 
 ## Examples
 

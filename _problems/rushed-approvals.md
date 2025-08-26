@@ -26,7 +26,6 @@ layout: problem
 
 Rushed approvals occur when code reviews are completed hastily without adequate examination of the changes, often due to time pressure, process dysfunction, or cultural issues that prioritize speed over quality. These superficial reviews fail to catch bugs, miss opportunities for knowledge sharing, and allow poor design decisions to accumulate in the codebase. Rushed approvals defeat the primary purposes of code review and can be more harmful than no review at all because they create false confidence in code quality.
 
-
 ## Indicators ⟡
 - Pull requests are approved within minutes of submission regardless of size or complexity
 - Review comments are minimal or generic ("LGTM", "Ship it") without specific feedback
@@ -34,9 +33,7 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 - Reviewers approve changes in areas of code they're not familiar with
 - Review approval times are consistently short across all types of changes
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.644">ⓘ</span>
 <br/>  The lack of thorough examination during rapid approvals leads to overlooked nuances in the requirements, resulting in frequent updates and changes that necessitate rework and trigger delays in legacy systems.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.619">ⓘ</span>
@@ -60,7 +57,6 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 - **Bug Correlation:** Compare bug rates in rushed reviews versus thorough reviews
 - **Review Coverage:** Assess whether reviewers examine all changed files and understand the changes
 - **Developer Feedback:** Survey team members about review thoroughness and quality
-
 
 ## Examples
 

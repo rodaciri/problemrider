@@ -25,7 +25,6 @@ layout: problem
 
 Stakeholder dissatisfaction occurs when business stakeholders, executives, or project sponsors become unhappy with various aspects of software development projects, including delivered outcomes, development speed, communication quality, or overall project management. This dissatisfaction can lead to reduced support for development initiatives, budget cuts, team changes, or project cancellations. Addressing stakeholder concerns is crucial for project success and organizational relationships.
 
-
 ## Indicators ⟡
 
 - Stakeholders express frustration or disappointment in meetings or communications
@@ -34,14 +33,11 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 - Funding or resource allocation for projects becomes more difficult to obtain
 - Management begins investigating alternative approaches or vendors
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.674">ⓘ</span>
 <br/>  Frequent user contacts to support arise from unresolved issues in outdated systems, reflecting stakeholders' dissatisfaction with the project's inability to deliver timely and effective solutions, ultimately indicating a disconnect between user needs and project outcomes.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.950">ⓘ</span>
 <br/>  Bottlenecks in specific team members or processes slow down development workflows, leading to delays in project delivery and insufficient communication, which ultimately frustrates stakeholders who rely on timely and effective outcomes.
 - [Resistance to Change](resistance-to-change.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.844">ⓘ</span>
@@ -168,7 +164,6 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 - **Engagement Level Tracking:** Measure stakeholder participation in project activities over time
 - **Feedback Frequency Assessment:** Track frequency and nature of stakeholder feedback and concerns
 - **Support Level Indicators:** Monitor signs of changing stakeholder support for project initiatives
-
 
 ## Examples
 

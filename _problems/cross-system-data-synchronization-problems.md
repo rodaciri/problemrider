@@ -26,7 +26,6 @@ layout: problem
 
 Cross-system data synchronization problems occur when organizations attempt to maintain data consistency between legacy systems and modern replacements during migration or modernization efforts. This challenge involves keeping multiple systems in sync while they operate simultaneously, often with different data models, update frequencies, and consistency requirements. Unlike simple integration challenges, these problems involve bidirectional data flow, conflict resolution, and maintaining referential integrity across system boundaries during transition periods.
 
-
 ## Indicators ⟡
 
 - Modernization plans that require running legacy and new systems in parallel for extended periods
@@ -37,13 +36,11 @@ Cross-system data synchronization problems occur when organizations attempt to m
 - User workflows that involve data from both legacy and modern systems
 - Integration points that require bidirectional data flow and conflict resolution
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.524, Strength: 0.915">ⓘ</span>
 <br/>  Shared dependencies among legacy and modern systems can lead to inconsistent data handling and interpretation, causing synchronization issues as changes in one system may not propagate correctly to the other, ultimately resulting in data corruption during migration.
 - [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.514, Strength: 0.849">ⓘ</span>
@@ -123,7 +120,6 @@ Cross-system data synchronization problems occur when organizations attempt to m
 - Review business process failure rates that correlate with synchronization issues
 - Test synchronization recovery procedures and disaster scenarios
 - Monitor technical debt accumulation in synchronization and integration code
-
 
 ## Examples
 

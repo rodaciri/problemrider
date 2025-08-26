@@ -26,7 +26,6 @@ layout: problem
 
 Author frustration occurs when developers become increasingly frustrated with the code review process due to receiving unpredictable, conflicting, or seemingly arbitrary feedback on their code submissions. This frustration stems from inconsistent review standards, lengthy back-and-forth discussions on subjective preferences, or feeling that reviewers focus on trivial issues while missing important aspects of the code.
 
-
 ## Indicators ⟡
 
 - Developers express annoyance or resistance during code review discussions
@@ -35,9 +34,7 @@ Author frustration occurs when developers become increasingly frustrated with th
 - Developers start writing defensive comments or over-explaining their code
 - Team members begin to avoid submitting code for review when possible
 
-
 ## Symptoms ▲
-
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.815">ⓘ</span>
 <br/>  Random test failures often lead to inconsistent feedback during code reviews, as developers struggle to ascertain whether issues stem from their code changes or unreliable test conditions, thereby exacerbating frustration and confusion in the review process.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.904">ⓘ</span>
@@ -48,7 +45,6 @@ Author frustration occurs when developers become increasingly frustrated with th
 <br/>  The varying levels of support and guidance provided during onboarding lead to inconsistent understanding of code review expectations, resulting in developers receiving conflicting feedback that contributes to their frustration with the process.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.948">ⓘ</span>
 <br/>  The increased workload and pressure to meet budget constraints in legacy systems lead to rushed and inconsistent feedback during code reviews, causing frustration among developers.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.876">ⓘ</span>
@@ -111,7 +107,6 @@ Author frustration occurs when developers become increasingly frustrated with th
 - **Comment Type Classification:** Analyze what types of issues generate the most back-and-forth discussion
 - **Team Relationship Assessment:** Monitor signs of tension or conflict arising from review processes
 - **Code Submission Patterns:** Look for changes in how frequently developers submit code for review
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Reduced review participation occurs when many team members avoid or minimize their involvement in the code review process, leaving most reviews to be handled by a small subset of the team. This creates an uneven distribution of review workload, reduces the diversity of perspectives on code changes, and can lead to review bottlenecks when the active reviewers become overwhelmed or unavailable.
 
-
 ## Indicators ⟡
 
 - Only 2-3 team members out of 8-10 regularly participate in code reviews
@@ -34,9 +33,7 @@ Reduced review participation occurs when many team members avoid or minimize the
 - Some team members go weeks without conducting any reviews
 - Review assignments are declined or ignored by certain team members
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.694">ⓘ</span>
 <br/>  The lack of diverse input during code reviews leads to critical areas of the codebase being overlooked, resulting in insufficient test coverage and leaving quality assurance vulnerable in legacy systems.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.683">ⓘ</span>
@@ -49,7 +46,6 @@ Reduced review participation occurs when many team members avoid or minimize the
 <br/>  The lack of diverse input in code reviews leads to increased pressure and workload on a few individuals, fostering frustration and burnout as they struggle to address persistent issues in the legacy codebase without adequate collaboration or support.
 
 ## Root Causes ▼
-
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.933">ⓘ</span>
 <br/>  The tightly coupled nature of cross-cutting concerns within legacy systems complicates the review process, leading to increased cognitive load for reviewers and discouraging broader participation as team members feel overwhelmed by the intricacies of both business logic and ancillary functionalities.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.940">ⓘ</span>
@@ -62,7 +58,6 @@ Reduced review participation occurs when many team members avoid or minimize the
 - **Participation Barrier Surveys:** Collect feedback on why team members avoid reviewing code
 - **Review Assignment Acceptance Rates:** Track how often review requests are accepted versus declined
 - **Skill Development Impact Assessment:** Evaluate learning outcomes for participating versus non-participating members
-
 
 ## Examples
 

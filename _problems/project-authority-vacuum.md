@@ -24,7 +24,6 @@ layout: problem
 
 Project authority vacuum occurs when important initiatives lack adequate executive sponsorship and organizational backing, leaving them vulnerable to competing priorities, resource constraints, and departmental resistance. Without clear authority structure and high-level support, project teams cannot make decisions that affect other departments, resolve cross-functional conflicts, or secure necessary resources. This leads to prolonged negotiations, compromised solutions, and ultimately project failure despite technical merit and business value.
 
-
 ## Indicators ⟡
 
 - Project decisions require escalation but no executive is available to make them
@@ -33,13 +32,11 @@ Project authority vacuum occurs when important initiatives lack adequate executi
 - Project team lacks authority to enforce compliance or participation from other groups
 - Important stakeholders rarely attend project meetings or respond to requests
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.644, Strength: 0.926">ⓘ</span>
 <br/>  Inefficient processes and constrained resources within legacy systems create critical delays and dependencies, undermining the necessary organizational support and executive sponsorship needed to drive projects forward effectively.
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.944">ⓘ</span>
@@ -124,7 +121,6 @@ Project authority vacuum occurs when important initiatives lack adequate executi
 - **Resource Approval Timeline:** Monitor time required to get executive approval for project needs
 - **Stakeholder Influence Mapping:** Assess whether project has sufficient organizational authority to achieve objectives
 - **Competing Priority Analysis:** Compare project resources and support against other organizational initiatives
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Review process avoidance occurs when team members actively look for ways to bypass, minimize, or circumvent code review requirements due to frustration with the review process itself. This can include making changes directly in production, using emergency deployment procedures for non-urgent changes, committing directly to main branches, or finding technical loopholes to avoid review. This behavior undermines the quality assurance benefits that code reviews are meant to provide.
 
-
 ## Indicators ⟡
 
 - Increased use of "hotfix" or emergency deployment procedures for non-critical changes
@@ -35,9 +34,7 @@ Review process avoidance occurs when team members actively look for ways to bypa
 - Frequent requests to modify review requirements or make exceptions
 - Team members express desire to "just skip the review this time"
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.662">ⓘ</span>
 <br/>  The tendency to bypass or minimize code review leads to inadequate oversight of the codebase, resulting in critical areas lacking necessary tests and exposing the system to unaddressed quality issues.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.678">ⓘ</span>
@@ -60,7 +57,6 @@ Review process avoidance occurs when team members actively look for ways to bypa
 - **Process Compliance Assessment:** Measure what percentage of changes actually go through required review
 - **Team Behavior Surveys:** Collect feedback on motivations for avoiding review processes  
 - **Quality Impact Correlation:** Analyze whether bypassed changes have higher defect rates
-
 
 ## Examples
 

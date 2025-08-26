@@ -26,7 +26,6 @@ layout: problem
 
 Service discovery failures occur when distributed systems cannot reliably locate and connect to required services, leading to communication breakdowns and system instability. This affects microservices architectures, cloud-native applications, and any system relying on dynamic service registration and discovery mechanisms. Failed service discovery can cascade through dependent services, causing widespread system failures.
 
-
 ## Indicators ⟡
 
 - Services report "service not found" or connection timeout errors
@@ -35,9 +34,7 @@ Service discovery failures occur when distributed systems cannot reliably locate
 - Service registry shows stale or incorrect service information
 - Applications cannot bootstrap due to missing service dependencies
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.653, Strength: 0.882">ⓘ</span>
 <br/>  When service discovery mechanisms fail to locate or connect to services, the resulting inability to establish communication leads to prolonged response times, causing upstream services to exceed their configured timeout thresholds and fail as a direct consequence.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.520, Strength: 0.819">ⓘ</span>
@@ -66,7 +63,6 @@ Service discovery failures occur when distributed systems cannot reliably locate
 - **Health Check Validation:** Verify that health checks accurately reflect service status
 - **Network Connectivity Testing:** Test network paths between services and discovery infrastructure
 - **Registry Consistency Auditing:** Audit service registry data for consistency and accuracy
-
 
 ## Examples
 

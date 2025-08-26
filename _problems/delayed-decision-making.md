@@ -26,7 +26,6 @@ layout: problem
 
 Delayed decision making occurs when important decisions that affect development work are postponed, take excessive time to make, or get stuck in approval processes. This delay creates uncertainty for team members, blocks progress on dependent work, and can lead to missed opportunities or suboptimal outcomes when decisions are finally made under time pressure. The problem often stems from unclear decision-making authority, fear of making wrong choices, or overly complex approval processes.
 
-
 ## Indicators ⟡
 
 - Development work is frequently blocked waiting for decisions
@@ -35,9 +34,7 @@ Delayed decision making occurs when important decisions that affect development 
 - Important decisions are made at the last minute under pressure
 - Team members are unclear about who has authority to make specific types of decisions
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.521, Strength: 0.739">ⓘ</span>
 <br/>  The prolonged decision-making process leads to unclear project direction, causing stakeholders to continuously adjust requirements in an attempt to reach consensus, which in turn creates confusion and necessitates frequent revisions during development.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.509, Strength: 0.695">ⓘ</span>
@@ -72,7 +69,6 @@ Delayed decision making occurs when important decisions that affect development 
 - **Decision Backlog Assessment:** Identify pending decisions and their impact on project progress
 - **Stakeholder Feedback:** Collect input on decision-making effectiveness from team members
 - **Decision Quality Review:** Assess whether delayed decisions actually result in better outcomes
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Uneven work flow occurs when development work progresses irregularly, with periods of intense activity followed by periods of waiting or slow progress. This pattern indicates problems with process design, resource allocation, or dependency management that prevent smooth, predictable work progression. Uneven flow reduces overall efficiency and makes planning and prediction difficult.
 
-
 ## Indicators ⟡
 
 - Work completion varies dramatically between time periods
@@ -34,9 +33,7 @@ Uneven work flow occurs when development work progresses irregularly, with perio
 - Project velocity varies significantly between sprints or time periods
 - Work often gets stuck at certain stages for unpredictable amounts of time
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.559, Strength: 0.797">ⓘ</span>
 <br/>  Constant updates to project requirements disrupt the development process, causing rework and delays that contribute to the irregular progression of tasks, thereby indicating an underlying issue with workflow stability in legacy systems.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.514, Strength: 0.761">ⓘ</span>
@@ -97,7 +94,6 @@ Uneven work flow occurs when development work progresses irregularly, with perio
 - **Resource Utilization Tracking:** Monitor how resource utilization varies over time
 - **Work-in-Progress Monitoring:** Track how WIP levels change and identify accumulation points
 - **Team Velocity Variance:** Measure how much team velocity varies between time periods
-
 
 ## Examples
 

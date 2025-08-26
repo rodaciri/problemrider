@@ -25,7 +25,6 @@ layout: problem
 
 Inadequate requirements gathering occurs when teams begin development without sufficiently understanding, analyzing, or documenting what needs to be built. This can involve rushing through requirements analysis, failing to engage the right stakeholders, missing edge cases, or not validating assumptions about user needs. Poor requirements gathering leads to solutions that don't address the actual problems, requiring costly rework and potentially failing to deliver business value.
 
-
 ## Indicators ⟡
 
 - Development begins with vague or high-level requirements
@@ -34,9 +33,7 @@ Inadequate requirements gathering occurs when teams begin development without su
 - Edge cases and error conditions are not considered
 - User workflows and business processes are not thoroughly understood
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.654, Strength: 0.888">ⓘ</span>
 <br/>  Insufficiently defined requirements often result in unclear acceptance criteria, leading to inadequate test coverage as critical functionalities may not be identified or prioritized for validation, thus exposing blind spots in the quality assurance process of legacy systems.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.478, Strength: 0.752">ⓘ</span>
@@ -47,7 +44,6 @@ Inadequate requirements gathering occurs when teams begin development without su
 <br/>  The lack of clear requirements often leads to inefficient design decisions, such as failing to implement effective caching mechanisms, resulting in excessive data retrieval that degrades system performance and responsiveness.
 
 ## Root Causes ▼
-
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.908">ⓘ</span>
 <br/>  The project team's tendency to accommodate every stakeholder request without critical evaluation results in a lack of clear priorities and focus, ultimately leading to poorly defined requirements that fail to address the core needs of the system.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.830">ⓘ</span>
@@ -74,7 +70,6 @@ Inadequate requirements gathering occurs when teams begin development without su
 - **Change Request Frequency:** Track how often requirements change during development
 - **User Acceptance Testing Results:** Measure how well delivered solutions meet user expectations
 - **Rework Percentage:** Calculate percentage of development effort spent on rework due to requirement issues
-
 
 ## Examples
 

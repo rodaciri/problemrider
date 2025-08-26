@@ -23,7 +23,6 @@ layout: problem
 
 Circular references occur when two or more objects hold references to each other, either directly or through a chain of references, creating a cycle that prevents automatic garbage collection from reclaiming the memory. In languages with reference counting garbage collection, circular references can prevent objects from being deallocated even when they are no longer reachable from the application's root objects, leading to memory leaks and potential system instability.
 
-
 ## Indicators ⟡
 
 - Memory usage grows continuously despite objects appearing to go out of scope
@@ -32,9 +31,7 @@ Circular references occur when two or more objects hold references to each other
 - Memory profiling reveals objects that remain allocated longer than expected
 - Reference counting shows non-zero counts for objects that should be unreachable
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.583">ⓘ</span>
 <br/>  Circular references prevent the effective garbage collection of objects, causing them to accumulate in memory, which in turn leads to unbounded data structures that grow uncontrollably and degrade system performance.
 
@@ -50,7 +47,6 @@ Circular references occur when two or more objects hold references to each other
 - **Memory Leak Detection Tools:** Use language-specific tools designed to detect and analyze memory leaks
 - **Static Code Analysis:** Analyze code for patterns that commonly create circular references
 - **Load Testing:** Run extended tests to observe memory growth patterns over time
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Negative brand perception occurs when technical problems and poor software quality damage the organization's reputation, causing users to associate the brand with unreliability, poor quality, or frustrating experiences. This perception can persist long after technical issues are resolved because reputation damage is often more lasting than the problems that caused it. For software companies, technical quality is directly tied to brand perception, making this a critical business concern that extends far beyond the development team.
 
-
 ## Indicators ⟡
 - Customer reviews frequently mention reliability or quality issues
 - Users complain about the application on social media or public forums
@@ -34,9 +33,7 @@ Negative brand perception occurs when technical problems and poor software quali
 - User acquisition costs increase as referrals and word-of-mouth marketing decline
 - Competitive comparisons highlight reliability as a differentiator against the organization
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.746">ⓘ</span>
 <br/>  The association of the brand with poor quality stems from the inability to effectively maintain and update legacy systems, which is exacerbated by a lack of skilled developers familiar with these technologies, leading to increased technical issues and further tarnishing the brand's reputation.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.735">ⓘ</span>
@@ -52,7 +49,6 @@ Negative brand perception occurs when technical problems and poor software quali
 - **Customer Satisfaction Surveys:** Regular feedback about user experience and quality perceptions
 - **Competitive Analysis:** Compare brand perception metrics against competitors
 - **Customer Support Ticket Analysis:** Identify patterns in complaints that might affect brand perception
-
 
 ## Examples
 

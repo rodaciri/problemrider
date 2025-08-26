@@ -26,7 +26,6 @@ layout: problem
 
 Data migration complexities occur when moving data between systems, upgrading database schemas, or transforming data formats becomes overly complicated, risky, or time-consuming. Complex migrations can lead to data loss, corruption, extended downtime, or failed deployments, especially when dealing with large datasets, complex transformations, or systems that must remain operational during migration.
 
-
 ## Indicators ⟡
 
 - Data migrations requiring extended system downtime
@@ -35,9 +34,7 @@ Data migration complexities occur when moving data between systems, upgrading da
 - Manual intervention required during automated migration processes
 - Different data formats or structures between source and target systems
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.650, Strength: 0.914">ⓘ</span>
 <br/>  The complexities of data migration often necessitate specialized knowledge of outdated technologies, leading to a reliance on a dwindling pool of skilled developers, which in turn reveals vulnerabilities in system maintenance and increases the risk of critical failures during migrations.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.632, Strength: 0.868">ⓘ</span>
@@ -106,7 +103,6 @@ Data migration complexities occur when moving data between systems, upgrading da
 - **Data Volume Impact Assessment:** Evaluate how data size affects migration duration
 - **Migration Testing Coverage:** Assess how thoroughly migration processes are tested
 - **Rollback Strategy Validation:** Test migration rollback procedures and recovery options
-
 
 ## Examples
 

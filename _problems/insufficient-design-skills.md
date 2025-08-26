@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Insufficient design skills are a major contributor to the creation of legacy code. When a development team lacks the necessary skills and experience to design and build well-structured, maintainable software, they are likely to create a system that is difficult to understand, modify, and test. This can lead to a number of problems, including a high rate of bugs, a slow development velocity, and a great deal of frustration for the development team. Insufficient design skills are a common problem in the software industry, and it can be difficult to address.
 
-
 ## Indicators ⟡
 - The codebase is a "big ball of mud."
 - The team is constantly struggling with technical debt.
 - The team is not able to deliver new features in a timely manner.
 - The team is not proud of the code that they are writing.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.713, Strength: 0.938">ⓘ</span>
 <br/>  The lack of design skills leads to poorly structured code that is difficult to navigate and maintain, causing frustration and burnout among developers who struggle to work with an inefficient and chaotic codebase.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.710, Strength: 0.948">ⓘ</span>
@@ -187,7 +184,6 @@ Insufficient design skills are a major contributor to the creation of legacy cod
 - **Code Complexity Metrics:** Use static analysis tools to measure the complexity of the codebase.
 - **Developer Surveys:** Ask developers about their confidence in their design skills.
 - **Architectural Assessments:** Conduct an assessment of the system's architecture to identify design flaws.
-
 
 ## Examples
 A company hires a team of junior developers to build a new web application. The developers are not experienced in software design, and they do not have a mentor to guide them. As a result, they create a system that is poorly designed and difficult to maintain. The company is not able to deliver new features in a timely manner, and they are constantly struggling with bugs. The company eventually has to hire a team of experienced developers to rewrite the entire system.

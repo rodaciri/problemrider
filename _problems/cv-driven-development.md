@@ -26,7 +26,6 @@ layout: problem
 
 CV Driven Development occurs when technical decisions are made primarily to add impressive technologies, frameworks, or methodologies to developers' resumes rather than to address actual business needs or technical requirements. This leads to the adoption of trendy, complex, or cutting-edge solutions that may be inappropriate for the project's scale, team expertise, or long-term maintenance needs. The practice prioritizes individual career advancement over project success and sustainable software development.
 
-
 ## Indicators ⟡
 
 - Technology proposals focus heavily on novelty or trendiness rather than business value
@@ -38,13 +37,11 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 - Disproportionate interest in conference-worthy or blog-worthy technical solutions
 - Preference for complex architectures when simpler solutions would suffice
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Decision Paralysis](decision-paralysis.md) <span class="info-tooltip" title="Confidence: 0.435, Strength: 0.758">ⓘ</span>
 <br/>  When developers face indecision due to a lack of clear guidelines, they may resort to selecting technologies that enhance their resumes instead of addressing actual business needs, thereby prioritizing personal advancement over practical solutions in legacy systems.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.775">ⓘ</span>
@@ -66,7 +63,6 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 - Monitor recruitment difficulty for roles requiring the chosen technology stack
 - Analyze whether technology adoption follows industry hype cycles rather than project needs
 - Review retrospectives for mentions of technology-related challenges or regrets
-
 
 ## Examples
 

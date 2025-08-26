@@ -26,7 +26,6 @@ layout: problem
 
 Regression bugs are defects that occur when previously working functionality breaks due to new code changes, feature additions, or bug fixes. These bugs represent a significant threat to software quality because they erode user trust and can reintroduce problems that were thought to be resolved. Regression bugs are particularly problematic because they often go undetected until users encounter them in production, and they indicate fundamental issues with testing practices and code maintainability.
 
-
 ## Indicators ⟡
 - Users report that features that used to work are now broken
 - Previously passing tests start failing after new deployments
@@ -34,9 +33,7 @@ Regression bugs are defects that occur when previously working functionality bre
 - Quality assurance frequently discovers that fixing one bug introduces another
 - The team regularly discusses whether changes might "break something else"
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.611, Strength: 0.837">ⓘ</span>
 <br/>  Insufficient test coverage creates gaps in quality assurance, allowing new changes to inadvertently disrupt previously functioning features without detection, thus leading to regression bugs.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.769">ⓘ</span>
@@ -47,7 +44,6 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  Flaky tests often arise in legacy systems due to tightly coupled components and outdated dependencies, which can mask regression bugs by failing unpredictably and making it difficult to determine whether existing functionality has been compromised.
 
 ## Root Causes ▼
-
 - [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.903">ⓘ</span>
 <br/>  Incomplete fixes in duplicated code lead to scenarios where existing functionality fails unexpectedly, as the overlooked instances retain their original defects, resulting in regression when new changes are introduced.
 - [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.875">ⓘ</span>
@@ -76,7 +72,6 @@ Regression bugs are defects that occur when previously working functionality bre
 - **Production Monitoring:** Real-time monitoring of system behavior to catch regressions quickly
 - **A/B Testing:** Gradual rollouts that can detect regressions before full deployment
 - **Bug Categorization:** Track and categorize bugs to identify patterns of regression issues
-
 
 ## Examples
 

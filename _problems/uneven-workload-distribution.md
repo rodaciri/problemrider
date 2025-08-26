@@ -26,7 +26,6 @@ layout: problem
 
 Uneven workload distribution occurs when work assignments are not balanced across team members, resulting in some individuals being consistently overloaded while others have lighter workloads. This imbalance can arise from various factors including knowledge silos, skill specialization, poor planning, or management decisions. The problem leads to burnout for overloaded members, underutilization of available resources, and reduced overall team effectiveness.
 
-
 ## Indicators ⟡
 
 - Some team members consistently work overtime while others have spare capacity
@@ -35,9 +34,7 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 - Team members have vastly different numbers of assigned tasks or story points
 - Some developers are constantly busy while others wait for work assignments
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.548, Strength: 0.809">ⓘ</span>
 <br/>  Uneven workload distribution leads to burnout for some team members and disengagement for others, causing a decline in overall productivity as the team's ability to collaborate effectively and meet project deadlines is compromised by the resulting inefficiencies in managing legacy system complexities.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.545, Strength: 0.769">ⓘ</span>
@@ -84,7 +81,6 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 - **Team Member Surveys:** Collect feedback about perceived workload fairness and balance
 - **Overtime Patterns:** Track which team members consistently work beyond normal hours
 - **Task Assignment Analysis:** Examine patterns in how tasks are assigned and distributed
-
 
 ## Examples
 

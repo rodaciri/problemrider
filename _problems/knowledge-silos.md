@@ -26,7 +26,6 @@ layout: problem
 
 Knowledge silos occur when critical information, expertise, or research findings are concentrated within individual team members and not effectively shared with the broader team. This creates dependencies on specific individuals, increases risk when team members leave, and leads to duplicated effort as others must rediscover the same information independently. Knowledge silos prevent teams from building collective intelligence and learning from each other's experiences.
 
-
 ## Indicators ⟡
 
 - Certain team members are consistently the "go-to" person for specific topics
@@ -35,9 +34,7 @@ Knowledge silos occur when critical information, expertise, or research findings
 - Team discussions reveal that members have different understandings of the same systems
 - Knowledge is lost when key team members leave or are unavailable
 
-
 ## Symptoms ▲
-
 - [Reduced Individual Productivity](reduced-individual-productivity.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.640">ⓘ</span>
 <br/>  The isolation of expertise leads to a lack of collaborative problem-solving, causing individual developers to struggle with tasks and solutions that could be resolved more efficiently through shared knowledge and team support.
 - [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.634">ⓘ</span>
@@ -46,7 +43,6 @@ Knowledge silos occur when critical information, expertise, or research findings
 <br/>  Isolated expertise limits cross-pollination of ideas, leading teams to prioritize minimal compliance over innovative solutions, which stifles creativity and adaptive problem-solving in legacy systems.
 
 ## Root Causes ▼
-
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.917">ⓘ</span>
 <br/>  The reliance on a shared database in legacy systems often leads to fragmented data access and control, which confines critical insights and expertise to specific individuals rather than allowing for comprehensive collaboration and knowledge dissemination across teams.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.916">ⓘ</span>
@@ -97,7 +93,6 @@ Knowledge silos occur when critical information, expertise, or research findings
 - **Bus Factor Assessment:** Evaluate risk if specific team members become unavailable
 - **Team Surveys:** Ask about access to information and knowledge sharing experiences
 - **Documentation Audit:** Review what critical information is documented vs. held by individuals
-
 
 ## Examples
 

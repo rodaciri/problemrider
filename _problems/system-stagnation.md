@@ -26,7 +26,6 @@ layout: problem
 
 System stagnation occurs when software systems fail to evolve and improve over time, remaining largely unchanged despite changing business requirements, technological advances, and user needs. This stagnation can result from technical barriers, organizational constraints, or cultural resistance to change. Stagnant systems gradually become less effective, more expensive to maintain, and increasingly misaligned with business objectives.
 
-
 ## Indicators ⟡
 
 - Core system functionality hasn't been significantly updated in years
@@ -35,9 +34,7 @@ System stagnation occurs when software systems fail to evolve and improve over t
 - User interfaces and experiences remain outdated compared to modern standards
 - Integration capabilities lag behind current industry practices
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.559, Strength: 0.772">ⓘ</span>
 <br/>  The failure to evolve software systems leads to outdated architectures and inefficient processes, causing increased response times and resulting in services that time out when trying to access unoptimized APIs, thus indicating deeper issues of stagnation.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.758">ⓘ</span>
@@ -104,7 +101,6 @@ System stagnation occurs when software systems fail to evolve and improve over t
 - **User Satisfaction Surveys:** Measure user satisfaction with system functionality and usability
 - **Competitive Analysis:** Compare system capabilities with competitors' offerings
 - **Development Activity Tracking:** Monitor the frequency and scope of system changes over time
-
 
 ## Examples
 

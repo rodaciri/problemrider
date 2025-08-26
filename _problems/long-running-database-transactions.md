@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Long-running database transactions are a specific type of long-running transaction that occurs at the database level. These transactions can be particularly problematic, as they can hold locks on database resources for an extended period of time, preventing other queries from executing and potentially leading to deadlocks. They are often caused by inefficient queries, a lack of proper indexing, or application logic that holds transactions open while performing other tasks. Minimizing the duration of database transactions is a key principle of good database design.
 
-
 ## Indicators ⟡
 - The database is slow, even when there are no obvious signs of high CPU or memory usage.
 - You are seeing a high number of deadlocks in your database logs.
 - You are getting complaints from users about slow performance.
 - You are seeing a high number of timeout errors in your logs.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.446, Strength: 0.674">ⓘ</span>
 <br/>  Extended database transactions can lead to delays in data availability, prompting frequent requirement changes as stakeholders react to incomplete or outdated information, thereby indicating inefficiencies in the system's responsiveness.
 - [Delayed Value Delivery](delayed-value-delivery.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.733">ⓘ</span>
@@ -46,7 +43,6 @@ Long-running database transactions are a specific type of long-running transacti
 <br/>  Extended open database transactions lead to resource contention and increased latency, causing dependent services to exceed their response time limits and fail to complete successfully.
 
 ## Root Causes ▼
-
 - [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.861">ⓘ</span>
 <br/>  Extended database transactions can occur when deadlock conditions lead to processes waiting indefinitely for each other to release locks, thereby prolonging transaction durations and resource consumption.
 
@@ -56,7 +52,6 @@ Long-running database transactions are a specific type of long-running transacti
 - **Transaction Log Monitoring:** Monitor the size and growth rate of the database transaction logs.
 - **Application Logging:** Add logging to the application to track the start and end times of database transactions.
 - **Alerting:** Set up alerts for transactions that exceed a certain duration.
-
 
 ## Examples
 An e-commerce application processes an order. It starts a database transaction, updates the inventory, then calls a third-party payment gateway. If the payment gateway is slow, the database transaction remains open, holding a lock on the inventory table. This blocks other users from placing orders for the same product. In another case, a batch job that imports millions of records into a database wraps the entire import in a single transaction. If the import fails halfway through, the transaction is rolled back, but the rollback itself takes hours, during which time the database is heavily impacted. This problem is particularly critical in high-concurrency systems where even short-lived locks can have a significant impact. It often requires careful design of transaction boundaries and asynchronous processing for long-running tasks.

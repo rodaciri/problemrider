@@ -26,7 +26,6 @@ layout: problem
 
 Language barriers occur when team members speak different native languages or use different technical terminology, creating obstacles to effective communication. This includes not only literal translation issues but also cultural differences in communication styles, varying levels of proficiency in a shared working language, and different interpretations of technical terms. These barriers can lead to misunderstandings, exclusion of team members from discussions, and reduced collaboration effectiveness.
 
-
 ## Indicators ⟡
 
 - Team members frequently ask for clarification or repetition during discussions
@@ -35,9 +34,7 @@ Language barriers occur when team members speak different native languages or us
 - Technical terms are interpreted differently by different team members
 - Non-native speakers struggle to express complex ideas in the working language
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.701">ⓘ</span>
 <br/>  The inability to effectively communicate technical requirements and terminology in a shared language leads to a lack of collaboration and knowledge transfer, resulting in a diminished pool of developers proficient in outdated technologies, which ultimately creates critical maintenance bottlenecks.
 - [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.770">ⓘ</span>
@@ -52,7 +49,6 @@ Language barriers occur when team members speak different native languages or us
 <br/>  Differences in language and terminology can lead to misinterpretations of requirements, causing a disconnect between stakeholder expectations and the actual output of the development team, which manifests as rework and dissatisfaction.
 
 ## Root Causes ▼
-
 - [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.661">ⓘ</span>
 <br/>  The reliance on unwritten assumptions and undocumented practices creates a gap in shared terminology and understanding, leading to language barriers that obstruct effective communication within the team.
 - [Scope Change Resistance](scope-change-resistance.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.738">ⓘ</span>
@@ -65,7 +61,6 @@ Language barriers occur when team members speak different native languages or us
 - **Documentation Review:** Assess clarity and comprehension of written team communications
 - **Misunderstanding Frequency Tracking:** Monitor how often clarifications are needed
 - **Team Inclusion Assessment:** Evaluate whether all team members feel comfortable participating
-
 
 ## Examples
 

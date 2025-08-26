@@ -25,7 +25,6 @@ layout: problem
 ## Description
 Declining business metrics represents the measurable deterioration of key business indicators as a direct result of technical problems and development issues. This encompasses quantifiable impacts such as decreased user engagement, lower conversion rates, increased churn, reduced revenue, and lost stakeholder confidence. When technical issues like performance problems, bugs, delivery delays, or poor user experience accumulate, they create observable negative trends in business metrics and organizational relationships. This problem manifests through declining KPIs, user abandonment, stakeholder skepticism about development capabilities, and the erosion of trust that makes it increasingly difficult to secure resources for necessary improvements. Understanding and monitoring these declining metrics is essential for prioritizing technical work, demonstrating the business impact of technical debt, and making data-driven decisions about engineering investments.
 
-
 ## Indicators ⟡
 - A decline in new user sign-ups.
 - An increase in negative reviews on social media or app stores.
@@ -37,9 +36,7 @@ Declining business metrics represents the measurable deterioration of key busine
 - Stakeholders begin seeking alternative solutions or vendors.
 - Team estimates and recommendations are frequently questioned or overruled.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.743">ⓘ</span>
 <br/>  Persistent technical issues in legacy systems create a frustrating work environment for developers, leading to demotivation and burnout, which in turn hampers productivity and innovation, thereby contributing to the decline in key business performance indicators.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.744">ⓘ</span>
@@ -78,7 +75,6 @@ Declining business metrics represents the measurable deterioration of key busine
 - **Alternative Solution Investigations:** Watch for signs that stakeholders are exploring other options.
 - **Competitor Analysis:** Benchmark your application's performance and features against competitors.
 - **Support Ticket Analysis:** Categorize and analyze customer support tickets to identify recurring themes related to user frustration.
-
 
 ## Examples
 An online retail store experiences a 15% drop in sales conversion rate over a month. Investigation reveals that the product page load time has increased by 3 seconds, causing many users to abandon their shopping carts before completing a purchase. In another case, a SaaS product sees a significant increase in its churn rate. User surveys indicate that frequent bugs and a confusing user interface are the primary reasons for users leaving.

@@ -25,7 +25,6 @@ layout: problem
 
 Memory fragmentation occurs when the available memory space becomes divided into small, non-contiguous blocks due to repeated allocation and deallocation patterns. Even when sufficient total memory is available, applications may fail to allocate larger contiguous blocks, leading to allocation failures or forcing the use of slower, non-contiguous memory allocation strategies. This problem is particularly severe in long-running applications with dynamic memory allocation patterns.
 
-
 ## Indicators ⟡
 
 - Memory allocation failures despite having sufficient total free memory
@@ -34,13 +33,11 @@ Memory fragmentation occurs when the available memory space becomes divided into
 - Performance degradation in applications that require large contiguous allocations
 - Heap compaction or garbage collection frequency increases significantly
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.858">ⓘ</span>
 <br/>  The tendency to prioritize trivial code reviews over critical design considerations can lead to inefficient memory allocation practices, resulting in fragmented memory that hinders the ability to allocate larger objects despite having sufficient total free memory.
 - [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.808">ⓘ</span>
@@ -58,7 +55,6 @@ Memory fragmentation occurs when the available memory space becomes divided into
 - **Performance Monitoring:** Monitor allocation time increases that correlate with fragmentation
 - **Virtual Memory Analysis:** Analyze page fault patterns and virtual memory usage
 - **Heap Dump Analysis:** Examine heap snapshots to identify fragmentation patterns
-
 
 ## Examples
 

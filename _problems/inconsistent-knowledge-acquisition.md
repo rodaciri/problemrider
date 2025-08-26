@@ -26,7 +26,6 @@ layout: problem
 
 Inconsistent knowledge acquisition occurs when new team members receive different types, depths, or qualities of knowledge depending on who mentors them, what resources they use, or which parts of the system they're exposed to first. This leads to uneven skill distribution across the team, with some developers becoming experts in certain areas while remaining completely unfamiliar with others, even after months of work.
 
-
 ## Indicators ⟡
 
 - New hires with similar backgrounds and experience levels develop very different competencies
@@ -35,9 +34,7 @@ Inconsistent knowledge acquisition occurs when new team members receive differen
 - Knowledge gaps appear randomly distributed across the team rather than following experience levels
 - Training outcomes vary significantly depending on who provides the training
 
-
 ## Symptoms ▲
-
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.392, Strength: 0.725">ⓘ</span>
 <br/>  Flaky tests often arise in legacy systems due to inconsistent knowledge acquisition among team members, leading to varied understanding of test setup and dependencies, which in turn results in unreliable test execution and increased failure rates.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.588">ⓘ</span>
@@ -52,7 +49,6 @@ Inconsistent knowledge acquisition occurs when new team members receive differen
 <br/>  The uneven skill distribution among new team members leads to a critical shortage of developers who possess cohesive knowledge of legacy technologies, creating bottlenecks and increasing the risk of single points of failure in system maintenance.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.957">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks leads to fragmented understanding among new team members, as their mentors may focus on different components or versions, resulting in inconsistent knowledge acquisition across the team.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.948">ⓘ</span>
@@ -79,7 +75,6 @@ Inconsistent knowledge acquisition occurs when new team members receive differen
 - **Cross-training Effectiveness:** Test whether team members can work on tasks outside their initial focus areas
 - **Onboarding Outcome Comparison:** Compare knowledge and skills gained by different new hires after similar time periods
 - **Mentor Impact Analysis:** Assess how different mentors affect new hire learning outcomes
-
 
 ## Examples
 

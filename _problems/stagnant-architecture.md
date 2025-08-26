@@ -26,7 +26,6 @@ layout: problem
 
 Stagnant architecture occurs when a system's fundamental design and structure remain unchanged despite evolving business requirements, technological advances, and lessons learned from operational experience. This happens when teams consistently avoid architectural improvements due to perceived risks, time constraints, or complexity. The result is a system that becomes increasingly misaligned with current needs, making it difficult to implement new features efficiently or integrate with modern technologies.
 
-
 ## Indicators ⟡
 
 - Core architectural patterns haven't changed in years despite new requirements
@@ -35,9 +34,7 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 - Integration with new technologies requires extensive adapter layers
 - The system architecture predates current business models or user patterns
 
-
 ## Symptoms ▲
-
 - [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.642">ⓘ</span>
 <br/>  The failure to evolve the system architecture leads to outdated data models and rigid structures, which in turn causes data integrity issues during migration due to persistent schema mismatches and format incompatibilities that arise from a lack of necessary refactoring.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.602">ⓘ</span>
@@ -46,7 +43,6 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 <br/>  When the architecture remains unchanged and becomes increasingly rigid, teams often feel constrained by outdated systems, leading to a reluctance to explore innovative solutions and a focus on merely maintaining the status quo.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.827">ⓘ</span>
 <br/>  Long-running transactions lead to resource contention and system performance degradation, which discourages necessary refactoring efforts and ultimately prevents the architecture from evolving to meet changing business requirements.
 - [Rapid System Changes](rapid-system-changes.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.674">ⓘ</span>
@@ -67,7 +63,6 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 - **Feature Development Time Tracking:** Monitor whether similar features take increasing amounts of time
 - **Integration Complexity Metrics:** Measure effort required to integrate with new systems or services
 - **Developer Feedback:** Survey team about architectural pain points and limitations
-
 
 ## Examples
 

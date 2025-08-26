@@ -26,7 +26,6 @@ layout: problem
 
 Increased customer support load occurs when technical problems, poor user experience design, or system defects cause users to contact support more frequently than necessary. This creates a cascading effect where technical problems not only affect users directly but also strain support resources, increase operational costs, and divert attention from other business activities. The support team becomes overwhelmed with issues that should have been prevented through better software quality.
 
-
 ## Indicators ⟡
 - Support ticket volume increases without corresponding user growth
 - High percentage of support requests relate to software bugs or usability issues
@@ -34,13 +33,11 @@ Increased customer support load occurs when technical problems, poor user experi
 - Customer satisfaction scores decline due to support experience
 - Support costs increase disproportionately to user base growth
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.661, Strength: 0.929">ⓘ</span>
 <br/>  Budget overruns lead to reduced resources for system maintenance and updates, resulting in unresolved bugs and usability issues that frustrate users and increase their reliance on customer support.
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.653, Strength: 0.918">ⓘ</span>
@@ -234,7 +231,6 @@ Increased customer support load occurs when technical problems, poor user experi
 - **Common Issue Analysis:** Track the most frequent support requests to identify recurring technical problems
 - **Support Cost Analysis:** Calculate the cost impact of technical issues on support operations
 - **User Self-Service Success Rate:** Measure how often users can resolve issues without contacting support
-
 
 ## Examples
 

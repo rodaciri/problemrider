@@ -26,7 +26,6 @@ layout: problem
 
 Duplicated research effort occurs when multiple team members independently investigate the same topics, technologies, or problem domains without sharing their findings or coordinating their research activities. This duplication wastes valuable development time and fails to build institutional knowledge that could benefit the entire team. The problem often stems from poor communication, lack of knowledge management systems, or unclear coordination of research responsibilities.
 
-
 ## Indicators ⟡
 
 - Team members ask similar research questions at different times
@@ -35,9 +34,7 @@ Duplicated research effort occurs when multiple team members independently inves
 - Similar documentation or proof-of-concept code created by different team members
 - Research findings are not shared or accessible to other team members
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.656">ⓘ</span>
 <br/>  The lack of coordinated research leads to multiple interpretations of project goals, resulting in frequent requirement changes as teams fail to align on a shared understanding, ultimately triggering rework and delays.
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.863">ⓘ</span>
@@ -50,7 +47,6 @@ Duplicated research effort occurs when multiple team members independently inves
 <br/>  In legacy systems, the lack of shared knowledge and collaboration can lead to inconsistent approaches in test design and implementation, resulting in flaky tests that reflect the underlying issue of redundant individual efforts rather than a unified strategy.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.879">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks often leads to team members independently researching the same topics to understand how to work with these shared dependencies, resulting in duplicated efforts and a lack of efficient knowledge sharing.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.883">ⓘ</span>
@@ -83,7 +79,6 @@ Duplicated research effort occurs when multiple team members independently inves
 - **Documentation Review:** Look for multiple documents or code examples addressing the same topics
 - **Time Tracking Analysis:** Compare research time against the complexity of topics being investigated
 - **Team Surveys:** Ask about research coordination and knowledge sharing experiences
-
 
 ## Examples
 

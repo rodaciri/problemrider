@@ -26,7 +26,6 @@ layout: problem
 
 Superficial code reviews occur when the review process consistently focuses on surface-level issues such as code formatting, variable naming, and minor style preferences while failing to identify important problems related to logic, design, security, performance, or maintainability. This creates a false sense of quality assurance where code passes review despite containing significant issues that could impact functionality or long-term maintainability.
 
-
 ## Indicators ⟡
 
 - Most review comments are about formatting, spacing, or naming conventions
@@ -35,13 +34,11 @@ Superficial code reviews occur when the review process consistently focuses on s
 - Security vulnerabilities are discovered after deployment rather than during review
 - Performance issues are not identified until they impact users
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.835">ⓘ</span>
 <br/>  Developers accustomed to procedural programming may prioritize superficial aspects of code during reviews due to their limited understanding of object-oriented principles, resulting in overlooked design and security flaws in legacy systems.
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.806">ⓘ</span>
@@ -58,7 +55,6 @@ Superficial code reviews occur when the review process consistently focuses on s
 - **Review Depth Assessment:** Evaluate whether reviews address design and logic issues
 - **Security Issue Discovery Timeline:** Determine if security problems are found in review or production
 - **Code Quality Trend Analysis:** Monitor whether superficial reviews correlate with quality degradation
-
 
 ## Examples
 

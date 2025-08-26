@@ -25,7 +25,6 @@ layout: problem
 
 Memory barrier inefficiency occurs when applications use memory barriers (fences) excessively or inappropriately, disrupting CPU pipeline optimizations and memory access reordering that would normally improve performance. While memory barriers are essential for correctness in multi-threaded code, overuse or poor placement can significantly impact performance by forcing the CPU to complete all pending memory operations before proceeding.
 
-
 ## Indicators ⟡
 
 - Multi-threaded code performs much worse than expected despite minimal lock contention
@@ -34,13 +33,11 @@ Memory barrier inefficiency occurs when applications use memory barriers (fences
 - Performance degrades significantly when memory barriers are added for correctness
 - Code performance varies significantly across different CPU architectures
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.914">ⓘ</span>
 <br/>  Insufficient monitoring in legacy systems prevents the timely identification of inefficient memory barrier placements, leading to performance degradation in multi-threaded applications due to unoptimized CPU pipeline execution.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.901">ⓘ</span>
@@ -72,7 +69,6 @@ Memory barrier inefficiency occurs when applications use memory barriers (fences
 - **Memory Ordering Analysis:** Analyze actual memory ordering requirements vs barriers used
 - **Lock-Free Algorithm Profiling:** Profile performance of lock-free vs lock-based implementations
 - **Barrier Elimination Testing:** Test performance with reduced memory barrier usage
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Inadequate initial reviews occur when the first round of code review fails to identify important issues, design problems, or potential improvements that should have been caught early. This results in multiple review cycles where new issues are discovered in each round, extending the review process unnecessarily and creating frustration for both authors and reviewers. The problem indicates that reviewers are not conducting thorough analysis during their initial examination of the code.
 
-
 ## Indicators ⟡
 
 - Issues that should have been obvious are only identified in later review rounds
@@ -34,9 +33,7 @@ Inadequate initial reviews occur when the first round of code review fails to id
 - Important design or architectural issues are missed until after implementation details are reviewed
 - Review quality improves significantly in later rounds compared to initial reviews
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.668">ⓘ</span>
 <br/>  Inadequate initial reviews lead to overlooked code issues, resulting in critical areas of the codebase lacking test coverage, which ultimately exposes the system to undetected defects and compromises quality assurance.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.737">ⓘ</span>
@@ -45,7 +42,6 @@ Inadequate initial reviews occur when the first round of code review fails to id
 <br/>  Incomplete or superficial first-round code reviews fail to catch critical issues in the code, leading to unstable test environments and unreliable tests that reflect underlying quality problems in the software.
 
 ## Root Causes ▼
-
 - [Duplicated Effort](duplicated-effort.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.857">ⓘ</span>
 <br/>  The superficiality of first-round code reviews arises from team members duplicating efforts on similar issues, leading to a lack of thorough examination as reviewers may focus on their own contributions rather than collaboratively identifying critical problems.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.813">ⓘ</span>
@@ -58,7 +54,6 @@ Inadequate initial reviews occur when the first round of code review fails to id
 - **Review Quality Progression:** Analyze whether review feedback gets significantly deeper in later rounds
 - **Reviewer Performance Assessment:** Compare different reviewers' ability to identify issues early
 - **Time Investment Correlation:** Examine relationship between time spent on initial review and issue discovery
-
 
 ## Examples
 

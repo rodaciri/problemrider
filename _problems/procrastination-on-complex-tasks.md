@@ -25,7 +25,6 @@ layout: problem
 
 Procrastination on complex tasks occurs when developers consistently delay or avoid starting difficult, cognitively demanding, or uncertain work in favor of easier, more immediately satisfying activities. This behavior often stems from psychological factors such as fear of failure, perfectionism, or cognitive overload. While some level of task preference is natural, systematic procrastination on complex work can lead to accumulation of difficult problems and increased technical debt.
 
-
 ## Indicators ⟡
 
 - Difficult tasks remain unstarted while easier tasks are completed quickly
@@ -34,9 +33,7 @@ Procrastination on complex tasks occurs when developers consistently delay or av
 - Developers express anxiety or stress when discussing challenging work
 - Simple bugs get fixed immediately while complex issues remain in the backlog
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.446, Strength: 0.659">ⓘ</span>
 <br/>  Frequent updates to project requirements can indicate procrastination on complex tasks, as teams may delay addressing challenging aspects of development by constantly shifting focus to easier modifications, resulting in ongoing rework and project delays.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.653">ⓘ</span>
@@ -59,7 +56,6 @@ Procrastination on complex tasks occurs when developers consistently delay or av
 <br/>  Frequent modifications by multiple developers to the same large functions or files indicate a tendency to avoid tackling the underlying complexity of the codebase, leading to version control conflicts that arise from deferred engagement with challenging tasks.
 
 ## Root Causes ▼
-
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.932">ⓘ</span>
 <br/>  A lack of understanding of object-oriented programming principles leads to the creation of convoluted and unmanageable code, causing developers to avoid complex tasks in favor of simpler, more accessible work that feels less daunting.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.942">ⓘ</span>
@@ -88,7 +84,6 @@ Procrastination on complex tasks occurs when developers consistently delay or av
 - **Backlog Age by Complexity:** Track how long complex versus simple tasks remain in the backlog
 - **Developer Feedback Surveys:** Ask about factors that influence task selection and avoidance
 - **Sprint Planning Behavior:** Observe which tasks are volunteered for versus avoided during planning
-
 
 ## Examples
 

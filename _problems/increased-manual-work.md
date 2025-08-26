@@ -25,7 +25,6 @@ layout: problem
 
 Increased manual work occurs when developers must perform repetitive, routine tasks by hand that could be automated through scripts, tools, or process improvements. This manual overhead reduces the time available for creative problem-solving, feature development, and other high-value activities. Common examples include manual testing, deployment processes, data entry, file manipulation, or environment setup. The problem compounds over time as teams become accustomed to manual processes and don't invest in automation.
 
-
 ## Indicators ⟡
 
 - Developers perform the same sequence of steps repeatedly for routine tasks
@@ -34,9 +33,7 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 - Team members express frustration about time spent on "busywork"
 - Similar tasks take much longer than they should with proper tooling
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.667">ⓘ</span>
 <br/>  The time developers lose to repetitive manual tasks directly diminishes their capacity for productive work, causing a noticeable decline in the team's overall efficiency and output.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.624">ⓘ</span>
@@ -47,7 +44,6 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 <br/>  The extensive time developers spend on repetitive manual tasks directly limits their capacity to refine and enhance features, leading to a decline in the quality of the user experience in legacy systems.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.571, Strength: 0.874">ⓘ</span>
 <br/>  Bottlenecks in specific team members or processes force developers to manually handle repetitive tasks that could otherwise be automated, diverting their focus from actual development work and exacerbating the inefficiency inherent in legacy systems.
 - [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.861">ⓘ</span>
@@ -88,7 +84,6 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 - **Error Rate Tracking:** Measure mistakes in routine processes that could be automated
 - **Developer Surveys:** Ask team members about manual tasks that frustrate them
 - **Process Documentation Review:** Analyze documented processes to identify automation opportunities
-
 
 ## Examples
 

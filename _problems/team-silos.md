@@ -24,7 +24,6 @@ layout: problem
 ## Description
 Team silos are a common organizational problem where different teams or individuals work in isolation from each other. This can lead to a number of problems, including duplicated effort, inconsistent solutions, and a lack of knowledge sharing. In a software development context, team silos can be particularly damaging. When developers don't communicate with each other, they are likely to solve the same problems in different ways, which can lead to a fragmented and inconsistent codebase. This can make the system more difficult to maintain and evolve over time. This problem leads to knowledge silos, single points of failure, and reduced team resilience. When severe, it can result in a "bus factor" of one, where the loss of a single team member would be catastrophic to the project.
 
-
 ## Indicators ⟡
 - Different teams are working on similar features without any coordination.
 - There is a lack of awareness of what other teams are working on.
@@ -33,9 +32,7 @@ Team silos are a common organizational problem where different teams or individu
 - The team does not have a culture of knowledge sharing.
 - The team is not using any tools to facilitate knowledge sharing.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.586, Strength: 0.809">ⓘ</span>
 <br/>  Isolation among development teams leads to duplicated efforts and inconsistent solutions, which increases frustration and burnout as developers struggle with inefficient workflows and a lack of collaborative support in maintaining legacy systems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.569, Strength: 0.773">ⓘ</span>
@@ -96,7 +93,6 @@ Team silos are a common organizational problem where different teams or individu
 - **Onboarding Time Metrics:** Track how long it takes for new hires to become fully productive.
 - **Code Review Observations:** Notice if reviewers frequently explain fundamental concepts or patterns that should be common knowledge.
 - **Post-Mortems/Retrospectives:** Analyze if recurring issues could have been prevented by better knowledge sharing.
-
 
 ## Examples
 A large enterprise has two different teams working on its e-commerce website. One team is responsible for the front-end, and the other team is responsible for the back-end. The two teams are located in different buildings, and they rarely communicate with each other. As a result, the front-end and back-end of the website are poorly integrated, and there are a number of inconsistencies in the user experience. The company is also paying for two different teams to solve the same problems, which is a waste of resources.

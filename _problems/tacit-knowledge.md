@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Tacit knowledge is knowledge that is difficult to transfer to another person by means of writing it down or verbalizing it. It is often learned through experience, and it is often difficult to articulate. Tacit knowledge can be a major problem in software development, as it can lead to knowledge silos and a slowdown in knowledge transfer.
 
-
 ## Indicators ⟡
 - There is a lot of knowledge that is not written down.
 - New team members have a difficult time getting up to speed.
 - The team is heavily reliant on a few senior developers.
 - There is a lot of duplicated effort as new team members have to rediscover the same information.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.657, Strength: 0.906">ⓘ</span>
 <br/>  The difficulty in transferring critical knowledge about aging technologies leads to a reliance on a shrinking pool of experienced developers, resulting in maintenance bottlenecks and heightened risk of system failure.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.598, Strength: 0.830">ⓘ</span>
@@ -79,7 +76,6 @@ Tacit knowledge is knowledge that is difficult to transfer to another person by 
 - **Developer Surveys:** Ask developers if they feel like they have the knowledge they need to do their jobs.
 - **Code Reviews:** Look for code that is difficult to understand.
 - **Pair Programming:** Use pair programming to help new team members learn the tacit knowledge of the team.
-
 
 ## Examples
 A company has a legacy system that was written by a single developer who has since left the company. The developer did not write any documentation, so all the knowledge about the system is tacit knowledge. The new developers who are responsible for maintaining the system have a very difficult time getting up to speed. They are constantly making mistakes, and the number of bugs is increasing. This is a common problem in companies that do not have a culture of knowledge sharing.

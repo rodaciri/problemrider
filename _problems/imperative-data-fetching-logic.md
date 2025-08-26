@@ -26,16 +26,13 @@ layout: problem
 ## Description
 Imperative data fetching logic is a common performance problem in database-driven applications. It occurs when the application code is written in a way that fetches data in a loop, rather than using a more efficient, declarative approach. This can lead to a number of problems, including the N+1 query problem, slow application performance, and a high number of database queries. Imperative data fetching logic is often a sign of a lack of experience with declarative programming or a lack of a clear data fetching strategy.
 
-
 ## Indicators ⟡
 - The application code contains loops that fetch data from the database.
 - The application is making a large number of small, fast queries instead of a few larger, slower queries.
 - The application is slow, even though the database server is not under heavy load.
 - The database logs are full of similar-looking queries.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.665, Strength: 0.852">ⓘ</span>
 <br/>  The inefficient data fetching in the application leads to prolonged response times, causing upstream services to exceed their timeout limits and fail to receive timely data.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.599, Strength: 0.855">ⓘ</span>
@@ -98,7 +95,6 @@ Imperative data fetching logic is a common performance problem in database-drive
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag the N+1 query problem, which is a common symptom of imperative data fetching logic.
 - **SQL Logging:** Enable SQL logging in your application or database and inspect the logs for a large number of similar-looking queries.
 - **Static Analysis:** Use static analysis tools to identify loops that contain database queries.
-
 
 ## Examples
 A web application has a page that displays a list of products and their prices. The application first executes a query to get the list of products. Then, for each product, it executes another query to get the price. This is an example of imperative data fetching logic. The problem could be solved by using a single query that joins the products and prices tables. This would be a more efficient and declarative way to fetch the data.

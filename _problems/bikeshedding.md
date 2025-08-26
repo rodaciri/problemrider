@@ -24,9 +24,7 @@ layout: problem
 ## Description
 Bikeshedding, also known as Parkinson's law of triviality, is a phenomenon where a disproportionate amount of time and energy is spent on trivial and insignificant details, while more important and complex issues are neglected. This often occurs in meetings where participants avoid challenging topics and instead focus on easy-to-understand but ultimately unimportant details. Bikeshedding is a major time-waster, and it can be a sign of a dysfunctional team culture.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.687, Strength: 0.916">ⓘ</span>
 <br/>  In legacy systems, the tendency to obsess over trivial code issues diverts attention from implementing comprehensive tests, resulting in critical areas lacking coverage and leaving quality assurance vulnerable to unnoticed defects.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.663, Strength: 0.885">ⓘ</span>
@@ -163,7 +161,6 @@ Bikeshedding, also known as Parkinson's law of triviality, is a phenomenon where
 - **Developer Surveys:** Ask developers about their perception of code review effectiveness and common feedback types.
 - **Retrospectives:** Discuss code review processes and identify recurring frustrations or inefficiencies.
 - **Reviewer Training:** Observe if training on effective code review practices improves the quality of feedback.
-
 
 ## Examples
 

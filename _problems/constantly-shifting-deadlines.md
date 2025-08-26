@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Constantly shifting deadlines are a common problem in software development. They occur when the project's end date is repeatedly pushed back to accommodate new feature requests, a lack of clear requirements, or other unforeseen circumstances. This can lead to a number of problems, including a loss of credibility for the development team, a great deal of frustration for the stakeholders, and a decline in team morale. Constantly shifting deadlines are often a sign of a poorly managed project.
 
-
 ## Indicators ⟡
 - The project's end date is constantly changing.
 - The team is frequently missing deadlines.
 - The team is constantly context-switching.
 - There is a lot of rework.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.695, Strength: 0.892">ⓘ</span>
 <br/>  The frequent delays in project timelines lead to rushed development cycles, resulting in incomplete or unstable API implementations that cause consuming services to exceed their timeout thresholds and fail.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.692, Strength: 0.929">ⓘ</span>
@@ -186,7 +183,6 @@ Constantly shifting deadlines are a common problem in software development. They
 - **Velocity Tracking:** In an agile team, a decrease in velocity can be a sign that the team is being burdened with unplanned work.
 - **Compare Plan vs. Actuals:** Regularly compare the project's progress against the original plan to see how much the scope has changed.
 - **Stakeholder Feedback:** If stakeholders are constantly asking "Is it done yet?", it may be a sign that their expectations are not aligned with the project's reality.
-
 
 ## Examples
 A team is building a new website. The project has a deadline of three months. However, the scope of the project is constantly expanding. The team is constantly being asked to add new features to the website. As a result, the team is not able to meet the original deadline. The deadline is pushed back a number of times, and the project is eventually delivered six months late. The stakeholders are not happy, and the development team is burned out.

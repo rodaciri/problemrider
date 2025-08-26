@@ -25,7 +25,6 @@ layout: problem
 
 Unreleased resources occur when applications acquire system resources such as memory, file handles, database connections, network sockets, or other finite resources but fail to properly release them when they're no longer needed. This leads to resource exhaustion over time, degraded performance, and eventual system instability. Unlike simple memory leaks, this problem encompasses all types of system resources and can manifest in various ways depending on which resources are not being properly managed.
 
-
 ## Indicators ⟡
 - System resource usage continuously increases during application runtime
 - Applications eventually crash with "out of memory" or "too many open files" errors
@@ -33,14 +32,11 @@ Unreleased resources occur when applications acquire system resources such as me
 - Network connections remain in TIME_WAIT state for extended periods
 - Performance degrades as the application runs longer
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.420, Strength: 0.652">ⓘ</span>
 <br/>  Unreleased system resources lead to unbounded data structures as the failure to deallocate memory permits continual allocation without limits, causing memory exhaustion and degraded performance in legacy systems.
 
 ## Root Causes ▼
-
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.638, Strength: 0.900">ⓘ</span>
 <br/>  Excessive response times in API calls can lead to incomplete processing of requests, causing allocated resources to remain open and unclosed, ultimately resulting in unreleased resources within the system.
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.627, Strength: 0.886">ⓘ</span>
@@ -333,7 +329,6 @@ Unreleased resources occur when applications acquire system resources such as me
 - **Static Code Analysis:** Tools that can identify potential resource leaks in code
 - **Load Testing:** Extended testing that can reveal resource leaks over time
 - **System Log Analysis:** Monitor system logs for resource exhaustion errors or warnings
-
 
 ## Examples
 

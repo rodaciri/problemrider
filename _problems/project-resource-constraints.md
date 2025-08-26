@@ -25,7 +25,6 @@ layout: problem
 
 Project resource constraints occur when projects cannot secure the human, financial, or organizational resources necessary for successful completion, despite having clear requirements and business justification. This can result from inadequate resource planning, competing organizational priorities, bureaucratic approval processes, or misalignment between project needs and available resources. Resource constraints often lead to project delays, scope reduction, or complete project failure.
 
-
 ## Indicators ⟡
 
 - Projects consistently receive less budget or personnel than requested
@@ -34,9 +33,7 @@ Project resource constraints occur when projects cannot secure the human, financ
 - Teams are forced to work with inadequate tools, infrastructure, or support
 - Multiple high-priority projects compete for the same limited specialized resources
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.566, Strength: 0.866">ⓘ</span>
 <br/>  Insufficient budget, personnel, and resources lead to inadequate planning and support for projects, resulting in inefficiencies and lower output from the development team, which reflects the underlying constraints faced.
 - [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.547, Strength: 0.841">ⓘ</span>
@@ -87,7 +84,6 @@ Project resource constraints occur when projects cannot secure the human, financ
 - **Project Resource Utilization:** Compare planned versus actual resources allocated to projects
 - **Cross-Project Resource Conflict Analysis:** Identify when multiple projects compete for same resources
 - **Resource-Related Delay Tracking:** Correlate project delays with resource availability issues
-
 
 ## Examples
 

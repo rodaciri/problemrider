@@ -26,7 +26,6 @@ layout: problem
 
 Long release cycles occur when the time between software releases becomes excessive due to prolonged testing phases, extensive manual verification processes, or frequent discovery of issues late in the release process. This problem creates a bottleneck in delivering value to users and often results in larger, riskier releases that are even more difficult to test and deploy. Long cycles can become self-reinforcing as teams try to pack more features into infrequent releases, making each release even larger and more complex.
 
-
 ## Indicators ⟡
 - Releases happen monthly, quarterly, or even less frequently when they should be more regular
 - Significant portions of the release cycle are spent on manual testing or bug fixing
@@ -34,16 +33,13 @@ Long release cycles occur when the time between software releases becomes excess
 - Large amounts of code changes accumulate between releases
 - The team spends weeks preparing for each release
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.625">ⓘ</span>
 <br/>  Constant updates to project requirements often arise from the need to address issues discovered during prolonged manual testing phases, resulting in a cycle of rework and further delays that exacerbate release timelines.
 - [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.601">ⓘ</span>
 <br/>  Frequent merge conflicts arise from developers needing to wait for lengthy manual testing to conclude, leading them to modify the same code areas simultaneously, which ultimately contributes to the delays in release cycles.
 
 ## Root Causes ▼
-
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.919">ⓘ</span>
 <br/>  Delays in external services lead to slower API responses, resulting in extended manual testing phases and increased likelihood of last-minute bug discoveries, ultimately prolonging release cycles in legacy systems.
 - [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.836">ⓘ</span>
@@ -57,7 +53,6 @@ Long release cycles occur when the time between software releases becomes excess
 - **Bug Discovery Timing:** Monitor when bugs are found in the release cycle (late discovery indicates process issues)
 - **Feature Delivery Time:** Track how long features take from completion to user availability
 - **Release Size Analysis:** Measure the amount of code or number of features per release
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Resistance to change occurs when development teams consistently avoid making necessary improvements, refactoring, or modernization efforts due to concerns about risk, effort, or disruption. This resistance can stem from past negative experiences, lack of confidence in the team's ability to manage change safely, or organizational culture that discourages taking risks. Over time, this resistance leads to system stagnation and accumulating technical debt.
 
-
 ## Indicators ⟡
 
 - Improvement initiatives are consistently postponed or canceled
@@ -35,9 +34,7 @@ Resistance to change occurs when development teams consistently avoid making nec
 - New requirements are implemented as additions rather than improvements to existing code
 - Proposals for system improvements receive skeptical or negative responses
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.615, Strength: 0.839">ⓘ</span>
 <br/>  The reluctance to refactor or improve the codebase creates a cycle of unresolved technical debt and inefficiencies, leading to increased frustration and burnout among developers who face ongoing challenges without hope for meaningful improvement.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.595, Strength: 0.816">ⓘ</span>
@@ -120,7 +117,6 @@ Resistance to change occurs when development teams consistently avoid making nec
 - **Team Retrospectives:** Discuss attitudes toward change and improvement efforts
 - **Technical Debt Trend Analysis:** Track whether technical debt is increasing or decreasing over time
 - **Decision Pattern Analysis:** Look for patterns of choosing workarounds over fundamental fixes
-
 
 ## Examples
 

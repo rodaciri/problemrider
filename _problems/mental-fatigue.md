@@ -26,7 +26,6 @@ layout: problem
 
 Mental fatigue in development occurs when developers experience cognitive exhaustion that is disproportionate to their actual productive output. This happens when cognitive resources are depleted by factors other than core development work, such as frequent context switching, complex tool workflows, or maintaining multiple mental models simultaneously. Developers feel tired and drained at the end of the day despite not feeling like they accomplished meaningful work, creating a cycle of frustration and reduced motivation.
 
-
 ## Indicators ⟡
 
 - Developers report feeling tired or drained without clear accomplishment
@@ -35,9 +34,7 @@ Mental fatigue in development occurs when developers experience cognitive exhaus
 - Simple decisions become challenging later in the day
 - Developers avoid complex tasks when mentally tired
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.526, Strength: 0.817">ⓘ</span>
 <br/>  Mental fatigue among developers leads to cognitive overload and inefficient workflows, resulting in decreased overall team productivity as the inability to effectively manage tasks and collaborate exacerbates systemic issues within legacy systems.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.522, Strength: 0.739">ⓘ</span>
@@ -62,7 +59,6 @@ Mental fatigue in development occurs when developers experience cognitive exhaus
 - **Task Completion Time Tracking:** Compare morning vs. afternoon task completion times
 - **Focus Session Duration:** Measure how long developers can maintain focused work periods
 - **Cognitive Load Assessment:** Evaluate the mental complexity of daily tasks and workflows
-
 
 ## Examples
 

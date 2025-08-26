@@ -23,16 +23,13 @@ layout: problem
 ## Description
 Partial bug fixes are a common problem in software systems with a high degree of code duplication. They occur when a bug is fixed in one instance of the duplicated code, but not in all of them. This can lead to a number of problems, including regression bugs, a loss of trust in the system, and a great deal of frustration for the development team. Partial bug fixes are often a sign of a poorly designed system with a high degree of code duplication.
 
-
 ## Indicators ⟡
 - The same bug is reported over and over again.
 - The team is constantly fixing regression bugs.
 - The team is not sure if a bug has been fixed.
 - The team is not able to reproduce bugs that are reported by users.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.678, Strength: 0.897">ⓘ</span>
 <br/>  In legacy systems, inadequate test coverage fails to identify all instances of duplicated code where bug fixes are needed, allowing issues to reemerge in different contexts due to the untested areas of the codebase.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.615, Strength: 0.879">ⓘ</span>
@@ -155,7 +152,6 @@ Partial bug fixes are a common problem in software systems with a high degree of
 - **Regression Testing:** Use regression testing to verify that bugs that were previously fixed have not reappeared.
 - **Code Reviews:** Code reviews are a great way to identify partial bug fixes.
 - **Bug Tracking System:** Use a centralized bug tracking system to track the status of bugs.
-
 
 ## Examples
 An e-commerce website has a bug in its checkout flow. The bug is fixed in the checkout flow for regular customers, but it is not fixed in the checkout flow for guest customers. As a result, the bug is still present in the system, and it is still affecting users. The problem could have been avoided if the developer who fixed the bug had been aware of the duplicated code and had fixed the bug in both places.

@@ -26,7 +26,6 @@ layout: problem
 
 Inadequate test infrastructure refers to the lack of proper tools, environments, automation, and supporting systems needed to conduct effective testing throughout the development lifecycle. This goes beyond simply having few tests to encompass the foundational capabilities required for testing, including test environments, data management, test automation frameworks, and integration with development workflows. Without adequate infrastructure, even well-intentioned testing efforts become inefficient, unreliable, or abandoned entirely.
 
-
 ## Indicators ⟡
 
 - Test environments that are frequently unavailable, slow, or inconsistent with production
@@ -37,9 +36,7 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 - Difficulty reproducing production issues in test environments
 - Test results that are hard to analyze or lack clear reporting and visualization
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.717">ⓘ</span>
 <br/>  The lack of necessary tools and automation hinders the ability to implement comprehensive testing, resulting in critical areas of the codebase remaining untested and creating significant gaps in quality assurance.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.711">ⓘ</span>
@@ -61,7 +58,6 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 - Assess test data management processes and availability of realistic test datasets
 - Monitor test automation success rates and failure patterns
 - Compare testing capabilities against industry standards and best practices
-
 
 ## Examples
 

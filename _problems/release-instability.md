@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Release instability is a state where software releases are consistently unreliable and prone to failure. This can manifest as a high rate of post-deployment bugs, performance issues, or other critical failures that require immediate intervention. Release instability is a major source of stress for development teams, and it can have a significant impact on user satisfaction and business continuity. It is often a symptom of underlying problems in the development process, such as inadequate testing, poor release management, and a lack of attention to quality.
 
-
 ## Indicators ⟡
 - Every release is followed by a period of intense firefighting and bug fixing.
 - The team is hesitant to release new features because they are afraid of breaking the system.
 - There is a general lack of confidence in the release process.
 - The business is reluctant to announce new features because they are not sure if they will work.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.659, Strength: 0.888">ⓘ</span>
 <br/>  Frequent production releases are unstable due to outdated code and technical debt, leading to a continuous cycle of urgent fixes that overwhelm developers, resulting in frustration and burnout as they struggle to address persistent issues rather than innovate.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.634, Strength: 0.861">ⓘ</span>
@@ -127,7 +124,6 @@ Release instability is a state where software releases are consistently unreliab
 - **Mean Time to Failure (MTTF):** Measure the average time between releases.
 - **Change Failure Rate:** Track the percentage of changes that result in a failure.
 - **Post-Release Bug Count:** Count the number of bugs that are reported in the days and weeks following a release.
-
 
 ## Examples
 A software company releases a new version of its flagship product every month. However, every release is plagued by a series of critical bugs that require immediate attention. The development team is constantly working in a reactive mode, and they have little time for planned work. The company's customers are becoming increasingly frustrated with the unreliability of the product, and they are starting to look for alternatives.

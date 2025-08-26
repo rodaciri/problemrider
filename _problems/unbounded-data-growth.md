@@ -25,7 +25,6 @@ layout: problem
 
 Unbounded data growth occurs when data structures, caches, logs, or databases continuously accumulate data without any mechanism for cleanup, archiving, or size management. Unlike memory leaks which involve programming errors, this problem often stems from design oversight where systems are built to accumulate data but lack strategies for managing that data over time. As data grows without bounds, it leads to performance degradation, storage exhaustion, and eventual system failure.
 
-
 ## Indicators ⟡
 - Database or file system usage continuously increases without corresponding business growth
 - Application memory usage grows steadily over time during normal operation
@@ -33,16 +32,13 @@ Unbounded data growth occurs when data structures, caches, logs, or databases co
 - Backup or maintenance operations take increasingly longer to complete
 - System eventually crashes with out-of-disk-space or out-of-memory errors
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.475, Strength: 0.661">ⓘ</span>
 <br/>  The continuous accumulation of data without effective management leads to increased processing times and resource contention, resulting in services timing out when trying to consume the API due to overwhelmed or inefficient data retrieval mechanisms.
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.666">ⓘ</span>
 <br/>  Unbounded data growth leads to a saturation of resources within the system's architecture, causing performance bottlenecks and limiting scalability and maintainability, which manifests as technical constraints during development.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.629, Strength: 0.884">ⓘ</span>
 <br/>  Long-running transactions can prevent timely data purging and archiving processes from executing, leading to unchecked accumulation of data and resource consumption in legacy systems.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.572, Strength: 0.868">ⓘ</span>
@@ -128,7 +124,6 @@ Unbounded data growth occurs when data structures, caches, logs, or databases co
 - **Data Volume Analysis:** Measure the rate of data growth compared to business metrics
 - **Cleanup Process Audits:** Verify that data cleanup and archiving processes are working effectively
 - **Cache Hit Ratio Monitoring:** Track cache effectiveness as it grows in size
-
 
 ## Examples
 

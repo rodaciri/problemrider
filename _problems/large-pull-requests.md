@@ -26,7 +26,6 @@ layout: problem
 
 Large pull requests occur when developers submit code changes that are too extensive or complex for reviewers to examine thoroughly within reasonable time constraints. These oversized changes make it practically impossible to conduct meaningful code reviews, as reviewers either skip the review entirely, perform only superficial checks, or approve changes without fully understanding their implications. Large pull requests defeat the primary purposes of code review: catching bugs, sharing knowledge, and maintaining code quality.
 
-
 ## Indicators ⟡
 - Pull requests regularly contain hundreds or thousands of lines of changes
 - Code reviews take an unusually long time or are approved very quickly without meaningful feedback
@@ -34,13 +33,11 @@ Large pull requests occur when developers submit code changes that are too exten
 - Developers avoid reviewing certain pull requests due to their size and complexity
 - Multiple unrelated features or bug fixes are bundled together in single pull requests
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.559, Strength: 0.866">ⓘ</span>
 <br/>  The tendency to add unnecessary features and complexity to a project results in larger pull requests, which overwhelm reviewers and hinder effective code evaluation, ultimately leading to overlooked issues and diminished software quality in legacy systems.
 - [Testing Complexity](testing-complexity.md) <span class="info-tooltip" title="Confidence: 0.522, Strength: 0.763">ⓘ</span>
@@ -84,7 +81,6 @@ Large pull requests occur when developers submit code changes that are too exten
 - **Review Quality Assessment:** Analyze the depth and quality of feedback provided on different sized pull requests
 - **Approval Patterns:** Identify pull requests that are approved quickly relative to their size
 - **Developer Feedback:** Ask team members about their experience reviewing large pull requests
-
 
 ## Examples
 

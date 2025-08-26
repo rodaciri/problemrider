@@ -18,7 +18,6 @@ layout: problem
 
 Integer overflow and underflow occur when arithmetic operations produce results that cannot be represented within the bounds of the integer data type being used. Overflow happens when a result exceeds the maximum representable value, while underflow occurs when a result is less than the minimum representable value. In most programming languages, these conditions cause the value to wrap around, leading to unexpected and potentially dangerous behavior including security vulnerabilities.
 
-
 ## Indicators ⟡
 
 - Calculations produce unexpectedly small or negative results from large positive inputs
@@ -27,9 +26,7 @@ Integer overflow and underflow occur when arithmetic operations produce results 
 - Memory allocation fails or allocates incorrect amounts due to size calculation errors
 - Financial or measurement calculations produce obviously incorrect results
 
-
 ## Symptoms ▲
-
 - [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.633">ⓘ</span>
 <br/>  When arithmetic operations in legacy systems exceed integer limits due to unbounded data accumulation, they can lead to overflow or underflow, causing erroneous calculations and system instability, which manifests as unbounded data growth as the system fails to manage or constrain data effectively.
 
@@ -45,7 +42,6 @@ Integer overflow and underflow occur when arithmetic operations produce results 
 - **Input Validation Testing:** Test with extreme input values to identify overflow conditions
 - **Code Review:** Review arithmetic operations for potential overflow scenarios
 - **Fuzzing:** Use automated testing with large or unusual input values to trigger overflow conditions
-
 
 ## Examples
 

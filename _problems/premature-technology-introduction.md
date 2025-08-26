@@ -26,7 +26,6 @@ layout: problem
 
 Premature technology introduction occurs when teams adopt new technologies, frameworks, or tools without adequate evaluation of their suitability, maturity, or impact on the project. This often happens due to excitement about new capabilities, pressure to stay current, or developer preference for working with modern tools. However, introducing unproven or inappropriate technologies can increase complexity, create learning curves, and introduce unforeseen risks to project delivery.
 
-
 ## Indicators ⟡
 
 - New technologies are adopted based on demos or marketing materials rather than thorough evaluation
@@ -35,9 +34,7 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 - Technology adoption happens without establishing expertise or support structures
 - Decisions are driven by individual preferences rather than project needs
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.696">ⓘ</span>
 <br/>  The introduction of new frameworks or tools without thorough evaluation often leads to unclear or shifting expectations, resulting in frequent requirement changes as teams struggle to adapt to unfamiliar technology and its implications on project scope.
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.680">ⓘ</span>
@@ -56,7 +53,6 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 <br/>  The introduction of unvetted technologies creates uncertainty and complexity, prompting teams to resort to quick fixes and workarounds to meet deadlines, which ultimately leads to increased maintenance challenges in legacy systems.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.934">ⓘ</span>
 <br/>  The pressure to control costs often leads to hasty adoption of untested technologies, resulting in increased project complexity and risk, which ultimately escalates expenses and contributes to budget overruns.
 
@@ -67,7 +63,6 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 - **Team Skill Gap Analysis:** Assess team expertise relative to technology choices
 - **Integration Complexity Measurement:** Monitor difficulty of integrating new technologies
 - **Vendor Lock-in Assessment:** Evaluate dependencies created by technology choices
-
 
 ## Examples
 

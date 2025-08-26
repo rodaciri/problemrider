@@ -23,16 +23,13 @@ layout: problem
 ## Description
 A bloated class is a class that has accumulated too many responsibilities over time. It often starts as a small, well-designed class, but as new features are added, it grows in size and complexity. This makes it difficult to understand, maintain, and test. Bloated classes are a common code smell and a sign of technical debt.
 
-
 ## Indicators ⟡
 - A class with a large number of methods and properties.
 - A class that is difficult to name because it does too many things.
 - A class that is frequently modified by multiple developers for different reasons.
 - A class that is difficult to test in isolation.
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.663, Strength: 0.896">ⓘ</span>
 <br/>  The excessive complexity of the business domain leads to an accumulation of responsibilities within a single class, resulting in bloating that obscures understanding and hinders maintainability.
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.659, Strength: 0.896">ⓘ</span>
@@ -68,7 +65,6 @@ A bloated class is a class that has accumulated too many responsibilities over t
 - **Code Metrics Tools:** Use tools to measure class size, number of methods, and cyclomatic complexity.
 - **Code Reviews:** Look for classes that are difficult to understand and review.
 - **Static Analysis Tools:** Use tools to identify code smells, such as large classes and long methods.
-
 
 ## Examples
 A `User` class in a social media application that is responsible for everything from authentication and authorization to profile management, news feed generation, and sending notifications. The class has over 50 methods and 1000 lines of code. When a developer wants to make a change to the news feed generation logic, they have to be careful not to break the authentication logic. It is also very difficult to write unit tests for the class because it has so many dependencies. As a result, development is slow and error-prone.

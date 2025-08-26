@@ -26,7 +26,6 @@ layout: problem
 
 Deployment Risk occurs when teams deploy systems without having a reliable, tested method to quickly revert to a previous working state when problems arise. This creates significant risk during deployments, as any issues discovered post-deployment can only be resolved by fixing forward, which may take considerable time and cause extended outages. The absence of rollback capabilities often leads to deployment anxiety, longer incident resolution times, and greater impact when deployments go wrong.
 
-
 ## Indicators ⟡
 
 - Deployment procedures that only document forward deployment steps
@@ -37,9 +36,7 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 - No testing of rollback procedures during deployment planning
 - Configuration changes that overwrite previous settings without backup
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.488, Strength: 0.708">ⓘ</span>
 <br/>  The inherent complexity of the business domain leads to misunderstandings and misimplementations in the software, which increases the likelihood of deployment failures, thereby highlighting the absence of a reliable rollback strategy as a critical risk factor.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.686">ⓘ</span>
@@ -81,7 +78,6 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 - Review incident response procedures for rollback vs. fix-forward decision trees
 - Examine deployment tooling for built-in rollback functionality
 - Analyze historical incident data for cases where rollback would have reduced impact
-
 
 ## Examples
 

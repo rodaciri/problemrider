@@ -25,7 +25,6 @@ layout: problem
 
 Vendor lock-in occurs when a system becomes so tightly integrated with a specific vendor's technology, APIs, or services that switching to alternatives becomes prohibitively expensive, technically complex, or practically impossible. This dependency limits strategic flexibility, increases long-term costs, and creates significant business risk if the vendor changes pricing, discontinues services, or fails to meet evolving requirements. The problem is particularly acute in legacy modernization efforts where vendor-specific features may seem attractive in the short term but create long-term constraints.
 
-
 ## Indicators ⟡
 
 - Architecture decisions that heavily favor proprietary APIs over open standards
@@ -36,14 +35,11 @@ Vendor lock-in occurs when a system becomes so tightly integrated with a specifi
 - Licensing costs that represent a growing percentage of total system costs
 - Difficulty evaluating alternative solutions due to migration complexity
 
-
 ## Symptoms ▲
-
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.708">ⓘ</span>
 <br/>  The dependency on a specific vendor's tools or APIs restricts teams from exploring innovative solutions, leading them to prioritize minimal compliance over creativity and new approaches, which ultimately stifles progress and adaptation in the legacy system.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.484, Strength: 0.955">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks creates a tight coupling between system components and the vendor's tools, making it difficult to replace or modify them without extensive rework, thereby entrenching dependency and limiting future options.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.912">ⓘ</span>
@@ -89,7 +85,6 @@ Vendor lock-in occurs when a system becomes so tightly integrated with a specifi
 - Analyze skills and knowledge distribution across vendor-specific technologies
 - Test migration scenarios by implementing proof-of-concept alternatives
 - Survey development team about perceived switching costs and technical barriers
-
 
 ## Examples
 

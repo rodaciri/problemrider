@@ -26,7 +26,6 @@ layout: problem
 
 Poor contract design occurs when legal agreements governing software development projects are written without sufficient understanding of technical realities, development processes, or the need for flexibility during implementation. These contracts often contain unrealistic deliverables, inflexible terms, inadequate change management provisions, or misaligned incentives that create problems during project execution.
 
-
 ## Indicators ⟡
 
 - Contract terms don't match technical feasibility or development best practices
@@ -35,9 +34,7 @@ Poor contract design occurs when legal agreements governing software development
 - Contract penalties discourage necessary changes or quality improvements
 - Legal terms contradict technical or operational requirements
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.687">ⓘ</span>
 <br/>  Inadequate legal agreements fail to specify essential technical requirements and flexibility, leading to incomplete understanding of project goals, which results in insufficient test coverage of critical code areas that should align with those requirements.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.640">ⓘ</span>
@@ -46,7 +43,6 @@ Poor contract design occurs when legal agreements governing software development
 <br/>  Inflexible and outdated legal agreements create unrealistic project constraints and hinder adaptive problem-solving, leading to developers feeling overwhelmed and frustrated as they struggle to meet unachievable goals within a rigid framework.
 
 ## Root Causes ▼
-
 - [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.877">ⓘ</span>
 <br/>  Inadequate flexibility in legal agreements leads to rigid project parameters, which, when combined with frequent breaking changes in APIs, results in misalignment between contractual obligations and technical realities, ultimately hindering effective development and requiring costly fixes.
 - [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.964">ⓘ</span>
@@ -79,7 +75,6 @@ Poor contract design occurs when legal agreements governing software development
 - **Dispute Pattern Analysis:** Track recurring sources of disagreement between contracting parties
 - **Delivery Success Correlation:** Compare project success rates with different contract structures
 - **Stakeholder Satisfaction Assessment:** Measure satisfaction with contract terms from both technical and legal perspectives
-
 
 ## Examples
 

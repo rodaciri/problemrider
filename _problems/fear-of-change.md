@@ -25,7 +25,6 @@ layout: problem
 
 Fear of change is a psychological and practical barrier that prevents developers from modifying existing code. This fear stems from legitimate concerns about introducing bugs, breaking functionality, or causing system instability. When developers consistently avoid making necessary changes or improvements due to these concerns, it indicates deeper systemic issues with code quality, testing practices, and system architecture. This fear can become self-reinforcing, as avoided changes accumulate technical debt, making future modifications even riskier.
 
-
 ## Indicators ⟡
 - Developers express reluctance or anxiety when asked to modify certain parts of the system
 - Estimates for seemingly simple changes are inflated due to perceived risk
@@ -33,9 +32,7 @@ Fear of change is a psychological and practical barrier that prevents developers
 - Discussions about code changes focus more on what might break than on the benefits of the change
 - New features are implemented as additions rather than improvements to existing code
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.700">ⓘ</span>
 <br/>  The hesitation to modify existing code increases the likelihood of frequent requirement changes, as developers seek to avoid potential disruptions, leading to ongoing project adjustments and rework that exacerbate their fear of making necessary updates.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.665">ⓘ</span>
@@ -63,7 +60,6 @@ Fear of change is a psychological and practical barrier that prevents developers
 - **Estimation Patterns:** Look for patterns where similar changes have wildly different estimates based on the code area involved
 - **Code Review Comments:** Watch for excessive caution or lengthy discussions about potential risks during code reviews
 - **Retrospective Feedback:** Listen for concerns about code stability and change difficulty during team retrospectives
-
 
 ## Examples
 

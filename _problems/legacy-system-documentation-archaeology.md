@@ -25,7 +25,6 @@ layout: problem
 
 Legacy system documentation archaeology refers to the challenging process of reconstructing understanding of legacy systems when critical knowledge exists only in obsolete formats, outdated documentation, or has been lost with departed employees. This problem requires detective work to piece together system behavior, business rules, and architectural decisions from fragmented sources including old documents, code comments, database schemas, and interviews with long-term staff who may have incomplete or inaccurate memories of system details.
 
-
 ## Indicators ⟡
 
 - System documentation that is years out of date or stored in obsolete formats
@@ -36,14 +35,11 @@ Legacy system documentation archaeology refers to the challenging process of rec
 - User manuals or operational procedures that describe outdated system interfaces
 - Historical decision rationale that is lost, making it unclear why systems work as they do
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.739">ⓘ</span>
 <br/>  The reliance on outdated documentation and fragmented knowledge hinders the onboarding of new developers, leading to a critical shortage of skilled personnel capable of maintaining legacy systems.
 
 ## Root Causes ▼
-
 - [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.881">ⓘ</span>
 <br/>  The difficulty in transitioning away from outdated technologies leads to reliance on obsolete documentation and informal knowledge transfer, resulting in critical system information becoming fragmented and inaccessible.
 - [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.941">ⓘ</span>
@@ -83,7 +79,6 @@ Legacy system documentation archaeology refers to the challenging process of rec
 - Test team understanding of system architecture and business rules through workshops
 - Analyze time spent on system analysis and reverse engineering activities
 - Survey development teams about confidence levels in understanding legacy system behavior
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Reduced predictability occurs when development work becomes difficult to estimate accurately, completion times vary widely for similar tasks, and system behavior becomes less consistent. This unpredictability makes it challenging to plan projects, set stakeholder expectations, and make reliable commitments. The result is increased uncertainty and reduced confidence in the development process.
 
-
 ## Indicators ⟡
 
 - Actual completion times vary significantly from estimates for similar work
@@ -34,9 +33,7 @@ Reduced predictability occurs when development work becomes difficult to estimat
 - Resource planning becomes ineffective due to unpredictable capacity needs
 - Stakeholders express uncertainty about when deliverables will be ready
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.671">ⓘ</span>
 <br/>  Persistent unpredictability in development timelines and system behavior leads to repeated setbacks and unclear expectations, causing developers to feel overwhelmed and disengaged as they struggle to navigate a chaotic work environment and a complicated codebase.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.707">ⓘ</span>
@@ -69,7 +66,6 @@ Reduced predictability occurs when development work becomes difficult to estimat
 - **Predictive Model Validation:** Test whether predictive models accurately forecast outcomes
 - **Stakeholder Confidence Assessment:** Survey stakeholders about their confidence in development predictions
 - **Planning Accuracy Review:** Analyze how often project plans need to be revised due to unpredictable factors
-
 
 ## Examples
 

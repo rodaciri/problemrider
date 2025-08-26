@@ -25,7 +25,6 @@ layout: problem
 
 Decision avoidance occurs when development teams consistently postpone or defer making important technical decisions that are necessary for progress. This avoidance can stem from fear of making wrong choices, lack of clear decision-making authority, or excessive perfectionism about having complete information. The result is projects that stall while waiting for decisions, accumulated decision debt that becomes harder to resolve over time, and frustrated team members who cannot proceed with their work.
 
-
 ## Indicators ⟡
 
 - Important technical decisions remain unmade for weeks or months
@@ -34,9 +33,7 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 - Development work is blocked waiting for architectural or design decisions
 - Decision-making responsibility is unclear or constantly deferred to others
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.607">ⓘ</span>
 <br/>  The ongoing deferral of critical technical decisions leads to unresolved issues in the legacy codebase, creating an environment of uncertainty and frustration that ultimately demotivates developers and contributes to their burnout.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.628">ⓘ</span>
@@ -49,7 +46,6 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 <br/>  The deferral of critical technical decisions leads to uncertainty and confusion within the development team, resulting in misaligned priorities and inefficient workflows that ultimately diminish overall productivity.
 
 ## Root Causes ▼
-
 - [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.895">ⓘ</span>
 <br/>  The inability to reach critical decisions stems from the repeated system freezes caused by multiple processes waiting on each other, leading to a lack of clarity and direction in development priorities.
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.917">ⓘ</span>
@@ -66,7 +62,6 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 - **Blocked Work Analysis:** Measure how much development work is blocked waiting for decisions
 - **Decision Quality Assessment:** Evaluate the impact and effectiveness of decisions that are eventually made
 - **Team Surveys:** Ask about frustration with decision-making processes and bottlenecks
-
 
 ## Examples
 

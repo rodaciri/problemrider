@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Scaling inefficiencies occur when it is difficult or impossible to scale different parts of a system independently. This is a common problem in monolithic architectures, where all the components are tightly coupled and deployed as a single unit. Scaling inefficiencies can lead to high resource utilization, slow application performance, and a poor user experience.
 
-
 ## Indicators ⟡
 - The entire system must be scaled up or down, even if only one part of the system is experiencing high load.
 - It is not possible to scale different parts of the system independently.
 - The system is not able to handle sudden spikes in traffic.
 - The system is expensive to operate because it is not possible to scale it efficiently.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.650, Strength: 0.846">ⓘ</span>
 <br/>  The inability to scale different parts of a legacy system independently often leads to fragmented development practices, resulting in critical areas lacking adequate test coverage as teams prioritize urgent functional changes over comprehensive quality assurance.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.537, Strength: 0.721">ⓘ</span>
@@ -98,7 +95,6 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  In legacy systems, the inability to scale components independently often leads to resource contention and increased complexity, which exacerbates inadequate error handling as tightly coupled modules struggle to manage failures effectively, resulting in application instability and crashes.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.947">ⓘ</span>
 <br/>  The presence of shared libraries and frameworks creates tight coupling between components, making it challenging to scale individual parts of the system without affecting others, leading to inefficiencies in the overall scaling process.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.968">ⓘ</span>
@@ -108,7 +104,6 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 - **Performance Testing:** Use performance testing tools to identify bottlenecks and areas for improvement.
 - **Resource Monitoring:** Monitor the resource utilization of the system to identify which components are using the most resources.
 - **Architectural Diagrams:** Create a diagram of the system architecture to identify which components can be scaled independently.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application. The application is composed of a number of different components, including a product catalog, a shopping cart, and a payment gateway. The product catalog is read-heavy, while the shopping cart and payment gateway are write-heavy. The company is not able to scale the product catalog independently of the shopping cart and payment gateway. As a result, the company has to overprovision the entire system to handle the peak load of the product catalog. This is expensive and inefficient.

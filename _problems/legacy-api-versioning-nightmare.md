@@ -26,7 +26,6 @@ layout: problem
 
 Legacy API versioning nightmare occurs when legacy systems expose APIs that were designed without proper versioning strategies, creating cascading compatibility challenges as business requirements evolve. These APIs often lack semantic versioning, proper deprecation processes, or backward compatibility mechanisms, making it extremely difficult to modify or extend them without breaking existing integrations. The problem compounds over time as more systems depend on these poorly versioned APIs, creating a web of dependencies that resist change.
 
-
 ## Indicators ⟡
 
 - APIs that were designed without version numbers or versioning strategies
@@ -37,13 +36,11 @@ Legacy API versioning nightmare occurs when legacy systems expose APIs that were
 - Documentation that describes different API behaviors for different system versions
 - Fear of making any API changes due to potential impact on unknown dependent systems
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.477, Strength: 0.950">ⓘ</span>
 <br/>  Excessive API latency exacerbates versioning challenges in legacy systems by causing increased reliance on outdated interfaces, as developers are forced to maintain compatibility with slow, inefficient responses rather than refactoring for improved performance.
 - [Inconsistent Behavior](inconsistent-behavior.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.933">ⓘ</span>
@@ -148,7 +145,6 @@ Legacy API versioning nightmare occurs when legacy systems expose APIs that were
 - Analyze support tickets and integration failures related to API versioning issues
 - Review API documentation completeness and versioning policy clarity
 - Assess business agility impact from API change constraints and coordination requirements
-
 
 ## Examples
 

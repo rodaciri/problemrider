@@ -23,20 +23,17 @@ layout: problem
 ## Description
 A poor caching strategy can be as bad as having no caching at all. This problem encompasses a range of issues, from caching too much or too little data, to using inappropriate cache eviction policies, to not having a clear strategy for cache invalidation. An ineffective caching strategy can lead to stale data being served to users, or a low cache hit rate that negates the performance benefits of caching. A well-designed caching strategy is a critical component of any high-performance application.
 
-
 ## Indicators ⟡
 - The application is slow, even though the database is not under heavy load.
 - The application is making a lot of unnecessary requests to the database or other services.
 - The cache hit rate is low.
 - Users are seeing stale data.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Decision Paralysis](decision-paralysis.md) <span class="info-tooltip" title="Confidence: 0.589, Strength: 0.852">ⓘ</span>
 <br/>  The lack of clear guidance leads developers to hesitate in implementing an effective caching strategy, resulting in repeated data fetching that increases system overhead and latency.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.570, Strength: 0.905">ⓘ</span>
@@ -164,7 +161,6 @@ A poor caching strategy can be as bad as having no caching at all. This problem 
 - **Cache Hit/Miss Ratios:** If a caching solution is in place, monitor its hit/miss ratio to assess its effectiveness.
 - **Application Profiling:** Use profiling tools to identify time spent fetching data from the source that could have been served from a cache.
 - **HTTP Header Analysis:** For web applications, inspect HTTP response headers to ensure proper cache-control directives are being sent.
-
 
 ## Examples
 An e-commerce website displays product categories. Each time a user navigates to the homepage, the list of categories is fetched directly from the database, even though it rarely changes. This adds unnecessary load to the database and increases page load time. In another case, a microservice retrieves configuration data from a central configuration service on every API call. This data changes infrequently, but there is no local cache, leading to constant network calls and increased latency. This problem is often overlooked in the initial development phases but becomes critical as an application scales. A well-implemented caching strategy can significantly reduce latency and load on backend systems.

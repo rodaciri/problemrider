@@ -24,16 +24,13 @@ layout: problem
 ## Description
 A history of failed changes can create a lasting negative impact on a team's culture and development velocity. When past deployments have resulted in significant outages or rollbacks, developers become hesitant to make further changes, leading to a culture of fear and risk aversion. This can stifle innovation and make it difficult to address technical debt or introduce new features.
 
-
 ## Indicators ⟡
 - Developers are reluctant to take on tasks that involve modifying critical parts of the system.
 - The team has a very slow and cumbersome change approval process.
 - There is a general sentiment that "if it ain't broke, don't fix it."
 - The team has a history of long and stressful release cycles.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.681">ⓘ</span>
 <br/>  A history of failed deployments cultivates a culture of apprehension that leads to increased pressure and uncertainty among developers, resulting in frustration and burnout as they navigate a challenging environment filled with unresolved issues and a lack of confidence in making changes.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.670">ⓘ</span>
@@ -54,7 +51,6 @@ A history of failed changes can create a lasting negative impact on a team's cul
 <br/>  The history of failed deployments fosters a culture of fear that leads to overly cautious development practices, resulting in a large, rigid codebase that becomes increasingly difficult to maintain and adapt, thereby indicating systemic issues in the software's architecture.
 
 ## Root Causes ▼
-
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.857">ⓘ</span>
 <br/>  The tendency to provide large time estimates for small changes stems from the complex and fragile nature of the legacy code, which fosters a culture of fear and resistance to modifications due to the heightened risk of failure seen in past deployments.
 
@@ -63,7 +59,6 @@ A history of failed changes can create a lasting negative impact on a team's cul
 - **Lead Time for Changes:** Measure the time it takes from a code commit to a production deployment.
 - **Change Failure Rate:** Track the percentage of deployments that result in a failure.
 - **Developer Surveys:** Ask developers about their confidence in the deployment process and their willingness to make changes.
-
 
 ## Examples
 A team at a financial services company experienced a major outage after a recent deployment. The incident caused significant financial losses and reputational damage. As a result, the company implemented a lengthy and bureaucratic change approval process. Now, even the smallest change requires multiple levels of approval and can take weeks to deploy. The developers are so afraid of causing another outage that they avoid making any changes unless they are absolutely necessary. This has led to a stagnant product and a frustrated development team.

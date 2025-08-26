@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Connection pools are a vital tool for managing database connections, but they can cause serious problems if they are not configured correctly. A misconfigured connection pool can lead to a variety of issues, from connection leaks and timeouts to a complete exhaustion of database resources. Common misconfigurations include setting the pool size too high or too low, using an inappropriate timeout value, or not properly handling connection validation. Proper tuning of the connection pool is essential for any application that relies on a database.
 
-
 ## Indicators ⟡
 - You are seeing a high number of connection errors in your logs.
 - Your application is slow, and you suspect that it is due to a high number of database connections.
 - You are getting complaints from users about slow performance.
 - You are seeing a high number of timeout errors in your logs.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.687, Strength: 0.868">ⓘ</span>
 <br/>  Improperly configured connection pools can lead to a shortage of available connections, causing delays in response times that exceed the configured timeout limits for upstream services, resulting in their failure to receive timely responses.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.854">ⓘ</span>
@@ -67,7 +64,6 @@ Connection pools are a vital tool for managing database connections, but they ca
 - **Database Monitoring Tools:** Observe the number of active and idle connections on the database server.
 - **Log Analysis:** Look for connection-related errors in application and database logs.
 - **Load Testing:** Simulate peak load to identify if the connection pool can handle the expected concurrency.
-
 
 ## Examples
 A web application experiences frequent "connection pool exhausted" errors during peak traffic. Investigation reveals that the `max_pool_size` was set to 10, while the application regularly handles 50 concurrent requests, each requiring a database connection. In another case, a Spring Boot application uses HikariCP, but the `idleTimeout` is set to 30 minutes, while the database has a `wait_timeout` of 5 minutes. Connections are silently closed by the database, but the connection pool still thinks they are valid, leading to errors when the application tries to use them. This is a common problem in applications that interact with relational databases, especially in microservices architectures where many services might independently manage their own connection pools to the same database. Proper tuning is crucial for performance and stability.

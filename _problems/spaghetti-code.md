@@ -25,7 +25,6 @@ layout: problem
 
 Spaghetti code refers to source code that has become tangled, unstructured, and difficult to follow due to poor organization, excessive use of control structures like goto statements, deeply nested conditionals, and lack of clear separation between different concerns. The code flow jumps around unpredictably, making it extremely difficult to understand the program logic, trace execution paths, or make changes without introducing bugs.
 
-
 ## Indicators ⟡
 
 - Code execution flow is difficult to follow and jumps around unpredictably
@@ -34,9 +33,7 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 - Code contains many arbitrary jumps, breaks, or continues that disrupt logical flow
 - Multiple exit points from functions make it hard to understand return conditions
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.738">ⓘ</span>
 <br/>  Unstructured and tangled code often leads to a convoluted representation of the complex business domain, resulting in a system that becomes increasingly difficult to interpret and implement correctly, thereby highlighting the underlying issues of poor code organization.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.739">ⓘ</span>
@@ -71,7 +68,6 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 - **Code Metrics Assessment:** Track function length, nesting depth, and number of exit points
 - **Developer Feedback:** Survey team members about areas of code that are difficult to understand
 - **Bug Density Analysis:** Identify code areas with high bug rates that may indicate spaghetti structure
-
 
 ## Examples
 

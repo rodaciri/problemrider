@@ -26,7 +26,6 @@ layout: problem
 
 Rapid team growth occurs when development teams expand in size quickly, often doubling or tripling within a short timeframe, without adequate preparation of infrastructure, processes, or support systems. While growth can be positive for meeting increased demands, unmanaged rapid expansion creates significant challenges for knowledge transfer, team coordination, and maintaining code quality standards.
 
-
 ## Indicators ⟡
 
 - Team size increases by more than 50% within a few months
@@ -35,14 +34,11 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 - Communication becomes chaotic with too many voices in meetings
 - Code review queues become bottlenecked with insufficient senior reviewers
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.547">ⓘ</span>
 <br/>  The rapid expansion of team size leads to inadequate training and resources for new members, resulting in increased user frustration and support inquiries as they struggle to navigate the legacy systems without sufficient guidance or support.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.909">ⓘ</span>
 <br/>  As teams expand rapidly, the increased workload often exposes and exacerbates existing constraints in processes or system components, leading to bottlenecks that hinder overall productivity and further strain the already inadequate infrastructure.
 - [Deployment Risk](deployment-risk.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.745">ⓘ</span>
@@ -59,7 +55,6 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 - **Onboarding Time Analysis:** Measure how onboarding duration changes as team size increases
 - **Team Satisfaction Surveys:** Assess how existing team members feel about the pace of growth
 - **Process Bottleneck Identification:** Monitor where team processes break down due to increased capacity
-
 
 ## Examples
 

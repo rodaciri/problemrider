@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Feature creep is the tendency for the scope of a feature or component to expand over time. This can happen for a variety of reasons, such as changing requirements, a lack of clear focus, or a desire to please everyone. Feature creep can lead to a number of problems, including a complex and bloated system that is difficult to maintain, a confusing and overwhelming user experience, and a long and unpredictable development process. It is a common problem in software development, and it can be difficult to avoid.
 
-
 ## Indicators ⟡
 - The team is constantly adding new features to the system.
 - The system is becoming more and more complex over time.
 - The user interface is becoming cluttered and confusing.
 - The development process is becoming longer and more unpredictable.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.494, Strength: 0.733">ⓘ</span>
 <br/>  As features continually expand, the resulting complexity often leads to outdated technologies that require specialized knowledge, causing a critical shortage of developers proficient in maintaining the increasingly convoluted system.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.543">ⓘ</span>
@@ -55,7 +52,6 @@ Feature creep is the tendency for the scope of a feature or component to expand 
 <br/>  The gradual expansion of features leads to increasingly complex code changes, resulting in large pull requests that overwhelm reviewers and hinder thorough assessment, making it difficult to identify potential issues and maintain code quality.
 
 ## Root Causes ▼
-
 - [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.922">ⓘ</span>
 <br/>  A culture that prioritizes achieving perfect results over timely releases fosters an environment where incremental changes are continuously added to meet perceived ideal standards, ultimately leading to an uncontrolled expansion of features and increased complexity in the system.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.942">ⓘ</span>
@@ -116,7 +112,6 @@ Feature creep is the tendency for the scope of a feature or component to expand 
 - **Product Roadmap:** Review the product roadmap to see if it is focused and realistic.
 - **User Feedback:** Listen to user feedback to see if they are finding the system to be complex and confusing.
 - **Code Complexity Metrics:** Use static analysis tools to measure the complexity of the codebase.
-
 
 ## Examples
 A company is developing a new mobile app. The app is initially designed to be a simple to-do list app. However, over time, the team adds more and more features to the app. They add a calendar, a note-taking feature, a file-sharing feature, and a chat feature. The app becomes so complex that it is difficult to use, and the team is unable to keep up with the maintenance. The company eventually has to abandon the app and start over from scratch.

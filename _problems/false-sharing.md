@@ -25,7 +25,6 @@ layout: problem
 
 False sharing occurs when multiple CPU cores access different data elements that happen to reside on the same cache line, causing the cache coherency protocol to invalidate and transfer cache lines between cores even though the cores are not actually sharing data logically. This creates unnecessary memory traffic and performance degradation in multi-threaded applications, as cores compete for cache lines containing unrelated data.
 
-
 ## Indicators ⟡
 
 - Multi-threaded performance scales poorly with increased thread count
@@ -34,13 +33,11 @@ False sharing occurs when multiple CPU cores access different data elements that
 - Profiling shows excessive cache line transfers between CPU cores
 - Single-threaded performance is good but multi-threaded performance is poor
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.403, Strength: 0.925">ⓘ</span>
 <br/>  Shared dependencies among components in legacy systems often lead to multiple CPU cores accessing closely located variables within the same cache line, resulting in increased cache coherency traffic and subsequent performance degradation.
 - [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.891">ⓘ</span>
@@ -54,7 +51,6 @@ False sharing occurs when multiple CPU cores access different data elements that
 - **Thread Affinity Testing:** Test performance with different thread-to-core assignments
 - **Padding Experiments:** Add padding between data structures to test for false sharing effects
 - **Cache Line Analysis Tools:** Use specialized tools that detect false sharing patterns
-
 
 ## Examples
 

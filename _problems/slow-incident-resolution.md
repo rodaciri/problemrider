@@ -25,7 +25,6 @@ layout: problem
 
 Slow incident resolution occurs when system problems, outages, or critical issues take much longer to diagnose and fix than they should, extending the business impact and user frustration. This can result from poor diagnostic tools, inadequate operational procedures, knowledge gaps, or systems that are inherently difficult to troubleshoot. Slow resolution times compound the damage caused by incidents and reduce user confidence in system reliability.
 
-
 ## Indicators ⟡
 
 - Mean time to resolution (MTTR) for incidents is consistently high
@@ -34,9 +33,7 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 - Similar incidents take different amounts of time to resolve depending on who handles them
 - Escalation procedures are frequently needed for basic problems
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.616, Strength: 0.910">ⓘ</span>
 <br/>  The excessive time taken to diagnose and resolve issues in legacy systems diverts resources and attention away from ongoing development tasks, leading to decreased output and effectiveness among the development team.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.592, Strength: 0.811">ⓘ</span>
@@ -105,7 +102,6 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 - **Escalation Frequency:** Track how often incidents require escalation to senior personnel
 - **Diagnostic Efficiency Assessment:** Evaluate how quickly teams can identify root causes
 - **Resolution Consistency Analysis:** Compare resolution times for similar incidents
-
 
 ## Examples
 

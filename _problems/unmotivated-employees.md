@@ -26,7 +26,6 @@ layout: problem
 
 Unmotivated employees exhibit low engagement, minimal initiative, and reduced commitment to project success. This can stem from various factors including unclear career progression, misaligned personal goals, inadequate recognition, or disconnection from the project's purpose. Unmotivated team members not only underperform individually but can also negatively impact team dynamics and overall project momentum.
 
-
 ## Indicators ⟡
 
 - Consistent minimal effort that meets only basic requirements
@@ -35,14 +34,11 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 - Frequent absences or late arrivals without valid reasons
 - Resistance to learning new skills or adopting new processes
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.771">ⓘ</span>
 <br/>  The lack of engagement among team members leads to diminished effort and creativity in problem-solving, which directly results in decreased output and effectiveness, as the systemic inefficiencies of legacy systems are not addressed with the necessary motivation and initiative.
 
 ## Root Causes ▼
-
 - [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.612, Strength: 0.903">ⓘ</span>
 <br/>  The lack of clear expectations for information sharing leads to confusion and frustration among team members, resulting in disengagement and diminished motivation as they feel their contributions are undervalued and unrecognized in the context of outdated communication practices within legacy systems.
 - [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.590, Strength: 0.899">ⓘ</span>
@@ -105,7 +101,6 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 - **One-on-One Conversations:** Direct discussions about career goals and job satisfaction
 - **Peer Feedback Assessment:** Input from team members about collaboration and contribution
 - **Initiative Tracking:** Monitor voluntary contributions and proactive behaviors
-
 
 ## Examples
 

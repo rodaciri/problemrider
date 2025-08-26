@@ -24,16 +24,13 @@ layout: problem
 ## Description
 A continuous feedback loop is essential for agile development, allowing teams to regularly inspect and adapt their process. When this loop is missing, teams operate in a vacuum, unaware of how their work is being received by users or whether they are on track to meet their goals. This can lead to a disconnect between the development team and the business, a failure to address issues in a timely manner, and a product that does not meet user needs. Establishing a regular cadence of feedback is crucial for any team that wants to improve.
 
-
 ## Indicators ⟡
 - The team is not getting regular feedback from stakeholders.
 - The team is not using a prototype or mockup to clarify requirements.
 - The team is not getting feedback from users throughout the development process.
 - The team is not doing regular demos or reviews.
 
-
 ## Symptoms ▲
-
 - [Quality Degradation](quality-degradation.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.691">ⓘ</span>
 <br/>  The lack of ongoing stakeholder feedback leads to a misalignment of requirements and expectations, resulting in rushed development decisions that accumulate technical debt and undermine quality practices over time.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.606">ⓘ</span>
@@ -44,7 +41,6 @@ A continuous feedback loop is essential for agile development, allowing teams to
 <br/>  The lack of ongoing stakeholder feedback during development results in a misalignment between user needs and the final product, causing users to encounter issues that lead to increased frustration and, consequently, a higher volume of support requests.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.409, Strength: 0.842">ⓘ</span>
 <br/>  The lack of ongoing stakeholder involvement stems from budget overruns that force teams to prioritize immediate cost control over iterative feedback processes, resulting in misaligned deliverables that only surface at project completion.
 - [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.816">ⓘ</span>
@@ -72,7 +68,6 @@ A continuous feedback loop is essential for agile development, allowing teams to
 - **Post-Mortems/Retrospectives:** Analyze projects where deliverables were misaligned to identify the timing and effectiveness of feedback loops.
 - **Bug Tracking Metrics:** Track the stage at which bugs or change requests are introduced (e.g., during development vs. after release).
 - **Stakeholder Interviews:** Ask stakeholders about their involvement in the development process and their satisfaction with the feedback opportunities.
-
 
 ## Examples
 A team spends six months developing a complex reporting module. They only show it to the business stakeholders a week before the planned launch. The stakeholders immediately identify several critical flaws and missing features that fundamentally change the module's utility, forcing a complete redesign and delaying the launch by several months. In another case, a web application is being developed. The design team creates mockups at the beginning, and the development team builds the UI based on those. However, there are no regular check-ins with the design team or end-users. When the UI is finally integrated, it's discovered that a key interaction flow is confusing and needs to be completely re-implemented. Continuous feedback loops are a cornerstone of agile and iterative development methodologies. Their absence leads to significant waste, increased risk, and a higher likelihood of delivering a product that fails to meet market or business needs, especially in the context of evolving legacy systems.

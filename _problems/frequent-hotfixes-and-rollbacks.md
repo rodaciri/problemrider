@@ -26,7 +26,6 @@ layout: problem
 
 Frequent hotfixes and rollbacks occur when teams regularly need to deploy emergency fixes or revert deployments due to critical issues discovered in production. This pattern indicates systemic problems with quality assurance, testing practices, and release processes. While occasional hotfixes are normal, frequent ones suggest that the development and deployment pipeline is not effectively catching issues before they reach users, creating instability and eroding confidence in the release process.
 
-
 ## Indicators ⟡
 - Production deployments are regularly followed by emergency hotfix deployments within hours or days
 - Rollbacks occur frequently due to critical bugs or performance issues
@@ -34,9 +33,7 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 - Team spends significant time firefighting production issues rather than developing new features
 - Release notes frequently contain entries like "hotfix for critical issue" or "emergency rollback"
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.549, Strength: 0.759">ⓘ</span>
 <br/>  Constantly changing requirements lead to inadequate planning and testing in legacy systems, resulting in frequent hotfixes and rollbacks as the team struggles to adapt to evolving expectations without a stable foundation.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.837">ⓘ</span>
@@ -53,7 +50,6 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 <br/>  The constant need for frequent fixes and rollbacks due to inadequate testing diverts resources away from thorough feature development, leading to a decline in the overall quality of user experiences and functionality.
 
 ## Root Causes ▼
-
 - [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.814">ⓘ</span>
 <br/>  The need to deploy multiple interdependent components simultaneously leads to insufficient testing of individual changes, resulting in frequent hotfixes and rollbacks when any component fails to perform as expected.
 - [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.750">ⓘ</span>
@@ -75,7 +71,6 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 - **Rollback Rate Analysis:** Measure what percentage of deployments require rollbacks
 - **Root Cause Analysis:** Categorize the types of issues that require hotfixes to identify patterns
 - **Emergency Response Time:** Track how much development time is spent on production firefighting
-
 
 ## Examples
 

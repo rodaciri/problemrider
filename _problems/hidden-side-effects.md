@@ -21,7 +21,6 @@ layout: problem
 
 Hidden side effects occur when functions or methods perform actions beyond their apparent primary purpose without clearly documenting or indicating these additional behaviors. These side effects might include modifying global state, triggering events, writing to logs, sending notifications, or updating caches. Hidden side effects make code difficult to understand, test, and maintain because developers cannot predict all the consequences of calling a function based on its name and parameters alone.
 
-
 ## Indicators ⟡
 - Functions with innocent-sounding names that perform multiple unrelated actions
 - Debugging reveals that functions modify state or trigger actions not obvious from their signatures
@@ -29,9 +28,7 @@ Hidden side effects occur when functions or methods perform actions beyond their
 - Code reviews frequently involve questions about unexpected function behaviors
 - System behavior changes unexpectedly when functions are called in different contexts
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.615, Strength: 0.831">ⓘ</span>
 <br/>  In legacy systems, undocumented side effects in functions lead to unexpected behavior, which results in critical code paths being overlooked in testing, thus revealing poor test coverage as an indicator of these hidden complexities.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.781">ⓘ</span>
@@ -61,7 +58,6 @@ Hidden side effects occur when functions or methods perform actions beyond their
 - **Testing Complexity:** Identify functions that require extensive mocking or setup for testing
 - **Developer Interviews:** Ask team members about functions that behave differently than expected
 - **Static Analysis Tools:** Use tools that can identify functions with multiple responsibilities or external dependencies
-
 
 ## Examples
 

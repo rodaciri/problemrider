@@ -25,7 +25,6 @@ layout: problem
 
 Process design flaws occur when development processes are structured in ways that create unnecessary steps, bottlenecks, redundancies, or obstacles to efficient work completion. These flaws often arise from processes that evolved organically without systematic design, were copied from inappropriate contexts, or haven't been updated to reflect current needs and constraints. Poor process design wastes time and creates frustration for team members.
 
-
 ## Indicators ⟡
 
 - Processes have unnecessary steps that don't add value
@@ -34,9 +33,7 @@ Process design flaws occur when development processes are structured in ways tha
 - Processes require more time and effort than the work they're supposed to support
 - Team members frequently work around official processes
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.596, Strength: 0.823">ⓘ</span>
 <br/>  Inefficient development processes fail to establish clear requirements and change management protocols, resulting in frequent updates to project specifications that disrupt workflow and necessitate rework.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.588, Strength: 0.822">ⓘ</span>
@@ -99,7 +96,6 @@ Process design flaws occur when development processes are structured in ways tha
 - **Process Timing:** Measure how long each process step takes and identify bottlenecks
 - **User Experience Assessment:** Collect feedback from people who use the processes
 - **Process Compliance Tracking:** Monitor how often people work around official processes
-
 
 ## Examples
 

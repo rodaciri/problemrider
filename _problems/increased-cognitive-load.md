@@ -25,7 +25,6 @@ layout: problem
 
 Increased cognitive load occurs when developers must use excessive mental resources to understand, navigate, and modify code. This happens when codebases are inconsistent, overly complex, poorly organized, or lack clear patterns and conventions. High cognitive load leads to developer fatigue, increased error rates, and slower development velocity. It's particularly problematic in legacy systems where multiple coding styles, patterns, and architectural decisions have accumulated over time without coherent organization.
 
-
 ## Indicators ⟡
 - Developers take longer than expected to complete seemingly simple tasks
 - Team members frequently ask for help understanding existing code
@@ -33,9 +32,7 @@ Increased cognitive load occurs when developers must use excessive mental resour
 - New team members have difficulty becoming productive even after extended onboarding
 - Developers express frustration about the difficulty of working with certain parts of the codebase
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.758">ⓘ</span>
 <br/>  Excessive mental effort required to navigate inconsistent and poorly structured code leads to slower problem-solving and decision-making, resulting in diminished output and effectiveness of the development team.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.491, Strength: 0.703">ⓘ</span>
@@ -81,7 +78,6 @@ Increased cognitive load occurs when developers must use excessive mental resour
 - **Code Complexity Metrics:** Use tools to measure cyclomatic complexity, nesting depth, and function length
 - **Onboarding Time:** Track how long it takes new developers to become productive in different areas of the system
 - **Code Review Duration:** Monitor how long code reviews take, especially for seemingly simple changes
-
 
 ## Examples
 

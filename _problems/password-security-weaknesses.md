@@ -18,7 +18,6 @@ layout: problem
 
 Password security weaknesses occur when systems implement inadequate password policies, use insecure storage methods, or have poor password management practices. These vulnerabilities make user accounts susceptible to brute force attacks, dictionary attacks, credential stuffing, and unauthorized access through compromised or weak passwords.
 
-
 ## Indicators ⟡
 
 - Systems allow weak or easily guessable passwords
@@ -27,9 +26,7 @@ Password security weaknesses occur when systems implement inadequate password po
 - Password reset processes that are easily exploitable
 - Default or shared passwords used across systems or accounts
 
-
 ## Symptoms ▲
-
 - [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.850">ⓘ</span>
 <br/>  In legacy systems, weak password policies and poor authentication practices often lead to a lack of comprehensive audit logging, as inadequate security measures fail to capture and record relevant security events, hindering breach detection and incident investigation.
 
@@ -44,7 +41,6 @@ Password security weaknesses occur when systems implement inadequate password po
 - **Brute Force Testing:** Test system resistance to automated password attacks
 - **Password Reset Security Testing:** Analyze password reset process for vulnerabilities
 - **Default Credential Scanning:** Check for systems using default or common passwords
-
 
 ## Examples
 

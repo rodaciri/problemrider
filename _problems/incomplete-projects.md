@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Incomplete projects are a common problem in software development. They occur when features are started but never finished due to shifting priorities, a lack of clear requirements, or other unforeseen circumstances. This can lead to a number of problems, including a great deal of wasted effort, a sense of frustration for the development team, and a loss of credibility for the organization. Incomplete projects are often a sign of a poorly managed project.
 
-
 ## Indicators ⟡
 - The team has a large number of partially completed features.
 - The team is constantly starting new features before they have finished the old ones.
 - The team is not delivering any value to the users.
 - The team is not happy with their work.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.712, Strength: 0.941">ⓘ</span>
 <br/>  Incomplete projects often lead to poor test coverage because as features are abandoned or remain unfinished, the necessary tests to ensure quality and functionality are neglected, resulting in critical areas of the codebase being left unverified.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.710, Strength: 0.942">ⓘ</span>
@@ -166,7 +163,6 @@ Incomplete projects are a common problem in software development. They occur whe
 - **Cycle Time:** Track the amount of time that it takes to complete a feature.
 - **Throughput:** Track the number of features that are being completed over time.
 - **Team Retrospectives:** Discuss the team's feelings about incomplete projects in your retrospectives.
-
 
 ## Examples
 A team is working on a new mobile app. The team is constantly being asked to start new features before they have finished the old ones. As a result, the team has a large number of partially completed features. The team is not delivering any value to the users, and they are becoming increasingly frustrated. The project is eventually canceled.

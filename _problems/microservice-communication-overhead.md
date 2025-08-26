@@ -21,7 +21,6 @@ layout: problem
 
 Microservice communication overhead occurs when the network communication between services becomes a significant source of latency and reliability issues. Excessive inter-service calls, chatty communication patterns, and inefficient protocols can degrade system performance and create cascading failure points in distributed architectures.
 
-
 ## Indicators ⟡
 
 - High network latency between service calls
@@ -30,9 +29,7 @@ Microservice communication overhead occurs when the network communication betwee
 - Service response times dominated by network communication time
 - Frequent timeout errors in service-to-service communication
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.609, Strength: 0.793">ⓘ</span>
 <br/>  Excessive network communication between microservices leads to increased latency, causing services that rely on timely API responses to exceed their timeout thresholds and fail, thereby indicating the underlying communication inefficiency.
 - [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.821">ⓘ</span>
@@ -55,7 +52,6 @@ Microservice communication overhead occurs when the network communication betwee
 - **Service Dependency Mapping:** Visualize communication patterns and identify chatty interactions
 - **Protocol Efficiency Analysis:** Compare different communication protocols and formats
 - **End-to-End Latency Tracing:** Trace request flows to identify communication bottlenecks
-
 
 ## Examples
 

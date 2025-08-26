@@ -23,16 +23,13 @@ layout: problem
 ## Description
 Gold plating is the practice of adding unnecessary features or complexity to a project. This is often done by developers who believe that it will impress the stakeholders. However, gold plating can lead to a number of problems, including scope creep, feature creep, and a bloated and unfocused product. Gold plating is a common problem in software development, and it can be difficult to avoid.
 
-
 ## Indicators ⟡
 - The team is adding features that were not requested.
 - The team is spending a lot of time on features that are not essential.
 - The product is becoming more and more complex over time.
 - The team is not focused on the Minimum Viable Product (MVP).
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.924">ⓘ</span>
 <br/>  When developers prioritize adding unnecessary features to impress stakeholders, it diverts focus from essential tasks and creates complexity, leading to inefficiencies that ultimately reduce the team's overall productivity.
 - [Large Pull Requests](large-pull-requests.md) <span class="info-tooltip" title="Confidence: 0.559, Strength: 0.866">ⓘ</span>
@@ -85,7 +82,6 @@ Gold plating is the practice of adding unnecessary features or complexity to a p
 <br/>  When developers add unnecessary features, it often leads to misaligned priorities and resource allocation, resulting in a mismatch between available capacity and actual demand throughout the development process, which in turn creates bottlenecks and underutilization in legacy systems.
 
 ## Root Causes ▼
-
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.377, Strength: 0.903">ⓘ</span>
 <br/>  When data and behavior are poorly encapsulated, developers may feel compelled to add unnecessary features to compensate for unclear requirements and interdependencies, leading to an escalation of complexity and scope beyond what was initially intended.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.941">ⓘ</span>
@@ -102,7 +98,6 @@ Gold plating is the practice of adding unnecessary features or complexity to a p
 - **Product Roadmap:** Review the product roadmap to see if it is focused and realistic.
 - **User Feedback:** Listen to user feedback to see if they are finding the system to be complex and confusing.
 - **Code Complexity Metrics:** Use static analysis tools to measure the complexity of the codebase.
-
 
 ## Examples
 A team is building a new website. The team decides to add a number of features that were not requested by the stakeholders. The team believes that these features will impress the stakeholders. However, the features are not essential, and they add a lot of complexity to the website. The website is delivered late and over budget. The stakeholders are not impressed.

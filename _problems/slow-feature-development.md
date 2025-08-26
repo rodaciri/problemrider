@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Slow feature development is the consistent inability of a development team to deliver new functionality in a timely manner. This is a common and frustrating problem for both developers and stakeholders. It is often a symptom of deeper issues within the codebase and the development process. When it takes months to deliver a feature that should have taken weeks, it is a clear sign that the team is being held back by a legacy of past decisions.
 
-
 ## Indicators ⟡
 - The team consistently fails to meet its own estimates for feature delivery.
 - Stakeholders are constantly asking for updates on the status of long-overdue features.
 - The team's backlog is growing much faster than it is shrinking.
 - There is a general sense of frustration and impatience from both the business and the development team.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.703">ⓘ</span>
 <br/>  The slow pace of feature development in legacy systems often leads to a reactive environment where stakeholders feel compelled to frequently alter requirements to adapt to ongoing challenges, thus indicating underlying complexities and fragilities in the codebase that hinder progress.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.670">ⓘ</span>
@@ -56,7 +53,6 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  The complexity and fragility of the existing codebase create uncertainty and fear of making changes, leading teams to overanalyze potential solutions instead of progressing to implementation, which ultimately hinders feature development.
 
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.703">ⓘ</span>
 <br/>  The slow pace of feature development in legacy systems often leads to a reactive environment where stakeholders feel compelled to frequently alter requirements to adapt to ongoing challenges, thus indicating underlying complexities and fragilities in the codebase that hinder progress.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.670">ⓘ</span>
@@ -79,7 +75,6 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  The complexity and fragility of the existing codebase create uncertainty and fear of making changes, leading teams to overanalyze potential solutions instead of progressing to implementation, which ultimately hinders feature development.
 
 ## Root Causes ▼
-
 - [Tacit Knowledge](tacit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.968">ⓘ</span>
 <br/>  The slow pace of feature development is exacerbated by the presence of tacit knowledge within the legacy codebase, as the undocumented intricacies and undocumented practices make it challenging for new developers to understand and modify the system efficiently, leading to delays in delivering new features.
 
@@ -88,7 +83,6 @@ Slow feature development is the consistent inability of a development team to de
 - **Lead Time:** Measure the time it takes for a feature to be delivered after it has been requested. A long lead time is a sign that the team is not responsive to the needs of the business.
 - **Throughput:** Measure the number of features that the team is able to deliver in a given period of time. A low throughput is a sign that the team is not productive.
 - **Stakeholder Satisfaction Surveys:** Ask stakeholders about their satisfaction with the speed of feature delivery. Their feedback can be a valuable source of information.
-
 
 ## Examples
 A company wants to add a new feature to its flagship product. The feature is relatively simple, but the development team estimates that it will take six months to implement. The reason for the long estimate is that the product is built on a legacy codebase that is difficult to understand and modify. The team has to spend a lot of time reverse-engineering the existing code and writing extensive tests to make sure that they don't break anything. As a result, the company misses a key market opportunity, and its competitors are able to launch a similar feature first.

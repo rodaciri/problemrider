@@ -22,16 +22,13 @@ layout: problem
 ## Description
 Slow application performance is a broad problem that can have a wide range of causes, from inefficient code to network latency. It is characterized by an application that is unresponsive, takes a long time to load, or is generally sluggish in its operation. This can lead to a poor user experience, decreased productivity, and ultimately, a loss of users. A systematic approach to performance analysis is required to identify and address the root causes of a slow application.
 
-
 ## Indicators ⟡
 - Your application is slow, but your servers are not under heavy load.
 - You are getting complaints from users about slow performance.
 - Your application is not as responsive as it used to be.
 - Your application is using a lot of CPU or memory.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.595, Strength: 0.807">ⓘ</span>
 <br/>  Constant updates to project requirements often stem from user frustrations with sluggish application performance, as stakeholders seek to refine features and workflows to compensate for the perceived inefficiencies, leading to increased rework and further delays in the development process.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.565, Strength: 0.755">ⓘ</span>
@@ -93,7 +90,6 @@ Slow application performance is a broad problem that can have a wide range of ca
 - **Application Performance Monitoring (APM):** Use APM tools to trace requests and identify bottlenecks.
 - **User Feedback:** Actively collect and analyze user feedback.
 - **Browser Developer Tools:** Use the performance and network tabs in browser developer tools to analyze frontend performance.
-
 
 ## Examples
 An e-commerce site's product pages take a long time to load, especially on mobile devices. Analysis with RUM tools shows that the page is downloading a large, unoptimized image for each product. In another case, a single-page application (SPA) feels sluggish when navigating between different views. The browser's developer tools reveal that the application is re-rendering the entire page on every navigation, instead of just the parts that have changed. This is a common problem for applications that have grown over time without a focus on performance. As new features are added, the application becomes more complex and slower, until it reaches a tipping point where the performance is unacceptable to users.

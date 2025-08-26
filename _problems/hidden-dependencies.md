@@ -25,7 +25,6 @@ layout: problem
 
 Hidden dependencies occur when system components become interdependent in ways that are not obvious from their interfaces, documentation, or apparent structure. These dependencies often emerge from workarounds, shared global state, implicit timing assumptions, or side effects that were not part of the original design. Developers making changes to one component may unknowingly break functionality in seemingly unrelated parts of the system because the true dependencies are not visible or documented.
 
-
 ## Indicators ⟡
 
 - Changes in one module unexpectedly break functionality in unrelated modules
@@ -34,16 +33,13 @@ Hidden dependencies occur when system components become interdependent in ways t
 - Debugging reveals connections between components that weren't apparent from the code
 - System failures cascade through components that shouldn't be related
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.572">ⓘ</span>
 <br/>  The unexpected dependencies created by workarounds and patches complicate the system architecture, leading to constraints that hinder performance and maintainability, thereby revealing the limitations imposed by the original design.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.539">ⓘ</span>
 <br/>  The presence of unexpected dependencies due to workarounds and patches often leads to critical code paths being overlooked, resulting in insufficient test coverage that fails to capture the intricacies of these hidden relationships.
 
 ## Root Causes ▼
-
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.871">ⓘ</span>
 <br/>  Slow responses from dependent services lead to the need for workarounds in the API, which in turn create unforeseen dependencies in the system's architecture, complicating maintenance and stability.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.875">ⓘ</span>
@@ -72,7 +68,6 @@ Hidden dependencies occur when system components become interdependent in ways t
 - **Integration Testing:** Test component combinations to reveal hidden interdependencies
 - **Change Impact Assessment:** Monitor which components require modification when others change
 - **Code Analysis Tools:** Use static analysis to identify potential hidden connections
-
 
 ## Examples
 

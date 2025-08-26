@@ -26,7 +26,6 @@ layout: problem
 
 Dependency version conflicts occur when applications or their dependencies require different versions of the same library, creating incompatibilities that can cause build failures, runtime errors, or unexpected behavior. These conflicts are particularly common in complex applications with many dependencies or when upgrading libraries without considering transitive dependency impacts.
 
-
 ## Indicators ⟡
 
 - Build processes fail due to conflicting dependency requirements
@@ -35,9 +34,7 @@ Dependency version conflicts occur when applications or their dependencies requi
 - Package managers report version resolution conflicts
 - Different behavior between development and production due to dependency variations
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.601">ⓘ</span>
 <br/>  Conflicting dependency versions can lead to incompatible API calls or altered response formats, causing services to exceed their configured timeout periods when attempting to retrieve data from those APIs.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.688">ⓘ</span>
@@ -46,7 +43,6 @@ Dependency version conflicts occur when applications or their dependencies requi
 <br/>  Conflicting dependency versions can lead to unstructured naming in code as developers attempt to accommodate multiple versions, resulting in inconsistent conventions that hinder readability and maintenance.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.953">ⓘ</span>
 <br/>  When multiple components within a legacy system rely on the same libraries, differing version requirements can lead to conflicts that compromise application stability and functionality.
 - [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.861">ⓘ</span>
@@ -59,7 +55,6 @@ Dependency version conflicts occur when applications or their dependencies requi
 - **Dependency Version Analysis:** Analyze dependency version constraints and conflicts
 - **Compatibility Testing:** Test application functionality after dependency updates
 - **Lock File Validation:** Ensure lock files accurately represent dependency state
-
 
 ## Examples
 

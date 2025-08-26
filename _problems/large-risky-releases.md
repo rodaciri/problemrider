@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Large, risky releases are a common problem in organizations with long release cycles. When releases are infrequent, they tend to be large and complex. This is because they contain a large number of changes, which can interact in unexpected ways. Large releases are difficult to test, and they are more likely to fail than small releases. When a large release fails, it can have a significant impact on users and the business. It can also be difficult and time-consuming to roll back a large release, which can prolong the outage.
 
-
 ## Indicators ⟡
 - Releases are a major event that requires a lot of planning and coordination.
 - The team is anxious and stressed about deployments.
 - There is a high rate of post-deployment bugs and other issues.
 - Rollbacks are a common occurrence.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.605, Strength: 0.817">ⓘ</span>
 <br/>  Infrequent large releases create an environment where stakeholders feel pressured to adjust requirements continually to mitigate risks, resulting in constant changes that disrupt development and contribute to project instability.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.548, Strength: 0.798">ⓘ</span>
@@ -109,7 +106,6 @@ Large, risky releases are a common problem in organizations with long release cy
 - **Release Failure Rate:** Track the percentage of releases that result in a critical failure.
 - **Mean Time to Recovery (MTTR):** Measure the average time it takes to recover from a failed release.
 - **Post-Release Bug Count:** Count the number of bugs that are reported in the days and weeks following a release.
-
 
 ## Examples
 A company releases a new version of its software once a year. The annual release is a major event that requires months of planning and coordination. The release contains a large number of new features and bug fixes. The testing process is long and arduous, but it is impossible to test every possible combination of changes. As a result, the release is always risky, and it often fails. When the release fails, it can take days to roll it back, which has a significant impact on the company's customers.

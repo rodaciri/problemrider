@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Excessive logging can have a significant impact on application performance and maintainability. When an application logs too much information, it can consume a large amount of disk space, slow down the application, and make it difficult to find important information in the logs. A well-designed logging strategy should be focused on logging only the information that is necessary for debugging and monitoring. This requires a deep understanding of the application and its use cases.
 
-
 ## Indicators ⟡
 - Log files are growing at an unexpectedly high rate.
 - You are paying a lot of money for log storage and analysis.
 - It is difficult to find important information in your logs because of the noise.
 - Your application is slow, and you suspect that logging is a contributing factor.
 
-
 ## Symptoms ▲
-
 - [Logging Configuration Issues](logging-configuration-issues.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.695">ⓘ</span>
 <br/>  Improperly configured logging mechanisms can lead to an overwhelming amount of log entries, which not only fills disk space quickly but may also obscure essential information and create security risks, thereby serving as a clear indicator of excessive logging issues in legacy systems.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.590">ⓘ</span>
@@ -56,7 +53,6 @@ Excessive logging can have a significant impact on application performance and m
 - **Log Volume Analysis:** Use log aggregation tools to analyze the volume of logs generated per application or service.
 - **Code Review:** Look for logging statements that are overly verbose or placed in performance-critical sections.
 - **Configuration Review:** Check logging configurations to ensure appropriate logging levels are set for different environments.
-
 
 ## Examples
 A microservice processes millions of events per day. A developer, while debugging an issue, sets the logging level to `DEBUG` and forgets to revert it before deploying to production. Within hours, the server's disk space is completely consumed by log files, causing the service to crash. In another case, an application logs the entire JSON payload of every incoming API request at an `INFO` level. This leads to massive log files and significant network traffic when these logs are shipped to a centralized logging system, even though only a small part of the payload is relevant for most debugging. While logging is crucial for observability, excessive logging can become a performance and cost burden, requiring a balance between providing enough information and avoiding unnecessary overhead.

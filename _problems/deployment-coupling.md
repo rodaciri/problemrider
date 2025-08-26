@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Deployment coupling is a situation where multiple components or services must be deployed together, even if only one of them has changed. This is a common problem in monolithic architectures, where all the components are tightly coupled and deployed as a single unit. Deployment coupling can lead to long release cycles, large and risky releases, and a great deal of anxiety for the development team.
 
-
 ## Indicators ⟡
 - A small change to one component requires the entire system to be redeployed.
 - It is not possible to deploy different components of the system independently.
 - The deployment process is complex and error-prone.
 - The development team is afraid to make changes to the system because they are afraid of breaking something.
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.618, Strength: 0.858">ⓘ</span>
 <br/>  The need for multiple components to be deployed together often arises from the intricate interdependencies created by a convoluted business domain model, where changes in one area necessitate widespread updates to related parts of the system, thus indicating the presence of deployment coupling.
 - [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.527, Strength: 0.868">ⓘ</span>
@@ -87,7 +84,6 @@ Deployment coupling is a situation where multiple components or services must be
 - **Deployment Process Mapping:** Map out the steps in the deployment process to identify bottlenecks and areas for improvement.
 - **Component Dependency Analysis:** Analyze the dependencies between components to identify which components can be deployed independently.
 - **Developer Surveys:** Ask developers if they feel like they are able to deploy their changes quickly and safely.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application. The application is composed of a number of different components, including a product catalog, a shopping cart, and a payment gateway. The components are all tightly coupled and deployed as a single unit. When the development team wants to make a change to the product catalog, they must redeploy the entire application. This is a time-consuming and risky process, and it often leads to problems. As a result, the company is only able to release new software once a month.

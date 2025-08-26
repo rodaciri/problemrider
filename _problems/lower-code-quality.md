@@ -26,7 +26,6 @@ layout: problem
 
 Lower code quality occurs when various pressures and circumstances cause developers to produce code that doesn't meet established standards for maintainability, reliability, or correctness. This degradation often results from burnout, time pressure, lack of motivation, or systemic issues that prevent developers from applying their best practices. Unlike isolated quality issues, this represents a systematic decline in the overall standard of code being produced by the team.
 
-
 ## Indicators ⟡
 - Code review comments increasingly focus on basic quality issues
 - Bug rates increase even for experienced developers
@@ -34,9 +33,7 @@ Lower code quality occurs when various pressures and circumstances cause develop
 - Technical debt accumulates faster than it's addressed
 - Developers express frustration about not having time to "do things right"
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.664">ⓘ</span>
 <br/>  Rushed or burned-out developers often neglect comprehensive testing practices, resulting in critical areas of the codebase lacking proper test coverage, which in turn exacerbates the prevalence of defects and lowers overall code quality.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.574">ⓘ</span>
@@ -47,7 +44,6 @@ Lower code quality occurs when various pressures and circumstances cause develop
 <br/>  In legacy systems, the accumulation of defects due to rushed development cycles leads to increased time spent on bug fixing and maintenance, which ultimately detracts from the team's overall productivity and effectiveness.
 
 ## Root Causes ▼
-
 - [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.836">ⓘ</span>
 <br/>  When developers lack awareness of all the locations where similar logic exists in legacy systems, they may inadvertently introduce inconsistencies and errors during rushed development, thereby exacerbating issues with code quality and increasing the likelihood of defects.
 - [Clever Code](clever-code.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.799">ⓘ</span>
@@ -103,7 +99,6 @@ Lower code quality occurs when various pressures and circumstances cause develop
 - **Bug Density Analysis:** Monitor defect rates and their correlation with code complexity
 - **Technical Debt Tracking:** Measure the accumulation of technical debt over time
 - **Developer Feedback:** Survey team members about their ability to maintain quality standards
-
 
 ## Examples
 

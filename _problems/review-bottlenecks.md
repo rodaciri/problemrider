@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Review bottlenecks occur when the code review process consistently slows down the development cycle. This can happen for a variety of reasons, such as having too few reviewers, large and complex pull requests, or a culture where reviews are not prioritized. When code reviews become a bottleneck, it can lead to frustration among developers, delayed releases, and a decrease in overall development velocity.
 
-
 ## Indicators ⟡
 - Pull requests are sitting for a long time without being reviewed.
 - Developers are frequently context-switching while waiting for reviews.
 - The team has a low deployment frequency.
 - There is a lot of pressure to approve pull requests quickly, even if they are not ready.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.653, Strength: 0.861">ⓘ</span>
 <br/>  The delays caused by the code review process lead to a lack of timely feedback, prompting stakeholders to frequently change requirements in an attempt to adapt to evolving project needs, which ultimately exacerbates the review bottlenecks and creates a cycle of rework and frustration.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.639, Strength: 0.860">ⓘ</span>
@@ -99,7 +96,6 @@ Review bottlenecks occur when the code review process consistently slows down th
 - **Pull Request Lead Time:** Track the time it takes from when a pull request is created to when it is merged.
 - **Reviewer Load:** Analyze the number of pull requests that are assigned to each reviewer.
 - **Developer Surveys:** Ask developers about their experience with the code review process and whether they feel that it is a bottleneck.
-
 
 ## Examples
 A team has a rule that all pull requests must be reviewed by two people. However, there are only two senior developers on the team who are qualified to review code. As a result, pull requests are often sitting for days or even weeks before they are reviewed. This is causing a lot of frustration among the junior developers, who are not able to get their code merged in a timely manner. In another example, a team has a culture where code reviews are not prioritized. Developers are expected to complete their own work before they review the code of others. This is leading to a situation where pull requests are often sitting for a long time before they are reviewed, which is slowing down the entire development process.

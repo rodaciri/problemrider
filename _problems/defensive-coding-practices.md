@@ -26,7 +26,6 @@ layout: problem
 
 Defensive coding practices occur when developers modify their coding style not to improve functionality or maintainability, but to avoid anticipated criticism during code reviews. This includes writing unnecessarily verbose code, adding excessive comments to justify every decision, implementing overly defensive error handling, or choosing conservative approaches that are less efficient but harder to criticize. While some defensive programming is beneficial, this problem represents coding decisions driven by fear of review feedback rather than technical merit.
 
-
 ## Indicators ⟡
 
 - Code contains far more comments than necessary, often explaining obvious operations
@@ -35,9 +34,7 @@ Defensive coding practices occur when developers modify their coding style not t
 - Code includes unnecessary error handling for impossible scenarios
 - Developers mention modifying code specifically to avoid review comments
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.634">ⓘ</span>
 <br/>  Overly verbose code and excessive defensive logic can obscure the underlying functionality, leading developers to neglect critical areas for testing, which results in poor test coverage and unaddressed quality assurance blind spots in legacy systems.
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.669">ⓘ</span>
@@ -48,7 +45,6 @@ Defensive coding practices occur when developers modify their coding style not t
 <br/>  The tendency to write overly verbose code and excessive comments often leads developers to prioritize defensive logic over clarity, resulting in inconsistent naming conventions that further obscure code readability and complicate maintenance in legacy systems.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.903">ⓘ</span>
 <br/>  Developers' difficulty in adopting object-oriented principles often leads them to overcompensate with verbose and defensive coding practices, as they rely on familiar procedural techniques that prioritize extensive error handling and comments to mitigate perceived risks in code reviews.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.823">ⓘ</span>
@@ -61,7 +57,6 @@ Defensive coding practices occur when developers modify their coding style not t
 - **Performance Impact Evaluation:** Assess whether defensive practices impact system performance
 - **Developer Behavior Surveys:** Collect feedback on coding decision motivations
 - **Code Style Evolution Tracking:** Monitor how coding patterns change in response to review feedback
-
 
 ## Examples
 

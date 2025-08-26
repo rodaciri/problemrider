@@ -16,7 +16,6 @@ layout: problem
 
 DMA coherency issues occur when Direct Memory Access devices and the CPU have different views of the same memory data due to cache coherency problems. DMA devices can read and write memory directly without going through the CPU cache, while the CPU may have cached copies of the same data. This can lead to data corruption, lost updates, or inconsistent system behavior when cached and non-cached views of memory diverge.
 
-
 ## Indicators ⟡
 
 - Data corruption occurs intermittently in DMA-based operations
@@ -25,9 +24,7 @@ DMA coherency issues occur when Direct Memory Access devices and the CPU have di
 - Performance issues related to excessive cache flushing or invalidation
 - Problems appear more frequently under high system load or specific timing conditions
 
-
 ## Symptoms ▲
-
 - [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.710">ⓘ</span>
 <br/>  Frequent merge conflicts arise from developers needing to repeatedly adjust code affected by data inconsistencies caused by direct memory access operations, indicating underlying issues with how the system manages CPU cache coherency.
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.712">ⓘ</span>
@@ -49,7 +46,6 @@ DMA coherency issues occur when Direct Memory Access devices and the CPU have di
 - **Hardware Performance Monitoring:** Use hardware counters to detect coherency issues
 - **Memory Access Pattern Analysis:** Analyze patterns of CPU and DMA memory access
 - **Platform-Specific Testing:** Test on different hardware platforms with varying coherency models
-
 
 ## Examples
 

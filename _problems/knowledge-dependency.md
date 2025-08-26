@@ -26,7 +26,6 @@ layout: problem
 
 Knowledge dependency occurs when team members, particularly those who are no longer new hires, continue to rely heavily on specific experienced individuals for information, decisions, and guidance that they should reasonably be able to handle independently. This creates a situation where team members cannot work autonomously and experienced developers become bottlenecks for routine tasks and decisions.
 
-
 ## Indicators ⟡
 
 - Developers with months or years of tenure still ask basic questions about system functionality
@@ -35,9 +34,7 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 - Work stops or slows significantly when key knowledge holders are unavailable
 - Team members express lack of confidence in making decisions without consultation
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.638">ⓘ</span>
 <br/>  The prolonged reliance on specific experienced individuals for knowledge hinders the team's ability to make timely decisions and innovate, resulting in systemic inefficiencies that ultimately decrease overall productivity and output.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.646">ⓘ</span>
@@ -58,7 +55,6 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 <br/>  The reliance on specific experienced individuals for critical knowledge leads to bottlenecks in decision-making and information flow, resulting in delayed feature delivery and an overall decline in the team's development productivity.
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.934">ⓘ</span>
 <br/>  The lack of necessary design skills prevents team members from independently understanding and maintaining the software architecture, leading to an over-reliance on experienced individuals for critical knowledge and decision-making.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.841">ⓘ</span>
@@ -79,7 +75,6 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 - **Work Blocking Frequency:** Measure how often work is blocked waiting for specific individuals
 - **Independence Assessment:** Evaluate team members' ability to work autonomously on age-appropriate tasks
 - **Knowledge Holder Availability Impact:** Assess how team productivity changes when key knowledge holders are unavailable
-
 
 ## Examples
 

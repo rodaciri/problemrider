@@ -26,7 +26,6 @@ layout: problem
 
 Quality blind spots occur when testing practices fail to detect critical defects, integration issues, or behavioral problems before they reach production. This creates dangerous gaps in understanding system behavior under various conditions, leading to unexpected failures, user-impacting bugs, and costly production incidents. Unlike having no testing at all, quality blind spots represent systematic weaknesses in what gets tested, how it gets tested, and when testing occurs in the development lifecycle.
 
-
 ## Indicators ⟡
 
 - Production bugs frequently occur in areas that were "tested"
@@ -35,9 +34,7 @@ Quality blind spots occur when testing practices fail to detect critical defects
 - Performance problems appear under real-world load despite load testing
 - Security vulnerabilities exist in code that passed code review and testing
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.503, Strength: 0.755">ⓘ</span>
 <br/>  Inadequate testing coverage and verification practices fail to reveal underlying issues, leading to architectural choices that prioritize short-term fixes over long-term system integrity, which in turn manifests as limitations in performance, scalability, and maintainability.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.743">ⓘ</span>
@@ -52,7 +49,6 @@ Quality blind spots occur when testing practices fail to detect critical defects
 <br/>  Insufficient testing coverage in legacy systems leads to undetected critical behaviors, which in turn results in non-compliance with evolving regulatory standards, as gaps in quality assurance prevent timely identification and remediation of compliance issues.
 
 ## Root Causes ▼
-
 - [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.826">ⓘ</span>
 <br/>  Slow application performance hinders comprehensive testing and user feedback, leading to unaddressed critical system behaviors and failure modes that remain undetected due to inadequate verification practices.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.472, Strength: 0.928">ⓘ</span>
@@ -122,7 +118,6 @@ Quality blind spots occur when testing practices fail to detect critical defects
 - **Failure Mode Analysis:** Identify what could go wrong and whether those scenarios are tested
 - **Test Environment Audit:** Compare testing conditions to production environment characteristics
 - **Incident Post-Mortems:** Track whether issues could have been caught by better testing
-
 
 ## Examples
 

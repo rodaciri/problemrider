@@ -26,7 +26,6 @@ layout: problem
 
 Staff availability issues occur when projects cannot access the human resources needed to execute planned work effectively. This includes unfilled critical roles, key team members being allocated to multiple conflicting priorities, extended absences without adequate coverage, and insufficient capacity to handle both planned work and unexpected urgent tasks. These availability constraints create bottlenecks that delay progress and force remaining team members to work beyond their sustainable capacity.
 
-
 ## Indicators ⟡
 
 - Critical roles remain vacant for extended periods despite active recruitment
@@ -35,9 +34,7 @@ Staff availability issues occur when projects cannot access the human resources 
 - Important decisions are postponed because decision-makers are unavailable
 - Team members consistently work overtime to compensate for insufficient staffing
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.857">ⓘ</span>
 <br/>  Staff availability issues lead to overworked employees and unfilled roles, which directly result in diminished team productivity as critical tasks are delayed or inadequately managed within the constraints of outdated systems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.787">ⓘ</span>
@@ -76,7 +73,6 @@ Staff availability issues occur when projects cannot access the human resources 
 - **Overtime Tracking:** Monitor excessive working hours that indicate understaffing
 - **Project Delay Analysis:** Correlate project delays with resource availability issues
 - **Skills Gap Assessment:** Evaluate whether team has necessary skills and capacity
-
 
 ## Examples
 

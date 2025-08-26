@@ -26,7 +26,6 @@ layout: problem
 
 Code review inefficiency occurs when the code review process consumes disproportionate time and effort relative to the value it provides, or when the process itself becomes a significant impediment to development velocity. This can manifest as reviews that take too long, provide superficial feedback, miss important issues, or create unnecessary back-and-forth discussions that don't improve code quality. Inefficient reviews waste developer time and can reduce team morale.
 
-
 ## Indicators ⟡
 
 - Code reviews take much longer than the actual development time
@@ -35,9 +34,7 @@ Code review inefficiency occurs when the code review process consumes disproport
 - Reviewers provide conflicting or contradictory feedback
 - Important bugs or design issues are missed during reviews despite lengthy discussions
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.628, Strength: 0.871">ⓘ</span>
 <br/>  Inefficient code reviews lead to insufficient attention on critical areas of the codebase, resulting in poor test coverage as developers prioritize immediate feedback over comprehensive quality assurance practices.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.577, Strength: 0.814">ⓘ</span>
@@ -116,7 +113,6 @@ Code review inefficiency occurs when the code review process consumes disproport
 - **Review Feedback Classification:** Categorize review comments to identify what types of issues are being raised
 - **Developer Surveys:** Collect feedback on the effectiveness and efficiency of the review process
 - **Review Coverage Analysis:** Assess whether reviews are catching important issues or focusing on trivial concerns
-
 
 ## Examples
 

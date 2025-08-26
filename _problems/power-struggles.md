@@ -24,7 +24,6 @@ layout: problem
 
 Power struggles occur when different individuals, teams, or departments compete for control, influence, or resources rather than collaborating toward shared organizational goals. These conflicts manifest as territorial disputes, competing visions for project direction, decisions being overruled or undermined, and resources being withheld or redirected based on political considerations rather than project needs. Power struggles waste time and energy while preventing effective decision-making and execution.
 
-
 ## Indicators ⟡
 
 - Decisions are frequently overruled or changed by competing authorities
@@ -33,9 +32,7 @@ Power struggles occur when different individuals, teams, or departments compete 
 - Team members receive mixed messages about priorities and objectives
 - Important decisions are delayed while different parties vie for control
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.594, Strength: 0.798">ⓘ</span>
 <br/>  Internal conflicts lead to unclear priorities and misaligned objectives, causing stakeholders to frequently alter requirements as they attempt to assert their influence, resulting in constant revisions that disrupt development and hinder project progress.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.649">ⓘ</span>
@@ -50,7 +47,6 @@ Power struggles occur when different individuals, teams, or departments compete 
 <br/>  Internal conflicts lead to a lack of cohesive oversight and communication, resulting in ineffective monitoring of project progress and the inability to address issues promptly within legacy systems.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.952">ⓘ</span>
 <br/>  Conflicting priorities arise when teams rely on shared libraries and frameworks, leading to power struggles as departments compete to influence decisions that impact their dependencies and project outcomes.
 
@@ -61,7 +57,6 @@ Power struggles occur when different individuals, teams, or departments compete 
 - **Resource Allocation Review:** Assess whether resources are distributed based on objective criteria
 - **Team Feedback Collection:** Anonymous surveys about political interference in work
 - **Communication Pattern Analysis:** Identify competing messages from different authorities
-
 
 ## Examples
 

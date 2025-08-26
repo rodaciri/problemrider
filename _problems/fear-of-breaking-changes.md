@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Fear of breaking changes is a common problem in software development. It is the fear that a change to the codebase will have unintended consequences and will break existing functionality. This fear can be paralyzing, and it can prevent a team from making necessary changes to the system. When a team is afraid to make changes, the system can become stagnant and outdated. This can lead to a number of problems, including a decline in user satisfaction, a loss of competitive advantage, and a great deal of frustration for the development team.
 
-
 ## Indicators ⟡
 - The team is hesitant to make changes to the codebase.
 - The team is not refactoring the code.
 - The team is not keeping up with the latest technologies.
 - The team is not innovating.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.650, Strength: 0.865">ⓘ</span>
 <br/>  The reluctance to modify the codebase due to the fear of introducing errors often results in stakeholders frequently changing requirements in an attempt to adjust to perceived limitations, thereby indicating an underlying issue of stagnation in the system's evolution.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.575, Strength: 0.828">ⓘ</span>
@@ -77,7 +74,6 @@ Fear of breaking changes is a common problem in software development. It is the 
 - **Technical Debt:** Track the amount of technical debt in the system.
 - **Developer Surveys:** Ask developers about their feelings about making changes to the system.
 - **Willingness to Experiment:** Is the team willing to experiment with new ideas and technologies?
-
 
 ## Examples
 A company has a legacy system that is critical to its business. The system is old and fragile, and the team is afraid to make changes to it. As a result, the system is not being updated, and it is falling behind the competition. The company is losing market share, and they are at risk of going out of business. The team knows that they need to make changes to the system, but they are paralyzed by fear.

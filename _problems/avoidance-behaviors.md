@@ -26,7 +26,6 @@ layout: problem
 
 Avoidance behaviors occur when developers consistently postpone, defer, or avoid tackling complex or challenging tasks due to psychological barriers such as cognitive overload, fear of failure, or mental fatigue. These behaviors manifest as procrastination on difficult features, preference for simple tasks over complex ones, or finding reasons to work on other activities instead of addressing challenging problems. Over time, avoidance behaviors can lead to a backlog of difficult work and reduced team capability.
 
-
 ## Indicators ⟡
 
 - Developers consistently choose easier tasks over more challenging ones
@@ -35,9 +34,7 @@ Avoidance behaviors occur when developers consistently postpone, defer, or avoid
 - Important but challenging tasks are repeatedly postponed or reassigned
 - Developers express anxiety or reluctance when discussing complex features
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.520, Strength: 0.749">ⓘ</span>
 <br/>  Frequent updates to project requirements often arise as a manifestation of individuals' reluctance to engage with complex tasks, reflecting their cognitive overload and fear of failure, which in turn leads to a cycle of rework and frustration in legacy systems.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.502, Strength: 0.770">ⓘ</span>
@@ -78,7 +75,6 @@ Avoidance behaviors occur when developers consistently postpone, defer, or avoid
 - **Developer Surveys:** Ask about task preferences and anxiety levels for different work types
 - **Sprint Planning Observations:** Monitor how tasks are selected and avoided during planning
 - **One-on-One Interviews:** Discuss individual concerns about specific types of work
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Cognitive overload occurs when developers are required to understand and work with more complex information than can be effectively maintained in working memory. This happens when systems are overly complex, when developers must work across multiple domains simultaneously, or when the architecture requires understanding many interconnected components to make simple changes. The human brain has limited working memory capacity, and exceeding this capacity leads to reduced performance, increased errors, and mental exhaustion.
 
-
 ## Indicators ⟡
 
 - Developers frequently lose track of what they were working on
@@ -35,9 +34,7 @@ Cognitive overload occurs when developers are required to understand and work wi
 - Developers avoid working on certain parts of the system due to complexity
 - Frequent mistakes occur due to forgetting important context or constraints
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.703">ⓘ</span>
 <br/>  Constant updates to project requirements exacerbate cognitive overload by forcing developers to juggle multiple shifting priorities, leading to confusion and inefficiency as they struggle to retain and adapt to the evolving context of legacy systems.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.441, Strength: 0.717">ⓘ</span>
@@ -74,7 +71,6 @@ Cognitive overload occurs when developers are required to understand and work wi
 - **Error Rate Analysis:** Monitor correlation between system complexity and developer mistake frequency
 - **Task Completion Time Tracking:** Compare completion times for tasks of similar scope but different complexity
 - **Focus Time Analysis:** Measure how long developers can maintain focus on complex tasks
-
 
 ## Examples
 

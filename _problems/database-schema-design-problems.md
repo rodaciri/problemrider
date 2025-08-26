@@ -25,7 +25,6 @@ layout: problem
 
 Database schema design problems occur when database structures are poorly planned, inadequately normalized or denormalized, or don't efficiently support the application's data access patterns. Poor schema design leads to performance issues, data integrity problems, complex queries, and maintenance difficulties that become more pronounced as the system scales.
 
-
 ## Indicators ⟡
 
 - Queries requiring complex joins across many tables for simple operations
@@ -34,9 +33,7 @@ Database schema design problems occur when database structures are poorly planne
 - Frequent schema modifications needed to support new features
 - Performance issues that can't be resolved through indexing alone
 
-
 ## Symptoms ▲
-
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.817">ⓘ</span>
 <br/>  Inefficient database schema design leads to complex queries that fail to optimize data retrieval, resulting in a reliance on fetching data from the source for each request, which serves as an indicator of underlying performance issues.
 - [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.879">ⓘ</span>
@@ -49,7 +46,6 @@ Database schema design problems occur when database structures are poorly planne
 <br/>  Ineffective database schema design can lead to a misalignment between the system's structure and core business concepts, resulting in a poor reflection of the domain model that manifests as fragile logic and miscommunication within the application.
 
 ## Root Causes ▼
-
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.887">ⓘ</span>
 <br/>  Inefficient data fetching in a loop exacerbates performance issues and increases the complexity of schema interactions, ultimately leading to greater data integrity problems and maintenance challenges in legacy systems.
 - [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.935">ⓘ</span>
@@ -62,7 +58,6 @@ Database schema design problems occur when database structures are poorly planne
 - **Data Redundancy Auditing:** Identify duplicate data storage across different tables
 - **Schema Change Frequency Monitoring:** Track how often schema modifications are required
 - **Referential Integrity Validation:** Check for proper foreign key relationships and constraints
-
 
 ## Examples
 

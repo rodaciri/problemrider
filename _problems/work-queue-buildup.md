@@ -25,7 +25,6 @@ layout: problem
 
 Work queue buildup occurs when tasks accumulate faster than they can be processed, creating queues that delay completion and reduce overall system throughput. This commonly happens at bottleneck points in the development process, such as code reviews, testing phases, deployment approvals, or when specific expertise is required. Queue buildup indicates that demand exceeds capacity at critical process steps.
 
-
 ## Indicators ⟡
 
 - Tasks consistently wait longer in queues than they take to actually complete
@@ -34,9 +33,7 @@ Work queue buildup occurs when tasks accumulate faster than they can be processe
 - Processing time is much shorter than total cycle time
 - Queue lengths grow over time rather than remaining stable
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.680, Strength: 0.878">ⓘ</span>
 <br/>  The accumulation of tasks in queues leads to increased processing times, causing dependent services to exceed their configured timeout limits when attempting to access resources, thereby indicating a bottleneck in the system.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.667, Strength: 0.905">ⓘ</span>
@@ -111,7 +108,6 @@ Work queue buildup occurs when tasks accumulate faster than they can be processe
 - **Flow Efficiency Calculation:** Calculate the ratio of work time to total cycle time
 - **Bottleneck Identification:** Identify which process steps consistently have the longest queues
 - **Throughput Measurement:** Monitor how many tasks are completed per time period at each stage
-
 
 ## Examples
 

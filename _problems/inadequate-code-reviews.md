@@ -25,23 +25,19 @@ layout: problem
 ## Description
 Inadequate code reviews are a major contributor to poor software quality. This encompasses both superficial reviews that provide little meaningful feedback and inconsistent review practices. When code reviews are rushed, superficial, or performed by inexperienced reviewers, they are unlikely to catch bugs, design flaws, or deviations from best practices. Superficial reviews often focus on minor stylistic issues rather than critical logic or design flaws, providing little more than "looks good to me" approvals without thorough examination. This can lead to a gradual degradation of the codebase, as technical debt and potential issues are allowed to accumulate. A healthy code review culture is one where reviews are thorough, thoughtful, and performed by a diverse group of reviewers with shared responsibility for code quality.
 
-
 ## Indicators ⟡
 - Code reviews are often a bottleneck in the development process.
 - The same types of bugs are repeatedly found in production.
 - Developers are not learning from each other through code reviews.
 - There is a lot of debate about style and other trivial issues in code reviews.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.662">ⓘ</span>
 <br/>  Inadequate and rushed code reviews can lead to the omission of essential test cases, resulting in critical code sections remaining untested and creating blind spots in quality assurance.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.536">ⓘ</span>
 <br/>  Inconsistent and inadequate code reviews fail to catch critical issues early, leading to unresolved ambiguities that prompt frequent requirement changes as stakeholders seek clarity and adjustments during development.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.590, Strength: 0.833">ⓘ</span>
 <br/>  Insufficient funding due to escalating project costs forces teams to rush code reviews, resulting in superficial evaluations that overlook critical issues and degrade overall code quality.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.572, Strength: 0.846">ⓘ</span>
@@ -178,7 +174,6 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 - **Developer Surveys:** Ask developers for their feedback on the code review process and about the quality of feedback they receive during reviews.
 - **Code Quality Metrics:** Monitor metrics like bug density, technical debt, and code complexity, which can indirectly indicate review effectiveness.
 - **Use Static Analysis Tools:** These tools can automatically identify many common issues, freeing up reviewers to focus on more important things.
-
 
 ## Examples
 A junior developer submits a pull request with a significant performance issue. The reviewer, who is under pressure to meet a deadline, approves the pull request without noticing the issue. The performance issue is later discovered in production. A developer submits a pull request that introduces an N+1 query performance bottleneck. The code review focuses solely on whether the variable names adhere to the team's convention and the placement of curly braces, completely missing the performance issue.

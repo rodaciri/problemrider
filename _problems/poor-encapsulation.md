@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Poor encapsulation is a common design problem in object-oriented programming. It occurs when data and the behavior that acts on that data are not bundled together in a single, cohesive unit. This can lead to a number of problems, including a lack of data hiding, a high degree of coupling, and a system that is difficult to understand and maintain. Poor encapsulation is often a sign of a lack of understanding of the principles of object-oriented design.
 
-
 ## Indicators ⟡
 - Classes have a large number of public fields.
 - Classes have a large number of getters and setters.
 - Data is passed around between a large number of different objects.
 - It is difficult to understand how data is being used in the system.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.703, Strength: 0.921">ⓘ</span>
 <br/>  When data and behavior are not encapsulated together, it becomes difficult to isolate and test individual components, leading to inadequate test coverage as critical functionalities may be intertwined and untraceable, thus highlighting blind spots in quality assurance within legacy systems.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.678, Strength: 0.946">ⓘ</span>
@@ -145,7 +142,6 @@ Poor encapsulation is a common design problem in object-oriented programming. It
 - **Static Analysis:** Use static analysis tools to identify classes with a large number of public fields or getters and setters.
 - **Dependency Analysis:** Analyze the dependencies between the components of the system to identify areas of high coupling.
 - **Code Coverage:** Measure the code coverage of your tests. A low code coverage may be a sign of poor encapsulation.
-
 
 ## Examples
 A class has a public field that is accessed by a large number of other classes. This is an example of poor encapsulation. The problem could be solved by making the field private and providing a public method for accessing it. This would hide the implementation details of the class and would make it easier to change the class in the future without breaking other parts of the system.

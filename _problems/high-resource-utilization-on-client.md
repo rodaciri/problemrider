@@ -24,16 +24,13 @@ layout: problem
 ## Description
 High resource utilization on the client-side can lead to a poor user experience. This can manifest as a sluggish user interface, a high level of battery consumption on mobile devices, or a general feeling of unresponsiveness. Common causes of high resource utilization include inefficient JavaScript, large, unoptimized assets, and excessive DOM manipulation. A focus on client-side performance is essential for creating a fast and responsive user experience.
 
-
 ## Indicators ⟡
 - Your application is slow, even on a powerful device.
 - Your application is draining the battery on your mobile device.
 - Your computer's fan is running at high speed when you use your application.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.634">ⓘ</span>
 <br/>  Excessive resource consumption in client applications leads to frequent performance issues and urgent bug fixes, creating a stressful environment for developers who must constantly address these challenges, ultimately resulting in their frustration and burnout.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.640">ⓘ</span>
@@ -48,7 +45,6 @@ High resource utilization on the client-side can lead to a poor user experience.
 <br/>  Excessive resource consumption often leads to performance issues that hinder testing effectiveness, resulting in a higher rate of undetected defects in the production environment.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.901">ⓘ</span>
 <br/>  Inefficient processes and constraints in system components lead to suboptimal resource allocation and management, causing client applications to overutilize CPU and memory, particularly on less capable devices.
 - [Lazy Loading](lazy-loading.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.851">ⓘ</span>
@@ -64,7 +60,6 @@ High resource utilization on the client-side can lead to a poor user experience.
 - **Real User Monitoring (RUM):** RUM tools can collect client-side performance metrics from actual users.
 - **Device Monitoring Tools:** Use OS-level tools (e.g., Activity Monitor on macOS, Task Manager on Windows, Android Studio Profiler) to monitor CPU and memory usage of the client application.
 - **User Feedback:** Pay attention to user complaints about performance, battery life, or device overheating.
-
 
 ## Examples
 A complex web application with many interactive elements becomes very slow and causes the user's laptop fan to spin up. Profiling with browser developer tools reveals that a JavaScript function is constantly re-rendering a large part of the DOM in an inefficient loop. In another case, a mobile game has unoptimized textures and models. When played on an older phone, the game frequently lags and causes the device to become very hot, draining the battery quickly. This problem is increasingly common as applications become more feature-rich and run on a wider variety of devices. Optimizing client-side performance is crucial for a good user experience, especially on mobile and lower-end hardware.

@@ -26,7 +26,6 @@ layout: problem
 
 Cascade delays occur when delays in one project or work stream trigger delays in other dependent projects, creating a domino effect that amplifies the impact of initial schedule slips. This problem is particularly severe in organizations with complex project interdependencies, where one team's delayed deliverable can block multiple other teams and projects, multiplying the business impact of the original delay.
 
-
 ## Indicators ⟡
 
 - Single project delays affect multiple other projects or teams
@@ -35,9 +34,7 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 - Release schedules must be coordinated across multiple dependent projects
 - Delays compound and grow larger as they propagate through dependent work
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.564">ⓘ</span>
 <br/>  Delays in project timelines hinder the processing of tasks, leading to unresponsive API services that exceed their timeout settings, thereby signaling the cascading impact of missed deadlines on system performance.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.575">ⓘ</span>
@@ -48,7 +45,6 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 <br/>  Constantly changing requirements often arise as teams scramble to adapt to missed deadlines in dependent work streams, leading to rework and further delays, which highlights the cascading effects of initial project delays on overall development progress.
 
 ## Root Causes ▼
-
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.944">ⓘ</span>
 <br/>  Slow responses from dependent services lead to delays in API processing, which in turn causes missed deadlines in related projects, creating a cascading effect of delays across multiple teams.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.904">ⓘ</span>
@@ -83,7 +79,6 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 - **Delay Propagation Tracking:** Monitor how initial delays spread through the organization
 - **Resource Utilization Analysis:** Measure idle time caused by dependency delays
 - **Stakeholder Impact Assessment:** Evaluate business impact of cascading project delays
-
 
 ## Examples
 

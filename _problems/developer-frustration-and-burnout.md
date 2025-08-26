@@ -25,20 +25,17 @@ layout: problem
 ## Description
 Developer frustration and burnout is a state of emotional, physical, and mental exhaustion caused by prolonged or excessive stress. It manifests as cynicism, detachment, and a sense of ineffectiveness. This is not just a personal issue but a significant organizational problem that can cripple a team's productivity, innovation, and ability to maintain the software.
 
-
 ## Indicators ⟡
 - Increased cynicism or negative comments during team meetings.
 - A noticeable drop in a developer's usual productivity or quality of work.
 - Developers are more frequently taking sick days or seem disengaged.
 - A high turnover rate within the development team.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.713, Strength: 0.938">ⓘ</span>
 <br/>  The lack of design skills leads to poorly structured code and inefficient systems, causing frequent bugs and technical debt that frustrate developers and contribute to their exhaustion and disengagement.
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.713, Strength: 0.931">ⓘ</span>
@@ -272,7 +269,6 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 - **One-on-One Meetings:** Managers should have regular, open, and honest conversations with their team members to gauge their well-being.
 - **Team Retrospectives:** Use retrospectives as a safe space for the team to voice their frustrations and concerns.
 - **Developer Surveys:** Anonymous surveys can be used to gather feedback on team morale and identify common sources of frustration.
-
 
 ## Examples
 A talented senior developer, once a top performer, has become quiet and withdrawn. Their pull requests are less frequent and the quality has noticeably declined. They complain about having to work on the same legacy part of the system over and over again, fixing bugs in code that is poorly written and has no tests. They eventually resign, citing burnout and a lack of professional growth.

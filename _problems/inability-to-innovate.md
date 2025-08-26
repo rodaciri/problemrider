@@ -26,7 +26,6 @@ layout: problem
 
 Inability to innovate occurs when development teams become so consumed with maintaining existing systems, fixing bugs, and handling urgent issues that they have no capacity for exploring new technologies, improving processes, or developing creative solutions. This creates a cycle where teams fall further behind industry practices and miss opportunities to improve their effectiveness or create competitive advantages.
 
-
 ## Indicators ⟡
 
 - Team spends most time on maintenance rather than new development
@@ -35,14 +34,11 @@ Inability to innovate occurs when development teams become so consumed with main
 - Technical decisions default to familiar solutions rather than evaluating alternatives
 - Team discussions focus on current problems rather than future opportunities
 
-
 ## Symptoms ▲
-
 - [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.662">ⓘ</span>
 <br/>  The lack of time for creative thinking and innovation leads to repetitive assignments in code reviews, resulting in disengaged reviewers who cannot provide valuable feedback, thus perpetuating maintenance-focused work and stifling quality improvements.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.950">ⓘ</span>
 <br/>  The lack of familiarity with object-oriented principles leads developers to produce inefficient, procedural-style code, which increases technical debt and maintenance burdens, ultimately consuming resources that could otherwise be directed towards innovative solutions.
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.962">ⓘ</span>
@@ -202,7 +198,6 @@ Inability to innovate occurs when development teams become so consumed with main
 - **Developer Surveys:** Ask team members about opportunities for professional growth and exploration
 - **Technology Assessment:** Evaluate how current technology stack compares to industry standards
 - **Retrospective Analysis:** Discuss barriers to trying new approaches or technologies
-
 
 ## Examples
 

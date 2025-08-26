@@ -25,16 +25,13 @@ layout: problem
 ## Description
 A procedural background can be a major obstacle to writing good object-oriented code. Developers who are used to thinking in a procedural way may struggle to adapt to an object-oriented way of thinking. This can lead to the creation of procedural-style code in an object-oriented language, which can be difficult to maintain and evolve. A procedural background is a common problem in the software industry, and it can be difficult to address.
 
-
 ## Indicators ⟡
 - The codebase is full of static methods.
 - The codebase is full of utility classes.
 - The codebase is not using inheritance or polymorphism.
 - The codebase is difficult to understand and maintain.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.708, Strength: 0.942">ⓘ</span>
 <br/>  The difficulty in transitioning from procedural programming to object-oriented design limits the pool of developers who can effectively maintain and enhance legacy systems, resulting in a critical shortage of skilled personnel and creating significant maintenance bottlenecks.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.597, Strength: 0.937">ⓘ</span>
@@ -154,7 +151,6 @@ A procedural background can be a major obstacle to writing good object-oriented 
 - **Static Analysis:** Use static analysis tools to identify code that is not following object-oriented design principles.
 - **Developer Surveys:** Ask developers about their confidence in their object-oriented design skills.
 - **Architectural Assessments:** Conduct an assessment of the system's architecture to identify design flaws.
-
 
 ## Examples
 A company hires a team of developers who have a background in procedural programming. The team is tasked with building a new web application in an object-oriented language. The team struggles to adapt to an object-oriented way of thinking, and they create a system that is poorly designed and difficult to maintain. The company eventually has to hire a team of experienced object-oriented developers to rewrite the entire system.

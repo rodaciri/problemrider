@@ -26,7 +26,6 @@ layout: problem
 
 Unclear documentation ownership occurs when no individual or team has explicit responsibility for creating, maintaining, and updating system documentation. This results in documentation that becomes outdated, inconsistent, or simply doesn't exist because everyone assumes someone else will handle it. Without clear ownership, documentation becomes a secondary concern that is deferred until it becomes a critical problem, by which time the knowledge needed to create accurate documentation may no longer be readily available.
 
-
 ## Indicators ⟡
 
 - Documentation exists but no one knows who is responsible for updating it
@@ -35,13 +34,11 @@ Unclear documentation ownership occurs when no individual or team has explicit r
 - No one reviews documentation for accuracy or completeness
 - Documentation responsibilities are not included in job descriptions or performance reviews
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.519, Strength: 0.949">ⓘ</span>
 <br/>  The presence of shared dependencies complicates the accountability for documentation, as multiple teams may assume others are responsible for maintaining the information, leading to gaps in ownership and outdated documentation.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.466, Strength: 0.913">ⓘ</span>
@@ -106,7 +103,6 @@ Unclear documentation ownership occurs when no individual or team has explicit r
 - **Documentation Quality Assessment:** Evaluate consistency and accuracy of existing documentation
 - **Responsibility Matrix Review:** Analyze whether documentation tasks are clearly assigned
 - **Documentation Usage Tracking:** Monitor whether team members actually use existing documentation
-
 
 ## Examples
 

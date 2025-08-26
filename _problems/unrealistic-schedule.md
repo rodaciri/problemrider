@@ -25,7 +25,6 @@ layout: problem
 
 Unrealistic schedules occur when project timelines are set based on wishful thinking, external pressure, or inadequate understanding of the actual work required rather than careful estimation and planning. These schedules typically underestimate complexity, ignore dependencies, fail to account for risks, and assume everything will go perfectly. The result is chronic schedule pressure that forces teams to take shortcuts, work excessive hours, and compromise quality.
 
-
 ## Indicators ⟡
 
 - Estimated completion times are significantly shorter than historical data for similar work
@@ -34,14 +33,11 @@ Unrealistic schedules occur when project timelines are set based on wishful thin
 - Team members consistently express concern that deadlines are impossible to meet
 - Similar projects in the past have consistently exceeded their scheduled timelines
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.577">ⓘ</span>
 <br/>  Constantly updated requirements reflect a lack of adequate planning and time allocation, causing teams to adapt on the fly to unrealistic timelines, which in turn leads to increased rework and project delays.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.932">ⓘ</span>
 <br/>  Excessive costs incurred from unforeseen complexities in legacy systems lead to a compressed project timeline, forcing teams to make unrealistic schedules as they attempt to catch up and meet stakeholder expectations.
 - [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.880">ⓘ</span>
@@ -66,7 +62,6 @@ Unrealistic schedules occur when project timelines are set based on wishful thin
 - **Velocity Tracking:** Monitor team productivity over time to identify unsustainable pace
 - **Schedule Variance Reporting:** Track deviations from planned schedules across projects
 - **Quality Metrics Correlation:** Analyze relationship between schedule pressure and defect rates
-
 
 ## Examples
 

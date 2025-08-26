@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Insufficient worker capacity is a common problem in systems that use a worker model for asynchronous processing. When there are not enough workers to handle the volume of tasks being produced, the task queue will back up, leading to delays in processing and a potential for data loss. This can be caused by a variety of factors, from a sudden spike in traffic to a gradual increase in the workload over time. Properly sizing the worker pool is essential for ensuring the stability and performance of the system.
 
-
 ## Indicators ⟡
 - The number of messages in your queue is growing.
 - The time it takes to process a message is increasing.
 - Your workers are constantly running at high CPU or memory usage.
 - You are getting alerts from your monitoring system about the queue size.
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.728">ⓘ</span>
 <br/>  The inability to process tasks efficiently due to limited worker capacity leads to delayed responses and unmet user needs, causing frustration that drives an increase in customer support inquiries.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.666">ⓘ</span>
@@ -62,7 +59,6 @@ Insufficient worker capacity is a common problem in systems that use a worker mo
 - **Application Performance Monitoring (APM):** Trace individual task processing times to identify where delays are occurring within the worker logic.
 - **Load Testing:** Simulate peak load conditions to identify the point at which worker capacity becomes a bottleneck.
 - **Log Analysis:** Look for logs indicating worker failures, retries, or tasks taking an unusually long time.
-
 
 ## Examples
 An image processing service uses a queue for incoming image upload requests. Initially, one worker instance is sufficient. As user traffic grows, the queue starts to build up, and images take hours to process. Adding more worker instances immediately reduces the queue size and processing time. In another case, a batch processing system is configured to run with 4 worker threads. A new report generation task is introduced that is very CPU-intensive. When multiple report requests come in simultaneously, the 4 threads are fully utilized, and subsequent report requests sit in the queue, waiting for a thread to become free. This problem is fundamental to scalable, asynchronous systems. It highlights the need for continuous monitoring and dynamic scaling strategies to match processing capacity with demand, especially in cloud-native environments.

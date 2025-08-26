@@ -26,7 +26,6 @@ layout: problem
 
 Mentor burnout occurs when experienced developers become overwhelmed by the constant demands of training, guiding, and supporting newer team members, in addition to their regular development responsibilities. This problem typically arises when knowledge is concentrated in a few individuals who become bottlenecks for knowledge transfer, or when the organization fails to properly structure and distribute mentoring responsibilities across the team.
 
-
 ## Indicators ⟡
 
 - Senior developers spend more time answering questions than writing code
@@ -35,9 +34,7 @@ Mentor burnout occurs when experienced developers become overwhelmed by the cons
 - Mentors start avoiding or delaying responses to help requests
 - Senior developers' own productivity and work quality begin to decline
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.377, Strength: 0.628">ⓘ</span>
 <br/>  The exhaustion of experienced team members from excessive mentoring leads to a diminished capacity to transfer critical knowledge of legacy technologies, resulting in a shortage of skilled developers and creating bottlenecks in system maintenance.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.590">ⓘ</span>
@@ -48,7 +45,6 @@ Mentor burnout occurs when experienced developers become overwhelmed by the cons
 <br/>  The constant need for experienced team members to clarify and adapt to evolving project requirements due to their overwhelming mentoring duties indicates their burnout, as they struggle to balance knowledge transfer with the demands of maintaining project stability.
 
 ## Root Causes ▼
-
 - [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.882">ⓘ</span>
 <br/>  The inability to transition away from outdated technologies forces experienced team members to spend excessive time mentoring less knowledgeable staff on complex, legacy systems, leading to burnout from their increased responsibilities.
 - [Resistance to Change](resistance-to-change.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.888">ⓘ</span>
@@ -121,7 +117,6 @@ Mentor burnout occurs when experienced developers become overwhelmed by the cons
 - **Mentor Satisfaction Surveys:** Assess mentor stress levels and satisfaction with their mentoring load
 - **Productivity Impact Measurement:** Compare mentors' individual productivity before and after taking on mentoring responsibilities
 - **Burnout Risk Assessment:** Use standard burnout assessment tools to evaluate mentor well-being
-
 
 ## Examples
 

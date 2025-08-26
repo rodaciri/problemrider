@@ -26,7 +26,6 @@ layout: problem
 
 Planning credibility issues occur when development teams lose stakeholder trust in their ability to provide accurate estimates and realistic project plans due to a history of missed deadlines, scope changes, or inaccurate predictions. This loss of credibility creates a negative cycle where planning becomes less collaborative, stakeholders make independent commitments, and teams face even more pressure to meet unrealistic expectations.
 
-
 ## Indicators ⟡
 
 - Stakeholders consistently question or disregard development estimates
@@ -35,9 +34,7 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 - Planning discussions focus on past failures rather than current project realities
 - Teams are asked to "commit" to timelines rather than estimate them
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.695">ⓘ</span>
 <br/>  Inaccurate past estimates undermine stakeholder trust, prompting ongoing adjustments to requirements as teams attempt to compensate for perceived planning failures, which in turn leads to increased rework and project delays in legacy systems.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.766">ⓘ</span>
@@ -50,7 +47,6 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 <br/>  The skepticism surrounding future estimates and plans diminishes team morale and confidence, leading to barriers that hinder new hires from effectively integrating and contributing to projects in a legacy environment.
 
 ## Root Causes ▼
-
 - [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.860">ⓘ</span>
 <br/>  A culture that prioritizes perfection over timely delivery results in prolonged development cycles, leading to a track record of missed deadlines and unreliable forecasts that ultimately erode trust in future planning efforts.
 
@@ -61,7 +57,6 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 - **Estimate Acceptance Rate:** Track how often development estimates are accepted vs. overridden
 - **Communication Pattern Analysis:** Monitor whether development teams are included in early planning stages
 - **Historical Accuracy Tracking:** Compare past estimates with actual outcomes to understand accuracy patterns
-
 
 ## Examples
 

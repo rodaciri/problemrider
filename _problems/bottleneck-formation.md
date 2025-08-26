@@ -26,7 +26,6 @@ layout: problem
 
 Bottleneck formation occurs when specific individuals, processes, or system components become limiting factors that constrain the overall throughput and efficiency of development work. These bottlenecks create queues, delays, and dependencies that slow down the entire team's progress. Bottlenecks can form around people with specialized knowledge, approval processes, shared resources, or technical constraints.
 
-
 ## Indicators ⟡
 
 - Work consistently backs up waiting for specific individuals or processes
@@ -35,9 +34,7 @@ Bottleneck formation occurs when specific individuals, processes, or system comp
 - Work flow is irregular with periods of waiting followed by periods of rush
 - Team productivity varies significantly based on bottleneck availability
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.696, Strength: 0.906">ⓘ</span>
 <br/>  Persistent constraints in development processes lead to slow progress and frequent roadblocks, causing frustration and exhaustion among developers who feel powerless to effect change in a legacy environment.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.645, Strength: 0.905">ⓘ</span>
@@ -186,7 +183,6 @@ Bottleneck formation occurs when specific individuals, processes, or system comp
 - **Queue Length Tracking:** Monitor how work accumulates in different stages of the development pipeline
 - **Cycle Time Measurement:** Analyze how long work items take to complete and where time is spent
 - **Dependency Mapping:** Identify critical dependencies that create constraints on work flow
-
 
 ## Examples
 

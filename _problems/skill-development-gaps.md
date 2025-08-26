@@ -24,7 +24,6 @@ layout: problem
 
 Skill development gaps occur when team members fail to develop necessary expertise in important technologies, business domains, or methodologies that are critical for the organization's success. This can result from conscious avoidance of difficult topics, over-specialization in narrow areas, lack of learning opportunities, or absence of structured skill development programs. These gaps create vulnerabilities when expertise is needed and limit the team's ability to adapt to changing requirements.
 
-
 ## Indicators ⟡
 
 - Team members avoid working with certain technologies or systems
@@ -33,9 +32,7 @@ Skill development gaps occur when team members fail to develop necessary experti
 - Team members express discomfort or anxiety about specific technical areas
 - Knowledge transfer sessions are rare or ineffective
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.754">ⓘ</span>
 <br/>  The lack of expertise in critical technologies prevents team members from effectively writing comprehensive tests, leading to poor test coverage that exposes blind spots in quality assurance within legacy systems.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.830">ⓘ</span>
@@ -68,7 +65,6 @@ Skill development gaps occur when team members fail to develop necessary experti
 - **Technology Adoption Patterns:** Analyze which technologies are avoided versus embraced by the team
 - **Knowledge Distribution Analysis:** Evaluate how evenly expertise is distributed across team members
 - **Training Participation Metrics:** Track engagement with learning opportunities and professional development
-
 
 ## Examples
 

@@ -17,7 +17,6 @@ layout: problem
 
 Hardcoded values are literal numbers, strings, or other constants embedded directly in source code rather than being defined as configurable parameters, constants, or external configuration. This practice reduces system flexibility by making it difficult to modify behavior without changing and redeploying code. The problem is particularly problematic in systems that need to adapt to different environments, handle varying business rules, or accommodate changing requirements over time.
 
-
 ## Indicators ⟡
 
 - Code that contains unexplained numeric literals or "magic numbers" without context
@@ -28,9 +27,7 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 - Business rules that are scattered throughout the codebase as literal values
 - Test files that duplicate production code just to change embedded values
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.525, Strength: 0.788">ⓘ</span>
 <br/>  The reliance on hardcoded values in legacy systems often necessitates specialized knowledge for modification, leading to a critical shortage of developers familiar with these outdated practices, which in turn creates bottlenecks in system maintenance.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.728">ⓘ</span>
@@ -56,7 +53,6 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 - Survey operations and business teams about limitations in system configuration
 - Audit codebase for repeated literal values that should be centralized as constants
 - Monitor development time spent on changes that should be simple configuration updates
-
 
 ## Examples
 

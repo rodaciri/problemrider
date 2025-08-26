@@ -25,7 +25,6 @@ layout: problem
 
 Quality compromises occur when teams or organizations deliberately accept lower quality standards, skip quality practices, or take shortcuts to meet immediate constraints such as deadlines, budgets, or resource limitations. While these compromises may provide short-term benefits, they typically create long-term problems including technical debt, increased maintenance costs, and reduced system reliability.
 
-
 ## Indicators ⟡
 
 - Quality practices are skipped or reduced to meet deadlines
@@ -34,9 +33,7 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 - Design and architecture decisions prioritize speed over maintainability
 - Known quality issues are accepted rather than addressed
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.510, Strength: 0.744">ⓘ</span>
 <br/>  Deliberate lowering of quality standards often leads to insufficient testing practices, resulting in critical code segments being left untested and creating significant blind spots in the quality assurance process.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.592">ⓘ</span>
@@ -45,7 +42,6 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 <br/>  When quality standards are compromised to meet constraints, it often leads to unstable code and inadequate testing practices, resulting in tests that fail intermittently due to unreliable conditions, thereby eroding confidence in the overall test suite.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.887">ⓘ</span>
 <br/>  When certain team members or processes become bottlenecks, they force others to rush their work and cut corners in order to maintain deadlines, which ultimately leads to a decline in overall quality and introduces long-term technical debt in legacy systems.
 - [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.811">ⓘ</span>
@@ -66,7 +62,6 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 - **Technical Debt Assessment:** Measure accumulation of technical debt over time
 - **Team Satisfaction Surveys:** Assess team satisfaction with quality standards and practices
 - **Post-Release Quality Analysis:** Evaluate quality issues discovered after deployment
-
 
 ## Examples
 

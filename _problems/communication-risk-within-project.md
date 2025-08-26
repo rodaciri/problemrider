@@ -26,7 +26,6 @@ layout: problem
 
 Communication risk within projects occurs when team members cannot effectively share information, understand each other's messages, or coordinate their activities. This includes unclear requirements, ambiguous technical discussions, missed messages, and assumptions that lead to misunderstandings. Poor internal project communication creates confusion about priorities, duplicated effort, and decisions based on incomplete or incorrect information.
 
-
 ## Indicators ⟡
 
 - Team members frequently ask for clarification on previously discussed topics
@@ -35,9 +34,7 @@ Communication risk within projects occurs when team members cannot effectively s
 - Messages and documentation are ambiguous or subject to multiple interpretations
 - Team meetings frequently involve confusion about what was previously agreed upon
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.683">ⓘ</span>
 <br/>  Frequent updates to project requirements often stem from miscommunication and unclear messaging among team members, which leads to misunderstandings about project goals and priorities, ultimately resulting in increased rework and delays.
 - [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.886">ⓘ</span>
@@ -52,7 +49,6 @@ Communication risk within projects occurs when team members cannot effectively s
 <br/>  The lack of clear communication leads to team members feeling unaligned and disengaged, resulting in insufficient participation in the review process and ineffective feedback, which ultimately hampers the quality of the legacy system's code.
 
 ## Root Causes ▼
-
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.817">ⓘ</span>
 <br/>  The tendency to provide large time estimates for minor changes highlights the underlying complexity and unpredictability of the legacy code, leading to misunderstandings and diminished trust among team members as they struggle to communicate effectively about the true scope and risks involved in the project.
 - [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.921">ⓘ</span>
@@ -67,7 +63,6 @@ Communication risk within projects occurs when team members cannot effectively s
 - **Message Clarity Testing:** Review documentation and messages for ambiguity or confusion
 - **Decision Traceability Review:** Assess whether team members understand how and why decisions were made
 - **Team Understanding Surveys:** Regular check-ins about clarity of communication and shared understanding
-
 
 ## Examples
 

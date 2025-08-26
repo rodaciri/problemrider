@@ -25,16 +25,13 @@ layout: problem
 ## Description
 An eagerness to please stakeholders is a common problem in software development. It occurs when the project team agrees to every new request from the stakeholders without pushing back or explaining the trade-offs. This can lead to a number of problems, including scope creep, constantly shifting deadlines, and budget overruns. An eagerness to please stakeholders is often a sign of a weak project team or a lack of a strong product owner.
 
-
 ## Indicators ⟡
 - The team is constantly saying yes to new requests.
 - The team is not explaining the trade-offs of new requests.
 - The team is not pushing back on unreasonable requests.
 - The team is not focused on the project's goals.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.636, Strength: 0.827">ⓘ</span>
 <br/>  The project team's reluctance to push back against stakeholder requests results in constantly shifting requirements, which serve as a clear indicator of underlying issues with scope management and stakeholder communication, ultimately leading to rework and delays in legacy systems.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.626, Strength: 0.840">ⓘ</span>
@@ -133,7 +130,6 @@ An eagerness to please stakeholders is a common problem in software development.
 - **Team Retrospectives:** Discuss the team's relationship with the stakeholders in your retrospectives.
 - **Stakeholder Feedback:** Listen to stakeholder feedback to see if they are happy with the team's performance.
 - **Project Metrics:** Track project metrics, such as scope, schedule, and budget, to see if they are being impacted by an eagerness to please stakeholders.
-
 
 ## Examples
 A team is building a new website. The team is very eager to please the stakeholders. The team agrees to every new request from the stakeholders without pushing back or explaining the trade-offs. As a result, the project's scope is constantly expanding. The project is delivered late and over budget. The stakeholders are not happy.

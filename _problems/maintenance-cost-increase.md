@@ -26,7 +26,6 @@ layout: problem
 
 Maintenance cost increase occurs when the resources required to keep software systems operational, fix bugs, and make modifications grow substantially over time. This increase often outpaces the addition of new functionality, meaning organizations spend more and more of their development budgets on maintaining existing systems rather than creating new value. The trend indicates accumulating technical debt and degrading system health.
 
-
 ## Indicators ⟡
 
 - Increasing percentage of development budget spent on maintenance versus new features
@@ -35,9 +34,7 @@ Maintenance cost increase occurs when the resources required to keep software sy
 - More developers needed to maintain the same functionality
 - Support costs grow faster than user base or system usage
 
-
 ## Symptoms ▲
-
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.688">ⓘ</span>
 <br/>  As maintenance costs escalate due to outdated technology and lack of updates, legacy systems struggle to adapt to new regulatory requirements, resulting in compliance gaps that further inflate maintenance expenses and risk management efforts.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.638">ⓘ</span>
@@ -58,7 +55,6 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  Frequent shifts in project direction arise from the increased complexity and resource demands of aging software systems, leading to confusion among the team and hindering consistent progress, thereby indicating the rising maintenance costs associated with legacy systems.
 
 ## Root Causes ▼
-
 - [Increased Cost of Development](increased-cost-of-development.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.782">ⓘ</span>
 <br/>  The escalating costs of maintaining legacy systems stem from the heightened expenses associated with repairing complex, poorly structured code, which leads to more frequent and costly updates, thereby consuming larger portions of development budgets over time.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.759">ⓘ</span>
@@ -71,7 +67,6 @@ Maintenance cost increase occurs when the resources required to keep software sy
 - **Defect Resolution Metrics:** Measure time and effort required to fix bugs of similar complexity
 - **Total Cost of Ownership Assessment:** Calculate full lifecycle costs including maintenance
 - **Resource Utilization Analysis:** Analyze how development team time is allocated between maintenance and new work
-
 
 ## Examples
 

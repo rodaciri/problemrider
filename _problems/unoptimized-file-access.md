@@ -23,16 +23,13 @@ layout: problem
 ## Description
 Unoptimized file access refers to inefficient methods of reading from or writing to the filesystem, leading to performance bottlenecks. This can manifest as reading a large file into memory when only a small part is needed, making numerous small read/write calls instead of fewer larger ones, or not using appropriate buffering techniques. These inefficiencies can significantly slow down an application, especially when dealing with large files or a high volume of file operations. Optimizing file access is crucial for applications that are I/O-bound.
 
-
 ## Indicators ⟡
 - The application is slow when reading or writing files.
 - The application is using a lot of disk I/O.
 - The application is using a lot of CPU when reading or writing files.
 - The application is unresponsive when reading or writing files.
 
-
 ## Symptoms ▲
-
 - [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.704">ⓘ</span>
 <br/>  Inefficient file access can lead to poorly optimized queries that do not leverage available indexes, resulting in increased disk I/O and slower performance due to reliance on full-table scans instead of faster index scans.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.536">ⓘ</span>
@@ -41,7 +38,6 @@ Unoptimized file access refers to inefficient methods of reading from or writing
 <br/>  The slow and cumbersome development environment is a symptom of unoptimized file access because inefficient file read and write operations lead to increased lag in the tools and resources developers rely on, hindering their productivity and exacerbating the overall performance issues within legacy systems.
 
 ## Root Causes ▼
-
 - **Excessive Disk I/O**
 - [Thread Pool Exhaustion](thread-pool-exhaustion.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.859">ⓘ</span>
 <br/>  The inefficiency in file access arises because the depletion of available threads prevents timely execution of file operations, leading to prolonged disk I/O and degraded application performance in legacy systems.
@@ -86,7 +82,6 @@ Unoptimized file access refers to inefficient methods of reading from or writing
 - **Application Profiling:** Use profilers to identify code sections that spend a lot of time in file I/O operations.
 - **Code Review:** Look for loops that perform file operations, or patterns of frequent file opening/closing.
 - **Benchmarking:** Measure the performance of file-related operations with different access patterns.
-
 
 ## Examples
 A log analysis tool processes large log files. Instead of reading the file line by line using a buffered reader, it reads each character individually. This results in millions of tiny disk reads, making the process extremely slow and consuming excessive CPU due to context switching. In another case, a configuration management system updates a configuration file by reading the entire file, modifying a single line, and then writing the entire file back to disk for every small change. This leads to high disk I/O and contention when many small configuration updates occur. This problem is common in applications that handle large amounts of data or perform frequent file operations. It often arises from a lack of awareness of efficient I/O patterns or from porting code written for different environments without optimization.

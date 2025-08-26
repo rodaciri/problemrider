@@ -25,7 +25,6 @@ layout: problem
 
 Wasted development effort occurs when significant work completed by developers becomes obsolete, must be discarded, or requires substantial rework due to factors that could have been avoided with better planning or process management. This waste represents a direct loss of productivity and can demoralize teams who see their efforts invalidated. Common causes include changing requirements, poor technical decisions, and inefficient development processes.
 
-
 ## Indicators ⟡
 
 - Completed features are frequently abandoned or significantly reworked
@@ -34,9 +33,7 @@ Wasted development effort occurs when significant work completed by developers b
 - Requirements changes invalidate completed development work
 - Team members express frustration about work being "thrown away"
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.538, Strength: 0.756">ⓘ</span>
 <br/>  Persistent abandonment and rework of development tasks due to inadequate planning and shifting requirements lead to a chaotic work environment, causing developers to feel overwhelmed and demoralized, which ultimately manifests as frustration and burnout.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.527, Strength: 0.768">ⓘ</span>
@@ -89,7 +86,6 @@ Wasted development effort occurs when significant work completed by developers b
 - **Feature Utilization Analysis:** Track whether implemented features are actually used as intended
 - **Development Efficiency Metrics:** Measure ratio of productive work to total development effort
 - **Project Timeline Analysis:** Identify how much project delay is caused by wasted effort versus other factors
-
 
 ## Examples
 

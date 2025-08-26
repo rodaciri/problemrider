@@ -26,7 +26,6 @@ layout: problem
 
 Inexperienced developers refers to a situation where team members lack the knowledge, skills, or experience necessary to implement software engineering best practices, write maintainable code, or make sound architectural decisions. This problem is particularly acute in legacy systems where complex business logic and outdated technologies require both domain knowledge and technical expertise. When inexperienced developers work on complex systems without proper guidance, they often create solutions that work in the short term but create long-term maintenance problems.
 
-
 ## Indicators ⟡
 - Code reviews frequently reveal basic programming mistakes or anti-patterns
 - New team members consistently underestimate the complexity of tasks
@@ -34,9 +33,7 @@ Inexperienced developers refers to a situation where team members lack the knowl
 - Basic software engineering principles are not followed consistently
 - Team relies heavily on senior developers for guidance on routine tasks
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.674">ⓘ</span>
 <br/>  The lack of knowledge and experience among the development team leads to an inadequate understanding of the complex business domain, resulting in a convoluted domain model that reflects their inability to apply best practices effectively, thus serving as a clear indicator of their inexperience.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.633">ⓘ</span>
@@ -53,7 +50,6 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  The lack of knowledge and experience among the development team leads to inefficient coding practices and inadequate problem-solving abilities, resulting in slower feature delivery and declining productivity as they struggle to navigate the complexities of legacy systems.
 
 ## Root Causes ▼
-
 - [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.760">ⓘ</span>
 <br/>  The lack of explicit documentation and shared understanding of critical system knowledge hinders inexperienced developers from learning best practices and maintaining effective solutions, perpetuating a cycle of inadequate implementation and knowledge gaps.
 - [Duplicated Effort](duplicated-effort.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.840">ⓘ</span>
@@ -67,7 +63,6 @@ Inexperienced developers refers to a situation where team members lack the knowl
 - **Task Completion Analysis:** Compare estimated vs. actual time for different developers on similar tasks
 - **Bug Attribution:** Analyze which developers introduce the most bugs or most severe issues
 - **Knowledge Assessments:** Regular technical assessments to identify skill gaps
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Capacity mismatch occurs when the available capacity at different stages of the development process is not aligned with actual demand patterns. This can manifest as some process stages being overwhelmed while others have excess capacity, creating an inefficient flow where resources are wasted while bottlenecks form elsewhere. Effective capacity matching requires understanding demand patterns and allocating resources accordingly.
 
-
 ## Indicators ⟡
 
 - Some team members or process stages are consistently overloaded while others have spare capacity
@@ -34,14 +33,11 @@ Capacity mismatch occurs when the available capacity at different stages of the 
 - Resource utilization varies dramatically across different roles or process steps
 - Adding resources to the team doesn't improve overall throughput
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.655">ⓘ</span>
 <br/>  When development capacity fails to meet user demand, it leads to delays in feature delivery and system updates, resulting in increased user frustration and a higher volume of support inquiries as users encounter obstacles in completing tasks.
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.931">ⓘ</span>
 <br/>  The tendency to focus on trivial issues during code reviews diverts resources and attention away from critical development tasks, leading to delays and imbalances in capacity allocation across the development process.
 - [Code Review Inefficiency](code-review-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.472, Strength: 0.912">ⓘ</span>
@@ -192,7 +188,6 @@ Capacity mismatch occurs when the available capacity at different stages of the 
 - **Queue Length Monitoring:** Track where work accumulates and where capacity sits idle
 - **Resource Allocation Review:** Assess whether resource distribution matches actual demand patterns
 - **Flow Efficiency Measurement:** Calculate overall process efficiency considering capacity constraints
-
 
 ## Examples
 

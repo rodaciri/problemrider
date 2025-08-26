@@ -26,7 +26,6 @@ layout: problem
 ## Description
 Slow development velocity represents a sustained reduction in the team's ability to deliver features, fix bugs, or maintain systems effectively. This problem encompasses both decreased productivity where overall team output systematically declines, and the team's consistent failure to meet deadlines and deliver value at a predictable pace. It is characterized by a growing backlog, missed deadlines, extended feature delivery times, and a general sense of frustration and stagnation within the team. Unlike temporary productivity dips, this represents a long-term decline that often emerges gradually as technical debt accumulates, team morale erodes, and systems become increasingly difficult to work with, creating a downward spiral that affects overall business outcomes.
 
-
 ## Indicators ⟡
 - The team consistently misses sprint goals or release deadlines.
 - Sprint velocity consistently decreases over multiple iterations.
@@ -38,16 +37,13 @@ Slow development velocity represents a sustained reduction in the team's ability
 - Team estimates for similar work items keep increasing over time.
 - More time is spent in meetings discussing problems than solving them.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.704">ⓘ</span>
 <br/>  The declining development velocity is exacerbated by a critical shortage of developers proficient in legacy technologies, leading to increased reliance on a limited pool of skills that hampers timely feature delivery and system maintenance.
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.687">ⓘ</span>
 <br/>  As development velocity declines, teams are pressured to prioritize immediate, essential tasks over exploration of innovative solutions, resulting in a stagnation of creative efforts that reflects their struggle to maintain productivity in the context of legacy systems.
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.555, Strength: 0.896">ⓘ</span>
 <br/>  The tendency to excessively focus on trivial code details during reviews diverts time and attention away from addressing critical functionality and design issues, ultimately leading to delays in feature delivery and a decline in overall productivity.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.546, Strength: 0.898">ⓘ</span>
@@ -235,7 +231,6 @@ Slow development velocity represents a sustained reduction in the team's ability
 - **Time Analysis:** Track how developers spend their time (coding vs. debugging vs. meetings vs. research).
 - **Developer Surveys:** Regular feedback about obstacles, frustrations, and productivity barriers.
 - **Work Item Analysis:** Compare current estimates and actual completion times to historical data.
-
 
 ## Examples
 A team is working on a new feature for their product. They estimate that it will take two sprints to complete. However, after four sprints, the feature is still not finished. The team is constantly blocked by a lack of clear requirements, a complex codebase, and a slow development environment. As a result, they are unable to make progress and the feature is eventually canceled.

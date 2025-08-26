@@ -26,7 +26,6 @@ layout: problem
 
 Difficulty quantifying benefits occurs when the value of technical improvements, refactoring work, and infrastructure investments cannot be easily measured or communicated in business terms, making it challenging to justify these activities compared to feature development with clear customer value. This measurement problem leads to systematic under-investment in technical health and long-term sustainability.
 
-
 ## Indicators ⟡
 
 - Technical improvement proposals lack compelling business justification
@@ -35,9 +34,7 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 - Benefits of past technical improvements are difficult to demonstrate
 - Management asks for quantified benefits that the team cannot provide
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.503, Strength: 0.731">ⓘ</span>
 <br/>  The lack of measurable ROI for technical improvements leads to underinvestment in refactoring, resulting in poor test coverage as critical areas of the codebase remain unaddressed and untested, ultimately increasing the risk of defects and system instability.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.736">ⓘ</span>
@@ -58,7 +55,6 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 <br/>  The inability to demonstrate the value of refactoring leads to a neglect of quality assurance practices, resulting in test debt that highlights the fragility of the product and further complicates the prioritization of necessary technical improvements.
 
 ## Root Causes ▼
-
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.803">ⓘ</span>
 <br/>  The tendency to provide large time estimates for minor changes highlights the underlying code complexity and risk, making it challenging to accurately assess the benefits of refactoring efforts compared to new features, ultimately skewing prioritization decisions against technical improvements.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.891">ⓘ</span>
@@ -81,7 +77,6 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 - **Benefit Realization Tracking:** Attempt to measure actual benefits from completed technical improvements
 - **Development Velocity Correlation:** Analyze correlation between technical investments and development productivity
 - **Cost of Technical Debt Analysis:** Measure costs associated with maintaining technical debt
-
 
 ## Examples
 

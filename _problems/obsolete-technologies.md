@@ -25,7 +25,6 @@ layout: problem
 
 Obsolete technologies refer to the use of outdated programming languages, frameworks, libraries, or development tools that are no longer actively maintained, have been superseded by better alternatives, or lack support for modern development practices. These technologies create barriers to implementing current best practices, make it difficult to find qualified developers, and often introduce security vulnerabilities. Legacy systems commonly suffer from this problem as they age and their technology stack becomes increasingly outdated.
 
-
 ## Indicators ⟡
 - Key dependencies have not been updated in several years
 - Official support for the technology stack has ended or is ending soon
@@ -33,9 +32,7 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 - It's difficult to hire developers with expertise in the current technology stack
 - Modern development tools and practices cannot be applied to the existing system
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.888">ⓘ</span>
 <br/>  The reliance on outdated tools and languages not only hampers the ability to attract new talent but also limits the existing workforce's proficiency, leading to a critical shortage of developers skilled in maintaining these systems, which ultimately results in operational bottlenecks.
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.561, Strength: 0.867">ⓘ</span>
@@ -59,7 +56,6 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 - **Vendor Communication:** Monitor announcements about end-of-life dates for critical technologies
 - **Developer Recruitment Metrics:** Track difficulty in finding qualified candidates for current technology stack
 - **Performance Benchmarking:** Compare system performance with modern alternatives
-
 
 ## Examples
 

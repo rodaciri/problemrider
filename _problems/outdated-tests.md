@@ -25,7 +25,6 @@ layout: problem
 
 Outdated tests occur when test code is not maintained alongside production code changes, resulting in tests that no longer accurately verify the intended behavior. These tests may pass when they should fail (false positives) or fail when the code is actually correct (false negatives). Outdated tests are worse than no tests because they provide false confidence in code quality while consuming maintenance effort and slowing down development with spurious failures.
 
-
 ## Indicators ⟡
 - Tests pass but the functionality they're supposed to verify is broken
 - Tests fail consistently for reasons unrelated to actual code defects
@@ -33,9 +32,7 @@ Outdated tests occur when test code is not maintained alongside production code 
 - Tests verify outdated business rules or deprecated functionality
 - Significant effort is spent maintaining and debugging tests rather than improving them
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.575, Strength: 0.814">ⓘ</span>
 <br/>  When tests are not updated in line with code changes, it often results in critical areas of the codebase lacking adequate test coverage, thereby exposing blind spots in quality assurance that further exacerbate the reliability issues of the system.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.684">ⓘ</span>
@@ -73,7 +70,6 @@ Outdated tests occur when test code is not maintained alongside production code 
 - **False Positive/Negative Analysis:** Identify tests that provide incorrect results about code quality
 - **Test Age Analysis:** Examine how long tests have gone without updates relative to code changes
 - **Developer Feedback:** Survey team members about their confidence in test reliability
-
 
 ## Examples
 

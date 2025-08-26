@@ -26,16 +26,13 @@ layout: problem
 ## Description
 Decision paralysis is a common problem in software development. It occurs when developers struggle to make choices without clear guidance. This can lead to a slowdown in development, a great deal of frustration for the development team, and a decline in team morale. Decision paralysis is often a sign of a lack of clear goals and priorities, a lack of autonomy, or a fear of failure.
 
-
 ## Indicators ⟡
 - The team is constantly asking for permission to make decisions.
 - The team is not making decisions in a timely manner.
 - The team is not taking ownership of their work.
 - The team is not happy with their work.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.705, Strength: 0.913">ⓘ</span>
 <br/>  The inability of developers to make timely decisions results in delayed responses and implementations, causing services that rely on these APIs to exceed their timeout thresholds and fail, thus indicating the underlying indecision affecting the overall system performance.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.702, Strength: 0.925">ⓘ</span>
@@ -132,7 +129,6 @@ Decision paralysis is a common problem in software development. It occurs when d
 - **Decision Log:** Keep a log of all decisions that are made and see how long it takes to make them.
 - **Developer Surveys:** Ask developers about their feelings about their level of autonomy.
 - **Team Morale:** Track team morale to see if it is being impacted by decision paralysis.
-
 
 ## Examples
 A team is working on a new feature. The team is not sure how to implement the feature, and they are not able to make a decision. The team is constantly asking for permission to make decisions, and they are not making any progress. The project is eventually canceled.

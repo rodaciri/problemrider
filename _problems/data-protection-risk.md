@@ -23,7 +23,6 @@ layout: problem
 
 Data protection risk occurs when systems inadequately safeguard personal, sensitive, or regulated data, creating exposure to legal penalties, regulatory sanctions, and reputational damage. This problem extends beyond technical security measures to include proper data governance, consent management, retention policies, and compliance with regulations like GDPR, HIPAA, or industry-specific standards. The risk is particularly acute in legacy system modernization where data handling practices may not have kept pace with evolving regulatory requirements.
 
-
 ## Indicators ⟡
 
 - Development teams unsure about which regulations apply to their data
@@ -34,9 +33,7 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 - Cross-border data transfer mechanisms that haven't been legally validated
 - Audit trails for data access and modifications that are incomplete or missing
 
-
 ## Symptoms ▲
-
 - [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.815">ⓘ</span>
 <br/>  The lack of proper safeguards for personal or sensitive data often results in the use of inadequate test data, as legacy systems fail to prioritize realistic data scenarios, thereby masking vulnerabilities and increasing exposure to legal and ethical issues during testing processes.
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.647">ⓘ</span>
@@ -58,7 +55,6 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 - Monitor regulatory compliance dashboards and metrics
 - Review data processing agreements with third-party vendors
 - Conduct penetration testing focused on data exposure scenarios
-
 
 ## Examples
 

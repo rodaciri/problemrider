@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Insufficient testing is a major cause of poor software quality. When a product is not thoroughly tested, it is likely to have a high number of bugs, which can lead to a poor user experience, a loss of trust, and a significant amount of rework. A comprehensive testing strategy should include a mix of automated and manual testing, and it should be integrated into the development process from the very beginning. Investing in testing is an investment in the quality and stability of the product.
 
-
 ## Indicators ⟡
 - The team has no automated tests.
 - The team has a low level of test coverage.
 - The team is constantly finding bugs in production.
 - The team is afraid to make changes to the codebase for fear of breaking something.
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.503, Strength: 0.755">ⓘ</span>
 <br/>  Inadequate testing processes fail to identify architectural weaknesses, resulting in constraints that hinder performance and maintainability, thus highlighting underlying quality issues in the system.
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.743">ⓘ</span>
@@ -48,7 +45,6 @@ Insufficient testing is a major cause of poor software quality. When a product i
 <br/>  Inadequate testing in legacy systems leads to undetected defects, which in turn results in non-compliance with evolving regulatory standards, as the systems fail to accurately validate their adherence to necessary requirements.
 
 ## Root Causes ▼
-
 - [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.826">ⓘ</span>
 <br/>  The sluggishness and unresponsiveness of user-facing features hinder thorough testing and user feedback, resulting in undetected defects that contribute to a high defect rate in production.
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.472, Strength: 0.928">ⓘ</span>
@@ -117,7 +113,6 @@ Insufficient testing is a major cause of poor software quality. When a product i
 - **Test Automation Reports:** Analyze reports from automated test runs to identify gaps or failures.
 - **Retrospectives:** Discuss testing effectiveness and identify areas for improvement in team retrospectives.
 - **Manual Test Case Review:** Review manual test cases to identify areas where automation could be introduced or coverage improved.
-
 
 ## Examples
 A new feature is released, and immediately, users report that a critical workflow is broken. Investigation reveals that while individual components were tested, the end-to-end flow involving multiple services was never tested in an integrated environment. In another case, a developer makes a small change to a utility function. Without unit tests for that function, they don't realize it has a side effect that breaks another, seemingly unrelated part of the application, leading to a regression bug in production. This problem often stems from a culture that prioritizes speed over quality, or a lack of understanding of the long-term benefits of a robust testing strategy. It can lead to significant technical debt and a constant state of firefighting.

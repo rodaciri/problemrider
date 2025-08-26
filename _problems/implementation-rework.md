@@ -25,7 +25,6 @@ layout: problem
 
 Implementation rework occurs when completed features or system components must be significantly rebuilt or reimplemented because the initial understanding of requirements, technical constraints, or system behavior was incorrect. This rework represents wasted development effort and extends project timelines, often frustrating both developers and stakeholders. Unlike normal iterative refinement, implementation rework involves fundamental changes that could have been avoided with better initial understanding or requirements analysis.
 
-
 ## Indicators ⟡
 
 - Features are frequently rebuilt from scratch rather than incrementally improved
@@ -34,16 +33,13 @@ Implementation rework occurs when completed features or system components must b
 - Stakeholders reject completed features because they don't meet actual needs
 - Development estimates consistently underestimate the need for rework
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.592">ⓘ</span>
 <br/>  The need for implementation rework often arises from rigid architectural constraints that hinder adaptability, leading to misunderstandings of requirements and necessitating costly revisions to features.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.554">ⓘ</span>
 <br/>  Constantly updated requirements indicate a lack of clear initial understanding, which leads to necessary implementation rework as teams struggle to align the evolving expectations with the existing codebase, thereby amplifying development delays and resource waste.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.903">ⓘ</span>
 <br/>  Insufficient initial project funding leads to rushed requirements gathering, resulting in misunderstandings that necessitate extensive rework of features and ultimately increase costs and delays.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.829">ⓘ</span>
@@ -62,7 +58,6 @@ Implementation rework occurs when completed features or system components must b
 - **Stakeholder Feedback Patterns:** Analyze feedback to identify recurring misunderstanding patterns
 - **Implementation Cycle Analysis:** Measure how many iterations features require before acceptance
 - **Developer Time Analysis:** Track time spent on rework vs. new development
-
 
 ## Examples
 

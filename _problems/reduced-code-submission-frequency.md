@@ -25,7 +25,6 @@ layout: problem
 
 Reduced code submission frequency occurs when developers intentionally batch multiple changes together or delay submitting code for review to avoid the overhead and frustration of frequent review cycles. While this might seem efficient from an individual perspective, it leads to larger, more complex changes that are harder to review effectively, increases integration risks, and reduces the collaborative benefits of frequent feedback.
 
-
 ## Indicators ⟡
 
 - Developers submit large pull requests containing multiple unrelated changes
@@ -34,9 +33,7 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 - Pull request sizes are consistently larger than team guidelines recommend
 - Developers express reluctance to submit work-in-progress or incremental changes
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.502, Strength: 0.747">ⓘ</span>
 <br/>  The tendency to delay code submissions fosters an environment where requirements can shift frequently, as developers are less engaged in the iterative feedback process, resulting in unclear priorities and increased rework as adaptations to these changes become necessary.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.779">ⓘ</span>
@@ -57,7 +54,6 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 <br/>  The practice of batching code changes and delaying submissions leads to reduced feedback and integration opportunities, causing frustration and burnout as developers feel overwhelmed and unsupported in navigating a legacy codebase riddled with persistent issues.
 
 ## Root Causes ▼
-
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.935">ⓘ</span>
 <br/>  Developers' difficulties in adopting an object-oriented mindset lead them to produce less modular and more complex code, which in turn results in longer preparation times for submissions and a tendency to batch changes to avoid cumbersome reviews, ultimately decreasing the frequency of code submissions.
 
@@ -68,7 +64,6 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 - **Developer Behavior Surveys:** Collect feedback on reasons for batching changes or delaying submissions
 - **Integration Frequency Measurement:** Assess how often code is integrated into main branches
 - **Collaboration Pattern Analysis:** Evaluate whether reduced submissions correlate with decreased team collaboration
-
 
 ## Examples
 

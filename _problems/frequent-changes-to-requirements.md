@@ -24,20 +24,17 @@ layout: problem
 ## Description
 Frequent changes to requirements occur when the project's scope and specifications are in a constant state of flux, even after development is underway. This is more than just agile adaptation; it's a sign of instability in the project's foundation. When requirements are not well-defined or agreed upon upfront, teams are forced to constantly pivot, leading to wasted work, missed deadlines, and a decline in team morale. This problem often points to deeper issues in communication, planning, and stakeholder alignment.
 
-
 ## Indicators ⟡
 - The project's scope is constantly expanding.
 - The team is frequently missing deadlines.
 - The team is constantly context-switching.
 - There is a lot of rework.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.720, Strength: 0.925">ⓘ</span>
 <br/>  Constant budget overruns lead to pressure on teams to deliver results quickly, prompting stakeholders to frequently alter requirements in an attempt to optimize project outcomes, which ultimately exacerbates rework and delays.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.690, Strength: 0.892">ⓘ</span>
@@ -476,7 +473,6 @@ Frequent changes to requirements occur when the project's scope and specificatio
 - **Project Management Metrics:** Monitor changes in project scope, estimated vs. actual completion times, and number of re-opened tasks.
 - **Team Retrospectives:** Discuss recurring issues related to changing requirements and their impact on the team.
 - **Stakeholder Interviews:** Ask stakeholders about their confidence in the current requirements and their understanding of the development process.
-
 
 ## Examples
 A mobile app development team is halfway through building a new user profile screen when the marketing department decides they need a completely different layout and additional fields to support a new campaign. The developers have to scrap much of their work and start over. Similarly, during the development of an API, the data model is constantly being revised by the product owner based on new insights from user research, forcing frequent database schema migrations and code refactoring. This problem is a classic challenge in software development, often stemming from a disconnect between business strategy and execution. While some changes are inevitable, frequent, unplanned changes can cripple a project's progress and team morale.

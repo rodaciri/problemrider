@@ -24,7 +24,6 @@ layout: problem
 
 Planning dysfunction occurs when project planning processes systematically produce unrealistic timelines, fail to account for project complexity and risk, or don't effectively coordinate resources and dependencies. This dysfunction manifests as plans that are consistently wrong, overly optimistic, or based on incomplete information about what the project actually requires. The resulting plans create false expectations, resource conflicts, and pressure that ultimately damages both project outcomes and team morale.
 
-
 ## Indicators ⟡
 
 - Project timelines are consistently missed by significant margins
@@ -33,9 +32,7 @@ Planning dysfunction occurs when project planning processes systematically produ
 - Risk assessment is superficial or ignored entirely during planning
 - Resource conflicts are discovered during execution rather than planning
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.772">ⓘ</span>
 <br/>  Frequent changes to requirements indicate planning dysfunction because inadequate initial assessments fail to capture project complexities, leading to an unstable foundation that necessitates ongoing adjustments as development progresses.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.831">ⓘ</span>
@@ -63,7 +60,6 @@ Planning dysfunction occurs when project planning processes systematically produ
 - **Risk Materialization Analysis:** Track how often identified risks actually impact projects
 - **Planning Process Effectiveness:** Assess quality and completeness of planning activities
 - **Team Confidence Surveys:** Ask team members about their confidence in project plans
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Increased bug count occurs when software changes consistently introduce new defects at a rate higher than normal development processes should produce. This problem manifests as a growing number of reported issues, frequent production incidents, and an overall decline in software quality. The increased defect rate often indicates underlying issues with development practices, code quality, or system architecture that make the software more prone to errors.
 
-
 ## Indicators ⟡
 
 - Bug reports are increasing over time despite similar development activity levels
@@ -34,9 +33,7 @@ Increased bug count occurs when software changes consistently introduce new defe
 - Testing discovers more defects than historically normal
 - Bug fix cycles are becoming longer and more complex
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.805">ⓘ</span>
 <br/>  The frequent introduction of new defects requires developers to spend more time on debugging and fixing issues rather than implementing new features, leading to a noticeable decline in overall team productivity as they become increasingly reactive to quality problems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.746">ⓘ</span>
@@ -71,7 +68,6 @@ Increased bug count occurs when software changes consistently introduce new defe
 - **Production Incident Tracking:** Monitor frequency and severity of production issues
 - **Customer Support Metrics:** Analyze support ticket volume and types of issues reported
 - **Code Quality Metrics:** Use static analysis tools to identify potentially problematic code areas
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Analysis paralysis occurs when development teams become trapped in endless research, analysis, and planning phases without transitioning to actual implementation work. The team continues gathering information, evaluating options, and refining their understanding but never feels confident enough to begin building solutions. This paralysis often stems from perfectionist tendencies, fear of making wrong decisions, or lack of clear criteria for when analysis is sufficient to proceed with implementation.
 
-
 ## Indicators ⟡
 
 - Research phases consistently exceed their planned duration
@@ -35,13 +34,11 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 - Analysis documents and proof-of-concepts accumulate without leading to production code
 - Team expresses uncertainty about when they have "enough" information to proceed
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.572, Strength: 0.930">ⓘ</span>
 <br/>  The presence of specific team members or processes acting as constraints limits decision-making and slows down the transition from research to implementation, resulting in teams becoming mired in prolonged analysis without delivering progress on development tasks.
 - [Bloated Class](bloated-class.md) <span class="info-tooltip" title="Confidence: 0.544, Strength: 0.934">ⓘ</span>
@@ -329,7 +326,6 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 - **Implementation Start Date Tracking:** Measure delays between planned and actual implementation start
 - **Analysis Output Review:** Evaluate whether analysis documents lead to actionable implementation plans
 - **Team Velocity Metrics:** Monitor whether research phases correlate with reduced development velocity
-
 
 ## Examples
 

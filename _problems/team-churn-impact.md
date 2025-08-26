@@ -26,7 +26,6 @@ layout: problem
 
 Team churn impact refers to the negative effects on code quality, consistency, and system knowledge that result from frequent changes in team composition. As developers leave, they take valuable system knowledge with them, while new team members bring different coding styles, practices, and assumptions. Without strong processes to manage this transition, the codebase gradually becomes inconsistent, undocumented decisions are forgotten, and the overall system becomes harder to maintain.
 
-
 ## Indicators ⟡
 - Significant differences in code style and approach between different parts of the system
 - Critical system knowledge exists only in the minds of specific individuals
@@ -34,9 +33,7 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 - Code review discussions frequently involve debates about historical design decisions
 - Documentation gaps in areas where key contributors have left
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.740">ⓘ</span>
 <br/>  The constant turnover of developers leads to inconsistent understanding and interpretation of project requirements, resulting in frequent updates and adjustments that disrupt the development process and indicate underlying issues with team stability and knowledge continuity.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.656">ⓘ</span>
@@ -47,7 +44,6 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 <br/>  Frequent changes in team composition lead to inconsistent coding practices and knowledge gaps, causing developers to spend less time on refining features, which directly results in diminished quality of the delivered user experience.
 
 ## Root Causes ▼
-
 - [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.863">ⓘ</span>
 <br/>  The increasing fragility of the software system leads to a higher likelihood of errors during modifications, which, when compounded by the varying practices and knowledge of new team members, results in inconsistent implementations that further degrade code quality.
 
@@ -57,7 +53,6 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 - **Code Consistency Analysis:** Use tools to measure style and pattern consistency across the codebase
 - **Onboarding Time Metrics:** Track how long new team members take to become productive
 - **Documentation Coverage:** Assess what critical system knowledge is properly documented
-
 
 ## Examples
 

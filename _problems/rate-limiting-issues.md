@@ -26,7 +26,6 @@ layout: problem
 
 Rate limiting issues occur when mechanisms designed to control request frequency either block legitimate traffic or fail to effectively prevent abuse and overload. Poor rate limiting configuration can degrade user experience, allow system overload during traffic spikes, or create unfair resource allocation among different types of users or applications.
 
-
 ## Indicators ⟡
 
 - Legitimate users frequently hit rate limits during normal usage
@@ -35,9 +34,7 @@ Rate limiting issues occur when mechanisms designed to control request frequency
 - Rate limiting triggers inconsistently across different system components
 - Performance issues occur when rate limiting is applied or removed
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.604">ⓘ</span>
 <br/>  The misconfiguration and ineffectiveness of rate limiting mechanisms within a legacy system often stem from inherent architectural constraints, which restrict the ability to implement flexible and adaptive controls, thereby serving as a clear indicator of underlying performance and scalability issues.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.599">ⓘ</span>
@@ -52,7 +49,6 @@ Rate limiting issues occur when mechanisms designed to control request frequency
 <br/>  Misconfigured rate limiting can lead to excessive requests being sent due to repeated failures in processing legitimate requests, which in turn amplifies the need for repeated data fetches instead of utilizing cached responses, resulting in increased latency and system strain.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.405, Strength: 0.866">ⓘ</span>
 <br/>  Long-running transactions can lead to resource contention and increased response times, which in turn trigger rate limiting mechanisms to activate prematurely, blocking legitimate requests and exacerbating the perceived issue of request handling.
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.900">ⓘ</span>
@@ -98,7 +94,6 @@ Rate limiting issues occur when mechanisms designed to control request frequency
 - **System Load Correlation:** Correlate rate limiting effectiveness with system performance metrics
 - **API Usage Pattern Analysis:** Analyze legitimate usage patterns to validate rate limit appropriateness
 - **Rate Limiting Algorithm Testing:** Test different rate limiting approaches under various load conditions
-
 
 ## Examples
 

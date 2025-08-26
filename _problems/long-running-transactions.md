@@ -25,16 +25,13 @@ layout: problem
 ## Description
 Long-running transactions are database transactions that remain open for an extended period of time. This can be caused by a variety of factors, from inefficient queries and a lack of proper indexing to application logic that holds transactions open while performing other tasks. Long-running transactions can cause a number of problems, including holding locks on database resources, preventing other queries from executing, and increasing the risk of deadlocks. They are a common source of performance and stability issues in database-driven applications.
 
-
 ## Indicators ⟡
 - The database is slow, even when there are no obvious signs of high CPU or memory usage.
 - You are seeing a high number of deadlocks in your database logs.
 - You are getting complaints from users about slow performance.
 - You are seeing a high number of timeout errors in your logs.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.674, Strength: 0.880">ⓘ</span>
 <br/>  Long-running transactions can cause prolonged database locks that delay responses to API requests, leading to upstream services timing out when they do not receive timely feedback.
 - [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.629, Strength: 0.884">ⓘ</span>
@@ -112,7 +109,6 @@ Long-running transactions are database transactions that remain open for an exte
 - **Transaction Log Monitoring:** Monitor the size and growth rate of transaction logs.
 - **Lock Monitoring:** Use database tools to identify currently held locks and which transactions are holding them.
 - **Application Logging:** Add logging to the application to track the start and end times of transactions.
-
 
 ## Examples
 An e-commerce application has a checkout process that starts a database transaction at the beginning of the process. If the user abandons the checkout halfway through, the transaction remains open until the session times out, holding locks on inventory tables and preventing other users from purchasing those items. In another case, a nightly batch job for data synchronization wraps its entire operation in a single transaction. If the job processes millions of records, this single transaction can run for hours, consuming significant resources and potentially blocking other database operations. This problem is often a result of insufficient understanding of database transaction semantics or poor application design. It can lead to severe performance bottlenecks and data consistency issues, especially in high-concurrency environments.

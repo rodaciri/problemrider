@@ -26,7 +26,6 @@ layout: problem
 
 Missing end-to-end tests occur when testing strategies focus on individual components or features without verifying complete user workflows from start to finish. End-to-end tests simulate real user interactions across the entire system, including user interfaces, business logic, databases, and external integrations. Without these tests, applications may work correctly at the component level but fail when users attempt to complete actual business processes, leading to critical workflow failures in production.
 
-
 ## Indicators ⟡
 - Components work individually but complete user workflows fail
 - Users report being unable to complete common tasks despite individual features working
@@ -34,13 +33,11 @@ Missing end-to-end tests occur when testing strategies focus on individual compo
 - Integration issues appear only when following complete user journeys
 - Production issues that are difficult to reproduce in isolated testing environments
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.903">ⓘ</span>
 <br/>  Insufficient production monitoring hinders the early detection of integration issues, allowing undetected workflow-breaking bugs to propagate through the system and reach production without comprehensive end-to-end testing.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.944">ⓘ</span>
@@ -80,7 +77,6 @@ Missing end-to-end tests occur when testing strategies focus on individual compo
 - **User Feedback Analysis:** Monitor customer reports about inability to complete tasks
 - **Workflow Success Rate Monitoring:** Track completion rates for critical business processes in production
 - **Cross-System Bug Detection:** Identify issues that occur only when multiple components interact in sequence
-
 
 ## Examples
 

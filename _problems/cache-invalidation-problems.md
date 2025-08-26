@@ -22,7 +22,6 @@ layout: problem
 
 Cache invalidation problems occur when cached data is not properly updated or removed when the underlying data changes, resulting in applications serving stale or incorrect information. This is a fundamental challenge in distributed systems and applications that use caching for performance optimization. Poor cache invalidation can lead to data inconsistency, incorrect business logic execution, and user-facing errors that are difficult to reproduce and debug.
 
-
 ## Indicators ⟡
 
 - Users see outdated information that should have been updated
@@ -31,9 +30,7 @@ Cache invalidation problems occur when cached data is not properly updated or re
 - Cache hit ratios are high but data accuracy is poor
 - Manual cache clearing temporarily fixes data inconsistency issues
 
-
 ## Symptoms ▲
-
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.687">ⓘ</span>
 <br/>  Stale cached data can cause repeated requests for resource allocation without proper release, leading to unreleased system resources as a result of inconsistent states and application logic failures in legacy systems.
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.410, Strength: 0.815">ⓘ</span>
@@ -48,7 +45,6 @@ Cache invalidation problems occur when cached data is not properly updated or re
 <br/>  The reliance on outdated or unrealistic test data fails to trigger cache invalidation mechanisms, resulting in tests that do not expose inconsistencies between cached data and the underlying source, thereby highlighting the underlying cache invalidation issue.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.500, Strength: 0.890">ⓘ</span>
 <br/>  Long-running transactions prevent timely updates to the underlying data source, causing the cached data to become outdated and leading to inconsistencies that confuse users and disrupt application functionality.
 - [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.899">ⓘ</span>
@@ -72,7 +68,6 @@ Cache invalidation problems occur when cached data is not properly updated or re
 - **Cache Invalidation Logging:** Log cache invalidation events to identify missed or failed invalidations
 - **Automated Consistency Checks:** Implement periodic checks that verify cache-source data consistency
 - **Integration Testing:** Test scenarios that involve data updates and cache invalidation
-
 
 ## Examples
 

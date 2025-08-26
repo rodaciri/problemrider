@@ -26,7 +26,6 @@ layout: problem
 
 Database connection leaks occur when applications open database connections but fail to properly close them when they are no longer needed. This leads to the gradual depletion of the connection pool, eventually causing new database operations to fail when no connections are available. Connection leaks are particularly problematic in high-traffic applications and can cause complete service outages that require application restarts to resolve.
 
-
 ## Indicators ⟡
 
 - Application fails to execute database queries with "connection pool exhausted" errors
@@ -35,9 +34,7 @@ Database connection leaks occur when applications open database connections but 
 - Database operations timeout or fail after the application has been running for a period
 - Connection pool metrics show high utilization with low throughput
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.638, Strength: 0.830">ⓘ</span>
 <br/>  The failure to properly close database connections leads to exhaustion of the connection pool, causing delays in response times that exceed the configured timeout limits for services relying on API interactions, thereby resulting in upstream timeouts.
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.468, Strength: 0.799">ⓘ</span>
@@ -69,7 +66,6 @@ Database connection leaks occur when applications open database connections but 
 - **Resource Leak Detection:** Use profiling tools to identify unreleased database connections
 - **Load Testing:** Run sustained load tests to identify connection leak patterns
 - **Database Server Monitoring:** Monitor active connections at the database server level
-
 
 ## Examples
 

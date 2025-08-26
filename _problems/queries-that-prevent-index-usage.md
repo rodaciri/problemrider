@@ -23,20 +23,17 @@ layout: problem
 ## Description
 Even when appropriate indexes exist, certain query patterns can prevent the database from using them effectively, leading to slow performance. This can happen when functions are applied to indexed columns, when data types don't match, or when the query optimizer is otherwise unable to see that an index could satisfy the query. Writing queries that are "index-friendly" is a crucial skill for developers working with databases, as it can have a dramatic impact on application performance.
 
-
 ## Indicators ⟡
 - Queries are slow, even though they are using an index.
 - The database is not using an index that you expect it to use.
 - The database is using a full table scan, even though an index is available.
 - The database is using a less efficient index than you expect it to use.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [High Number of Database Queries](high-number-of-database-queries.md) <span class="info-tooltip" title="Confidence: 0.578, Strength: 0.930">ⓘ</span>
 <br/>  An unexpectedly high number of database queries can lead to inefficient query structures that bypass index utilization, as the complexity and volume of requests may force the system to resort to full-table scans instead of leveraging available indexes for optimized performance in legacy systems.
 - [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.824">ⓘ</span>
@@ -67,7 +64,6 @@ Even when appropriate indexes exist, certain query patterns can prevent the data
 - **Database Slow Query Logs:** Configure your database to log slow queries and regularly review these logs.
 - **Automated Query Performance Tools:** Many APM tools or database monitoring solutions can identify inefficient queries and suggest improvements.
 - **Code Review:** Developers should be aware of common patterns that prevent index usage during code reviews.
-
 
 ## Examples
 A user search feature queries a `users` table with `WHERE LOWER(email) = 'john.doe@example.com'`. Even though `email` is indexed, the `LOWER()` function prevents the index from being used, leading to a full table scan. Rewriting it as `WHERE email ILIKE 'john.doe@example.com'` (if case-insensitive search is needed and supported by the database) or ensuring the application handles case sensitivity before the query can fix this. In another case, a report query uses `WHERE product_code LIKE '%ABC%'`. An index on `product_code` exists, but the leading wildcard prevents its use. If the search pattern is always a suffix, a reverse index could be used, or the query rewritten if possible. This problem highlights the importance of understanding how database optimizers work and writing queries that allow them to leverage existing indexes effectively. It's a common source of performance bottlenecks, especially in applications with complex reporting or search functionalities.

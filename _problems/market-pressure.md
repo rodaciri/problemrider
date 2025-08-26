@@ -25,7 +25,6 @@ layout: problem
 
 Market pressure occurs when competitive forces, regulatory changes, economic conditions, or customer demands create external pressure that drives internal decision-making in ways that may compromise technical quality, team sustainability, or long-term strategic goals. While market responsiveness is important, excessive market pressure can lead to short-term thinking that creates technical problems and organizational dysfunction.
 
-
 ## Indicators ⟡
 
 - Project priorities change frequently based on competitor actions
@@ -34,16 +33,13 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 - Customer demands override internal technical constraints and best practices
 - Regulatory changes force rapid system modifications
 
-
 ## Symptoms ▲
-
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.627">ⓘ</span>
 <br/>  Rushed decisions and scope changes driven by external market pressures often lead to incomplete or poorly implemented features in legacy systems, resulting in user frustration and an increased frequency of support requests as users struggle to navigate the inadequacies.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.610">ⓘ</span>
 <br/>  External competitive forces lead stakeholders to impose hurried changes to project requirements, resulting in constant updates that create rework and delays in legacy systems.
 
 ## Root Causes ▼
-
 - [Vendor Relationship Strain](vendor-relationship-strain.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.918">ⓘ</span>
 <br/>  Tensions and conflicts with external vendors over misaligned expectations and poor communication lead to rushed decisions and scope changes in legacy systems, exacerbating market pressures and hindering timely, effective responses to competitive forces.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.898">ⓘ</span>
@@ -60,7 +56,6 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 - **Quality Impact Assessment:** Measure correlation between market pressure and quality issues
 - **Team Stress Indicators:** Monitor team workload and stress levels during market-driven initiatives
 - **Customer Satisfaction vs. Technical Health:** Balance customer satisfaction with technical sustainability metrics
-
 
 ## Examples
 

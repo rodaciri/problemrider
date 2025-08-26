@@ -26,7 +26,6 @@ layout: problem
 
 Feature bloat occurs when products accumulate numerous features beyond their core functionality, creating complexity that obscures the primary value proposition. This typically results from an inability to say "no" to feature requests, lack of clear product vision, or attempting to satisfy every possible user need. While individual features may seem valuable, collectively they create cognitive overhead for users, increase maintenance burden for developers, and dilute the product's competitive advantage in its primary use case.
 
-
 ## Indicators ⟡
 
 - Product interface is cluttered with features that most users never discover or use
@@ -35,9 +34,7 @@ Feature bloat occurs when products accumulate numerous features beyond their cor
 - Development team spends significant time maintaining features that provide little business value
 - Users frequently ask "how do I just do [basic core function]?" despite extensive feature set
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.648">ⓘ</span>
 <br/>  Constantly changing requirements often arise from an attempt to accommodate an overwhelming number of features, leading to confusion among stakeholders about priorities and functionality, which in turn triggers rework and delays in development.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.694">ⓘ</span>
@@ -52,7 +49,6 @@ Feature bloat occurs when products accumulate numerous features beyond their cor
 <br/>  The overwhelming complexity of excessive features leads to unclear priorities and conflicting stakeholder demands, resulting in confusion and inefficiency within the team as they struggle to align on a coherent product vision.
 
 ## Root Causes ▼
-
 - [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.945">ⓘ</span>
 <br/>  Excessive spending on additional features, driven by the need to justify budget increases, leads to a complex product that strays from its core value, ultimately confusing users and diluting its effectiveness.
 
@@ -64,7 +60,6 @@ Feature bloat occurs when products accumulate numerous features beyond their cor
 - **Competitive Analysis:** Compare your product complexity with successful focused competitors
 - **New User Success Metrics:** Track how quickly new users achieve their first successful outcome
 - **Development Time Allocation:** Analyze how much development effort goes to core vs. peripheral features
-
 
 ## Examples
 

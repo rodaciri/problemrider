@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Convenience-driven development is a development practice where developers choose the easiest and most convenient solution, rather than the best solution. This often leads to a gradual degradation of the codebase, as developers take shortcuts and make design decisions that are not in the best long-term interest of the project. Convenience-driven development is often a sign of a lack of experience or a lack of discipline on the part of the development team.
 
-
 ## Indicators ⟡
 - The codebase is full of hacks and workarounds.
 - The design of the codebase is inconsistent.
 - There is a lot of duplicated code.
 - The codebase is difficult to understand and maintain.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.594, Strength: 0.874">ⓘ</span>
 <br/>  The preference for convenient solutions in development often leads to neglecting best practices and thorough documentation, resulting in a workforce ill-equipped to maintain legacy systems due to a lack of familiarity with the original technologies used.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.878">ⓘ</span>
@@ -107,7 +104,6 @@ Convenience-driven development is a development practice where developers choose
 - **Code Reviews:** Look for code that is poorly designed and difficult to understand.
 - **Static Analysis Tools:** Use tools to identify code smells, such as duplicated code and large classes.
 - **Developer Surveys:** Ask developers if they feel like they are able to write high-quality code.
-
 
 ## Examples
 A developer needs to add a new feature to a legacy system. The developer is under pressure to deliver the feature as quickly as possible. The developer decides to copy and paste a large block of code from another part of the system, rather than taking the time to refactor the code and create a new, reusable component. This saves the developer a few hours of work in the short term, but it adds to the technical debt of the system and makes it more difficult to maintain in the long term.

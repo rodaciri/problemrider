@@ -25,7 +25,6 @@ layout: problem
 
 Shadow systems are informal, unofficial applications, tools, or processes that teams create to work around limitations in official systems. While often born from legitimate needs and good intentions, these systems operate outside of organizational oversight, lack proper documentation, security controls, and maintenance procedures. They create hidden dependencies, compliance risks, and potential points of failure that the organization is not prepared to handle.
 
-
 ## Indicators ⟡
 
 - Teams use homegrown tools or spreadsheets instead of official enterprise systems
@@ -34,9 +33,7 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 - IT department is unaware of critical business tools being used by teams
 - Official reports don't match what teams are actually using for decision-making
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.541, Strength: 0.796">ⓘ</span>
 <br/>  The proliferation of unauthorized alternative solutions leads to a fragmented technology landscape that complicates knowledge transfer and increases reliance on a diminishing pool of developers familiar with outdated systems, ultimately creating maintenance bottlenecks and single points of failure.
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.489, Strength: 0.823">ⓘ</span>
@@ -79,7 +76,6 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 - **Access Log Review:** Analyze what systems and tools employees actually use
 - **Business Process Interviews:** Interview teams about their actual work processes
 - **Security Vulnerability Assessments:** Scan for unauthorized applications and data stores
-
 
 ## Examples
 

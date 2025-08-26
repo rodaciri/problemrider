@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Feature creep without refactoring is the process of continuously adding new features to a codebase without taking the time to refactor and improve the design. This leads to a gradual degradation of the codebase, making it more and more difficult to maintain and extend. It is a common problem in software development, and it is often driven by a desire to deliver new features as quickly as possible.
 
-
 ## Indicators ⟡
 - The codebase is becoming increasingly complex and difficult to understand.
 - It is taking longer and longer to add new features.
 - The number of bugs is increasing.
 - Developers are becoming more and more frustrated with the codebase.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.489, Strength: 0.748">ⓘ</span>
 <br/>  The continuous addition of new features without corresponding refactoring often leads to increasingly complex and unmanageable code, which in turn discourages new developers from engaging with the legacy system, creating a critical shortage of skilled personnel needed for maintenance.
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.759">ⓘ</span>
@@ -64,7 +61,6 @@ Feature creep without refactoring is the process of continuously adding new feat
 <br/>  The continuous addition of features without refactoring often leads to complex and fragmented code, which increases the likelihood of unreleased resources as developers neglect proper resource management amidst the growing technical debt.
 
 ## Root Causes ▼
-
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.927">ⓘ</span>
 <br/>  The lack of proper data encapsulation leads to tightly coupled components that become increasingly difficult to modify, making it challenging to refactor the codebase as new features are added, ultimately resulting in a chaotic accumulation of functionality without design improvement.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.915">ⓘ</span>
@@ -74,7 +70,6 @@ Feature creep without refactoring is the process of continuously adding new feat
 - **Code Metrics Tools:** Use tools to measure code complexity, class size, and other metrics.
 - **Code Reviews:** Look for code that is difficult to understand and review.
 - **Static Analysis Tools:** Use tools to identify code smells, such as large classes and long methods.
-
 
 ## Examples
 A startup is building a new social media application. The team is under a lot of pressure to deliver new features as quickly as possible. They are constantly adding new features to the codebase without taking the time to refactor it. As a result, the codebase is becoming more and more complex and difficult to maintain. The team is starting to experience a slowdown in development velocity, and the number of bugs is increasing. If they don't start taking the time to refactor the code, they will eventually reach a point where it is impossible to add new features.

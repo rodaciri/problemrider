@@ -23,16 +23,13 @@ layout: problem
 ## Description
 Memory swapping is a process where the operating system moves a block of memory (a "page") from RAM to disk to free up RAM for other processes. While this allows the system to continue functioning when it is low on memory, it comes at a significant performance cost, as accessing data from disk is much slower than accessing it from RAM. Frequent memory swapping is a strong indicator that a system does not have enough physical memory for its workload, and it can lead to a dramatic decrease in application performance.
 
-
 ## Indicators ⟡
 - The server is slow, even when there are no obvious signs of high CPU usage.
 - The server is using a lot of disk I/O, even when there is no heavy database load.
 - The server is unresponsive or sluggish.
 - You are getting complaints from users about slow performance.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.536, Strength: 0.749">ⓘ</span>
 <br/>  When the database server resorts to disk swap space due to insufficient physical memory, the increased latency in data retrieval can lead to upstream services timing out, as they cannot receive timely responses during peak load conditions.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.509, Strength: 0.782">ⓘ</span>
@@ -68,7 +65,6 @@ Memory swapping is a process where the operating system moves a block of memory 
 - **Database Monitoring Tools:** Many database-specific monitoring tools will report memory usage and swap activity.
 - **Cloud Provider Metrics:** If using a cloud-managed database, check the cloud provider's metrics for swap usage.
 - **Alerting:** Set up alerts for high swap usage or high I/O wait times on database servers.
-
 
 ## Examples
 A PostgreSQL database server, initially provisioned with 8GB of RAM, starts experiencing severe slowdowns after a year of operation. Investigation reveals that the `shared_buffers` setting was increased to 6GB, and the `work_mem` for many concurrent queries now exceeds the remaining physical memory, forcing the system to swap heavily. In another case, a Java application running on the same server as a MySQL database has a memory leak. Over several days, the Java application consumes more and more RAM, eventually pushing the MySQL database into heavy swapping, leading to application outages. This problem is particularly insidious because it can develop gradually as data volumes grow or application usage increases. It often indicates a fundamental resource bottleneck that needs to be addressed by adding more RAM, optimizing database configuration, or reducing memory consumption.

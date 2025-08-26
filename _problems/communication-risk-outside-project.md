@@ -25,7 +25,6 @@ layout: problem
 
 Communication risk outside the project occurs when there is inadequate information flow between the project team and external stakeholders, including customers, executives, other departments, and vendors. This creates situations where stakeholders have unrealistic expectations, are surprised by project outcomes, or make decisions based on outdated or incomplete information. Poor external communication can damage relationships, reduce support for the project, and lead to misaligned business decisions.
 
-
 ## Indicators ⟡
 
 - Stakeholders express surprise about project status, delays, or changes
@@ -34,9 +33,7 @@ Communication risk outside the project occurs when there is inadequate informati
 - Important project information is not shared beyond the immediate team
 - Stakeholder feedback is not incorporated into project planning and execution
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.747">ⓘ</span>
 <br/>  Frequent updates to project requirements often stem from external stakeholders' lack of awareness about the current project status, leading to miscommunication and the need for adjustments that create rework and delays.
 - [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.689">ⓘ</span>
@@ -63,7 +60,6 @@ Communication risk outside the project occurs when there is inadequate informati
 - **Communication Frequency Analysis:** Track how often external stakeholders receive project updates
 - **Surprise Event Tracking:** Document instances where stakeholders are caught off-guard by project developments
 - **Stakeholder Engagement Measurement:** Assess level of stakeholder involvement and input in project decisions
-
 
 ## Examples
 

@@ -26,7 +26,6 @@ layout: problem
 
 Perfectionist review culture occurs when teams develop an expectation that code must be perfect before it can be approved, leading to excessive focus on minor improvements and theoretical optimizations rather than practical, meaningful enhancements. This culture creates extended review cycles where reviewers continuously find new ways to improve code that is already functional and well-written, prioritizing perfection over progress and delivery.
 
-
 ## Indicators ⟡
 
 - Reviews continue finding improvements even after code meets functional requirements
@@ -35,13 +34,11 @@ Perfectionist review culture occurs when teams develop an expectation that code 
 - Team discussions emphasize code elegance over shipping working features
 - Reviews take longer than implementation for straightforward changes
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.898">ⓘ</span>
 <br/>  The team's lack of design skills leads to poorly structured code, which necessitates excessive revisions during reviews as they strive for perfection instead of addressing fundamental issues, thus perpetuating a culture of perfectionism in the review process.
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.719">ⓘ</span>
@@ -62,7 +59,6 @@ Perfectionist review culture occurs when teams develop an expectation that code 
 - **Review Duration vs Implementation Time:** Compare time spent reviewing versus original development
 - **Feature Delivery Timeline Analysis:** Track whether perfectionist reviews impact delivery schedules
 - **Team Satisfaction Surveys:** Assess whether team members feel review standards are reasonable
-
 
 ## Examples
 

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Maintenance overhead is the excessive effort required to keep a software system operational and up-to-date. This is a common problem in legacy systems, where years of accumulated technical debt and design compromises have made the codebase difficult to work with. When maintenance overhead is high, the development team is forced to spend most of its time on non-productive tasks, such as fixing bugs, applying security patches, and making minor tweaks to existing functionality. This leaves little time for innovation and new feature development, which can have a significant impact on the business.
 
-
 ## Indicators ⟡
 - The team's backlog is dominated by maintenance tasks.
 - It takes a long time to make even simple changes to the system.
 - The team is constantly context-switching between different maintenance tasks.
 - There is a high rate of regression bugs, where a change to one part of the system breaks something else.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.508, Strength: 0.737">ⓘ</span>
 <br/>  The excessive maintenance demands of the existing system, driven by duplicated code and a lack of reusable components, limit the availability of developers familiar with outdated technologies, thereby creating bottlenecks and increasing reliance on a few individuals for essential system upkeep.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.500, Strength: 0.741">ⓘ</span>
@@ -66,7 +63,6 @@ Maintenance overhead is the excessive effort required to keep a software system 
 <br/>  The excessive time spent maintaining a legacy system is exacerbated by the reliance on outdated and incomplete documentation, which leads to duplicated efforts and hinders the creation of reusable components, highlighting the critical need for better knowledge management.
 
 ## Root Causes ▼
-
 - [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.934">ⓘ</span>
 <br/>  Excessive API latency forces developers to spend additional time creating workarounds and redundant code to mitigate performance issues, ultimately increasing maintenance overhead due to the proliferation of duplicated logic and a lack of efficient, reusable components.
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.866">ⓘ</span>
@@ -83,7 +79,6 @@ Maintenance overhead is the excessive effort required to keep a software system 
 - **Bug Density:** Measure the number of bugs per line of code. A high bug density is a sign that the codebase is difficult to maintain.
 - **Code Churn:** Analyze the history of the codebase to see which files are being modified most frequently. High churn in certain files can indicate that they are a source of high maintenance overhead.
 - **Developer Surveys:** Ask developers about their experience with maintenance work. Their feedback can be a valuable source of information.
-
 
 ## Examples
 A team is responsible for maintaining a large, monolithic application. The application is written in an old version of a programming language, and it has a lot of duplicated code. The team spends most of its time fixing bugs and making small changes to the application. They have very little time for new feature development. As a result, the application is falling behind its competitors, and the business is starting to lose market share.

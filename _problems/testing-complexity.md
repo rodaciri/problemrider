@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Testing complexity is a common problem in software systems with a high degree of code duplication. It occurs when quality assurance (QA) must verify the same functionality in multiple locations. This increases the testing effort and the risk of missing bugs. Testing complexity is often a sign of a poorly designed system with a high degree of code duplication.
 
-
 ## Indicators ⟡
 - The QA team is spending a lot of time testing the same functionality over and over again.
 - The QA team is not able to keep up with the pace of development.
 - The QA team is missing a lot of bugs.
 - The QA team is not happy with the quality of the system.
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.674, Strength: 0.879">ⓘ</span>
 <br/>  In legacy systems, the increased effort required to verify functionality across multiple locations often leads to inadequate test coverage in critical areas, as teams may prioritize testing the most visible features while neglecting less accessible code, ultimately exposing the system to undetected bugs.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.639, Strength: 0.897">ⓘ</span>
@@ -112,7 +109,6 @@ Testing complexity is a common problem in software systems with a high degree of
 - **Code Coverage Analysis:** Analyze your code coverage to identify areas of the system that are not being tested.
 - **QA Team Feedback:** Listen to feedback from the QA team to identify areas of the system that are difficult to test.
 - **Bug Triage:** Analyze your bug triage process to identify bugs that are being missed by the QA team.
-
 
 ## Examples
 An e-commerce website has a checkout flow that is duplicated in two different places. The QA team has to test the checkout flow in both places to make sure that it is working correctly. This is a waste of time and effort, and it increases the risk of missing bugs. The problem could be solved by creating a single, reusable checkout flow that is used in both places.

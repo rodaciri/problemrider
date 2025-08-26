@@ -26,7 +26,6 @@ layout: problem
 
 Reduced feature quality occurs when delivered functionality lacks the polish, refinement, and attention to detail that users expect, often due to time constraints or competing priorities. This manifests as features that work but provide poor user experiences, have rough edges, or lack the thoughtful design and implementation that distinguish high-quality software. The problem indicates that development processes aren't allowing sufficient time for quality refinement.
 
-
 ## Indicators ⟡
 
 - User feedback frequently mentions usability issues or incomplete functionality
@@ -35,13 +34,11 @@ Reduced feature quality occurs when delivered functionality lacks the polish, re
 - Features work but require workarounds or have frustrating limitations
 - Quality assurance identifies many polish issues that don't get addressed
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.916">ⓘ</span>
 <br/>  The difficulty in modifying the existing code without introducing new bugs forces developers to allocate less time for thorough testing and refinement, ultimately compromising the quality of features delivered to users.
 - [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.452, Strength: 0.902">ⓘ</span>
@@ -218,7 +215,6 @@ Reduced feature quality occurs when delivered functionality lacks the polish, re
 - **Feature Completion Surveys:** Ask stakeholders about satisfaction with delivered feature quality
 - **User Experience Testing:** Conduct usability testing to identify quality issues
 - **Competitive Analysis:** Compare feature quality with industry standards and competitors
-
 
 ## Examples
 

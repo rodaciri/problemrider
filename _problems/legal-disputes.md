@@ -26,7 +26,6 @@ layout: problem
 
 Legal disputes occur when disagreements between parties in software development projects escalate beyond normal business negotiations to formal legal proceedings. These disputes can involve vendors, clients, employees, or partners and typically arise from contract ambiguities, unmet expectations, intellectual property issues, or payment disagreements. Legal disputes are costly, time-consuming, and damaging to business relationships.
 
-
 ## Indicators ⟡
 
 - Formal legal notices or cease-and-desist letters are exchanged
@@ -35,9 +34,7 @@ Legal disputes occur when disagreements between parties in software development 
 - Work stops or is threatened to stop due to legal disagreements
 - Insurance claims are filed related to project issues
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.643, Strength: 0.875">ⓘ</span>
 <br/>  Persistent legal disputes create an environment of uncertainty and pressure, leading to increased stress and frustration among developers as they grapple with unclear responsibilities and shifting priorities, ultimately resulting in disengagement and burnout.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.634, Strength: 0.888">ⓘ</span>
@@ -84,7 +81,6 @@ Legal disputes occur when disagreements between parties in software development 
 - **Legal Consultation Frequency:** Monitor how often legal advice is sought for project issues
 - **Dispute Resolution Effectiveness:** Assess how well conflicts are resolved before escalation
 - **Industry Benchmarking:** Compare dispute rates with industry standards
-
 
 ## Examples
 

@@ -24,7 +24,6 @@ layout: problem
 ## Description
 High technical debt is the implied cost of rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer. This debt accumulates when organizations fail to allocate dedicated time, resources, or budget for improving existing code quality, addressing technical debt, or modernizing system architecture. This creates a cycle where technical debt accumulates faster than it can be addressed, eventually making the system increasingly difficult and expensive to maintain. Technical debt can be a major drag on productivity, and it can make it difficult and risky to add new features or make changes to the codebase.
 
-
 ## Indicators ⟡
 - The team is constantly fixing bugs instead of building new features.
 - It takes a long time to onboard new developers.
@@ -35,9 +34,7 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 - Technical debt items are identified but never prioritized in sprint planning.
 - Developers express frustration about not having time to "clean up" code.
 
-
 ## Symptoms ▲
-
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.669, Strength: 0.876">ⓘ</span>
 <br/>  The accumulation of design shortcuts creates a complex and frustrating codebase that requires excessive troubleshooting and maintenance, leading to developer dissatisfaction and burnout as they struggle to meet deadlines and resolve persistent issues.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.637, Strength: 0.845">ⓘ</span>
@@ -158,7 +155,6 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 - **Retrospectives:** Discuss recurring issues and identify if they stem from technical debt.
 - **Sprint Planning Analysis:** Track what percentage of sprint capacity is allocated to technical improvements.
 - **Velocity Trends:** Track whether development velocity is declining over time due to increasing technical complexity.
-
 
 ## Examples
 A legacy e-commerce platform has a highly coupled monolithic architecture. Adding a new payment gateway requires changes across multiple, seemingly unrelated modules, leading to weeks of development and several new bugs in production. In another case, a function that was originally designed for a simple task has been modified over time with numerous `if-else` statements and special cases, making it thousands of lines long and impossible to understand or test.

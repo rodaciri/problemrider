@@ -26,7 +26,6 @@ layout: problem
 
 Architectural mismatch occurs when the current system architecture is fundamentally incompatible with new business requirements, user patterns, or technical needs. This mismatch forces developers to create complex workarounds, implement suboptimal solutions, or make significant compromises that undermine the effectiveness of new features. The root cause is typically that the original architecture was designed for different assumptions about scale, usage patterns, or business models that no longer apply.
 
-
 ## Indicators ⟡
 
 - New features require extensive workarounds that don't align with the existing architecture
@@ -35,9 +34,7 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 - New requirements force violation of established architectural principles
 - Features that should be simple become multi-month projects due to architectural constraints
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.720">ⓘ</span>
 <br/>  Constant updates to project requirements indicate an architectural mismatch, as the inability of the existing system to accommodate new needs forces stakeholders to frequently revise expectations, leading to rework and delays.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.676">ⓘ</span>
@@ -54,7 +51,6 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 <br/>  The difficulty new hires face in effectively contributing to the team highlights the architectural mismatch, as their inability to navigate outdated frameworks and convoluted workarounds serves as a clear indicator of the constraints imposed by legacy systems on meeting evolving business needs.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.946">ⓘ</span>
 <br/>  The reliance on a common set of libraries and frameworks leads to tightly coupled components, restricting flexibility in adapting to new business requirements and resulting in significant architectural constraints.
 - [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.911">ⓘ</span>
@@ -67,7 +63,6 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 - **Developer Feedback:** Survey team about architectural pain points and implementation challenges
 - **Requirements vs. Architecture Mapping:** Analyze how well new requirements align with architectural capabilities
 - **Implementation Time Tracking:** Monitor whether similar features take increasing amounts of time to implement
-
 
 ## Examples
 

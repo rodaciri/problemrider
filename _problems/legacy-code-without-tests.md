@@ -26,7 +26,6 @@ layout: problem
 
 Legacy code without tests refers to existing production systems that were built before comprehensive testing practices were adopted or where testing was deprioritized during development. This code is particularly challenging because it's often tightly coupled, has hidden dependencies, and lacks the design characteristics that make testing straightforward. Adding tests to legacy code requires significant effort and expertise, creating a barrier that prevents teams from improving code quality and reducing technical debt.
 
-
 ## Indicators ⟡
 - Large portions of critical production code have no associated automated tests
 - Code was written before the team adopted test-driven development or testing best practices
@@ -34,14 +33,11 @@ Legacy code without tests refers to existing production systems that were built 
 - Developers avoid modifying certain areas due to lack of test coverage
 - Production systems have been running for years without comprehensive test suites
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.578">ⓘ</span>
 <br/>  The absence of automated tests in legacy systems leads to insufficient test coverage, as critical code paths remain untested due to the difficulty of safely modifying and incrementally adding tests to a fragile codebase.
 
 ## Root Causes ▼
-
 - [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.881">ⓘ</span>
 <br/>  The lack of sufficient design skills leads to poorly structured legacy systems, making it difficult to implement automated tests, as the code is not modular or understandable enough for safe modifications.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.897">ⓘ</span>
@@ -57,7 +53,6 @@ Legacy code without tests refers to existing production systems that were built 
 - **Dependency Analysis:** Map code dependencies to identify areas that would be difficult to test
 - **Change Frequency vs. Test Coverage:** Correlate how often code is modified with its test coverage
 - **Developer Surveys:** Ask team members which areas of code they're most afraid to modify due to lack of tests
-
 
 ## Examples
 

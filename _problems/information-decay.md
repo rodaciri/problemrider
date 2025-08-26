@@ -25,7 +25,6 @@ layout: problem
 
 Information decay occurs when documentation, specifications, and knowledge artifacts gradually become outdated, inaccurate, or incomplete as systems evolve. This decay happens because documentation maintenance is often deprioritized compared to feature development, and the effort required to keep information current is underestimated. As information decays, teams lose confidence in existing documentation and resort to tribal knowledge or code archaeology, making the system increasingly difficult to understand and maintain.
 
-
 ## Indicators ⟡
 
 - Documentation hasn't been updated despite significant system changes
@@ -34,9 +33,7 @@ Information decay occurs when documentation, specifications, and knowledge artif
 - Code comments contradict actual system behavior
 - API documentation doesn't match current API functionality
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.618, Strength: 0.828">ⓘ</span>
 <br/>  Constant updates to project requirements indicate that the existing system documentation is outdated or incomplete, preventing clear understanding and alignment among stakeholders, which leads to ongoing changes and confusion during development.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.611, Strength: 0.792">ⓘ</span>
@@ -100,7 +97,6 @@ Information decay occurs when documentation, specifications, and knowledge artif
 - **Onboarding Experience Assessment:** Evaluate new team member success with existing documentation
 - **Documentation Usage Tracking:** Monitor which documentation is accessed and which is ignored
 - **Knowledge Gap Identification:** Identify areas where system knowledge exists only in people's heads
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Work blocking occurs when development tasks cannot move forward because they require approvals, decisions, or inputs that are delayed or unavailable. This creates a bottleneck effect where developers and teams sit idle or switch to less productive work while waiting for permission to proceed. Work blocking often indicates over-centralized decision-making, unclear authority structures, or processes that prioritize control over productivity.
 
-
 ## Indicators ⟡
 
 - Developers frequently report being "blocked" on tasks during stand-up meetings
@@ -34,9 +33,7 @@ Work blocking occurs when development tasks cannot move forward because they req
 - Developers work on lower-priority tasks while higher-priority work is blocked
 - Multiple team members are dependent on the same person or process for approvals
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.648">ⓘ</span>
 <br/>  Constantly changing requirements often arise from the inability to progress through development due to pending approvals, resulting in a cycle of rework and delays that highlights the underlying work blocking issue.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.651">ⓘ</span>
@@ -47,7 +44,6 @@ Work blocking occurs when development tasks cannot move forward because they req
 <br/>  The inability to obtain necessary approvals not only stifles development progress but also leaves new hires feeling powerless and frustrated, as they are unable to engage in meaningful contributions, highlighting the impact of systemic delays on team morale and productivity.
 
 ## Root Causes ▼
-
 - [Atomic Operation Overhead](atomic-operation-overhead.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.905">ⓘ</span>
 <br/>  Excessive use of atomic operations leads to increased memory synchronization overhead and cache coherency traffic, which in turn slows down the approval processes necessary for development tasks, resulting in work blocking and delays.
 - [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.931">ⓘ</span>
@@ -63,7 +59,6 @@ Work blocking occurs when development tasks cannot move forward because they req
 - **Stand-up Meeting Analysis:** Count frequency of "blocked" status reports and reasons
 - **Decision Authority Mapping:** Identify decision types that require approval vs. those that can be made independently
 - **Flow Efficiency Measurement:** Calculate percentage of time work items are actively progressing vs. waiting
-
 
 ## Examples
 

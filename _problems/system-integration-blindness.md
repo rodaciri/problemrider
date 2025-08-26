@@ -25,7 +25,6 @@ layout: problem
 
 System integration blindness occurs when teams lack visibility into how individual components behave when integrated as a complete system. While individual services, modules, or components may function correctly in isolation, their interactions, data flows, and dependencies create emergent behaviors that are difficult to predict or test. This blindness to system-level integration issues leads to failures that only manifest when components are combined, often during deployment or under real-world usage conditions.
 
-
 ## Indicators ⟡
 
 - Integration issues consistently surface during deployment rather than during development
@@ -34,13 +33,11 @@ System integration blindness occurs when teams lack visibility into how individu
 - Performance degrades significantly when systems are integrated
 - Debugging requires extensive investigation across multiple components
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.903">ⓘ</span>
 <br/>  Insufficient production monitoring obscures real-time insights into component interactions, preventing the early detection of integration issues and contributing to failures that only emerge when disparate parts are combined.
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.944">ⓘ</span>
@@ -82,7 +79,6 @@ System integration blindness occurs when teams lack visibility into how individu
 - **Contract Testing Implementation:** Verify that API contracts work correctly in integrated scenarios
 - **Production-Like Testing:** Use environments that mirror production complexity for integration testing
 - **Cross-Component Tracing:** Implement distributed tracing to understand system-level behavior
-
 
 ## Examples
 

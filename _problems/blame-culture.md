@@ -26,7 +26,6 @@ layout: problem
 
 Blame culture exists when organizations respond to mistakes, failures, or problems by focusing on identifying and punishing the individuals responsible rather than understanding systemic causes and implementing improvements. This creates an environment where team members become risk-averse, hide problems, and avoid taking ownership of issues. The culture undermines learning, innovation, and effective problem-solving by making people defensive rather than collaborative when addressing challenges.
 
-
 ## Indicators ⟡
 
 - Post-incident discussions that focus primarily on "who" rather than "what" and "why"
@@ -37,13 +36,11 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 - Team members avoiding challenging tasks or innovative approaches due to failure risk
 - Lack of psychological safety in meetings where problems are discussed
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.904">ⓘ</span>
 <br/>  Focusing on trivial issues during code reviews creates an environment where team members feel their contributions are undervalued, leading to fear of punishment for mistakes instead of fostering a culture of learning and improvement.
 - [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.874">ⓘ</span>
@@ -61,7 +58,6 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 - Assess whether systemic improvements result from incident analysis or just individual actions
 - Monitor team morale, stress levels, and turnover rates
 - Evaluate whether people volunteer information about problems or need to be asked directly
-
 
 ## Examples
 

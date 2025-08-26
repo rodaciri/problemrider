@@ -23,16 +23,13 @@ layout: problem
 ## Description
 A high bug introduction rate means that for every new feature or fix, a significant number of new bugs are created. This is a strong indicator of a fragile and unhealthy codebase. It slows down development, erodes confidence in the software, and increases the cost of maintenance. This problem is often a symptom of deeper issues in the development process and code quality.
 
-
 ## Indicators ⟡
 - The number of bug reports increases after each release.
 - Developers spend more time fixing new bugs than building new features.
 - The "bugs" column on the team's Kanban board is always full.
 - There is a sense of "one step forward, two steps back" in the development process.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.565, Strength: 0.817">ⓘ</span>
 <br/>  Constant updates to project requirements create instability in the codebase, increasing the likelihood of introducing new bugs as developers struggle to adapt and implement changes without a solid foundation, thereby signaling underlying quality issues in the software.
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.539, Strength: 0.743">ⓘ</span>
@@ -78,7 +75,6 @@ A high bug introduction rate means that for every new feature or fix, a signific
 - **Bug Tracking Metrics:** Monitor the number of new bugs reported after each release.
 - **Code Churn Analysis:** Analyze the number of times a file is changed. High churn can indicate problematic areas.
 - **Developer Feedback:** Regularly solicit feedback from the development team about the quality of the codebase and the development process.
-
 
 ## Examples
 A team releases a new version of their software with a few new features. Within a week, the number of bug reports from users has doubled. The team spends the next two sprints fixing these new bugs, delaying the start of the next planned features. This cycle repeats with every release, leading to a slow and unpredictable development process.

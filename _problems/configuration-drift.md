@@ -25,7 +25,6 @@ layout: problem
 
 Configuration drift occurs when system configurations gradually change from their intended or documented state over time, leading to inconsistencies between environments, unexpected system behavior, and reduced reliability. This drift can happen through manual changes, automated processes that aren't properly controlled, or gradual accumulation of modifications that aren't tracked or standardized.
 
-
 ## Indicators ⟡
 
 - Production systems behave differently than staging or development environments
@@ -34,9 +33,7 @@ Configuration drift occurs when system configurations gradually change from thei
 - Manual configuration changes not documented or tracked
 - Automated deployments fail due to environment-specific configurations
 
-
 ## Symptoms ▲
-
 - [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.576, Strength: 0.816">ⓘ</span>
 <br/>  As system configurations deviate from intended standards, they often expose and exacerbate underlying architectural constraints, leading to reduced performance and maintainability, thereby serving as an indicator of configuration drift's impact on the legacy system.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.792">ⓘ</span>
@@ -93,7 +90,6 @@ Configuration drift occurs when system configurations gradually change from thei
 - **Configuration Auditing:** Periodically audit actual configurations against documented standards
 - **Drift Detection Tools:** Use tools that automatically detect configuration changes and drift
 - **Baseline Configuration Management:** Maintain and compare against known good configuration baselines
-
 
 ## Examples
 

@@ -25,7 +25,6 @@ layout: problem
 
 Implicit knowledge refers to critical information about system behavior, business rules, implementation decisions, and operational practices that exists only in the minds of experienced team members rather than being explicitly documented or captured in code. This knowledge includes unwritten assumptions, contextual understanding, historical decisions, and practical know-how that is essential for understanding and maintaining the system but is not formally recorded anywhere.
 
-
 ## Indicators ⟡
 
 - Experienced developers can quickly solve problems that stump newcomers
@@ -34,9 +33,7 @@ Implicit knowledge refers to critical information about system behavior, busines
 - New hires ask many questions that aren't answered in existing documentation
 - Certain system behaviors can only be explained by specific individuals
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.582, Strength: 0.766">ⓘ</span>
 <br/>  The absence of documented practices and assumptions leads to gaps in understanding the codebase, resulting in critical areas being overlooked during testing, which manifests as poor test coverage.
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.717">ⓘ</span>
@@ -91,7 +88,6 @@ Implicit knowledge refers to critical information about system behavior, busines
 - **Documentation Gap Assessment:** Compare system complexity with the comprehensiveness of written documentation
 - **Expert Availability Impact:** Measure how system understanding suffers when key individuals are unavailable
 - **Decision Archaeology:** Investigate how many system decisions lack documented rationale
-
 
 ## Examples
 

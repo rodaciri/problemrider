@@ -26,7 +26,6 @@ layout: problem
 
 Inadequate mentoring structure occurs when organizations do not have a well-defined, systematic approach to mentoring and supporting new developers. This results in ad-hoc mentoring arrangements, inconsistent guidance quality, and uneven distribution of mentoring responsibilities. Without proper structure, some new hires receive excellent support while others struggle with minimal guidance, and experienced developers may become overwhelmed or avoid mentoring altogether.
 
-
 ## Indicators ⟡
 
 - No formal mentoring program or process exists
@@ -35,13 +34,11 @@ Inadequate mentoring structure occurs when organizations do not have a well-defi
 - Some new hires receive intensive support while others get minimal attention
 - Experienced developers express reluctance to take on mentoring responsibilities
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.586, Strength: 0.953">ⓘ</span>
 <br/>  The lack of completed projects results in new developers receiving insufficient context and examples of best practices, which undermines the effectiveness of mentoring and leads to inconsistent guidance and support.
 - [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.563, Strength: 0.940">ⓘ</span>
@@ -124,7 +121,6 @@ Inadequate mentoring structure occurs when organizations do not have a well-defi
 - **Mentor Participation Tracking:** Monitor which team members participate in mentoring and their workload
 - **Knowledge Transfer Efficiency:** Measure how effectively critical knowledge is passed to new team members
 - **Onboarding Outcome Comparison:** Compare success rates between well-mentored and poorly-mentored new hires
-
 
 ## Examples
 

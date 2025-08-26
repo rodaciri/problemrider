@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Log spam is the excessive generation of log messages. This can be a major problem for a number of reasons. First, it can make it difficult to find important information in the logs. Second, it can consume a lot of disk space. Third, it can have a negative impact on the performance of the application. Log spam is often a symptom of a deeper problem, such as the N+1 query problem or a lack of proper logging configuration.
 
-
 ## Indicators ⟡
 - The logs are growing at a rapid rate.
 - The logs are full of repetitive messages.
 - It is difficult to find important information in the logs.
 - The application is slow, and you suspect that logging may be a contributing factor.
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.638, Strength: 0.828">ⓘ</span>
 <br/>  The excessive logging of similar queries overwhelms the system, leading to delayed processing and ultimately causing services to timeout due to unresponsive API calls.
 - [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.807">ⓘ</span>
@@ -76,7 +73,6 @@ Log spam is the excessive generation of log messages. This can be a major proble
 - **Log Volume Monitoring:** Monitor the volume of your logs over time.
 - **Code Review:** During code reviews, specifically look for code that is generating a lot of log messages.
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag log spam.
-
 
 ## Examples
 A web application is using a third-party library that is generating a lot of log spam. The logs are growing at a rapid rate, and it is difficult to find important information in them. The team is not aware of the problem because they are not monitoring their logs. One day, the application goes down, and the team is not able to figure out why because the logs are full of noise. The problem could have been avoided if the team had been monitoring their logs and had taken action to address the log spam.

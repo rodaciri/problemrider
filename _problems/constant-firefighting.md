@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Constant firefighting, also known as "reactive development," is a state where a development team is so consumed by urgent, unplanned work that they have little or no time for planned, proactive work. The team is constantly in a state of crisis, lurching from one emergency to the next. This is a highly inefficient and stressful way to work, and it is a clear sign that the system is unstable and the development process is broken.
 
-
 ## Indicators ⟡
 - The majority of the team's time is spent on unplanned work.
 - The team is frequently context-switching between different urgent tasks.
 - There is a sense of chaos and urgency in the team's daily work.
 - The team is consistently missing its deadlines for planned work.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.600, Strength: 0.820">ⓘ</span>
 <br/>  The ongoing need to fix urgent issues in legacy systems often results in a lack of stable requirements, as stakeholders frequently adjust their demands in response to immediate problems, creating a cycle of rework that hinders feature development.
 - [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.563, Strength: 0.828">ⓘ</span>
@@ -96,7 +93,6 @@ Constant firefighting, also known as "reactive development," is a state where a 
 - **Analyze Bug Reports:** Look for patterns in the bug reports. Are the same problems recurring over and over again? This is a sign that the team is not addressing the root causes of the problems.
 - **Team Retrospectives:** Ask the team about their experience with firefighting. Are they feeling overwhelmed? Do they feel like they are making progress?
 - **Monitor Key Metrics:** Track metrics like mean time to recovery (MTTR) and change failure rate. A high MTTR and a high change failure rate are both indicators of a team that is struggling with firefighting.
-
 
 ## Examples
 A team is responsible for maintaining a critical business application. The application is old and has a lot of technical debt. The team spends most of its time fixing production issues. They are constantly being pulled off of their planned work to deal with emergencies. As a result, they are never able to make any progress on the long-term improvements that would make the application more stable. The team is stuck in a vicious cycle of firefighting, and they are becoming increasingly burned out.

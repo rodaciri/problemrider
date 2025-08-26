@@ -21,7 +21,6 @@ layout: problem
 
 Authorization flaws occur when access control mechanisms fail to properly restrict user actions and resource access according to their intended permissions. These vulnerabilities allow users to perform unauthorized operations, access restricted data, or escalate their privileges beyond what should be permitted, potentially compromising system security and data integrity.
 
-
 ## Indicators ⟡
 
 - Users can access resources or perform actions outside their assigned roles
@@ -30,14 +29,11 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 - Access control decisions made on client-side rather than server-side
 - Inconsistent permission enforcement across different system components
 
-
 ## Symptoms ▲
-
 - [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.727">ⓘ</span>
 <br/>  Inadequate access control mechanisms can lead to inconsistent test outcomes, as unauthorized actions may inadvertently pass or fail tests due to unpredictable user permissions, highlighting underlying flaws in the system.
 
 ## Root Causes ▼
-
 - [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.915">ⓘ</span>
 <br/>  The lack of data encapsulation allows unauthorized access to sensitive information and functionality, as it fails to properly restrict user interactions with the system's internal components, thereby enabling actions outside of intended permissions.
 
@@ -48,7 +44,6 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 - **Role-Based Access Testing:** Verify that role assignments properly restrict access
 - **Direct Object Reference Testing:** Test manipulation of object identifiers to access unauthorized resources
 - **Function-Level Authorization Review:** Review all administrative and sensitive functions for proper access control
-
 
 ## Examples
 

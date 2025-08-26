@@ -26,7 +26,6 @@ layout: problem
 
 Complex implementation paths occur when straightforward business requirements must be implemented through convoluted, multi-step technical solutions due to architectural constraints, design limitations, or accumulated technical debt. What should be simple features become complex projects requiring extensive workarounds, multiple system modifications, or elaborate integration patterns. This complexity mismatch between business simplicity and technical implementation indicates underlying architectural problems.
 
-
 ## Indicators ⟡
 
 - Simple feature requests receive unexpectedly large development estimates
@@ -35,9 +34,7 @@ Complex implementation paths occur when straightforward business requirements mu
 - Technical solutions are much more complex than the business problems they solve
 - Developers frequently explain why "simple" requests are actually difficult
 
-
 ## Symptoms ▲
-
 - [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.661, Strength: 0.874">ⓘ</span>
 <br/>  The complexity of technical solutions necessitated by architectural constraints leads to intricate data mapping and transformation processes during migration, which increases the likelihood of integrity issues arising from schema mismatches and format incompatibilities.
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.677">ⓘ</span>
@@ -50,7 +47,6 @@ Complex implementation paths occur when straightforward business requirements mu
 <br/>  The complexity of technical solutions driven by architectural constraints makes it difficult to accommodate business requirements efficiently, resulting in frequent adjustments and updates as stakeholders struggle to align their needs with the convoluted implementation paths.
 
 ## Root Causes ▼
-
 - [Increased Cost of Development](increased-cost-of-development.md) <span class="info-tooltip" title="Confidence: 0.540, Strength: 0.870">ⓘ</span>
 <br/>  The necessity to address high maintenance costs and fix bugs leads to overly complicated solutions that attempt to work around existing architectural constraints, resulting in simple business requirements being met with unnecessarily complex technical implementations.
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.497, Strength: 0.864">ⓘ</span>
@@ -100,7 +96,6 @@ Complex implementation paths occur when straightforward business requirements mu
 - **Architecture Review:** Assess how well current architecture supports typical business requirements
 - **Developer Feedback:** Survey team about architectural pain points and implementation challenges
 - **Feature Delivery Metrics:** Track time from simple business requirement to production deployment
-
 
 ## Examples
 

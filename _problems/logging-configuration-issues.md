@@ -25,7 +25,6 @@ layout: problem
 
 Logging configuration issues occur when applications have improperly configured logging systems that either capture too little information for effective debugging, generate excessive log volume that overwhelms storage and analysis systems, or inadvertently log sensitive information creating security vulnerabilities. Poor logging configuration makes troubleshooting difficult and can impact system performance.
 
-
 ## Indicators ⟡
 
 - Critical system events not appearing in logs
@@ -34,9 +33,7 @@ Logging configuration issues occur when applications have improperly configured 
 - Inconsistent log formats across different application components
 - Performance issues related to excessive logging operations
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.660, Strength: 0.880">ⓘ</span>
 <br/>  In legacy systems, inadequate logging configuration often leads to insufficient visibility into untested code paths, which in turn results in critical areas of the codebase being overlooked during testing and validation processes.
 - [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.535, Strength: 0.869">ⓘ</span>
@@ -47,7 +44,6 @@ Logging configuration issues occur when applications have improperly configured 
 <br/>  Improper logging configuration creates gaps in monitoring and maintenance capabilities, leading to an inability to proactively address issues, which manifests as instability in the system post-launch.
 
 ## Root Causes ▼
-
 - [Excessive Logging](excessive-logging.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.695">ⓘ</span>
 <br/>  Excessive log generation due to misconfigured applications leads to an overwhelming volume of log data, which obscures critical information, increases the risk of missing important events, and creates security vulnerabilities by overwhelming monitoring systems in legacy environments.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.445, Strength: 0.908">ⓘ</span>
@@ -68,7 +64,6 @@ Logging configuration issues occur when applications have improperly configured 
 - **Log Level Analysis:** Review log level configuration across different environments
 - **Performance Impact Assessment:** Measure logging overhead on application performance
 - **Log Format Consistency Review:** Ensure consistent log formats across application components
-
 
 ## Examples
 

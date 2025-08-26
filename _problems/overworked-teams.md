@@ -26,7 +26,6 @@ layout: problem
 
 Overworked teams consistently operate beyond their sustainable capacity, working excessive hours to meet deadlines or handle overwhelming workloads. This creates a destructive cycle where fatigue leads to mistakes, which require additional work to fix, further increasing the workload. Over time, overwork results in decreased productivity, poor decision-making, health issues, and high turnover as team members seek more sustainable working conditions.
 
-
 ## Indicators ⟡
 
 - Team members regularly work evenings, weekends, or holidays
@@ -35,9 +34,7 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 - Team members appear exhausted, stressed, or disengaged
 - High turnover rate with employees citing workload as a primary reason for leaving
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.656, Strength: 0.909">ⓘ</span>
 <br/>  High workloads create stress and fatigue among team members, leading to mistakes and inefficiencies that directly reduce the overall output and effectiveness of the development process in legacy systems.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.578, Strength: 0.798">ⓘ</span>
@@ -58,7 +55,6 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 <br/>  High workloads often force teams to work with outdated tools and processes, leading to a slow and cumbersome development environment that exacerbates stress and reduces overall productivity.
 
 ## Root Causes ▼
-
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.895">ⓘ</span>
 <br/>  The accumulation of design and implementation shortcuts increases the complexity and maintenance burden of legacy systems, resulting in overworked teams that face constant firefighting rather than focusing on productive development.
 
@@ -69,7 +65,6 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 - **Productivity Trend Analysis:** Track productivity metrics over time to identify decline patterns
 - **Turnover Rate Monitoring:** Analyze departure rates and exit interview feedback
 - **Quality Metrics Correlation:** Compare defect rates with periods of high workload
-
 
 ## Examples
 

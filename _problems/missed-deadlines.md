@@ -26,7 +26,6 @@ layout: problem
 
 Missed deadlines occur when development teams consistently fail to deliver work within agreed-upon timeframes, whether those are sprint goals, release dates, or project milestones. This pattern indicates underlying problems with estimation, planning, execution, or external factors that prevent teams from meeting their commitments. Chronic deadline misses erode stakeholder confidence and can create a cycle of increased pressure and further delays.
 
-
 ## Indicators ⟡
 
 - Sprint goals are consistently not met across multiple iterations
@@ -35,9 +34,7 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 - Stakeholders express frustration about unpredictable delivery timelines
 - Teams spend significant time explaining why work took longer than expected
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.754">ⓘ</span>
 <br/>  The failure to meet deadlines often results in rushed development and inadequate testing, leading to unstable APIs that do not respond in time, causing upstream services to timeout and further complicating project timelines.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.794">ⓘ</span>
@@ -80,7 +77,6 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 - **Velocity Trend Analysis:** Compare planned vs. actual team velocity across sprints
 - **Stakeholder Satisfaction Surveys:** Assess business partner confidence in delivery timelines
 - **Root Cause Analysis:** Systematically analyze reasons for specific deadline misses
-
 
 ## Examples
 

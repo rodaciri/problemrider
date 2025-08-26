@@ -26,7 +26,6 @@ layout: problem
 
 Team demoralization occurs when team members experience a significant decline in motivation, enthusiasm, and confidence in their work or organization. This typically results from persistent problems, repeated failures, organizational dysfunction, or feeling undervalued. Demoralized teams become less productive, less creative, and more likely to leave the organization, creating a downward spiral that can be difficult to reverse.
 
-
 ## Indicators ⟡
 
 - Team members express cynicism about project goals or organizational decisions
@@ -35,9 +34,7 @@ Team demoralization occurs when team members experience a significant decline in
 - Team members stop volunteering for challenging or high-visibility work
 - General attitude shifts from optimistic to pessimistic about outcomes
 
-
 ## Symptoms ▲
-
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.830">ⓘ</span>
 <br/>  As team members become demoralized by ongoing challenges within legacy systems, their decreased motivation leads to a reluctance to explore innovative solutions, resulting in a stagnation of ideas and a focus on merely maintaining existing processes rather than improving them.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.882">ⓘ</span>
@@ -64,7 +61,6 @@ Team demoralization occurs when team members experience a significant decline in
 - **Attitude Assessment:** Monitor changes in team attitude during meetings and interactions
 - **Retention Tracking:** Analyze turnover rates and exit interview feedback
 - **Productivity Correlation:** Compare team productivity with morale indicators
-
 
 ## Examples
 

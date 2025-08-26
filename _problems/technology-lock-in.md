@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Technology lock-in is a situation where it is difficult or impossible to switch to a new technology because of the high cost or effort involved. This is a common problem in monolithic architectures, where the entire system is built on a single technology stack. Technology lock-in can make it difficult to innovate, and it can also lead to high costs if the technology becomes obsolete or the vendor goes out of business.
 
-
 ## Indicators ⟡
 - The entire system is built on a single technology stack.
 - It is difficult or impossible to use new technologies in the system.
 - The development team is not able to keep up with the latest technology trends.
 - The system is expensive to maintain because of the high cost of the technology.
 
-
 ## Symptoms ▲
-
 - [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.651, Strength: 0.878">ⓘ</span>
 <br/>  The critical shortage of developers skilled in outdated technologies arises as organizations are locked into specific systems, making it challenging to transition to newer technologies, thereby creating maintenance bottlenecks and increasing reliance on a limited pool of expertise.
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.614, Strength: 0.832">ⓘ</span>
@@ -104,7 +101,6 @@ Technology lock-in is a situation where it is difficult or impossible to switch 
 - **Technology Stack Analysis:** Analyze the technology stack of the system to identify which technologies are being used.
 - **Developer Surveys:** Ask developers if they feel like they are able to use new technologies to improve the system.
 - **Cost Analysis:** Analyze the cost of the technology to identify which technologies are the most expensive.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application that is built on a proprietary technology stack. The company is not able to use new technologies, such as cloud computing and microservices, because the system is not designed for them. As a result, the company is not able to innovate as quickly as its competitors. The company is also paying a lot of money for the proprietary technology, and they are locked into a single vendor.

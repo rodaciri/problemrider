@@ -26,7 +26,6 @@ layout: problem
 
 Single points of failure occur when critical system knowledge, capabilities, or processes depend entirely on individual team members or specific system components. When these individuals are unavailable or when key components fail, entire projects can be blocked, critical issues cannot be resolved, and development progress stops. This creates significant organizational risk and reduces team resilience, making the organization vulnerable to disruption from personnel changes or system failures.
 
-
 ## Indicators ⟡
 
 - Specific team members are essential for certain types of work
@@ -35,9 +34,7 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 - Certain problems can only be solved by one person
 - Team panics when key personnel are sick or on vacation
 
-
 ## Symptoms ▲
-
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.629, Strength: 0.893">ⓘ</span>
 <br/>  When key knowledge holders or critical components are unavailable, it disrupts workflows and increases delays, leading to inefficiencies that manifest as decreased overall team productivity.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.576, Strength: 0.802">ⓘ</span>
@@ -96,7 +93,6 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 - **Knowledge Distribution Assessment:** Evaluate how evenly critical knowledge is distributed
 - **Availability Impact Tracking:** Monitor how often individual unavailability blocks work
 - **Cross-Training Audit:** Assess how many people can perform critical tasks
-
 
 ## Examples
 

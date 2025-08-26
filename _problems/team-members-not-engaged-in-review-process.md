@@ -24,20 +24,17 @@ layout: problem
 ## Description
 When team members are disengaged from the code review process, it ceases to be an effective tool for quality assurance and knowledge sharing. This problem manifests as reviewers providing rubber-stamp approvals without careful examination, or a small, overburdened subset of the team performing all the reviews. This lack of engagement can lead to a decline in code quality, the spread of bad practices, and a missed opportunity for mentorship and collective code ownership. Fostering a culture where everyone feels responsible for the quality of the codebase is essential for a healthy development team.
 
-
 ## Indicators ⟡
 - The same people are always assigned to review code.
 - Reviewers are not providing meaningful feedback.
 - Code reviews are a bottleneck in the development process.
 - The team does not have a culture of shared code ownership.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.919">ⓘ</span>
 <br/>  Incomplete projects create a cycle of frustration and disengagement among team members, as they become reluctant to invest time in reviewing code that may not be integrated into the final product, ultimately leading to a lack of meaningful feedback and bottlenecks in the review process.
 - [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.524, Strength: 0.896">ⓘ</span>
@@ -192,7 +189,6 @@ When team members are disengaged from the code review process, it ceases to be a
 - **Team Surveys/Interviews:** Ask team members about their perceptions of the code review process, workload, and effectiveness.
 - **Retrospectives:** Discuss code review challenges and identify recurring patterns of disengagement.
 - **Observation:** Observe team dynamics during stand-ups or discussions about pull requests.
-
 
 ## Examples
 A team has a policy that every pull request needs two approvals. However, only two senior developers consistently review code. This creates a bottleneck, and pull requests often wait days for review, delaying releases. In another case, a junior developer submits a pull request, and the assigned reviewer simply approves it without any comments, even though there are several clear areas for improvement in the code's design and test coverage. This problem often indicates underlying issues in team culture, workload management, or process definition. An engaged code review process is vital for maintaining code quality, fostering knowledge sharing, and building a cohesive team.

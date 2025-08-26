@@ -25,7 +25,6 @@ layout: problem
 
 Flaky tests are automated tests that produce inconsistent results when run multiple times against the same code, sometimes passing and sometimes failing without any changes to the codebase. These tests undermine confidence in the entire test suite, making it difficult to distinguish between real regressions and false positives. Over time, teams begin to ignore test failures or disable flaky tests, reducing the effectiveness of automated testing as a safety net for code changes.
 
-
 ## Indicators ⟡
 
 - Tests that occasionally fail on continuous integration but pass when run locally
@@ -36,13 +35,11 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 - Test setup or teardown processes that don't consistently reset system state
 - Tests with hard-coded timing assumptions or sleep statements
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.645, Strength: 0.905">ⓘ</span>
 <br/>  The presence of constraints in team members or processes leads to inconsistent test environments and inadequate resource allocation, causing random failures in tests and eroding confidence in the testing framework.
 - [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.641, Strength: 0.931">ⓘ</span>
@@ -268,7 +265,6 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 - Implement test quarantine systems that flag unreliable tests
 - Review test code for timing dependencies, external service calls, and shared state
 - Analyze test failures by time of day, system load, or environmental factors
-
 
 ## Examples
 

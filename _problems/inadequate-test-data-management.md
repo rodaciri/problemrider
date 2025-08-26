@@ -24,20 +24,17 @@ layout: problem
 ## Description
 Inadequate test data management is the practice of using test data that is not representative of the production environment. This can lead to a number of problems, including tests that pass when they should fail, and tests that fail when they should pass. It can also lead to a false sense of security, as the tests may not be exercising the code in the same way that it will be exercised in production. A good test data management strategy is essential for ensuring the quality and reliability of a software product.
 
-
 ## Indicators ⟡
 - The team is using production data for testing.
 - The team is manually creating test data for each test run.
 - The team is not able to consistently reproduce bugs that are found in production.
 - The team is not able to test certain edge cases because they do not have the data to do so.
 
-
 ## Symptoms ▲
 
 *No significant relationships within the scope of legacy systems identified (yet).*
 
 ## Root Causes ▼
-
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.889">ⓘ</span>
 <br/>  The focus on trivial issues during code reviews diverts attention from the critical task of ensuring that test data is relevant and reflective of actual usage, resulting in inadequate test data management in legacy systems.
 - [Silent Data Corruption](silent-data-corruption.md) <span class="info-tooltip" title="Confidence: 0.475, Strength: 0.853">ⓘ</span>
@@ -197,7 +194,6 @@ Inadequate test data management is the practice of using test data that is not r
 - **Test Data Analysis:** Analyze the test data to see if it is realistic and representative of the production environment.
 - **Bug Triage:** When a bug is found in production, analyze the test data that was used to test the feature to see if it was adequate.
 - **Developer Surveys:** Ask developers about their confidence in the test data and the test data management process.
-
 
 ## Examples
 A team is developing a new feature for an e-commerce application. They are using a small, manually created dataset for testing. The feature works perfectly in the test environment, but when it is deployed to production, it fails for a large number of users. The problem is that the test data did not include any users with special characters in their names, which caused the feature to fail. In another example, a team is using a sanitized version of production data for testing. However, the sanitization process is not perfect, and it introduces a number of inconsistencies into the data. This leads to a number of flaky tests, which makes it difficult for the team to have confidence in their test results.

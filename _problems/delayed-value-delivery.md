@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Delayed value delivery is the gap between when a feature is ready and when it is actually in the hands of users. This is a common problem in organizations with long release cycles and inefficient delivery processes. When value is delayed, the company is not getting the full return on its investment in software development. It is also missing out on opportunities to get feedback from users and to iterate on its products. In a fast-moving market, delayed value delivery can be a major competitive disadvantage.
 
-
 ## Indicators ⟡
 - There is a long lead time between when a feature is requested and when it is delivered.
 - The company is consistently late to market with new features.
 - Users are complaining about the slow pace of innovation.
 - The company is losing market share to more agile competitors.
 
-
 ## Symptoms ▲
-
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.496, Strength: 0.713">ⓘ</span>
 <br/>  Constantly changing requirements often arise as a direct response to the frustration of delayed feature delivery, causing teams to scramble and rework, which further exacerbates the delays and indicates a lack of effective planning and adaptability in legacy systems.
 - [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.754">ⓘ</span>
@@ -70,7 +67,6 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  The prolonged wait for new features or bug fixes in legacy systems leads to user frustration, causing them to seek assistance more frequently, which manifests as an increased load on customer support.
 
 ## Root Causes ▼
-
 - [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.569, Strength: 0.891">ⓘ</span>
 <br/>  Long-running transactions hold database locks for extended periods, which prevents other necessary operations from executing promptly, thereby delaying the delivery of new features and bug fixes to users.
 - **Large, Risky Releases**
@@ -106,7 +102,6 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 - **Deployment Frequency:** Measure how often the team deploys to production.
 - **Time to Market:** Measure the time it takes for a new feature to go from idea to production.
 - **Customer Satisfaction Surveys:** Ask customers about their satisfaction with the pace of innovation.
-
 
 ## Examples
 A company has a great idea for a new feature. The development team works hard and gets the feature ready in a few weeks. However, the company only releases new software once a quarter. This means that the feature has to sit on the shelf for months before it is actually delivered to users. By the time the feature is finally released, the market has moved on, and the feature is no longer as valuable as it once was.

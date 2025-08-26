@@ -26,7 +26,6 @@ layout: problem
 
 Inappropriate skillset occurs when team members are assigned tasks or roles that require knowledge, experience, or capabilities they don't possess. This mismatch between required skills and actual competencies leads to decreased productivity, increased error rates, and frustration for both the individual and the team. The problem can arise from poor hiring decisions, rapid technology changes, or assignment of team members to unfamiliar domains without adequate preparation.
 
-
 ## Indicators ⟡
 
 - Team members frequently ask for help with basic tasks related to their role
@@ -35,9 +34,7 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 - Training needs are significantly higher than anticipated for the role
 - Progress on assigned work is much slower than similar tasks completed by peers
 
-
 ## Symptoms ▲
-
 - [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.729">ⓘ</span>
 <br/>  The lack of essential knowledge and experience among team members leads to inadequate understanding of the codebase, resulting in critical areas being overlooked in testing, which manifests as poor test coverage and ultimately compromises quality assurance.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.618">ⓘ</span>
@@ -50,7 +47,6 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 <br/>  The lack of essential knowledge and experience among team members leads to a critical shortage of developers familiar with legacy technologies, resulting in bottlenecks and vulnerabilities in system maintenance.
 
 ## Root Causes ▼
-
 - [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.933">ⓘ</span>
 <br/>  The reliance on shared libraries and frameworks can lead to a lack of individual expertise in specific technologies, resulting in team members being ill-equipped to handle their roles effectively.
 - [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.843">ⓘ</span>
@@ -95,7 +91,6 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 - **Error Rate Tracking:** Monitor defect rates and correlate with individual skill levels
 - **Training Needs Analysis:** Identify gaps between current skills and job requirements
 - **Peer Review Feedback:** Collect input from colleagues about team member performance and capabilities
-
 
 ## Examples
 

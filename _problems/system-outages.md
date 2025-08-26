@@ -26,7 +26,6 @@ layout: problem
 
 System outages occur when software systems become unavailable, unresponsive, or fail to function correctly, preventing users from accessing services or completing tasks. These interruptions can range from brief service disruptions to complete system failures lasting hours or days. Frequent outages indicate underlying problems with system design, infrastructure, operations, or code quality that compromise business continuity and user trust.
 
-
 ## Indicators ⟡
 
 - Services become unavailable on a regular basis
@@ -35,9 +34,7 @@ System outages occur when software systems become unavailable, unresponsive, or 
 - System failures require manual intervention to restore service
 - Recovery time from failures is consistently long
 
-
 ## Symptoms ▲
-
 - [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.636, Strength: 0.821">ⓘ</span>
 <br/>  Frequent service interruptions lead to delayed responses from upstream APIs, causing timeouts that signal underlying system instability and contribute to overall operational disruptions.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.602, Strength: 0.797">ⓘ</span>
@@ -88,7 +85,6 @@ System outages occur when software systems become unavailable, unresponsive, or 
 - **Mean Time to Recovery (MTTR):** Measure time required to restore service after failures
 - **User Impact Assessment:** Evaluate business and user impact of service interruptions
 - **Root Cause Analysis:** Systematic investigation of outage causes to identify patterns
-
 
 ## Examples
 

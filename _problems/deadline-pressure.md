@@ -26,7 +26,6 @@ layout: problem
 
 Deadline pressure occurs when development teams face intense time constraints that force them to prioritize speed over quality, leading to rushed implementations, skipped best practices, and accumulation of technical debt. While some deadline pressure can motivate teams, excessive pressure consistently leads to poor decision-making, increased stress, and long-term problems that ultimately slow development more than the original time savings provided.
 
-
 ## Indicators ⟡
 
 - Team consistently works overtime to meet deadlines
@@ -35,16 +34,13 @@ Deadline pressure occurs when development teams face intense time constraints th
 - Design and planning activities are rushed or bypassed
 - Team expresses anxiety about meeting unrealistic timelines
 
-
 ## Symptoms ▲
-
 - [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.717">ⓘ</span>
 <br/>  Intense deadline pressure forces teams to prioritize immediate deliverables over creative solutions, resulting in a reluctance to explore innovative approaches, which serves as an indicator of compromised quality and a stagnant development environment in legacy systems.
 - [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.651">ⓘ</span>
 <br/>  Intense deadline pressure often leads teams to prioritize speed over thoroughness, resulting in systemic inefficiencies and reduced productivity as developers are forced to cut corners and forgo best practices in legacy systems, ultimately causing a drop in overall output and effectiveness.
 
 ## Root Causes ▼
-
 - [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.518, Strength: 0.934">ⓘ</span>
 <br/>  Bottlenecks in specific team members or processes slow down development workflows, forcing teams to expedite their work and make hasty decisions to meet looming deadlines, ultimately compromising the quality of the software produced.
 - [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.486, Strength: 0.909">ⓘ</span>
@@ -211,7 +207,6 @@ Deadline pressure occurs when development teams face intense time constraints th
 - **Technical Debt Accumulation:** Track when technical debt increases relative to deadline pressure
 - **Team Stress Surveys:** Regular assessment of team stress levels and deadline concerns
 - **Decision Quality Analysis:** Evaluate quality of technical decisions made under time pressure
-
 
 ## Examples
 

@@ -24,16 +24,13 @@ layout: problem
 ## Description
 Shared dependencies is a situation where multiple components or services share a common set of libraries and frameworks. This is a common problem in monolithic architectures, where all the components are tightly coupled and deployed as a single unit. Shared dependencies can lead to a number of problems, including deployment coupling, technology lock-in, and dependency version conflicts.
 
-
 ## Indicators ⟡
 - Multiple components or services are using the same libraries and frameworks.
 - It is not possible to update a library or framework for one component or service without affecting the others.
 - There are often dependency version conflicts between different components or services.
 - The system is difficult to maintain and extend.
 
-
 ## Symptoms ▲
-
 - [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.673, Strength: 0.930">ⓘ</span>
 <br/>  The presence of shared libraries and frameworks among multiple components can lead to a convoluted understanding of the business domain, as interdependencies obscure the individual functionality and logic, making it challenging to accurately model and implement the complex requirements of the system.
 - [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.668, Strength: 0.956">ⓘ</span>
@@ -175,7 +172,6 @@ Shared dependencies is a situation where multiple components or services share a
 - **Dependency Analysis Tools:** Use tools to analyze the dependencies of the system to identify which libraries and frameworks are being shared by multiple components or services.
 - **Developer Surveys:** Ask developers if they feel like they are able to update the libraries and frameworks for their components or services without affecting others.
 - **Build and Test Log Analysis:** Analyze the build and test logs to identify dependency version conflicts.
-
 
 ## Examples
 A company has a large, monolithic e-commerce application. The application is composed of a number of different components, including a product catalog, a shopping cart, and a payment gateway. All of the components share a common set of libraries and frameworks. When the development team wants to update a library for the product catalog, they have to be careful not to break the shopping cart or the payment gateway. This makes it difficult to update the libraries, and it often leads to problems.

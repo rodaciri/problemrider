@@ -54,7 +54,7 @@ exclude:
   - vendor/
   - problem-pattern-template.md
   - neo4j_simple/
-  - scripts/
+  - scripts/*
   - CLAUDE.md
   - GEMINI.md
   - README.md

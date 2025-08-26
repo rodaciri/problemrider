@@ -24,9 +24,11 @@ def create_visualization():
     # Get the project root directory (parent of scripts directory)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)
-    problems_dir = os.path.join(project_root, '_problems')
+
+    # Find all markdown files in the _problems directory
+    pattern = '_problems/*.md'
+    problem_files = glob.glob(pathname=pattern, root_dir=project_root)
     
-    problem_files = glob.glob(os.path.join(problems_dir, '*.md'))
     nodes = []
     edges = []
     title_to_filename = {}
